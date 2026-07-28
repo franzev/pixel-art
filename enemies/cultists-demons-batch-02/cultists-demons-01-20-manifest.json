@@ -1,0 +1,242 @@
+[
+  {
+    "number": 1,
+    "name": "01-lantern-faced-novice",
+    "source": "01-lantern-faced-novice-source.png",
+    "reference": "01-lantern-faced-novice-reference-256.png",
+    "bbox": {
+      "left": 360,
+      "top": 90,
+      "width": 486,
+      "height": 1095
+    }
+  },
+  {
+    "number": 2,
+    "name": "02-bell-rope-apostle",
+    "source": "02-bell-rope-apostle-source.png",
+    "reference": "02-bell-rope-apostle-reference-256.png",
+    "bbox": {
+      "left": 289,
+      "top": 0,
+      "width": 686,
+      "height": 1220
+    }
+  },
+  {
+    "number": 3,
+    "name": "03-ash-veil-processioner",
+    "source": "03-ash-veil-processioner-source.png",
+    "reference": "03-ash-veil-processioner-reference-256.png",
+    "bbox": {
+      "left": 48,
+      "top": 89,
+      "width": 909,
+      "height": 1107
+    }
+  },
+  {
+    "number": 4,
+    "name": "04-crooked-cantor",
+    "source": "04-crooked-cantor-source.png",
+    "reference": "04-crooked-cantor-reference-256.png",
+    "bbox": {
+      "left": 276,
+      "top": 13,
+      "width": 828,
+      "height": 1227
+    }
+  },
+  {
+    "number": 5,
+    "name": "05-veiled-keybearer",
+    "source": "05-veiled-keybearer-source.png",
+    "reference": "05-veiled-keybearer-reference-256.png",
+    "bbox": {
+      "left": 300,
+      "top": 34,
+      "width": 679,
+      "height": 1190
+    }
+  },
+  {
+    "number": 6,
+    "name": "06-starless-astrologer",
+    "source": "06-starless-astrologer-source.png",
+    "reference": "06-starless-astrologer-reference-256.png",
+    "bbox": {
+      "left": 183,
+      "top": 0,
+      "width": 886,
+      "height": 1249
+    }
+  },
+  {
+    "number": 7,
+    "name": "07-threshold-deacon",
+    "source": "07-threshold-deacon-source.png",
+    "reference": "07-threshold-deacon-reference-256.png",
+    "bbox": {
+      "left": 191,
+      "top": 0,
+      "width": 893,
+      "height": 1235
+    }
+  },
+  {
+    "number": 8,
+    "name": "08-wax-witness",
+    "source": "08-wax-witness-source.png",
+    "reference": "08-wax-witness-reference-256.png",
+    "bbox": {
+      "left": 360,
+      "top": 55,
+      "width": 524,
+      "height": 1173
+    }
+  },
+  {
+    "number": 9,
+    "name": "09-dust-cenobite",
+    "source": "09-dust-cenobite-source.png",
+    "reference": "09-dust-cenobite-reference-256.png",
+    "bbox": {
+      "left": 116,
+      "top": 41,
+      "width": 1018,
+      "height": 1185
+    }
+  },
+  {
+    "number": 10,
+    "name": "10-blind-standard-bearer",
+    "source": "10-blind-standard-bearer-source.png",
+    "reference": "10-blind-standard-bearer-reference-256.png",
+    "bbox": {
+      "left": 281,
+      "top": 0,
+      "width": 629,
+      "height": 1250
+    }
+  },
+  {
+    "number": 11,
+    "name": "11-candlehorn-familiar",
+    "source": "11-candlehorn-familiar-source.png",
+    "reference": "11-candlehorn-familiar-reference-256.png",
+    "bbox": {
+      "left": 187,
+      "top": 60,
+      "width": 836,
+      "height": 1077
+    }
+  },
+  {
+    "number": 12,
+    "name": "12-hollow-bell-beast",
+    "source": "12-hollow-bell-beast-source.png",
+    "reference": "12-hollow-bell-beast-reference-256.png",
+    "bbox": {
+      "left": 102,
+      "top": 103,
+      "width": 1135,
+      "height": 990
+    }
+  },
+  {
+    "number": 13,
+    "name": "13-umbra-hare",
+    "source": "13-umbra-hare-source.png",
+    "reference": "13-umbra-hare-reference-256.png",
+    "bbox": {
+      "left": 440,
+      "top": 0,
+      "width": 372,
+      "height": 1254
+    }
+  },
+  {
+    "number": 14,
+    "name": "14-gutter-gargoyle",
+    "source": "14-gutter-gargoyle-source.png",
+    "reference": "14-gutter-gargoyle-reference-256.png",
+    "bbox": {
+      "left": 75,
+      "top": 95,
+      "width": 1093,
+      "height": 1072
+    }
+  },
+  {
+    "number": 15,
+    "name": "15-ragwing-demon",
+    "source": "15-ragwing-demon-source.png",
+    "reference": "15-ragwing-demon-reference-256.png",
+    "bbox": {
+      "left": 59,
+      "top": 0,
+      "width": 1107,
+      "height": 1244
+    }
+  },
+  {
+    "number": 16,
+    "name": "16-mirror-moth",
+    "source": "16-mirror-moth-source.png",
+    "reference": "16-mirror-moth-reference-256.png",
+    "bbox": {
+      "left": 0,
+      "top": 69,
+      "width": 1254,
+      "height": 1090
+    }
+  },
+  {
+    "number": 17,
+    "name": "17-ashback-stag",
+    "source": "17-ashback-stag-source.png",
+    "reference": "17-ashback-stag-reference-256.png",
+    "bbox": {
+      "left": 85,
+      "top": 27,
+      "width": 1030,
+      "height": 1190
+    }
+  },
+  {
+    "number": 18,
+    "name": "18-lantern-crab",
+    "source": "18-lantern-crab-source.png",
+    "reference": "18-lantern-crab-reference-256.png",
+    "bbox": {
+      "left": 26,
+      "top": 143,
+      "width": 1191,
+      "height": 918
+    }
+  },
+  {
+    "number": 19,
+    "name": "19-chapel-mimic",
+    "source": "19-chapel-mimic-source.png",
+    "reference": "19-chapel-mimic-reference-256.png",
+    "bbox": {
+      "left": 142,
+      "top": 0,
+      "width": 954,
+      "height": 1232
+    }
+  },
+  {
+    "number": 20,
+    "name": "20-smoke-shepherd",
+    "source": "20-smoke-shepherd-source.png",
+    "reference": "20-smoke-shepherd-reference-256.png",
+    "bbox": {
+      "left": 69,
+      "top": 30,
+      "width": 1157,
+      "height": 1167
+    }
+  }
+]

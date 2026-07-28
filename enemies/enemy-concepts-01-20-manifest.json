@@ -1,0 +1,242 @@
+[
+  {
+    "number": 1,
+    "name": "01-hollow-beggar",
+    "source": "01-hollow-beggar-source.png",
+    "reference": "01-hollow-beggar-reference-256.png",
+    "bbox": {
+      "left": 204,
+      "top": 160,
+      "width": 823,
+      "height": 940
+    }
+  },
+  {
+    "number": 2,
+    "name": "02-ash-washerwoman",
+    "source": "02-ash-washerwoman-source.png",
+    "reference": "02-ash-washerwoman-reference-256.png",
+    "bbox": {
+      "left": 167,
+      "top": 85,
+      "width": 1054,
+      "height": 1020
+    }
+  },
+  {
+    "number": 3,
+    "name": "03-crooked-bellman",
+    "source": "03-crooked-bellman-source.png",
+    "reference": "03-crooked-bellman-reference-256.png",
+    "bbox": {
+      "left": 231,
+      "top": 1,
+      "width": 745,
+      "height": 1253
+    }
+  },
+  {
+    "number": 4,
+    "name": "04-lanternback-hermit",
+    "source": "04-lanternback-hermit-source.png",
+    "reference": "04-lanternback-hermit-reference-256.png",
+    "bbox": {
+      "left": 159,
+      "top": 145,
+      "width": 990,
+      "height": 959
+    }
+  },
+  {
+    "number": 5,
+    "name": "05-dust-shepherd",
+    "source": "05-dust-shepherd-source.png",
+    "reference": "05-dust-shepherd-reference-256.png",
+    "bbox": {
+      "left": 184,
+      "top": 18,
+      "width": 881,
+      "height": 1201
+    }
+  },
+  {
+    "number": 6,
+    "name": "06-funeral-moth-keeper",
+    "source": "06-funeral-moth-keeper-source.png",
+    "reference": "06-funeral-moth-keeper-reference-256.png",
+    "bbox": {
+      "left": 159,
+      "top": 36,
+      "width": 915,
+      "height": 1184
+    }
+  },
+  {
+    "number": 7,
+    "name": "07-mudbound-drifter",
+    "source": "07-mudbound-drifter-source.png",
+    "reference": "07-mudbound-drifter-reference-256.png",
+    "bbox": {
+      "left": 80,
+      "top": 60,
+      "width": 1055,
+      "height": 1126
+    }
+  },
+  {
+    "number": 8,
+    "name": "08-tallow-walker",
+    "source": "08-tallow-walker-source.png",
+    "reference": "08-tallow-walker-reference-256.png",
+    "bbox": {
+      "left": 384,
+      "top": 10,
+      "width": 484,
+      "height": 1233
+    }
+  },
+  {
+    "number": 9,
+    "name": "09-shrouded-ferryman",
+    "source": "09-shrouded-ferryman-source.png",
+    "reference": "09-shrouded-ferryman-reference-256.png",
+    "bbox": {
+      "left": 125,
+      "top": 62,
+      "width": 1033,
+      "height": 1143
+    }
+  },
+  {
+    "number": 10,
+    "name": "10-briar-widow",
+    "source": "10-briar-widow-source.png",
+    "reference": "10-briar-widow-reference-256.png",
+    "bbox": {
+      "left": 228,
+      "top": 36,
+      "width": 784,
+      "height": 1188
+    }
+  },
+  {
+    "number": 11,
+    "name": "11-empty-scribe",
+    "source": "11-empty-scribe-source.png",
+    "reference": "11-empty-scribe-reference-256.png",
+    "bbox": {
+      "left": 250,
+      "top": 14,
+      "width": 683,
+      "height": 1185
+    }
+  },
+  {
+    "number": 12,
+    "name": "12-chapel-ragpicker",
+    "source": "12-chapel-ragpicker-source.png",
+    "reference": "12-chapel-ragpicker-reference-256.png",
+    "bbox": {
+      "left": 229,
+      "top": 79,
+      "width": 823,
+      "height": 1092
+    }
+  },
+  {
+    "number": 13,
+    "name": "13-pale-harvester",
+    "source": "13-pale-harvester-source.png",
+    "reference": "13-pale-harvester-reference-256.png",
+    "bbox": {
+      "left": 192,
+      "top": 89,
+      "width": 967,
+      "height": 1025
+    }
+  },
+  {
+    "number": 14,
+    "name": "14-rain-drowned-monk",
+    "source": "14-rain-drowned-monk-source.png",
+    "reference": "14-rain-drowned-monk-reference-256.png",
+    "bbox": {
+      "left": 285,
+      "top": 79,
+      "width": 647,
+      "height": 1116
+    }
+  },
+  {
+    "number": 15,
+    "name": "15-mourning-jester",
+    "source": "15-mourning-jester-source.png",
+    "reference": "15-mourning-jester-reference-256.png",
+    "bbox": {
+      "left": 309,
+      "top": 36,
+      "width": 652,
+      "height": 1163
+    }
+  },
+  {
+    "number": 16,
+    "name": "16-threadbare-host",
+    "source": "16-threadbare-host-source.png",
+    "reference": "16-threadbare-host-reference-256.png",
+    "bbox": {
+      "left": 190,
+      "top": 0,
+      "width": 723,
+      "height": 1254
+    }
+  },
+  {
+    "number": 17,
+    "name": "17-candle-crowned-vagrant",
+    "source": "17-candle-crowned-vagrant-source.png",
+    "reference": "17-candle-crowned-vagrant-reference-256.png",
+    "bbox": {
+      "left": 391,
+      "top": 68,
+      "width": 500,
+      "height": 1120
+    }
+  },
+  {
+    "number": 18,
+    "name": "18-mirror-pilgrim",
+    "source": "18-mirror-pilgrim-source.png",
+    "reference": "18-mirror-pilgrim-reference-256.png",
+    "bbox": {
+      "left": 322,
+      "top": 27,
+      "width": 570,
+      "height": 1212
+    }
+  },
+  {
+    "number": 19,
+    "name": "19-rootfoot-ghoul",
+    "source": "19-rootfoot-ghoul-source.png",
+    "reference": "19-rootfoot-ghoul-reference-256.png",
+    "bbox": {
+      "left": 302,
+      "top": 13,
+      "width": 667,
+      "height": 1207
+    }
+  },
+  {
+    "number": 20,
+    "name": "20-procession-keeper",
+    "source": "20-procession-keeper-source.png",
+    "reference": "20-procession-keeper-reference-256.png",
+    "bbox": {
+      "left": 21,
+      "top": 95,
+      "width": 1188,
+      "height": 1069
+    }
+  }
+]

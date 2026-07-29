@@ -1,0 +1,54 @@
+{
+  "collection": "holy-knight-variations-v02",
+  "status": "draft",
+  "generated": "2026-07-28",
+  "use_case": "stylized-concept",
+  "generation_mode": "built-in image generation",
+  "direction": "six independent original holy-knight silhouettes with high-level grim medieval action-RPG influence",
+  "background": "#171311",
+  "assets": [
+    {
+      "id": 1,
+      "name": "Bell-Helm Judicator",
+      "status": "draft",
+      "source": "protagonist/holy-knight-variations-v02/drafts/01-bell-helm-judicator-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-variations-v02/drafts/01-bell-helm-judicator-reference-256.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivory Processional",
+      "status": "draft",
+      "source": "protagonist/holy-knight-variations-v02/drafts/02-ivory-processional-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-variations-v02/drafts/02-ivory-processional-reference-256.png"
+    },
+    {
+      "id": 3,
+      "name": "Salt Bastion",
+      "status": "draft",
+      "source": "protagonist/holy-knight-variations-v02/drafts/03-salt-bastion-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-variations-v02/drafts/03-salt-bastion-reference-256.png"
+    },
+    {
+      "id": 4,
+      "name": "Moon-Thorn Lancer",
+      "status": "draft",
+      "source": "protagonist/holy-knight-variations-v02/drafts/04-moon-thorn-lancer-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-variations-v02/drafts/04-moon-thorn-lancer-reference-256.png"
+    },
+    {
+      "id": 5,
+      "name": "Ash-Reliquary Pilgrim",
+      "status": "draft",
+      "source": "protagonist/holy-knight-variations-v02/drafts/05-ash-reliquary-pilgrim-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-variations-v02/drafts/05-ash-reliquary-pilgrim-reference-256.png"
+    },
+    {
+      "id": 6,
+      "name": "Broken-Halo Greatsword",
+      "status": "draft",
+      "source": "protagonist/holy-knight-variations-v02/drafts/06-broken-halo-greatsword-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-variations-v02/drafts/06-broken-halo-greatsword-reference-256.png"
+    }
+  ],
+  "review_sheet": "protagonist/holy-knight-variations-v02/holy-knight-variations-v02-review-sheet.png"
+}

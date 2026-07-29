@@ -1,0 +1,69 @@
+{
+  "collection": "holy-knight-helmet-orders-v03",
+  "status": "draft",
+  "generated": "2026-07-28",
+  "use_case": "stylized-concept",
+  "generation_mode": "built-in image generation",
+  "direction": "original helmet-led holy knight and inquisitorial armor orders",
+  "research": "HELMET-RESEARCH.md",
+  "background": "#171311",
+  "assets": [
+    {
+      "id": 1,
+      "name": "Mitre-Helm Confessor",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/01-mitre-helm-confessor-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/01-mitre-helm-confessor-reference-256.png"
+    },
+    {
+      "id": 2,
+      "name": "Caged Tribunal Knight",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/02-caged-tribunal-knight-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/02-caged-tribunal-knight-reference-256.png"
+    },
+    {
+      "id": 3,
+      "name": "Mirror-Face Examiner",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/03-mirror-face-examiner-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/03-mirror-face-examiner-reference-256.png"
+    },
+    {
+      "id": 4,
+      "name": "Hounskull Questioner",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/04-hounskull-questioner-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/04-hounskull-questioner-reference-256.png"
+    },
+    {
+      "id": 5,
+      "name": "Cabasset Chapel Judge",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/05-cabasset-chapel-judge-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/05-cabasset-chapel-judge-reference-256.png"
+    },
+    {
+      "id": 6,
+      "name": "Long-Tail Sallet Marshal",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/06-long-tail-sallet-marshal-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/06-long-tail-sallet-marshal-reference-256.png"
+    },
+    {
+      "id": 7,
+      "name": "Barbute Scripture Guard",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/07-barbute-scripture-guard-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/07-barbute-scripture-guard-reference-256.png"
+    },
+    {
+      "id": 8,
+      "name": "Bellows-Visor Reliquary",
+      "status": "draft",
+      "source": "protagonist/holy-knight-helmet-orders-v03/drafts/08-bellows-visor-reliquary-source.png",
+      "reference_256": "site/public/art/protagonist/holy-knight-helmet-orders-v03/drafts/08-bellows-visor-reliquary-reference-256.png"
+    }
+  ],
+  "review_sheet": "protagonist/holy-knight-helmet-orders-v03/holy-knight-helmet-orders-v03-review-sheet.png"
+}

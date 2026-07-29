@@ -68,8 +68,9 @@ only:
 Never copy its conical helmet, teal-and-rust costume, religious imagery, crouched
 proportions, exact stance, or silhouette.
 
-`/Users/franz/Desktop/knight.png` and the `pixel-art/samples/silver-knight-*`
-assets define the protagonist, not the enemy library.
+`/Users/franz/Desktop/knight.png` and the
+`pixel-art/samples/silver-knight/silver-knight-*` assets define the
+protagonist, not the enemy library.
 
 Approved enemy batches are the best style references for new enemies. Choose the
 closest thematic batch rather than using every previous image at once.
@@ -101,7 +102,9 @@ Rules:
 
 - Exactly 256 × 256 pixels.
 - Created from the source with nearest-neighbor resizing.
-- Always saved beside every retained source.
+- Saved only under the matching `site/public/art/enemies/` path.
+- Uses the same collection, lifecycle folders, asset number, slug, and version
+  as its source.
 - Used for comparisons, review sheets, documentation, and future prompting.
 - Never use smoothing, bicubic resampling, blur, or sharpening.
 - This is a reference image, not automatically the native Godot sprite.
@@ -392,6 +395,10 @@ Root:
 
 `pixel-art/enemies/`
 
+Website-render root:
+
+`pixel-art/site/public/art/enemies/`
+
 New numbered batch:
 
 `pixel-art/enemies/<theme>-batch-<NN>/`
@@ -407,14 +414,20 @@ Use lowercase kebab-case. Batch numbers are two digits and never reused.
 ### Required retained-batch contents
 
 ```text
-<theme>-batch-<NN>/
+enemies/<theme>-batch-<NN>/
 ├── 01-<slug>-source.png
-├── 01-<slug>-reference-256.png
 ├── ...
 ├── GENERATION-PROMPTS.md
 ├── <theme>-manifest.json
 └── <theme>-review-sheet.png
+
+site/public/art/enemies/<theme>-batch-<NN>/
+├── 01-<slug>-reference-256.png
+└── ...
 ```
+
+The source and website-render paths mirror each other below `enemies/`. Never
+keep a second copy of the reference beside its source.
 
 ### Drafts
 
@@ -426,7 +439,9 @@ Drafts:
 
 - Are not canonical
 - Are not counted in the lore compendium
-- May have source and 256 reference files for continuity
+- Store sources under the collection's `drafts/` folder
+- Store 256 references under the matching
+  `site/public/art/enemies/<collection>/drafts/` folder
 - Must be promoted to the batch root only after approval
 
 ### Revisions
@@ -437,9 +452,11 @@ Use:
 
 `<NN>-<slug>-v02-source.png`
 
-and:
+in the source collection, and:
 
 `<NN>-<slug>-v02-reference-256.png`
+
+under its matching `site/public/art/enemies/` path.
 
 Update the manifest to identify the active version.
 
@@ -449,8 +466,8 @@ Use descriptive lowercase kebab-case.
 
 ### Per asset
 
-- `<NN>-<slug>-source.png`
-- `<NN>-<slug>-reference-256.png`
+- Source collection: `<NN>-<slug>-source.png`
+- Matching `site/public/art/` path: `<NN>-<slug>-reference-256.png`
 - `<NN>-<slug>-native-<width>x<height>.png`
 
 ### Batch support
@@ -486,6 +503,7 @@ Review sheets are for comparison only and do not replace individual references.
 ## 16. Manifest convention
 
 Every completed batch requires a JSON manifest.
+All file paths stored in a manifest are relative to the repository root.
 
 Minimum structure:
 
@@ -504,8 +522,8 @@ Minimum structure:
       "id": 1,
       "name": "Readable Display Name",
       "status": "retained",
-      "source": "01-readable-display-name-source.png",
-      "reference_256": "01-readable-display-name-reference-256.png"
+      "source": "enemies/theme-batch-07/01-readable-display-name-source.png",
+      "reference_256": "site/public/art/enemies/theme-batch-07/01-readable-display-name-reference-256.png"
     }
   ],
   "review_sheet": "theme-review-sheet.png"
@@ -544,7 +562,8 @@ Do not create lore for rejected images. Draft lore may live in a batch
 
 ## 18. Retention and deletion
 
-- Preserve all retained full sources and 256 references.
+- Preserve all retained full sources in their collection and all 256 references
+  under the matching `site/public/art/` path.
 - Do not delete an approved source after making a smaller reference.
 - Rejected images should not remain in canonical batch folders.
 - If the user asks to delete a generation, remove its project files and remove it

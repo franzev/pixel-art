@@ -41,136 +41,136 @@
       "id": 1,
       "name": "Foldneck Reclaimer",
       "status": "rejected",
-      "source": "drafts/01-foldneck-reclaimer-source.png",
-      "reference_256": "drafts/01-foldneck-reclaimer-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/01-foldneck-reclaimer-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/01-foldneck-reclaimer-reference-256.png"
     },
     {
       "id": 2,
       "name": "Backbound Loper",
       "status": "rejected",
-      "source": "drafts/02-backbound-loper-source.png",
-      "reference_256": "drafts/02-backbound-loper-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/02-backbound-loper-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/02-backbound-loper-reference-256.png"
     },
     {
       "id": 3,
       "name": "Ashsnout Croucher",
       "status": "rejected",
-      "source": "drafts/03-ashsnout-croucher-source.png",
-      "reference_256": "drafts/03-ashsnout-croucher-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/03-ashsnout-croucher-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/03-ashsnout-croucher-reference-256.png"
     },
     {
       "id": 4,
       "name": "Yokehorn Revenant",
       "status": "rejected",
-      "source": "drafts/04-yokehorn-revenant-source.png",
-      "reference_256": "drafts/04-yokehorn-revenant-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/04-yokehorn-revenant-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/04-yokehorn-revenant-reference-256.png"
     },
     {
       "id": 5,
       "name": "Pillory Stalker",
       "status": "rejected",
-      "source": "drafts/05-pillory-stalker-source.png",
-      "reference_256": "drafts/05-pillory-stalker-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/05-pillory-stalker-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/05-pillory-stalker-reference-256.png"
     },
     {
       "id": 6,
       "name": "Sumpcloth Sniffer",
       "status": "rejected",
-      "source": "drafts/06-sumpcloth-sniffer-source.png",
-      "reference_256": "drafts/06-sumpcloth-sniffer-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/06-sumpcloth-sniffer-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/06-sumpcloth-sniffer-reference-256.png"
     },
     {
       "id": 7,
       "name": "Rafter Kite",
       "status": "rejected",
-      "source": "drafts/07-rafter-kite-source.png",
-      "reference_256": "drafts/07-rafter-kite-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/07-rafter-kite-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/07-rafter-kite-reference-256.png"
     },
     {
       "id": 8,
       "name": "Cinderback Skitter",
       "status": "rejected",
-      "source": "drafts/08-cinderback-skitter-source.png",
-      "reference_256": "drafts/08-cinderback-skitter-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/08-cinderback-skitter-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/08-cinderback-skitter-reference-256.png"
     },
     {
       "id": 9,
       "name": "Burgundy Raspbeast",
       "status": "rejected",
-      "source": "drafts/09-burgundy-raspbeast-source.png",
-      "reference_256": "drafts/09-burgundy-raspbeast-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/09-burgundy-raspbeast-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/09-burgundy-raspbeast-reference-256.png"
     },
     {
       "id": 11,
       "name": "Borrowed Coat",
       "status": "rejected",
-      "source": "drafts/11-borrowed-coat-source.png",
-      "reference_256": "drafts/11-borrowed-coat-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/11-borrowed-coat-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/11-borrowed-coat-reference-256.png"
     },
     {
       "id": 12,
       "name": "Second-Step Shade",
       "status": "rejected",
-      "source": "drafts/12-second-step-shade-source.png",
-      "reference_256": "drafts/12-second-step-shade-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/12-second-step-shade-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/12-second-step-shade-reference-256.png"
     },
     {
       "id": 13,
       "name": "Inverted Tenant",
       "status": "rejected",
-      "source": "drafts/13-inverted-tenant-source.png",
-      "reference_256": "drafts/13-inverted-tenant-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/13-inverted-tenant-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/13-inverted-tenant-reference-256.png"
     },
     {
       "id": 14,
       "name": "Hearth-Hush",
       "status": "rejected",
-      "source": "drafts/14-hearth-hush-source.png",
-      "reference_256": "drafts/14-hearth-hush-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/14-hearth-hush-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/14-hearth-hush-reference-256.png"
     },
     {
       "id": 15,
       "name": "Right-Angle Wraith",
       "status": "rejected",
-      "source": "drafts/15-right-angle-wraith-source.png",
-      "reference_256": "drafts/15-right-angle-wraith-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/15-right-angle-wraith-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/15-right-angle-wraith-reference-256.png"
     },
     {
       "id": 16,
       "name": "Hexwheel",
       "status": "rejected",
-      "source": "drafts/16-hexwheel-source.png",
-      "reference_256": "drafts/16-hexwheel-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/16-hexwheel-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/16-hexwheel-reference-256.png"
     },
     {
       "id": 17,
       "name": "Wake-Jar Familiar",
       "status": "rejected",
-      "source": "drafts/17-wake-jar-familiar-source.png",
-      "reference_256": "drafts/17-wake-jar-familiar-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/17-wake-jar-familiar-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/17-wake-jar-familiar-reference-256.png"
     },
     {
       "id": 18,
       "name": "Cinder Thresher",
       "status": "rejected",
-      "source": "drafts/18-cinder-thresher-source.png",
-      "reference_256": "drafts/18-cinder-thresher-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/18-cinder-thresher-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/18-cinder-thresher-reference-256.png"
     },
     {
       "id": 19,
       "name": "Graveboard Skater",
       "status": "rejected",
-      "source": "drafts/19-graveboard-skater-source.png",
-      "reference_256": "drafts/19-graveboard-skater-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/19-graveboard-skater-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/19-graveboard-skater-reference-256.png"
     },
     {
       "id": 20,
       "name": "The Red Reliquary",
       "status": "rejected",
-      "source": "drafts/20-red-reliquary-source.png",
-      "reference_256": "drafts/20-red-reliquary-reference-256.png"
+      "source": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/20-red-reliquary-source.png",
+      "reference_256": "site/public/art/enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/20-red-reliquary-reference-256.png"
     }
   ],
-  "review_sheet": "drafts/ghouls-haunts-curses-draft-review-sheet.png",
+  "review_sheet": "enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/ghouls-haunts-curses-draft-review-sheet.png",
   "lore_updated": false
 }

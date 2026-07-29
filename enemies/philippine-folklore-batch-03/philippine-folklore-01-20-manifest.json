@@ -2,8 +2,8 @@
   {
     "number": 1,
     "name": "01-rice-mortar-listener",
-    "source": "01-rice-mortar-listener-source.png",
-    "reference": "01-rice-mortar-listener-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/01-rice-mortar-listener-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/01-rice-mortar-listener-reference-256.png",
     "bbox": {
       "left": 66,
       "top": 185,
@@ -14,8 +14,8 @@
   {
     "number": 2,
     "name": "02-night-ointment-flier",
-    "source": "02-night-ointment-flier-source.png",
-    "reference": "02-night-ointment-flier-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/02-night-ointment-flier-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/02-night-ointment-flier-reference-256.png",
     "bbox": {
       "left": 54,
       "top": 208,
@@ -26,8 +26,8 @@
   {
     "number": 3,
     "name": "03-wakwak-roof-scout",
-    "source": "03-wakwak-roof-scout-source.png",
-    "reference": "03-wakwak-roof-scout-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/03-wakwak-roof-scout-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/03-wakwak-roof-scout-reference-256.png",
     "bbox": {
       "left": 147,
       "top": 56,
@@ -38,8 +38,8 @@
   {
     "number": 4,
     "name": "04-kikik-underhouse-caller",
-    "source": "04-kikik-underhouse-caller-source.png",
-    "reference": "04-kikik-underhouse-caller-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/04-kikik-underhouse-caller-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/04-kikik-underhouse-caller-reference-256.png",
     "bbox": {
       "left": 183,
       "top": 48,
@@ -50,8 +50,8 @@
   {
     "number": 5,
     "name": "05-balete-ember-watcher",
-    "source": "05-balete-ember-watcher-source.png",
-    "reference": "05-balete-ember-watcher-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/05-balete-ember-watcher-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/05-balete-ember-watcher-reference-256.png",
     "bbox": {
       "left": 40,
       "top": 0,
@@ -62,8 +62,8 @@
   {
     "number": 6,
     "name": "06-drizzle-walker",
-    "source": "06-drizzle-walker-source.png",
-    "reference": "06-drizzle-walker-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/06-drizzle-walker-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/06-drizzle-walker-reference-256.png",
     "bbox": {
       "left": 170,
       "top": 0,
@@ -74,8 +74,8 @@
   {
     "number": 7,
     "name": "07-road-turner",
-    "source": "07-road-turner-source.png",
-    "reference": "07-road-turner-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/07-road-turner-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/07-road-turner-reference-256.png",
     "bbox": {
       "left": 170,
       "top": 0,
@@ -86,8 +86,8 @@
   {
     "number": 8,
     "name": "08-river-leg-tikbalang",
-    "source": "08-river-leg-tikbalang-source.png",
-    "reference": "08-river-leg-tikbalang-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/08-river-leg-tikbalang-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/08-river-leg-tikbalang-reference-256.png",
     "bbox": {
       "left": 191,
       "top": 0,
@@ -98,8 +98,8 @@
   {
     "number": 9,
     "name": "09-backstepper",
-    "source": "09-backstepper-source.png",
-    "reference": "09-backstepper-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/09-backstepper-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/09-backstepper-reference-256.png",
     "bbox": {
       "left": 50,
       "top": 174,
@@ -110,8 +110,8 @@
   {
     "number": 10,
     "name": "10-sigbin-keeper",
-    "source": "10-sigbin-keeper-source.png",
-    "reference": "10-sigbin-keeper-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/10-sigbin-keeper-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/10-sigbin-keeper-reference-256.png",
     "bbox": {
       "left": 128,
       "top": 22,
@@ -122,8 +122,8 @@
   {
     "number": 11,
     "name": "11-bench-wight",
-    "source": "11-bench-wight-source.png",
-    "reference": "11-bench-wight-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/11-bench-wight-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/11-bench-wight-reference-256.png",
     "bbox": {
       "left": 105,
       "top": 0,
@@ -134,8 +134,8 @@
   {
     "number": 12,
     "name": "12-mud-luring-santelmo",
-    "source": "12-mud-luring-santelmo-source.png",
-    "reference": "12-mud-luring-santelmo-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/12-mud-luring-santelmo-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/12-mud-luring-santelmo-reference-256.png",
     "bbox": {
       "left": 126,
       "top": 16,
@@ -146,8 +146,8 @@
   {
     "number": 13,
     "name": "13-thatch-glider",
-    "source": "13-thatch-glider-source.png",
-    "reference": "13-thatch-glider-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/13-thatch-glider-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/13-thatch-glider-reference-256.png",
     "bbox": {
       "left": 61,
       "top": 114,
@@ -158,8 +158,8 @@
   {
     "number": 14,
     "name": "14-straight-walker",
-    "source": "14-straight-walker-source.png",
-    "reference": "14-straight-walker-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/14-straight-walker-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/14-straight-walker-reference-256.png",
     "bbox": {
       "left": 284,
       "top": 12,
@@ -170,8 +170,8 @@
   {
     "number": 15,
     "name": "15-laughing-field-giant",
-    "source": "15-laughing-field-giant-source.png",
-    "reference": "15-laughing-field-giant-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/15-laughing-field-giant-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/15-laughing-field-giant-reference-256.png",
     "bbox": {
       "left": 40,
       "top": 33,
@@ -182,8 +182,8 @@
   {
     "number": 16,
     "name": "16-river-dam-ogre",
-    "source": "16-river-dam-ogre-source.png",
-    "reference": "16-river-dam-ogre-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/16-river-dam-ogre-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/16-river-dam-ogre-reference-256.png",
     "bbox": {
       "left": 0,
       "top": 36,
@@ -194,8 +194,8 @@
   {
     "number": 17,
     "name": "17-back-handed-roost",
-    "source": "17-back-handed-roost-source.png",
-    "reference": "17-back-handed-roost-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/17-back-handed-roost-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/17-back-handed-roost-reference-256.png",
     "bbox": {
       "left": 55,
       "top": 16,
@@ -206,8 +206,8 @@
   {
     "number": 18,
     "name": "18-orchard-stalker",
-    "source": "18-orchard-stalker-source.png",
-    "reference": "18-orchard-stalker-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/18-orchard-stalker-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/18-orchard-stalker-reference-256.png",
     "bbox": {
       "left": 156,
       "top": 47,
@@ -218,8 +218,8 @@
   {
     "number": 19,
     "name": "19-beetle-vessel",
-    "source": "19-beetle-vessel-source.png",
-    "reference": "19-beetle-vessel-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/19-beetle-vessel-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/19-beetle-vessel-reference-256.png",
     "bbox": {
       "left": 252,
       "top": 0,
@@ -230,8 +230,8 @@
   {
     "number": 20,
     "name": "20-moon-eaters-spawn",
-    "source": "20-moon-eaters-spawn-source.png",
-    "reference": "20-moon-eaters-spawn-reference-256.png",
+    "source": "enemies/philippine-folklore-batch-03/20-moon-eaters-spawn-source.png",
+    "reference": "site/public/art/enemies/philippine-folklore-batch-03/20-moon-eaters-spawn-reference-256.png",
     "bbox": {
       "left": 200,
       "top": 0,

@@ -18,15 +18,15 @@ ethnically Spanish.
 All image files are under `drafts/`.
 
 1. `01-peninsular-cazador-rifleman-source.png`
-   - `01-peninsular-cazador-rifleman-reference-256.png`
+   - `site/public/art/enemies/spanish-colonial-forces-batch-08/drafts/01-peninsular-cazador-rifleman-reference-256.png`
 2. `02-cazador-bayonet-charger-source.png`
-   - `02-cazador-bayonet-charger-reference-256.png`
+   - `site/public/art/enemies/spanish-colonial-forces-batch-08/drafts/02-cazador-bayonet-charger-reference-256.png`
 3. `03-guardia-civil-veterana-patrolman-source.png`
-   - `03-guardia-civil-veterana-patrolman-reference-256.png`
+   - `site/public/art/enemies/spanish-colonial-forces-batch-08/drafts/03-guardia-civil-veterana-patrolman-reference-256.png`
 4. `04-colonial-engineer-sapper-source.png`
-   - `04-colonial-engineer-sapper-reference-256.png`
+   - `site/public/art/enemies/spanish-colonial-forces-batch-08/drafts/04-colonial-engineer-sapper-reference-256.png`
 5. `05-spanish-colonial-officer-source.png`
-   - `05-spanish-colonial-officer-reference-256.png`
+   - `site/public/art/enemies/spanish-colonial-forces-batch-08/drafts/05-spanish-colonial-officer-reference-256.png`
 
 Batch comparisons:
 

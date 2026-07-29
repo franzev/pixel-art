@@ -20,7 +20,7 @@ game designs inspired by Philippine folklore.
 Files:
 
 - `drafts/01-alimokon-omen-source.png`
-- `drafts/01-alimokon-omen-reference-256.png`
+- `site/public/art/enemies/tiktik-variations-batch-07/drafts/01-alimokon-omen-reference-256.png`
 
 Direction:
 
@@ -36,7 +36,7 @@ Direction:
 Files:
 
 - `drafts/02-roof-clinger-tiktik-source.png`
-- `drafts/02-roof-clinger-tiktik-reference-256.png`
+- `site/public/art/enemies/tiktik-variations-batch-07/drafts/02-roof-clinger-tiktik-reference-256.png`
 
 Direction:
 
@@ -78,7 +78,8 @@ The first generation attempt was interrupted and produced no saved image.
 1. Review the two saved 256 drafts.
 2. Regenerate either draft only if the user requests changes.
 3. Generate variations 03–05 separately.
-4. Create full source and 256 reference pairs.
+4. Save full sources in this collection and 256 references under the matching
+   `site/public/art/` path.
 5. Assemble a 1280 × 256 review sheet.
 6. Ask for or infer approval from the user's response.
 7. Promote approved files from `drafts/` to the batch root.

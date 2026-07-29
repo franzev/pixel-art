@@ -1,0 +1,10 @@
+{
+  "collection": "crimson-knight-player-character",
+  "status": "draft",
+  "assets": [
+    {
+      "source": "protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-source.png",
+      "reference_256": "site/public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png"
+    }
+  ]
+}

@@ -185,7 +185,7 @@ sparkles, or detached effects.
 
 The initial 15 effects-led concepts were removed from the active batch after
 the user clarified that the soldiers themselves must be redrawn. At the user's
-request, every source is preserved in `rejected-effects-first-pass/` together
+request, every source is preserved in `rejected/effects-first-pass/` together
 with a 256 reference and separate archive review sheets. They may be inspected
 or reused as exploratory concepts, but must not be counted, promoted, or
 referenced as canonical assets unless the user explicitly changes their status.

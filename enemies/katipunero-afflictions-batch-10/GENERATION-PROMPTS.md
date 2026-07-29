@@ -153,7 +153,7 @@ fangs, or extra wounds.
 Save as:
 
 - `drafts/01-bite-fever-scout-source.png`
-- `drafts/01-bite-fever-scout-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/01-bite-fever-scout-reference-256.png`
 
 ### 02 — Hollow-Hunger Boloman
 
@@ -166,7 +166,7 @@ fighter, not a skeletal creature and not a copy of the Crimson Knight.
 Save as:
 
 - `drafts/02-hollow-hunger-boloman-source.png`
-- `drafts/02-hollow-hunger-boloman-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/02-hollow-hunger-boloman-reference-256.png`
 
 ### 03 — Reanimated Standard-Bearer
 
@@ -179,7 +179,7 @@ energy lines, never limbs. Use desaturated flesh and only minimal dried blood.
 Save as:
 
 - `drafts/03-reanimated-standard-bearer-source.png`
-- `drafts/03-reanimated-standard-bearer-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/03-reanimated-standard-bearer-reference-256.png`
 
 ### 04 — Spirit-Ridden Rifleman
 
@@ -192,7 +192,7 @@ detached from his anatomy, with no extra physical arms or hands.
 Save as:
 
 - `drafts/04-spirit-ridden-rifleman-source.png`
-- `drafts/04-spirit-ridden-rifleman-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/04-spirit-ridden-rifleman-reference-256.png`
 
 ### 05 — Curse-Marked Courier
 
@@ -205,7 +205,7 @@ not turn the markings into tattoos covering the full body.
 Save as:
 
 - `drafts/05-curse-marked-courier-source.png`
-- `drafts/05-curse-marked-courier-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/05-curse-marked-courier-reference-256.png`
 
 ### 06 — Night-Thirst Veteran
 
@@ -218,7 +218,7 @@ opera cape, formal suit, bat wings, or oversized fangs.
 Save as:
 
 - `drafts/06-night-thirst-veteran-source.png`
-- `drafts/06-night-thirst-veteran-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/06-night-thirst-veteran-reference-256.png`
 
 ### 07 — Balete-Root Guerrilla
 
@@ -231,7 +231,7 @@ roots are a localized curse, not extra tentacles.
 Save as:
 
 - `drafts/07-balete-root-guerrilla-source.png`
-- `drafts/07-balete-root-guerrilla-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/07-balete-root-guerrilla-reference-256.png`
 
 ### 08 — Ember-Sashed Torchman
 
@@ -244,7 +244,7 @@ cluster; no full-body inferno and no giant smoke cloud.
 Save as:
 
 - `drafts/08-ember-sashed-torchman-source.png`
-- `drafts/08-ember-sashed-torchman-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/08-ember-sashed-torchman-reference-256.png`
 
 ### 09 — Rain-Bound Sharpshooter
 
@@ -257,7 +257,7 @@ cannot be read as extra weapons or limbs.
 Save as:
 
 - `drafts/09-rain-bound-sharpshooter-source.png`
-- `drafts/09-rain-bound-sharpshooter-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/09-rain-bound-sharpshooter-reference-256.png`
 
 ### 10 — Beetle-Swarm Lookout
 
@@ -270,7 +270,7 @@ wounds. Keep the face, arms, hands, and spear completely readable.
 Save as:
 
 - `drafts/10-beetle-swarm-lookout-source.png`
-- `drafts/10-beetle-swarm-lookout-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/10-beetle-swarm-lookout-reference-256.png`
 
 ### 11 — Smoke-Lung Sapper
 
@@ -283,7 +283,7 @@ explosives, or a second tool.
 Save as:
 
 - `drafts/11-smoke-lung-sapper-source.png`
-- `drafts/11-smoke-lung-sapper-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/11-smoke-lung-sapper-reference-256.png`
 
 ### 12 — Detached-Shadow Scout
 
@@ -296,7 +296,7 @@ the ground, and obviously supernatural rather than a second character.
 Save as:
 
 - `drafts/12-detached-shadow-scout-source.png`
-- `drafts/12-detached-shadow-scout-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/12-detached-shadow-scout-reference-256.png`
 
 ### 13 — Salt-Crusted Guard
 
@@ -309,7 +309,7 @@ not make the pale crust resemble plate armor.
 Save as:
 
 - `drafts/13-salt-crusted-guard-source.png`
-- `drafts/13-salt-crusted-guard-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/13-salt-crusted-guard-reference-256.png`
 
 ### 14 — Moonlit Oathkeeper
 
@@ -322,7 +322,7 @@ celestial background, angel wings, or excessive glow.
 Save as:
 
 - `drafts/14-moonlit-oathkeeper-source.png`
-- `drafts/14-moonlit-oathkeeper-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/14-moonlit-oathkeeper-reference-256.png`
 
 ### 15 — Weapon-Bound Boloman
 
@@ -337,17 +337,19 @@ sword.
 Save as:
 
 - `drafts/15-weapon-bound-boloman-source.png`
-- `drafts/15-weapon-bound-boloman-reference-256.png`
+- `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/15-weapon-bound-boloman-reference-256.png`
 
 ## Saving and review workflow
 
 After every successful generation, immediately save the full generated PNG in
 the exact `*-source.png` path above. Then make its `*-reference-256.png` as a
-square 256×256 nearest-neighbor reduction from the source. Never use smoothing,
-resampling blur, or a crop that removes the weapon or feet. The 256 image is a
-comparison reference, not proof that the native sprite is 256×256.
+square 256×256 nearest-neighbor reduction from the source and save it under the
+matching `site/public/art/enemies/katipunero-afflictions-batch-10/` path. Never
+use smoothing, resampling blur, or a crop that removes the weapon or feet. The
+256 image is a comparison reference, not proof that the native sprite is
+256×256.
 
-Keep every unapproved file under:
+Keep every unapproved source under:
 
 `pixel-art/enemies/katipunero-afflictions-batch-10/drafts/`
 

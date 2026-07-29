@@ -12,7 +12,7 @@ anatomy, posture, uniform damage, silhouette, and weapon handling. These are not
 edits or effect layers applied to Batch 08.
 
 The first effects-led pass was rejected after review and moved to
-`rejected-effects-first-pass/`. At the user's request, all 15 sources are
+`rejected/effects-first-pass/`. At the user's request, all 15 sources are
 preserved in the workspace with their own 256 references and archive review sheets.
 They remain excluded from the active draft count, active review sheets, and
 promotion gate unless the user later changes their status.
@@ -55,7 +55,7 @@ reference.
 
 ## Preserved rejected first pass
 
-All 15 effects-led sources remain under `rejected-effects-first-pass/`; none
+All 15 effects-led sources remain under `rejected/effects-first-pass/`; none
 were deleted. Each source now has a same-slug `reference-256.png`.
 
 1. `01-aswang-bitten-cazador-source.png`

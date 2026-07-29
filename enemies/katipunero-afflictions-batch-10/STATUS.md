@@ -38,21 +38,21 @@ The superseding monster direction is recorded at the top of
 
 | # | Source | 256 reference |
 | --- | --- | --- |
-| 01 | `drafts/01-bite-fever-scout-source.png` | `drafts/01-bite-fever-scout-reference-256.png` |
-| 02 | `drafts/02-hollow-hunger-boloman-source.png` | `drafts/02-hollow-hunger-boloman-reference-256.png` |
-| 03 | `drafts/03-reanimated-standard-bearer-source.png` | `drafts/03-reanimated-standard-bearer-reference-256.png` |
-| 04 | `drafts/04-spirit-ridden-rifleman-source.png` | `drafts/04-spirit-ridden-rifleman-reference-256.png` |
-| 05 | `drafts/05-curse-marked-courier-source.png` | `drafts/05-curse-marked-courier-reference-256.png` |
-| 06 | `drafts/06-night-thirst-veteran-source.png` | `drafts/06-night-thirst-veteran-reference-256.png` |
-| 07 | `drafts/07-balete-root-guerrilla-source.png` | `drafts/07-balete-root-guerrilla-reference-256.png` |
-| 08 | `drafts/08-ember-sashed-torchman-source.png` | `drafts/08-ember-sashed-torchman-reference-256.png` |
-| 09 | `drafts/09-rain-bound-sharpshooter-source.png` | `drafts/09-rain-bound-sharpshooter-reference-256.png` |
-| 10 | `drafts/10-beetle-swarm-lookout-source.png` | `drafts/10-beetle-swarm-lookout-reference-256.png` |
-| 11 | `drafts/11-smoke-lung-sapper-source.png` | `drafts/11-smoke-lung-sapper-reference-256.png` |
-| 12 | `drafts/12-detached-shadow-scout-source.png` | `drafts/12-detached-shadow-scout-reference-256.png` |
-| 13 | `drafts/13-salt-crusted-guard-source.png` | `drafts/13-salt-crusted-guard-reference-256.png` |
-| 14 | `drafts/14-moonlit-oathkeeper-source.png` | `drafts/14-moonlit-oathkeeper-reference-256.png` |
-| 15 | `drafts/15-weapon-bound-boloman-source.png` | `drafts/15-weapon-bound-boloman-reference-256.png` |
+| 01 | `drafts/01-bite-fever-scout-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/01-bite-fever-scout-reference-256.png` |
+| 02 | `drafts/02-hollow-hunger-boloman-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/02-hollow-hunger-boloman-reference-256.png` |
+| 03 | `drafts/03-reanimated-standard-bearer-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/03-reanimated-standard-bearer-reference-256.png` |
+| 04 | `drafts/04-spirit-ridden-rifleman-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/04-spirit-ridden-rifleman-reference-256.png` |
+| 05 | `drafts/05-curse-marked-courier-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/05-curse-marked-courier-reference-256.png` |
+| 06 | `drafts/06-night-thirst-veteran-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/06-night-thirst-veteran-reference-256.png` |
+| 07 | `drafts/07-balete-root-guerrilla-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/07-balete-root-guerrilla-reference-256.png` |
+| 08 | `drafts/08-ember-sashed-torchman-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/08-ember-sashed-torchman-reference-256.png` |
+| 09 | `drafts/09-rain-bound-sharpshooter-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/09-rain-bound-sharpshooter-reference-256.png` |
+| 10 | `drafts/10-beetle-swarm-lookout-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/10-beetle-swarm-lookout-reference-256.png` |
+| 11 | `drafts/11-smoke-lung-sapper-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/11-smoke-lung-sapper-reference-256.png` |
+| 12 | `drafts/12-detached-shadow-scout-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/12-detached-shadow-scout-reference-256.png` |
+| 13 | `drafts/13-salt-crusted-guard-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/13-salt-crusted-guard-reference-256.png` |
+| 14 | `drafts/14-moonlit-oathkeeper-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/14-moonlit-oathkeeper-reference-256.png` |
+| 15 | `drafts/15-weapon-bound-boloman-source.png` | `site/public/art/enemies/katipunero-afflictions-batch-10/drafts/15-weapon-bound-boloman-reference-256.png` |
 
 Every source is 1254 × 1254 pixels. Every reference is a 256 × 256
 nearest-neighbor reduction.

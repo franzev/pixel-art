@@ -35,7 +35,7 @@ retained sources, references, manifests, or lore entries.
    - Medium-density v03 study:
      `drafts/02-roadside-white-lady-left-facing-medium-density-v03-source.png`
    - Medium-density v03 reference:
-     `drafts/02-roadside-white-lady-left-facing-medium-density-v03-reference-256.png`
+     `site/public/art/enemies/left-facing-pose-tests-v01/drafts/02-roadside-white-lady-left-facing-medium-density-v03-reference-256.png`
    - Status: pending user review before native conversion
    - Intended native follow-up: use a 96 × 96 frame with mature 7.5-head
      proportions and separate body, lantern, hair, and dress-tail motion

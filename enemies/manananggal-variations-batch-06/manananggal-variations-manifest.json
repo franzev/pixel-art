@@ -24,33 +24,33 @@
     {
       "id": 1,
       "name": "Roof-Hunter Manananggal",
-      "source": "01-roof-hunter-manananggal-source.png",
-      "reference_256": "01-roof-hunter-manananggal-reference-256.png"
+      "source": "enemies/manananggal-variations-batch-06/01-roof-hunter-manananggal-source.png",
+      "reference_256": "site/public/art/enemies/manananggal-variations-batch-06/01-roof-hunter-manananggal-reference-256.png"
     },
     {
       "id": 2,
       "name": "Blood-Moon Matriarch",
-      "source": "02-blood-moon-matriarch-source.png",
-      "reference_256": "02-blood-moon-matriarch-reference-256.png"
+      "source": "enemies/manananggal-variations-batch-06/02-blood-moon-matriarch-source.png",
+      "reference_256": "site/public/art/enemies/manananggal-variations-batch-06/02-blood-moon-matriarch-reference-256.png"
     },
     {
       "id": 3,
       "name": "Thatch-Wing Prowler",
-      "source": "03-thatch-wing-prowler-source.png",
-      "reference_256": "03-thatch-wing-prowler-reference-256.png"
+      "source": "enemies/manananggal-variations-batch-06/03-thatch-wing-prowler-source.png",
+      "reference_256": "site/public/art/enemies/manananggal-variations-batch-06/03-thatch-wing-prowler-reference-256.png"
     },
     {
       "id": 4,
       "name": "Bell-Tongue Ritualist",
-      "source": "04-bell-tongue-ritualist-source.png",
-      "reference_256": "04-bell-tongue-ritualist-reference-256.png"
+      "source": "enemies/manananggal-variations-batch-06/04-bell-tongue-ritualist-source.png",
+      "reference_256": "site/public/art/enemies/manananggal-variations-batch-06/04-bell-tongue-ritualist-reference-256.png"
     },
     {
       "id": 5,
       "name": "Salt-Scarred Exile",
-      "source": "05-salt-scarred-exile-source.png",
-      "reference_256": "05-salt-scarred-exile-reference-256.png"
+      "source": "enemies/manananggal-variations-batch-06/05-salt-scarred-exile-source.png",
+      "reference_256": "site/public/art/enemies/manananggal-variations-batch-06/05-salt-scarred-exile-reference-256.png"
     }
   ],
-  "review_sheet": "manananggal-variations-review-sheet.png"
+  "review_sheet": "enemies/manananggal-variations-batch-06/manananggal-variations-review-sheet.png"
 }

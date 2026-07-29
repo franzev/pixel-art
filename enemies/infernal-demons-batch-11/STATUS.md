@@ -21,21 +21,21 @@ height used for future native-scale planning; it is not a claim that the
 
 | ID | Design | Source | 256 reference | Date | Reference height | Gameplay target | Review |
 | --- | --- | --- | --- | --- | ---: | ---: | --- |
-| 01 | Cinder Imp Scout | `drafts/01-cinder-imp-scout-source.png` | `drafts/01-cinder-imp-scout-reference-256.png` | 2026-07-28 | 143 px | 42 px | Pass |
-| 02 | Pink Ashwing Imp | `drafts/02-pink-ashwing-imp-source.png` | `drafts/02-pink-ashwing-imp-reference-256.png` | 2026-07-28 | 153 px | 38 px | Pass |
-| 03 | Hooktail Ember Thief | `drafts/03-hooktail-ember-thief-source.png` | `drafts/03-hooktail-ember-thief-reference-256.png` | 2026-07-28 | 195 px | 44 px | Pass |
-| 04 | Goat-Headed Censer Raider | `drafts/04-goat-headed-censer-raider-source.png` | `drafts/04-goat-headed-censer-raider-reference-256.png` | 2026-07-28 | 221 px | 64 px | Pass |
-| 05 | Ram-Skull Pyromancer | `drafts/05-ram-skull-pyromancer-source.png` | `drafts/05-ram-skull-pyromancer-reference-256.png` | 2026-07-28 | 239 px | 66 px | Pass |
-| 06 | Emberhorn Brute | `drafts/06-emberhorn-brute-source.png` | `drafts/06-emberhorn-brute-reference-256.png` | 2026-07-28 | 204 px | 88 px | Pass |
-| 07 | Furnace Ram | `drafts/07-furnace-ram-source.png` | `drafts/07-furnace-ram-reference-256.png` | 2026-07-28 | 182 px | 58 px | Pass |
-| 08 | Coal-Maw Hellhound | `drafts/08-coal-maw-hellhound-source.png` | `drafts/08-coal-maw-hellhound-reference-256.png` | 2026-07-28 | 122 px | 46 px | Pass |
-| 09 | Ragwing Flesh Harrier | `drafts/09-ragwing-flesh-harrier-source.png` | `drafts/09-ragwing-flesh-harrier-reference-256.png` | 2026-07-28 | 215 px | 68 px | Pass |
-| 10 | Flesh-Bell Fiend | `drafts/10-flesh-bell-fiend-source.png` | `drafts/10-flesh-bell-fiend-reference-256.png` | 2026-07-28 | 220 px | 64 px | Pass |
-| 11 | Soot-Tongue Hexer | `drafts/11-soot-tongue-hexer-source.png` | `drafts/11-soot-tongue-hexer-reference-256.png` | 2026-07-28 | 211 px | 58 px | Pass |
-| 12 | Sinew Crawler | `drafts/12-sinew-crawler-source.png` | `drafts/12-sinew-crawler-reference-256.png` | 2026-07-28 | 154 px | 54 px | Pass |
-| 13 | Pyre Beetle Fiend | `drafts/13-pyre-beetle-fiend-source.png` | `drafts/13-pyre-beetle-fiend-reference-256.png` | 2026-07-28 | 156 px | 52 px | Pass |
-| 14 | Scarlet Chain Warden | `drafts/14-scarlet-chain-warden-source.png` | `drafts/14-scarlet-chain-warden-reference-256.png` | 2026-07-28 | 237 px | 86 px | Pass |
-| 15 | Crowned Gatefiend | `drafts/15-crowned-gatefiend-source.png` | `drafts/15-crowned-gatefiend-reference-256.png` | 2026-07-28 | 234 px | 92 px | Pass |
+| 01 | Cinder Imp Scout | `drafts/01-cinder-imp-scout-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/01-cinder-imp-scout-reference-256.png` | 2026-07-28 | 143 px | 42 px | Pass |
+| 02 | Pink Ashwing Imp | `drafts/02-pink-ashwing-imp-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/02-pink-ashwing-imp-reference-256.png` | 2026-07-28 | 153 px | 38 px | Pass |
+| 03 | Hooktail Ember Thief | `drafts/03-hooktail-ember-thief-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/03-hooktail-ember-thief-reference-256.png` | 2026-07-28 | 195 px | 44 px | Pass |
+| 04 | Goat-Headed Censer Raider | `drafts/04-goat-headed-censer-raider-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/04-goat-headed-censer-raider-reference-256.png` | 2026-07-28 | 221 px | 64 px | Pass |
+| 05 | Ram-Skull Pyromancer | `drafts/05-ram-skull-pyromancer-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/05-ram-skull-pyromancer-reference-256.png` | 2026-07-28 | 239 px | 66 px | Pass |
+| 06 | Emberhorn Brute | `drafts/06-emberhorn-brute-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/06-emberhorn-brute-reference-256.png` | 2026-07-28 | 204 px | 88 px | Pass |
+| 07 | Furnace Ram | `drafts/07-furnace-ram-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/07-furnace-ram-reference-256.png` | 2026-07-28 | 182 px | 58 px | Pass |
+| 08 | Coal-Maw Hellhound | `drafts/08-coal-maw-hellhound-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/08-coal-maw-hellhound-reference-256.png` | 2026-07-28 | 122 px | 46 px | Pass |
+| 09 | Ragwing Flesh Harrier | `drafts/09-ragwing-flesh-harrier-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/09-ragwing-flesh-harrier-reference-256.png` | 2026-07-28 | 215 px | 68 px | Pass |
+| 10 | Flesh-Bell Fiend | `drafts/10-flesh-bell-fiend-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/10-flesh-bell-fiend-reference-256.png` | 2026-07-28 | 220 px | 64 px | Pass |
+| 11 | Soot-Tongue Hexer | `drafts/11-soot-tongue-hexer-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/11-soot-tongue-hexer-reference-256.png` | 2026-07-28 | 211 px | 58 px | Pass |
+| 12 | Sinew Crawler | `drafts/12-sinew-crawler-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/12-sinew-crawler-reference-256.png` | 2026-07-28 | 154 px | 54 px | Pass |
+| 13 | Pyre Beetle Fiend | `drafts/13-pyre-beetle-fiend-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/13-pyre-beetle-fiend-reference-256.png` | 2026-07-28 | 156 px | 52 px | Pass |
+| 14 | Scarlet Chain Warden | `drafts/14-scarlet-chain-warden-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/14-scarlet-chain-warden-reference-256.png` | 2026-07-28 | 237 px | 86 px | Pass |
+| 15 | Crowned Gatefiend | `drafts/15-crowned-gatefiend-source.png` | `site/public/art/enemies/infernal-demons-batch-11/drafts/15-crowned-gatefiend-reference-256.png` | 2026-07-28 | 234 px | 92 px | Pass |
 
 ## Rejected generation passes
 

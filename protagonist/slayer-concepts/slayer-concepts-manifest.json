@@ -1,0 +1,26 @@
+{
+  "collection": "slayer-concepts",
+  "status": "draft",
+  "assets": [
+    {
+      "source": "protagonist/slayer-concepts/drafts/01-flood-bell-harpooner-source.png",
+      "reference_256": "site/public/art/protagonist/slayer-concepts/drafts/01-flood-bell-harpooner-reference-256.png"
+    },
+    {
+      "source": "protagonist/slayer-concepts/drafts/02-salt-loom-hunter-source.png",
+      "reference_256": "site/public/art/protagonist/slayer-concepts/drafts/02-salt-loom-hunter-reference-256.png"
+    },
+    {
+      "source": "protagonist/slayer-concepts/drafts/03-ashglass-pistolier-source.png",
+      "reference_256": "site/public/art/protagonist/slayer-concepts/drafts/03-ashglass-pistolier-reference-256.png"
+    },
+    {
+      "source": "protagonist/slayer-concepts/drafts/04-rootbound-outcast-source.png",
+      "reference_256": "site/public/art/protagonist/slayer-concepts/drafts/04-rootbound-outcast-reference-256.png"
+    },
+    {
+      "source": "protagonist/slayer-concepts/drafts/05-thunder-jar-breaker-source.png",
+      "reference_256": "site/public/art/protagonist/slayer-concepts/drafts/05-thunder-jar-breaker-reference-256.png"
+    }
+  ]
+}

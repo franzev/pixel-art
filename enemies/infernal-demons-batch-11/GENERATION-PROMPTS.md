@@ -20,8 +20,8 @@ Before generating anything, read these files completely:
 Inspect these two approved references only for the project's warm-dark staging,
 connected shapes, and small-character readability:
 
-- `pixel-art/enemies/cultists-demons-batch-02/11-candlehorn-familiar-reference-256.png`
-- `pixel-art/enemies/cultists-demons-batch-02/17-ashback-stag-reference-256.png`
+- `site/public/art/enemies/cultists-demons-batch-02/11-candlehorn-familiar-reference-256.png`
+- `site/public/art/enemies/cultists-demons-batch-02/17-ashback-stag-reference-256.png`
 
 Generate 15 original infernal demon enemies for a 2D gothic Metroidvania.
 The desired mood is aggressive, grim, bestial, and hell-spawned: imps,
@@ -104,7 +104,7 @@ Gameplay silhouette: quick ground scout and ankle-level slasher.
 Save as:
 
 - `drafts/01-cinder-imp-scout-source.png`
-- `drafts/01-cinder-imp-scout-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/01-cinder-imp-scout-reference-256.png`
 
 ### 02 — Pink Ashwing Imp
 
@@ -119,7 +119,7 @@ Gameplay silhouette: fragile flying caster with a clearly telegraphed projectile
 Save as:
 
 - `drafts/02-pink-ashwing-imp-source.png`
-- `drafts/02-pink-ashwing-imp-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/02-pink-ashwing-imp-reference-256.png`
 
 ### 03 — Hooktail Ember Thief
 
@@ -134,7 +134,7 @@ Gameplay silhouette: evasive support enemy that steals or relocates fire.
 Save as:
 
 - `drafts/03-hooktail-ember-thief-source.png`
-- `drafts/03-hooktail-ember-thief-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/03-hooktail-ember-thief-reference-256.png`
 
 ### 04 — Goat-Headed Censer Raider
 
@@ -149,7 +149,7 @@ Gameplay silhouette: medium-range swinging weapon with delayed ember bursts.
 Save as:
 
 - `drafts/04-goat-headed-censer-raider-source.png`
-- `drafts/04-goat-headed-censer-raider-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/04-goat-headed-censer-raider-reference-256.png`
 
 ### 05 — Ram-Skull Pyromancer
 
@@ -165,7 +165,7 @@ Gameplay silhouette: stationary fire caster with a tall horn-and-staff profile.
 Save as:
 
 - `drafts/05-ram-skull-pyromancer-source.png`
-- `drafts/05-ram-skull-pyromancer-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/05-ram-skull-pyromancer-reference-256.png`
 
 ### 06 — Emberhorn Brute
 
@@ -182,7 +182,7 @@ points. Do not give it armor, a cape, or a heroic knight stance.
 Save as:
 
 - `drafts/06-emberhorn-brute-source.png`
-- `drafts/06-emberhorn-brute-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/06-emberhorn-brute-reference-256.png`
 
 ### 07 — Furnace Ram
 
@@ -198,7 +198,7 @@ Gameplay silhouette: fast horizontal charge and brief overheated recovery.
 Save as:
 
 - `drafts/07-furnace-ram-source.png`
-- `drafts/07-furnace-ram-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/07-furnace-ram-reference-256.png`
 
 ### 08 — Coal-Maw Hellhound
 
@@ -213,7 +213,7 @@ Gameplay silhouette: rapid leap attacker that leaves a short-lived ember bite.
 Save as:
 
 - `drafts/08-coal-maw-hellhound-source.png`
-- `drafts/08-coal-maw-hellhound-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/08-coal-maw-hellhound-reference-256.png`
 
 ### 09 — Ragwing Flesh Harrier
 
@@ -230,7 +230,7 @@ spear, legs, and wings.
 Save as:
 
 - `drafts/09-ragwing-flesh-harrier-source.png`
-- `drafts/09-ragwing-flesh-harrier-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/09-ragwing-flesh-harrier-reference-256.png`
 
 ### 10 — Flesh-Bell Fiend
 
@@ -247,7 +247,7 @@ fused anatomy.
 Save as:
 
 - `drafts/10-flesh-bell-fiend-source.png`
-- `drafts/10-flesh-bell-fiend-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/10-flesh-bell-fiend-reference-256.png`
 
 ### 11 — Soot-Tongue Hexer
 
@@ -263,7 +263,7 @@ Gameplay silhouette: curse caster with three clearly countable delayed bolts.
 Save as:
 
 - `drafts/11-soot-tongue-hexer-source.png`
-- `drafts/11-soot-tongue-hexer-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/11-soot-tongue-hexer-reference-256.png`
 
 ### 12 — Sinew Crawler
 
@@ -280,7 +280,7 @@ surge forward.
 Save as:
 
 - `drafts/12-sinew-crawler-source.png`
-- `drafts/12-sinew-crawler-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/12-sinew-crawler-reference-256.png`
 
 ### 13 — Pyre Beetle Fiend
 
@@ -295,7 +295,7 @@ Gameplay silhouette: armored ground enemy whose back opens briefly to vent heat.
 Save as:
 
 - `drafts/13-pyre-beetle-fiend-source.png`
-- `drafts/13-pyre-beetle-fiend-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/13-pyre-beetle-fiend-reference-256.png`
 
 ### 14 — Scarlet Chain Warden
 
@@ -312,7 +312,7 @@ shield, or cape.
 Save as:
 
 - `drafts/14-scarlet-chain-warden-source.png`
-- `drafts/14-scarlet-chain-warden-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/14-scarlet-chain-warden-reference-256.png`
 
 ### 15 — Crowned Gatefiend
 
@@ -332,7 +332,7 @@ countable.
 Save as:
 
 - `drafts/15-crowned-gatefiend-source.png`
-- `drafts/15-crowned-gatefiend-reference-256.png`
+- `site/public/art/enemies/infernal-demons-batch-11/drafts/15-crowned-gatefiend-reference-256.png`
 
 ## Saving and review workflow
 

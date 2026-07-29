@@ -27,7 +27,7 @@ mechanically wearable, human-proportioned holy knights.
 
 - [x] Realism constraints defined
 - [x] Five replacement prompts prepared
-- [ ] Five generated sources saved
+- [ ] Five generated sources saved (2 of 5 complete)
 - [ ] Five 256 × 256 references saved
 - [ ] Comparison sheet assembled
 - [ ] Wearability and proportion review completed

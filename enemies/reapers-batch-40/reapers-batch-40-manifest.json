@@ -1,0 +1,68 @@
+{
+  "batch": "reapers-batch-40",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "soot black",
+      "charcoal",
+      "dirty ivory",
+      "weathered brown",
+      "dull iron"
+    ],
+    "accent": [
+      "moon silver",
+      "muted violet",
+      "slate cyan",
+      "ember orange"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant body palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Rice-Wake Reaper",
+      "status": "draft",
+      "role": "low advancing lane sweeper",
+      "source": "enemies/reapers-batch-40/drafts/01-rice-wake-reaper-source.png",
+      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/01-rice-wake-reaper-reference-256.png"
+    },
+    {
+      "id": 2,
+      "name": "Funeral-Lane Reaper",
+      "status": "draft",
+      "role": "upright passage controller",
+      "source": "enemies/reapers-batch-40/drafts/02-funeral-lane-reaper-source.png",
+      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/02-funeral-lane-reaper-reference-256.png"
+    },
+    {
+      "id": 3,
+      "name": "Severed-Thread Reaper",
+      "status": "draft",
+      "role": "reactive counter-duelist",
+      "source": "enemies/reapers-batch-40/drafts/03-severed-thread-reaper-source.png",
+      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/03-severed-thread-reaper-reference-256.png"
+    },
+    {
+      "id": 4,
+      "name": "Drowned-Road Reaper",
+      "status": "draft",
+      "role": "planted puller",
+      "source": "enemies/reapers-batch-40/drafts/04-drowned-road-reaper-source.png",
+      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/04-drowned-road-reaper-reference-256.png"
+    },
+    {
+      "id": 5,
+      "name": "Ember-Writ Reaper",
+      "status": "draft",
+      "role": "drifting delayed executioner",
+      "source": "enemies/reapers-batch-40/drafts/05-ember-writ-reaper-source.png",
+      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/05-ember-writ-reaper-reference-256.png"
+    }
+  ],
+  "review_sheet": "enemies/reapers-batch-40/drafts/reapers-batch-40-draft-review-sheet.png"
+}
+

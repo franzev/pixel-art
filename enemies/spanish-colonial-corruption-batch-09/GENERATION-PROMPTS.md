@@ -1,8 +1,8 @@
 # Spanish Colonial Corruption Batch 09 — Generation Prompts
 
-**Workflow:** Built-in image generation, one separate call per active design  
-**Status:** Unapproved replacement drafts  
-**Date:** 2026-07-28
+**Workflow:** Built-in image generation, one separate call per generated design  
+**Status:** Unapproved replacement drafts with two preserved rejected passes  
+**Date:** 2026-07-28; specialist and support/siege extensions added 2026-07-29
 
 ## Shared direction
 
@@ -180,6 +180,216 @@ the leg have become angular silver-blue crystalline flesh. Use a rigid
 fractured zigzag posture. The normal hand aims one revolver; the altered hand
 holds the hilt of one fully sheathed sabre. No floating shards, mirrors,
 sparkles, or detached effects.
+
+## Specialist extension
+
+Assets 21–30 use the same full-redraw, anatomy, backdrop, pixel-treatment, and
+historical restrictions above. An additional uniqueness constraint prohibited
+the familiar straw-hat rifleman, bayonet charger, white-capacete Guardia,
+shovel sapper, and dark revolver-and-sabre officer silhouettes. Each prompt
+instead specified a different service branch, uniform cut, headgear, tool,
+posture, and integrated transformation.
+
+### 21 — Coral-Eaten Marine Sentry
+
+Create an Infantería de Marina landing-party sentry in an almost-white naval
+marine blouse and trousers, broad deep-navy sailor collar, blue anchor-badged
+barracks cap, white gaiters, dark belt, and cartridge pouch. Replace the left
+cheek, neck, shoulder, arm, side ribs, hand, and lower leg with dirty
+ivory-and-coral-red branching reef anatomy that makes the whole body list
+sideways. Give him one low naval boarding cutlass and one compact carbine
+secured across the back. No water, fish, bubbles, seaweed, floor reef, or
+floating coral.
+
+### 22 — Bronze-Throated Mountain Gunner
+
+Create a mountain-artillery crewman in a pale tropical service jacket with
+broad red collar and cuffs, dark-crimson forage cap, heavy leather gunner
+apron, broad crossbelt, and stout boots. Transform the jaw, throat, sternum,
+right shoulder, arm, and hand into a single dull-bronze mass whose chest flares
+like a cracked bell or cannon mouth. Brace the legs backward and place one long
+artillery sponge-rammer horizontally in both hands. No cannon, cannonball,
+rifle, smoke, sparks, or flame.
+
+### 23 — Bridle-Faced Cavalry Trooper
+
+Create a horseless cavalryman in a fitted pale riding jacket with strong red
+collar and cuffs, dark indigo riding breeches, tall black boots with spurs,
+gloves, and compact black peaked riding cap. Sink dark bridle leather into the
+face, jaw, ribs, wrists, and knees as anatomical bands; one iron bit replaces
+the mouth and yanks the body into a high-stepping gait. Give him one curved
+Model 1895 cavalry sabre. No horse, hooves, reins trailing into space, centaur
+anatomy, rifle, pistol, or lance.
+
+### 24 — Ledger-Skinned Philippine Carabinero
+
+Create a port-customs Carabinero in a short bottle-blue double-breasted
+service jacket, narrow silver piping, pale tropical trousers, flat dark kepi,
+black belt, cartridge pouch, and customs key ring. Turn the face, neck, chest,
+left arm, hand, and shins into layered parchment anatomy with ruled ink lines
+and restrained embedded customs stamps, folding the torso like a closing
+ledger. Give the normal hand one short carbine held muzzle-down. No floating
+pages, books, quills, loose seals, sabre, or white capacete.
+
+### 25 — Boiler-Swollen Naval Stoker
+
+Create an Asiatic Squadron engine-room rating in a soot-black sleeveless naval
+work shirt, deep-navy wide sailor trousers, faded red neckerchief, dark work
+cap, belt, and heavy shoes. Swell the abdomen, ribs, spine, left shoulder, arm,
+and five-fingered hand into rounded black iron boiler anatomy with restrained
+copper seams, forcing a deep forward hunch. Make him drag one broad coal shovel
+behind the body. No army tunic, exposed furnace opening, smoke, steam, flame,
+coal pile, pipes, rifle, or cutlass.
+
+### 26 — Wire-Nerve Military Telegraphist
+
+Create an engineer-signals specialist in a short indigo technical jacket,
+silver-violet piping, close trousers, gaiters, soft side cap, tool belt, and
+leather strap. Run copper filaments beneath the skin of the face, forearms,
+hands, and shins, pulling the limbs into an angular signal-like posture. Fuse
+one wooden wire reel into the upper back and strap one field telegraph key box
+against the abdomen, with one hand permanently pressing its key. No trailing
+wires, loose coils, sparks, lightning, rifle, or sabre.
+
+### 27 — Salt-Cured Colonial Quartermaster
+
+Create a Military Administration commissary in an ochre-tan pocketed service
+tunic, mustard collar tabs, dark waxed-canvas apron, brown trousers, round
+forage cap, ledger strap, and ankle boots. Grow the shoulders and ribs around
+one closed wooden ration chest as a box-shaped humped torso, with its iron
+bands continuing around the body like ribs. Calcify the face, hands, and lower
+legs into chunky salt anatomy. Place one long ration scoop in both hands. No
+food, rats, loose salt, floor crystals, rifle, or second tool.
+
+### 28 — Suture-Faced Military Surgeon
+
+Create a medical officer in a pale-blue high-collared coat with restrained gold
+medical braid, white knee-length surgeon's apron, dark trousers, pale peaked
+medical cap, long leather gloves, and one doctor's case. Make the face smooth
+and mouthless with one vertical suture line and one embedded pair of round
+spectacles over dim eyes; lengthen the neck and bend the elbows slightly
+backward. Give him one small surgical bone saw and one closed case. No plague
+mask, blood, patient, floating instruments, rifle, or sabre.
+
+### 29 — Brass-Lung Expeditionary Bugler
+
+Create a campaign bugler in a pale compact jacket with red collar and cuffs,
+one red-and-gold shoulder cord, dark-blue trousers, white gaiters, and crimson
+forage cap. Transform the jaw, throat, sternum, and ribs into corrugated brass
+bellows anatomy. Make exactly one brass bugle emerge continuously from the
+mouth and chest while both hands grip its tubing; arch the body backward on one
+raised heel. No second horn, sound rings, musical notes, smoke, rifle, or sabre.
+
+### 30 — Wax-Drowned Garrison Chaplain
+
+Create a military chaplain attached to the garrison in an ankle-length black
+tropical cassock slit over campaign trousers and boots, white clerical collar,
+broad low black hat with faded violet cord, narrow field belt, and book
+satchel. Transform the face, neck, forearms, hands, and front cassock folds into
+solid dirty-ivory wax anatomy with sealed eyes and mouth and one short unlit
+wick beneath the hat. Give him one closed field prayer book held to the chest
+and one small brass handbell held low. No halo, cross floating in space,
+candles, flame, smoke, wax puddle, firearm, or second object.
+
+## Rejected support and siege extension
+
+Assets 31–40 were generated as another full-redraw set, then rejected by the
+user after review. Every source, 256 reference, prompt record, and comparison
+sheet is preserved under `rejected/support-siege-extension/`; none count as
+active, retained, canonical, or approved production references.
+
+The prompts had explicitly prohibited all prior corruption materials and the
+recurring rifleman, Guardia, sapper, officer, marine, gunner, cavalry-trooper,
+Carabinero, stoker, telegraphist, quartermaster, surgeon, bugler, and chaplain
+silhouettes. They are retained below only as a record of the unsuccessful
+direction.
+
+### 31 — Copper-Skull Arsenal Diver
+
+Create a Spanish Navy arsenal salvage diver in a bulky dark canvas diving
+dress, round copper helmet, weighted belt, and lead boots. Fuse the helmet into
+the skull so its three viewports become uneven sockets and pressure-crush the
+waist beneath the heavy head and shoulders. Give him one short iron salvage
+pry bar held low. No hose, rope, anchor, water, bubbles, coral, tentacles, or
+sea scenery.
+
+### 32 — Many-Eyed Coastal Rangefinder
+
+Create a plaza-artillery coastal observer in a short navy tropical jacket with
+muted-red piping, off-white trousers, boots, and low flat cap. Replace the
+upper face with one horizontal brass rangefinder fused through the skull; its
+exactly two objective lenses are the eyes. Give him one folded brass tripod
+staff. No cannon, rifle, binoculars, extra eyes, beams, glow, or floating
+lenses.
+
+### 33 — Black-Yeast Camp Baker
+
+Create a military camp baker in a dirty cream smock, flour apron, checked brown
+trousers, soft work cap, belt, and black shoes. Swell the torso and one shoulder
+into uneven proofed-dough anatomy split by matte-black yeast fissures. Give him
+one long wooden oven peel. No bread, oven, sacks, food, airborne flour, firearm,
+or cookware.
+
+### 34 — Horseshoe-Spined Cavalry Farrier
+
+Create a dismounted cavalry farrier in a rolled-sleeve gray-blue work shirt,
+muted-red cavalry cap, dark leather smithing apron, riding trousers, and tall
+boots. Grow a backward crest of wrought-iron horseshoe arcs from the spine and
+fuse smaller crescents into the existing forearms and jaw. Place one
+square-faced forge hammer in both hands. No horse, anvil, tongs, forge, fire,
+sparks, sword, or rifle.
+
+### 35 — Drum-Heart Regimental Drummer
+
+Create a tropical regimental drummer in a cropped pale-blue musician's jacket,
+muted-red trim, dark trousers, forage cap, and restrained red-and-gold cords.
+Transform the lower chest and abdomen into one closed snare-drum body whose
+rope tensioning grows into the jacket seams. Give him exactly two drumsticks,
+one per hand. No external drum, exposed organ, bugle, sound graphics, firearm,
+or extra sticks.
+
+### 36 — Powder-Bloom Magazine Keeper
+
+Create a fortress magazine keeper in a charcoal anti-spark smock, cloth hood,
+waist sash, and soft shoes. Pack one shoulder, the hood, and one thigh with
+solid attached black-powder blooms while compressing the opposite side of the
+body. Put one broad wooden powder scoop in both hands. No keg, gun, lantern,
+flame, sparks, smoke, loose ammunition, or floating dust.
+
+### 37 — Mercury-Sick Field Pharmacist
+
+Create a military pharmacy assistant in a cream medical work coat with
+violet collar, mustard sash, dark trousers, boots, and soft service cap.
+Liquefy one cheek, one forearm, and both calves into dense attached mercury
+slumps while preserving one head and four readable limbs. Have both hands
+cradle one closed wooden medicine chest. No surgical tools, bottles, puddles,
+detached droplets, crystal, mirror shards, wax, or firearm.
+
+### 38 — Flag-Shrouded Standard Bearer
+
+Create a regimental standard bearer with glimpses of rayadillo, dark trousers,
+red sash, and black boots. Make one worn red-and-muted-gold standard grow
+through and around his torso, head, and one leg as a constricting living shroud
+still attached to one tall wooden pole. Keep only one eye and part of the mouth
+visible through cloth apertures. No second flag, readable emblem, slogan,
+floating scraps, heroic cape, wind effect, rifle, or sword.
+
+### 39 — Lantern-Faced Fortress Watchman
+
+Create a coastal-fortress night watchman in a short charcoal oilskin coat,
+deep hood, navy trousers, belt, and boots. Replace the face with one compact
+brass bullseye lantern whose shutter slit is the only eye and whose jaw grille
+forms the mouth. Give him one iron-shod watch staff. No handheld lamp, second
+lantern, glow, light rays, flame, smoke, rain, keys, firearm, or building.
+
+### 40 — Semaphore-Torn Naval Signalman
+
+Create a Spanish Navy signalman in a dark sailor blouse, off-white trousers,
+black shoes, red neckerchief, and flat sailor cap. Grow red-and-ochre flag cloth
+through both forearms, forcing one arm steeply up-left and the other straight
+right in a broken semaphore pose. Give him exactly two small signal flags, one
+in each hand. No extra arms, hands, flags, floating cloth, wind effect, ship,
+rope, firearm, or sword.
 
 ## Rejected first pass
 

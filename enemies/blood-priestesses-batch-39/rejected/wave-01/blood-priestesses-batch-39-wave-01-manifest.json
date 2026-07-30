@@ -1,0 +1,67 @@
+{
+  "batch": "blood-priestesses-batch-39",
+  "status": "rejected",
+  "generated": "2026-07-30",
+  "reference": "enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-source.png",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "muted indigo",
+      "ash violet",
+      "weathered abaca",
+      "dirty ivory",
+      "worn bronze",
+      "worn copper"
+    ],
+    "accent": [
+      "controlled deep crimson"
+    ],
+    "background": "#120f0e",
+    "forbidden": [
+      "green background",
+      "red-dominant body"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Blood-Cup Interdictor",
+      "status": "rejected",
+      "source": "enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor-source.png",
+      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor-reference-256.png"
+    },
+    {
+      "id": 2,
+      "name": "Vein-Cord Processional",
+      "status": "rejected",
+      "source": "enemies/blood-priestesses-batch-39/rejected/wave-01/02-vein-cord-processional-source.png",
+      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/rejected/wave-01/02-vein-cord-processional-reference-256.png"
+    },
+    {
+      "id": 3,
+      "name": "Red-Edge Sacristan",
+      "status": "rejected",
+      "source": "enemies/blood-priestesses-batch-39/rejected/wave-01/03-red-edge-sacristan-source.png",
+      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/rejected/wave-01/03-red-edge-sacristan-reference-256.png"
+    },
+    {
+      "id": 4,
+      "name": "Tithe-Basin Canoness",
+      "status": "rejected",
+      "source": "enemies/blood-priestesses-batch-39/rejected/wave-01/04-tithe-basin-canoness-source.png",
+      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/rejected/wave-01/04-tithe-basin-canoness-reference-256.png"
+    },
+    {
+      "id": 5,
+      "name": "Blood-Diamond Hierophant",
+      "status": "rejected",
+      "source": "enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant-source.png",
+      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant-reference-256.png"
+    }
+  ],
+  "review_sheet": "enemies/blood-priestesses-batch-39/rejected/wave-01/blood-priestesses-batch-39-draft-review-sheet.png",
+  "prompt_record": "enemies/blood-priestesses-batch-39/rejected/wave-01/GENERATION-PROMPTS.md",
+  "retained_count": 0,
+  "canonical_changes": false
+}

@@ -1,0 +1,63 @@
+{
+  "batch": "horrifying-knights-batch-37",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "ash grey",
+      "dirty ivory",
+      "dull iron",
+      "weathered bronze"
+    ],
+    "accents": [
+      "pale slate-cyan",
+      "controlled ember orange",
+      "dirty-ivory balete root",
+      "tarnished copper"
+    ],
+    "background": "#171311",
+    "forbidden": [
+      "green background",
+      "red-dominant body palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Three-Nail Silence Executioner",
+      "status": "draft",
+      "source": "enemies/horrifying-knights-batch-37/drafts/01-three-nail-silence-executioner-source.png",
+      "reference_256": "site/public/art/enemies/horrifying-knights-batch-37/drafts/01-three-nail-silence-executioner-reference-256.png"
+    },
+    {
+      "id": 2,
+      "name": "Undertow Road-Lancer",
+      "status": "draft",
+      "source": "enemies/horrifying-knights-batch-37/drafts/02-undertow-road-lancer-source.png",
+      "reference_256": "site/public/art/enemies/horrifying-knights-batch-37/drafts/02-undertow-road-lancer-reference-256.png"
+    },
+    {
+      "id": 3,
+      "name": "Three-Seal Black-Wax Sentinel",
+      "status": "draft",
+      "source": "enemies/horrifying-knights-batch-37/drafts/03-three-seal-black-wax-sentinel-source.png",
+      "reference_256": "site/public/art/enemies/horrifying-knights-batch-37/drafts/03-three-seal-black-wax-sentinel-reference-256.png"
+    },
+    {
+      "id": 4,
+      "name": "Balete-Yoke Jailer",
+      "status": "draft",
+      "source": "enemies/horrifying-knights-batch-37/drafts/04-balete-yoke-jailer-source.png",
+      "reference_256": "site/public/art/enemies/horrifying-knights-batch-37/drafts/04-balete-yoke-jailer-reference-256.png"
+    },
+    {
+      "id": 5,
+      "name": "Empty-Vigil Mourner",
+      "status": "draft",
+      "source": "enemies/horrifying-knights-batch-37/drafts/05-empty-vigil-mourner-source.png",
+      "reference_256": "site/public/art/enemies/horrifying-knights-batch-37/drafts/05-empty-vigil-mourner-reference-256.png"
+    }
+  ],
+  "review_sheet": "enemies/horrifying-knights-batch-37/drafts/horrifying-knights-batch-37-draft-review-sheet.png"
+}

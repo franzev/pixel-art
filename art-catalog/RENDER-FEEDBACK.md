@@ -3712,8 +3712,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 ### Briar Bolt Skirmisher
 
 - Render ID: `rnd_8cf1ccd21ec7dbb6decf5ee1`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/04-briar-bolt-skirmisher.png`
-- Collection: Crown Of Thorns Female Knights Batch 38
+- Path: `enemies/crown-of-thorns-female-knights-batch-37/drafts/04-briar-bolt-skirmisher.png`
+- Collection: Crown Of Thorns Female Knights Batch 37
 - Rating: 1/5
 - Decision: delete
 - Defects: None recorded
@@ -3725,8 +3725,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 ### Crown Burden Montante Marshal
 
 - Render ID: `rnd_54ab11418ba5295dd15da894`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/05-crown-burden-montante-marshal.png`
-- Collection: Crown Of Thorns Female Knights Batch 38
+- Path: `enemies/crown-of-thorns-female-knights-batch-37/drafts/05-crown-burden-montante-marshal.png`
+- Collection: Crown Of Thorns Female Knights Batch 37
 - Rating: 3/5
 - Decision: delete
 - Defects: Weapon handling (fatal), Wrong proportions (fatal)
@@ -3738,8 +3738,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 ### Root Hammer Penitent
 
 - Render ID: `rnd_71666d720103fbcda1c5a43e`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent.png`
-- Collection: Crown Of Thorns Female Knights Batch 38
+- Path: `enemies/crown-of-thorns-female-knights-batch-37/drafts/03-root-hammer-penitent.png`
+- Collection: Crown Of Thorns Female Knights Batch 37
 - Rating: 1/5
 - Decision: delete
 - Defects: None recorded
@@ -11592,10 +11592,10 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Shrouded Ferryman** — 1/5; delete; None recorded; Core Enemies
 - **Tallow Walker** — 1/5; delete; None recorded; Core Enemies
 - **Threadbare Host** — 1/5; delete; None recorded; Core Enemies
-- **Briar Bolt Skirmisher** — 1/5; delete; None recorded; Crown Of Thorns Female Knights Batch 38
+- **Briar Bolt Skirmisher** — 1/5; delete; None recorded; Crown Of Thorns Female Knights Batch 37
+- **Crown Burden Montante Marshal** — 3/5; delete; Weapon handling (fatal), Wrong proportions (fatal); Crown Of Thorns Female Knights Batch 37
+- **Root Hammer Penitent** — 1/5; delete; None recorded; Crown Of Thorns Female Knights Batch 37
 - **Briar Point Justiciar** — 5/5; keep; None recorded; Crown Of Thorns Female Knights Batch 38
-- **Crown Burden Montante Marshal** — 3/5; delete; Weapon handling (fatal), Wrong proportions (fatal); Crown Of Thorns Female Knights Batch 38
-- **Root Hammer Penitent** — 1/5; delete; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Thorn Gate Poleaxe Sentinel** — 4/5; reject; Bent / crooked weapon (major), Wrong proportions (major); Crown Of Thorns Female Knights Batch 38
 - **Ash Briar Falchion Reeve** — 5/5; keep; None recorded; Crown Of Thorns Knights Batch 40
 - **Ash Matchlock Ordinance Knight** — 4/5; keep; None recorded; Crown Of Thorns Knights Batch 40

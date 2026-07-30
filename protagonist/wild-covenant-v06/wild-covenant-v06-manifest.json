@@ -1,0 +1,77 @@
+{
+  "collection": "Wild Covenant v06",
+  "faction": "neutral",
+  "date": "2026-07-29",
+  "status": "draft",
+  "use_case": "stylized-concept",
+  "generation_mode": "built-in image generation",
+  "originality": "Original text-only briefs; no visual game references supplied.",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": [256, 256],
+  "entries": [
+    {
+      "id": "01",
+      "name": "Mosscloak Marcher",
+      "source": "drafts/01-mosscloak-marcher-source.png",
+      "reference": "drafts/01-mosscloak-marcher-reference-256.png"
+    },
+    {
+      "id": "02",
+      "name": "Grove-Gate Warden",
+      "source": "drafts/02-grove-gate-warden-source.png",
+      "reference": "drafts/02-grove-gate-warden-reference-256.png"
+    },
+    {
+      "id": "03",
+      "name": "Fen-Reed Sentinel",
+      "source": "drafts/03-fen-reed-sentinel-source.png",
+      "reference": "drafts/03-fen-reed-sentinel-reference-256.png"
+    },
+    {
+      "id": "04",
+      "name": "Granite-Pass Keeper",
+      "source": "drafts/04-granite-pass-keeper-source.png",
+      "reference": "drafts/04-granite-pass-keeper-reference-256.png"
+    },
+    {
+      "id": "05",
+      "name": "Birch-Oath Axeguard",
+      "source": "drafts/05-birch-oath-axeguard-source.png",
+      "reference": "drafts/05-birch-oath-axeguard-reference-256.png"
+    },
+    {
+      "id": "06",
+      "name": "Tidewatch Freeblade",
+      "source": "drafts/06-tidewatch-freeblade-source.png",
+      "reference": "drafts/06-tidewatch-freeblade-reference-256.png"
+    },
+    {
+      "id": "07",
+      "name": "Orchard Hook Knight",
+      "source": "drafts/07-orchard-hook-knight-source.png",
+      "reference": "drafts/07-orchard-hook-knight-reference-256.png"
+    },
+    {
+      "id": "08",
+      "name": "Storm-Rook Cavalier",
+      "source": "drafts/08-storm-rook-cavalier-source.png",
+      "reference": "drafts/08-storm-rook-cavalier-reference-256.png"
+    },
+    {
+      "id": "09",
+      "name": "Rootbound Hermit",
+      "source": "drafts/09-rootbound-hermit-source.png",
+      "reference": "drafts/09-rootbound-hermit-reference-256.png"
+    },
+    {
+      "id": "10",
+      "name": "Moon-Moth Watcher",
+      "source": "drafts/10-moon-moth-watcher-source.png",
+      "reference": "drafts/10-moon-moth-watcher-reference-256.png"
+    }
+  ],
+  "review_sheet": "wild-covenant-v06-review-sheet.png",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status_notes": "STATUS.md"
+}

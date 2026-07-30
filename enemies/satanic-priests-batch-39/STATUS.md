@@ -87,11 +87,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant-reference-256.png`
-- `site/public/art/enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional-reference-256.png`
-- `site/public/art/enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-reference-256.png`
-- `site/public/art/enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-reference-256.png`
-- `site/public/art/enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-reference-256.png`
+- `public/art/enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant-reference-256.png`
+- `public/art/enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional-reference-256.png`
+- `public/art/enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-reference-256.png`
+- `public/art/enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-reference-256.png`
+- `public/art/enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-reference-256.png`
 
 Review sheet:
 

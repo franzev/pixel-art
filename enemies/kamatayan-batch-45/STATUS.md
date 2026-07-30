@@ -54,7 +54,7 @@ funerary stillness. It does not rely on a Western skull-and-scythe archetype.
 
 - Full sources: `enemies/kamatayan-batch-45/drafts/`
 - 256 references:
-  `site/public/art/enemies/kamatayan-batch-45/drafts/`
+  `public/art/enemies/kamatayan-batch-45/drafts/`
 - Review sheet:
   `enemies/kamatayan-batch-45/drafts/kamatayan-batch-45-draft-review-sheet.png`
 - Prompt record: `enemies/kamatayan-batch-45/GENERATION-PROMPTS.md`

@@ -59,7 +59,7 @@ approved, retained, canonical, or production-ready.
 
 - Sources: `enemies/iron-maidens-batch-34/drafts/`
 - Website references:
-  `site/public/art/enemies/iron-maidens-batch-34/drafts/`
+  `public/art/enemies/iron-maidens-batch-34/drafts/`
 - Review sheet:
   `enemies/iron-maidens-batch-34/drafts/iron-maidens-batch-34-draft-review-sheet.png`
 - Prompt record: `enemies/iron-maidens-batch-34/GENERATION-PROMPTS.md`

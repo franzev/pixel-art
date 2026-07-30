@@ -23,7 +23,7 @@ Continue building and validating a fast, local-first system for reviewing a grow
 - The database is the organization layer. Existing folders remain the storage/provenance layer; do not reorganize the live archive while generation is active.
 - Lifecycle state remains internal provenance only. The gallery no longer exposes a retained/draft/rejected filter or badges because the user reviews every render together.
 - Collection filtering uses autocomplete-backed checkbox results and removable chips rather than rendering the full collection list.
-- Originals stay in their collection folders. Browser-ready 256 px references live under `site/public/art`; high-resolution sources should not be placed there.
+- Originals stay in their collection folders. Browser-ready 256 px references live under `public/art`; high-resolution sources should not be placed there.
 - Render IDs and asset hashes are content-based and stable.
 - This remains local-only for now: no deployment, authentication, or cloud storage.
 - Importing is incremental and skips incomplete PNG files so active image generation can continue safely.
@@ -35,11 +35,11 @@ The existing gallery now includes a Review entry point and a full-screen review 
 
 Important files:
 
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/ReviewDesk.tsx`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/useReviewStore.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/review-types.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/ArchiveGallery.tsx`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/globals.css`
+- `/Users/franz/Work/Personal/me/pixel-art/app/ReviewDesk.tsx`
+- `/Users/franz/Work/Personal/me/pixel-art/app/useReviewStore.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/app/review-types.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/app/ArchiveGallery.tsx`
+- `/Users/franz/Work/Personal/me/pixel-art/app/globals.css`
 
 Keyboard controls:
 
@@ -64,19 +64,19 @@ The app offers queues for unreviewed, all, correction, rerender, redesign, dupli
 
 Catalog sync:
 
-- `/Users/franz/Work/Personal/me/pixel-art/site/scripts/sync-art.mjs`
+- `/Users/franz/Work/Personal/me/pixel-art/scripts/sync-art.mjs`
 
 The sync process validates the PNG end marker, ignores files still being written, computes SHA-256 hashes and stable `rnd_…` IDs, and derives conservative tag suggestions from paths and filenames.
 
 Local database and API:
 
-- `/Users/franz/Work/Personal/me/pixel-art/site/db/schema.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/db/runtime.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/db/catalog.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/api/catalog/route.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/api/reviews/route.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/app/api/export/route.ts`
-- `/Users/franz/Work/Personal/me/pixel-art/site/drizzle/0000_optimal_jackal.sql`
+- `/Users/franz/Work/Personal/me/pixel-art/db/schema.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/db/runtime.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/db/catalog.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/app/api/catalog/route.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/app/api/reviews/route.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/app/api/export/route.ts`
+- `/Users/franz/Work/Personal/me/pixel-art/drizzle/0000_optimal_jackal.sql`
 
 Tables cover renders, reviews, tags, defects, and review events. `.openai/hosting.json` declares the logical local database binding as `DB`. Do not deploy unless the user changes the local-only requirement.
 
@@ -89,7 +89,7 @@ The app exports reviewed records to:
 
 Exporter:
 
-- `/Users/franz/Work/Personal/me/pixel-art/site/scripts/export-feedback.mjs`
+- `/Users/franz/Work/Personal/me/pixel-art/scripts/export-feedback.mjs`
 
 The development process refreshes these exports approximately every three seconds. Only rated/reviewed records are exported. The export preserves user decisions, ratings, confirmed or rejected tag states, defects, feedback, next-attempt guidance, duplicate relationships, deletion status, and user-review provenance.
 
@@ -127,7 +127,7 @@ Collection folders also contain `STATUS.md`, generation prompts, manifests, and 
 
 The older full archive-integrity suite has one passing and three failing checks caused by ongoing generation and pre-existing archive state:
 
-1. Some collection folders now contain website-ready reference copies that duplicate files under `site/public/art`.
+1. Some collection folders now contain website-ready reference copies that duplicate files under `public/art`.
 2. The hash-duplicate check detects the same copies.
 3. At least one active manifest contains an unqualified path such as `drafts/01-stag-crown-lancer-source.png`, which is interpreted incorrectly from the repository root.
 

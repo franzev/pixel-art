@@ -27,35 +27,35 @@
       "name": "Ashen-Palm Hierophant",
       "status": "draft",
       "source": "enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant-source.png",
-      "reference_256": "site/public/art/enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant-reference-256.png"
+      "reference_256": "public/art/enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant-reference-256.png"
     },
     {
       "id": 2,
       "name": "Chain-Censer Processional",
       "status": "draft",
       "source": "enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional-source.png",
-      "reference_256": "site/public/art/enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional-reference-256.png"
+      "reference_256": "public/art/enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional-reference-256.png"
     },
     {
       "id": 3,
       "name": "Black-Gospel Cantor",
       "status": "draft",
       "source": "enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-source.png",
-      "reference_256": "site/public/art/enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-reference-256.png"
+      "reference_256": "public/art/enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-reference-256.png"
     },
     {
       "id": 4,
       "name": "Capiz-Eclipse Deacon",
       "status": "draft",
       "source": "enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-source.png",
-      "reference_256": "site/public/art/enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-reference-256.png"
+      "reference_256": "public/art/enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-reference-256.png"
     },
     {
       "id": 5,
       "name": "Bolo Confessor",
       "status": "draft",
       "source": "enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-source.png",
-      "reference_256": "site/public/art/enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-reference-256.png"
+      "reference_256": "public/art/enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-reference-256.png"
     }
   ],
   "review_sheet": "enemies/satanic-priests-batch-39/drafts/satanic-priests-batch-39-draft-review-sheet.png"

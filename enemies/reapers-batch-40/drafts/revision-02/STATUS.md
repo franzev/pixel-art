@@ -21,7 +21,7 @@ Draft. Nothing in this folder is approved, retained canon, or production-ready.
 - `reapers-batch-40-revision-02-draft-review-sheet.png`: 1280 × 256
   side-by-side review sheet.
 - Matching nearest-neighbor 256 × 256 references live at
-  `site/public/art/enemies/reapers-batch-40/drafts/revision-02/`.
+  `public/art/enemies/reapers-batch-40/drafts/revision-02/`.
 
 ## Prompt record
 

@@ -71,7 +71,7 @@ primary tool or effect, garment construction, and movement implication:
 
 - Sources: `enemies/evil-monks-batch-38/drafts/`
 - Website references:
-  `site/public/art/enemies/evil-monks-batch-38/drafts/`
+  `public/art/enemies/evil-monks-batch-38/drafts/`
 - Review sheet:
   `enemies/evil-monks-batch-38/drafts/evil-monks-batch-38-draft-review-sheet.png`
 - Prompt record: `enemies/evil-monks-batch-38/GENERATION-PROMPTS.md`

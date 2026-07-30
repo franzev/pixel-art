@@ -15,7 +15,7 @@
       "role": "low advancing lane sweeper",
       "source": "enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper-source.png",
       "generated_original": "enemies/reapers-batch-40/drafts/revision-02/generated-originals/01-rice-wake-reaper-generated.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper-reference-256.png"
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
       "role": "upright passage controller",
       "source": "enemies/reapers-batch-40/drafts/revision-02/02-funeral-lane-reaper-source.png",
       "generated_original": "enemies/reapers-batch-40/drafts/revision-02/generated-originals/02-funeral-lane-reaper-generated.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/revision-02/02-funeral-lane-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/revision-02/02-funeral-lane-reaper-reference-256.png"
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "role": "reactive counter-duelist",
       "source": "enemies/reapers-batch-40/drafts/revision-02/03-severed-thread-reaper-source.png",
       "generated_original": "enemies/reapers-batch-40/drafts/revision-02/generated-originals/03-severed-thread-reaper-generated.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/revision-02/03-severed-thread-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/revision-02/03-severed-thread-reaper-reference-256.png"
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
       "role": "planted puller",
       "source": "enemies/reapers-batch-40/drafts/revision-02/04-drowned-road-reaper-source.png",
       "generated_original": "enemies/reapers-batch-40/drafts/revision-02/generated-originals/04-drowned-road-reaper-generated.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/revision-02/04-drowned-road-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/revision-02/04-drowned-road-reaper-reference-256.png"
     },
     {
       "id": 5,
@@ -47,7 +47,7 @@
       "role": "drifting delayed executioner",
       "source": "enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper-source.png",
       "generated_original": "enemies/reapers-batch-40/drafts/revision-02/generated-originals/05-ember-writ-reaper-generated.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper-reference-256.png"
     }
   ],
   "review_sheet": "enemies/reapers-batch-40/drafts/revision-02/reapers-batch-40-revision-02-draft-review-sheet.png"

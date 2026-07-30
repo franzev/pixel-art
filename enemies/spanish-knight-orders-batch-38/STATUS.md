@@ -85,11 +85,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/spanish-knight-orders-batch-38/drafts/01-black-montante-processional-reference-256.png`
-- `site/public/art/enemies/spanish-knight-orders-batch-38/drafts/02-ash-adarga-counterduelist-reference-256.png`
-- `site/public/art/enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer-reference-256.png`
-- `site/public/art/enemies/spanish-knight-orders-batch-38/drafts/04-soot-sallet-crossbow-castellan-reference-256.png`
-- `site/public/art/enemies/spanish-knight-orders-batch-38/drafts/05-ivory-gorget-mace-penitent-reference-256.png`
+- `public/art/enemies/spanish-knight-orders-batch-38/drafts/01-black-montante-processional-reference-256.png`
+- `public/art/enemies/spanish-knight-orders-batch-38/drafts/02-ash-adarga-counterduelist-reference-256.png`
+- `public/art/enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer-reference-256.png`
+- `public/art/enemies/spanish-knight-orders-batch-38/drafts/04-soot-sallet-crossbow-castellan-reference-256.png`
+- `public/art/enemies/spanish-knight-orders-batch-38/drafts/05-ivory-gorget-mace-penitent-reference-256.png`
 
 Review sheet:
 

@@ -59,7 +59,7 @@ silhouette was copied.
 
 - Sources: `enemies/blood-cult-sadists-batch-39/drafts/`
 - Website references:
-  `site/public/art/enemies/blood-cult-sadists-batch-39/drafts/`
+  `public/art/enemies/blood-cult-sadists-batch-39/drafts/`
 - Review sheet:
   `enemies/blood-cult-sadists-batch-39/drafts/blood-cult-sadists-batch-39-draft-review-sheet.png`
 - Prompt record: `enemies/blood-cult-sadists-batch-39/GENERATION-PROMPTS.md`

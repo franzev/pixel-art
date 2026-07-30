@@ -87,19 +87,19 @@ Rejected Wave 2 sources pending deletion:
 
 Active Wave 1 website references:
 
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/01-porcelain-pike-sentinel-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/02-kiln-split-maul-bearer-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/03-cobalt-transfer-bolo-duelist-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/04-funeral-tile-crossbowman-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/05-copper-stitch-hook-warden-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/01-porcelain-pike-sentinel-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/02-kiln-split-maul-bearer-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/03-cobalt-transfer-bolo-duelist-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/04-funeral-tile-crossbowman-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/05-copper-stitch-hook-warden-reference-256.png`
 
 Rejected Wave 2 website references pending deletion:
 
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/06-braided-crown-pike-marshal-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/07-blunt-bob-kiln-breaker-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/08-coiled-knot-bolo-duelist-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/09-side-braid-tile-arbalist-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/10-loose-wave-hook-warden-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/06-braided-crown-pike-marshal-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/07-blunt-bob-kiln-breaker-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/08-coiled-knot-bolo-duelist-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/09-side-braid-tile-arbalist-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/10-loose-wave-hook-warden-reference-256.png`
 
 Active Wave 1 review sheet:
 

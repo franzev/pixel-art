@@ -475,12 +475,12 @@ Full source:
 
 Nearest-neighbor 256×256 reference:
 
-`site/public/art/enemies/redeemed-demons-batch-22/drafts/NN-<slug>-reference-256.png`
+`public/art/enemies/redeemed-demons-batch-22/drafts/NN-<slug>-reference-256.png`
 
 Examples:
 
 - `enemies/redeemed-demons-batch-22/drafts/01-broken-horn-shieldbearer-source.png`
-- `site/public/art/enemies/redeemed-demons-batch-22/drafts/01-broken-horn-shieldbearer-reference-256.png`
+- `public/art/enemies/redeemed-demons-batch-22/drafts/01-broken-horn-shieldbearer-reference-256.png`
 
 Never save a 256×256 reference beside its full source. Never place unapproved source art or references in a retained directory.
 

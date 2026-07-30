@@ -28,7 +28,7 @@
       "name": "Inverted-Rood Spine Lancer",
       "status": "draft",
       "source": "enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer-source.png",
-      "reference_256": "site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer-reference-256.png",
+      "reference_256": "public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer-reference-256.png",
       "role": "reach-control sentinel"
     },
     {
@@ -36,7 +36,7 @@
       "name": "Downcast-Visor Estoc Duelist",
       "status": "draft",
       "source": "enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist-source.png",
-      "reference_256": "site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist-reference-256.png",
+      "reference_256": "public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist-reference-256.png",
       "role": "punish-and-counter duelist"
     },
     {
@@ -44,7 +44,7 @@
       "name": "Hollow-Rood Gauntlet Pursuer",
       "status": "draft",
       "source": "enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer-source.png",
-      "reference_256": "site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer-reference-256.png",
+      "reference_256": "public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer-reference-256.png",
       "role": "close-range capture and shove"
     },
     {
@@ -52,7 +52,7 @@
       "name": "Downward-Vow Arbalist",
       "status": "draft",
       "source": "enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist-source.png",
-      "reference_256": "site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist-reference-256.png",
+      "reference_256": "public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist-reference-256.png",
       "role": "ranged artillery"
     },
     {
@@ -60,7 +60,7 @@
       "name": "Inverted-Rood Ward Cantor",
       "status": "draft",
       "source": "enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor-source.png",
-      "reference_256": "site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor-reference-256.png",
+      "reference_256": "public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor-reference-256.png",
       "role": "hovering barrier and control"
     }
   ],

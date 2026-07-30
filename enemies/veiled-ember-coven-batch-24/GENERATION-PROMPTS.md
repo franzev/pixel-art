@@ -50,7 +50,7 @@ placement, hood silhouette, or facial profile.
 - Save accepted full sources under
   `enemies/veiled-ember-coven-batch-24/drafts/`.
 - Save nearest-neighbor 256×256 references only under
-  `site/public/art/enemies/veiled-ember-coven-batch-24/drafts/`.
+  `public/art/enemies/veiled-ember-coven-batch-24/drafts/`.
 - Keep everything draft-only until explicit user approval.
 
 ## Roster

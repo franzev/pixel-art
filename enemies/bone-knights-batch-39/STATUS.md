@@ -47,11 +47,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/bone-knights-batch-39/drafts/01-abaca-gatewarden-reference-256.png`
-- `site/public/art/enemies/bone-knights-batch-39/drafts/02-harvest-hook-puller-reference-256.png`
-- `site/public/art/enemies/bone-knights-batch-39/drafts/03-wax-sealed-votary-reference-256.png`
-- `site/public/art/enemies/bone-knights-batch-39/drafts/04-river-toll-bolo-duelist-reference-256.png`
-- `site/public/art/enemies/bone-knights-batch-39/drafts/05-monsoon-javelin-hunter-reference-256.png`
+- `public/art/enemies/bone-knights-batch-39/drafts/01-abaca-gatewarden-reference-256.png`
+- `public/art/enemies/bone-knights-batch-39/drafts/02-harvest-hook-puller-reference-256.png`
+- `public/art/enemies/bone-knights-batch-39/drafts/03-wax-sealed-votary-reference-256.png`
+- `public/art/enemies/bone-knights-batch-39/drafts/04-river-toll-bolo-duelist-reference-256.png`
+- `public/art/enemies/bone-knights-batch-39/drafts/05-monsoon-javelin-hunter-reference-256.png`
 
 Review sheet:
 

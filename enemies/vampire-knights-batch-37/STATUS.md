@@ -104,21 +104,21 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/01-sable-fang-rapieress-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/02-funeral-pike-lane-keeper-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/03-capiz-bolt-arbalist-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/04-coffin-veil-pavise-warden-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/05-night-bloom-execution-knight-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/06-bare-sleeve-sabre-pursuer-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/07-moon-draw-warbow-huntress-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/08-ash-waist-mace-breaker-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/09-bare-calf-halberd-sentinel-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/10-pale-throat-hex-captain-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/11-bare-arm-cestus-grappler-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/12-split-fauld-thighguard-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/13-sleeveless-glaive-harrier-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/14-split-fauld-sledgehammer-breaker-reference-256.png`
-- `site/public/art/enemies/vampire-knights-batch-37/drafts/15-bare-arm-ashlock-arquebusier-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/01-sable-fang-rapieress-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/02-funeral-pike-lane-keeper-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/03-capiz-bolt-arbalist-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/04-coffin-veil-pavise-warden-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/05-night-bloom-execution-knight-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/06-bare-sleeve-sabre-pursuer-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/07-moon-draw-warbow-huntress-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/08-ash-waist-mace-breaker-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/09-bare-calf-halberd-sentinel-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/10-pale-throat-hex-captain-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/11-bare-arm-cestus-grappler-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/12-split-fauld-thighguard-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/13-sleeveless-glaive-harrier-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/14-split-fauld-sledgehammer-breaker-reference-256.png`
+- `public/art/enemies/vampire-knights-batch-37/drafts/15-bare-arm-ashlock-arquebusier-reference-256.png`
 
 Review sheet:
 

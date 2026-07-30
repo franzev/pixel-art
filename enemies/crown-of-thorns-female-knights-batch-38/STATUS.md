@@ -142,7 +142,7 @@ continuous shaft and two visible load-bearing grips.
 - Sources:
   `enemies/crown-of-thorns-female-knights-batch-38/drafts/`
 - Website references:
-  `site/public/art/enemies/crown-of-thorns-female-knights-batch-38/drafts/`
+  `public/art/enemies/crown-of-thorns-female-knights-batch-38/drafts/`
 - Review sheet:
   `enemies/crown-of-thorns-female-knights-batch-38/drafts/crown-of-thorns-female-knights-batch-38-draft-review-sheet.png`
 - Prompt record:

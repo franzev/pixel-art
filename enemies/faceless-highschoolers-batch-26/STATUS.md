@@ -7,9 +7,9 @@
 
 | ID | Draft | Role | Source | Reference |
 | --- | --- | --- | --- | --- |
-| 01 | Blank-ID Commuter | Quick pursuit/evasion runner | `drafts/01-blank-id-commuter-source.png` | `site/public/art/enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-reference-256.png` |
-| 02 | Rain-Duty Sentinel | Still umbrella area-denial silhouette | `drafts/02-rain-duty-sentinel-source.png` | `site/public/art/enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-reference-256.png` |
-| 03 | Screenlight Lingerer | Slow phone-signal controller | `drafts/03-screenlight-lingerer-source.png` | `site/public/art/enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-reference-256.png` |
+| 01 | Blank-ID Commuter | Quick pursuit/evasion runner | `drafts/01-blank-id-commuter-source.png` | `public/art/enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-reference-256.png` |
+| 02 | Rain-Duty Sentinel | Still umbrella area-denial silhouette | `drafts/02-rain-duty-sentinel-source.png` | `public/art/enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-reference-256.png` |
+| 03 | Screenlight Lingerer | Slow phone-signal controller | `drafts/03-screenlight-lingerer-source.png` | `public/art/enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-reference-256.png` |
 
 ## Quality-control summary
 

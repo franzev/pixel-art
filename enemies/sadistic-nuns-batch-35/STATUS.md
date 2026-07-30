@@ -80,7 +80,7 @@ moved to the collection's `rejected/` folders. They are not positive references.
 
 - Sources: `enemies/sadistic-nuns-batch-35/drafts/`
 - Website references:
-  `site/public/art/enemies/sadistic-nuns-batch-35/drafts/`
+  `public/art/enemies/sadistic-nuns-batch-35/drafts/`
 - Review sheet:
   `enemies/sadistic-nuns-batch-35/drafts/sadistic-nuns-batch-35-draft-review-sheet-v03.png`
 - Original five-character review sheet:

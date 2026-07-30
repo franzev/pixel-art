@@ -35,11 +35,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:filipino-mythic",
-        "label": "Filipino mythic",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:aswang",
+        "label": "Aswang",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -79,11 +86,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:filipino-mythic",
-        "label": "Filipino mythic",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:aswang",
+        "label": "Aswang",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -123,11 +137,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:filipino-mythic",
-        "label": "Filipino mythic",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:aswang",
+        "label": "Aswang",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -167,11 +188,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:filipino-mythic",
-        "label": "Filipino mythic",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:aswang",
+        "label": "Aswang",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -211,11 +239,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:skeleton",
-        "label": "Skeleton",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:aswang",
+        "label": "Aswang",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -260,6 +295,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:nature-spirit",
+        "label": "Nature spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -297,6 +339,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:nature-spirit",
+        "label": "Nature spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -334,6 +383,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -378,6 +441,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -417,18 +494,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -466,6 +543,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -512,6 +603,20 @@
         "confidence": 1
       },
       {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
         "key": "effect:blood",
         "label": "Blood",
         "group": "effect",
@@ -556,11 +661,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:ghost",
+        "key": "race:ghost",
         "label": "Ghost",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -598,6 +710,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -635,6 +761,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -672,6 +812,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -709,6 +863,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -746,6 +914,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -783,6 +965,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -820,6 +1016,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -866,6 +1076,20 @@
         "confidence": 1
       },
       {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
         "key": "effect:blood",
         "label": "Blood",
         "group": "effect",
@@ -908,6 +1132,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -954,11 +1192,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -1012,11 +1257,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -1070,11 +1322,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1121,11 +1380,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -1179,11 +1445,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1230,11 +1503,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1281,11 +1561,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1332,11 +1619,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1383,11 +1677,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1434,11 +1735,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1485,11 +1793,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1536,11 +1851,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1587,11 +1909,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1638,11 +1967,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1689,11 +2025,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1740,11 +2083,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -1798,11 +2148,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1849,11 +2206,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1900,11 +2264,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -1951,11 +2322,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2002,11 +2380,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2014,13 +2399,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2060,11 +2438,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2072,13 +2457,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2118,11 +2496,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2130,13 +2515,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2176,11 +2554,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -2195,13 +2580,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2241,11 +2619,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2253,13 +2638,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2299,11 +2677,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2311,13 +2696,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2357,11 +2735,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2369,13 +2754,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2415,11 +2793,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:undead",
-        "label": "Undead",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:hammer",
@@ -2434,13 +2819,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2480,11 +2858,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2492,13 +2877,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2538,11 +2916,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2550,13 +2935,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2596,11 +2974,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2608,13 +2993,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2654,11 +3032,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2666,13 +3051,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2712,11 +3090,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2724,13 +3109,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2770,11 +3148,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2782,13 +3167,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2828,11 +3206,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -2840,13 +3225,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -2886,11 +3264,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:skeleton",
+        "key": "race:skeleton",
         "label": "Skeleton",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -2930,11 +3308,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:skeleton",
+        "key": "race:skeleton",
         "label": "Skeleton",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -2974,11 +3352,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:skeleton",
+        "key": "race:skeleton",
         "label": "Skeleton",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3018,11 +3396,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:skeleton",
+        "key": "race:skeleton",
         "label": "Skeleton",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -3069,11 +3447,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:skeleton",
+        "key": "race:skeleton",
         "label": "Skeleton",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3113,18 +3491,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:masculine",
         "label": "Masculine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3164,18 +3542,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:masculine",
         "label": "Masculine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3215,18 +3593,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:masculine",
         "label": "Masculine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3266,11 +3644,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -3324,11 +3709,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3368,11 +3760,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3412,11 +3811,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3456,11 +3862,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3500,11 +3913,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3544,11 +3964,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3588,11 +4015,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -3639,11 +4073,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3683,11 +4124,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3725,6 +4173,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:undead",
+        "label": "Undead",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3764,11 +4219,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:ghost",
+        "key": "race:ghost",
         "label": "Ghost",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3806,6 +4261,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:undead",
+        "label": "Undead",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3843,6 +4305,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3880,6 +4349,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -3917,6 +4393,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -3961,6 +4444,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4000,11 +4490,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -4012,13 +4509,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -4056,6 +4546,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4095,18 +4599,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4146,18 +4650,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4197,11 +4701,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -4209,13 +4720,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -4253,6 +4757,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -4299,11 +4817,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:undead",
-        "label": "Undead",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -4348,6 +4873,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4387,11 +4926,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -4399,13 +4945,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -4445,11 +4984,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:celestial",
@@ -4457,13 +5003,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -4503,18 +5042,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4554,18 +5093,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4603,6 +5142,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4640,6 +5193,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4679,11 +5246,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4721,6 +5295,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4760,18 +5348,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4809,6 +5397,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -4862,18 +5464,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4911,6 +5513,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -4955,6 +5571,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -4994,11 +5624,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:ranged",
@@ -5006,13 +5643,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -5052,11 +5682,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:hammer",
@@ -5064,13 +5701,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -5110,18 +5740,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5159,6 +5789,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -5205,11 +5849,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -5217,13 +5868,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -5263,11 +5907,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -5275,13 +5926,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -5319,6 +5963,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5356,6 +6007,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghoul",
+        "label": "Ghoul",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5393,6 +6051,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5432,11 +6104,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5476,11 +6155,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5520,11 +6206,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5564,11 +6257,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:hammer",
@@ -5615,11 +6315,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5659,11 +6366,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5703,11 +6417,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5747,11 +6468,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -5798,11 +6526,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -5849,11 +6584,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5893,11 +6635,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -5937,11 +6686,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -5988,11 +6744,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -6039,11 +6802,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6083,11 +6853,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6127,11 +6904,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6169,6 +6953,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6206,6 +7004,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6243,6 +7055,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -6287,6 +7113,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6326,18 +7166,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6377,18 +7217,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6428,18 +7268,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6479,11 +7319,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -6530,6 +7370,13 @@
         "confidence": 1
       },
       {
+        "key": "race:demon",
+        "label": "Demon",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
         "key": "effect:celestial",
         "label": "Celestial",
         "group": "effect",
@@ -6574,11 +7421,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6618,11 +7472,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -6676,11 +7537,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:celestial",
@@ -6727,11 +7595,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -6771,11 +7646,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:celestial",
@@ -6822,11 +7704,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -6873,11 +7762,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -6924,11 +7820,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -6975,11 +7878,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7026,11 +7936,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7077,11 +7994,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7128,11 +8052,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7179,11 +8110,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7230,11 +8168,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7281,11 +8226,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7332,11 +8284,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7383,11 +8342,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:elf",
+        "label": "Elf",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7432,6 +8398,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:demon",
+        "label": "Demon",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7469,6 +8442,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:ghoul",
+        "label": "Ghoul",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7508,11 +8488,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7552,11 +8539,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:ghost",
-        "label": "Ghost",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7596,11 +8590,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:demon",
+        "key": "race:demon",
         "label": "Demon",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7640,11 +8634,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -7652,13 +8653,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -7698,18 +8692,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7749,11 +8743,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -7761,13 +8762,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -7807,11 +8801,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7851,11 +8852,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -7900,6 +8908,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7939,11 +8961,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -7981,6 +9010,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:vampire",
+        "label": "Vampire",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8020,18 +9063,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:undead",
-        "label": "Undead",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:zombie",
+        "label": "Zombie",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8069,6 +9112,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8106,6 +9163,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8145,11 +9216,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -8196,11 +9274,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8240,11 +9325,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8284,11 +9376,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -8335,11 +9434,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8377,6 +9483,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8414,6 +9527,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -8460,6 +9580,13 @@
         "confidence": 1
       },
       {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
         "key": "effect:fire",
         "label": "Fire or ember",
         "group": "effect",
@@ -8502,6 +9629,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8539,6 +9673,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8576,6 +9717,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8613,6 +9761,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8650,6 +9805,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:spirit",
+        "label": "Spirit",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8689,11 +9851,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8733,11 +9902,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8777,18 +9953,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8828,18 +10004,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8879,18 +10055,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8930,11 +10106,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -8974,11 +10157,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9018,18 +10208,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:masculine",
         "label": "Masculine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9069,18 +10259,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:masculine",
         "label": "Masculine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9120,11 +10310,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9164,11 +10361,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9208,11 +10412,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:celestial",
@@ -9259,11 +10470,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9303,11 +10521,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9345,6 +10570,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9384,11 +10623,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:filipino-mythic",
-        "label": "Filipino mythic",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:aswang",
+        "label": "Aswang",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9428,11 +10674,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:blood",
@@ -9477,6 +10730,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:undead",
+        "label": "Undead",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9514,6 +10781,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:zombie",
+        "label": "Zombie",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9551,6 +10832,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9588,6 +10883,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9625,6 +10934,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9662,6 +10985,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:human",
+        "label": "Human",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9701,11 +11038,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -9752,11 +11096,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9796,11 +11147,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -9847,18 +11205,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -9898,11 +11256,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -9910,13 +11275,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -9956,18 +11314,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10007,18 +11365,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10058,11 +11416,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -10070,13 +11435,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10116,18 +11474,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10167,18 +11525,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10218,11 +11576,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -10230,13 +11595,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10276,18 +11634,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10327,11 +11685,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -10346,13 +11711,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10392,18 +11750,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10443,11 +11801,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -10455,13 +11820,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10501,11 +11859,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -10513,13 +11878,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10559,11 +11917,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:ranged",
@@ -10578,13 +11943,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10624,11 +11982,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -10643,13 +12008,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10689,18 +12047,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10740,11 +12098,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -10752,13 +12117,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10798,11 +12156,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -10856,11 +12221,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -10900,11 +12272,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -10919,13 +12298,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:masculine",
-        "label": "Masculine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -10965,11 +12337,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11009,11 +12388,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11053,11 +12439,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:masculine",
+        "label": "Masculine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -11111,11 +12504,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -11123,13 +12523,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -11169,11 +12562,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -11220,11 +12620,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11264,11 +12671,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11308,11 +12722,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -11359,11 +12780,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11403,11 +12831,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11447,11 +12882,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11491,11 +12933,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11535,11 +12984,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11577,6 +13033,13 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:demon",
+        "label": "Demon",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -11623,6 +13086,13 @@
         "confidence": 1
       },
       {
+        "key": "race:demon",
+        "label": "Demon",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
         "key": "effect:fire",
         "label": "Fire or ember",
         "group": "effect",
@@ -11667,11 +13137,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -11679,13 +13156,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -11725,18 +13195,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11776,18 +13246,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11827,18 +13297,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11878,18 +13348,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -11929,11 +13399,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:hammer",
@@ -11941,13 +13418,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -11987,18 +13457,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12038,18 +13508,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12089,11 +13559,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -12108,13 +13585,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12154,18 +13624,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12205,18 +13675,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12256,11 +13726,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -12268,13 +13745,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12314,18 +13784,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12365,18 +13835,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12416,11 +13886,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -12428,13 +13905,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12474,11 +13944,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -12486,13 +13963,6 @@
         "group": "effect",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12532,18 +14002,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12583,11 +14053,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:axe",
@@ -12595,13 +14072,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12641,11 +14111,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -12653,13 +14130,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12699,11 +14169,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:spear",
@@ -12711,13 +14188,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12757,11 +14227,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:sword",
@@ -12769,13 +14246,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12815,18 +14285,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12866,18 +14336,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -12917,11 +14387,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "weapon:hammer",
@@ -12929,13 +14406,6 @@
         "group": "weapon",
         "source": "filename",
         "confidence": 0.82
-      },
-      {
-        "key": "gender-presentation:feminine",
-        "label": "Feminine presentation",
-        "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
       }
     ]
   },
@@ -12975,18 +14445,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13026,18 +14496,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13077,18 +14547,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13128,18 +14598,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13177,6 +14647,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:vampire",
+        "label": "Vampire",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13214,6 +14698,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:vampire",
+        "label": "Vampire",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13251,6 +14749,20 @@
         "group": "lifecycle",
         "source": "path",
         "confidence": 1
+      },
+      {
+        "key": "race:vampire",
+        "label": "Vampire",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13290,11 +14802,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13334,11 +14853,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13378,11 +14904,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13422,11 +14955,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:vampire",
+        "key": "race:vampire",
         "label": "Vampire",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
+      },
+      {
+        "key": "gender-presentation:feminine",
+        "label": "Feminine presentation",
+        "group": "gender-presentation",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13466,18 +15006,18 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
-        "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "key": "race:ghost",
+        "label": "Ghost",
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "gender-presentation:feminine",
         "label": "Feminine presentation",
         "group": "gender-presentation",
-        "source": "filename",
-        "confidence": 0.72
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13517,11 +15057,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:angel",
+        "key": "race:angel",
         "label": "Angel",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -13568,11 +15108,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:angel",
+        "key": "race:angel",
         "label": "Angel",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13612,11 +15152,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:angel",
+        "key": "race:angel",
         "label": "Angel",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -13663,11 +15203,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:angel",
+        "key": "race:angel",
         "label": "Angel",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -13714,11 +15254,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13758,11 +15298,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13802,11 +15342,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13846,11 +15386,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -13897,11 +15437,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13941,11 +15481,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   },
@@ -13985,11 +15525,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       },
       {
         "key": "effect:fire",
@@ -14036,11 +15576,11 @@
         "confidence": 1
       },
       {
-        "key": "body-plan:human",
+        "key": "race:human",
         "label": "Human",
-        "group": "body-plan",
-        "source": "filename",
-        "confidence": 0.82
+        "group": "race",
+        "source": "document",
+        "confidence": 0.98
       }
     ]
   }

@@ -89,11 +89,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden-reference-256.png`
-- `site/public/art/enemies/aswang-knights-batch-37/drafts/02-mortar-oath-heart-listener-reference-256.png`
-- `site/public/art/enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-reference-256.png`
-- `site/public/art/enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist-reference-256.png`
-- `site/public/art/enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-reference-256.png`
+- `public/art/enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden-reference-256.png`
+- `public/art/enemies/aswang-knights-batch-37/drafts/02-mortar-oath-heart-listener-reference-256.png`
+- `public/art/enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-reference-256.png`
+- `public/art/enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist-reference-256.png`
+- `public/art/enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-reference-256.png`
 
 Review sheet:
 

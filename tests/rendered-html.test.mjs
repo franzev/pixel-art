@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const testDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(testDir, "..");
-const repositoryDir = path.resolve(siteDir, "..");
+const repositoryDir = siteDir;
 
 async function walkFiles(directory, predicate) {
   const files = [];
@@ -243,8 +243,8 @@ test("collection manifests point to the single canonical render copy", async () 
       const render = asset.reference_256 ?? asset.reference;
       assert.ok(render, `Missing render path in ${manifest}`);
       assert.ok(
-        render.startsWith("site/public/art/"),
-        `Render is outside site/public/art in ${manifest}: ${render}`,
+        render.startsWith("public/art/"),
+        `Render is outside public/art in ${manifest}: ${render}`,
       );
       await access(path.join(repositoryDir, render));
     }

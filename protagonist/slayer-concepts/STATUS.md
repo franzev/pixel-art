@@ -15,7 +15,7 @@ Fifteen draft alternative player-character concepts.
 ## Paths
 
 - Sources: `protagonist/slayer-concepts/drafts/`
-- Website renders: `site/public/art/protagonist/slayer-concepts/drafts/`
+- Website renders: `public/art/protagonist/slayer-concepts/drafts/`
 
 ## Latest addition
 

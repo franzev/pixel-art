@@ -3,7 +3,7 @@
     "number": 1,
     "name": "01-hollow-beggar",
     "source": "enemies/core-enemies/01-hollow-beggar-source.png",
-    "reference": "site/public/art/enemies/core-enemies/01-hollow-beggar-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/01-hollow-beggar-reference-256.png",
     "bbox": {
       "left": 204,
       "top": 160,
@@ -15,7 +15,7 @@
     "number": 2,
     "name": "02-ash-washerwoman",
     "source": "enemies/core-enemies/02-ash-washerwoman-source.png",
-    "reference": "site/public/art/enemies/core-enemies/02-ash-washerwoman-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/02-ash-washerwoman-reference-256.png",
     "bbox": {
       "left": 167,
       "top": 85,
@@ -27,7 +27,7 @@
     "number": 3,
     "name": "03-crooked-bellman",
     "source": "enemies/core-enemies/03-crooked-bellman-source.png",
-    "reference": "site/public/art/enemies/core-enemies/03-crooked-bellman-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/03-crooked-bellman-reference-256.png",
     "bbox": {
       "left": 231,
       "top": 1,
@@ -39,7 +39,7 @@
     "number": 4,
     "name": "04-lanternback-hermit",
     "source": "enemies/core-enemies/04-lanternback-hermit-source.png",
-    "reference": "site/public/art/enemies/core-enemies/04-lanternback-hermit-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/04-lanternback-hermit-reference-256.png",
     "bbox": {
       "left": 159,
       "top": 145,
@@ -51,7 +51,7 @@
     "number": 5,
     "name": "05-dust-shepherd",
     "source": "enemies/core-enemies/05-dust-shepherd-source.png",
-    "reference": "site/public/art/enemies/core-enemies/05-dust-shepherd-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/05-dust-shepherd-reference-256.png",
     "bbox": {
       "left": 184,
       "top": 18,
@@ -63,7 +63,7 @@
     "number": 6,
     "name": "06-funeral-moth-keeper",
     "source": "enemies/core-enemies/06-funeral-moth-keeper-source.png",
-    "reference": "site/public/art/enemies/core-enemies/06-funeral-moth-keeper-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/06-funeral-moth-keeper-reference-256.png",
     "bbox": {
       "left": 159,
       "top": 36,
@@ -75,7 +75,7 @@
     "number": 7,
     "name": "07-mudbound-drifter",
     "source": "enemies/core-enemies/07-mudbound-drifter-source.png",
-    "reference": "site/public/art/enemies/core-enemies/07-mudbound-drifter-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/07-mudbound-drifter-reference-256.png",
     "bbox": {
       "left": 80,
       "top": 60,
@@ -87,7 +87,7 @@
     "number": 8,
     "name": "08-tallow-walker",
     "source": "enemies/core-enemies/08-tallow-walker-source.png",
-    "reference": "site/public/art/enemies/core-enemies/08-tallow-walker-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/08-tallow-walker-reference-256.png",
     "bbox": {
       "left": 384,
       "top": 10,
@@ -99,7 +99,7 @@
     "number": 9,
     "name": "09-shrouded-ferryman",
     "source": "enemies/core-enemies/09-shrouded-ferryman-source.png",
-    "reference": "site/public/art/enemies/core-enemies/09-shrouded-ferryman-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/09-shrouded-ferryman-reference-256.png",
     "bbox": {
       "left": 125,
       "top": 62,
@@ -111,7 +111,7 @@
     "number": 10,
     "name": "10-briar-widow",
     "source": "enemies/core-enemies/10-briar-widow-source.png",
-    "reference": "site/public/art/enemies/core-enemies/10-briar-widow-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/10-briar-widow-reference-256.png",
     "bbox": {
       "left": 228,
       "top": 36,
@@ -123,7 +123,7 @@
     "number": 11,
     "name": "11-empty-scribe",
     "source": "enemies/core-enemies/11-empty-scribe-source.png",
-    "reference": "site/public/art/enemies/core-enemies/11-empty-scribe-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/11-empty-scribe-reference-256.png",
     "bbox": {
       "left": 250,
       "top": 14,
@@ -135,7 +135,7 @@
     "number": 12,
     "name": "12-chapel-ragpicker",
     "source": "enemies/core-enemies/12-chapel-ragpicker-source.png",
-    "reference": "site/public/art/enemies/core-enemies/12-chapel-ragpicker-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/12-chapel-ragpicker-reference-256.png",
     "bbox": {
       "left": 229,
       "top": 79,
@@ -147,7 +147,7 @@
     "number": 13,
     "name": "13-pale-harvester",
     "source": "enemies/core-enemies/13-pale-harvester-source.png",
-    "reference": "site/public/art/enemies/core-enemies/13-pale-harvester-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/13-pale-harvester-reference-256.png",
     "bbox": {
       "left": 192,
       "top": 89,
@@ -159,7 +159,7 @@
     "number": 14,
     "name": "14-rain-drowned-monk",
     "source": "enemies/core-enemies/14-rain-drowned-monk-source.png",
-    "reference": "site/public/art/enemies/core-enemies/14-rain-drowned-monk-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/14-rain-drowned-monk-reference-256.png",
     "bbox": {
       "left": 285,
       "top": 79,
@@ -171,7 +171,7 @@
     "number": 15,
     "name": "15-mourning-jester",
     "source": "enemies/core-enemies/15-mourning-jester-source.png",
-    "reference": "site/public/art/enemies/core-enemies/15-mourning-jester-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/15-mourning-jester-reference-256.png",
     "bbox": {
       "left": 309,
       "top": 36,
@@ -183,7 +183,7 @@
     "number": 16,
     "name": "16-threadbare-host",
     "source": "enemies/core-enemies/16-threadbare-host-source.png",
-    "reference": "site/public/art/enemies/core-enemies/16-threadbare-host-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/16-threadbare-host-reference-256.png",
     "bbox": {
       "left": 190,
       "top": 0,
@@ -195,7 +195,7 @@
     "number": 17,
     "name": "17-candle-crowned-vagrant",
     "source": "enemies/core-enemies/17-candle-crowned-vagrant-source.png",
-    "reference": "site/public/art/enemies/core-enemies/17-candle-crowned-vagrant-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/17-candle-crowned-vagrant-reference-256.png",
     "bbox": {
       "left": 391,
       "top": 68,
@@ -207,7 +207,7 @@
     "number": 18,
     "name": "18-mirror-pilgrim",
     "source": "enemies/core-enemies/18-mirror-pilgrim-source.png",
-    "reference": "site/public/art/enemies/core-enemies/18-mirror-pilgrim-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/18-mirror-pilgrim-reference-256.png",
     "bbox": {
       "left": 322,
       "top": 27,
@@ -219,7 +219,7 @@
     "number": 19,
     "name": "19-rootfoot-ghoul",
     "source": "enemies/core-enemies/19-rootfoot-ghoul-source.png",
-    "reference": "site/public/art/enemies/core-enemies/19-rootfoot-ghoul-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/19-rootfoot-ghoul-reference-256.png",
     "bbox": {
       "left": 302,
       "top": 13,
@@ -231,7 +231,7 @@
     "number": 20,
     "name": "20-procession-keeper",
     "source": "enemies/core-enemies/20-procession-keeper-source.png",
-    "reference": "site/public/art/enemies/core-enemies/20-procession-keeper-reference-256.png",
+    "reference": "public/art/enemies/core-enemies/20-procession-keeper-reference-256.png",
     "bbox": {
       "left": 21,
       "top": 95,

@@ -51,7 +51,7 @@ The clearest liked reference was:
 
 Matching 256 reference:
 
-`site/public/art/enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-reference-256.png`
+`public/art/enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-reference-256.png`
 
 SHA-256:
 

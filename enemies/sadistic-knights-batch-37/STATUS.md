@@ -74,7 +74,7 @@ clearly separated links.
 
 - Sources: `enemies/sadistic-knights-batch-37/drafts/`
 - Website references:
-  `site/public/art/enemies/sadistic-knights-batch-37/drafts/`
+  `public/art/enemies/sadistic-knights-batch-37/drafts/`
 - Review sheet:
   `enemies/sadistic-knights-batch-37/drafts/sadistic-knights-batch-37-draft-review-sheet.png`
 - Prompt record: `enemies/sadistic-knights-batch-37/GENERATION-PROMPTS.md`

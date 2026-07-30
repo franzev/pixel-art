@@ -90,16 +90,16 @@ Full sources:
 
 Website references:
 
-- `site/public/art/enemies/treant-knights-batch-25/drafts/01-thorn-gate-warden-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/02-root-hook-reeve-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/03-hollow-trunk-arbalist-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/04-sap-censer-castellan-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/05-fallen-bough-lancer-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/06-fern-mantle-cleaver-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/07-vine-ring-binder-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/08-orchid-leaf-duelist-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/09-mossback-maul-guard-reference-256.png`
-- `site/public/art/enemies/treant-knights-batch-25/drafts/10-seed-vault-grenadier-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/01-thorn-gate-warden-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/02-root-hook-reeve-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/03-hollow-trunk-arbalist-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/04-sap-censer-castellan-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/05-fallen-bough-lancer-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/06-fern-mantle-cleaver-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/07-vine-ring-binder-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/08-orchid-leaf-duelist-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/09-mossback-maul-guard-reference-256.png`
+- `public/art/enemies/treant-knights-batch-25/drafts/10-seed-vault-grenadier-reference-256.png`
 
 Review sheet:
 

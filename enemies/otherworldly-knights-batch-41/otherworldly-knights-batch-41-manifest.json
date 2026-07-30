@@ -30,7 +30,7 @@
       "role": "pursuit lancer",
       "status": "draft",
       "source": "enemies/otherworldly-knights-batch-41/drafts/01-upward-rain-lancer-source.png",
-      "reference_256": "site/public/art/enemies/otherworldly-knights-batch-41/drafts/01-upward-rain-lancer-reference-256.png"
+      "reference_256": "public/art/enemies/otherworldly-knights-batch-41/drafts/01-upward-rain-lancer-reference-256.png"
     },
     {
       "id": 2,
@@ -38,7 +38,7 @@
       "role": "ranged artillery knight",
       "status": "draft",
       "source": "enemies/otherworldly-knights-batch-41/drafts/02-capiz-star-arquebusier-source.png",
-      "reference_256": "site/public/art/enemies/otherworldly-knights-batch-41/drafts/02-capiz-star-arquebusier-reference-256.png"
+      "reference_256": "public/art/enemies/otherworldly-knights-batch-41/drafts/02-capiz-star-arquebusier-reference-256.png"
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "role": "reactive counter-duelist",
       "status": "draft",
       "source": "enemies/otherworldly-knights-batch-41/drafts/03-folded-gate-counterguard-source.png",
-      "reference_256": "site/public/art/enemies/otherworldly-knights-batch-41/drafts/03-folded-gate-counterguard-reference-256.png"
+      "reference_256": "public/art/enemies/otherworldly-knights-batch-41/drafts/03-folded-gate-counterguard-reference-256.png"
     },
     {
       "id": 4,
@@ -54,7 +54,7 @@
       "role": "gravity controller",
       "status": "draft",
       "source": "enemies/otherworldly-knights-batch-41/drafts/04-cardinal-weight-warden-source.png",
-      "reference_256": "site/public/art/enemies/otherworldly-knights-batch-41/drafts/04-cardinal-weight-warden-reference-256.png"
+      "reference_256": "public/art/enemies/otherworldly-knights-batch-41/drafts/04-cardinal-weight-warden-reference-256.png"
     },
     {
       "id": 5,
@@ -62,7 +62,7 @@
       "role": "stationary barrier-caster",
       "status": "draft",
       "source": "enemies/otherworldly-knights-batch-41/drafts/05-noonless-eclipse-sentinel-source.png",
-      "reference_256": "site/public/art/enemies/otherworldly-knights-batch-41/drafts/05-noonless-eclipse-sentinel-reference-256.png"
+      "reference_256": "public/art/enemies/otherworldly-knights-batch-41/drafts/05-noonless-eclipse-sentinel-reference-256.png"
     }
   ],
   "review_sheet": "enemies/otherworldly-knights-batch-41/drafts/otherworldly-knights-batch-41-draft-review-sheet.png",

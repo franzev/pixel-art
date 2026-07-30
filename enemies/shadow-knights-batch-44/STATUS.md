@@ -58,7 +58,7 @@ shadows were used.
 
 - Full sources: `enemies/shadow-knights-batch-44/drafts/`
 - 256 references:
-  `site/public/art/enemies/shadow-knights-batch-44/drafts/`
+  `public/art/enemies/shadow-knights-batch-44/drafts/`
 - Review sheet:
   `enemies/shadow-knights-batch-44/drafts/shadow-knights-batch-44-draft-review-sheet.png`
 - Prompt record: `enemies/shadow-knights-batch-44/GENERATION-PROMPTS.md`

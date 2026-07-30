@@ -23,7 +23,7 @@ person or copying a recognizable external character.
 
 Full generated sources and the review sheet are under `drafts/`. Matching
 nearest-neighbor 256-pixel references are under
-`site/public/art/enemies/catholic-evil-white-priests-batch-41/drafts/`.
+`public/art/enemies/catholic-evil-white-priests-batch-41/drafts/`.
 
 Review sheet:
 

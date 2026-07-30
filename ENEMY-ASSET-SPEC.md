@@ -108,7 +108,7 @@ Rules:
 
 - Preserve the full square image returned by the image-generation workflow at
   full quality.
-- Save it directly under the matching `site/public/art/enemies/` path. That is
+- Save it directly under the matching `public/art/enemies/` path. That is
   its only home — never create a `-source` copy, a `-reference-256` downscale,
   or any other duplicate.
 - Do not overwrite, crop, stretch, or upscale it.
@@ -419,7 +419,7 @@ Root:
 
 Render root (the one home for images):
 
-`pixel-art/site/public/art/enemies/`
+`pixel-art/public/art/enemies/`
 
 Batch documents root (prompts, manifests, status):
 
@@ -427,7 +427,7 @@ Batch documents root (prompts, manifests, status):
 
 New numbered batch:
 
-`pixel-art/site/public/art/enemies/<theme>-batch-<NN>/`
+`pixel-art/public/art/enemies/<theme>-batch-<NN>/`
 
 Examples:
 
@@ -440,7 +440,7 @@ Use lowercase kebab-case. Batch numbers are two digits and never reused.
 ### Required retained-batch contents
 
 ```text
-site/public/art/enemies/<theme>-batch-<NN>/
+public/art/enemies/<theme>-batch-<NN>/
 ├── 01-<slug>.png
 └── ...
 
@@ -450,14 +450,14 @@ enemies/<theme>-batch-<NN>/
 └── <theme>-review-sheet.png
 ```
 
-The render lives once, at full quality, under `site/public/art/`. Never create
+The render lives once, at full quality, under `public/art/`. Never create
 a second copy anywhere — no `-source` pair, no `-reference-256` downscale.
 
 ### Drafts
 
 Unapproved or incomplete work goes in:
 
-`site/public/art/enemies/<theme>-batch-<NN>/drafts/`
+`public/art/enemies/<theme>-batch-<NN>/drafts/`
 
 Drafts:
 
@@ -473,7 +473,7 @@ Use:
 
 `<NN>-<slug>-v02.png`
 
-beside the original under its `site/public/art/enemies/` path.
+beside the original under its `public/art/enemies/` path.
 
 Update the manifest to identify the active version.
 
@@ -483,7 +483,7 @@ Use descriptive lowercase kebab-case.
 
 ### Per asset
 
-- Render (in `site/public/art/`): `<NN>-<slug>.png`
+- Render (in `public/art/`): `<NN>-<slug>.png`
 - `<NN>-<slug>-native-<width>x<height>.png`
 
 ### Batch support
@@ -539,7 +539,7 @@ Minimum structure:
       "id": 1,
       "name": "Readable Display Name",
       "status": "retained",
-      "render": "site/public/art/enemies/theme-batch-07/01-readable-display-name.png"
+      "render": "public/art/enemies/theme-batch-07/01-readable-display-name.png"
     }
   ],
   "review_sheet": "theme-review-sheet.png"
@@ -579,7 +579,7 @@ Do not create lore for rejected images. Draft lore may live in a batch
 ## 18. Retention and deletion
 
 - Preserve all retained full sources in their collection and all 256 references
-  under the matching `site/public/art/` path.
+  under the matching `public/art/` path.
 - Do not delete an approved source after making a smaller reference.
 - Rejected images should not remain in canonical batch folders.
 - If the user asks to delete a generation, remove its project files and remove it

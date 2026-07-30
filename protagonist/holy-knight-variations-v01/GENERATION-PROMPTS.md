@@ -7,7 +7,7 @@
 ## Input references
 
 - **Image 1 — canonical identity and pixel-treatment reference:**
-  `site/public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`
+  `public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`
 - **Image 2 — supporting armor, cape, sword, and proportion reference:**
   `samples/silver-knight/silver-knight-left-facing-source.png`
 

@@ -69,21 +69,21 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/01-blood-rein-lancer-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/02-moon-bridle-duelist-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/03-night-tithe-arbalist-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/04-pall-standard-marshal-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/05-coffin-mail-breaker-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/06-pale-court-swordguard-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/07-ashwood-spear-patrol-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/08-iron-tithe-maceguard-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/09-ivory-roundshield-escort-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/10-dusk-edge-axerider-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/11-blood-moon-lance-count-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/12-red-veil-sabre-countess-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/13-chalice-longsword-castellan-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/14-night-recurve-huntress-reference-256.png`
-- `site/public/art/enemies/vampire-horse-knights-batch-31/drafts/15-crimson-rein-spear-prince-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/01-blood-rein-lancer-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/02-moon-bridle-duelist-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/03-night-tithe-arbalist-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/04-pall-standard-marshal-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/05-coffin-mail-breaker-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/06-pale-court-swordguard-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/07-ashwood-spear-patrol-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/08-iron-tithe-maceguard-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/09-ivory-roundshield-escort-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/10-dusk-edge-axerider-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/11-blood-moon-lance-count-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/12-red-veil-sabre-countess-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/13-chalice-longsword-castellan-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/14-night-recurve-huntress-reference-256.png`
+- `public/art/enemies/vampire-horse-knights-batch-31/drafts/15-crimson-rein-spear-prince-reference-256.png`
 
 Review sheet:
 

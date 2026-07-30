@@ -62,11 +62,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/01-black-seal-daimyo-widow-reference-256.png`
-- `site/public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/02-silver-kiseru-baroness-reference-256.png`
-- `site/public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/03-obsidian-obi-heiress-reference-256.png`
-- `site/public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/04-ash-incense-dowager-reference-256.png`
-- `site/public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/05-moon-gate-naginata-matriarch-reference-256.png`
+- `public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/01-black-seal-daimyo-widow-reference-256.png`
+- `public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/02-silver-kiseru-baroness-reference-256.png`
+- `public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/03-obsidian-obi-heiress-reference-256.png`
+- `public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/04-ash-incense-dowager-reference-256.png`
+- `public/art/enemies/japanese-wealthy-vampires-batch-45/drafts/05-moon-gate-naginata-matriarch-reference-256.png`
 
 Review sheet:
 

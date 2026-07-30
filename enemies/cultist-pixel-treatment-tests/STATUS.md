@@ -19,4 +19,4 @@ Two draft pixel-treatment passes for three retained cultist subjects:
 
 - Sources: `enemies/cultist-pixel-treatment-tests/drafts/`
 - Website renders:
-  `site/public/art/enemies/cultist-pixel-treatment-tests/drafts/`
+  `public/art/enemies/cultist-pixel-treatment-tests/drafts/`

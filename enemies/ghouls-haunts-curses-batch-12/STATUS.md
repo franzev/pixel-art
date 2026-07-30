@@ -32,7 +32,7 @@ Primary problems identified:
 - Every rejected source retains its 256 × 256 nearest-neighbor reference.
 - A 4864 × 256 review sheet presents the nineteen rejected references in order.
 - Rejected first-pass sources remain under `rejected/first-pass/`; their
-  website renders remain under the matching `site/public/art/` path.
+  website renders remain under the matching `public/art/` path.
 - No design is retained or canonical.
 - The lore compendium, canonical counts, and batch registry have not been updated.
 
@@ -73,25 +73,25 @@ sprite.
 
 | ID | Design | Source | 256 reference | Reference height | Gameplay target | Review |
 | --- | --- | --- | --- | ---: | ---: | --- |
-| 01 | Longback Pallid | `drafts/flesh-demons-v02/01-longback-pallid-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/01-longback-pallid-v02-reference-256.png` | 192 px | 84 px | Pass |
-| 02 | Rose Knuckle-Loper | `drafts/flesh-demons-v02/02-rose-knuckle-loper-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/02-rose-knuckle-loper-v02-reference-256.png` | 130 px | 52 px | Pass |
-| 03 | Shroudface Lurker | `drafts/flesh-demons-v02/03-shroudface-lurker-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/03-shroudface-lurker-v02-reference-256.png` | 195 px | 68 px | Pass |
-| 04 | Goat-Headed Mourner | `drafts/flesh-demons-v02/04-goat-headed-mourner-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/04-goat-headed-mourner-v02-reference-256.png` | 226 px | 84 px | Pass |
-| 05 | Ember-Vein Husk | `drafts/flesh-demons-v02/05-ember-vein-husk-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/05-ember-vein-husk-v02-reference-256.png` | 190 px | 74 px | Pass |
-| 06 | Bell-Harness Pilgrim | `drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-reference-256.png` | 212 px | 72 px | Pass |
-| 07 | Ashmouth Flesh Hound | `drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-reference-256.png` | 98 px | 48 px | Pass |
-| 08 | Rain-Slick Longlimb | `drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-reference-256.png` | 215 px | 84 px | Pass |
-| 09 | Mothshoulder Wretch | `drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-reference-256.png` | 197 px | 68 px | Pass |
-| 11 | Bone-Mask Skin Demon | `drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-reference-256.png` | 199 px | 68 px | Pass |
-| 12 | Curse-Branded Ghoul | `drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-reference-256.png` | 224 px | 82 px | Pass |
-| 13 | Rootgrown Fleshling | `drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-reference-256.png` | 132 px | 48 px | Pass |
-| 14 | Smoke-Lung Revenant | `drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-reference-256.png` | 202 px | 72 px | Pass |
-| 15 | Salt-Crust Exile | `drafts/flesh-demons-v02/15-salt-crust-exile-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/15-salt-crust-exile-v02-reference-256.png` | 188 px | 82 px | Pass |
-| 16 | Moon-Pale Watcher | `drafts/flesh-demons-v02/16-moon-pale-watcher-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/16-moon-pale-watcher-v02-reference-256.png` | 198 px | 84 px | Pass |
-| 17 | Chain-Draped Gnasher | `drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-reference-256.png` | 183 px | 68 px | Pass |
-| 18 | Corpse-Fire Herdling | `drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-reference-256.png` | 119 px | 52 px | Pass |
-| 19 | Flesh-Lantern Bearer | `drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-reference-256.png` | 208 px | 82 px | Pass |
-| 20 | Hollow Patriarch | `drafts/flesh-demons-v02/20-hollow-patriarch-v02-source.png` | `site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/20-hollow-patriarch-v02-reference-256.png` | 216 px | 90 px | Pass |
+| 01 | Longback Pallid | `drafts/flesh-demons-v02/01-longback-pallid-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/01-longback-pallid-v02-reference-256.png` | 192 px | 84 px | Pass |
+| 02 | Rose Knuckle-Loper | `drafts/flesh-demons-v02/02-rose-knuckle-loper-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/02-rose-knuckle-loper-v02-reference-256.png` | 130 px | 52 px | Pass |
+| 03 | Shroudface Lurker | `drafts/flesh-demons-v02/03-shroudface-lurker-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/03-shroudface-lurker-v02-reference-256.png` | 195 px | 68 px | Pass |
+| 04 | Goat-Headed Mourner | `drafts/flesh-demons-v02/04-goat-headed-mourner-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/04-goat-headed-mourner-v02-reference-256.png` | 226 px | 84 px | Pass |
+| 05 | Ember-Vein Husk | `drafts/flesh-demons-v02/05-ember-vein-husk-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/05-ember-vein-husk-v02-reference-256.png` | 190 px | 74 px | Pass |
+| 06 | Bell-Harness Pilgrim | `drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-reference-256.png` | 212 px | 72 px | Pass |
+| 07 | Ashmouth Flesh Hound | `drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-reference-256.png` | 98 px | 48 px | Pass |
+| 08 | Rain-Slick Longlimb | `drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-reference-256.png` | 215 px | 84 px | Pass |
+| 09 | Mothshoulder Wretch | `drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-reference-256.png` | 197 px | 68 px | Pass |
+| 11 | Bone-Mask Skin Demon | `drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-reference-256.png` | 199 px | 68 px | Pass |
+| 12 | Curse-Branded Ghoul | `drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-reference-256.png` | 224 px | 82 px | Pass |
+| 13 | Rootgrown Fleshling | `drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-reference-256.png` | 132 px | 48 px | Pass |
+| 14 | Smoke-Lung Revenant | `drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-reference-256.png` | 202 px | 72 px | Pass |
+| 15 | Salt-Crust Exile | `drafts/flesh-demons-v02/15-salt-crust-exile-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/15-salt-crust-exile-v02-reference-256.png` | 188 px | 82 px | Pass |
+| 16 | Moon-Pale Watcher | `drafts/flesh-demons-v02/16-moon-pale-watcher-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/16-moon-pale-watcher-v02-reference-256.png` | 198 px | 84 px | Pass |
+| 17 | Chain-Draped Gnasher | `drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-reference-256.png` | 183 px | 68 px | Pass |
+| 18 | Corpse-Fire Herdling | `drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-reference-256.png` | 119 px | 52 px | Pass |
+| 19 | Flesh-Lantern Bearer | `drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-reference-256.png` | 208 px | 82 px | Pass |
+| 20 | Hollow Patriarch | `drafts/flesh-demons-v02/20-hollow-patriarch-v02-source.png` | `public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/20-hollow-patriarch-v02-reference-256.png` | 216 px | 90 px | Pass |
 
 ## V02 rejected generation passes
 

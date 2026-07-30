@@ -48,11 +48,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/01-gilded-estate-exactor-reference-256.png`
-- `site/public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/02-pearl-fan-vicereine-reference-256.png`
-- `site/public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/03-cane-blade-heir-reference-256.png`
-- `site/public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/04-reliquary-dowager-reference-256.png`
-- `site/public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/05-sunless-parasol-marquess-reference-256.png`
+- `public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/01-gilded-estate-exactor-reference-256.png`
+- `public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/02-pearl-fan-vicereine-reference-256.png`
+- `public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/03-cane-blade-heir-reference-256.png`
+- `public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/04-reliquary-dowager-reference-256.png`
+- `public/art/enemies/wealthy-demonic-vampires-batch-38/drafts/05-sunless-parasol-marquess-reference-256.png`
 
 Review sheet:
 

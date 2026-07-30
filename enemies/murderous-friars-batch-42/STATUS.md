@@ -65,7 +65,7 @@ Monks and Evil Priests draft waves.
 
 - Sources: `enemies/murderous-friars-batch-42/rejected/`
 - Website references:
-  `site/public/art/enemies/murderous-friars-batch-42/rejected/`
+  `public/art/enemies/murderous-friars-batch-42/rejected/`
 - Review sheet:
   `enemies/murderous-friars-batch-42/rejected/murderous-friars-batch-42-draft-review-sheet.png`
 - Prompt record: `enemies/murderous-friars-batch-42/GENERATION-PROMPTS.md`

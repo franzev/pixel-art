@@ -8,61 +8,61 @@
       "id": "01",
       "name": "Emerald Reception Lady",
       "source": "npcs/maria-clara-humans-v01/rejected/01-emerald-reception-lady-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/01-emerald-reception-lady-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/01-emerald-reception-lady-reference-256.png"
     },
     {
       "id": "02",
       "name": "Saffron Turning Lady",
       "source": "npcs/maria-clara-humans-v01/rejected/02-saffron-turning-lady-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/02-saffron-turning-lady-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/02-saffron-turning-lady-reference-256.png"
     },
     {
       "id": "03",
       "name": "Cobalt Kneeling Listener",
       "source": "npcs/maria-clara-humans-v01/rejected/03-cobalt-kneeling-listener-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/03-cobalt-kneeling-listener-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/03-cobalt-kneeling-listener-reference-256.png"
     },
     {
       "id": "04",
       "name": "Burgundy Supervisor",
       "source": "npcs/maria-clara-humans-v01/rejected/04-burgundy-supervisor-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/04-burgundy-supervisor-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/04-burgundy-supervisor-reference-256.png"
     },
     {
       "id": "05",
       "name": "Lavender Hair-Comb Lady",
       "source": "npcs/maria-clara-humans-v01/rejected/05-lavender-hair-comb-lady-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/05-lavender-hair-comb-lady-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/05-lavender-hair-comb-lady-reference-256.png"
     },
     {
       "id": "06",
       "name": "Rust-Navy Skeptic",
       "source": "npcs/maria-clara-humans-v01/rejected/06-rust-navy-skeptic-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/06-rust-navy-skeptic-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/06-rust-navy-skeptic-reference-256.png"
     },
     {
       "id": "07",
       "name": "Teal Curious Listener",
       "source": "npcs/maria-clara-humans-v01/rejected/07-teal-curious-listener-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/07-teal-curious-listener-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/07-teal-curious-listener-reference-256.png"
     },
     {
       "id": "08",
       "name": "Rose Walking Lady",
       "source": "npcs/maria-clara-humans-v01/rejected/08-rose-walking-lady-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/08-rose-walking-lady-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/08-rose-walking-lady-reference-256.png"
     },
     {
       "id": "09",
       "name": "Mustard Curtsy Lady",
       "source": "npcs/maria-clara-humans-v01/rejected/09-mustard-curtsy-lady-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/09-mustard-curtsy-lady-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/09-mustard-curtsy-lady-reference-256.png"
     },
     {
       "id": "10",
       "name": "Coral Conversational Lady",
       "source": "npcs/maria-clara-humans-v01/rejected/10-coral-conversational-lady-source.png",
-      "reference_256": "site/public/art/npcs/maria-clara-humans-v01/rejected/10-coral-conversational-lady-reference-256.png"
+      "reference_256": "public/art/npcs/maria-clara-humans-v01/rejected/10-coral-conversational-lady-reference-256.png"
     }
   ]
 }

@@ -47,11 +47,11 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/steampunk-knights-batch-37/drafts/01-capiz-gauge-polehammer-breaker-reference-256.png`
-- `site/public/art/enemies/steampunk-knights-batch-37/drafts/02-condenser-shield-gate-bulwark-reference-256.png`
-- `site/public/art/enemies/steampunk-knights-batch-37/drafts/03-piston-wrist-sabre-adjudicator-reference-256.png`
-- `site/public/art/enemies/steampunk-knights-batch-37/drafts/04-pneumatic-rivet-watcher-reference-256.png`
-- `site/public/art/enemies/steampunk-knights-batch-37/drafts/05-steam-censer-processioner-reference-256.png`
+- `public/art/enemies/steampunk-knights-batch-37/drafts/01-capiz-gauge-polehammer-breaker-reference-256.png`
+- `public/art/enemies/steampunk-knights-batch-37/drafts/02-condenser-shield-gate-bulwark-reference-256.png`
+- `public/art/enemies/steampunk-knights-batch-37/drafts/03-piston-wrist-sabre-adjudicator-reference-256.png`
+- `public/art/enemies/steampunk-knights-batch-37/drafts/04-pneumatic-rivet-watcher-reference-256.png`
+- `public/art/enemies/steampunk-knights-batch-37/drafts/05-steam-censer-processioner-reference-256.png`
 
 Review sheet:
 

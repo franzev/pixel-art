@@ -17,56 +17,56 @@
       "name": "Frog-Mouth Tithe Knight",
       "dimensions": [1178, 1335],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/01-frog-mouth-tithe-knight-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/01-frog-mouth-tithe-knight-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/01-frog-mouth-tithe-knight-reference-256.png"
     },
     {
       "id": "02",
       "name": "Falling-Buffe Auditor",
       "dimensions": [1024, 1536],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/02-falling-buffe-auditor-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/02-falling-buffe-auditor-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/02-falling-buffe-auditor-reference-256.png"
     },
     {
       "id": "03",
       "name": "Lobster-Tail Procession Dragoon",
       "dimensions": [1254, 1254],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/03-lobster-tail-procession-dragoon-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/03-lobster-tail-procession-dragoon-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/03-lobster-tail-procession-dragoon-reference-256.png"
     },
     {
       "id": "04",
       "name": "Nasal Scripture Knight",
       "dimensions": [1254, 1254],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/04-nasal-scripture-knight-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/04-nasal-scripture-knight-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/04-nasal-scripture-knight-reference-256.png"
     },
     {
       "id": "05",
       "name": "Shutter-Visor Canon",
       "dimensions": [1254, 1254],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/05-shutter-visor-canon-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/05-shutter-visor-canon-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/05-shutter-visor-canon-reference-256.png"
     },
     {
       "id": "06",
       "name": "Book-Spine Inquisitor",
       "dimensions": [1254, 1254],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/06-book-spine-inquisitor-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/06-book-spine-inquisitor-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/06-book-spine-inquisitor-reference-256.png"
     },
     {
       "id": "07",
       "name": "Rosette-Breather Templar",
       "dimensions": [1254, 1254],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/07-rosette-breather-templar-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/07-rosette-breather-templar-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/07-rosette-breather-templar-reference-256.png"
     },
     {
       "id": "08",
       "name": "Iron Abbot of the Chapel Hat",
       "dimensions": [1254, 1254],
       "source": "protagonist/holy-knight-helmet-orders-v04/drafts/08-iron-abbot-chapel-hat-source.png",
-      "reference": "site/public/art/protagonist/holy-knight-helmet-orders-v04/drafts/08-iron-abbot-chapel-hat-reference-256.png"
+      "reference": "public/art/protagonist/holy-knight-helmet-orders-v04/drafts/08-iron-abbot-chapel-hat-reference-256.png"
     }
   ],
   "review_sheet": "protagonist/holy-knight-helmet-orders-v04/holy-knight-helmet-orders-v04-review-sheet.png",

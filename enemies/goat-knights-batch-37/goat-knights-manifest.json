@@ -27,35 +27,35 @@
       "name": "Ramcoil Buttress",
       "status": "draft",
       "source": "enemies/goat-knights-batch-37/drafts/01-ramcoil-buttress-source.png",
-      "reference_256": "site/public/art/enemies/goat-knights-batch-37/drafts/01-ramcoil-buttress-reference-256.png"
+      "reference_256": "public/art/enemies/goat-knights-batch-37/drafts/01-ramcoil-buttress-reference-256.png"
     },
     {
       "id": 2,
       "name": "Ibex-Ridge Bounder",
       "status": "draft",
       "source": "enemies/goat-knights-batch-37/drafts/02-ibex-ridge-bounder-source.png",
-      "reference_256": "site/public/art/enemies/goat-knights-batch-37/drafts/02-ibex-ridge-bounder-reference-256.png"
+      "reference_256": "public/art/enemies/goat-knights-batch-37/drafts/02-ibex-ridge-bounder-reference-256.png"
     },
     {
       "id": 3,
       "name": "Herd-Cord Snarer",
       "status": "draft",
       "source": "enemies/goat-knights-batch-37/drafts/03-herd-cord-snarer-source.png",
-      "reference_256": "site/public/art/enemies/goat-knights-batch-37/drafts/03-herd-cord-snarer-reference-256.png"
+      "reference_256": "public/art/enemies/goat-knights-batch-37/drafts/03-herd-cord-snarer-reference-256.png"
     },
     {
       "id": 4,
       "name": "Scree-Brow Arbalist",
       "status": "draft",
       "source": "enemies/goat-knights-batch-37/drafts/04-scree-brow-arbalist-source.png",
-      "reference_256": "site/public/art/enemies/goat-knights-batch-37/drafts/04-scree-brow-arbalist-reference-256.png"
+      "reference_256": "public/art/enemies/goat-knights-batch-37/drafts/04-scree-brow-arbalist-reference-256.png"
     },
     {
       "id": 5,
       "name": "Cleft-Horn Bolo Pursuer",
       "status": "draft",
       "source": "enemies/goat-knights-batch-37/drafts/05-cleft-horn-bolo-pursuer-source.png",
-      "reference_256": "site/public/art/enemies/goat-knights-batch-37/drafts/05-cleft-horn-bolo-pursuer-reference-256.png"
+      "reference_256": "public/art/enemies/goat-knights-batch-37/drafts/05-cleft-horn-bolo-pursuer-reference-256.png"
     }
   ],
   "review_sheet": "enemies/goat-knights-batch-37/goat-knights-review-sheet.png"

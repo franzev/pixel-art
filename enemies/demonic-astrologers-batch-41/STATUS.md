@@ -24,11 +24,11 @@ distinct encounter roles, postures, clothing systems, props, and spell geometry.
 
 | ID | Design | Encounter role | Source | 256 reference | Review |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Eclipse-Ring Surveyor | Rotating eclipse-zone control | `drafts/01-eclipse-ring-surveyor-source.png` | `site/public/art/enemies/demonic-astrologers-batch-41/drafts/01-eclipse-ring-surveyor-reference-256.png` | Pass |
-| 02 | Meridian-Plumb Diviner | Gravity-line pull control | `drafts/02-meridian-plumb-diviner-source.png` | `site/public/art/enemies/demonic-astrologers-batch-41/drafts/02-meridian-plumb-diviner-reference-256.png` | Pass |
-| 03 | Comet-Mantle Pursuer | Mobile comet skirmisher | `drafts/03-comet-mantle-pursuer-source.png` | `site/public/art/enemies/demonic-astrologers-batch-41/drafts/03-comet-mantle-pursuer-reference-256.png` | Pass |
-| 04 | Conjunction-Core Cantor | Expanding barrier caster | `drafts/04-conjunction-core-cantor-source.png` | `site/public/art/enemies/demonic-astrologers-batch-41/drafts/04-conjunction-core-cantor-reference-256.png` | Pass |
-| 05 | Celestial-Nail Ephemerist | Sequenced artillery impacts | `drafts/05-celestial-nail-ephemerist-source.png` | `site/public/art/enemies/demonic-astrologers-batch-41/drafts/05-celestial-nail-ephemerist-reference-256.png` | Pass |
+| 01 | Eclipse-Ring Surveyor | Rotating eclipse-zone control | `drafts/01-eclipse-ring-surveyor-source.png` | `public/art/enemies/demonic-astrologers-batch-41/drafts/01-eclipse-ring-surveyor-reference-256.png` | Pass |
+| 02 | Meridian-Plumb Diviner | Gravity-line pull control | `drafts/02-meridian-plumb-diviner-source.png` | `public/art/enemies/demonic-astrologers-batch-41/drafts/02-meridian-plumb-diviner-reference-256.png` | Pass |
+| 03 | Comet-Mantle Pursuer | Mobile comet skirmisher | `drafts/03-comet-mantle-pursuer-source.png` | `public/art/enemies/demonic-astrologers-batch-41/drafts/03-comet-mantle-pursuer-reference-256.png` | Pass |
+| 04 | Conjunction-Core Cantor | Expanding barrier caster | `drafts/04-conjunction-core-cantor-source.png` | `public/art/enemies/demonic-astrologers-batch-41/drafts/04-conjunction-core-cantor-reference-256.png` | Pass |
+| 05 | Celestial-Nail Ephemerist | Sequenced artillery impacts | `drafts/05-celestial-nail-ephemerist-source.png` | `public/art/enemies/demonic-astrologers-batch-41/drafts/05-celestial-nail-ephemerist-reference-256.png` | Pass |
 
 All sources are 1254 × 1254 RGB PNGs. All website references are 256 × 256
 RGBA PNGs created with nearest-neighbor resizing.

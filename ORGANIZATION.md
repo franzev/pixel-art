@@ -8,7 +8,7 @@ There are no reference copies, downscales, or mirrored duplicates.
 All renders live in the website catalog:
 
 ```text
-site/public/art/<category>/<collection>/
+public/art/<category>/<collection>/
 ├── <NN>-<slug>.png
 ├── drafts/
 └── rejected/
@@ -32,7 +32,7 @@ or a top-level `drafts/` folder.
 For example:
 
 ```text
-site/public/art/enemies/tiktik-variations-batch-07/drafts/
+public/art/enemies/tiktik-variations-batch-07/drafts/
 └── 01-alimokon-omen.png
 ```
 
@@ -71,11 +71,11 @@ lifecycle status.
 ## Generation workflow
 
 1. Save the full generated render directly under its
-   `site/public/art/<category>/<collection>/` path — at full quality, once.
+   `public/art/<category>/<collection>/` path — at full quality, once.
 2. Keep `STATUS.md` and the collection manifest current.
 
 Paths written in manifests are relative to the repository root.
 
 While the website is running locally, adding or replacing a PNG under
-`site/public/art/` refreshes the catalog automatically. `npm run sync:art`
-inside `site/` performs the same refresh manually.
+`public/art/` refreshes the catalog automatically. `npm run sync:art`
+from the repository root performs the same refresh manually.

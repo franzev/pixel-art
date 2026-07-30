@@ -81,7 +81,7 @@ Neither rejected attempt was copied into this project collection.
 
 - Full sources: `enemies/crowned-thorn-priestesses-batch-45/drafts/`
 - 256 references:
-  `site/public/art/enemies/crowned-thorn-priestesses-batch-45/drafts/`
+  `public/art/enemies/crowned-thorn-priestesses-batch-45/drafts/`
 - Review sheet:
   `enemies/crowned-thorn-priestesses-batch-45/drafts/crowned-thorn-priestesses-batch-45-draft-review-sheet.png`
 - Prompt record:

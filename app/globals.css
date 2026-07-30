@@ -130,7 +130,7 @@ button:disabled {
   top: 0;
   display: grid;
   min-height: var(--topbar-height);
-  grid-template-columns: minmax(200px, var(--filter-width)) minmax(260px, 1fr) auto;
+  grid-template-columns: minmax(200px, var(--filter-width)) minmax(260px, 1fr) minmax(auto, var(--inspector-width));
   align-items: stretch;
   background: var(--coal);
   border-bottom: 1px solid var(--rule);
@@ -248,18 +248,15 @@ button:disabled {
   letter-spacing: 0.1em;
 }
 
-.utility-action.review-launch {
-  display: block;
-  color: var(--brass);
-}
-
 .utility-action:hover {
   background: var(--coal-raised);
 }
 
 .grid-control {
   display: flex;
+  flex: 1;
   align-items: center;
+  justify-content: flex-end;
   gap: 10px;
   padding: 0 14px;
   color: var(--bone-muted);

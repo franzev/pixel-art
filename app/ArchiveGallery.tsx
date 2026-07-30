@@ -44,7 +44,7 @@ const DECISION_QUEUES: Record<string, ReviewQueue> = {
 };
 
 const GENDER_TAG_GROUP = "gender-presentation";
-const RACE_TAG_GROUP = "body-plan";
+const RACE_TAG_GROUP = "race";
 
 function tagValueFor(item: ArtItem, group: string) {
   const tag = item.suggestedTags.find((entry) => entry.group === group);
@@ -452,16 +452,6 @@ export function ArchiveGallery({ items }: ArchiveGalleryProps) {
         </label>
 
         <div className="topbar-actions">
-          <button
-            className="utility-action review-launch"
-            type="button"
-            onClick={() => {
-              setReviewQueue("unreviewed");
-              setReviewOpen(true);
-            }}
-          >
-            REVIEW
-          </button>
           <button
             className="utility-action filter-toggle"
             type="button"

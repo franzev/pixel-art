@@ -14,4 +14,4 @@ The original 20 retained enemy concepts.
 ## Paths
 
 - Sources: `enemies/core-enemies/`
-- Website renders: `site/public/art/enemies/core-enemies/`
+- Website renders: `public/art/enemies/core-enemies/`

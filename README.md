@@ -1,16 +1,18 @@
-# Pixel-Art Project Index
+# The Ashen Archive
 
-Read the relevant specification before generating, editing, resizing, naming, or
-saving an asset.
+This repository is both the pixel-art workspace and its searchable review
+gallery. The website runs directly from the repository root.
 
-## Where files go
+## Repository layout
 
-- `ORGANIZATION.md` — canonical folder, filename, and generation workflow.
+- `public/art/` — the only permanent location for full-quality catalog renders.
+- `app/`, `db/`, `scripts/`, and `worker/` — the gallery and review application.
 - Category folders such as `enemies/`, `protagonist/`, and `environments/` —
-  full generated sources, prompts, status files, manifests, and review material.
-- `site/public/art/` — the only permanent location for website-ready renders.
-- `site/` — the Ashen Archive website; its catalog refreshes automatically while
-  the local website is running.
+  prompts, status files, manifests, review notes, and non-catalog working
+  material.
+- `samples/` — intentional visual references and generation inputs.
+- `art-catalog/` — exported review decisions and distilled generation lessons.
+- `ORGANIZATION.md` — canonical folder, filename, and generation workflow.
 
 ## Canonical specifications
 
@@ -36,11 +38,10 @@ saving an asset.
 1. Never use a green background.
 2. Generate each distinct asset separately rather than placing multiple concepts
    in one generated image.
-3. Preserve the full generated source.
-4. Save a 256 × 256 nearest-neighbor reference for every retained asset under
-   the matching path in `site/public/art/`.
-5. A 256 reference is not automatically a native game sprite.
-6. Review anatomy, silhouette, palette, and artifacts at 256 × 256 before marking
+3. Save the original full-quality render once under `public/art/`.
+4. Do not create separate `-source` or `-reference-256` copies.
+5. A catalog render is not automatically a native game sprite.
+6. Review anatomy, silhouette, palette, and artifacts at 256 pixels before marking
    an asset retained.
 7. Do not add rejected or deleted generations to the lore or canonical counts.
 8. Do not copy the Penitent One's costume, pose, proportions, helmet, or
@@ -58,3 +59,27 @@ When a collection contains `POSITIVE-REFERENCE-NOTES.md` or
 `REJECTION-NOTES.md`, both are mandatory continuation reading. Follow their
 visual anchors, guardrails, and approval checkpoints before generating new
 assets.
+
+## Using the gallery
+
+Install dependencies and start the local gallery from this directory:
+
+```bash
+npm install
+npm run dev
+```
+
+The catalog refreshes when PNGs are added, changed, moved, or removed under
+`public/art/`. It can also be refreshed manually:
+
+```bash
+npm run sync:art
+npm run build
+```
+
+The Review view supports ratings, keep/reject/delete decisions, defects,
+correction notes, duplicate links, and keyboard navigation. Confirmed review
+memory is exported to:
+
+- `art-catalog/RENDER-FEEDBACK.md`
+- `art-catalog/render-feedback.jsonl`

@@ -21,7 +21,7 @@ Six animation-compatible holy variants of the established Crimson Knight:
 
 ## Reference roles
 
-- `site/public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`
+- `public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`
   controls identity, pose, silhouette, pixel treatment, and presentation.
 - `samples/silver-knight/silver-knight-left-facing-source.png` provides supporting armor,
   cape, sword, and proportion guidance only.

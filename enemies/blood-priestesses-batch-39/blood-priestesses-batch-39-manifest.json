@@ -36,35 +36,35 @@
       "name": "Oxblood Rapier Confessor",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor-reference-256.png"
     },
     {
       "id": 2,
       "name": "Brass Censer Prioress",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/02-brass-censer-prioress-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/02-brass-censer-prioress-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/02-brass-censer-prioress-reference-256.png"
     },
     {
       "id": 3,
       "name": "Tithe-Bolo Sacristan",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/03-tithe-bolo-sacristan-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/03-tithe-bolo-sacristan-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/03-tithe-bolo-sacristan-reference-256.png"
     },
     {
       "id": 4,
       "name": "Oxblood Quarrel Canoness",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness-reference-256.png"
     },
     {
       "id": 5,
       "name": "Sealed-Vessel Mother Superior",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/05-sealed-vessel-mother-superior-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/05-sealed-vessel-mother-superior-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/05-sealed-vessel-mother-superior-reference-256.png"
     },
     {
       "id": 6,
@@ -72,42 +72,42 @@
       "status": "draft",
       "pilot": true,
       "source": "enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary-reference-256.png"
     },
     {
       "id": 7,
       "name": "Ivory-Lance Sepulchral Votary",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary-reference-256.png"
     },
     {
       "id": 8,
       "name": "Iron-Psalm Flail Prioress",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/08-iron-psalm-flail-prioress-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/08-iron-psalm-flail-prioress-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/08-iron-psalm-flail-prioress-reference-256.png"
     },
     {
       "id": 9,
       "name": "Pale Tithe-Bolo Sacristan",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/09-pale-tithe-bolo-sacristan-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/09-pale-tithe-bolo-sacristan-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/09-pale-tithe-bolo-sacristan-reference-256.png"
     },
     {
       "id": 10,
       "name": "Pale Grave-Hammer Canoness",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness-reference-256.png"
     },
     {
       "id": 11,
       "name": "Ivory Hook-Glaive Mourner",
       "status": "draft",
       "source": "enemies/blood-priestesses-batch-39/drafts/11-ivory-hook-glaive-mourner-source.png",
-      "reference_256": "site/public/art/enemies/blood-priestesses-batch-39/drafts/11-ivory-hook-glaive-mourner-reference-256.png"
+      "reference_256": "public/art/enemies/blood-priestesses-batch-39/drafts/11-ivory-hook-glaive-mourner-reference-256.png"
     }
   ],
   "review_sheet": "enemies/blood-priestesses-batch-39/drafts/blood-priestesses-batch-39-redo-review-sheet.png",

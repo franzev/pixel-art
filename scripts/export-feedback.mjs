@@ -3,9 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
-const siteDir = path.resolve(scriptDir, "..");
-const repositoryDir = path.resolve(siteDir, "..");
-const outputDir = path.join(repositoryDir, "art-catalog");
+const projectDir = path.resolve(scriptDir, "..");
+const outputDir = path.join(projectDir, "art-catalog");
 const markdownPath = path.join(outputDir, "RENDER-FEEDBACK.md");
 const jsonlPath = path.join(outputDir, "render-feedback.jsonl");
 

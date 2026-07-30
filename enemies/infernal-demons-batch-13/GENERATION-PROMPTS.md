@@ -55,7 +55,7 @@ symbols, armor, weapons, silhouettes, or color arrangements.
 Save every accepted full source under
 `enemies/infernal-demons-batch-13/drafts/`. Save its nearest-neighbor
 256 × 256 reference under the matching
-`site/public/art/enemies/infernal-demons-batch-13/drafts/` path. Create review
+`public/art/enemies/infernal-demons-batch-13/drafts/` path. Create review
 sheets only after all fifteen drafts pass anatomy, equipment, silhouette,
 palette, pixel quality, background, and crop review. Do not promote drafts or
 update canonical lore, manifests, or retained counts without explicit approval.

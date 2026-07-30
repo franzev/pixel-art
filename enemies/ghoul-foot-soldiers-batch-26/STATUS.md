@@ -58,16 +58,16 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/01-abaca-bound-pikeman-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/02-road-bolo-rusher-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/03-nipa-shield-warder-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/04-grave-spade-trencher-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/05-abaca-net-snarer-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/06-split-jaw-sickleman-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/07-rib-split-nailboarder-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/08-cobalt-blood-jar-hurler-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/09-artery-lash-flailer-reference-256.png`
-- `site/public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/10-ember-wound-torchbearer-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/01-abaca-bound-pikeman-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/02-road-bolo-rusher-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/03-nipa-shield-warder-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/04-grave-spade-trencher-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/05-abaca-net-snarer-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/06-split-jaw-sickleman-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/07-rib-split-nailboarder-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/08-cobalt-blood-jar-hurler-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/09-artery-lash-flailer-reference-256.png`
+- `public/art/enemies/ghoul-foot-soldiers-batch-26/drafts/10-ember-wound-torchbearer-reference-256.png`
 
 Review sheets:
 

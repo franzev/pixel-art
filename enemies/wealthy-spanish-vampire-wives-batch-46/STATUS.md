@@ -54,11 +54,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/01-black-fan-duena-reference-256.png`
-- `site/public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/02-velvet-rapier-condesa-reference-256.png`
-- `site/public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/03-mirrorless-marquesa-reference-256.png`
-- `site/public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/04-pinfire-vizcondesa-reference-256.png`
-- `site/public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/05-sable-parasol-duquesa-reference-256.png`
+- `public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/01-black-fan-duena-reference-256.png`
+- `public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/02-velvet-rapier-condesa-reference-256.png`
+- `public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/03-mirrorless-marquesa-reference-256.png`
+- `public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/04-pinfire-vizcondesa-reference-256.png`
+- `public/art/enemies/wealthy-spanish-vampire-wives-batch-46/drafts/05-sable-parasol-duquesa-reference-256.png`
 
 Review sheet:
 

@@ -23,21 +23,21 @@ The height column is the measured visible foreground bounding height in each
 
 | ID | Design | Source | 256 reference | Height | Review |
 | --- | --- | --- | --- | ---: | --- |
-| 01 | Scarlet Hornblade Duelist | `drafts/01-scarlet-hornblade-duelist-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/01-scarlet-hornblade-duelist-reference-256.png` | 207 px | Pass |
-| 02 | Goat-Headed Pike Dancer | `drafts/02-goat-headed-pike-dancer-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/02-goat-headed-pike-dancer-reference-256.png` | 227 px | Pass |
-| 03 | Flesh-Veil Oracle | `drafts/03-flesh-veil-oracle-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-reference-256.png` | 228 px | Pass |
-| 04 | Ashwing Crescent Archer | `drafts/04-ashwing-crescent-archer-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/04-ashwing-crescent-archer-reference-256.png` | 212 px | Pass |
-| 05 | Ram-Horn Ember Priest | `drafts/05-ram-horn-ember-priest-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/05-ram-horn-ember-priest-reference-256.png` | 244 px | Pass |
-| 06 | Cindercloak Assassin | `drafts/06-cindercloak-assassin-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/06-cindercloak-assassin-reference-256.png` | 208 px | Pass |
-| 07 | Pink Thornstaff Witch | `drafts/07-pink-thornstaff-witch-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/07-pink-thornstaff-witch-reference-256.png` | 233 px | Pass |
-| 08 | Sootwing Talon Hunter | `drafts/08-sootwing-talon-hunter-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/08-sootwing-talon-hunter-reference-256.png` | 218 px | Pass |
-| 09 | Scarlet Banner Reaver | `drafts/09-scarlet-banner-reaver-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/09-scarlet-banner-reaver-reference-256.png` | 240 px | Pass |
-| 10 | Black-Iron Trident Keeper | `drafts/10-black-iron-trident-keeper-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/10-black-iron-trident-keeper-reference-256.png` | 244 px | Pass |
-| 11 | Ember Mirror Hexer | `drafts/11-ember-mirror-hexer-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/11-ember-mirror-hexer-reference-256.png` | 222 px | Pass |
-| 12 | Horned Ash Dervish | `drafts/12-horned-ash-dervish-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/12-horned-ash-dervish-reference-256.png` | 232 px | Pass |
-| 13 | Flesh-Crown Levant | `drafts/13-flesh-crown-levant-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/13-flesh-crown-levant-reference-256.png` | 244 px | Pass |
-| 14 | Pyre Chain Harvester | `drafts/14-pyre-chain-harvester-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/14-pyre-chain-harvester-reference-256.png` | 228 px | Pass |
-| 15 | Infernal Procession Lord | `drafts/15-infernal-procession-lord-source.png` | `site/public/art/enemies/infernal-demons-batch-13/drafts/15-infernal-procession-lord-reference-256.png` | 238 px | Pass |
+| 01 | Scarlet Hornblade Duelist | `drafts/01-scarlet-hornblade-duelist-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/01-scarlet-hornblade-duelist-reference-256.png` | 207 px | Pass |
+| 02 | Goat-Headed Pike Dancer | `drafts/02-goat-headed-pike-dancer-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/02-goat-headed-pike-dancer-reference-256.png` | 227 px | Pass |
+| 03 | Flesh-Veil Oracle | `drafts/03-flesh-veil-oracle-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-reference-256.png` | 228 px | Pass |
+| 04 | Ashwing Crescent Archer | `drafts/04-ashwing-crescent-archer-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/04-ashwing-crescent-archer-reference-256.png` | 212 px | Pass |
+| 05 | Ram-Horn Ember Priest | `drafts/05-ram-horn-ember-priest-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/05-ram-horn-ember-priest-reference-256.png` | 244 px | Pass |
+| 06 | Cindercloak Assassin | `drafts/06-cindercloak-assassin-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/06-cindercloak-assassin-reference-256.png` | 208 px | Pass |
+| 07 | Pink Thornstaff Witch | `drafts/07-pink-thornstaff-witch-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/07-pink-thornstaff-witch-reference-256.png` | 233 px | Pass |
+| 08 | Sootwing Talon Hunter | `drafts/08-sootwing-talon-hunter-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/08-sootwing-talon-hunter-reference-256.png` | 218 px | Pass |
+| 09 | Scarlet Banner Reaver | `drafts/09-scarlet-banner-reaver-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/09-scarlet-banner-reaver-reference-256.png` | 240 px | Pass |
+| 10 | Black-Iron Trident Keeper | `drafts/10-black-iron-trident-keeper-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/10-black-iron-trident-keeper-reference-256.png` | 244 px | Pass |
+| 11 | Ember Mirror Hexer | `drafts/11-ember-mirror-hexer-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/11-ember-mirror-hexer-reference-256.png` | 222 px | Pass |
+| 12 | Horned Ash Dervish | `drafts/12-horned-ash-dervish-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/12-horned-ash-dervish-reference-256.png` | 232 px | Pass |
+| 13 | Flesh-Crown Levant | `drafts/13-flesh-crown-levant-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/13-flesh-crown-levant-reference-256.png` | 244 px | Pass |
+| 14 | Pyre Chain Harvester | `drafts/14-pyre-chain-harvester-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/14-pyre-chain-harvester-reference-256.png` | 228 px | Pass |
+| 15 | Infernal Procession Lord | `drafts/15-infernal-procession-lord-source.png` | `public/art/enemies/infernal-demons-batch-13/drafts/15-infernal-procession-lord-reference-256.png` | 238 px | Pass |
 
 ## Rejected and blocked passes
 

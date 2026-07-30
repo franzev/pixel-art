@@ -125,7 +125,7 @@ silhouette was requested.
 
 - Sources: `enemies/convent-tormentors-batch-30/drafts/`
 - Website references:
-  `site/public/art/enemies/convent-tormentors-batch-30/drafts/`
+  `public/art/enemies/convent-tormentors-batch-30/drafts/`
 - Review sheet:
   `enemies/convent-tormentors-batch-30/drafts/convent-tormentors-batch-30-draft-review-sheet-v04.png`
 - Current five-character white-dress realistic-weapons wave:

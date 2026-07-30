@@ -30,7 +30,7 @@
       "name": "Ash-Monstrance Pikeman",
       "status": "draft",
       "source": "enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-source.png",
-      "reference_256": "site/public/art/enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-reference-256.png",
+      "reference_256": "public/art/enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-reference-256.png",
       "role": "reach-control sentinel"
     },
     {
@@ -38,7 +38,7 @@
       "name": "Black-Rosary Flail Justiciar",
       "status": "draft",
       "source": "enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-source.png",
-      "reference_256": "site/public/art/enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-reference-256.png",
+      "reference_256": "public/art/enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-reference-256.png",
       "role": "chain-control attacker"
     },
     {
@@ -46,7 +46,7 @@
       "name": "Capiz-Reliquary Arbalist",
       "status": "draft",
       "source": "enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-source.png",
-      "reference_256": "site/public/art/enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-reference-256.png",
+      "reference_256": "public/art/enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-reference-256.png",
       "role": "ranged overwatch"
     },
     {
@@ -54,7 +54,7 @@
       "name": "Three-Seal Indulgence Pavise Knight",
       "status": "draft",
       "source": "enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-source.png",
-      "reference_256": "site/public/art/enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-reference-256.png",
+      "reference_256": "public/art/enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-reference-256.png",
       "role": "defensive doctrinal enforcer"
     },
     {
@@ -62,7 +62,7 @@
       "name": "Black-Scapular Headsman",
       "status": "draft",
       "source": "enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-source.png",
-      "reference_256": "site/public/art/enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-reference-256.png",
+      "reference_256": "public/art/enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-reference-256.png",
       "role": "two-handed execution elite"
     }
   ],

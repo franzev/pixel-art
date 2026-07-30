@@ -85,7 +85,7 @@ poses, costumes, props, effects, and silhouettes were not copied.
 - Sources:
   `enemies/crowned-thorn-mistresses-batch-46/drafts/`
 - Website references:
-  `site/public/art/enemies/crowned-thorn-mistresses-batch-46/drafts/`
+  `public/art/enemies/crowned-thorn-mistresses-batch-46/drafts/`
 - Review sheet:
   `enemies/crowned-thorn-mistresses-batch-46/drafts/crowned-thorn-mistresses-batch-46-draft-review-sheet.png`
 - Prompt record:

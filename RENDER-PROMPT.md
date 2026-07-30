@@ -275,11 +275,11 @@ The Flesh-Veil Oracle is no longer a positive reference: the user rated it 1/5 a
 
 The confirmed positive direction is armed, martial, religious-gothic humanoids with conventional weapons, weathered garments, and no floating effects. Use the 5/5 review keeps as references — for example:
 
-- `site/public/art/enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02.png`
-- `site/public/art/enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor.png`
-- `site/public/art/enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/01-processional-crucifer.png`
-- `site/public/art/enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor.png`
+- `public/art/enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02.png`
+- `public/art/enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor.png`
+- `public/art/enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/01-processional-crucifer.png`
+- `public/art/enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor.png`
 
 The full anchor list lives in `art-catalog/REVIEW-LEARNINGS.md`. Preserve the high-level qualities these share — statuesque adult presence, severe religious dress logic, worn metal and cloth, melancholy menace, one readable weapon — without copying any single pose, costume, or silhouette.
 
@@ -468,7 +468,7 @@ If a mandatory criterion fails, reject the result internally and regenerate from
 ## Saving and Approval
 
 - Save the original generated render, at full quality, directly under its
-  `site/public/art/<category>/<collection>/` path as `<NN>-<slug>.png`. That
+  `public/art/<category>/<collection>/` path as `<NN>-<slug>.png`. That
   single file is the only copy — never create a `-source` duplicate or a
   `-reference-256` downscale.
 - Follow the repository's existing category, collection, numbering, and filename conventions.

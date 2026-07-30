@@ -85,11 +85,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-reference-256.png`
-- `site/public/art/enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-reference-256.png`
-- `site/public/art/enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-reference-256.png`
-- `site/public/art/enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-reference-256.png`
-- `site/public/art/enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-reference-256.png`
+- `public/art/enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-reference-256.png`
+- `public/art/enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-reference-256.png`
+- `public/art/enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-reference-256.png`
+- `public/art/enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-reference-256.png`
+- `public/art/enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-reference-256.png`
 
 Review sheet:
 

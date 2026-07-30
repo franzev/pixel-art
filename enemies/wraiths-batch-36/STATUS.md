@@ -37,7 +37,7 @@ pose, prop, or effect reference for later wraith work.
 
 - Rejected sources: `enemies/wraiths-batch-36/rejected/`
 - Rejected website references:
-  `site/public/art/enemies/wraiths-batch-36/rejected/`
+  `public/art/enemies/wraiths-batch-36/rejected/`
 - Rejected review sheet:
   `enemies/wraiths-batch-36/rejected/wraiths-batch-36-draft-review-sheet.png`
 - Original prompt record: `enemies/wraiths-batch-36/GENERATION-PROMPTS.md`

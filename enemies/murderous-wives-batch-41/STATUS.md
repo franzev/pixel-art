@@ -52,11 +52,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/murderous-wives-batch-41/drafts/01-threshold-bolo-wife-reference-256.png`
-- `site/public/art/enemies/murderous-wives-batch-41/drafts/02-rice-pestle-hearth-matron-reference-256.png`
-- `site/public/art/enemies/murderous-wives-batch-41/drafts/03-black-lace-shears-wife-reference-256.png`
-- `site/public/art/enemies/murderous-wives-batch-41/drafts/04-garden-sickle-consort-reference-256.png`
-- `site/public/art/enemies/murderous-wives-batch-41/drafts/05-dowry-wheellock-wife-reference-256.png`
+- `public/art/enemies/murderous-wives-batch-41/drafts/01-threshold-bolo-wife-reference-256.png`
+- `public/art/enemies/murderous-wives-batch-41/drafts/02-rice-pestle-hearth-matron-reference-256.png`
+- `public/art/enemies/murderous-wives-batch-41/drafts/03-black-lace-shears-wife-reference-256.png`
+- `public/art/enemies/murderous-wives-batch-41/drafts/04-garden-sickle-consort-reference-256.png`
+- `public/art/enemies/murderous-wives-batch-41/drafts/05-dowry-wheellock-wife-reference-256.png`
 
 Review sheet:
 

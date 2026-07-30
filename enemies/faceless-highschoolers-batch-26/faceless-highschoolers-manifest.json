@@ -13,21 +13,21 @@
       "name": "Blank-ID Commuter",
       "status": "draft",
       "source": "enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-source.png",
-      "reference_256": "site/public/art/enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-reference-256.png"
+      "reference_256": "public/art/enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-reference-256.png"
     },
     {
       "id": 2,
       "name": "Rain-Duty Sentinel",
       "status": "draft",
       "source": "enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-source.png",
-      "reference_256": "site/public/art/enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-reference-256.png"
+      "reference_256": "public/art/enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-reference-256.png"
     },
     {
       "id": 3,
       "name": "Screenlight Lingerer",
       "status": "draft",
       "source": "enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-source.png",
-      "reference_256": "site/public/art/enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-reference-256.png"
+      "reference_256": "public/art/enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-reference-256.png"
     }
   ],
   "review_sheet": "enemies/faceless-highschoolers-batch-26/faceless-highschoolers-review-sheet.png"

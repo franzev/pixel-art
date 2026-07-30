@@ -17,4 +17,4 @@ reference for later protagonist concepts.
 - Source:
   `protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-source.png`
 - Website render:
-  `site/public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`
+  `public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`

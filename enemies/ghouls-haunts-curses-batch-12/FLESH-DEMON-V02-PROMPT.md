@@ -50,7 +50,7 @@ Save every new source under:
 
 Save every 256 reference under:
 
-`pixel-art/site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/`
+`pixel-art/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/`
 
 ## Essential subject direction
 
@@ -114,7 +114,7 @@ off-white burial coat, dark calf bindings, empty hands. Bruised-mauve joint
 shadows. Slow long-reach stalker.
 
 Save as `01-longback-pallid-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/01-longback-pallid-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/01-longback-pallid-v02-reference-256.png`.
 
 ### 02 — Rose Knuckle-Loper
 
@@ -125,7 +125,7 @@ burgundy hands and feet, restrained violet wrist marks. Fast floor-level
 pursuer.
 
 Save as `02-rose-knuckle-loper-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/02-rose-knuckle-loper-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/02-rose-knuckle-loper-v02-reference-256.png`.
 
 ### 03 — Shroudface Lurker
 
@@ -135,7 +135,7 @@ the face. Torn sleeveless work tunic, wrapped trousers, exactly one small rusted
 harvesting hook held low. Cold-silver eye glints. Patient ambusher.
 
 Save as `03-shroudface-lurker-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/03-shroudface-lurker-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/03-shroudface-lurker-v02-reference-256.png`.
 
 ### 04 — Goat-Headed Mourner
 
@@ -145,7 +145,7 @@ and one short tail. Ash-grey and muted-rose hide, long torn ivory mourning
 mantle, empty hands. No skull head, armor, staff, or imp proportions.
 
 Save as `04-goat-headed-mourner-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/04-goat-headed-mourner-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/04-goat-headed-mourner-v02-reference-256.png`.
 
 ### 05 — Ember-Vein Husk
 
@@ -156,7 +156,7 @@ magical veins beneath one shoulder and the opposite forearm. Heavy charging
 enemy.
 
 Save as `05-ember-vein-husk-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/05-ember-vein-husk-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/05-ember-vein-husk-v02-reference-256.png`.
 
 ### 06 — Bell-Harness Pilgrim
 
@@ -166,7 +166,7 @@ tattered shoulder cloth, dark waist wrap, bare long limbs. Both hands press
 against the sides of the head. Chest remains intact. Sonic warning enemy.
 
 Save as `06-bell-harness-pilgrim-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-reference-256.png`.
 
 ### 07 — Ashmouth Flesh Hound
 
@@ -176,7 +176,7 @@ no arms, hands, wings, or horns. Torn faded-brown work cloth around neck and
 torso; one compact charcoal ash wisp from the mouth. Rush attacker.
 
 Save as `07-ashmouth-flesh-hound-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-reference-256.png`.
 
 ### 08 — Rain-Slick Longlimb
 
@@ -186,7 +186,7 @@ and bare feet. Add six to eight pale-cyan rain streaks following the body
 downward without becoming limbs. Slow pursuit and slowing puddles.
 
 Save as `08-rain-slick-longlimb-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-reference-256.png`.
 
 ### 09 — Mothshoulder Wretch
 
@@ -196,7 +196,7 @@ Place exactly seven small black moths across the shoulders and cloak edge. The
 moths do not form wings. Vision-obscuring swarm enemy.
 
 Save as `09-mothshoulder-wretch-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-reference-256.png`.
 
 ### 10 — EXCLUDED
 
@@ -210,7 +210,7 @@ does not replace the head. Torn faded-grey robe open at forearms and lower legs,
 simple rope belt, no weapon. Claw-feint melee enemy.
 
 Save as `11-bone-mask-skin-demon-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-reference-256.png`.
 
 ### 12 — Curse-Branded Ghoul
 
@@ -220,7 +220,7 @@ only one arm, one side of the neck, and opposite calf. One hand grips the marked
 forearm. Curse-burst enemy.
 
 Save as `12-curse-branded-ghoul-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-reference-256.png`.
 
 ### 13 — Rootgrown Fleshling
 
@@ -230,7 +230,7 @@ either limb. Torn brown shorts, one faded shoulder cloth, pale-sap accents,
 never green. Rooted low-lunge enemy.
 
 Save as `13-rootgrown-fleshling-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-reference-256.png`.
 
 ### 14 — Smoke-Lung Revenant
 
@@ -241,7 +241,7 @@ Exactly three connected soot wisps leave the mouth and collar. Short smoke-cone
 grappler.
 
 Save as `14-smoke-lung-revenant-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-reference-256.png`.
 
 ### 15 — Salt-Crust Exile
 
@@ -251,7 +251,7 @@ crust covers only one shoulder, one forearm, and opposite ankle without exposing
 skin. Pale ice-blue edges. Defensive salt-arc enemy.
 
 Save as `15-salt-crust-exile-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/15-salt-crust-exile-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/15-salt-crust-exile-v02-reference-256.png`.
 
 ### 16 — Moon-Pale Watcher
 
@@ -261,7 +261,7 @@ arms, and feet remain visible. Exactly one proportionate dark wooden spear.
 Restrained silver-lavender rim light. Patient reach enemy.
 
 Save as `16-moon-pale-watcher-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/16-moon-pale-watcher-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/16-moon-pale-watcher-v02-reference-256.png`.
 
 ### 17 — Chain-Draped Gnasher
 
@@ -271,7 +271,7 @@ tissue. Exactly one black iron chain draped across shoulders and torso, torn ash
 trousers, short worn cloak, both hands free. Shoulder-charge enemy.
 
 Save as `17-chain-draped-gnasher-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-reference-256.png`.
 
 ### 18 — Corpse-Fire Herdling
 
@@ -281,7 +281,7 @@ arms, hands, or wings. Torn dark work cloth over the back and exactly five
 connected ember-flame clusters forming a narrow mane. Quick charge enemy.
 
 Save as `18-corpse-fire-herdling-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-reference-256.png`.
 
 ### 19 — Flesh-Lantern Bearer
 
@@ -291,7 +291,7 @@ bare hands and feet. Exactly one small iron lantern held low in the forward
 hand. Compact copper-gold OSL reveals muted-rose skin shadows. Scouting enemy.
 
 Save as `19-flesh-lantern-bearer-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-reference-256.png`.
 
 ### 20 — Hollow Patriarch
 
@@ -303,7 +303,7 @@ exactly one crooked blackwood staff held in one hand. The other hand hangs open.
 Slow long-reach elite.
 
 Save as `20-hollow-patriarch-v02-source.png` and
-`site/public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/20-hollow-patriarch-v02-reference-256.png`.
+`public/art/enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/20-hollow-patriarch-v02-reference-256.png`.
 
 ## Generation and saving workflow
 

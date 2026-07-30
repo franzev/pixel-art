@@ -57,16 +57,16 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/01-capiz-crest-halberd-linekeeper-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/02-mourning-shield-warder-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/03-abaca-plume-matchlock-watcher-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/04-ember-censer-mace-suppressor-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/05-pale-funeral-standard-captain-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/06-high-oath-greatsworder-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/07-low-gate-warhammer-breaker-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/08-sable-bolo-pursuer-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/09-cross-step-twin-blade-skirmisher-reference-256.png`
-- `site/public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/10-ivory-mantle-great-axe-warden-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/01-capiz-crest-halberd-linekeeper-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/02-mourning-shield-warder-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/03-abaca-plume-matchlock-watcher-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/04-ember-censer-mace-suppressor-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/05-pale-funeral-standard-captain-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/06-high-oath-greatsworder-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/07-low-gate-warhammer-breaker-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/08-sable-bolo-pursuer-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/09-cross-step-twin-blade-skirmisher-reference-256.png`
+- `public/art/enemies/ivory-vigil-soldiers-batch-27/drafts/10-ivory-mantle-great-axe-warden-reference-256.png`
 
 Review sheet:
 

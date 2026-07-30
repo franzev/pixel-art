@@ -29,7 +29,7 @@ explicitly requests another count.
 - Magical effects remain secondary to the face, anatomy, and silhouette.
 - Full sources are preserved under this collection's `drafts/` folder.
 - Website-ready 256 × 256 nearest-neighbor references are stored under the
-  matching `site/public/art/angels/corrupted-angels-v01/drafts/` path.
+  matching `public/art/angels/corrupted-angels-v01/drafts/` path.
 
 ## Review material
 

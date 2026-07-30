@@ -41,11 +41,11 @@ drafts. Fifteen requested concepts remain for later review waves.
 
 ## Website references
 
-- `site/public/art/enemies/maria-clara-corruptions-batch-41/drafts/01-abaniko-fang-ilustrada-reference-256.png`
-- `site/public/art/enemies/maria-clara-corruptions-batch-41/drafts/02-capiz-mirror-heiress-reference-256.png`
-- `site/public/art/enemies/maria-clara-corruptions-batch-41/drafts/03-wake-stiff-processional-reference-256.png`
-- `site/public/art/enemies/maria-clara-corruptions-batch-41/drafts/04-tapis-snare-mourner-reference-256.png`
-- `site/public/art/enemies/maria-clara-corruptions-batch-41/drafts/05-grave-sickle-harvest-widow-reference-256.png`
+- `public/art/enemies/maria-clara-corruptions-batch-41/drafts/01-abaniko-fang-ilustrada-reference-256.png`
+- `public/art/enemies/maria-clara-corruptions-batch-41/drafts/02-capiz-mirror-heiress-reference-256.png`
+- `public/art/enemies/maria-clara-corruptions-batch-41/drafts/03-wake-stiff-processional-reference-256.png`
+- `public/art/enemies/maria-clara-corruptions-batch-41/drafts/04-tapis-snare-mourner-reference-256.png`
+- `public/art/enemies/maria-clara-corruptions-batch-41/drafts/05-grave-sickle-harvest-widow-reference-256.png`
 
 ## Review material
 

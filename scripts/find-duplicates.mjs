@@ -4,9 +4,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
-const siteDir = path.resolve(scriptDir, "..");
-const repositoryDir = path.resolve(siteDir, "..");
-const artDir = path.join(siteDir, "public", "art");
+const repositoryDir = path.resolve(scriptDir, "..");
+const artDir = path.join(repositoryDir, "public", "art");
 const categories = [
   "enemies",
   "bosses",

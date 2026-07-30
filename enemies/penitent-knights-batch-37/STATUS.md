@@ -64,7 +64,7 @@ V02 corrects the count to exactly three visible stones and is the active draft.
 
 - Sources: `enemies/penitent-knights-batch-37/drafts/`
 - Website references:
-  `site/public/art/enemies/penitent-knights-batch-37/drafts/`
+  `public/art/enemies/penitent-knights-batch-37/drafts/`
 - Review sheet:
   `enemies/penitent-knights-batch-37/drafts/penitent-knights-batch-37-draft-review-sheet-v02.png`
 - Prompt record: `enemies/penitent-knights-batch-37/GENERATION-PROMPTS.md`

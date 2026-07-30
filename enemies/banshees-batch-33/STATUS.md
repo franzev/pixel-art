@@ -105,22 +105,22 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/banshees-batch-33/drafts/01-milestone-cryer-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/02-shawlbound-lamenter-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/04-wake-ring-conductor-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/06-pall-veil-keener-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/08-pearl-processional-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/09-crimson-lace-regent-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/10-violet-hem-elegist-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/11-gilt-ash-sentinel-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/12-crimson-hem-wailer-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/13-white-hem-vigil-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/14-black-bell-caller-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-reference-256.png`
-- `site/public/art/enemies/banshees-batch-33/drafts/16-ash-gold-court-wailer-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/01-milestone-cryer-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/02-shawlbound-lamenter-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/04-wake-ring-conductor-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/06-pall-veil-keener-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/08-pearl-processional-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/09-crimson-lace-regent-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/10-violet-hem-elegist-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/11-gilt-ash-sentinel-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/12-crimson-hem-wailer-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/13-white-hem-vigil-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/14-black-bell-caller-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-reference-256.png`
+- `public/art/enemies/banshees-batch-33/drafts/16-ash-gold-court-wailer-reference-256.png`
 
 Review sheet:
 

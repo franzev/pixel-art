@@ -100,11 +100,11 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer-reference-256.png`
-- `site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist-reference-256.png`
-- `site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer-reference-256.png`
-- `site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist-reference-256.png`
-- `site/public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor-reference-256.png`
+- `public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer-reference-256.png`
+- `public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist-reference-256.png`
+- `public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer-reference-256.png`
+- `public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist-reference-256.png`
+- `public/art/enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor-reference-256.png`
 
 Review sheet:
 

@@ -23,31 +23,31 @@
       "id": 1,
       "name": "Roadside White Lady",
       "source": "enemies/white-lady-variations-batch-05/01-roadside-white-lady-source.png",
-      "reference_256": "site/public/art/enemies/white-lady-variations-batch-05/01-roadside-white-lady-reference-256.png"
+      "reference_256": "public/art/enemies/white-lady-variations-batch-05/01-roadside-white-lady-reference-256.png"
     },
     {
       "id": 2,
       "name": "Balete Bride",
       "source": "enemies/white-lady-variations-batch-05/02-balete-bride-source.png",
-      "reference_256": "site/public/art/enemies/white-lady-variations-batch-05/02-balete-bride-reference-256.png"
+      "reference_256": "public/art/enemies/white-lady-variations-batch-05/02-balete-bride-reference-256.png"
     },
     {
       "id": 3,
       "name": "Rain-Road White Lady",
       "source": "enemies/white-lady-variations-batch-05/03-rain-road-white-lady-source.png",
-      "reference_256": "site/public/art/enemies/white-lady-variations-batch-05/03-rain-road-white-lady-reference-256.png"
+      "reference_256": "public/art/enemies/white-lady-variations-batch-05/03-rain-road-white-lady-reference-256.png"
     },
     {
       "id": 4,
       "name": "Chapel Candle White Lady",
       "source": "enemies/white-lady-variations-batch-05/04-chapel-candle-white-lady-source.png",
-      "reference_256": "site/public/art/enemies/white-lady-variations-batch-05/04-chapel-candle-white-lady-reference-256.png"
+      "reference_256": "public/art/enemies/white-lady-variations-batch-05/04-chapel-candle-white-lady-reference-256.png"
     },
     {
       "id": 5,
       "name": "River-Mirror White Lady",
       "source": "enemies/white-lady-variations-batch-05/05-river-mirror-white-lady-source.png",
-      "reference_256": "site/public/art/enemies/white-lady-variations-batch-05/05-river-mirror-white-lady-reference-256.png"
+      "reference_256": "public/art/enemies/white-lady-variations-batch-05/05-river-mirror-white-lady-reference-256.png"
     }
   ],
   "review_sheet": "enemies/white-lady-variations-batch-05/white-lady-variations-review-sheet.png"

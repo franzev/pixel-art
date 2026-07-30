@@ -30,11 +30,11 @@ Generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/06-braided-crown-pike-marshal-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/07-blunt-bob-kiln-breaker-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/08-coiled-knot-bolo-duelist-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/09-side-braid-tile-arbalist-reference-256.png`
-- `site/public/art/enemies/porcelain-knights-batch-42/drafts/10-loose-wave-hook-warden-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/06-braided-crown-pike-marshal-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/07-blunt-bob-kiln-breaker-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/08-coiled-knot-bolo-duelist-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/09-side-braid-tile-arbalist-reference-256.png`
+- `public/art/enemies/porcelain-knights-batch-42/drafts/10-loose-wave-hook-warden-reference-256.png`
 
 Review material containing rejected work:
 

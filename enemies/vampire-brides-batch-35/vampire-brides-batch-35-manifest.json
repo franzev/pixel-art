@@ -23,175 +23,175 @@
       "name": "Veil-Fang Processional",
       "status": "retained",
       "source": "enemies/vampire-brides-batch-35/01-veil-fang-processional-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/01-veil-fang-processional-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/01-veil-fang-processional-reference-256.png"
     },
     {
       "id": 2,
       "name": "Chalice-Vow Cantor",
       "status": "retained",
       "source": "enemies/vampire-brides-batch-35/02-chalice-vow-cantor-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/02-chalice-vow-cantor-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/02-chalice-vow-cantor-reference-256.png"
     },
     {
       "id": 3,
       "name": "Cord-Bound Widow",
       "status": "retained",
       "source": "enemies/vampire-brides-batch-35/03-cord-bound-widow-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/03-cord-bound-widow-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/03-cord-bound-widow-reference-256.png"
     },
     {
       "id": 4,
       "name": "Grave-Train Prowler",
       "status": "retained",
       "source": "enemies/vampire-brides-batch-35/04-grave-train-prowler-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/04-grave-train-prowler-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/04-grave-train-prowler-v02-reference-256.png"
     },
     {
       "id": 5,
       "name": "Sampaguita Vow-Matron",
       "status": "retained",
       "source": "enemies/vampire-brides-batch-35/05-sampaguita-vow-matron-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/05-sampaguita-vow-matron-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/05-sampaguita-vow-matron-reference-256.png"
     },
     {
       "id": 6,
       "name": "Moon-Salt Sabre Bride",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/06-moon-salt-sabre-bride-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/06-moon-salt-sabre-bride-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/06-moon-salt-sabre-bride-v02-reference-256.png"
     },
     {
       "id": 7,
       "name": "Pearl-Bow Huntress",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/07-pearl-bow-huntress-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/07-pearl-bow-huntress-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/07-pearl-bow-huntress-v02-reference-256.png"
     },
     {
       "id": 8,
       "name": "Tidal Dagger Widow",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/08-tidal-dagger-widow-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/08-tidal-dagger-widow-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/08-tidal-dagger-widow-v02-reference-256.png"
     },
     {
       "id": 9,
       "name": "Silver-Spear Betrothed",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/09-silver-spear-betrothed-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/09-silver-spear-betrothed-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/09-silver-spear-betrothed-v02-reference-256.png"
     },
     {
       "id": 10,
       "name": "Salt-Wake Ravager",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/10-salt-wake-ravager-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/10-salt-wake-ravager-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/10-salt-wake-ravager-v02-reference-256.png"
     },
     {
       "id": 11,
       "name": "Ash-Gold Sword Bride",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/11-ash-gold-sword-bride-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/11-ash-gold-sword-bride-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/11-ash-gold-sword-bride-v02-reference-256.png"
     },
     {
       "id": 12,
       "name": "Saffron Knife Betrothed",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/12-saffron-knife-betrothed-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/12-saffron-knife-betrothed-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/12-saffron-knife-betrothed-v02-reference-256.png"
     },
     {
       "id": 13,
       "name": "Copper-Spear Heiress",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/13-copper-spear-heiress-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/13-copper-spear-heiress-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/13-copper-spear-heiress-v02-reference-256.png"
     },
     {
       "id": 14,
       "name": "Ember-Bow Consort",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/14-ember-bow-consort-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/14-ember-bow-consort-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/14-ember-bow-consort-v02-reference-256.png"
     },
     {
       "id": 15,
       "name": "Cinder-Hand Butcher",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/15-cinder-hand-butcher-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/15-cinder-hand-butcher-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/15-cinder-hand-butcher-v02-reference-256.png"
     },
     {
       "id": 16,
       "name": "River-Bolo Bride",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/16-river-bolo-bride-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/16-river-bolo-bride-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/16-river-bolo-bride-v02-reference-256.png"
     },
     {
       "id": 17,
       "name": "Pearl-Blade Mourner",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/17-pearl-blade-mourner-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/17-pearl-blade-mourner-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/17-pearl-blade-mourner-v02-reference-256.png"
     },
     {
       "id": 18,
       "name": "Flood-Spear Widow",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/18-flood-spear-widow-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/18-flood-spear-widow-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/18-flood-spear-widow-v02-reference-256.png"
     },
     {
       "id": 19,
       "name": "Mirror-Blue Bow Bride",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/19-mirror-blue-bow-bride-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/19-mirror-blue-bow-bride-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/19-mirror-blue-bow-bride-v02-reference-256.png"
     },
     {
       "id": 20,
       "name": "Drowned-Veil Mauler",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/20-drowned-veil-mauler-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/20-drowned-veil-mauler-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/20-drowned-veil-mauler-v02-reference-256.png"
     },
     {
       "id": 21,
       "name": "Plum-Sword Duchess",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/21-plum-sword-duchess-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/21-plum-sword-duchess-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/21-plum-sword-duchess-v02-reference-256.png"
     },
     {
       "id": 22,
       "name": "Mourning-Dagger Bride",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/22-mourning-dagger-bride-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/22-mourning-dagger-bride-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/22-mourning-dagger-bride-v02-reference-256.png"
     },
     {
       "id": 23,
       "name": "Lavender-Spear Dowager",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/23-lavender-spear-dowager-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/23-lavender-spear-dowager-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/23-lavender-spear-dowager-v02-reference-256.png"
     },
     {
       "id": 24,
       "name": "Orchid-Bow Widow",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/24-orchid-bow-widow-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/24-orchid-bow-widow-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/24-orchid-bow-widow-v02-reference-256.png"
     },
     {
       "id": 25,
       "name": "Black-Lace Ravager",
       "status": "draft",
       "source": "enemies/vampire-brides-batch-35/drafts/25-black-lace-ravager-v02-source.png",
-      "reference_256": "site/public/art/enemies/vampire-brides-batch-35/drafts/25-black-lace-ravager-v02-reference-256.png"
+      "reference_256": "public/art/enemies/vampire-brides-batch-35/drafts/25-black-lace-ravager-v02-reference-256.png"
     }
   ],
   "review_sheet": "enemies/vampire-brides-batch-35/vampire-brides-batch-35-approved-01-05-review-sheet.png",

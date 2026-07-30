@@ -4,27 +4,27 @@
   "assets": [
     {
       "source": "enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-source.png",
-      "reference_256": "site/public/art/enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-reference-256.png"
+      "reference_256": "public/art/enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-reference-256.png"
     },
     {
       "source": "enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-v02-source.png",
-      "reference_256": "site/public/art/enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-v02-reference-256.png"
+      "reference_256": "public/art/enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-v02-reference-256.png"
     },
     {
       "source": "enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-source.png",
-      "reference_256": "site/public/art/enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-reference-256.png"
+      "reference_256": "public/art/enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-reference-256.png"
     },
     {
       "source": "enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-v02-source.png",
-      "reference_256": "site/public/art/enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-v02-reference-256.png"
+      "reference_256": "public/art/enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-v02-reference-256.png"
     },
     {
       "source": "enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-source.png",
-      "reference_256": "site/public/art/enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-reference-256.png"
+      "reference_256": "public/art/enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-reference-256.png"
     },
     {
       "source": "enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-v02-source.png",
-      "reference_256": "site/public/art/enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-v02-reference-256.png"
+      "reference_256": "public/art/enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-v02-reference-256.png"
     }
   ]
 }

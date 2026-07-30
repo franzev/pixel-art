@@ -43,11 +43,11 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/prisoners-criminals-batch-39/drafts/01-ash-shackle-lunger-reference-256.png`
-- `site/public/art/enemies/prisoners-criminals-batch-39/drafts/02-quarry-collar-hammerer-reference-256.png`
-- `site/public/art/enemies/prisoners-criminals-batch-39/drafts/03-contraband-pot-smuggler-reference-256.png`
-- `site/public/art/enemies/prisoners-criminals-batch-39/drafts/04-iron-latch-lockbreaker-reference-256.png`
-- `site/public/art/enemies/prisoners-criminals-batch-39/drafts/05-sentence-rope-snarer-reference-256.png`
+- `public/art/enemies/prisoners-criminals-batch-39/drafts/01-ash-shackle-lunger-reference-256.png`
+- `public/art/enemies/prisoners-criminals-batch-39/drafts/02-quarry-collar-hammerer-reference-256.png`
+- `public/art/enemies/prisoners-criminals-batch-39/drafts/03-contraband-pot-smuggler-reference-256.png`
+- `public/art/enemies/prisoners-criminals-batch-39/drafts/04-iron-latch-lockbreaker-reference-256.png`
+- `public/art/enemies/prisoners-criminals-batch-39/drafts/05-sentence-rope-snarer-reference-256.png`
 
 Review sheet:
 

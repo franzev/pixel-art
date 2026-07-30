@@ -33,7 +33,7 @@ and promotion gate unless the user later changes their status.
 All active source images are under `drafts/`. Every numbered concept has one
 full-resolution `1254 × 1254` source and one nearest-neighbor `256 × 256`
 reference under the matching
-`site/public/art/enemies/spanish-colonial-corruption-batch-09/drafts/` path.
+`public/art/enemies/spanish-colonial-corruption-batch-09/drafts/` path.
 
 1. Feral Aswang-Bitten Cazador
 2. Starved Jungle Ghoul Rifleman

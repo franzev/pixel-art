@@ -121,16 +121,16 @@ Full generated sources:
 
 Matching website references:
 
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/01-processional-crucifer-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/02-censer-penitent-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/03-capiz-mantle-warder-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/04-black-scapular-auditor-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/05-sunburst-relic-lancer-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/06-votive-lamp-sabreur-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/07-palm-weave-arquebusier-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/08-ivory-arc-votary-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/09-ash-hatchet-penitent-reference-256.png`
-- `site/public/art/enemies/catholic-knights-batch-41/drafts/10-veiled-relic-pick-canoness-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/01-processional-crucifer-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/02-censer-penitent-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/03-capiz-mantle-warder-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/04-black-scapular-auditor-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/05-sunburst-relic-lancer-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/06-votive-lamp-sabreur-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/07-palm-weave-arquebusier-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/08-ivory-arc-votary-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/09-ash-hatchet-penitent-reference-256.png`
+- `public/art/enemies/catholic-knights-batch-41/drafts/10-veiled-relic-pick-canoness-reference-256.png`
 
 Review sheet:
 

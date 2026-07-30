@@ -88,7 +88,7 @@ reference for the redo.
 - `drafts/blood-demon-knights-batch-37-draft-review-sheet-11-15-v02.png`
 - `drafts/blood-demon-knights-batch-37-draft-review-sheet-01-15-v02.png`
 - Matching 256 references:
-  `site/public/art/enemies/blood-demon-knights-batch-37/drafts/`
+  `public/art/enemies/blood-demon-knights-batch-37/drafts/`
 
 ## Promotion gate
 

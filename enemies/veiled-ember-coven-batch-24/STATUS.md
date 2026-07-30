@@ -35,7 +35,7 @@ without a new explicit request.
   (`1254×1254`, PNG, RGB, 1,250,537 bytes,
   SHA-256 `34f278e1f97a8575b29835f2425accff508cca172d03bd1d73e00b75bbdd40f2`).
   Reference:
-  `site/public/art/enemies/veiled-ember-coven-batch-24/drafts/01-ember-triad-veilseer-reference-256.png`
+  `public/art/enemies/veiled-ember-coven-batch-24/drafts/01-ember-triad-veilseer-reference-256.png`
   (`256×256`, PNG, RGBA, 80,940 bytes,
   SHA-256 `8df5953ad66df8bf96d5234a7c0504f4b9396c191345f0e4c89c6b8c8a7471ff`).
 - **02 Cinder-Thread Binder — PASS (attempt 1).** Left-facing; correct
@@ -46,7 +46,7 @@ without a new explicit request.
   (`1254×1254`, PNG, RGB, 1,234,837 bytes,
   SHA-256 `fc98f9619ad79378e2341796c5745f6890478c5d73b1661e676332e092448f3a`).
   Reference:
-  `site/public/art/enemies/veiled-ember-coven-batch-24/drafts/02-cinder-thread-binder-reference-256.png`
+  `public/art/enemies/veiled-ember-coven-batch-24/drafts/02-cinder-thread-binder-reference-256.png`
   (`256×256`, PNG, RGBA, 81,640 bytes,
   SHA-256 `3c45af0bda7a111f6a4eced969a1fc168dab14c6be50dfe4e1d358e45e345ec5`).
 - **03 Pyre-Sleeve Channeler — PASS (attempt 1).** Left-facing; correct
@@ -57,7 +57,7 @@ without a new explicit request.
   (`1254×1254`, PNG, RGB, 1,340,956 bytes,
   SHA-256 `76e088668570a3dce29401d819abaed2d8a2428f189056042cfe322a27cde843`).
   Reference:
-  `site/public/art/enemies/veiled-ember-coven-batch-24/drafts/03-pyre-sleeve-channeler-reference-256.png`
+  `public/art/enemies/veiled-ember-coven-batch-24/drafts/03-pyre-sleeve-channeler-reference-256.png`
   (`256×256`, PNG, RGBA, 87,124 bytes,
   SHA-256 `c07b2ede9fd2b8f1a69493b10be356b5245230b93fc8c96df2a97dacded9f4cf`).
 - **04 Ash-Crown Augur — PASS (attempt 1).** Left-facing; correct anatomy;
@@ -68,7 +68,7 @@ without a new explicit request.
   (`1254×1254`, PNG, RGB, 1,036,353 bytes,
   SHA-256 `9f9b0744af078a74b7d46b7dd9f32c606116d88a366e268dca0acca36e19a468`).
   Reference:
-  `site/public/art/enemies/veiled-ember-coven-batch-24/drafts/04-ash-crown-augur-reference-256.png`
+  `public/art/enemies/veiled-ember-coven-batch-24/drafts/04-ash-crown-augur-reference-256.png`
   (`256×256`, PNG, RGBA, 60,634 bytes,
   SHA-256 `891aed9f998f27284478c85d385e2d71b8c63aaeb3ba747e1cd7d9d0f0a21baf`).
 - **05 Furnace-Veil Matriarch — GENERATED, NOT SAVED.** The generation call

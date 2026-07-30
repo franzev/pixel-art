@@ -26,7 +26,7 @@
 - Each design is a separate 1254 × 1254 square RGB source on a warm near-black
   isolated background.
 - Each source has a matching 256 × 256 nearest-neighbor reference under
-  `site/public/art/enemies/satanic-cult-knights-batch-39/drafts/`.
+  `public/art/enemies/satanic-cult-knights-batch-39/drafts/`.
 - The review sheet is 1280 × 256 and presents the five references in roster
   order.
 - Every design is one complete full-height adult humanoid with one head, two
@@ -57,7 +57,7 @@
 
 - Sources: `enemies/satanic-cult-knights-batch-39/drafts/`
 - Website references:
-  `site/public/art/enemies/satanic-cult-knights-batch-39/drafts/`
+  `public/art/enemies/satanic-cult-knights-batch-39/drafts/`
 - Review sheet:
   `enemies/satanic-cult-knights-batch-39/drafts/satanic-cult-knights-batch-39-draft-review-sheet.png`
 - Prompt record:

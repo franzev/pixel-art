@@ -147,7 +147,7 @@ face, costume, veil, weapon placement, effect, or silhouette was copied.
 
 - Sources: `enemies/convent-horrors-batch-37/drafts/`
 - Website references:
-  `site/public/art/enemies/convent-horrors-batch-37/drafts/`
+  `public/art/enemies/convent-horrors-batch-37/drafts/`
 - Complete review sheet:
   `enemies/convent-horrors-batch-37/drafts/convent-horrors-batch-37-draft-review-sheet-v02.png`
 - Original twenty-character review sheet preserved:

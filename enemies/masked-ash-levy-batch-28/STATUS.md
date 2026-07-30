@@ -49,11 +49,11 @@ Full generated sources:
 
 Matching nearest-neighbor references:
 
-- `site/public/art/enemies/masked-ash-levy-batch-28/drafts/01-grinning-pike-sentry-reference-256.png`
-- `site/public/art/enemies/masked-ash-levy-batch-28/drafts/02-weeping-shield-mourner-reference-256.png`
-- `site/public/art/enemies/masked-ash-levy-batch-28/drafts/03-wrath-bolo-pursuer-reference-256.png`
-- `site/public/art/enemies/masked-ash-levy-batch-28/drafts/04-hollow-eye-crossbowman-reference-256.png`
-- `site/public/art/enemies/masked-ash-levy-batch-28/drafts/05-blank-mouth-ashpot-thrower-reference-256.png`
+- `public/art/enemies/masked-ash-levy-batch-28/drafts/01-grinning-pike-sentry-reference-256.png`
+- `public/art/enemies/masked-ash-levy-batch-28/drafts/02-weeping-shield-mourner-reference-256.png`
+- `public/art/enemies/masked-ash-levy-batch-28/drafts/03-wrath-bolo-pursuer-reference-256.png`
+- `public/art/enemies/masked-ash-levy-batch-28/drafts/04-hollow-eye-crossbowman-reference-256.png`
+- `public/art/enemies/masked-ash-levy-batch-28/drafts/05-blank-mouth-ashpot-thrower-reference-256.png`
 
 Review sheet:
 

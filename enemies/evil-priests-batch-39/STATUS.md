@@ -16,7 +16,7 @@
 
 Full generated sources are under `drafts/`. Matching nearest-neighbor 256-pixel
 references are under
-`site/public/art/enemies/evil-priests-batch-39/drafts/`.
+`public/art/enemies/evil-priests-batch-39/drafts/`.
 
 Review sheet:
 

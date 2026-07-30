@@ -28,7 +28,7 @@
       "status": "draft",
       "role": "low advancing lane sweeper",
       "source": "enemies/reapers-batch-40/drafts/01-rice-wake-reaper-source.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/01-rice-wake-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/01-rice-wake-reaper-reference-256.png"
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
       "status": "draft",
       "role": "upright passage controller",
       "source": "enemies/reapers-batch-40/drafts/02-funeral-lane-reaper-source.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/02-funeral-lane-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/02-funeral-lane-reaper-reference-256.png"
     },
     {
       "id": 3,
@@ -44,7 +44,7 @@
       "status": "draft",
       "role": "reactive counter-duelist",
       "source": "enemies/reapers-batch-40/drafts/03-severed-thread-reaper-source.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/03-severed-thread-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/03-severed-thread-reaper-reference-256.png"
     },
     {
       "id": 4,
@@ -52,7 +52,7 @@
       "status": "draft",
       "role": "planted puller",
       "source": "enemies/reapers-batch-40/drafts/04-drowned-road-reaper-source.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/04-drowned-road-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/04-drowned-road-reaper-reference-256.png"
     },
     {
       "id": 5,
@@ -60,7 +60,7 @@
       "status": "draft",
       "role": "drifting delayed executioner",
       "source": "enemies/reapers-batch-40/drafts/05-ember-writ-reaper-source.png",
-      "reference_256": "site/public/art/enemies/reapers-batch-40/drafts/05-ember-writ-reaper-reference-256.png"
+      "reference_256": "public/art/enemies/reapers-batch-40/drafts/05-ember-writ-reaper-reference-256.png"
     }
   ],
   "review_sheet": "enemies/reapers-batch-40/drafts/reapers-batch-40-draft-review-sheet.png"

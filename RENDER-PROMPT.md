@@ -474,7 +474,10 @@ If a mandatory criterion fails, reject the result internally and regenerate from
 - Follow the repository's existing category, collection, numbering, and filename conventions.
 - Save viable generated work only as a draft (in the collection's `drafts/` folder).
 - Native production sprites must be deliberately redrawn to their specified grid; never blindly shrink a concept master and call it final.
-- Preserve the exact generation prompt with the collection's prompt records.
+- Preserve the exact generation prompt in the active collection's single
+  `GENERATION-PROMPTS.md`. Append revisions and waves there; do not create
+  prompt files under `rejected/`. Remove the record when the collection has no
+  retained or active draft renders.
 - Do not mark anything canonical, retained, approved, or production-ready without explicit user approval.
 - Do not update lore, canonical counts, retained galleries, or approval manifests before approval.
 - Silence does not mean approval.

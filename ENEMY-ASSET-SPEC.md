@@ -488,10 +488,15 @@ Use descriptive lowercase kebab-case.
 
 ### Batch support
 
-- `GENERATION-PROMPTS.md`
+- One `GENERATION-PROMPTS.md` while the batch has retained or active draft
+  renders; append later waves and revisions to this file
 - `<theme>-manifest.json`
 - `<theme>-review-sheet.png`
 - `STATUS.md` when a batch is incomplete or has special continuation notes
+
+Do not keep standalone continuation, retry, revision, or rejected prompt files.
+Remove the prompt record when the batch has no retained or active draft renders;
+Git history remains the archive.
 
 Avoid filenames such as:
 

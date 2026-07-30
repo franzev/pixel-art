@@ -128,3 +128,96 @@ Lighting/mood: dim neutral light with restrained metal highlights; severe, mourn
 Hard prohibitions: absolutely no magic, spell effects, sigils, glowing symbols, circles, diamonds, orbs, motes, floating objects, red strings, red cords, red ribbons, red threads, blood trails, particles, smoke, aura, halo, scenery, animal traits, demon anatomy, horns, extra anatomy, extra faces, extra fingers, chain weapon, flail, spiked ball, extra weapons, shield, cropped elements, or copyrighted resemblance.
 Final count: one woman, one head, two arms, two hands, two legs, two bare feet, exactly one continuous two-handed mace with one butt cap and one six-flanged head, zero other props, zero magic, zero loose strings or chains.
 ```
+
+---
+
+## Imported prompt record: GENERATION-PROMPTS-WAVE-07-11.md
+
+# Blood Priestesses Batch 39 — Inspiration Wave 07–11 Prompts
+
+Generated: 2026-07-30
+
+Mode: built-in image generation
+
+Positive visual reference:
+`/Users/franz/Desktop/call_CuBrl8ruXzTSKqJfNNVpxRAd.png`
+
+## 07 — Ivory-Lance Sepulchral Votary
+
+```text
+Use case: stylized-concept.
+Asset type: new draft enemy concept for Blood Priestesses Batch 39 in the Ashen Provinces, a Philippine-inflected gothic 2D Metroidvania.
+Input image: positive visual reference only, not an edit target. Preserve the mature mournful priestess presence, burgundy/dirty-ivory/charcoal layered habit, weathered practical religious clothing, restrained ornament, grounded weapon, bare-foot severity, strong silhouette, and crisp high-density pixel art. Create a fresh original character. Do not copy the reference's pose, stance, chest cross, hood shape, garment layout, hand gesture, chain-flail, spiked ball, face, or silhouette.
+Primary request: Concept 07 — Ivory-Lance Sepulchral Votary, a grounded spacing enemy with one long spear. No magic.
+Subject and face: exactly one tall lean adult human woman, three-quarter view facing right, in a narrow side-on advancing stance with the rear heel lifted. Exactly one head, two arms, two visible hands, two legs, two fully visible bare feet. Give her a visibly distinct heart-shaped adult face: narrow pointed chin, high smooth cheekbones, straight narrow nose, wide-set almond eyes, short arched dark brows, thin closed lips, and a stern focused expression. Light warm-ivory skin, clearly lighter than the supplied reference, with natural peach undertones and readable facial planes; not chalk white. Face fully visible beneath a compact charcoal coif and short deep-burgundy shoulder veil. No face covering.
+Weapon: exactly one realistic human-scale infantry spear with one continuous straight dark hardwood shaft, one modest iron butt cap, and one compact leaf-shaped steel spearhead. Both hands clearly grip separate parts of the same unbroken shaft with aligned wrists; shaft visibly continuous through and between grips. Spear held diagonally upward from lower left to upper right, fully visible with generous padding. No banner, tassel, cord, chain, second weapon, or effect.
+Clothing: dirty-ivory high-neck long-sleeved tunic; deep-burgundy sleeveless knee-length overcoat split into two broad straight side panels; charcoal fitted trousers; one short charcoal waist apron; bare feet; restrained dull-brass edging. No chest cross, emblem, text, long cape, loose fabric strips, cords, ribbons, strings, tassels, or dangling ornaments.
+Style/composition: authentic deliberate high-density pixel art with hard square pixels, connected clusters, broad readable masses, restrained ramps, selective highlights, clean edges, consistent pixel density. Square 1:1 canvas, plain uniform warm near-black #120f0e, no floor, shadow, vignette, scenery, text, frame, or watermark. Exactly one complete character and complete spear within central 78% width and 78% height, generous padding, readable at 256 pixels.
+Palette/mood: deep burgundy cloth, dirty ivory, charcoal, dark wood, dull iron, restrained brass, light warm-ivory skin. Severe, mournful, grounded, non-graphic. No glow or red lighting.
+Hard prohibitions: no magic, spells, sigils, floating objects, red strings, red cords, red ribbons, red threads, blood trails, particles, smoke, aura, tattoos, paint, scars, wounds, gore, animal or demon anatomy, horns, extra anatomy, extra faces, extra fingers, extra weapons, shield, green, crop, or copyrighted resemblance.
+Final count: one woman, one head, two arms, two hands, two legs, two bare feet, exactly one continuous spear, zero other props, zero magic, zero loose strings or chains.
+```
+
+## 08 — Iron-Psalm Flail Prioress
+
+```text
+Use case: stylized-concept.
+Asset type: new draft enemy concept for Blood Priestesses Batch 39 in the Ashen Provinces, a Philippine-inflected gothic 2D Metroidvania.
+Input image: positive visual reference only, not an edit target. Preserve the mature mournful priestess presence, burgundy/dirty-ivory/charcoal habit, practical weathering, restrained ornament, bare-foot severity, grounded combat, and crisp high-density pixel art. Create an original character. Do not copy the reference's exact pose, chest cross, hood, garment panels, hand gesture, flail construction, spiked ball, face, or silhouette.
+Primary request: Concept 08 — Iron-Psalm Flail Prioress, a grounded close-control enemy with one historical metal flail. No magic.
+Subject and face: exactly one tall medium-build adult human woman in a low offset guard, three-quarter view facing right, left shoulder forward, knees bent modestly, feet well separated. Exactly one head, two arms, two visible hands, two legs, two fully visible bare feet. Give her a visibly distinct square adult face: broad straight jaw, blunt chin, low broad cheekbones, strong aquiline nose, deep-set close-set eyes, thick level dark brows, medium closed lips, and a grim unsmiling expression. Light neutral-ivory skin, clearly lighter than the reference, with subtle cool-pink undertones and strong readable planes; not chalk white. Face fully visible beneath a short charcoal hood and narrow dirty-ivory forehead band.
+Weapon: exactly one grounded military flail: one medium dark hardwood handle held firmly in the right hand, exactly one short continuous dark iron chain, and exactly one compact plain faceted iron weight with no spikes. The chain hangs in one simple U curve toward the left side; the weight rests low beside the left shin, fully visible. Empty left hand held open in front of the torso, holding nothing. No second chain, second weight, other weapon, or effect.
+Clothing: short deep-burgundy shoulder mantle; charcoal fitted long-sleeved tunic; dirty-ivory sleeveless knee-length scapular split into two broad front panels; charcoal calf-length wrap skirt; narrow dark leggings visible below; bare feet; restrained dull-iron and brass fasteners. No chest cross, emblem, text, long veil, loose red strips, red cords, red ribbons, red strings, tassels, or dangling ornaments beyond the functional iron flail chain.
+Style/composition: authentic deliberate high-density pixel art with hard square pixels, connected clusters, broad readable masses, restrained ramps, clean edges, consistent pixel density. Square 1:1, uniform warm near-black #120f0e background, no floor, shadow, vignette, scenery, text, frame, or watermark. Complete character, handle, full chain, weight, hands, legs, and feet within central 76% width and 78% height with generous padding; readable at 256 pixels.
+Palette/mood: deep burgundy, dirty ivory, charcoal, dark wood, dull iron, light neutral-ivory skin. Severe, mournful, grounded, non-graphic. No glow or red lighting.
+Hard prohibitions: no magic, spells, sigils, floating objects, glowing effects, red strings, red cords, red ribbons, red threads, blood trails, particles, smoke, aura, tattoos, paint, scars, wounds, gore, animal or demon anatomy, horns, extra anatomy, extra faces, extra fingers, extra weapons, extra chains, extra weights, spikes, shield, green, crop, or copyrighted resemblance.
+Final count: one woman, one head, two arms, two hands, two legs, two bare feet, one flail handle, one functional dark iron chain, one plain iron weight, zero other props, zero magic, zero red strings.
+```
+
+## 09 — Pale Tithe-Bolo Sacristan
+
+```text
+Use case: stylized-concept.
+Asset type: new draft enemy concept for Blood Priestesses Batch 39 in the Ashen Provinces, a Philippine-inflected gothic 2D Metroidvania.
+Input image: positive visual reference only, not an edit target. Preserve the mature mournful priestess presence, burgundy/dirty-ivory/charcoal habit, weathered religious workwear, grounded weapon, bare-foot severity, strong readable silhouette, and crisp high-density pixel art. Create an original character. Do not copy the reference's pose, chest cross, hood, garment panels, hand gesture, flail, face, or silhouette.
+Primary request: Concept 09 — Pale Tithe-Bolo Sacristan, a fast grounded close-range blood priestess with one Filipino bolo. No magic.
+Subject and face: exactly one lean adult human woman in a compact forward pursuit stance, three-quarter view facing right, torso angled forward slightly, right foot advanced, left heel raised. Exactly one head, two arms, two visible hands, two legs, two fully visible bare feet. Give her a visibly distinct oval adult face: softly tapered jaw, rounded chin, moderate cheekbones, small straight nose with a rounded tip, wide-set round-dark eyes, fine gently curved brows, fuller closed lips, and a watchful tense expression. Light warm porcelain-ivory skin, clearly lighter than the reference, with natural pink-peach undertones; not chalk white. Face fully visible beneath a close dirty-ivory head wrap and short deep-burgundy rear veil.
+Weapon: exactly one practical human-scale Filipino bolo with one continuous forward-weighted single-edged dark-steel blade, one hardwood grip, and one small brass collar. Right hand grips it low beside the hip with aligned wrist; blade projects forward and slightly down to the right, fully visible. Empty left hand extended forward defensively, holding nothing. No second weapon, sheath, chain, cord, or effect.
+Clothing: fitted dirty-ivory long-sleeved wrap tunic; deep-burgundy asymmetric sleeveless overcoat with one broad front panel ending above the left knee and one broad rear panel ending at the calf; charcoal fitted trousers; one short charcoal shoulder cape fastened close to body; bare feet; restrained dull-brass seams. No chest cross, emblem, text, floor-length robe, loose red strips, cords, ribbons, strings, tassels, chains, or dangling ornaments.
+Style/composition: deliberate high-density pixel art with hard square pixels, connected clusters, broad readable masses, restrained ramps, clean edges, consistent pixel density. Square 1:1, plain uniform warm near-black #120f0e background, no floor, shadow, vignette, scenery, text, frame, watermark. Complete character, both hands, full bolo, legs, and feet within central 76% width and 76% height with generous padding; readable at 256 pixels.
+Palette/mood: deep burgundy, dirty ivory, charcoal, dark steel, hardwood, restrained brass, light warm porcelain-ivory skin. Severe, alert, mournful, grounded, non-graphic. No glow or red lighting.
+Hard prohibitions: no magic, spells, sigils, floating objects, glowing blade, red strings, red cords, red ribbons, red threads, blood trails, particles, smoke, aura, tattoos, paint, scars, wounds, gore, animal or demon anatomy, horns, extra anatomy, extra faces, extra fingers, extra weapons, shield, green, crop, or copyrighted resemblance.
+Final count: one woman, one head, two arms, two hands, two legs, two bare feet, exactly one bolo, empty left hand, zero other props, zero magic, zero loose strings or chains.
+```
+
+## 10 — Pale Grave-Hammer Canoness
+
+```text
+Use case: stylized-concept.
+Asset type: new draft enemy concept for Blood Priestesses Batch 39 in the Ashen Provinces, a Philippine-inflected gothic 2D Metroidvania.
+Input image: positive visual reference only, not an edit target. Preserve the mature mournful priestess presence, burgundy/dirty-ivory/charcoal layered habit, weathered practical religious clothing, restrained ornament, bare-foot severity, grounded weapon, and crisp high-density pixel art. Create an original character. Do not copy the reference's pose, chest cross, hood, garment panels, hand gesture, chain-flail, face, or silhouette.
+Primary request: Concept 10 — Pale Grave-Hammer Canoness, a grounded armored-breaker blood priestess with one two-handed war hammer. No magic.
+Subject and face: exactly one tall statuesque adult human woman in a planted high-guard stance, three-quarter view facing right, feet set shoulder-width, spine straight, weapon angled across the upper body. Exactly one head, two arms, two visible hands, two legs, two fully visible bare feet. Give her a visibly distinct long adult face: narrow rectangular jaw, prominent high cheekbones, long slightly hooked nose, deep-set heavy-lidded eyes, straight low dark brows, narrow mouth, and a cold exhausted expression. Very light warm-ivory skin, clearly lighter than the reference, with subtle beige-peach undertones and strong natural shadows; not chalk white. Face fully visible beneath a deep-burgundy hooded mantle opened around the face over a close charcoal wimple.
+Weapon: exactly one realistic human-scale two-handed war hammer with one continuous dark hardwood haft, one iron butt cap, and one compact dark-iron hammer head with one square striking face and one short downward-curved pick. Both hands visibly grip separate sections of the same continuous haft with mechanically aligned wrists. Weapon runs diagonally from lower right to upper left, fully visible. No oversized fantasy head, second weapon, chain, cord, or effect.
+Clothing: charcoal high-neck long-sleeved inner dress; deep-burgundy hooded shoulder mantle continuing into two broad calf-length rear panels; dirty-ivory sleeveless knee-length front scapular with a plain unmarked surface; charcoal split ankle-length skirt; bare feet; restrained dark-iron and dull-brass fasteners. No chest cross, emblem, text, loose red strips, cords, ribbons, strings, tassels, chains, or dangling ornaments.
+Style/composition: deliberate crisp high-density pixel art with hard square pixels, connected clusters, broad readable masses, restrained ramps, selective highlights, clean edges, consistent pixel density. Square 1:1, plain uniform warm near-black #120f0e background, no floor, shadow, vignette, scenery, text, frame, watermark. Complete character, both hands, hammer butt, haft, head, garments, legs, and feet within central 76% width and 78% height with generous padding; readable at 256 pixels.
+Palette/mood: deep burgundy, dirty ivory, charcoal, dark wood, dark iron, restrained brass, very light warm-ivory skin. Severe, authoritative, mournful, grounded, non-graphic. No glow or red lighting.
+Hard prohibitions: no magic, spells, sigils, floating objects, glowing weapon, red strings, red cords, red ribbons, red threads, blood trails, particles, smoke, aura, tattoos, paint, scars, wounds, gore, animal or demon anatomy, horns, extra anatomy, extra faces, extra fingers, extra weapons, shield, green, crop, or copyrighted resemblance.
+Final count: one woman, one head, two arms, two hands, two legs, two bare feet, exactly one continuous war hammer with one square face and one short pick, zero other props, zero magic, zero loose strings or chains.
+```
+
+## 11 — Ivory Hook-Glaive Mourner
+
+```text
+Use case: stylized-concept.
+Asset type: new draft enemy concept for Blood Priestesses Batch 39 in the Ashen Provinces, a Philippine-inflected gothic 2D Metroidvania.
+Input image: positive visual reference only, not an edit target. Preserve the mature mournful priestess presence, burgundy/dirty-ivory/charcoal layered habit, practical religious decay, restrained ornament, bare-foot severity, grounded weapon, strong silhouette, and crisp high-density pixel art. Create an original character. Do not copy the reference's pose, chest cross, hood, garment panels, hand gesture, chain-flail, face, or silhouette.
+Primary request: Concept 11 — Ivory Hook-Glaive Mourner, a grounded lane-control blood priestess with one hooked glaive. No magic.
+Subject and face: exactly one medium-height adult human woman with a believable medium build in a broad sweeping stance, three-quarter view facing right, hips rotated, front knee bent, rear leg straight, torso upright. Exactly one head, two arms, two visible hands, two legs, two fully visible bare feet. Give her a visibly distinct round adult face: full cheeks, softly rounded jaw, small broad nose, large slightly downturned eyes, widely spaced soft dark brows, fuller lips, and a sorrowful resolute expression. Light creamy-ivory skin, clearly lighter than the reference, with warm rose-beige undertones and natural face shading; not chalk white. Face fully visible beneath a deep-burgundy folded head veil and close charcoal wimple.
+Weapon: exactly one realistic human-scale hooked glaive with one continuous straight weathered ash-wood shaft, one iron butt cap, and one compact single-edged steel glaive blade with one small backward-facing utility hook integrated behind the blade. Both hands visibly grip separate parts of the same unbroken shaft with aligned wrists; shaft visibly continuous through and between grips. Polearm held nearly horizontal across the lower torso, full butt and blade visible with generous padding. No second hook, chain, cord, banner, extra weapon, or effect.
+Clothing: dirty-ivory fitted long-sleeved underdress; deep-burgundy short sleeveless shoulder cape ending above the waist; charcoal ankle-length skirt split into two broad front panels for movement; one broad dirty-ivory rear overskirt panel; one deep-burgundy fitted waist band with no loose ends; bare feet; restrained dull-steel edging. No chest cross, emblem, text, long trailing veil, loose red strips, cords, ribbons, strings, tassels, chains, or dangling ornaments.
+Style/composition: deliberate crisp high-density pixel art with hard square pixels, connected clusters, broad readable masses, restrained ramps, selective highlights, clean edges, consistent pixel density. Square 1:1, uniform warm near-black #120f0e background, no floor, shadow, vignette, scenery, text, frame, watermark. Complete character, full polearm, hands, legs, and feet within central 80% width and 76% height with generous padding; readable at 256 pixels.
+Palette/mood: deep burgundy, dirty ivory, charcoal, ash wood, dull steel, light creamy-ivory skin. Severe, mournful, grounded, non-graphic. No glow or red lighting.
+Hard prohibitions: no magic, spells, sigils, floating objects, glowing weapon, red strings, red cords, red ribbons, red threads, blood trails, particles, smoke, aura, tattoos, paint, scars, wounds, gore, animal or demon anatomy, horns, extra anatomy, extra faces, extra fingers, extra weapons, shield, green, crop, or copyrighted resemblance.
+Final count: one woman, one head, two arms, two hands, two legs, two bare feet, exactly one continuous hooked glaive with one blade and one integrated hook, zero other props, zero magic, zero loose strings or chains.
+```

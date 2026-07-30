@@ -19,7 +19,7 @@ non-catalog working material:
 
 ```text
 <category>/<collection>/
-├── GENERATION-PROMPTS.md
+├── GENERATION-PROMPTS.md  # active collections only
 ├── STATUS.md
 ├── <collection>-manifest.json
 └── <collection>-review-sheet.png
@@ -68,11 +68,27 @@ The first folder after the category is always the collection. The website uses
 that folder for its collection label and uses `drafts` or `rejected` only for
 lifecycle status.
 
+## Prompt retention
+
+- Keep `RENDER-PROMPT.md` as the project-wide generation contract.
+- Keep one `GENERATION-PROMPTS.md` record for each collection that still has a
+  retained render or an active draft.
+- Append revisions and later waves to that collection record instead of creating
+  standalone continuation, retry, or rejected prompt files.
+- Do not keep prompt files inside `rejected/` folders.
+- Remove a collection's prompt record when it has no retained or active draft
+  renders. Git history is the archive for removed prompt records.
+- `STATUS.md`, positive-reference notes, rejection notes, and exported review
+  feedback carry forward decisions; they are not substitutes for obsolete
+  prompt archives.
+
 ## Generation workflow
 
 1. Save the full generated render directly under its
    `public/art/<category>/<collection>/` path — at full quality, once.
-2. Keep `STATUS.md` and the collection manifest current.
+2. Append its exact generation prompt to the active collection's single prompt
+   record.
+3. Keep `STATUS.md` and the collection manifest current.
 
 Paths written in manifests are relative to the repository root.
 

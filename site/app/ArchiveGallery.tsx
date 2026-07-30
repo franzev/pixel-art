@@ -115,11 +115,7 @@ function Inspector({
       </div>
 
       <div className="inspector-art">
-        <img
-          src={item.sourceUrl ?? item.url}
-          data-res={item.sourceUrl ? "high" : undefined}
-          alt={item.name}
-        />
+        <img src={item.url} alt={item.name} />
       </div>
 
       <div className="inspector-nav" aria-label="Render navigation">
@@ -145,10 +141,6 @@ function Inspector({
           <dd>
             {item.width} × {item.height}
           </dd>
-        </div>
-        <div>
-          <dt>Source</dt>
-          <dd>{item.sourceAvailable ? "Preserved locally" : "Reference only"}</dd>
         </div>
         <div>
           <dt>Decision</dt>
@@ -648,8 +640,7 @@ export function ArchiveGallery({ items }: ArchiveGalleryProps) {
                       {String(index + 1).padStart(3, "0")}
                     </span>
                     <img
-                      src={item.sourceUrl ?? item.url}
-                      data-res={item.sourceUrl ? "high" : undefined}
+                      src={item.url}
                       alt=""
                       loading={index < 18 ? "eager" : "lazy"}
                       decoding="async"
@@ -682,13 +673,12 @@ export function ArchiveGallery({ items }: ArchiveGalleryProps) {
             onNext={() => moveSelection(1)}
             onEdit={selected ? () => openItem(selected) : undefined}
           />
+          <div className="library-note">
+            <span>LIBRARY</span>
+            <strong>{items.length}</strong>
+            <p>Reference renders indexed from the working repository.</p>
+          </div>
         </aside>
-      </div>
-
-      <div className="library-note">
-        <span>LIBRARY</span>
-        <strong>{items.length}</strong>
-        <p>Reference renders indexed from the working repository.</p>
       </div>
 
       <dialog

@@ -6,12 +6,17 @@ import { fileURLToPath } from "node:url";
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(scriptDir, "..");
 const repositoryDir = path.resolve(siteDir, "..");
+const artDir = path.join(siteDir, "public", "art");
 const categories = [
   "enemies",
   "bosses",
   "angels",
   "protagonist",
   "environments",
+];
+const scanRoots = [
+  ...categories.map((category) => path.join(repositoryDir, category)),
+  ...categories.map((category) => path.join(artDir, category)),
 ];
 
 async function walk(directory) {
@@ -30,11 +35,10 @@ async function walk(directory) {
 const byHash = new Map();
 let scanned = 0;
 
-for (const category of categories) {
-  const categoryDir = path.join(repositoryDir, category);
+for (const root of scanRoots) {
   let files;
   try {
-    files = await walk(categoryDir);
+    files = await walk(root);
   } catch {
     continue;
   }

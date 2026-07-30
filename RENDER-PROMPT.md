@@ -275,11 +275,11 @@ The Flesh-Veil Oracle is no longer a positive reference: the user rated it 1/5 a
 
 The confirmed positive direction is armed, martial, religious-gothic humanoids with conventional weapons, weathered garments, and no floating effects. Use the 5/5 review keeps as references — for example:
 
-- `enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02-reference-256.png`
-- `enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor-reference-256.png`
-- `enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness-reference-256.png`
-- `enemies/catholic-knights-batch-41/drafts/01-processional-crucifer-reference-256.png`
-- `enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor-reference-256.png`
+- `site/public/art/enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02.png`
+- `site/public/art/enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor.png`
+- `site/public/art/enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness.png`
+- `site/public/art/enemies/catholic-knights-batch-41/drafts/01-processional-crucifer.png`
+- `site/public/art/enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor.png`
 
 The full anchor list lives in `art-catalog/REVIEW-LEARNINGS.md`. Preserve the high-level qualities these share — statuesque adult presence, severe religious dress logic, worn metal and cloth, melancholy menace, one readable weapon — without copying any single pose, costume, or silhouette.
 
@@ -467,11 +467,12 @@ If a mandatory criterion fails, reject the result internally and regenerate from
 
 ## Saving and Approval
 
-- Preserve the original generated source.
+- Save the original generated render, at full quality, directly under its
+  `site/public/art/<category>/<collection>/` path as `<NN>-<slug>.png`. That
+  single file is the only copy — never create a `-source` duplicate or a
+  `-reference-256` downscale.
 - Follow the repository's existing category, collection, numbering, and filename conventions.
-- Save viable generated work only as a draft.
-- Create the matching 256-pixel nearest-neighbor website reference when the collection workflow requires it.
-- A 256-pixel reference is not a native production sprite.
+- Save viable generated work only as a draft (in the collection's `drafts/` folder).
 - Native production sprites must be deliberately redrawn to their specified grid; never blindly shrink a concept master and call it final.
 - Preserve the exact generation prompt with the collection's prompt records.
 - Do not mark anything canonical, retained, approved, or production-ready without explicit user approval.

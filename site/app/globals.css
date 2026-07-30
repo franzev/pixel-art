@@ -462,21 +462,9 @@ button:disabled {
 }
 
 .library-note {
-  position: fixed;
-  right: var(--space-md);
-  bottom: var(--space-md);
-  z-index: 250;
-  max-width: 240px;
-  padding: var(--space-md);
+  margin-top: auto;
+  padding: var(--space-lg) var(--space-md) var(--space-xl);
   color: var(--bone-muted);
-  background: var(--coal);
-  border: 1px solid var(--rule-faint);
-}
-
-@media (max-width: 900px) {
-  .library-note {
-    display: none;
-  }
 }
 
 .library-note span {
@@ -644,11 +632,12 @@ button:disabled {
   height: calc(100vh - var(--topbar-height));
   overflow-y: auto;
   border-left: 1px solid var(--rule);
-  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
 }
 
 .inspector-content {
-  min-height: 100%;
+  flex: 1 0 auto;
 }
 
 .inspector-toolbar {

@@ -98,37 +98,25 @@ closest thematic batch rather than using every previous image at once.
 
 Every file role must remain explicit.
 
-### A. Generated source
+### A. Generated render (the one canonical image)
 
 Filename:
 
-`<NN>-<descriptive-slug>-source.png`
+`<NN>-<descriptive-slug>.png`
 
 Rules:
 
-- Preserve the full square image returned by the image-generation workflow.
+- Preserve the full square image returned by the image-generation workflow at
+  full quality.
+- Save it directly under the matching `site/public/art/enemies/` path. That is
+  its only home — never create a `-source` copy, a `-reference-256` downscale,
+  or any other duplicate.
 - Do not overwrite, crop, stretch, or upscale it.
-- The exact source dimensions may vary.
-- The source is the concept master, not necessarily a production sprite.
+- The exact dimensions may vary.
+- The render is the concept master, not necessarily a production sprite.
+- Used for review, comparisons, documentation, and future prompting.
 
-### B. Mandatory 256 reference
-
-Filename:
-
-`<NN>-<descriptive-slug>-reference-256.png`
-
-Rules:
-
-- Exactly 256 × 256 pixels.
-- Created from the source with nearest-neighbor resizing.
-- Saved only under the matching `site/public/art/enemies/` path.
-- Uses the same collection, lifecycle folders, asset number, slug, and version
-  as its source.
-- Used for comparisons, review sheets, documentation, and future prompting.
-- Never use smoothing, bicubic resampling, blur, or sharpening.
-- This is a reference image, not automatically the native Godot sprite.
-
-### C. Native game sprite
+### B. Native game sprite
 
 Filename:
 
@@ -429,15 +417,17 @@ Prompt requirements:
 
 Root:
 
-`pixel-art/enemies/`
-
-Website-render root:
+Render root (the one home for images):
 
 `pixel-art/site/public/art/enemies/`
 
+Batch documents root (prompts, manifests, status):
+
+`pixel-art/enemies/`
+
 New numbered batch:
 
-`pixel-art/enemies/<theme>-batch-<NN>/`
+`pixel-art/site/public/art/enemies/<theme>-batch-<NN>/`
 
 Examples:
 
@@ -450,34 +440,29 @@ Use lowercase kebab-case. Batch numbers are two digits and never reused.
 ### Required retained-batch contents
 
 ```text
+site/public/art/enemies/<theme>-batch-<NN>/
+├── 01-<slug>.png
+└── ...
+
 enemies/<theme>-batch-<NN>/
-├── 01-<slug>-source.png
-├── ...
 ├── GENERATION-PROMPTS.md
 ├── <theme>-manifest.json
 └── <theme>-review-sheet.png
-
-site/public/art/enemies/<theme>-batch-<NN>/
-├── 01-<slug>-reference-256.png
-└── ...
 ```
 
-The source and website-render paths mirror each other below `enemies/`. Never
-keep a second copy of the reference beside its source.
+The render lives once, at full quality, under `site/public/art/`. Never create
+a second copy anywhere — no `-source` pair, no `-reference-256` downscale.
 
 ### Drafts
 
 Unapproved or incomplete work goes in:
 
-`<theme>-batch-<NN>/drafts/`
+`site/public/art/enemies/<theme>-batch-<NN>/drafts/`
 
 Drafts:
 
 - Are not canonical
 - Are not counted in the lore compendium
-- Store sources under the collection's `drafts/` folder
-- Store 256 references under the matching
-  `site/public/art/enemies/<collection>/drafts/` folder
 - Must be promoted to the batch root only after approval
 
 ### Revisions
@@ -486,13 +471,9 @@ Never silently overwrite a retained image.
 
 Use:
 
-`<NN>-<slug>-v02-source.png`
+`<NN>-<slug>-v02.png`
 
-in the source collection, and:
-
-`<NN>-<slug>-v02-reference-256.png`
-
-under its matching `site/public/art/enemies/` path.
+beside the original under its `site/public/art/enemies/` path.
 
 Update the manifest to identify the active version.
 
@@ -502,8 +483,7 @@ Use descriptive lowercase kebab-case.
 
 ### Per asset
 
-- Source collection: `<NN>-<slug>-source.png`
-- Matching `site/public/art/` path: `<NN>-<slug>-reference-256.png`
+- Render (in `site/public/art/`): `<NN>-<slug>.png`
 - `<NN>-<slug>-native-<width>x<height>.png`
 
 ### Batch support
@@ -523,7 +503,8 @@ Avoid filenames such as:
 
 ## 15. Review-sheet convention
 
-The review sheet is assembled from the 256 references, not the full sources.
+The review sheet is assembled from 256 × 256 nearest-neighbor panels made
+on the fly from the renders; those panels are never saved individually.
 
 - One horizontal row by default.
 - Height: exactly 256 pixels.
@@ -558,8 +539,7 @@ Minimum structure:
       "id": 1,
       "name": "Readable Display Name",
       "status": "retained",
-      "source": "enemies/theme-batch-07/01-readable-display-name-source.png",
-      "reference_256": "site/public/art/enemies/theme-batch-07/01-readable-display-name-reference-256.png"
+      "render": "site/public/art/enemies/theme-batch-07/01-readable-display-name.png"
     }
   ],
   "review_sheet": "theme-review-sheet.png"

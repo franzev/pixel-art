@@ -18,7 +18,6 @@ export function isCatalogItem(value: unknown): value is ArtItem {
     typeof item.status === "string" &&
     typeof item.width === "number" &&
     typeof item.height === "number" &&
-    typeof item.sourceAvailable === "boolean" &&
     Array.isArray(item.suggestedTags)
   );
 }
@@ -62,7 +61,7 @@ export function prepareCatalogUpsert(
       item.status,
       item.width,
       item.height,
-      item.sourceAvailable ? 1 : 0,
+      0,
       JSON.stringify(item.suggestedTags),
       timestamp,
       timestamp,

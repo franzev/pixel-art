@@ -15,8 +15,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sable Longsword Castellan
 
-- Render ID: `rnd_87a91deb6559dbdddd21fa8b`
-- Path: `enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02-reference-256.png`
+- Render ID: `rnd_e184f21165c8188d9ead467b`
+- Path: `enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -28,8 +28,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bronze Mace Prefect
 
-- Render ID: `rnd_ceabc05f6e69e69a7f90cb27`
-- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/14-bronze-mace-prefect-v01-reference-256.png`
+- Render ID: `rnd_fd0365e4804f0a99d00540cb`
+- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/14-bronze-mace-prefect-v01.png`
 - Collection: Blood Demon Knights Batch 37 · Rejected
 - Rating: 5/5
 - Decision: reject
@@ -41,8 +41,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Warhammer Marshal
 
-- Render ID: `rnd_79c9062626b9400c97d086b0`
-- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/15-iron-warhammer-marshal-v01-reference-256.png`
+- Render ID: `rnd_b6cd1be4ee598caaf2942626`
+- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/15-iron-warhammer-marshal-v01.png`
 - Collection: Blood Demon Knights Batch 37 · Rejected
 - Rating: 5/5
 - Decision: keep
@@ -54,8 +54,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Hook Glaive Mourner
 
-- Render ID: `rnd_7d622948ebfaf7616376ea6b`
-- Path: `enemies/blood-priestesses-batch-39/drafts/11-ivory-hook-glaive-mourner-reference-256.png`
+- Render ID: `rnd_981a2285e515b53a6df1ed31`
+- Path: `enemies/blood-priestesses-batch-39/drafts/11-ivory-hook-glaive-mourner.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -67,8 +67,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Rapier Confessor
 
-- Render ID: `rnd_aa0735dcf49534c81776b9d5`
-- Path: `enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor-reference-256.png`
+- Render ID: `rnd_a28a6d8c8f4b6d3855fcbf04`
+- Path: `enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -80,8 +80,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Grave Hammer Canoness
 
-- Render ID: `rnd_0d5701bae95954f1ddbcb688`
-- Path: `enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness-reference-256.png`
+- Render ID: `rnd_0987928c61dddfa2b2082748`
+- Path: `enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -93,8 +93,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Tithe Bolo Sacristan
 
-- Render ID: `rnd_d397cf2c9574c21560b1280b`
-- Path: `enemies/blood-priestesses-batch-39/drafts/09-pale-tithe-bolo-sacristan-reference-256.png`
+- Render ID: `rnd_dd57c7bf9295f52aa9e34e05`
+- Path: `enemies/blood-priestesses-batch-39/drafts/09-pale-tithe-bolo-sacristan.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -106,8 +106,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sealed Vessel Mother Superior
 
-- Render ID: `rnd_6db732f304c558fc08d2dadd`
-- Path: `enemies/blood-priestesses-batch-39/drafts/05-sealed-vessel-mother-superior-reference-256.png`
+- Render ID: `rnd_fff6b2e239ffea86c5066982`
+- Path: `enemies/blood-priestesses-batch-39/drafts/05-sealed-vessel-mother-superior.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -119,8 +119,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tithe Bolo Sacristan
 
-- Render ID: `rnd_a4f70bb793abaf5959d8423d`
-- Path: `enemies/blood-priestesses-batch-39/drafts/03-tithe-bolo-sacristan-reference-256.png`
+- Render ID: `rnd_f3f31dbfd50f81fc18ed8534`
+- Path: `enemies/blood-priestesses-batch-39/drafts/03-tithe-bolo-sacristan.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -132,8 +132,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Red Edge Sacristan
 
-- Render ID: `rnd_264a2215da85273309075430`
-- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/03-red-edge-sacristan-reference-256.png`
+- Render ID: `rnd_e7eb8121de1596e03e8a2f64`
+- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/03-red-edge-sacristan.png`
 - Collection: Blood Priestesses Batch 39 · Rejected
 - Rating: 5/5
 - Decision: keep
@@ -145,8 +145,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Gatewarden
 
-- Render ID: `rnd_9f98264115de00c6f65bb222`
-- Path: `enemies/bone-knights-batch-39/drafts/01-abaca-gatewarden-reference-256.png`
+- Render ID: `rnd_8ba69dc443ed37de3e7438b0`
+- Path: `enemies/bone-knights-batch-39/drafts/01-abaca-gatewarden.png`
 - Collection: Bone Knights Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -158,8 +158,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Harvest Hook Puller
 
-- Render ID: `rnd_7e8c0a3e9b1442dda34fb159`
-- Path: `enemies/bone-knights-batch-39/drafts/02-harvest-hook-puller-reference-256.png`
+- Render ID: `rnd_5f0b0473db59619ded6d5464`
+- Path: `enemies/bone-knights-batch-39/drafts/02-harvest-hook-puller.png`
 - Collection: Bone Knights Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -171,8 +171,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Cross Interdictor
 
-- Render ID: `rnd_97884ff65421f35a8bd78b1c`
-- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/01-ivory-cross-interdictor-reference-256.png`
+- Render ID: `rnd_86615eb8add55ccb330cecd6`
+- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/01-ivory-cross-interdictor.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -184,8 +184,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Hatchet Penitent
 
-- Render ID: `rnd_12a396f8c1f2f46608634025`
-- Path: `enemies/catholic-knights-batch-41/drafts/09-ash-hatchet-penitent-reference-256.png`
+- Render ID: `rnd_1e8ce6dccc4dfa5a8141bd59`
+- Path: `enemies/catholic-knights-batch-41/drafts/09-ash-hatchet-penitent.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -197,8 +197,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Arc Votary
 
-- Render ID: `rnd_a87ba1ebd1772364cfa62a51`
-- Path: `enemies/catholic-knights-batch-41/drafts/08-ivory-arc-votary-reference-256.png`
+- Render ID: `rnd_a657e2ed3b5baf1614d48bfa`
+- Path: `enemies/catholic-knights-batch-41/drafts/08-ivory-arc-votary.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -210,8 +210,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Palm Weave Arquebusier
 
-- Render ID: `rnd_f799ee7ae2e09ee19b279055`
-- Path: `enemies/catholic-knights-batch-41/drafts/07-palm-weave-arquebusier-reference-256.png`
+- Render ID: `rnd_e8aa0f7d4d16bbd09b67d853`
+- Path: `enemies/catholic-knights-batch-41/drafts/07-palm-weave-arquebusier.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -223,8 +223,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Processional Crucifer
 
-- Render ID: `rnd_e225063befa346341c8b7c8b`
-- Path: `enemies/catholic-knights-batch-41/drafts/01-processional-crucifer-reference-256.png`
+- Render ID: `rnd_7d06c51d8ca0b9fc9dcaad69`
+- Path: `enemies/catholic-knights-batch-41/drafts/01-processional-crucifer.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -236,8 +236,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sunburst Relic Lancer
 
-- Render ID: `rnd_f1083a16e471c0bc1cc4e937`
-- Path: `enemies/catholic-knights-batch-41/drafts/05-sunburst-relic-lancer-reference-256.png`
+- Render ID: `rnd_a3980c3cb5b3563e5d9972dd`
+- Path: `enemies/catholic-knights-batch-41/drafts/05-sunburst-relic-lancer.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -249,8 +249,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Veiled Relic Pick Canoness
 
-- Render ID: `rnd_b0dbde422375be58e115d824`
-- Path: `enemies/catholic-knights-batch-41/drafts/10-veiled-relic-pick-canoness-reference-256.png`
+- Render ID: `rnd_bcf70fc1edc7c60ea432948f`
+- Path: `enemies/catholic-knights-batch-41/drafts/10-veiled-relic-pick-canoness.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -262,8 +262,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Votive Lamp Sabreur
 
-- Render ID: `rnd_b13aa1b1a85a9f9c1c8b6097`
-- Path: `enemies/catholic-knights-batch-41/drafts/06-votive-lamp-sabreur-reference-256.png`
+- Render ID: `rnd_56502513cefcfedc3cb7fe0a`
+- Path: `enemies/catholic-knights-batch-41/drafts/06-votive-lamp-sabreur.png`
 - Collection: Catholic Knights Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -275,8 +275,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Anchor Dragged Revenant
 
-- Render ID: `rnd_e26ca521691d12f61bcad221`
-- Path: `enemies/coastal-shipwreck-horrors-batch-15/drafts/01-anchor-dragged-revenant-reference-256.png`
+- Render ID: `rnd_a2a2da4a9c088679a24073de`
+- Path: `enemies/coastal-shipwreck-horrors-batch-15/drafts/01-anchor-dragged-revenant.png`
 - Collection: Coastal Shipwreck Horrors Batch 15
 - Rating: 5/5
 - Decision: keep
@@ -288,8 +288,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Acid Censer Bearer
 
-- Render ID: `rnd_5d8865d6e62008b995d99fac`
-- Path: `enemies/combat-magic-batch-04/02-acid-censer-bearer-reference-256.png`
+- Render ID: `rnd_161fa0d8af4571bace44d8c0`
+- Path: `enemies/combat-magic-batch-04/02-acid-censer-bearer.png`
 - Collection: Combat Magic Batch 04
 - Rating: 5/5
 - Decision: keep
@@ -301,8 +301,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Copper Pike Burn Warden
 
-- Render ID: `rnd_9e86450b27a7c9ab07793f0d`
-- Path: `enemies/convent-horrors-batch-37/drafts/20-copper-pike-burn-warden-reference-256.png`
+- Render ID: `rnd_bbe41024eeb8d053654f7931`
+- Path: `enemies/convent-horrors-batch-37/drafts/20-copper-pike-burn-warden.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -314,8 +314,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crimson Crypt Halberdier
 
-- Render ID: `rnd_6c302a193306b33dfb392c34`
-- Path: `enemies/convent-horrors-batch-37/drafts/06-crimson-crypt-halberdier-reference-256.png`
+- Render ID: `rnd_37eda75079870c92aa79512c`
+- Path: `enemies/convent-horrors-batch-37/drafts/06-crimson-crypt-halberdier.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -327,8 +327,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Thorn Estoc Matron
 
-- Render ID: `rnd_8a6b33507a3e0940d4e368c2`
-- Path: `enemies/convent-horrors-batch-37/drafts/15-oxblood-thorn-estoc-matron-reference-256.png`
+- Render ID: `rnd_b85eefa0ea431e190c96a282`
+- Path: `enemies/convent-horrors-batch-37/drafts/15-oxblood-thorn-estoc-matron.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -340,8 +340,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rosary Knife Novice
 
-- Render ID: `rnd_46e5cb240419ca5a4edddbba`
-- Path: `enemies/convent-horrors-batch-37/drafts/05-rosary-knife-novice-reference-256.png`
+- Render ID: `rnd_01bfc3effc4632c6a9c75fba`
+- Path: `enemies/convent-horrors-batch-37/drafts/05-rosary-knife-novice.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -353,8 +353,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Saffron Vampire Sabreur
 
-- Render ID: `rnd_4315312bbf67b865cae68621`
-- Path: `enemies/convent-horrors-batch-37/drafts/13-saffron-vampire-sabreur-reference-256.png`
+- Render ID: `rnd_5b8790caa42a1912c3629217`
+- Path: `enemies/convent-horrors-batch-37/drafts/13-saffron-vampire-sabreur.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -366,8 +366,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Slate Crossbow Sister
 
-- Render ID: `rnd_916ccab69439bf31b49f9367`
-- Path: `enemies/convent-horrors-batch-37/drafts/07-slate-crossbow-sister-reference-256.png`
+- Render ID: `rnd_5906cbcf61fbacd5f2b7e464`
+- Path: `enemies/convent-horrors-batch-37/drafts/07-slate-crossbow-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -379,8 +379,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Teal Ash Axe Votary
 
-- Render ID: `rnd_2b04770db6b46024f1bf7c9b`
-- Path: `enemies/convent-horrors-batch-37/drafts/12-teal-ash-axe-votary-reference-256.png`
+- Render ID: `rnd_cf78cfefa8d9826bd5de5323`
+- Path: `enemies/convent-horrors-batch-37/drafts/12-teal-ash-axe-votary.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -392,8 +392,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Crown Spear Warden
 
-- Render ID: `rnd_abcc52dab21321c9da41150d`
-- Path: `enemies/convent-horrors-batch-37/drafts/10-thorn-crown-spear-warden-reference-256.png`
+- Render ID: `rnd_3f99d07d8a7c4ad6a3f2a119`
+- Path: `enemies/convent-horrors-batch-37/drafts/10-thorn-crown-spear-warden.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -405,8 +405,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Crown Whip Penitent
 
-- Render ID: `rnd_b14f878ed784887ebe7605b9`
-- Path: `enemies/convent-horrors-batch-37/drafts/04-thorn-crown-whip-penitent-reference-256.png`
+- Render ID: `rnd_88066c2b2acab0e4774ecd11`
+- Path: `enemies/convent-horrors-batch-37/drafts/04-thorn-crown-whip-penitent.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -418,8 +418,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Verdigris Tapis Bow Sister
 
-- Render ID: `rnd_983b2929996925ea04cafaf4`
-- Path: `enemies/convent-horrors-batch-37/drafts/21-verdigris-tapis-bow-sister-reference-256.png`
+- Render ID: `rnd_5ac5dd9c6ebaf943bd18d5a0`
+- Path: `enemies/convent-horrors-batch-37/drafts/21-verdigris-tapis-bow-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -431,8 +431,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Violet War Hammer Abbess
 
-- Render ID: `rnd_e542eb5e6c0d604439b63ac9`
-- Path: `enemies/convent-horrors-batch-37/drafts/08-violet-war-hammer-abbess-reference-256.png`
+- Render ID: `rnd_30fa57375be0db511cce14d9`
+- Path: `enemies/convent-horrors-batch-37/drafts/08-violet-war-hammer-abbess.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -444,8 +444,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Brand Prioress
 
-- Render ID: `rnd_ad1c1d9b03e6595195514449`
-- Path: `enemies/convent-tormentors-batch-30/drafts/05-ember-brand-prioress-reference-256.png`
+- Render ID: `rnd_4305f3cb349b24ffea993cd1`
+- Path: `enemies/convent-tormentors-batch-30/drafts/05-ember-brand-prioress.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 5/5
 - Decision: keep
@@ -457,8 +457,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Axe Abbess
 
-- Render ID: `rnd_a5704e64715ff7b70d25e43b`
-- Path: `enemies/convent-tormentors-batch-30/drafts/11-ivory-axe-abbess-reference-256.png`
+- Render ID: `rnd_7f7438d945d008e9b4b0a913`
+- Path: `enemies/convent-tormentors-batch-30/drafts/11-ivory-axe-abbess.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 5/5
 - Decision: keep
@@ -470,8 +470,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Axe Abbess
 
-- Render ID: `rnd_dd0785cc74d9f6f433130dd7`
-- Path: `enemies/convent-tormentors-batch-30/drafts/11-ivory-axe-abbess-v02-reference-256.png`
+- Render ID: `rnd_6a0c867949f48deb4d4193c4`
+- Path: `enemies/convent-tormentors-batch-30/drafts/11-ivory-axe-abbess-v02.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 5/5
 - Decision: keep
@@ -483,8 +483,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Briar Point Justiciar
 
-- Render ID: `rnd_b8ab1dbb58e3554d08d441e6`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/01-briar-point-justiciar-reference-256.png`
+- Render ID: `rnd_1ae4f246cae548a0a9f4cf63`
+- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/01-briar-point-justiciar.png`
 - Collection: Crown Of Thorns Female Knights Batch 38
 - Rating: 5/5
 - Decision: keep
@@ -496,8 +496,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Briar Falchion Reeve
 
-- Render ID: `rnd_ed6934301d7d67f3f8f1a5c2`
-- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/01-ash-briar-falchion-reeve-reference-256.png`
+- Render ID: `rnd_f461f5b21f2969501419dedd`
+- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/01-ash-briar-falchion-reeve.png`
 - Collection: Crown Of Thorns Knights Batch 40
 - Rating: 5/5
 - Decision: keep
@@ -509,8 +509,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Peak Lucerne Warden
 
-- Render ID: `rnd_e24df28c5061616e4cf10240`
-- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/02-thorn-peak-lucerne-warden-reference-256.png`
+- Render ID: `rnd_598542dd171ce7c0738953f3`
+- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/02-thorn-peak-lucerne-warden.png`
 - Collection: Crown Of Thorns Knights Batch 40
 - Rating: 5/5
 - Decision: keep
@@ -522,8 +522,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Seam Greatsword Pursuer
 
-- Render ID: `rnd_15ce13487d8d6db24a7d0d23`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/05-root-seam-greatsword-pursuer-reference-256.png`
+- Render ID: `rnd_6a19257f4d371b6d1782ee78`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/05-root-seam-greatsword-pursuer.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -535,8 +535,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaniko Fang Ilustrada
 
-- Render ID: `rnd_2c2ddc41112ec010848c32bf`
-- Path: `enemies/maria-clara-corruptions-batch-41/drafts/01-abaniko-fang-ilustrada-reference-256.png`
+- Render ID: `rnd_c19d07825af998a7ba625861`
+- Path: `enemies/maria-clara-corruptions-batch-41/drafts/01-abaniko-fang-ilustrada.png`
 - Collection: Maria Clara Corruptions Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -548,8 +548,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Mirror Heiress
 
-- Render ID: `rnd_fe251f1bd5cab3865ef24175`
-- Path: `enemies/maria-clara-corruptions-batch-41/drafts/02-capiz-mirror-heiress-reference-256.png`
+- Render ID: `rnd_c445006086d51624ddd1b1e5`
+- Path: `enemies/maria-clara-corruptions-batch-41/drafts/02-capiz-mirror-heiress.png`
 - Collection: Maria Clara Corruptions Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -561,8 +561,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grave Sickle Harvest Widow
 
-- Render ID: `rnd_3685ec3d6bfadf729c4a54c8`
-- Path: `enemies/maria-clara-corruptions-batch-41/drafts/05-grave-sickle-harvest-widow-reference-256.png`
+- Render ID: `rnd_df61d77a4cb561f1fefca7e3`
+- Path: `enemies/maria-clara-corruptions-batch-41/drafts/05-grave-sickle-harvest-widow.png`
 - Collection: Maria Clara Corruptions Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -574,8 +574,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Threshold Bolo Wife
 
-- Render ID: `rnd_63245c9f458def12a082e6b7`
-- Path: `enemies/murderous-wives-batch-41/drafts/01-threshold-bolo-wife-reference-256.png`
+- Render ID: `rnd_3d6af4d3d1fa55669af6dbb4`
+- Path: `enemies/murderous-wives-batch-41/drafts/01-threshold-bolo-wife.png`
 - Collection: Murderous Wives Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -587,8 +587,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cobalt Transfer Bolo Duelist
 
-- Render ID: `rnd_0f470ab51cfd9d756fe51f66`
-- Path: `enemies/porcelain-knights-batch-42/drafts/03-cobalt-transfer-bolo-duelist-reference-256.png`
+- Render ID: `rnd_69cfbe12d3f83b7e84d47644`
+- Path: `enemies/porcelain-knights-batch-42/drafts/03-cobalt-transfer-bolo-duelist.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: 5/5
 - Decision: keep
@@ -600,8 +600,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Funeral Lane Reaper
 
-- Render ID: `rnd_074e95ede483475fa61589c2`
-- Path: `enemies/reapers-batch-40/drafts/revision-02/02-funeral-lane-reaper-reference-256.png`
+- Render ID: `rnd_1d0f1021d1213b559f156912`
+- Path: `enemies/reapers-batch-40/drafts/revision-02/02-funeral-lane-reaper.png`
 - Collection: Reapers Batch 40
 - Rating: 5/5
 - Decision: keep
@@ -613,8 +613,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Flail Provost
 
-- Render ID: `rnd_0051beee6d97ac6cc264f7a2`
-- Path: `enemies/sadistic-knights-batch-37/drafts/04-chain-flail-provost-reference-256.png`
+- Render ID: `rnd_ede99a8121005dd09f711bd1`
+- Path: `enemies/sadistic-knights-batch-37/drafts/04-chain-flail-provost.png`
 - Collection: Sadistic Knights Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -626,8 +626,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Flail Penitent
 
-- Render ID: `rnd_e984867a3aeb39b149d9bc9f`
-- Path: `enemies/sadistic-nuns-batch-35/drafts/06-chain-flail-penitent-v02-reference-256.png`
+- Render ID: `rnd_54b66abef92a7eabd1f0aaed`
+- Path: `enemies/sadistic-nuns-batch-35/drafts/06-chain-flail-penitent-v02.png`
 - Collection: Sadistic Nuns Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -639,8 +639,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashen Synod Marshal
 
-- Render ID: `rnd_a80752a64b2192cdd088fada`
-- Path: `enemies/satanic-cult-knights-batch-39/drafts/05-ashen-synod-marshal-reference-256.png`
+- Render ID: `rnd_e001b23d427f22a57379589d`
+- Path: `enemies/satanic-cult-knights-batch-39/drafts/05-ashen-synod-marshal.png`
 - Collection: Satanic Cult Knights Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -652,8 +652,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Five Brand Apostate
 
-- Render ID: `rnd_ca554cdd0de8838ff804b075`
-- Path: `enemies/satanic-cult-knights-batch-39/drafts/01-five-brand-apostate-reference-256.png`
+- Render ID: `rnd_9b3414c24e975241dac16ccd`
+- Path: `enemies/satanic-cult-knights-batch-39/drafts/01-five-brand-apostate.png`
 - Collection: Satanic Cult Knights Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -665,8 +665,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashen Palm Hierophant
 
-- Render ID: `rnd_14e2d5a3ead41749d9b89fa6`
-- Path: `enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant-reference-256.png`
+- Render ID: `rnd_9c0dd09ee008db74e094a70f`
+- Path: `enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant.png`
 - Collection: Satanic Priests Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -678,8 +678,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Censer Processional
 
-- Render ID: `rnd_0d5dd007f806af2a0d671021`
-- Path: `enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional-reference-256.png`
+- Render ID: `rnd_edd095b023bffa2801fc2098`
+- Path: `enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional.png`
 - Collection: Satanic Priests Batch 39
 - Rating: 5/5
 - Decision: keep
@@ -691,8 +691,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Hand Butcher
 
-- Render ID: `rnd_b0b29e725e42ab4082117387`
-- Path: `enemies/vampire-brides-batch-35/drafts/15-cinder-hand-butcher-v02-reference-256.png`
+- Render ID: `rnd_4fe9cf651a369bc7197e4356`
+- Path: `enemies/vampire-brides-batch-35/drafts/15-cinder-hand-butcher-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -704,8 +704,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grave Train Prowler
 
-- Render ID: `rnd_b7ca679924183e65ea906ab1`
-- Path: `enemies/vampire-brides-batch-35/04-grave-train-prowler-v02-reference-256.png`
+- Render ID: `rnd_8ca82657c639d05679001293`
+- Path: `enemies/vampire-brides-batch-35/04-grave-train-prowler-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -717,8 +717,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sampaguita Vow Matron
 
-- Render ID: `rnd_cebfdeb34fb1403a06726f63`
-- Path: `enemies/vampire-brides-batch-35/05-sampaguita-vow-matron-reference-256.png`
+- Render ID: `rnd_2f564c9a34d98bc39be151f9`
+- Path: `enemies/vampire-brides-batch-35/05-sampaguita-vow-matron.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -730,8 +730,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Silver Spear Betrothed
 
-- Render ID: `rnd_3889927b095c9310b39f17af`
-- Path: `enemies/vampire-brides-batch-35/drafts/09-silver-spear-betrothed-v02-reference-256.png`
+- Render ID: `rnd_6d2243ce312da7719547472c`
+- Path: `enemies/vampire-brides-batch-35/drafts/09-silver-spear-betrothed-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -743,8 +743,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Veil Fang Processional
 
-- Render ID: `rnd_b0815eb5d7bb108c8e84ab71`
-- Path: `enemies/vampire-brides-batch-35/01-veil-fang-processional-reference-256.png`
+- Render ID: `rnd_9727d84e9220dfd5c8fc2f24`
+- Path: `enemies/vampire-brides-batch-35/01-veil-fang-processional.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -756,8 +756,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Gold Sword Bride
 
-- Render ID: `rnd_645547b93e165e2597e52493`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/11-ash-gold-sword-bride-reference-256.png`
+- Render ID: `rnd_9f7e2f3b3fae226273727405`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/11-ash-gold-sword-bride.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: 5/5
 - Decision: keep
@@ -769,8 +769,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Lace Ravager
 
-- Render ID: `rnd_7f9081f5f8016f538c09ff79`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/25-black-lace-ravager-reference-256.png`
+- Render ID: `rnd_459de265901bc2a7b54fc1fc`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/25-black-lace-ravager.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: 5/5
 - Decision: keep
@@ -782,8 +782,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Hand Butcher
 
-- Render ID: `rnd_31499ef6f565820468ba2046`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/15-cinder-hand-butcher-reference-256.png`
+- Render ID: `rnd_b6db92b7051ed16d78e6d060`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/15-cinder-hand-butcher.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: 5/5
 - Decision: keep
@@ -795,8 +795,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Silver Spear Betrothed
 
-- Render ID: `rnd_aff8c5d5cb1f0c98b9f6b59f`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/09-silver-spear-betrothed-reference-256.png`
+- Render ID: `rnd_1e1b1283032014b252fb2f60`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/09-silver-spear-betrothed.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: 5/5
 - Decision: keep
@@ -808,8 +808,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Bolt Arbalist
 
-- Render ID: `rnd_3a9150bb68c28dd0d28bc6b4`
-- Path: `enemies/vampire-knights-batch-37/drafts/03-capiz-bolt-arbalist-reference-256.png`
+- Render ID: `rnd_2b83f98d3ab3b40b0e44522b`
+- Path: `enemies/vampire-knights-batch-37/drafts/03-capiz-bolt-arbalist.png`
 - Collection: Vampire Knights Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -821,8 +821,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Charcoal Arquebus Votary
 
-- Render ID: `rnd_f87205053b7513f0c2471748`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/15-charcoal-arquebus-votary-reference-256.png`
+- Render ID: `rnd_b6eab3b6524dfff2d57ba57e`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/15-charcoal-arquebus-votary.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -834,8 +834,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Emerald Rapier Abbess
 
-- Render ID: `rnd_2955518ea8c7c867f9d8ff86`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/02-emerald-rapier-abbess-reference-256.png`
+- Render ID: `rnd_5bbd35e96ca6a31a7e589210`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/02-emerald-rapier-abbess.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -847,8 +847,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Garnet Crossbow Votary
 
-- Render ID: `rnd_8a116b15b26091cb67548184`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/05-garnet-crossbow-votary-reference-256.png`
+- Render ID: `rnd_71bed8a89837d3bb771ef74b`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/05-garnet-crossbow-votary.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -860,8 +860,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Slate Flanged Mace Confessor
 
-- Render ID: `rnd_cb863670e47a56e427888dbd`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/09-slate-flanged-mace-confessor-reference-256.png`
+- Render ID: `rnd_1d7bbc155432e99719e9b704`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/09-slate-flanged-mace-confessor.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -873,8 +873,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Storm Gray Side Sword Abbess
 
-- Render ID: `rnd_3736a25bc6fb35c496de10b2`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/16-storm-gray-side-sword-abbess-reference-256.png`
+- Render ID: `rnd_d0cc4707d446d1bda26052c9`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/16-storm-gray-side-sword-abbess.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 5/5
 - Decision: keep
@@ -886,8 +886,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rose Ivory Arming Sword Mercy
 
-- Render ID: `rnd_7aa6ce46cd95a25c9e389340`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/01-rose-ivory-arming-sword-mercy-reference-256.png`
+- Render ID: `rnd_13c7e512311ad9f51954d1bb`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/01-rose-ivory-arming-sword-mercy.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: 5/5
 - Decision: keep
@@ -899,8 +899,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sage Crossbow Chorister
 
-- Render ID: `rnd_640add933daf60d45349d7f3`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/03-sage-crossbow-chorister-reference-256.png`
+- Render ID: `rnd_cf7285b806e5b20b14df8455`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/03-sage-crossbow-chorister.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: 5/5
 - Decision: keep
@@ -912,8 +912,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Silver Wheellock Sister
 
-- Render ID: `rnd_37d3c27472fa53c87be19026`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/07-silver-wheellock-sister-reference-256.png`
+- Render ID: `rnd_b9907b7e818a90acac54e427`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/07-silver-wheellock-sister.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: 5/5
 - Decision: keep
@@ -925,8 +925,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Soft Coral Sabre Cantor
 
-- Render ID: `rnd_7b7a6d55e066d9b7bb812746`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/06-soft-coral-sabre-cantor-reference-256.png`
+- Render ID: `rnd_f7de286495539b5dccb94129`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/06-soft-coral-sabre-cantor.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: 5/5
 - Decision: keep
@@ -938,8 +938,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Burgundy Falchion Last Vow
 
-- Render ID: `rnd_f7668f8edeb6f91e4cf46047`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/09-burgundy-falchion-last-vow-reference-256.png`
+- Render ID: `rnd_34d2eb74610f721d8cb4bb6a`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/09-burgundy-falchion-last-vow.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -951,8 +951,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Faded Coral Sabre Remnant
 
-- Render ID: `rnd_7f7ff1372e740343b6ef236e`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/05-faded-coral-sabre-remnant-reference-256.png`
+- Render ID: `rnd_999ad7ef9f6772a297deb03b`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/05-faded-coral-sabre-remnant.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -964,8 +964,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Arming Sword Survivor
 
-- Render ID: `rnd_9a847d4553d744f08c66e7aa`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor-reference-256.png`
+- Render ID: `rnd_be9f16c92f7b52c4bd43e5b9`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -977,8 +977,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rust Pearl Poleaxe Matron
 
-- Render ID: `rnd_6fb166f83966f1b0938d150e`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/07-rust-pearl-poleaxe-matron-reference-256.png`
+- Render ID: `rnd_8894830020bbc135c1a32db2`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/07-rust-pearl-poleaxe-matron.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -990,8 +990,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Soot Green Bolo Veteran
 
-- Render ID: `rnd_a0e92cbebb9db1ab9db77d64`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/06-soot-green-bolo-veteran-reference-256.png`
+- Render ID: `rnd_5200a4f73c43e2d4ce3ec045`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/06-soot-green-bolo-veteran.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -1003,8 +1003,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Worn Silver Rondel Confessor
 
-- Render ID: `rnd_48da82a92f034ea7ec8b8946`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/08-worn-silver-rondel-confessor-reference-256.png`
+- Render ID: `rnd_5d98c89c8472533cf7dcf84d`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/08-worn-silver-rondel-confessor.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -1018,8 +1018,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Crowned Apostate
 
-- Render ID: `rnd_efceac9c4fc47fb83c3bb9c9`
-- Path: `angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate-reference-256.png`
+- Render ID: `rnd_896a8828a896d6f125a90a6b`
+- Path: `angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate.png`
 - Collection: Corrupted Angels
 - Rating: 2/5
 - Decision: reject
@@ -1031,8 +1031,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Rain Arbalist
 
-- Render ID: `rnd_0e82dbc3f43115ea4722a23c`
-- Path: `enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist-reference-256.png`
+- Render ID: `rnd_3ab3257768eafa6778cb77c0`
+- Path: `enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist.png`
 - Collection: Aswang Knights Batch 37
 - Rating: 2/5
 - Decision: reject
@@ -1044,8 +1044,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Veil Bolo Harrier
 
-- Render ID: `rnd_957f6a4d66464603d7daaa9c`
-- Path: `enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-reference-256.png`
+- Render ID: `rnd_54c0f55ac88fa15a4d7949d3`
+- Path: `enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier.png`
 - Collection: Aswang Knights Batch 37
 - Rating: 1/5
 - Decision: reject
@@ -1057,8 +1057,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dawn Hide Rattan Bulwark
 
-- Render ID: `rnd_b394aac6ab879af54ed61904`
-- Path: `enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-reference-256.png`
+- Render ID: `rnd_dfbb928893090833d54ee20d`
+- Path: `enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark.png`
 - Collection: Aswang Knights Batch 37
 - Rating: 1/5
 - Decision: reject
@@ -1070,8 +1070,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Marrow Lance Warden
 
-- Render ID: `rnd_fadd7a436b1000fad9a61e64`
-- Path: `enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden-reference-256.png`
+- Render ID: `rnd_a69900f709f625ed046ef4cb`
+- Path: `enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden.png`
 - Collection: Aswang Knights Batch 37
 - Rating: 3/5
 - Decision: reject
@@ -1083,8 +1083,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Bell Caller
 
-- Render ID: `rnd_a767e13ec0586bcaf15bf080`
-- Path: `enemies/banshees-batch-33/drafts/14-black-bell-caller-reference-256.png`
+- Render ID: `rnd_7db6400d8bebec5a2877a595`
+- Path: `enemies/banshees-batch-33/drafts/14-black-bell-caller.png`
 - Collection: Banshees Batch 33
 - Rating: 2/5
 - Decision: reject
@@ -1096,8 +1096,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Comb Reclaiming Widow
 
-- Render ID: `rnd_0d94adc1d8e39fbe1d84297b`
-- Path: `enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow-reference-256.png`
+- Render ID: `rnd_8a081dfbcfdafca0b53754f1`
+- Path: `enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow.png`
 - Collection: Banshees Batch 33
 - Rating: 1/5
 - Decision: reject
@@ -1109,8 +1109,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crimson Edged Mourner
 
-- Render ID: `rnd_4d14897aad140339b68a737f`
-- Path: `enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-reference-256.png`
+- Render ID: `rnd_dad432b5c77a0d4967014781`
+- Path: `enemies/banshees-batch-33/drafts/07-crimson-edged-mourner.png`
 - Collection: Banshees Batch 33
 - Rating: 1/5
 - Decision: reject
@@ -1122,8 +1122,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crimson Lace Regent
 
-- Render ID: `rnd_b09d43be119e5432c4403818`
-- Path: `enemies/banshees-batch-33/drafts/09-crimson-lace-regent-reference-256.png`
+- Render ID: `rnd_b79a1fbacc420d65a9c4fa4e`
+- Path: `enemies/banshees-batch-33/drafts/09-crimson-lace-regent.png`
 - Collection: Banshees Batch 33
 - Rating: 4/5
 - Decision: reject
@@ -1135,8 +1135,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Throat Matriarch
 
-- Render ID: `rnd_962f04694af678e9de1ebf04`
-- Path: `enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch-reference-256.png`
+- Render ID: `rnd_caa616fe1004fe1b78edc93e`
+- Path: `enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch.png`
 - Collection: Banshees Batch 33
 - Rating: 3/5
 - Decision: reject
@@ -1148,8 +1148,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Indigo Wrap Mourner
 
-- Render ID: `rnd_f2f51981574131b7dd08dd6d`
-- Path: `enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-reference-256.png`
+- Render ID: `rnd_37dda5dc022182d0a8862abb`
+- Path: `enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner.png`
 - Collection: Banshees Batch 33
 - Rating: 2/5
 - Decision: reject
@@ -1161,8 +1161,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shawlbound Lamenter
 
-- Render ID: `rnd_23311df598256f0d82f5c83b`
-- Path: `enemies/banshees-batch-33/drafts/02-shawlbound-lamenter-reference-256.png`
+- Render ID: `rnd_515eb97487639ecf4b31292c`
+- Path: `enemies/banshees-batch-33/drafts/02-shawlbound-lamenter.png`
 - Collection: Banshees Batch 33
 - Rating: 2/5
 - Decision: reject
@@ -1174,8 +1174,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Five Drop Phlebotomist
 
-- Render ID: `rnd_cec732c5fafc8382f083677b`
-- Path: `enemies/blood-cult-sadists-batch-39/drafts/03-five-drop-phlebotomist-reference-256.png`
+- Render ID: `rnd_9397237843c596c85861a6a9`
+- Path: `enemies/blood-cult-sadists-batch-39/drafts/03-five-drop-phlebotomist.png`
 - Collection: Blood Cult Sadists Batch 39
 - Rating: 3/5
 - Decision: reject
@@ -1187,8 +1187,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Needle Duelist
 
-- Render ID: `rnd_354342c32cdf41ee746e66b1`
-- Path: `enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-reference-256.png`
+- Render ID: `rnd_ea106332a553a7e09c5f2495`
+- Path: `enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 3/5
 - Decision: reject
@@ -1200,8 +1200,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Clot Sigil Bastion
 
-- Render ID: `rnd_b32ad4b1364a944eac381e75`
-- Path: `enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion-reference-256.png`
+- Render ID: `rnd_c7086304834d0e56246f2b34`
+- Path: `enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1213,8 +1213,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Greatsword Pursuer
 
-- Render ID: `rnd_f6e6919824cb907c739dfb85`
-- Path: `enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v02-reference-256.png`
+- Render ID: `rnd_66146f6cd1c3762b2c5d7dcf`
+- Path: `enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v02.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1226,8 +1226,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sable Greatsword Pursuer
 
-- Render ID: `rnd_b0e2a2bcc8de04e0fc24bb19`
-- Path: `enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-reference-256.png`
+- Render ID: `rnd_5c000ea727d632e34cbc4039`
+- Path: `enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1239,8 +1239,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Vein Hook Arrestor
 
-- Render ID: `rnd_a9d980a4a2c5db39b6049d57`
-- Path: `enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor-reference-256.png`
+- Render ID: `rnd_9e54937ec7e54ea511dcbaa9`
+- Path: `enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 3/5
 - Decision: reject
@@ -1252,8 +1252,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bronze Mace Prefect
 
-- Render ID: `rnd_ceabc05f6e69e69a7f90cb27`
-- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/14-bronze-mace-prefect-v01-reference-256.png`
+- Render ID: `rnd_fd0365e4804f0a99d00540cb`
+- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/14-bronze-mace-prefect-v01.png`
 - Collection: Blood Demon Knights Batch 37 · Rejected
 - Rating: 5/5
 - Decision: reject
@@ -1265,8 +1265,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Greatsword Pursuer
 
-- Render ID: `rnd_28d407d189ff205725b1b628`
-- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/13-oxblood-greatsword-pursuer-v01-reference-256.png`
+- Render ID: `rnd_9e80003198cc8d4e2ddab400`
+- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/13-oxblood-greatsword-pursuer-v01.png`
 - Collection: Blood Demon Knights Batch 37 · Rejected
 - Rating: 4/5
 - Decision: reject
@@ -1278,8 +1278,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sable Longsword Castellan
 
-- Render ID: `rnd_523e1ede8f0d9f199355ac58`
-- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/11-sable-longsword-castellan-v01-reference-256.png`
+- Render ID: `rnd_16feeb8573508fb205aaef15`
+- Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/11-sable-longsword-castellan-v01.png`
 - Collection: Blood Demon Knights Batch 37 · Rejected
 - Rating: 4/5
 - Decision: reject
@@ -1291,8 +1291,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Lance Sepulchral Votary
 
-- Render ID: `rnd_527de552deec29c52edcd3d3`
-- Path: `enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary-reference-256.png`
+- Render ID: `rnd_ed68ff5784778fc9bd1ba19f`
+- Path: `enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 4/5
 - Decision: reject
@@ -1304,8 +1304,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Processional Mace Votary
 
-- Render ID: `rnd_384aacfda560c0408d0355d5`
-- Path: `enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary-reference-256.png`
+- Render ID: `rnd_8be24205e0d2fa7bc6fa16b7`
+- Path: `enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 4/5
 - Decision: reject
@@ -1317,8 +1317,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oxblood Quarrel Canoness
 
-- Render ID: `rnd_28a57c78d20859c0ed4338a6`
-- Path: `enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness-reference-256.png`
+- Render ID: `rnd_56123c8c5799991409d21af1`
+- Path: `enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness.png`
 - Collection: Blood Priestesses Batch 39
 - Rating: 4/5
 - Decision: reject
@@ -1330,8 +1330,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Altar Candlestick Prioress
 
-- Render ID: `rnd_51f2d6c006658516094e643b`
-- Path: `enemies/blood-priestesses-batch-39/rejected/candlestick-pilot/06-altar-candlestick-prioress-reference-256.png`
+- Render ID: `rnd_929a658f370a3d5137508c14`
+- Path: `enemies/blood-priestesses-batch-39/rejected/candlestick-pilot/06-altar-candlestick-prioress.png`
 - Collection: Blood Priestesses Batch 39 · Rejected
 - Rating: 4/5
 - Decision: reject
@@ -1343,8 +1343,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Cup Interdictor
 
-- Render ID: `rnd_1b1f9152b6a72dc3fd496577`
-- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor-reference-256.png`
+- Render ID: `rnd_b5fa02e6471d19068fc7baf5`
+- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor.png`
 - Collection: Blood Priestesses Batch 39 · Rejected
 - Rating: 4/5
 - Decision: reject
@@ -1356,8 +1356,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Diamond Hierophant
 
-- Render ID: `rnd_f474d9896621bac7accc45a0`
-- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant-reference-256.png`
+- Render ID: `rnd_ddb1b873a7b68087f826cae7`
+- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant.png`
 - Collection: Blood Priestesses Batch 39 · Rejected
 - Rating: 2/5
 - Decision: reject
@@ -1369,8 +1369,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blackwater Aspergillist
 
-- Render ID: `rnd_2f8a180a4a79743fdd09284c`
-- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/02-blackwater-aspergillist-reference-256.png`
+- Render ID: `rnd_5c78cfadbe60bab0a632fe88`
+- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/02-blackwater-aspergillist.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 3/5
 - Decision: reject
@@ -1382,8 +1382,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wax Mitre Ordinariate
 
-- Render ID: `rnd_f1a498da2ba46e9c8b4d0145`
-- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/04-wax-mitre-ordinariate-reference-256.png`
+- Render ID: `rnd_18f0d2d9c396c27ed0cb2ada`
+- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/04-wax-mitre-ordinariate.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 4/5
 - Decision: reject
@@ -1395,8 +1395,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Beetle Hexer
 
-- Render ID: `rnd_59306f2649376a42ead06d83`
-- Path: `enemies/combat-magic-batch-04/03-beetle-hexer-reference-256.png`
+- Render ID: `rnd_d5321b2c21a1f020b4b8e25e`
+- Path: `enemies/combat-magic-batch-04/03-beetle-hexer.png`
 - Collection: Combat Magic Batch 04
 - Rating: 3/5
 - Decision: reject
@@ -1408,8 +1408,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Lantern Acolyte
 
-- Render ID: `rnd_bbe1fc5cff30bfcdd7e23d60`
-- Path: `enemies/combat-magic-batch-04/01-blood-lantern-acolyte-reference-256.png`
+- Render ID: `rnd_f4f888298ab888676af532a1`
+- Path: `enemies/combat-magic-batch-04/01-blood-lantern-acolyte.png`
 - Collection: Combat Magic Batch 04
 - Rating: 3/5
 - Decision: reject
@@ -1421,8 +1421,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Blue Vampire Whip Sister
 
-- Render ID: `rnd_eef427814b02bec6511135a0`
-- Path: `enemies/convent-horrors-batch-37/drafts/16-ash-blue-vampire-whip-sister-reference-256.png`
+- Render ID: `rnd_bdc8aaf002dff6bbf4536eec`
+- Path: `enemies/convent-horrors-batch-37/drafts/16-ash-blue-vampire-whip-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1434,8 +1434,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Procession Threshing Flailer
 
-- Render ID: `rnd_bc930db0b63ec683aa2c9c26`
-- Path: `enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer-reference-256.png`
+- Render ID: `rnd_419ac453e6c7e7ba2af5bf37`
+- Path: `enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1447,8 +1447,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Burnt Rose Iron Club Nun
 
-- Render ID: `rnd_c52efcf47bec378a4e86f6e8`
-- Path: `enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-reference-256.png`
+- Render ID: `rnd_64825680add2191eb8d7e008`
+- Path: `enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1460,8 +1460,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Sickle Widow
 
-- Render ID: `rnd_807bfed071d2c40f5db16328`
-- Path: `enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow-reference-256.png`
+- Render ID: `rnd_c338fe06bd79126af6968297`
+- Path: `enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1473,8 +1473,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Indigo Flail Votary
 
-- Render ID: `rnd_7d2239097743f444577d8bfb`
-- Path: `enemies/convent-horrors-batch-37/drafts/02-indigo-flail-votary-reference-256.png`
+- Render ID: `rnd_a1730252306d2ab3ef3dd13f`
+- Path: `enemies/convent-horrors-batch-37/drafts/02-indigo-flail-votary.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 3/5
 - Decision: reject
@@ -1486,8 +1486,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lavender Ash Rose War Pick Matron
 
-- Render ID: `rnd_ef24323eef373feaf42e435f`
-- Path: `enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron-reference-256.png`
+- Render ID: `rnd_487b73fed236d41d7fb57edf`
+- Path: `enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1499,8 +1499,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Veil Rapier Sister
 
-- Render ID: `rnd_9359b3644c5e47fdf2c3d977`
-- Path: `enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister-reference-256.png`
+- Render ID: `rnd_70af9765496ed323f8861387`
+- Path: `enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1512,8 +1512,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Rosary Mace Sister
 
-- Render ID: `rnd_530ab55521f67e0b48842610`
-- Path: `enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister-reference-256.png`
+- Render ID: `rnd_e2ef5f2be1a2836c3fc4cd25`
+- Path: `enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1525,8 +1525,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Plum Amber Longsword Votary
 
-- Render ID: `rnd_48c32eb2f7f015f23d180692`
-- Path: `enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary-reference-256.png`
+- Render ID: `rnd_ef5f73fdd8d55932795d9fca`
+- Path: `enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1538,8 +1538,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Silver Rosary Mourner
 
-- Render ID: `rnd_c97d7317eb4665870a7e0525`
-- Path: `enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-reference-256.png`
+- Render ID: `rnd_cdf0ef5c7a30e92aa5e646a7`
+- Path: `enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1551,8 +1551,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### White Stake Vampire Sister
 
-- Render ID: `rnd_0adb140e72edff10614bc1d5`
-- Path: `enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister-reference-256.png`
+- Render ID: `rnd_ca81de08aef3e864c44c7846`
+- Path: `enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1564,8 +1564,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Gate Poleaxe Sentinel
 
-- Render ID: `rnd_2583348c0b50d5f9cc2d818b`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/02-thorn-gate-poleaxe-sentinel-reference-256.png`
+- Render ID: `rnd_2a648dbe89e3436d12852082`
+- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/02-thorn-gate-poleaxe-sentinel.png`
 - Collection: Crown Of Thorns Female Knights Batch 38
 - Rating: 4/5
 - Decision: reject
@@ -1577,8 +1577,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Pick Pursuivant
 
-- Render ID: `rnd_c0db60988cf38768aebdd82d`
-- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/09-thorn-pick-pursuivant-reference-256.png`
+- Render ID: `rnd_8c13f4a19528d91368fc5072`
+- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/09-thorn-pick-pursuivant.png`
 - Collection: Crown Of Thorns Knights Batch 40
 - Rating: 4/5
 - Decision: reject
@@ -1590,8 +1590,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Rondel Grappler
 
-- Render ID: `rnd_75fc52c1c0592138c1a75fa3`
-- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/07-thorn-rondel-grappler-reference-256.png`
+- Render ID: `rnd_35df51cfbf4b6d71d73d191c`
+- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/07-thorn-rondel-grappler.png`
 - Collection: Crown Of Thorns Knights Batch 40
 - Rating: 4/5
 - Decision: reject
@@ -1603,8 +1603,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Briar Fan Dona
 
-- Render ID: `rnd_d3a357ea490f1719ac65e12b`
-- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/01-briar-fan-dona-reference-256.png`
+- Render ID: `rnd_407e361dc6f83f79194282d4`
+- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/01-briar-fan-dona.png`
 - Collection: Crowned Thorn Mistresses Batch 46
 - Rating: 3/5
 - Decision: reject
@@ -1616,8 +1616,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crown Barong Chatelaine
 
-- Render ID: `rnd_24ca3a90d69d67a6e7060566`
-- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/03-crown-barong-chatelaine-reference-256.png`
+- Render ID: `rnd_614a1a9453ef5266d4fd5785`
+- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/03-crown-barong-chatelaine.png`
 - Collection: Crowned Thorn Mistresses Batch 46
 - Rating: 3/5
 - Decision: reject
@@ -1629,8 +1629,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Salver Matriarch
 
-- Render ID: `rnd_b74bd3f6ec82d28ae18ebdfd`
-- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/04-ember-salver-matriarch-reference-256.png`
+- Render ID: `rnd_6e39d3482e8d0b9ea09b6c36`
+- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/04-ember-salver-matriarch.png`
 - Collection: Crowned Thorn Mistresses Batch 46
 - Rating: 3/5
 - Decision: reject
@@ -1642,8 +1642,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Ledger Preceptress
 
-- Render ID: `rnd_71c6de5c1d1cb023325f366d`
-- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/05-thorn-ledger-preceptress-reference-256.png`
+- Render ID: `rnd_da015d0bda932f3a8226481c`
+- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/05-thorn-ledger-preceptress.png`
 - Collection: Crowned Thorn Mistresses Batch 46
 - Rating: 4/5
 - Decision: reject
@@ -1655,8 +1655,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Spindle Widow
 
-- Render ID: `rnd_aa7bfe5538cf00cab11e4826`
-- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/02-thorn-spindle-widow-reference-256.png`
+- Render ID: `rnd_94a6d2a69a6112eda035ad8f`
+- Path: `enemies/crowned-thorn-mistresses-batch-46/drafts/02-thorn-spindle-widow.png`
 - Collection: Crowned Thorn Mistresses Batch 46
 - Rating: 2/5
 - Decision: reject
@@ -1668,8 +1668,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Hedge Sacristan
 
-- Render ID: `rnd_edaba1d7376573a38683efbb`
-- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/04-black-hedge-sacristan-reference-256.png`
+- Render ID: `rnd_1b7783e09710919505a616e9`
+- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/04-black-hedge-sacristan.png`
 - Collection: Crowned Thorn Priestesses Batch 45
 - Rating: 4/5
 - Decision: reject
@@ -1681,8 +1681,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Briar Ring Processional
 
-- Render ID: `rnd_34cfeb0b7a605eed5be0a863`
-- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/01-briar-ring-processional-reference-256.png`
+- Render ID: `rnd_a750566b5a228fb37a31bb16`
+- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/01-briar-ring-processional.png`
 - Collection: Crowned Thorn Priestesses Batch 45
 - Rating: 4/5
 - Decision: reject
@@ -1694,8 +1694,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Eclipse Ring Surveyor
 
-- Render ID: `rnd_7af97f24587b18dfb387e190`
-- Path: `enemies/demonic-astrologers-batch-41/drafts/01-eclipse-ring-surveyor-reference-256.png`
+- Render ID: `rnd_e409554b1aa8d824c6c6c403`
+- Path: `enemies/demonic-astrologers-batch-41/drafts/01-eclipse-ring-surveyor.png`
 - Collection: Demonic Astrologers Batch 41
 - Rating: 3/5
 - Decision: reject
@@ -1707,8 +1707,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Monstrance Pikeman
 
-- Render ID: `rnd_f20804935bb680f46737dd75`
-- Path: `enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-reference-256.png`
+- Render ID: `rnd_c52f071073dab1df05d97f06`
+- Path: `enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman.png`
 - Collection: Evil Catholic Knights Batch 43
 - Rating: 3/5
 - Decision: reject
@@ -1720,8 +1720,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fern Mantle Longsword Knight
 
-- Render ID: `rnd_dfc65142c6524abc29c92011`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/02-fern-mantle-longsword-knight-reference-256.png`
+- Render ID: `rnd_e03268e8fd6d311097afe6ce`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/02-fern-mantle-longsword-knight.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1733,8 +1733,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ferncloak Greatsword Reeve
 
-- Render ID: `rnd_9029b1b491ba77ef00285893`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/14-ferncloak-greatsword-reeve-reference-256.png`
+- Render ID: `rnd_17f01a64b3e30b02bf9c3d80`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/14-ferncloak-greatsword-reeve.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1746,8 +1746,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Green Tabard Path Duelist
 
-- Render ID: `rnd_b1e9f0d1b3f767e2630d4fec`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/03-green-tabard-path-duelist-reference-256.png`
+- Render ID: `rnd_7a23eaab31696911effcf319`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/03-green-tabard-path-duelist.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 4/5
 - Decision: reject
@@ -1759,8 +1759,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grove Spear Line Warden
 
-- Render ID: `rnd_3dd8b54ae9f17f2a7e79d682`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/07-grove-spear-line-warden-reference-256.png`
+- Render ID: `rnd_10856f98614cf34d24242f70`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/07-grove-spear-line-warden.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1772,8 +1772,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moss Bob Pursuit Duelist
 
-- Render ID: `rnd_ddc6df6c4f33c0e22010d817`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/18-moss-bob-pursuit-duelist-reference-256.png`
+- Render ID: `rnd_ff4978bdb7723896f71abf9c`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/18-moss-bob-pursuit-duelist.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1785,8 +1785,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moss Sash Sword Warden
 
-- Render ID: `rnd_2028a499166f6780af480369`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/01-moss-sash-sword-warden-reference-256.png`
+- Render ID: `rnd_033b154296b967d7e6b732f7`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/01-moss-sash-sword-warden.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1798,8 +1798,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Olive Mantle Longsword Captain
 
-- Render ID: `rnd_b3381919b4ada647557cecdf`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/10-olive-mantle-longsword-captain-reference-256.png`
+- Render ID: `rnd_c3f3e7b23bf197eb3018f88d`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/10-olive-mantle-longsword-captain.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 4/5
 - Decision: reject
@@ -1811,8 +1811,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Verdant Sleeve Longsword Freeblade
 
-- Render ID: `rnd_7f9dcfe21100ae4ab6b060e6`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/16-verdant-sleeve-longsword-freeblade-reference-256.png`
+- Render ID: `rnd_6b9b6bf183b5154ebfb0dfbc`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/16-verdant-sleeve-longsword-freeblade.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1824,8 +1824,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Willow Braid Counterguard
 
-- Render ID: `rnd_df678aa365f45adb296b4da9`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard-reference-256.png`
+- Render ID: `rnd_7f6ca33ca37706286d01f6a4`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1837,8 +1837,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Spear Sentinel
 
-- Render ID: `rnd_0ee8812a5b429fc9fa2b0868`
-- Path: `enemies/iron-maidens-batch-34/drafts/02-iron-spear-sentinel-reference-256.png`
+- Render ID: `rnd_b2c10a06d81e18da24160d8b`
+- Path: `enemies/iron-maidens-batch-34/drafts/02-iron-spear-sentinel.png`
 - Collection: Iron Maidens Batch 34
 - Rating: 3/5
 - Decision: reject
@@ -1850,8 +1850,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Writ Reaper
 
-- Render ID: `rnd_e27c7732c7f38c525dce1278`
-- Path: `enemies/reapers-batch-40/drafts/05-ember-writ-reaper-reference-256.png`
+- Render ID: `rnd_439ad3ebbaed1ca81abb1865`
+- Path: `enemies/reapers-batch-40/drafts/05-ember-writ-reaper.png`
 - Collection: Reapers Batch 40
 - Rating: 4/5
 - Decision: reject
@@ -1863,8 +1863,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Writ Reaper
 
-- Render ID: `rnd_82ecdcf3a3d830cab434e946`
-- Path: `enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper-reference-256.png`
+- Render ID: `rnd_fe641edc1373eccd50c7ff35`
+- Path: `enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper.png`
 - Collection: Reapers Batch 40
 - Rating: 4/5
 - Decision: reject
@@ -1876,8 +1876,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rice Wake Reaper
 
-- Render ID: `rnd_cb20c2f7ffb49322e3e5d7c4`
-- Path: `enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper-reference-256.png`
+- Render ID: `rnd_24fa57e6b2b0514201af46d7`
+- Path: `enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper.png`
 - Collection: Reapers Batch 40
 - Rating: 4/5
 - Decision: reject
@@ -1889,8 +1889,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Collar Crook Gaoler
 
-- Render ID: `rnd_117c9cef89ae655b6973c49b`
-- Path: `enemies/sadistic-knights-batch-37/drafts/02-collar-crook-gaoler-reference-256.png`
+- Render ID: `rnd_64bedcc2ea29e8f6b17e4a8b`
+- Path: `enemies/sadistic-knights-batch-37/drafts/02-collar-crook-gaoler.png`
 - Collection: Sadistic Knights Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -1902,8 +1902,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reed Sash Dismounted Lancer
 
-- Render ID: `rnd_da3e5b7d387da47451bd6440`
-- Path: `enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer-reference-256.png`
+- Render ID: `rnd_5d0fc3d8bbeeedfb4432b7ce`
+- Path: `enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer.png`
 - Collection: Spanish Knight Orders Batch 38
 - Rating: 3/5
 - Decision: reject
@@ -1915,8 +1915,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chalice Vow Cantor
 
-- Render ID: `rnd_62bdbf12a8fbe2a629c5c24b`
-- Path: `enemies/vampire-brides-batch-35/02-chalice-vow-cantor-reference-256.png`
+- Render ID: `rnd_7923ccecf8762992545ee6dc`
+- Path: `enemies/vampire-brides-batch-35/02-chalice-vow-cantor.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -1928,8 +1928,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cord Bound Widow
 
-- Render ID: `rnd_43b5bf8538324fc0b1aadafc`
-- Path: `enemies/vampire-brides-batch-35/03-cord-bound-widow-reference-256.png`
+- Render ID: `rnd_ef326e3b9c4d442d43adc276`
+- Path: `enemies/vampire-brides-batch-35/03-cord-bound-widow.png`
 - Collection: Vampire Brides Batch 35
 - Rating: 2/5
 - Decision: reject
@@ -1941,8 +1941,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Salt Sabre Bride
 
-- Render ID: `rnd_2a99a7a27c6425e87a8bf84a`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/06-moon-salt-sabre-bride-reference-256.png`
+- Render ID: `rnd_b379795554fa2edbce466890`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/06-moon-salt-sabre-bride.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: 3/5
 - Decision: reject
@@ -1954,8 +1954,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Rein Lancer
 
-- Render ID: `rnd_19fd40dee25a81127e835309`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/01-blood-rein-lancer-reference-256.png`
+- Render ID: `rnd_474a6100db19ea3b6d02f461`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/01-blood-rein-lancer.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: 3/5
 - Decision: reject
@@ -1967,8 +1967,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Bridle Duelist
 
-- Render ID: `rnd_738731ac3a3a1db6d129e407`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/02-moon-bridle-duelist-reference-256.png`
+- Render ID: `rnd_93cd434740cd1ddc106c27b5`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/02-moon-bridle-duelist.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: 3/5
 - Decision: reject
@@ -1980,8 +1980,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Split Fauld Thighguard
 
-- Render ID: `rnd_dd0f57610c93998c977dcb6a`
-- Path: `enemies/vampire-knights-batch-37/drafts/12-split-fauld-thighguard-reference-256.png`
+- Render ID: `rnd_936b2db2da7b46ece936c295`
+- Path: `enemies/vampire-knights-batch-37/drafts/12-split-fauld-thighguard.png`
 - Collection: Vampire Knights Batch 37
 - Rating: 3/5
 - Decision: reject
@@ -1993,8 +1993,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Triad Veilseer
 
-- Render ID: `rnd_8df5953ad66df8bf96d5234a`
-- Path: `enemies/veiled-ember-coven-batch-24/drafts/01-ember-triad-veilseer-reference-256.png`
+- Render ID: `rnd_34f278e1f97a8575b29835f2`
+- Path: `enemies/veiled-ember-coven-batch-24/drafts/01-ember-triad-veilseer.png`
 - Collection: Veiled Ember Coven Batch 24
 - Rating: 3/5
 - Decision: reject
@@ -2006,8 +2006,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Gold Billhook Canoness
 
-- Render ID: `rnd_c01c7c5757de0e3ae114bfc4`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/19-black-gold-billhook-canoness-reference-256.png`
+- Render ID: `rnd_6f3d25845a141c78e13caeea`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/19-black-gold-billhook-canoness.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -2019,8 +2019,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pearl Longsword Canoness
 
-- Render ID: `rnd_1c0d2cb5fe7fae240624793e`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/03-pearl-longsword-canoness-reference-256.png`
+- Render ID: `rnd_284d14544a25b21236895509`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/03-pearl-longsword-canoness.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 3/5
 - Decision: reject
@@ -2032,8 +2032,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Champagne Recurve Pilgrim
 
-- Render ID: `rnd_87d602f76d1ce8fbc0e92f20`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/05-champagne-recurve-pilgrim-reference-256.png`
+- Render ID: `rnd_5da1d1f9e7fb75e0d2a0df72`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/05-champagne-recurve-pilgrim.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: 4/5
 - Decision: reject
@@ -2045,8 +2045,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cream Flanged Mace Sacristan
 
-- Render ID: `rnd_8c0b5ccd6513e81b1e179638`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/08-cream-flanged-mace-sacristan-reference-256.png`
+- Render ID: `rnd_b0ef533a21df664654838096`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/08-cream-flanged-mace-sacristan.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: 4/5
 - Decision: reject
@@ -2058,8 +2058,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Lilac Flanged Mace Penitent
 
-- Render ID: `rnd_b4b39dee40da929f01754331`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/04-ash-lilac-flanged-mace-penitent-reference-256.png`
+- Render ID: `rnd_4ea34db206fc4ed54e5983b6`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/04-ash-lilac-flanged-mace-penitent.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -2071,8 +2071,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dove Black Battle Axe Witness
 
-- Render ID: `rnd_352a987a435c78e0abaefe83`
-- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/10-dove-black-battle-axe-witness-reference-256.png`
+- Render ID: `rnd_adcce7ece7764a4e439cea88`
+- Path: `enemies/veiled-warrior-nuns-batch-37/drafts/10-dove-black-battle-axe-witness.png`
 - Collection: Veiled Warrior Nuns Batch 37
 - Rating: 4/5
 - Decision: reject
@@ -2084,8 +2084,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reliquary Dowager
 
-- Render ID: `rnd_8bbf4cd68bd7f09e45ea96e8`
-- Path: `enemies/wealthy-demonic-vampires-batch-38/drafts/04-reliquary-dowager-reference-256.png`
+- Render ID: `rnd_6ecf94f7b4023416af651e16`
+- Path: `enemies/wealthy-demonic-vampires-batch-38/drafts/04-reliquary-dowager.png`
 - Collection: Wealthy Demonic Vampires Batch 38
 - Rating: 4/5
 - Decision: reject
@@ -2097,8 +2097,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirrorless Marquesa
 
-- Render ID: `rnd_df50597f313f09398714a619`
-- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/03-mirrorless-marquesa-reference-256.png`
+- Render ID: `rnd_7449c533bec40a0d679ecff2`
+- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/03-mirrorless-marquesa.png`
 - Collection: Wealthy Spanish Vampire Wives Batch 46
 - Rating: 3/5
 - Decision: reject
@@ -2110,8 +2110,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pinfire Vizcondesa
 
-- Render ID: `rnd_442cea13fbe8165f6ff858e6`
-- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/04-pinfire-vizcondesa-reference-256.png`
+- Render ID: `rnd_2aa9aecbeec8eb173bccec97`
+- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/04-pinfire-vizcondesa.png`
 - Collection: Wealthy Spanish Vampire Wives Batch 46
 - Rating: 3/5
 - Decision: reject
@@ -2123,8 +2123,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Velvet Rapier Condesa
 
-- Render ID: `rnd_c79d5c7aa15c092c2dc4f067`
-- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/02-velvet-rapier-condesa-reference-256.png`
+- Render ID: `rnd_3a772942133fac727eb7f7d0`
+- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/02-velvet-rapier-condesa.png`
 - Collection: Wealthy Spanish Vampire Wives Batch 46
 - Rating: 3/5
 - Decision: reject
@@ -2138,8 +2138,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Choir Mask Virtue
 
-- Render ID: `rnd_435c5200e4d94e20fe272e2f`
-- Path: `angels/angel-concepts-v01/drafts/08-choir-mask-virtue-reference-256.png`
+- Render ID: `rnd_114fc40e3c261a3a9ab70320`
+- Path: `angels/angel-concepts-v01/drafts/08-choir-mask-virtue.png`
 - Collection: Angel Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -2151,8 +2151,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Wing Exile
 
-- Render ID: `rnd_deabf9e533a51b4e31a139af`
-- Path: `angels/angel-concepts-v01/drafts/07-ember-wing-exile-reference-256.png`
+- Render ID: `rnd_e6e80f4a5c76451d075562e5`
+- Path: `angels/angel-concepts-v01/drafts/07-ember-wing-exile.png`
 - Collection: Angel Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -2164,8 +2164,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fourfold Censer Angel
 
-- Render ID: `rnd_396127d5f47439aa95a9fb5c`
-- Path: `angels/angel-concepts-v01/drafts/05-fourfold-censer-angel-reference-256.png`
+- Render ID: `rnd_4fb3f886d167e697b4746c49`
+- Path: `angels/angel-concepts-v01/drafts/05-fourfold-censer-angel.png`
 - Collection: Angel Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -2177,8 +2177,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Glass Tear Oracle
 
-- Render ID: `rnd_022ef73d2c83c057a7c12563`
-- Path: `angels/angel-concepts-v01/drafts/06-glass-tear-oracle-reference-256.png`
+- Render ID: `rnd_7b6dda456cffb51e6cd0984f`
+- Path: `angels/angel-concepts-v01/drafts/06-glass-tear-oracle.png`
 - Collection: Angel Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -2190,8 +2190,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Wing Sentinel
 
-- Render ID: `rnd_3f3cde034d4484547b24e1af`
-- Path: `angels/angel-concepts-v01/drafts/01-ivory-wing-sentinel-reference-256.png`
+- Render ID: `rnd_76fd72d2a57d63d2d249661a`
+- Path: `angels/angel-concepts-v01/drafts/01-ivory-wing-sentinel.png`
 - Collection: Angel Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -2203,8 +2203,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Arrow Seraph
 
-- Render ID: `rnd_eec26ec85b167f1f3f69c20f`
-- Path: `angels/angel-concepts-v01/drafts/04-moon-arrow-seraph-reference-256.png`
+- Render ID: `rnd_d3c49bcb3c9e553096271252`
+- Path: `angels/angel-concepts-v01/drafts/04-moon-arrow-seraph.png`
 - Collection: Angel Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -2216,8 +2216,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Apostasy Engine
 
-- Render ID: `rnd_881ce9efc2ed1ffe9339a1f8`
-- Path: `angels/corrupted-angels-v01/drafts/30-apostasy-engine-reference-256.png`
+- Render ID: `rnd_3bc1519f8678bf03f366a240`
+- Path: `angels/corrupted-angels-v01/drafts/30-apostasy-engine.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2229,8 +2229,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashmouth Reclaimer
 
-- Render ID: `rnd_07f3173b5566ecdaeae40eb0`
-- Path: `angels/corrupted-angels-v01/drafts/09-ashmouth-reclaimer-reference-256.png`
+- Render ID: `rnd_50a188ec689c67715d2b0267`
+- Path: `angels/corrupted-angels-v01/drafts/09-ashmouth-reclaimer.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2242,8 +2242,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Vein Annunciator
 
-- Render ID: `rnd_b2fa6270b298dd76f9f1cd60`
-- Path: `angels/corrupted-angels-v01/drafts/04-black-vein-annunciator-reference-256.png`
+- Render ID: `rnd_f216ca44c47c765dc095d1f8`
+- Path: `angels/corrupted-angels-v01/drafts/04-black-vein-annunciator.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2255,8 +2255,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Tithe Archon
 
-- Render ID: `rnd_27bcad1f966e7be562a9ca7d`
-- Path: `angels/corrupted-angels-v01/drafts/05-blood-tithe-archon-reference-256.png`
+- Render ID: `rnd_0aacb429653651dfe8fe025e`
+- Path: `angels/corrupted-angels-v01/drafts/05-blood-tithe-archon.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2268,8 +2268,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bone Crown Hierophant
 
-- Render ID: `rnd_425ed90d04d7a5e470ee6f1a`
-- Path: `angels/corrupted-angels-v01/drafts/25-bone-crown-hierophant-reference-256.png`
+- Render ID: `rnd_c460a8703b7b10345ebd163e`
+- Path: `angels/corrupted-angels-v01/drafts/25-bone-crown-hierophant.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2281,8 +2281,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Broken Sun Duelist
 
-- Render ID: `rnd_86b4806fa4337537ca2f064c`
-- Path: `angels/corrupted-angels-v01/drafts/16-broken-sun-duelist-reference-256.png`
+- Render ID: `rnd_7a0bc41619c0a5777a71dde0`
+- Path: `angels/corrupted-angels-v01/drafts/16-broken-sun-duelist.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2294,8 +2294,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cathedral Maw Seraph
 
-- Render ID: `rnd_0416987656c47449a7bf676a`
-- Path: `angels/corrupted-angels-v01/drafts/23-cathedral-maw-seraph-reference-256.png`
+- Render ID: `rnd_2434c5d2428363ec2ab02c34`
+- Path: `angels/corrupted-angels-v01/drafts/23-cathedral-maw-seraph.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2307,8 +2307,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Smoke Exorcist
 
-- Render ID: `rnd_ecbcabe89a0e9a43372662f3`
-- Path: `angels/corrupted-angels-v01/drafts/13-chain-smoke-exorcist-reference-256.png`
+- Render ID: `rnd_68da86f8a31a2827c1ac883c`
+- Path: `angels/corrupted-angels-v01/drafts/13-chain-smoke-exorcist.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2320,8 +2320,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Oath Sentinel
 
-- Render ID: `rnd_b50cc7548d676575852875b5`
-- Path: `angels/corrupted-angels-v01/drafts/31-cinder-oath-sentinel-reference-256.png`
+- Render ID: `rnd_4f670a4126a5a5910762d66b`
+- Path: `angels/corrupted-angels-v01/drafts/31-cinder-oath-sentinel.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2333,8 +2333,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Corpsewax Templar
 
-- Render ID: `rnd_0374c6463bbb33a72fd4f8f3`
-- Path: `angels/corrupted-angels-v01/drafts/19-corpsewax-templar-reference-256.png`
+- Render ID: `rnd_01535c2a024978e59c2bb569`
+- Path: `angels/corrupted-angels-v01/drafts/19-corpsewax-templar.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2346,8 +2346,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crimson Stigmata Cantor
 
-- Render ID: `rnd_370469d129ee886718d9e2c6`
-- Path: `angels/corrupted-angels-v01/drafts/01-crimson-stigmata-cantor-reference-256.png`
+- Render ID: `rnd_22104bd3d19b49194348f4f4`
+- Path: `angels/corrupted-angels-v01/drafts/01-crimson-stigmata-cantor.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2359,8 +2359,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crown Burden Confessor
 
-- Render ID: `rnd_e24ef42ae33a5ece08d5fea8`
-- Path: `angels/corrupted-angels-v01/drafts/35-crown-burden-confessor-reference-256.png`
+- Render ID: `rnd_cafe3cb59a6750d2e1a2e4bb`
+- Path: `angels/corrupted-angels-v01/drafts/35-crown-burden-confessor.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2372,8 +2372,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crownless Ruin King
 
-- Render ID: `rnd_3bd66939ec225b4f8d992a20`
-- Path: `angels/corrupted-angels-v01/drafts/17-crownless-ruin-king-reference-256.png`
+- Render ID: `rnd_e74994d89d737cdee60c4b9c`
+- Path: `angels/corrupted-angels-v01/drafts/17-crownless-ruin-king.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2385,8 +2385,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Eclipse Harrower
 
-- Render ID: `rnd_3569fcc5bd0ddb20da684d7b`
-- Path: `angels/corrupted-angels-v01/drafts/27-eclipse-harrower-reference-256.png`
+- Render ID: `rnd_0c3cf07c44bb201c8f9d4ece`
+- Path: `angels/corrupted-angels-v01/drafts/27-eclipse-harrower.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2398,8 +2398,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flesh Mirror Seer
 
-- Render ID: `rnd_519dd80fa336d5fcfc37356a`
-- Path: `angels/corrupted-angels-v01/drafts/24-flesh-mirror-seer-reference-256.png`
+- Render ID: `rnd_0e4e308362825cf94603cbb3`
+- Path: `angels/corrupted-angels-v01/drafts/24-flesh-mirror-seer.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2411,8 +2411,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Furnace Heart Dominion
 
-- Render ID: `rnd_052a725269121482265343a6`
-- Path: `angels/corrupted-angels-v01/drafts/10-furnace-heart-dominion-reference-256.png`
+- Render ID: `rnd_b51ff9521844afbb5819e595`
+- Path: `angels/corrupted-angels-v01/drafts/10-furnace-heart-dominion.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2424,8 +2424,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Halo Dervish
 
-- Render ID: `rnd_58ca452b2f84ac541746d220`
-- Path: `angels/corrupted-angels-v01/drafts/26-hollow-halo-dervish-reference-256.png`
+- Render ID: `rnd_b9715d41b9c4eeede41799c5`
+- Path: `angels/corrupted-angels-v01/drafts/26-hollow-halo-dervish.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2437,8 +2437,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Infernal Astrolabe Angel
 
-- Render ID: `rnd_706449d14fb407ffff931702`
-- Path: `angels/corrupted-angels-v01/drafts/15-infernal-astrolabe-angel-reference-256.png`
+- Render ID: `rnd_01147fe70268e64cd48f4fae`
+- Path: `angels/corrupted-angels-v01/drafts/15-infernal-astrolabe-angel.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2450,8 +2450,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Mercy
 
-- Render ID: `rnd_cea6ce89a7607f147a321ad4`
-- Path: `angels/corrupted-angels-v01/drafts/28-inverted-mercy-reference-256.png`
+- Render ID: `rnd_6d4c5b06b108ec4b4e3e630b`
+- Path: `angels/corrupted-angels-v01/drafts/28-inverted-mercy.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2463,8 +2463,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Psalm Penitent
 
-- Render ID: `rnd_f5964164590191a638b9c009`
-- Path: `angels/corrupted-angels-v01/drafts/34-iron-psalm-penitent-reference-256.png`
+- Render ID: `rnd_05d5e1e7dd43dbac618020e9`
+- Path: `angels/corrupted-angels-v01/drafts/34-iron-psalm-penitent.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2476,8 +2476,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Marrow Lantern Penitent
 
-- Render ID: `rnd_cd2ad491b6b1463fcc06b9da`
-- Path: `angels/corrupted-angels-v01/drafts/03-marrow-lantern-penitent-reference-256.png`
+- Render ID: `rnd_bd1741562447091d94b1d598`
+- Path: `angels/corrupted-angels-v01/drafts/03-marrow-lantern-penitent.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2489,8 +2489,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Molten Halo Smith
 
-- Render ID: `rnd_99e3e4f170198c18a18c38da`
-- Path: `angels/corrupted-angels-v01/drafts/07-molten-halo-smith-reference-256.png`
+- Render ID: `rnd_19a8f729a6f3eda4f479bfe6`
+- Path: `angels/corrupted-angels-v01/drafts/07-molten-halo-smith.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2502,8 +2502,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Nail Sigil Inquisitor
 
-- Render ID: `rnd_0a7019393be4c015bdcd56d6`
-- Path: `angels/corrupted-angels-v01/drafts/14-nail-sigil-inquisitor-reference-256.png`
+- Render ID: `rnd_937b83741db2e35221d16cf8`
+- Path: `angels/corrupted-angels-v01/drafts/14-nail-sigil-inquisitor.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2515,8 +2515,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pentacle Gaoler
 
-- Render ID: `rnd_8c2fc82ed21b03300df0aa0e`
-- Path: `angels/corrupted-angels-v01/drafts/11-pentacle-gaoler-reference-256.png`
+- Render ID: `rnd_9b950baaa7f92b4c44d88946`
+- Path: `angels/corrupted-angels-v01/drafts/11-pentacle-gaoler.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2528,8 +2528,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pentagram Engine
 
-- Render ID: `rnd_9bdfabc96266a309bd9b61ff`
-- Path: `angels/corrupted-angels-v01/drafts/29-pentagram-engine-reference-256.png`
+- Render ID: `rnd_64c261d49ceeb230a5c090ca`
+- Path: `angels/corrupted-angels-v01/drafts/29-pentagram-engine.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2541,8 +2541,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pyre Chain Harrower
 
-- Render ID: `rnd_1b2215c4f62032aaeb310ec5`
-- Path: `angels/corrupted-angels-v01/drafts/08-pyre-chain-harrower-reference-256.png`
+- Render ID: `rnd_cd45ea330cbeda963bf1f0f4`
+- Path: `angels/corrupted-angels-v01/drafts/08-pyre-chain-harrower.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2554,8 +2554,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reliquary Spine Bearer
 
-- Render ID: `rnd_690903d273d1301072bf7712`
-- Path: `angels/corrupted-angels-v01/drafts/18-reliquary-spine-bearer-reference-256.png`
+- Render ID: `rnd_42add62709f25a7c454bd43e`
+- Path: `angels/corrupted-angels-v01/drafts/18-reliquary-spine-bearer.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2567,8 +2567,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sigil Eyed Witness
 
-- Render ID: `rnd_97171606969a99d637051726`
-- Path: `angels/corrupted-angels-v01/drafts/12-sigil-eyed-witness-reference-256.png`
+- Render ID: `rnd_29609ec0d7ed914a42f51c86`
+- Path: `angels/corrupted-angels-v01/drafts/12-sigil-eyed-witness.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2580,8 +2580,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Skin Scroll Confessor
 
-- Render ID: `rnd_014ed5afd769238ff27fc223`
-- Path: `angels/corrupted-angels-v01/drafts/21-skin-scroll-confessor-reference-256.png`
+- Render ID: `rnd_e01c73d85dee4f90bdaa04ba`
+- Path: `angels/corrupted-angels-v01/drafts/21-skin-scroll-confessor.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2593,8 +2593,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Suture Guardian
 
-- Render ID: `rnd_ccf60f244274e43665ec93a8`
-- Path: `angels/corrupted-angels-v01/drafts/20-thorn-suture-guardian-reference-256.png`
+- Render ID: `rnd_945b67afb19eb81beceb65f0`
+- Path: `angels/corrupted-angels-v01/drafts/20-thorn-suture-guardian.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2606,8 +2606,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Veiled Sanguine Reliquary
 
-- Render ID: `rnd_4ea91da9585ceb7264433a4a`
-- Path: `angels/corrupted-angels-v01/drafts/32-veiled-sanguine-reliquary-reference-256.png`
+- Render ID: `rnd_ccc64e139a7149687c9659b2`
+- Path: `angels/corrupted-angels-v01/drafts/32-veiled-sanguine-reliquary.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2619,8 +2619,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Vein Lattice Oracle
 
-- Render ID: `rnd_92afe0c09dec79d6e4a1f998`
-- Path: `angels/corrupted-angels-v01/drafts/22-vein-lattice-oracle-reference-256.png`
+- Render ID: `rnd_8b4042fd1be1fd9789e27bc7`
+- Path: `angels/corrupted-angels-v01/drafts/22-vein-lattice-oracle.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2632,8 +2632,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wound Rose Martyr
 
-- Render ID: `rnd_c0b79373a73d64c860e8ba4b`
-- Path: `angels/corrupted-angels-v01/drafts/02-wound-rose-martyr-reference-256.png`
+- Render ID: `rnd_535cd0ebb8674a6067fd3ddb`
+- Path: `angels/corrupted-angels-v01/drafts/02-wound-rose-martyr.png`
 - Collection: Corrupted Angels
 - Rating: Not rated/5
 - Decision: delete
@@ -2645,8 +2645,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bride Of The Unreturned Road
 
-- Render ID: `rnd_da7b9865e9f1f527a5736866`
-- Path: `bosses/principal-bosses-v01/drafts/03-bride-of-the-unreturned-road-reference-256.png`
+- Render ID: `rnd_cfc450c1b2985ccd07af7fd0`
+- Path: `bosses/principal-bosses-v01/drafts/03-bride-of-the-unreturned-road.png`
 - Collection: Principal Bosses
 - Rating: 3/5
 - Decision: delete
@@ -2658,8 +2658,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Door At The End Of All Roads
 
-- Render ID: `rnd_b61c783d424cb6f689836559`
-- Path: `bosses/principal-bosses-v01/drafts/08-door-at-the-end-of-all-roads-reference-256.png`
+- Render ID: `rnd_daaedf5cf89c2f8aadced0f3`
+- Path: `bosses/principal-bosses-v01/drafts/08-door-at-the-end-of-all-roads.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2671,8 +2671,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Tithemother
 
-- Render ID: `rnd_064d7e6c33ce981000e6a3c9`
-- Path: `bosses/principal-bosses-v01/drafts/01-drowned-tithemother-reference-256.png`
+- Render ID: `rnd_f8571f2e43e6db2cf0a7b944`
+- Path: `bosses/principal-bosses-v01/drafts/01-drowned-tithemother.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2684,8 +2684,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### First Severance
 
-- Render ID: `rnd_0b25001e6ea222e840856772`
-- Path: `bosses/principal-bosses-v01/drafts/02-first-severance-reference-256.png`
+- Render ID: `rnd_3267d5c1de44539841fc1821`
+- Path: `bosses/principal-bosses-v01/drafts/02-first-severance.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2697,8 +2697,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hand Without A Rope
 
-- Render ID: `rnd_7c3c839b76f833c120e431fc`
-- Path: `bosses/principal-bosses-v01/drafts/07-hand-without-a-rope-reference-256.png`
+- Render ID: `rnd_655873199dfe7bd67e62d58e`
+- Path: `bosses/principal-bosses-v01/drafts/07-hand-without-a-rope.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2710,8 +2710,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Marshal Beneath The Balete
 
-- Render ID: `rnd_3197d5cff6468d0ca9dc8104`
-- Path: `bosses/principal-bosses-v01/drafts/05-marshal-beneath-the-balete-reference-256.png`
+- Render ID: `rnd_be47a693f90c0455c3a61202`
+- Path: `bosses/principal-bosses-v01/drafts/05-marshal-beneath-the-balete.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2723,8 +2723,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Minister Of Last Confessions
 
-- Render ID: `rnd_aa8717764e5097cf01e16760`
-- Path: `bosses/principal-bosses-v01/drafts/04-minister-of-last-confessions-reference-256.png`
+- Render ID: `rnd_d5ff997fcbfc1873aa5f71fc`
+- Path: `bosses/principal-bosses-v01/drafts/04-minister-of-last-confessions.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2736,8 +2736,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Saint Of The Empty Belfry
 
-- Render ID: `rnd_f5dc9b502635392f9d11dc53`
-- Path: `bosses/principal-bosses-v01/drafts/06-saint-of-the-empty-belfry-reference-256.png`
+- Render ID: `rnd_21ab29fa9056608340a99fbb`
+- Path: `bosses/principal-bosses-v01/drafts/06-saint-of-the-empty-belfry.png`
 - Collection: Principal Bosses
 - Rating: Not rated/5
 - Decision: delete
@@ -2749,8 +2749,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Door At The End Of All Roads Pass01 Extra Legs
 
-- Render ID: `rnd_d557daaf8b417dde14aca58e`
-- Path: `bosses/principal-bosses-v01/drafts/rejected/08-door-at-the-end-of-all-roads-pass01-extra-legs-reference-256.png`
+- Render ID: `rnd_776419419aaea34cac2c35c7`
+- Path: `bosses/principal-bosses-v01/drafts/rejected/08-door-at-the-end-of-all-roads-pass01-extra-legs.png`
 - Collection: Principal Bosses · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -2762,8 +2762,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crocodile River Warden
 
-- Render ID: `rnd_f14d4aa63ae649f8bf546bdf`
-- Path: `enemies/animal-spirit-predators-batch-21/drafts/01-crocodile-river-warden-reference-256.png`
+- Render ID: `rnd_5300cf2b0c2035462067495f`
+- Path: `enemies/animal-spirit-predators-batch-21/drafts/01-crocodile-river-warden.png`
 - Collection: Animal Spirit Predators Batch 21
 - Rating: 1/5
 - Decision: delete
@@ -2775,8 +2775,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Eyed Python
 
-- Render ID: `rnd_f65b2db3259bb6512ead8e14`
-- Path: `enemies/animal-spirit-predators-batch-21/drafts/03-lantern-eyed-python-reference-256.png`
+- Render ID: `rnd_da590d247f14d4e945de5f3e`
+- Path: `enemies/animal-spirit-predators-batch-21/drafts/03-lantern-eyed-python.png`
 - Collection: Animal Spirit Predators Batch 21
 - Rating: 1/5
 - Decision: delete
@@ -2788,8 +2788,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Horned Carabao
 
-- Render ID: `rnd_38805a0a3c3f54c585018e2c`
-- Path: `enemies/animal-spirit-predators-batch-21/drafts/02-moon-horned-carabao-reference-256.png`
+- Render ID: `rnd_a3c7eba2c138578a180c0873`
+- Path: `enemies/animal-spirit-predators-batch-21/drafts/02-moon-horned-carabao.png`
 - Collection: Animal Spirit Predators Batch 21
 - Rating: 1/5
 - Decision: delete
@@ -2801,8 +2801,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crescent Shell Guardian
 
-- Render ID: `rnd_28792666809188971d7a92f7`
-- Path: `enemies/bakunawa-eclipse-brood-batch-18/drafts/03-crescent-shell-guardian-reference-256.png`
+- Render ID: `rnd_b69e2cbc97d2ef08ff707685`
+- Path: `enemies/bakunawa-eclipse-brood-batch-18/drafts/03-crescent-shell-guardian.png`
 - Collection: Bakunawa Eclipse Brood Batch 18
 - Rating: 1/5
 - Decision: delete
@@ -2814,8 +2814,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Eclipse Fang
 
-- Render ID: `rnd_9e89b7118c681638302557d6`
-- Path: `enemies/bakunawa-eclipse-brood-batch-18/drafts/01-eclipse-fang-reference-256.png`
+- Render ID: `rnd_5e3274e4550755073b38dd8b`
+- Path: `enemies/bakunawa-eclipse-brood-batch-18/drafts/01-eclipse-fang.png`
 - Collection: Bakunawa Eclipse Brood Batch 18
 - Rating: 1/5
 - Decision: delete
@@ -2827,8 +2827,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Fracture Serpent
 
-- Render ID: `rnd_899dbdadd734475ce3238154`
-- Path: `enemies/bakunawa-eclipse-brood-batch-18/drafts/02-moon-fracture-serpent-reference-256.png`
+- Render ID: `rnd_45d44589cc9b3fd0e4123226`
+- Path: `enemies/bakunawa-eclipse-brood-batch-18/drafts/02-moon-fracture-serpent.png`
 - Collection: Bakunawa Eclipse Brood Batch 18
 - Rating: 1/5
 - Decision: delete
@@ -2840,8 +2840,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Leaf Veil Duelist
 
-- Render ID: `rnd_2ca22957a533c4ddfa8956f2`
-- Path: `enemies/balete-forest-court-batch-16/drafts/02-leaf-veil-duelist-reference-256.png`
+- Render ID: `rnd_0612f4705487c8edc3561c3e`
+- Path: `enemies/balete-forest-court-batch-16/drafts/02-leaf-veil-duelist.png`
 - Collection: Balete Forest Court Batch 16
 - Rating: 1/5
 - Decision: delete
@@ -2853,8 +2853,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crimson Hem Wailer
 
-- Render ID: `rnd_0026cf570a0e2030abf2e521`
-- Path: `enemies/banshees-batch-33/drafts/12-crimson-hem-wailer-reference-256.png`
+- Render ID: `rnd_4a9f93732a320dcec0fd3210`
+- Path: `enemies/banshees-batch-33/drafts/12-crimson-hem-wailer.png`
 - Collection: Banshees Batch 33
 - Rating: 1/5
 - Decision: delete
@@ -2866,8 +2866,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Gilt Ash Sentinel
 
-- Render ID: `rnd_f260f6a9d7bfda0fd36482ee`
-- Path: `enemies/banshees-batch-33/drafts/11-gilt-ash-sentinel-reference-256.png`
+- Render ID: `rnd_6b8d28c90527619b7cb424d7`
+- Path: `enemies/banshees-batch-33/drafts/11-gilt-ash-sentinel.png`
 - Collection: Banshees Batch 33
 - Rating: 1/5
 - Decision: delete
@@ -2879,8 +2879,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Milestone Cryer
 
-- Render ID: `rnd_0415e9c027037a8444d36cd0`
-- Path: `enemies/banshees-batch-33/drafts/01-milestone-cryer-reference-256.png`
+- Render ID: `rnd_318f1c2c84deeafacecc450d`
+- Path: `enemies/banshees-batch-33/drafts/01-milestone-cryer.png`
 - Collection: Banshees Batch 33
 - Rating: 1/5
 - Decision: delete
@@ -2892,8 +2892,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wake Ring Conductor
 
-- Render ID: `rnd_cf48e6e3177f38eea97e3e37`
-- Path: `enemies/banshees-batch-33/drafts/04-wake-ring-conductor-reference-256.png`
+- Render ID: `rnd_b872ae7ca4be8971e7f723d1`
+- Path: `enemies/banshees-batch-33/drafts/04-wake-ring-conductor.png`
 - Collection: Banshees Batch 33
 - Rating: 1/5
 - Decision: delete
@@ -2905,8 +2905,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cautery Thurifer
 
-- Render ID: `rnd_4e868d35dce29fd86562227f`
-- Path: `enemies/blood-cult-sadists-batch-39/drafts/05-cautery-thurifer-reference-256.png`
+- Render ID: `rnd_d4801a6f03d02a6cf01807ce`
+- Path: `enemies/blood-cult-sadists-batch-39/drafts/05-cautery-thurifer.png`
 - Collection: Blood Cult Sadists Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -2918,8 +2918,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Reed Harrower
 
-- Render ID: `rnd_a1b3cf3d2b31e712b76a409d`
-- Path: `enemies/blood-cult-sadists-batch-39/drafts/04-hollow-reed-harrower-reference-256.png`
+- Render ID: `rnd_29e9730d3e7170721c3360b2`
+- Path: `enemies/blood-cult-sadists-batch-39/drafts/04-hollow-reed-harrower.png`
 - Collection: Blood Cult Sadists Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -2931,8 +2931,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tithe Basin Canoness
 
-- Render ID: `rnd_cb76ed596c449127085924e6`
-- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/04-tithe-basin-canoness-reference-256.png`
+- Render ID: `rnd_73062f08726846c7e9250eee`
+- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/04-tithe-basin-canoness.png`
 - Collection: Blood Priestesses Batch 39 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -2944,8 +2944,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Vein Cord Processional
 
-- Render ID: `rnd_f124843bbf4cd889c6d25e22`
-- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/02-vein-cord-processional-reference-256.png`
+- Render ID: `rnd_32834eabfa38eec9a5f4f64e`
+- Path: `enemies/blood-priestesses-batch-39/rejected/wave-01/02-vein-cord-processional.png`
 - Collection: Blood Priestesses Batch 39 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -2957,8 +2957,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Reliquary Bearer
 
-- Render ID: `rnd_cac9669fa671f6c1fec52df3`
-- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/05-capiz-reliquary-bearer-reference-256.png`
+- Render ID: `rnd_821441a01024736c6509cfed`
+- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/05-capiz-reliquary-bearer.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -2970,8 +2970,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Host Canon
 
-- Render ID: `rnd_35d9dbae24fb5e54239aa6de`
-- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/03-hollow-host-canon-reference-256.png`
+- Render ID: `rnd_784c4be6807b0089658b322e`
+- Path: `enemies/catholic-evil-white-priests-batch-41/drafts/03-hollow-host-canon.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -2983,8 +2983,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Acid Sigbin
 
-- Render ID: `rnd_0edf86f5e4514a4f57744c56`
-- Path: `enemies/combat-magic-batch-04/24-acid-sigbin-reference-256.png`
+- Render ID: `rnd_ac300b51eb7d0bc599e00b40`
+- Path: `enemies/combat-magic-batch-04/24-acid-sigbin.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -2996,8 +2996,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Acid Sigbin
 
-- Render ID: `rnd_d36cfe0e464b6a982c78146c`
-- Path: `enemies/combat-magic-batch-04-v02/drafts/24-acid-sigbin-v02-reference-256.png`
+- Render ID: `rnd_b42796e2bfc1212bb58ef427`
+- Path: `enemies/combat-magic-batch-04-v02/drafts/24-acid-sigbin-v02.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3009,8 +3009,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Mourner
 
-- Render ID: `rnd_2c0bdd6c5c892ee2196f1280`
-- Path: `enemies/combat-magic-batch-04/18-balete-mourner-reference-256.png`
+- Render ID: `rnd_0496b2dbe860c050cadc5b2a`
+- Path: `enemies/combat-magic-batch-04/18-balete-mourner.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3022,8 +3022,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bell Torturer
 
-- Render ID: `rnd_393580130f079c0762ba17a1`
-- Path: `enemies/combat-magic-batch-04/08-bell-torturer-reference-256.png`
+- Render ID: `rnd_d5fdb36a7c5c0b3f42b1ebb0`
+- Path: `enemies/combat-magic-batch-04/08-bell-torturer.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3035,8 +3035,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Fed Wakwak
 
-- Render ID: `rnd_b0dfd9de626295cd222ca88f`
-- Path: `enemies/combat-magic-batch-04/23-blood-fed-wakwak-reference-256.png`
+- Render ID: `rnd_0e73a1006f4904bd211d429c`
+- Path: `enemies/combat-magic-batch-04/23-blood-fed-wakwak.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3048,8 +3048,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Lantern Acolyte
 
-- Render ID: `rnd_3a553acfd4e49df03ebdee94`
-- Path: `enemies/combat-magic-batch-04-v02/drafts/01-blood-lantern-acolyte-v02-reference-256.png`
+- Render ID: `rnd_ab1966fc9416fe3ac7bb41e4`
+- Path: `enemies/combat-magic-batch-04-v02/drafts/01-blood-lantern-acolyte-v02.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3061,8 +3061,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Candle Brander
 
-- Render ID: `rnd_e48f5c23cb6f1cedbed454b8`
-- Path: `enemies/combat-magic-batch-04/06-candle-brander-reference-256.png`
+- Render ID: `rnd_fca4a005884308887bd4c8fd`
+- Path: `enemies/combat-magic-batch-04/06-candle-brander.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3074,8 +3074,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Psalmist
 
-- Render ID: `rnd_09c170cc7e9f2ee6b422ba93`
-- Path: `enemies/combat-magic-batch-04/05-chain-psalmist-reference-256.png`
+- Render ID: `rnd_157f3ac60be7fdff58648848`
+- Path: `enemies/combat-magic-batch-04/05-chain-psalmist.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3087,8 +3087,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Net Caster
 
-- Render ID: `rnd_5ebdabe70254d5556844a904`
-- Path: `enemies/combat-magic-batch-04/17-drowned-net-caster-reference-256.png`
+- Render ID: `rnd_5f06aea03d4bc74d12afe506`
+- Path: `enemies/combat-magic-batch-04/17-drowned-net-caster.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3100,8 +3100,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Net Caster
 
-- Render ID: `rnd_371c245fe745496e1b09a49c`
-- Path: `enemies/combat-magic-batch-04-v02/drafts/17-drowned-net-caster-v02-reference-256.png`
+- Render ID: `rnd_d1c15637ceccd024833bcb94`
+- Path: `enemies/combat-magic-batch-04-v02/drafts/17-drowned-net-caster-v02.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3113,8 +3113,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Empty Procession
 
-- Render ID: `rnd_19effd51f2fdf0d036bcf96c`
-- Path: `enemies/combat-magic-batch-04/19-empty-procession-reference-256.png`
+- Render ID: `rnd_bb9200f277d7d7a7e78587f5`
+- Path: `enemies/combat-magic-batch-04/19-empty-procession.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3126,8 +3126,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Tenant
 
-- Render ID: `rnd_e22d1904a2c7ff06eb8099c4`
-- Path: `enemies/combat-magic-batch-04/20-mirror-tenant-reference-256.png`
+- Render ID: `rnd_8fc323730fa06f701a247274`
+- Path: `enemies/combat-magic-batch-04/20-mirror-tenant.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3139,8 +3139,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Salt Deacon
 
-- Render ID: `rnd_a3c39622653c02ced5e2b666`
-- Path: `enemies/combat-magic-batch-04/04-moon-salt-deacon-reference-256.png`
+- Render ID: `rnd_455ad4a3cc9548fe1b0d8985`
+- Path: `enemies/combat-magic-batch-04/04-moon-salt-deacon.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3152,8 +3152,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pain Steward
 
-- Render ID: `rnd_0909e17ff9002b429f6739c9`
-- Path: `enemies/combat-magic-batch-04/10-pain-steward-reference-256.png`
+- Render ID: `rnd_511c256dc2fd6c6867bfcc3c`
+- Path: `enemies/combat-magic-batch-04/10-pain-steward.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3165,8 +3165,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Candle Seller
 
-- Render ID: `rnd_d43ea22d3fcfa495df9050b1`
-- Path: `enemies/combat-magic-batch-04/15-possessed-candle-seller-reference-256.png`
+- Render ID: `rnd_26fdf7cae58e37ed8dc2b429`
+- Path: `enemies/combat-magic-batch-04/15-possessed-candle-seller.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3178,8 +3178,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Carpenter
 
-- Render ID: `rnd_d4161df68139c59c1fc81a0c`
-- Path: `enemies/combat-magic-batch-04/14-possessed-carpenter-reference-256.png`
+- Render ID: `rnd_7c6215f4597ab992a169ac3a`
+- Path: `enemies/combat-magic-batch-04/14-possessed-carpenter.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3191,8 +3191,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Farmer
 
-- Render ID: `rnd_5be880eb86df33f9be920391`
-- Path: `enemies/combat-magic-batch-04/11-possessed-farmer-reference-256.png`
+- Render ID: `rnd_09a78a53a57334ab4bfb891a`
+- Path: `enemies/combat-magic-batch-04/11-possessed-farmer.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3204,8 +3204,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Farmer
 
-- Render ID: `rnd_d423cbb0202b3e9713917026`
-- Path: `enemies/combat-magic-batch-04-v02/drafts/11-possessed-farmer-v02-reference-256.png`
+- Render ID: `rnd_82c420df85d03a08bd754689`
+- Path: `enemies/combat-magic-batch-04-v02/drafts/11-possessed-farmer-v02.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3217,8 +3217,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Fisherman
 
-- Render ID: `rnd_94e2a30b211f08eb56ce8fda`
-- Path: `enemies/combat-magic-batch-04/13-possessed-fisherman-reference-256.png`
+- Render ID: `rnd_0e8010b777e0ef20bccc13ea`
+- Path: `enemies/combat-magic-batch-04/13-possessed-fisherman.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3230,8 +3230,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Fishmonger
 
-- Render ID: `rnd_090925244862dbdb8dceca6b`
-- Path: `enemies/combat-magic-batch-04/16-possessed-fishmonger-reference-256.png`
+- Render ID: `rnd_84c6ed6c280fc4f79d5bc7b8`
+- Path: `enemies/combat-magic-batch-04/16-possessed-fishmonger.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3243,8 +3243,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Fishmonger
 
-- Render ID: `rnd_b91d37a2208add290c7bcdbe`
-- Path: `enemies/combat-magic-batch-04-v02/drafts/16-possessed-fishmonger-v02-reference-256.png`
+- Render ID: `rnd_ebe3def1cd2a39090e72f9ce`
+- Path: `enemies/combat-magic-batch-04-v02/drafts/16-possessed-fishmonger-v02.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3256,8 +3256,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possessed Washerwoman
 
-- Render ID: `rnd_3a42727a5b37a3d02375bde5`
-- Path: `enemies/combat-magic-batch-04/12-possessed-washerwoman-reference-256.png`
+- Render ID: `rnd_ddcc28364836fba4bac6fba1`
+- Path: `enemies/combat-magic-batch-04/12-possessed-washerwoman.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3269,8 +3269,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Possession Kapre
 
-- Render ID: `rnd_b20f6aed91290f26335aca5d`
-- Path: `enemies/combat-magic-batch-04/25-possession-kapre-reference-256.png`
+- Render ID: `rnd_613d411a05f78129fc2703ae`
+- Path: `enemies/combat-magic-batch-04/25-possession-kapre.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3282,8 +3282,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Apparition
 
-- Render ID: `rnd_c54cfd53e2839ae34bb6c478`
-- Path: `enemies/combat-magic-batch-04/21-rain-apparition-reference-256.png`
+- Render ID: `rnd_7ccd10198937277d36af3ac0`
+- Path: `enemies/combat-magic-batch-04/21-rain-apparition.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3295,8 +3295,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Apparition
 
-- Render ID: `rnd_89698992afd17bc41d3b13f5`
-- Path: `enemies/combat-magic-batch-04-v02/drafts/21-rain-apparition-v02-reference-256.png`
+- Render ID: `rnd_31b4743c6f705c61fe547509`
+- Path: `enemies/combat-magic-batch-04-v02/drafts/21-rain-apparition-v02.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3308,8 +3308,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Santelmo Choir
 
-- Render ID: `rnd_95f7356f55068564dedd148a`
-- Path: `enemies/combat-magic-batch-04/22-santelmo-choir-reference-256.png`
+- Render ID: `rnd_e0bb24883b238beb82b71489`
+- Path: `enemies/combat-magic-batch-04/22-santelmo-choir.png`
 - Collection: Combat Magic Batch 04
 - Rating: 1/5
 - Decision: delete
@@ -3321,8 +3321,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Gaoler
 
-- Render ID: `rnd_9284655e146dbd4bcee0bd38`
-- Path: `enemies/combat-magic-batch-04/09-thorn-gaoler-reference-256.png`
+- Render ID: `rnd_a23fca7234ebd37ecac7b6ea`
+- Path: `enemies/combat-magic-batch-04/09-thorn-gaoler.png`
 - Collection: Combat Magic Batch 04
 - Rating: 2/5
 - Decision: delete
@@ -3334,8 +3334,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cobalt Rust Billhook Sister
 
-- Render ID: `rnd_bb5c70b13ba967b09d2ebf74`
-- Path: `enemies/convent-horrors-batch-37/drafts/23-cobalt-rust-billhook-sister-reference-256.png`
+- Render ID: `rnd_ea2b88393f403749b9e1419c`
+- Path: `enemies/convent-horrors-batch-37/drafts/23-cobalt-rust-billhook-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -3347,8 +3347,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Censer Chain Tormentor
 
-- Render ID: `rnd_bcb0f16b3b0028f521fbfbfd`
-- Path: `enemies/convent-tormentors-batch-30/drafts/02-censer-chain-tormentor-reference-256.png`
+- Render ID: `rnd_ff8af8a493c99c506ccb7c6f`
+- Path: `enemies/convent-tormentors-batch-30/drafts/02-censer-chain-tormentor.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3360,8 +3360,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Collar Fork Warden
 
-- Render ID: `rnd_1cd33d551285a394fe8cf663`
-- Path: `enemies/convent-tormentors-batch-30/drafts/03-collar-fork-warden-reference-256.png`
+- Render ID: `rnd_cf11aabc050e3c615014eafc`
+- Path: `enemies/convent-tormentors-batch-30/drafts/03-collar-fork-warden.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3373,8 +3373,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Flail Votary
 
-- Render ID: `rnd_23a781bcf63d75f223afb2c2`
-- Path: `enemies/convent-tormentors-batch-30/drafts/07-ivory-flail-votary-reference-256.png`
+- Render ID: `rnd_8acde2a1787f43d447827976`
+- Path: `enemies/convent-tormentors-batch-30/drafts/07-ivory-flail-votary.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3386,8 +3386,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Flail Votary
 
-- Render ID: `rnd_8e620adf64b51da9197fe2ad`
-- Path: `enemies/convent-tormentors-batch-30/drafts/07-ivory-flail-votary-v02-reference-256.png`
+- Render ID: `rnd_bda14eb56be7cbdb5a8525c4`
+- Path: `enemies/convent-tormentors-batch-30/drafts/07-ivory-flail-votary-v02.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3399,8 +3399,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Mace Matron
 
-- Render ID: `rnd_da7e10dd21654c8b08d9dc23`
-- Path: `enemies/convent-tormentors-batch-30/drafts/08-ivory-mace-matron-reference-256.png`
+- Render ID: `rnd_0659f90ae11ab821a07d8ccb`
+- Path: `enemies/convent-tormentors-batch-30/drafts/08-ivory-mace-matron.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3412,8 +3412,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Thorn Estoc Sister
 
-- Render ID: `rnd_90c7b23ef1e1d854ead8e3c0`
-- Path: `enemies/convent-tormentors-batch-30/drafts/06-ivory-thorn-estoc-sister-reference-256.png`
+- Render ID: `rnd_90f4f5a3b92b5c5aa0b60ced`
+- Path: `enemies/convent-tormentors-batch-30/drafts/06-ivory-thorn-estoc-sister.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3425,8 +3425,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory War Hammer Sister
 
-- Render ID: `rnd_235ffd73ae14d5e4b1f250d3`
-- Path: `enemies/convent-tormentors-batch-30/drafts/10-ivory-war-hammer-sister-reference-256.png`
+- Render ID: `rnd_c9b75ff3e18cf0879c2599b2`
+- Path: `enemies/convent-tormentors-batch-30/drafts/10-ivory-war-hammer-sister.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3438,8 +3438,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Whip Penitent
 
-- Render ID: `rnd_aa728bb0e022097f55cbde0a`
-- Path: `enemies/convent-tormentors-batch-30/drafts/09-ivory-whip-penitent-reference-256.png`
+- Render ID: `rnd_8802408163ada84d7e43f856`
+- Path: `enemies/convent-tormentors-batch-30/drafts/09-ivory-whip-penitent.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3451,8 +3451,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Whip Penitent
 
-- Render ID: `rnd_8caac8634946716a2a4b931f`
-- Path: `enemies/convent-tormentors-batch-30/drafts/09-ivory-whip-penitent-v02-reference-256.png`
+- Render ID: `rnd_62c6e7a38ba4d5524d136e76`
+- Path: `enemies/convent-tormentors-batch-30/drafts/09-ivory-whip-penitent-v02.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3464,8 +3464,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Razor Shear Sister
 
-- Render ID: `rnd_d2398699134183e1409ff116`
-- Path: `enemies/convent-tormentors-batch-30/drafts/04-razor-shear-sister-reference-256.png`
+- Render ID: `rnd_20f3c013f965574d55953e79`
+- Path: `enemies/convent-tormentors-batch-30/drafts/04-razor-shear-sister.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3477,8 +3477,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tri Lash Novice
 
-- Render ID: `rnd_bfe32fd4d23956be7f02788d`
-- Path: `enemies/convent-tormentors-batch-30/drafts/01-tri-lash-novice-reference-256.png`
+- Render ID: `rnd_abdae6af20462da07997aade`
+- Path: `enemies/convent-tormentors-batch-30/drafts/01-tri-lash-novice.png`
 - Collection: Convent Tormentors Batch 30
 - Rating: 1/5
 - Decision: delete
@@ -3490,8 +3490,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Washerwoman
 
-- Render ID: `rnd_70510d31e7e2410c8558c3a1`
-- Path: `enemies/core-enemies/02-ash-washerwoman-reference-256.png`
+- Render ID: `rnd_e40e8bf6ae5a71ce984b562b`
+- Path: `enemies/core-enemies/02-ash-washerwoman.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3503,8 +3503,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Briar Widow
 
-- Render ID: `rnd_242d200595d592865c0848ca`
-- Path: `enemies/core-enemies/10-briar-widow-reference-256.png`
+- Render ID: `rnd_5d41c896a38c5d254e0619a2`
+- Path: `enemies/core-enemies/10-briar-widow.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3516,8 +3516,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Candle Crowned Vagrant
 
-- Render ID: `rnd_046514a5edccae04bc2ece2b`
-- Path: `enemies/core-enemies/17-candle-crowned-vagrant-reference-256.png`
+- Render ID: `rnd_3e64fc3db9d0f77a6e57530c`
+- Path: `enemies/core-enemies/17-candle-crowned-vagrant.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3529,8 +3529,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chapel Ragpicker
 
-- Render ID: `rnd_81f0f0f13621bed592b592ed`
-- Path: `enemies/core-enemies/12-chapel-ragpicker-reference-256.png`
+- Render ID: `rnd_61491fa6a6ec298dffb23200`
+- Path: `enemies/core-enemies/12-chapel-ragpicker.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3542,8 +3542,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crooked Bellman
 
-- Render ID: `rnd_3d11be7e4da301f9d901e3ba`
-- Path: `enemies/core-enemies/03-crooked-bellman-reference-256.png`
+- Render ID: `rnd_ce214c594add45111e50c312`
+- Path: `enemies/core-enemies/03-crooked-bellman.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3555,8 +3555,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dust Shepherd
 
-- Render ID: `rnd_e295c42f0de4d85f394fc638`
-- Path: `enemies/core-enemies/05-dust-shepherd-reference-256.png`
+- Render ID: `rnd_51b7c94870122bb38236e80b`
+- Path: `enemies/core-enemies/05-dust-shepherd.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3568,8 +3568,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Empty Scribe
 
-- Render ID: `rnd_f1445d672798036d346385ab`
-- Path: `enemies/core-enemies/11-empty-scribe-reference-256.png`
+- Render ID: `rnd_514bfe4de77c85d8f8e268c6`
+- Path: `enemies/core-enemies/11-empty-scribe.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3581,8 +3581,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Funeral Moth Keeper
 
-- Render ID: `rnd_388f48ce3ed6524c568b3743`
-- Path: `enemies/core-enemies/06-funeral-moth-keeper-reference-256.png`
+- Render ID: `rnd_a7794e394ddafdb8fdad40c9`
+- Path: `enemies/core-enemies/06-funeral-moth-keeper.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3594,8 +3594,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Beggar
 
-- Render ID: `rnd_5d9ea8e550a92852165720d5`
-- Path: `enemies/core-enemies/01-hollow-beggar-reference-256.png`
+- Render ID: `rnd_046146923fb20defb9c92298`
+- Path: `enemies/core-enemies/01-hollow-beggar.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3607,8 +3607,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lanternback Hermit
 
-- Render ID: `rnd_f99a0d9dab06e29a9b5e938a`
-- Path: `enemies/core-enemies/04-lanternback-hermit-reference-256.png`
+- Render ID: `rnd_19c325ad9dc817d3279a5c22`
+- Path: `enemies/core-enemies/04-lanternback-hermit.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3620,8 +3620,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Harvester
 
-- Render ID: `rnd_5584d25694a5d2a938384b1a`
-- Path: `enemies/core-enemies/13-pale-harvester-reference-256.png`
+- Render ID: `rnd_36003445905d7fece4024e62`
+- Path: `enemies/core-enemies/13-pale-harvester.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3633,8 +3633,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Procession Keeper
 
-- Render ID: `rnd_a58bce672f333be31a3e22f0`
-- Path: `enemies/core-enemies/20-procession-keeper-reference-256.png`
+- Render ID: `rnd_a41f01fe75767d7886e64269`
+- Path: `enemies/core-enemies/20-procession-keeper.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3646,8 +3646,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Drowned Monk
 
-- Render ID: `rnd_ce30249c07d9c2f52bd358db`
-- Path: `enemies/core-enemies/14-rain-drowned-monk-reference-256.png`
+- Render ID: `rnd_8fd04e77521040d0a7848ccb`
+- Path: `enemies/core-enemies/14-rain-drowned-monk.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3659,8 +3659,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rootfoot Ghoul
 
-- Render ID: `rnd_b12199387ab72df74ed15b1a`
-- Path: `enemies/core-enemies/19-rootfoot-ghoul-reference-256.png`
+- Render ID: `rnd_ccc9bbb4e19fd3abae7959de`
+- Path: `enemies/core-enemies/19-rootfoot-ghoul.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3672,8 +3672,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shrouded Ferryman
 
-- Render ID: `rnd_695a0548831e524b7fff898c`
-- Path: `enemies/core-enemies/09-shrouded-ferryman-reference-256.png`
+- Render ID: `rnd_56b73d2fd92f5e82ea9624d5`
+- Path: `enemies/core-enemies/09-shrouded-ferryman.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3685,8 +3685,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tallow Walker
 
-- Render ID: `rnd_7ce416ea21939eb3fad91076`
-- Path: `enemies/core-enemies/08-tallow-walker-reference-256.png`
+- Render ID: `rnd_c9a041905bf6f3b44a64d3ed`
+- Path: `enemies/core-enemies/08-tallow-walker.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3698,8 +3698,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Threadbare Host
 
-- Render ID: `rnd_0c37102da68da64cfd3c53a1`
-- Path: `enemies/core-enemies/16-threadbare-host-reference-256.png`
+- Render ID: `rnd_c24cb14d40b4434e3b3be6d2`
+- Path: `enemies/core-enemies/16-threadbare-host.png`
 - Collection: Core Enemies
 - Rating: 1/5
 - Decision: delete
@@ -3711,8 +3711,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Briar Bolt Skirmisher
 
-- Render ID: `rnd_98a2a7cb0aa0e26d24b324fe`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/04-briar-bolt-skirmisher-reference-256.png`
+- Render ID: `rnd_8cf1ccd21ec7dbb6decf5ee1`
+- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/04-briar-bolt-skirmisher.png`
 - Collection: Crown Of Thorns Female Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -3724,8 +3724,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crown Burden Montante Marshal
 
-- Render ID: `rnd_f416058d9d2931312db7490e`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/05-crown-burden-montante-marshal-reference-256.png`
+- Render ID: `rnd_54ab11418ba5295dd15da894`
+- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/05-crown-burden-montante-marshal.png`
 - Collection: Crown Of Thorns Female Knights Batch 38
 - Rating: 3/5
 - Decision: delete
@@ -3737,8 +3737,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Hammer Penitent
 
-- Render ID: `rnd_d9d392e1f2b891f2ef950f2f`
-- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent-reference-256.png`
+- Render ID: `rnd_71666d720103fbcda1c5a43e`
+- Path: `enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent.png`
 - Collection: Crown Of Thorns Female Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -3750,8 +3750,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Briar Gauntlet Penitent
 
-- Render ID: `rnd_003f7c9b05338807e8e04d90`
-- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/10-briar-gauntlet-penitent-reference-256.png`
+- Render ID: `rnd_b0087a0e0b75aea2a34e1b59`
+- Path: `enemies/crown-of-thorns-knights-batch-40/drafts/10-briar-gauntlet-penitent.png`
 - Collection: Crown Of Thorns Knights Batch 40
 - Rating: 1/5
 - Decision: delete
@@ -3763,8 +3763,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crown Gate Hierophant
 
-- Render ID: `rnd_42f55a8625b465f5653c1aa9`
-- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/05-crown-gate-hierophant-reference-256.png`
+- Render ID: `rnd_d7a490007603b5cc82798ff4`
+- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/05-crown-gate-hierophant.png`
 - Collection: Crowned Thorn Priestesses Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -3776,8 +3776,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Tithe Sower
 
-- Render ID: `rnd_936b1dcd963ae58088c240e0`
-- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/03-root-tithe-sower-reference-256.png`
+- Render ID: `rnd_91225c5ca2d94a881b73bdb1`
+- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/03-root-tithe-sower.png`
 - Collection: Crowned Thorn Priestesses Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -3789,8 +3789,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wreath Needle Cantor
 
-- Render ID: `rnd_4f07d7d7aa1ded039064bc4e`
-- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/02-wreath-needle-cantor-reference-256.png`
+- Render ID: `rnd_3f14bf45ecb0f5618a7d3517`
+- Path: `enemies/crowned-thorn-priestesses-batch-45/drafts/02-wreath-needle-cantor.png`
 - Collection: Crowned Thorn Priestesses Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -3802,8 +3802,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Standard Bearer
 
-- Render ID: `rnd_7f88ab7463d6a543ef30b537`
-- Path: `enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-reference-256.png`
+- Render ID: `rnd_9ce6902550e5849e477ee898`
+- Path: `enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer.png`
 - Collection: Cultist Pixel Treatment Tests
 - Rating: 1/5
 - Decision: delete
@@ -3815,8 +3815,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Standard Bearer
 
-- Render ID: `rnd_9b112e3aa3b4b7e42157109e`
-- Path: `enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-v02-reference-256.png`
+- Render ID: `rnd_44a52b3d86a5b4efd730d936`
+- Path: `enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-v02.png`
 - Collection: Cultist Pixel Treatment Tests
 - Rating: 1/5
 - Decision: delete
@@ -3828,8 +3828,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Novice
 
-- Render ID: `rnd_682cb00fc32b325f1e3a9193`
-- Path: `enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-reference-256.png`
+- Render ID: `rnd_50817bc16e86087280737c39`
+- Path: `enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice.png`
 - Collection: Cultist Pixel Treatment Tests
 - Rating: 1/5
 - Decision: delete
@@ -3841,8 +3841,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Novice
 
-- Render ID: `rnd_5c2a2e1859247ca1e7b901f4`
-- Path: `enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-v02-reference-256.png`
+- Render ID: `rnd_acd2daec7a3bba4b69618ad6`
+- Path: `enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-v02.png`
 - Collection: Cultist Pixel Treatment Tests
 - Rating: 1/5
 - Decision: delete
@@ -3854,8 +3854,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Astrologer
 
-- Render ID: `rnd_487945ed7c326009f7b53e2f`
-- Path: `enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-reference-256.png`
+- Render ID: `rnd_3b036fc9fd66f8883284f77d`
+- Path: `enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer.png`
 - Collection: Cultist Pixel Treatment Tests
 - Rating: 1/5
 - Decision: delete
@@ -3867,8 +3867,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Astrologer
 
-- Render ID: `rnd_b22b232d5b1f925c0d9fb54b`
-- Path: `enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-v02-reference-256.png`
+- Render ID: `rnd_c54226f152f3ca70b8f64316`
+- Path: `enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-v02.png`
 - Collection: Cultist Pixel Treatment Tests
 - Rating: 1/5
 - Decision: delete
@@ -3880,8 +3880,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashback Stag
 
-- Render ID: `rnd_45aaca8725422d028834eecb`
-- Path: `enemies/cultists-demons-batch-02/17-ashback-stag-reference-256.png`
+- Render ID: `rnd_f224d801ac1843c273438798`
+- Path: `enemies/cultists-demons-batch-02/17-ashback-stag.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3893,8 +3893,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bell Rope Apostle
 
-- Render ID: `rnd_3e4d3a75586775ba6d93d564`
-- Path: `enemies/cultists-demons-batch-02/02-bell-rope-apostle-reference-256.png`
+- Render ID: `rnd_f131c8dd44de9ef790e35a20`
+- Path: `enemies/cultists-demons-batch-02/02-bell-rope-apostle.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3906,8 +3906,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Standard Bearer
 
-- Render ID: `rnd_c0471149cd0cb9fc1e88bd16`
-- Path: `enemies/cultists-demons-batch-02/10-blind-standard-bearer-reference-256.png`
+- Render ID: `rnd_b11d88e2c1ae6e79ab987952`
+- Path: `enemies/cultists-demons-batch-02/10-blind-standard-bearer.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3919,8 +3919,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Standard Bearer
 
-- Render ID: `rnd_58389b25cf04a490b7c03cae`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/10-blind-standard-bearer-v02-reference-256.png`
+- Render ID: `rnd_df6b1adf22e2cf906af68d1a`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/10-blind-standard-bearer-v02.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3932,8 +3932,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Standard Bearer
 
-- Render ID: `rnd_cbec9d60d88d956b1f941b68`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/10-blind-standard-bearer-v03-reference-256.png`
+- Render ID: `rnd_f89324cb7a013164112eb3d8`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/10-blind-standard-bearer-v03.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3945,8 +3945,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Standard Bearer
 
-- Render ID: `rnd_444c3f587ec0bb644a97ccf5`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/10-blind-standard-bearer-v04-reference-256.png`
+- Render ID: `rnd_23a6464bc2a1aec2568f93d3`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/10-blind-standard-bearer-v04.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3958,8 +3958,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Candlehorn Familiar
 
-- Render ID: `rnd_b7ed3bc945d0fb5e3eb659e2`
-- Path: `enemies/cultists-demons-batch-02/11-candlehorn-familiar-reference-256.png`
+- Render ID: `rnd_7d096124a2dded82283bd0ba`
+- Path: `enemies/cultists-demons-batch-02/11-candlehorn-familiar.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3971,8 +3971,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chapel Mimic
 
-- Render ID: `rnd_e3585d66cfeb9f157384be41`
-- Path: `enemies/cultists-demons-batch-02/19-chapel-mimic-reference-256.png`
+- Render ID: `rnd_b3e703a3edf60f61c644dd61`
+- Path: `enemies/cultists-demons-batch-02/19-chapel-mimic.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3984,8 +3984,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crooked Cantor
 
-- Render ID: `rnd_6ed316740a1724c21907c4fc`
-- Path: `enemies/cultists-demons-batch-02/04-crooked-cantor-reference-256.png`
+- Render ID: `rnd_ebe537835799725dc6ba603b`
+- Path: `enemies/cultists-demons-batch-02/04-crooked-cantor.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -3997,8 +3997,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dust Cenobite
 
-- Render ID: `rnd_7f3dc834e9dd4f94b5db2f05`
-- Path: `enemies/cultists-demons-batch-02/09-dust-cenobite-reference-256.png`
+- Render ID: `rnd_7a4c55c7a2f0d8830dcb27d2`
+- Path: `enemies/cultists-demons-batch-02/09-dust-cenobite.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4010,8 +4010,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Gutter Gargoyle
 
-- Render ID: `rnd_8327e00c085a7b2ffe0dc916`
-- Path: `enemies/cultists-demons-batch-02/14-gutter-gargoyle-reference-256.png`
+- Render ID: `rnd_05e7cd36401235cccb433860`
+- Path: `enemies/cultists-demons-batch-02/14-gutter-gargoyle.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4023,8 +4023,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Bell Beast
 
-- Render ID: `rnd_5cb6bf132f42bf0a69ea94b0`
-- Path: `enemies/cultists-demons-batch-02/12-hollow-bell-beast-reference-256.png`
+- Render ID: `rnd_0628ec09973f7165cf3b4378`
+- Path: `enemies/cultists-demons-batch-02/12-hollow-bell-beast.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4036,8 +4036,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Crab
 
-- Render ID: `rnd_091ebfc7df0424f4f5e3daad`
-- Path: `enemies/cultists-demons-batch-02/18-lantern-crab-reference-256.png`
+- Render ID: `rnd_a9d72180ee03ce0f8484ad55`
+- Path: `enemies/cultists-demons-batch-02/18-lantern-crab.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4049,8 +4049,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Novice
 
-- Render ID: `rnd_efbd4e6137d3bc4ab0ec1595`
-- Path: `enemies/cultists-demons-batch-02/01-lantern-faced-novice-reference-256.png`
+- Render ID: `rnd_c30450d77e149b83928e232a`
+- Path: `enemies/cultists-demons-batch-02/01-lantern-faced-novice.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4062,8 +4062,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Novice
 
-- Render ID: `rnd_c17f88d69819c8d1c6a4ec23`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/01-lantern-faced-novice-v02-reference-256.png`
+- Render ID: `rnd_2de6607ef3124a8f44746a73`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/01-lantern-faced-novice-v02.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4075,8 +4075,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Novice
 
-- Render ID: `rnd_ca83f4bfd0fa63151ecfdccc`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/01-lantern-faced-novice-v03-reference-256.png`
+- Render ID: `rnd_e3e56d83057a17f7509b5a09`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/01-lantern-faced-novice-v03.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4088,8 +4088,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Novice
 
-- Render ID: `rnd_b771b3a8285d5c253d508376`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/01-lantern-faced-novice-v04-reference-256.png`
+- Render ID: `rnd_015f5273c6fb8eee90edb594`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/01-lantern-faced-novice-v04.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4101,8 +4101,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Moth
 
-- Render ID: `rnd_ff77ef4b8cbfaa60f263f5ef`
-- Path: `enemies/cultists-demons-batch-02/16-mirror-moth-reference-256.png`
+- Render ID: `rnd_147a1c2837333098ec368753`
+- Path: `enemies/cultists-demons-batch-02/16-mirror-moth.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4114,8 +4114,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ragwing Demon
 
-- Render ID: `rnd_4a2cfec672b6dc17128643ac`
-- Path: `enemies/cultists-demons-batch-02/15-ragwing-demon-reference-256.png`
+- Render ID: `rnd_85685e0dfc25427d6d54a5bd`
+- Path: `enemies/cultists-demons-batch-02/15-ragwing-demon.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4127,8 +4127,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Smoke Shepherd
 
-- Render ID: `rnd_7c39e315d247151df283f24f`
-- Path: `enemies/cultists-demons-batch-02/20-smoke-shepherd-reference-256.png`
+- Render ID: `rnd_d958bbe642e72b84f97a6412`
+- Path: `enemies/cultists-demons-batch-02/20-smoke-shepherd.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4140,8 +4140,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Astrologer
 
-- Render ID: `rnd_e770a7f205aeb3a855bf23e0`
-- Path: `enemies/cultists-demons-batch-02/06-starless-astrologer-reference-256.png`
+- Render ID: `rnd_24202ece6cdad795daf7cae3`
+- Path: `enemies/cultists-demons-batch-02/06-starless-astrologer.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4153,8 +4153,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Astrologer
 
-- Render ID: `rnd_666313a600982d714ffdfad1`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/06-starless-astrologer-v02-reference-256.png`
+- Render ID: `rnd_2d99e557bbc857a2cca29a86`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/06-starless-astrologer-v02.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4166,8 +4166,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Astrologer
 
-- Render ID: `rnd_f1302bcdf7cac492b52509cc`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/06-starless-astrologer-v03-reference-256.png`
+- Render ID: `rnd_b9ecfaf70d44f6eccfb4619a`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/06-starless-astrologer-v03.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4179,8 +4179,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Astrologer
 
-- Render ID: `rnd_f5059565bb28be041c779014`
-- Path: `enemies/cultists-demons-batch-02-v02/drafts/06-starless-astrologer-v04-reference-256.png`
+- Render ID: `rnd_e46823d3013f63de9349c38d`
+- Path: `enemies/cultists-demons-batch-02-v02/drafts/06-starless-astrologer-v04.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4192,8 +4192,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Threshold Deacon
 
-- Render ID: `rnd_ab18ed2918ca694bd3fa4a8a`
-- Path: `enemies/cultists-demons-batch-02/07-threshold-deacon-reference-256.png`
+- Render ID: `rnd_35b65f46743f939e420eb9fd`
+- Path: `enemies/cultists-demons-batch-02/07-threshold-deacon.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4205,8 +4205,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Umbra Hare
 
-- Render ID: `rnd_d0c35a1d5c68777a491a11bb`
-- Path: `enemies/cultists-demons-batch-02/13-umbra-hare-reference-256.png`
+- Render ID: `rnd_bb4240157a5f33b3b69ae63b`
+- Path: `enemies/cultists-demons-batch-02/13-umbra-hare.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4218,8 +4218,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Veiled Keybearer
 
-- Render ID: `rnd_ecf1052ec04ed06346eaa0ac`
-- Path: `enemies/cultists-demons-batch-02/05-veiled-keybearer-reference-256.png`
+- Render ID: `rnd_1a2f183d9588af86fadcea1d`
+- Path: `enemies/cultists-demons-batch-02/05-veiled-keybearer.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4231,8 +4231,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wax Witness
 
-- Render ID: `rnd_d8c12e56ab857b2f1b543ec9`
-- Path: `enemies/cultists-demons-batch-02/08-wax-witness-reference-256.png`
+- Render ID: `rnd_2bd7885af8f6813d6c0be995`
+- Path: `enemies/cultists-demons-batch-02/08-wax-witness.png`
 - Collection: Cultists Demons Batch 02
 - Rating: 1/5
 - Decision: delete
@@ -4244,8 +4244,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Celestial Nail Ephemerist
 
-- Render ID: `rnd_be327e4fbb2dd16edcddf5df`
-- Path: `enemies/demonic-astrologers-batch-41/drafts/05-celestial-nail-ephemerist-reference-256.png`
+- Render ID: `rnd_92d14a4497037e8c8bcb4934`
+- Path: `enemies/demonic-astrologers-batch-41/drafts/05-celestial-nail-ephemerist.png`
 - Collection: Demonic Astrologers Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -4257,8 +4257,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Comet Mantle Pursuer
 
-- Render ID: `rnd_93cd731f022f8b358e9ad98c`
-- Path: `enemies/demonic-astrologers-batch-41/drafts/03-comet-mantle-pursuer-reference-256.png`
+- Render ID: `rnd_6d535536da61facc24ea86dc`
+- Path: `enemies/demonic-astrologers-batch-41/drafts/03-comet-mantle-pursuer.png`
 - Collection: Demonic Astrologers Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -4270,8 +4270,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Conjunction Core Cantor
 
-- Render ID: `rnd_9378c4b7cd66aa91ee60381c`
-- Path: `enemies/demonic-astrologers-batch-41/drafts/04-conjunction-core-cantor-reference-256.png`
+- Render ID: `rnd_0fb3b99f29e23c103af748ce`
+- Path: `enemies/demonic-astrologers-batch-41/drafts/04-conjunction-core-cantor.png`
 - Collection: Demonic Astrologers Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -4283,8 +4283,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Meridian Plumb Diviner
 
-- Render ID: `rnd_710fabfec5b88838db8ffe65`
-- Path: `enemies/demonic-astrologers-batch-41/drafts/02-meridian-plumb-diviner-reference-256.png`
+- Render ID: `rnd_1a49189965277e69560299d0`
+- Path: `enemies/demonic-astrologers-batch-41/drafts/02-meridian-plumb-diviner.png`
 - Collection: Demonic Astrologers Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -4296,8 +4296,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashwing Sabre Pursuer
 
-- Render ID: `rnd_70b6c23928e454fcd0ac1241`
-- Path: `enemies/dragon-knights-batch-38/drafts/02-ashwing-sabre-pursuer-reference-256.png`
+- Render ID: `rnd_9681d8907e6ddbe72dece33f`
+- Path: `enemies/dragon-knights-batch-38/drafts/02-ashwing-sabre-pursuer.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4309,8 +4309,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Coil Thurible Warden
 
-- Render ID: `rnd_e5b1d11346727f30539763c0`
-- Path: `enemies/dragon-knights-batch-38/drafts/04-ember-coil-thurible-warden-v02-reference-256.png`
+- Render ID: `rnd_57b4e4eaa8002112ba816576`
+- Path: `enemies/dragon-knights-batch-38/drafts/04-ember-coil-thurible-warden-v02.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4322,8 +4322,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Furnace Throat Handgonne Knight
 
-- Render ID: `rnd_c0ad2a224fa43557ba711ed9`
-- Path: `enemies/dragon-knights-batch-38/drafts/03-furnace-throat-handgonne-knight-reference-256.png`
+- Render ID: `rnd_8663cf434217ba9228c8d401`
+- Path: `enemies/dragon-knights-batch-38/drafts/03-furnace-throat-handgonne-knight.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4335,8 +4335,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Maw Standard Captain
 
-- Render ID: `rnd_b43c571deb51ebd31b8c141d`
-- Path: `enemies/dragon-knights-batch-38/drafts/01-maw-standard-captain-v02-reference-256.png`
+- Render ID: `rnd_6713e3998a1e4ef6134164b2`
+- Path: `enemies/dragon-knights-batch-38/drafts/01-maw-standard-captain-v02.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4348,8 +4348,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Obsidian Scale Hammer Pursuer
 
-- Render ID: `rnd_c044e24142cf59405979f063`
-- Path: `enemies/dragon-knights-batch-38/drafts/04-obsidian-scale-hammer-pursuer-reference-256.png`
+- Render ID: `rnd_7c8ffe344acd0f00be770da0`
+- Path: `enemies/dragon-knights-batch-38/drafts/04-obsidian-scale-hammer-pursuer.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4361,8 +4361,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Twin Fang Gate Interceptor
 
-- Render ID: `rnd_e17d65495f8e840329d3b149`
-- Path: `enemies/dragon-knights-batch-38/drafts/05-twin-fang-gate-interceptor-reference-256.png`
+- Render ID: `rnd_04ad143fdb962a26710974e2`
+- Path: `enemies/dragon-knights-batch-38/drafts/05-twin-fang-gate-interceptor.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4374,8 +4374,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wingfold Bulwark
 
-- Render ID: `rnd_11417ed80bb852cf379f0de4`
-- Path: `enemies/dragon-knights-batch-38/drafts/03-wingfold-bulwark-v02-reference-256.png`
+- Render ID: `rnd_d5aa760938a5183810b335d4`
+- Path: `enemies/dragon-knights-batch-38/drafts/03-wingfold-bulwark-v02.png`
 - Collection: Dragon Knights Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4387,8 +4387,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Step Bolo Courier
 
-- Render ID: `rnd_f70e0fc59856cf35ace01a6b`
-- Path: `enemies/dwende-knights-batch-29/drafts/02-ash-step-bolo-courier-reference-256.png`
+- Render ID: `rnd_6606745e9412c0105afc64f2`
+- Path: `enemies/dwende-knights-batch-29/drafts/02-ash-step-bolo-courier.png`
 - Collection: Dwende Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4400,8 +4400,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hill Sleep Maul Knight
 
-- Render ID: `rnd_123cdf877c70136b4fd967cd`
-- Path: `enemies/dwende-knights-batch-29/drafts/05-hill-sleep-maul-knight-reference-256.png`
+- Render ID: `rnd_bfbde1427333d62526a820e8`
+- Path: `enemies/dwende-knights-batch-29/drafts/05-hill-sleep-maul-knight.png`
 - Collection: Dwende Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4413,8 +4413,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Punso Palisade Warder
 
-- Render ID: `rnd_c3e66bde49f4561443a1d778`
-- Path: `enemies/dwende-knights-batch-29/drafts/01-punso-palisade-warder-reference-256.png`
+- Render ID: `rnd_50c9d5c32f393a339bae5670`
+- Path: `enemies/dwende-knights-batch-29/drafts/01-punso-palisade-warder.png`
 - Collection: Dwende Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4426,8 +4426,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reed Whisper Blowgun Watcher
 
-- Render ID: `rnd_bf9ca7661040673405fb7e21`
-- Path: `enemies/dwende-knights-batch-29/drafts/03-reed-whisper-blowgun-watcher-reference-256.png`
+- Render ID: `rnd_af5d5dc7c8e9b26bde5ddcaa`
+- Path: `enemies/dwende-knights-batch-29/drafts/03-reed-whisper-blowgun-watcher.png`
 - Collection: Dwende Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4439,8 +4439,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Writ Chain Bailiff
 
-- Render ID: `rnd_cc5ed5409d2e1690e1ca825f`
-- Path: `enemies/dwende-knights-batch-29/drafts/04-root-writ-chain-bailiff-reference-256.png`
+- Render ID: `rnd_3236db781b3940b457c4f741`
+- Path: `enemies/dwende-knights-batch-29/drafts/04-root-writ-chain-bailiff.png`
 - Collection: Dwende Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4452,8 +4452,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Canopy Shell Augur
 
-- Render ID: `rnd_eeff6cce7fa4f8a55e1d3744`
-- Path: `enemies/elf-knights-batch-29/drafts/09-canopy-shell-augur-reference-256.png`
+- Render ID: `rnd_931164c94b3e4055f3b208b5`
+- Path: `enemies/elf-knights-batch-29/drafts/09-canopy-shell-augur.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4465,8 +4465,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Disc Ward Knight
 
-- Render ID: `rnd_19a5ddb6f87c072f31ad081d`
-- Path: `enemies/elf-knights-batch-29/drafts/04-capiz-disc-ward-knight-reference-256.png`
+- Render ID: `rnd_54bd860479666489f7cd01cf`
+- Path: `enemies/elf-knights-batch-29/drafts/04-capiz-disc-ward-knight.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4478,8 +4478,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Reed Bow Knight
 
-- Render ID: `rnd_bf23768c5fdc7147cdde8a8c`
-- Path: `enemies/elf-knights-batch-29/drafts/02-moon-reed-bow-knight-reference-256.png`
+- Render ID: `rnd_a94e37f8c6cb9f6f5474c8c1`
+- Path: `enemies/elf-knights-batch-29/drafts/02-moon-reed-bow-knight.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4491,8 +4491,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Sash Twinblade Knight
 
-- Render ID: `rnd_60e3f63197a2eae9e9b09da0`
-- Path: `enemies/elf-knights-batch-29/drafts/03-rain-sash-twinblade-knight-reference-256.png`
+- Render ID: `rnd_8910668c5a97cc465b2da92b`
+- Path: `enemies/elf-knights-batch-29/drafts/03-rain-sash-twinblade-knight.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4504,8 +4504,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rainstep Grapple Knight
 
-- Render ID: `rnd_7063579c4b2eb87acd11aa0f`
-- Path: `enemies/elf-knights-batch-29/drafts/10-rainstep-grapple-knight-reference-256.png`
+- Render ID: `rnd_597759a5e0147b3a097c9889`
+- Path: `enemies/elf-knights-batch-29/drafts/10-rainstep-grapple-knight.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4517,8 +4517,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rattan Ring Harrier
 
-- Render ID: `rnd_c78c2de4a66bfeeb5a598bb4`
-- Path: `enemies/elf-knights-batch-29/drafts/07-rattan-ring-harrier-reference-256.png`
+- Render ID: `rnd_741e3f4ce4e67962a33ff0f3`
+- Path: `enemies/elf-knights-batch-29/drafts/07-rattan-ring-harrier.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4530,8 +4530,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Resin Brand Warden
 
-- Render ID: `rnd_22f83d47c353d8065aa5c392`
-- Path: `enemies/elf-knights-batch-29/drafts/08-resin-brand-warden-reference-256.png`
+- Render ID: `rnd_916e89c2fc46f0b76d54c720`
+- Path: `enemies/elf-knights-batch-29/drafts/08-resin-brand-warden.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4543,8 +4543,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Maul Oathguard
 
-- Render ID: `rnd_d9040aace50247cb6fcad691`
-- Path: `enemies/elf-knights-batch-29/drafts/06-root-maul-oathguard-reference-256.png`
+- Render ID: `rnd_99a56441d35219d4df1daa22`
+- Path: `enemies/elf-knights-batch-29/drafts/06-root-maul-oathguard.png`
 - Collection: Elf Knights Batch 29
 - Rating: 1/5
 - Decision: delete
@@ -4556,8 +4556,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Veil Censer Bailiff
 
-- Render ID: `rnd_8ed846f1c8f8a316755d595f`
-- Path: `enemies/ethereal-horse-knights-batch-37/drafts/03-ash-veil-censer-bailiff-reference-256.png`
+- Render ID: `rnd_3359c872e77b242fffa75085`
+- Path: `enemies/ethereal-horse-knights-batch-37/drafts/03-ash-veil-censer-bailiff.png`
 - Collection: Ethereal Horse Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -4569,8 +4569,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Pall Procession Marshal
 
-- Render ID: `rnd_bbd571f4970262108844bc7c`
-- Path: `enemies/ethereal-horse-knights-batch-37/drafts/05-capiz-pall-procession-marshal-v02-reference-256.png`
+- Render ID: `rnd_cf82e02fc31f798f015beaf4`
+- Path: `enemies/ethereal-horse-knights-batch-37/drafts/05-capiz-pall-procession-marshal-v02.png`
 - Collection: Ethereal Horse Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -4582,8 +4582,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mist Rein Lance Revenant
 
-- Render ID: `rnd_4523d3816793abb181c4d0d6`
-- Path: `enemies/ethereal-horse-knights-batch-37/drafts/01-mist-rein-lance-revenant-reference-256.png`
+- Render ID: `rnd_1afac3270b9e2fa71c440534`
+- Path: `enemies/ethereal-horse-knights-batch-37/drafts/01-mist-rein-lance-revenant.png`
 - Collection: Ethereal Horse Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -4595,8 +4595,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Memory Bow Harrier
 
-- Render ID: `rnd_24785764edecc00c05048dec`
-- Path: `enemies/ethereal-horse-knights-batch-37/drafts/04-rain-memory-bow-harrier-reference-256.png`
+- Render ID: `rnd_91fffc84cff23067555b834c`
+- Path: `enemies/ethereal-horse-knights-batch-37/drafts/04-rain-memory-bow-harrier.png`
 - Collection: Ethereal Horse Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -4608,8 +4608,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Veil Step Sabre Remnant
 
-- Render ID: `rnd_f601733c9ff06a9709ba3463`
-- Path: `enemies/ethereal-horse-knights-batch-37/drafts/02-veil-step-sabre-remnant-reference-256.png`
+- Render ID: `rnd_36ce55d66f004ae3d7b239e6`
+- Path: `enemies/ethereal-horse-knights-batch-37/drafts/02-veil-step-sabre-remnant.png`
 - Collection: Ethereal Horse Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -4621,8 +4621,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Rosary Flail Justiciar
 
-- Render ID: `rnd_a4ff7a6ad901297e1adba99a`
-- Path: `enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-reference-256.png`
+- Render ID: `rnd_b03041f44cfe99cd6d91cc94`
+- Path: `enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar.png`
 - Collection: Evil Catholic Knights Batch 43
 - Rating: 1/5
 - Decision: delete
@@ -4634,8 +4634,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Scapular Headsman
 
-- Render ID: `rnd_8dcf55ce839f1bd5cc659919`
-- Path: `enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-reference-256.png`
+- Render ID: `rnd_abcaa8a33f217cc26ad00b5e`
+- Path: `enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman.png`
 - Collection: Evil Catholic Knights Batch 43
 - Rating: 1/5
 - Decision: delete
@@ -4647,8 +4647,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Reliquary Arbalist
 
-- Render ID: `rnd_88b8667d4e2f2fd0629e4f2b`
-- Path: `enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-reference-256.png`
+- Render ID: `rnd_f56550db72320f9118e5eaad`
+- Path: `enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist.png`
 - Collection: Evil Catholic Knights Batch 43
 - Rating: 1/5
 - Decision: delete
@@ -4660,8 +4660,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Three Seal Indulgence Pavise Knight
 
-- Render ID: `rnd_3cd6e645d92c938b5a9181c7`
-- Path: `enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-reference-256.png`
+- Render ID: `rnd_a0332ed9ae0bae317397d27f`
+- Path: `enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight.png`
 - Collection: Evil Catholic Knights Batch 43
 - Rating: 1/5
 - Decision: delete
@@ -4673,8 +4673,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Cord Interdictor
 
-- Render ID: `rnd_cacabfd7441e10ddf12e3c2f`
-- Path: `enemies/evil-monks-batch-38/drafts/04-abaca-cord-interdictor-reference-256.png`
+- Render ID: `rnd_8e58b59040bf2ab88f70b515`
+- Path: `enemies/evil-monks-batch-38/drafts/04-abaca-cord-interdictor.png`
 - Collection: Evil Monks Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4686,8 +4686,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bamboo Crook Apostate
 
-- Render ID: `rnd_c96078ae9d33c8aa490ac637`
-- Path: `enemies/evil-monks-batch-38/drafts/01-bamboo-crook-apostate-reference-256.png`
+- Render ID: `rnd_3fbf657c1953b89157d7ecae`
+- Path: `enemies/evil-monks-batch-38/drafts/01-bamboo-crook-apostate.png`
 - Collection: Evil Monks Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4699,8 +4699,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Burial Bolo Confessor
 
-- Render ID: `rnd_d19b0906c09966fa645881c6`
-- Path: `enemies/evil-monks-batch-38/drafts/03-burial-bolo-confessor-reference-256.png`
+- Render ID: `rnd_43e474b92693359aa9a7a738`
+- Path: `enemies/evil-monks-batch-38/drafts/03-burial-bolo-confessor.png`
 - Collection: Evil Monks Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4712,8 +4712,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hardwood Pestle Prior
 
-- Render ID: `rnd_2d2c66a40263bad735a1b470`
-- Path: `enemies/evil-monks-batch-38/drafts/05-hardwood-pestle-prior-reference-256.png`
+- Render ID: `rnd_82ff993fce8df4b31af616a9`
+- Path: `enemies/evil-monks-batch-38/drafts/05-hardwood-pestle-prior.png`
 - Collection: Evil Monks Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4725,8 +4725,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Palm Script Maledictor
 
-- Render ID: `rnd_0bef9fddb2a4bf2d6c25a588`
-- Path: `enemies/evil-monks-batch-38/drafts/02-palm-script-maledictor-reference-256.png`
+- Render ID: `rnd_d51998365cd5b5782448c017`
+- Path: `enemies/evil-monks-batch-38/drafts/02-palm-script-maledictor.png`
 - Collection: Evil Monks Batch 38
 - Rating: 1/5
 - Decision: delete
@@ -4738,8 +4738,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Thurible Penitentiary
 
-- Render ID: `rnd_e93bee49cc1c7ac188c0b232`
-- Path: `enemies/evil-priests-batch-39/drafts/01-ash-thurible-penitentiary-reference-256.png`
+- Render ID: `rnd_0980426b7638774bb26b75c8`
+- Path: `enemies/evil-priests-batch-39/drafts/01-ash-thurible-penitentiary.png`
 - Collection: Evil Priests Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -4751,8 +4751,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Bolo Sacristan
 
-- Render ID: `rnd_39f63551b383597a273756b8`
-- Path: `enemies/evil-priests-batch-39/drafts/04-black-bolo-sacristan-reference-256.png`
+- Render ID: `rnd_0a097bfe85fb88350ef225ac`
+- Path: `enemies/evil-priests-batch-39/drafts/04-black-bolo-sacristan.png`
 - Collection: Evil Priests Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -4764,8 +4764,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Tithe Hierophant
 
-- Render ID: `rnd_4dc0d5b90cf57044dfa459ba`
-- Path: `enemies/evil-priests-batch-39/drafts/05-ember-tithe-hierophant-reference-256.png`
+- Render ID: `rnd_60c6b3bc5dbe6be755008d40`
+- Path: `enemies/evil-priests-batch-39/drafts/05-ember-tithe-hierophant.png`
 - Collection: Evil Priests Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -4777,8 +4777,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Seven Knot Confessor
 
-- Render ID: `rnd_bbf5beed830769f7e1e6a1d8`
-- Path: `enemies/evil-priests-batch-39/drafts/03-seven-knot-confessor-reference-256.png`
+- Render ID: `rnd_f6e8abee6922e29388099bdc`
+- Path: `enemies/evil-priests-batch-39/drafts/03-seven-knot-confessor.png`
 - Collection: Evil Priests Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -4790,8 +4790,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starless Missal Canon
 
-- Render ID: `rnd_a073cb3923a790df8581dda7`
-- Path: `enemies/evil-priests-batch-39/drafts/02-starless-missal-canon-reference-256.png`
+- Render ID: `rnd_ecf10b5e6579ed86fa18a654`
+- Path: `enemies/evil-priests-batch-39/drafts/02-starless-missal-canon.png`
 - Collection: Evil Priests Batch 39
 - Rating: 1/5
 - Decision: delete
@@ -4803,8 +4803,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blank Id Commuter
 
-- Render ID: `rnd_9ce99bf829fc318dd6a5587c`
-- Path: `enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-reference-256.png`
+- Render ID: `rnd_0f15c9bed344e32d298af1b1`
+- Path: `enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter.png`
 - Collection: Faceless Highschoolers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -4816,8 +4816,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Duty Sentinel
 
-- Render ID: `rnd_fe7c89bdddd40a4bdffcc5ea`
-- Path: `enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-reference-256.png`
+- Render ID: `rnd_a346964c31ba68ec1aeef0bd`
+- Path: `enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel.png`
 - Collection: Faceless Highschoolers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -4829,8 +4829,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Screenlight Lingerer
 
-- Render ID: `rnd_bd872916f341fd3cc00e9aa6`
-- Path: `enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-reference-256.png`
+- Render ID: `rnd_4612b2d5d70e2c67df21ea80`
+- Path: `enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer.png`
 - Collection: Faceless Highschoolers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -4842,8 +4842,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Bun Line Captain
 
-- Render ID: `rnd_c68b9b99058d38b678f7c719`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/22-ash-bun-line-captain-reference-256.png`
+- Render ID: `rnd_9c8580eaa82c0d3dc153e714`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/22-ash-bun-line-captain.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4855,8 +4855,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Canopy Cloak Sword Sentinel
 
-- Render ID: `rnd_dc1cd4ce0c4326fe4a99ec6c`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/04-canopy-cloak-sword-sentinel-reference-256.png`
+- Render ID: `rnd_c3db76bb8c6f4133648830e4`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/04-canopy-cloak-sword-sentinel.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4868,8 +4868,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Canopy Crop Riposter
 
-- Render ID: `rnd_4dacefb487e13389bf61a32c`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/23-canopy-crop-riposter-reference-256.png`
+- Render ID: `rnd_442aa437e3e5a3f41c6a3089`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/23-canopy-crop-riposter.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4881,8 +4881,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Canopy Pike Keeper
 
-- Render ID: `rnd_82f19aa160b738f52b089d08`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/12-canopy-pike-keeper-reference-256.png`
+- Render ID: `rnd_deff04c3573d25060c82f50d`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/12-canopy-pike-keeper.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4894,8 +4894,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fern Hem Sabre Duelist
 
-- Render ID: `rnd_dd0034d96d9faedc3666feca`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/08-fern-hem-sabre-duelist-reference-256.png`
+- Render ID: `rnd_1a7548002f676576966ca83a`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/08-fern-hem-sabre-duelist.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4907,8 +4907,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fern Lock Kneeling Oathguard
 
-- Render ID: `rnd_aa6df1ca4c252314424658e5`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/26-fern-lock-kneeling-oathguard-reference-256.png`
+- Render ID: `rnd_aae7a9a1ba87da28ac69cbee`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/26-fern-lock-kneeling-oathguard.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4920,8 +4920,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Green Coat Estoc Fencer
 
-- Render ID: `rnd_5601e830c86f123d3aa71984`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/13-green-coat-estoc-fencer-reference-256.png`
+- Render ID: `rnd_df0b19d95ce5b529e81f0bd1`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/13-green-coat-estoc-fencer.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4933,8 +4933,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Green Knot Marching Reeve
 
-- Render ID: `rnd_bd59e022ba2df20f5fe2d490`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/25-green-knot-marching-reeve-reference-256.png`
+- Render ID: `rnd_1647127b0ac1a61da811673a`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/25-green-knot-marching-reeve.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4946,8 +4946,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moss Pony Retreat Guard
 
-- Render ID: `rnd_02dc7c7a037af5e7ee741817`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/24-moss-pony-retreat-guard-reference-256.png`
+- Render ID: `rnd_d4709a0c81a6e64642cde81f`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/24-moss-pony-retreat-guard.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4959,8 +4959,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moss Step Twinblade Scout
 
-- Render ID: `rnd_8e2aab6ab81bd2863ac4d369`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/09-moss-step-twinblade-scout-reference-256.png`
+- Render ID: `rnd_9a77adeb6fbfd8b6452796fe`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/09-moss-step-twinblade-scout.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4972,8 +4972,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mosswood Arming Sword Patrol
 
-- Render ID: `rnd_61552966f7ed8736e809bd6e`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/15-mosswood-arming-sword-patrol-reference-256.png`
+- Render ID: `rnd_e050493689ae1223972e39fe`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/15-mosswood-arming-sword-patrol.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4985,8 +4985,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Olive Wave High Guard
 
-- Render ID: `rnd_42015ebe7a15ad74f99689f7`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/21-olive-wave-high-guard-reference-256.png`
+- Render ID: `rnd_eeedb4e52ad46de5f2eb5797`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/21-olive-wave-high-guard.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -4998,8 +4998,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Tail Half Sworder
 
-- Render ID: `rnd_c530c763192f9823cce5daa6`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/20-rain-tail-half-sworder-reference-256.png`
+- Render ID: `rnd_beef4eca937aa54d1bc2ac86`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/20-rain-tail-half-sworder.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -5011,8 +5011,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rainwood Longbow Ranger
 
-- Render ID: `rnd_6dc353fb982244c9350292ce`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/06-rainwood-longbow-ranger-reference-256.png`
+- Render ID: `rnd_b960436d45bdfdfb398ddddc`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/06-rainwood-longbow-ranger.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -5024,8 +5024,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reed Curve Kneeling Archer
 
-- Render ID: `rnd_fa01262762e5aa267978b452`
-- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/11-reed-curve-kneeling-archer-reference-256.png`
+- Render ID: `rnd_57d0fcf11227a9406820c2f0`
+- Path: `enemies/forest-elf-sword-knights-batch-35/drafts/11-reed-curve-kneeling-archer.png`
 - Collection: Forest Elf Sword Knights Batch 35
 - Rating: 1/5
 - Decision: delete
@@ -5037,8 +5037,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Bark Pursuit Axeguard
 
-- Render ID: `rnd_abb034f254c56ffaa48dc967`
-- Path: `enemies/forest-knights-batch-26/drafts/05-ash-bark-pursuit-axeguard-reference-256.png`
+- Render ID: `rnd_24fcb145c89c2fbd4ba60f35`
+- Path: `enemies/forest-knights-batch-26/drafts/05-ash-bark-pursuit-axeguard.png`
 - Collection: Forest Knights Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5050,8 +5050,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Canopy Stone Sling Knight
 
-- Render ID: `rnd_34301b953ea8f2209371a79e`
-- Path: `enemies/forest-knights-batch-26/drafts/01-canopy-stone-sling-knight-reference-256.png`
+- Render ID: `rnd_fb48244e5e3224bea18d5968`
+- Path: `enemies/forest-knights-batch-26/drafts/01-canopy-stone-sling-knight.png`
 - Collection: Forest Knights Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5063,8 +5063,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grove Oath Horncaller
 
-- Render ID: `rnd_173c48abd47e136009dcd71d`
-- Path: `enemies/forest-knights-batch-26/drafts/03-grove-oath-horncaller-reference-256.png`
+- Render ID: `rnd_0bd8ec137d0cac112d0b5819`
+- Path: `enemies/forest-knights-batch-26/drafts/03-grove-oath-horncaller.png`
 - Collection: Forest Knights Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5076,8 +5076,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Path Lantern Warden
 
-- Render ID: `rnd_7542fb1c585c1043305e3e1a`
-- Path: `enemies/forest-knights-batch-26/drafts/04-hollow-path-lantern-warden-reference-256.png`
+- Render ID: `rnd_bd50262662d307a5cf6a4354`
+- Path: `enemies/forest-knights-batch-26/drafts/04-hollow-path-lantern-warden.png`
 - Collection: Forest Knights Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5089,8 +5089,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Understory Net Catcher
 
-- Render ID: `rnd_d3be8ca63994246edcf15017`
-- Path: `enemies/forest-knights-batch-26/drafts/02-understory-net-catcher-reference-256.png`
+- Render ID: `rnd_4b442d6b22e95474d08d1d48`
+- Path: `enemies/forest-knights-batch-26/drafts/02-understory-net-catcher.png`
 - Collection: Forest Knights Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5102,8 +5102,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Ice Poleaxe Pursuer
 
-- Render ID: `rnd_1b75db085f18b04af98acfc0`
-- Path: `enemies/frost-knights-batch-37/drafts/05-black-ice-poleaxe-pursuer-reference-256.png`
+- Render ID: `rnd_29acd7dad86f242eb4531edf`
+- Path: `enemies/frost-knights-batch-37/drafts/05-black-ice-poleaxe-pursuer.png`
 - Collection: Frost Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5115,8 +5115,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Rime Buckler Duelist
 
-- Render ID: `rnd_0491743157fe21c84392892a`
-- Path: `enemies/frost-knights-batch-37/drafts/02-capiz-rime-buckler-duelist-reference-256.png`
+- Render ID: `rnd_35f2cc299268a5c1e75a7b2a`
+- Path: `enemies/frost-knights-batch-37/drafts/02-capiz-rime-buckler-duelist.png`
 - Collection: Frost Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5128,8 +5128,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Frost Reed Pike Sentinel
 
-- Render ID: `rnd_bc42381c5deecefb0957ac6d`
-- Path: `enemies/frost-knights-batch-37/drafts/01-frost-reed-pike-sentinel-reference-256.png`
+- Render ID: `rnd_45e6872331d5923cc12f3e07`
+- Path: `enemies/frost-knights-batch-37/drafts/01-frost-reed-pike-sentinel.png`
 - Collection: Frost Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5141,8 +5141,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hoarfrost Manacle Warden
 
-- Render ID: `rnd_4749bee49d1c87f0e00673bf`
-- Path: `enemies/frost-knights-batch-37/drafts/03-hoarfrost-manacle-warden-reference-256.png`
+- Render ID: `rnd_16b1f1ca557bcc166982e645`
+- Path: `enemies/frost-knights-batch-37/drafts/03-hoarfrost-manacle-warden.png`
 - Collection: Frost Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5154,8 +5154,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sleet Lock Arbalist
 
-- Render ID: `rnd_1da04cda828e37c6284815c8`
-- Path: `enemies/frost-knights-batch-37/drafts/04-sleet-lock-arbalist-reference-256.png`
+- Render ID: `rnd_994c755a3e7890130e6d8706`
+- Path: `enemies/frost-knights-batch-37/drafts/04-sleet-lock-arbalist.png`
 - Collection: Frost Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5167,8 +5167,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Bound Pikeman
 
-- Render ID: `rnd_711c3bdca0c22b6bb708d0d3`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/01-abaca-bound-pikeman-reference-256.png`
+- Render ID: `rnd_4c36dc46a0e7a773120fe629`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/01-abaca-bound-pikeman.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5180,8 +5180,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Net Snarer
 
-- Render ID: `rnd_acc327723597badc9d6758f7`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/05-abaca-net-snarer-reference-256.png`
+- Render ID: `rnd_fa3904da3555f7b2112737ce`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/05-abaca-net-snarer.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5193,8 +5193,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Artery Lash Flailer
 
-- Render ID: `rnd_20b2da7ee80fc8348ee3e6e8`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/09-artery-lash-flailer-reference-256.png`
+- Render ID: `rnd_be4ffa17af441069581c2d10`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/09-artery-lash-flailer.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5206,8 +5206,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cobalt Blood Jar Hurler
 
-- Render ID: `rnd_981140512c615e6b6b96dd7c`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/08-cobalt-blood-jar-hurler-reference-256.png`
+- Render ID: `rnd_39484e1919cc22605fa594eb`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/08-cobalt-blood-jar-hurler.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5219,8 +5219,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Wound Torchbearer
 
-- Render ID: `rnd_af95ff9eb19903fe5ef7b9e2`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/10-ember-wound-torchbearer-reference-256.png`
+- Render ID: `rnd_f5c501399fae330ae7fe7215`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/10-ember-wound-torchbearer.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5232,8 +5232,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grave Spade Trencher
 
-- Render ID: `rnd_3d53bdfc9b3f9ab9cd74ba57`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/04-grave-spade-trencher-reference-256.png`
+- Render ID: `rnd_31d7e2c6927ec6831f1fa7cf`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/04-grave-spade-trencher.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5245,8 +5245,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Nipa Shield Warder
 
-- Render ID: `rnd_880701aa26bb0025907ad509`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/03-nipa-shield-warder-reference-256.png`
+- Render ID: `rnd_2837b4476719e45c50ffe3f9`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/03-nipa-shield-warder.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5258,8 +5258,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rib Split Nailboarder
 
-- Render ID: `rnd_c61ebb7dfeb4500951d2bd30`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/07-rib-split-nailboarder-reference-256.png`
+- Render ID: `rnd_bd1cb6208a7741a9fae51693`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/07-rib-split-nailboarder.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5271,8 +5271,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Road Bolo Rusher
 
-- Render ID: `rnd_a8f29ec6ff4a7cd64bcba9e7`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/02-road-bolo-rusher-reference-256.png`
+- Render ID: `rnd_fd6b1c348e19e81b016603ef`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/02-road-bolo-rusher.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5284,8 +5284,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Split Jaw Sickleman
 
-- Render ID: `rnd_327129e55e99d11497bcfd8a`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/06-split-jaw-sickleman-reference-256.png`
+- Render ID: `rnd_ed616deedf4200c11fcff1aa`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/06-split-jaw-sickleman.png`
 - Collection: Ghoul Foot Soldiers Batch 26
 - Rating: 1/5
 - Decision: delete
@@ -5298,7 +5298,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 ### Rib Split Nailboarder Rejected Pass 02
 
 - Render ID: `rnd_31f330b0a3bff42a314d3873`
-- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/rejected/07-rib-split-nailboarder-rejected-pass-02-reference-256.png`
+- Path: `enemies/ghoul-foot-soldiers-batch-26/drafts/rejected/07-rib-split-nailboarder-rejected-pass-02.png`
 - Collection: Ghoul Foot Soldiers Batch 26 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5310,8 +5310,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashmouth Flesh Hound
 
-- Render ID: `rnd_bd8dcd850ed1d3c5a37f7486`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02-reference-256.png`
+- Render ID: `rnd_938c2497107ff55fc2bf6aca`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/07-ashmouth-flesh-hound-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5323,8 +5323,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bell Harness Pilgrim
 
-- Render ID: `rnd_8bc255078c3485f559e26cb1`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02-reference-256.png`
+- Render ID: `rnd_42ae760aab20ec5467175c20`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/06-bell-harness-pilgrim-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5336,8 +5336,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bone Mask Skin Demon
 
-- Render ID: `rnd_2fa43f85908db59c1f4120d5`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02-reference-256.png`
+- Render ID: `rnd_076b1fe024200fbb97ea29ad`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/11-bone-mask-skin-demon-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5349,8 +5349,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Draped Gnasher
 
-- Render ID: `rnd_9c60bba49e62b69f4af719ac`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/17-chain-draped-gnasher-v02-reference-256.png`
+- Render ID: `rnd_ab6a87fb9138ca757aa8aebb`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/17-chain-draped-gnasher-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5362,8 +5362,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Corpse Fire Herdling
 
-- Render ID: `rnd_38e22a7ddc287d97e786e57a`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/18-corpse-fire-herdling-v02-reference-256.png`
+- Render ID: `rnd_4aa9f90c97ad255ac5e3dd26`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/18-corpse-fire-herdling-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5375,8 +5375,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Curse Branded Ghoul
 
-- Render ID: `rnd_e2b3fc5efd926fe0bfe5d306`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/12-curse-branded-ghoul-v02-reference-256.png`
+- Render ID: `rnd_6ae61ccfd51e39aad8b2060c`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/12-curse-branded-ghoul-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5388,8 +5388,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Vein Husk
 
-- Render ID: `rnd_c321ce9c9a9a946a662d5e99`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/05-ember-vein-husk-v02-reference-256.png`
+- Render ID: `rnd_3cd94939bef240abc5aabfb5`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/05-ember-vein-husk-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5401,8 +5401,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flesh Lantern Bearer
 
-- Render ID: `rnd_fb0e70edf9400bacf96f5fc6`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02-reference-256.png`
+- Render ID: `rnd_6d2bbb19409ab839415fec73`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/19-flesh-lantern-bearer-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5414,8 +5414,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Goat Headed Mourner
 
-- Render ID: `rnd_4a2f9eac242868da28e4e8de`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/04-goat-headed-mourner-v02-reference-256.png`
+- Render ID: `rnd_b924894e525d628e04278c49`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/04-goat-headed-mourner-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5427,8 +5427,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Patriarch
 
-- Render ID: `rnd_22a62b4065e0984f07454f46`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/20-hollow-patriarch-v02-reference-256.png`
+- Render ID: `rnd_001fadae3e384ff8d280baab`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/20-hollow-patriarch-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5440,8 +5440,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Pale Watcher
 
-- Render ID: `rnd_4b0e1f02e92b643c2e9c5805`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/16-moon-pale-watcher-v02-reference-256.png`
+- Render ID: `rnd_6774cbf0e75548cc6c85febb`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/16-moon-pale-watcher-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5453,8 +5453,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mothshoulder Wretch
 
-- Render ID: `rnd_ae61283e8096cf9904402272`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/09-mothshoulder-wretch-v02-reference-256.png`
+- Render ID: `rnd_bcab1ddd7ecae728842e8862`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/09-mothshoulder-wretch-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5466,8 +5466,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Slick Longlimb
 
-- Render ID: `rnd_64874c61e1f869096696c48e`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/08-rain-slick-longlimb-v02-reference-256.png`
+- Render ID: `rnd_b976caf793d9ff0aeaa40a48`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/08-rain-slick-longlimb-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5479,8 +5479,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rootgrown Fleshling
 
-- Render ID: `rnd_528baa3ef8275ce7e72ed6f2`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/13-rootgrown-fleshling-v02-reference-256.png`
+- Render ID: `rnd_a3d38a3ee2e52fdc5baea279`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/13-rootgrown-fleshling-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5492,8 +5492,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Crust Exile
 
-- Render ID: `rnd_31cb384bebee53d23aaa5938`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/15-salt-crust-exile-v02-reference-256.png`
+- Render ID: `rnd_e50bdc4beaba841f1cf02b87`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/15-salt-crust-exile-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5505,8 +5505,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shroudface Lurker
 
-- Render ID: `rnd_5a760a682cf9789b124790c9`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/03-shroudface-lurker-v02-reference-256.png`
+- Render ID: `rnd_0582d40ff0e6b11d80cf5f73`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/03-shroudface-lurker-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5518,8 +5518,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Smoke Lung Revenant
 
-- Render ID: `rnd_5e518710f06171cbf591384c`
-- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/14-smoke-lung-revenant-v02-reference-256.png`
+- Render ID: `rnd_e563eb705dd50f3ddbc03428`
+- Path: `enemies/ghouls-haunts-curses-batch-12/drafts/flesh-demons-v02/14-smoke-lung-revenant-v02.png`
 - Collection: Ghouls Haunts Curses Batch 12
 - Rating: 1/5
 - Decision: delete
@@ -5531,8 +5531,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashsnout Croucher
 
-- Render ID: `rnd_cd20daae89b9f101e056765c`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/03-ashsnout-croucher-reference-256.png`
+- Render ID: `rnd_9484e622f6879f063caad01f`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/03-ashsnout-croucher.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5544,8 +5544,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Backbound Loper
 
-- Render ID: `rnd_52a0c24f574e252e8ad90f78`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/02-backbound-loper-reference-256.png`
+- Render ID: `rnd_c819f3f6ba88f4785b716d38`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/02-backbound-loper.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5557,8 +5557,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Borrowed Coat
 
-- Render ID: `rnd_dd64b79257849672de877b63`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/11-borrowed-coat-reference-256.png`
+- Render ID: `rnd_d4aa2b6d419986a0f9535743`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/11-borrowed-coat.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5570,8 +5570,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Burgundy Raspbeast
 
-- Render ID: `rnd_88093d95f80146e7d718fc74`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/09-burgundy-raspbeast-reference-256.png`
+- Render ID: `rnd_594de39348719a034786c0a2`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/09-burgundy-raspbeast.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5583,8 +5583,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Thresher
 
-- Render ID: `rnd_2fd36011f3f8f51d468afa8c`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/18-cinder-thresher-reference-256.png`
+- Render ID: `rnd_9c8166cb4d60ed0ba24a8b6d`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/18-cinder-thresher.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5596,8 +5596,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinderback Skitter
 
-- Render ID: `rnd_6baeadb64fc3bc8638d00657`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/08-cinderback-skitter-reference-256.png`
+- Render ID: `rnd_37a250f79c9b59f8e0507308`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/08-cinderback-skitter.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5609,8 +5609,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Foldneck Reclaimer
 
-- Render ID: `rnd_4084bbf9c312858624c73104`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/01-foldneck-reclaimer-reference-256.png`
+- Render ID: `rnd_31e1739721405bcc0ac6a576`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/01-foldneck-reclaimer.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5622,8 +5622,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Graveboard Skater
 
-- Render ID: `rnd_e74fc4d29e75dce842ced0c8`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/19-graveboard-skater-reference-256.png`
+- Render ID: `rnd_3377e94f6c35739561f5c44a`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/19-graveboard-skater.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5635,8 +5635,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hearth Hush
 
-- Render ID: `rnd_dd4c5bc6e3734034ab264f6d`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/14-hearth-hush-reference-256.png`
+- Render ID: `rnd_e626439751492e9cbc84ffa2`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/14-hearth-hush.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5648,8 +5648,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hexwheel
 
-- Render ID: `rnd_f95acc48dca9493fdc6d76e3`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/16-hexwheel-reference-256.png`
+- Render ID: `rnd_dff8c07cd332cba68c5cfc95`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/16-hexwheel.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5661,8 +5661,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Tenant
 
-- Render ID: `rnd_7d58ec721eccc43b7e29aed6`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/13-inverted-tenant-reference-256.png`
+- Render ID: `rnd_a2d8485c075388b5b56d4416`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/13-inverted-tenant.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5674,8 +5674,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pillory Stalker
 
-- Render ID: `rnd_7f84c2d41d2179a1c278b923`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/05-pillory-stalker-reference-256.png`
+- Render ID: `rnd_fb1d50b2d96e7d0a815fe186`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/05-pillory-stalker.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5687,8 +5687,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rafter Kite
 
-- Render ID: `rnd_f964fe42b4bed1871c2336a3`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/07-rafter-kite-reference-256.png`
+- Render ID: `rnd_53b6ccbbaa5b27cfe8c5c7be`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/07-rafter-kite.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5700,8 +5700,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Red Reliquary
 
-- Render ID: `rnd_f81ac7c2272a059894ddf777`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/20-red-reliquary-reference-256.png`
+- Render ID: `rnd_87580156e61cce4dceb0e096`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/20-red-reliquary.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5713,8 +5713,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Right Angle Wraith
 
-- Render ID: `rnd_75b13a86293896a250c79834`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/15-right-angle-wraith-reference-256.png`
+- Render ID: `rnd_5ee9cfc390769dc0e380895a`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/15-right-angle-wraith.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5726,8 +5726,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Second Step Shade
 
-- Render ID: `rnd_1d4890b8376fa8f8a1b763d4`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/12-second-step-shade-reference-256.png`
+- Render ID: `rnd_0d84db86334567b8cd1c3c2d`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/12-second-step-shade.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5739,8 +5739,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sumpcloth Sniffer
 
-- Render ID: `rnd_db2c6726210724682e734312`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/06-sumpcloth-sniffer-reference-256.png`
+- Render ID: `rnd_f9298822fcc77a383daec819`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/06-sumpcloth-sniffer.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5752,8 +5752,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wake Jar Familiar
 
-- Render ID: `rnd_241ece7bc0547dc9457f6477`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/17-wake-jar-familiar-reference-256.png`
+- Render ID: `rnd_08c6459857fba3e3b38a733b`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/17-wake-jar-familiar.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5765,8 +5765,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Yokehorn Revenant
 
-- Render ID: `rnd_502391fb5a29541b6d18a121`
-- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/04-yokehorn-revenant-reference-256.png`
+- Render ID: `rnd_9f189c38b0e9f0c9bfffb9c3`
+- Path: `enemies/ghouls-haunts-curses-batch-12/rejected/first-pass/04-yokehorn-revenant.png`
 - Collection: Ghouls Haunts Curses Batch 12 · Rejected
 - Rating: 1/5
 - Decision: delete
@@ -5778,8 +5778,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cleft Horn Bolo Pursuer
 
-- Render ID: `rnd_02fcc7ad131ce13014c01ab0`
-- Path: `enemies/goat-knights-batch-37/drafts/05-cleft-horn-bolo-pursuer-reference-256.png`
+- Render ID: `rnd_3c1338d8a3cfe484897aeb75`
+- Path: `enemies/goat-knights-batch-37/drafts/05-cleft-horn-bolo-pursuer.png`
 - Collection: Goat Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5791,8 +5791,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Herd Cord Snarer
 
-- Render ID: `rnd_c4f47e3cb55042dc369f7221`
-- Path: `enemies/goat-knights-batch-37/drafts/03-herd-cord-snarer-reference-256.png`
+- Render ID: `rnd_2778ed70fb21eb3053d52838`
+- Path: `enemies/goat-knights-batch-37/drafts/03-herd-cord-snarer.png`
 - Collection: Goat Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5804,8 +5804,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ibex Ridge Bounder
 
-- Render ID: `rnd_b08f18aa637b7e311bf6c6cb`
-- Path: `enemies/goat-knights-batch-37/drafts/02-ibex-ridge-bounder-reference-256.png`
+- Render ID: `rnd_d5cf2072ebf9518b091251d4`
+- Path: `enemies/goat-knights-batch-37/drafts/02-ibex-ridge-bounder.png`
 - Collection: Goat Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5817,8 +5817,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ramcoil Buttress
 
-- Render ID: `rnd_7041ce620d75dda0ed65bf19`
-- Path: `enemies/goat-knights-batch-37/drafts/01-ramcoil-buttress-reference-256.png`
+- Render ID: `rnd_ec5739411bc5447e84719808`
+- Path: `enemies/goat-knights-batch-37/drafts/01-ramcoil-buttress.png`
 - Collection: Goat Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5830,8 +5830,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Scree Brow Arbalist
 
-- Render ID: `rnd_0281e0191a8a248d9d8986bf`
-- Path: `enemies/goat-knights-batch-37/drafts/04-scree-brow-arbalist-reference-256.png`
+- Render ID: `rnd_ca89a348a6d829195a71890f`
+- Path: `enemies/goat-knights-batch-37/drafts/04-scree-brow-arbalist.png`
 - Collection: Goat Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5843,8 +5843,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Net Ghost
 
-- Render ID: `rnd_f704819a5f735e3401e06985`
-- Path: `enemies/green-ghost-palette-test/02-drowned-net-ghost-reference-256.png`
+- Render ID: `rnd_0f27e298413890f7673f1909`
+- Path: `enemies/green-ghost-palette-test/02-drowned-net-ghost.png`
 - Collection: Green Ghost Palette Test
 - Rating: 1/5
 - Decision: delete
@@ -5856,8 +5856,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Oathbound Spear Ghost
 
-- Render ID: `rnd_2a8a9fe0eb34161ce97c5a98`
-- Path: `enemies/green-ghost-palette-test/01-oathbound-spear-ghost-reference-256.png`
+- Render ID: `rnd_8dc77b162e77a0288bfd2e16`
+- Path: `enemies/green-ghost-palette-test/01-oathbound-spear-ghost.png`
 - Collection: Green Ghost Palette Test
 - Rating: 1/5
 - Decision: delete
@@ -5869,8 +5869,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Veiled Balete Mourner
 
-- Render ID: `rnd_1737eaaf5ce324949ecb5016`
-- Path: `enemies/green-ghost-palette-test/03-veiled-balete-mourner-reference-256.png`
+- Render ID: `rnd_837d5eff1a32068386955c70`
+- Path: `enemies/green-ghost-palette-test/03-veiled-balete-mourner.png`
 - Collection: Green Ghost Palette Test
 - Rating: 1/5
 - Decision: delete
@@ -5882,8 +5882,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Yoke Jailer
 
-- Render ID: `rnd_6a053b35ef1104af352d058d`
-- Path: `enemies/horrifying-knights-batch-37/drafts/04-balete-yoke-jailer-reference-256.png`
+- Render ID: `rnd_9d7e3acf37a62028516079f8`
+- Path: `enemies/horrifying-knights-batch-37/drafts/04-balete-yoke-jailer.png`
 - Collection: Horrifying Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5895,8 +5895,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Empty Vigil Mourner
 
-- Render ID: `rnd_d81ce62579847fef0a177cab`
-- Path: `enemies/horrifying-knights-batch-37/drafts/05-empty-vigil-mourner-reference-256.png`
+- Render ID: `rnd_135dd2a6c93a087ac086820c`
+- Path: `enemies/horrifying-knights-batch-37/drafts/05-empty-vigil-mourner.png`
 - Collection: Horrifying Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5908,8 +5908,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Three Seal Black Wax Sentinel
 
-- Render ID: `rnd_5e6475cebb8902e50e6d4b8f`
-- Path: `enemies/horrifying-knights-batch-37/drafts/03-three-seal-black-wax-sentinel-reference-256.png`
+- Render ID: `rnd_8b1926dbfeb3e72d851c6903`
+- Path: `enemies/horrifying-knights-batch-37/drafts/03-three-seal-black-wax-sentinel.png`
 - Collection: Horrifying Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5921,8 +5921,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Undertow Road Lancer
 
-- Render ID: `rnd_778dfac6fcf73ea338b9f58b`
-- Path: `enemies/horrifying-knights-batch-37/drafts/02-undertow-road-lancer-reference-256.png`
+- Render ID: `rnd_b79679291b8a1b1b2eec811e`
+- Path: `enemies/horrifying-knights-batch-37/drafts/02-undertow-road-lancer.png`
 - Collection: Horrifying Knights Batch 37
 - Rating: 1/5
 - Decision: delete
@@ -5934,8 +5934,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Rein Catcher
 
-- Render ID: `rnd_9d16d3e8e4b17e5ebdc4da89`
-- Path: `enemies/horse-knights-batch-27/drafts/04-abaca-rein-catcher-reference-256.png`
+- Render ID: `rnd_8af1a5ccfb6f8676055c4eb1`
+- Path: `enemies/horse-knights-batch-27/drafts/04-abaca-rein-catcher.png`
 - Collection: Horse Knights Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -5947,8 +5947,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Funeral Rein Sabreur
 
-- Render ID: `rnd_118ed485edc25d24230c68ad`
-- Path: `enemies/horse-knights-batch-27/drafts/03-funeral-rein-sabreur-reference-256.png`
+- Render ID: `rnd_f77ee72c46f2e05fc3863654`
+- Path: `enemies/horse-knights-batch-27/drafts/03-funeral-rein-sabreur.png`
 - Collection: Horse Knights Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -5960,8 +5960,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rainline Bow Harrier
 
-- Render ID: `rnd_ceb2e5feef75bc5e353a53c2`
-- Path: `enemies/horse-knights-batch-27/drafts/02-rainline-bow-harrier-reference-256.png`
+- Render ID: `rnd_963c3efa0d04b997062b0449`
+- Path: `enemies/horse-knights-batch-27/drafts/02-rainline-bow-harrier.png`
 - Collection: Horse Knights Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -5973,8 +5973,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Road Toll Lance Reeve
 
-- Render ID: `rnd_480401e606a45e3149cecf15`
-- Path: `enemies/horse-knights-batch-27/drafts/01-road-toll-lance-reeve-reference-256.png`
+- Render ID: `rnd_f215772a7338d2e51becb74c`
+- Path: `enemies/horse-knights-batch-27/drafts/01-road-toll-lance-reeve.png`
 - Collection: Horse Knights Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -5986,8 +5986,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Imp Scout
 
-- Render ID: `rnd_fb17156eda0f4e5a274b16bc`
-- Path: `enemies/infernal-demons-batch-11/drafts/01-cinder-imp-scout-reference-256.png`
+- Render ID: `rnd_968fa5fb59bb2365392ec163`
+- Path: `enemies/infernal-demons-batch-11/drafts/01-cinder-imp-scout.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -5999,8 +5999,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Coal Maw Hellhound
 
-- Render ID: `rnd_c38194a8dea991cc1e7dbbc7`
-- Path: `enemies/infernal-demons-batch-11/drafts/08-coal-maw-hellhound-reference-256.png`
+- Render ID: `rnd_3c8410d1e07453465450a596`
+- Path: `enemies/infernal-demons-batch-11/drafts/08-coal-maw-hellhound.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6012,8 +6012,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crowned Gatefiend
 
-- Render ID: `rnd_f7c1c6b5bee622a2a8e398a8`
-- Path: `enemies/infernal-demons-batch-11/drafts/15-crowned-gatefiend-reference-256.png`
+- Render ID: `rnd_bf33c1c30c381010eb7a785b`
+- Path: `enemies/infernal-demons-batch-11/drafts/15-crowned-gatefiend.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6025,8 +6025,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Emberhorn Brute
 
-- Render ID: `rnd_c94711cd256e0c40b82a0013`
-- Path: `enemies/infernal-demons-batch-11/drafts/06-emberhorn-brute-reference-256.png`
+- Render ID: `rnd_20cc5af3825901caa0857aab`
+- Path: `enemies/infernal-demons-batch-11/drafts/06-emberhorn-brute.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6038,8 +6038,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flesh Bell Fiend
 
-- Render ID: `rnd_80a52171356c8a3a484511b9`
-- Path: `enemies/infernal-demons-batch-11/drafts/10-flesh-bell-fiend-reference-256.png`
+- Render ID: `rnd_d18f8432fb8f5261b5522f15`
+- Path: `enemies/infernal-demons-batch-11/drafts/10-flesh-bell-fiend.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6051,8 +6051,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Furnace Ram
 
-- Render ID: `rnd_7dae852b3919eb64efeea8ed`
-- Path: `enemies/infernal-demons-batch-11/drafts/07-furnace-ram-reference-256.png`
+- Render ID: `rnd_f3fb501a866dc006efc1c0fa`
+- Path: `enemies/infernal-demons-batch-11/drafts/07-furnace-ram.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6064,8 +6064,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Goat Headed Censer Raider
 
-- Render ID: `rnd_da494a64e3bc38905582f9a9`
-- Path: `enemies/infernal-demons-batch-11/drafts/04-goat-headed-censer-raider-reference-256.png`
+- Render ID: `rnd_a8791e5280a0c63ce7e7399c`
+- Path: `enemies/infernal-demons-batch-11/drafts/04-goat-headed-censer-raider.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6077,8 +6077,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hooktail Ember Thief
 
-- Render ID: `rnd_0e6df7a8af21b7cc96c50e8d`
-- Path: `enemies/infernal-demons-batch-11/drafts/03-hooktail-ember-thief-reference-256.png`
+- Render ID: `rnd_8ddb32a4f6f634f103af8de2`
+- Path: `enemies/infernal-demons-batch-11/drafts/03-hooktail-ember-thief.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6090,8 +6090,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pink Ashwing Imp
 
-- Render ID: `rnd_3fecd4ea55e35a9b16d84ce6`
-- Path: `enemies/infernal-demons-batch-11/drafts/02-pink-ashwing-imp-reference-256.png`
+- Render ID: `rnd_32f685a7cebb318443384157`
+- Path: `enemies/infernal-demons-batch-11/drafts/02-pink-ashwing-imp.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6103,8 +6103,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pyre Beetle Fiend
 
-- Render ID: `rnd_fe83ee16fe1ecca7026094f2`
-- Path: `enemies/infernal-demons-batch-11/drafts/13-pyre-beetle-fiend-reference-256.png`
+- Render ID: `rnd_ddf2e570835a2724cfac4927`
+- Path: `enemies/infernal-demons-batch-11/drafts/13-pyre-beetle-fiend.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6116,8 +6116,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ragwing Flesh Harrier
 
-- Render ID: `rnd_994bda9794609b009e6285dc`
-- Path: `enemies/infernal-demons-batch-11/drafts/09-ragwing-flesh-harrier-reference-256.png`
+- Render ID: `rnd_1c763a9a2c1dff6283504c47`
+- Path: `enemies/infernal-demons-batch-11/drafts/09-ragwing-flesh-harrier.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6129,8 +6129,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ram Skull Pyromancer
 
-- Render ID: `rnd_2176199fb8ec93e0191a4dbc`
-- Path: `enemies/infernal-demons-batch-11/drafts/05-ram-skull-pyromancer-reference-256.png`
+- Render ID: `rnd_fb3b4500beaf7bf7e7e798ef`
+- Path: `enemies/infernal-demons-batch-11/drafts/05-ram-skull-pyromancer.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6142,8 +6142,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Scarlet Chain Warden
 
-- Render ID: `rnd_66fe7796cc0e67016bab56a7`
-- Path: `enemies/infernal-demons-batch-11/drafts/14-scarlet-chain-warden-reference-256.png`
+- Render ID: `rnd_3f64bbb514f61dc69205d94e`
+- Path: `enemies/infernal-demons-batch-11/drafts/14-scarlet-chain-warden.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6155,8 +6155,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sinew Crawler
 
-- Render ID: `rnd_ca9febad619dff01b9d5ab9f`
-- Path: `enemies/infernal-demons-batch-11/drafts/12-sinew-crawler-reference-256.png`
+- Render ID: `rnd_e225d1d63ad42b6a0038f230`
+- Path: `enemies/infernal-demons-batch-11/drafts/12-sinew-crawler.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6168,8 +6168,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Soot Tongue Hexer
 
-- Render ID: `rnd_57d372c5cd2ae009d8ba4d6e`
-- Path: `enemies/infernal-demons-batch-11/drafts/11-soot-tongue-hexer-reference-256.png`
+- Render ID: `rnd_5ff79229e8183bcfbe69339a`
+- Path: `enemies/infernal-demons-batch-11/drafts/11-soot-tongue-hexer.png`
 - Collection: Infernal Demons Batch 11
 - Rating: 1/5
 - Decision: delete
@@ -6181,8 +6181,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashwing Crescent Archer
 
-- Render ID: `rnd_4ef19c41e6d9df181b5253a4`
-- Path: `enemies/infernal-demons-batch-13/drafts/04-ashwing-crescent-archer-reference-256.png`
+- Render ID: `rnd_728b52137b5b074c366aec09`
+- Path: `enemies/infernal-demons-batch-13/drafts/04-ashwing-crescent-archer.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6194,8 +6194,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cindercloak Assassin
 
-- Render ID: `rnd_7482c127dc4fec17ea7236ce`
-- Path: `enemies/infernal-demons-batch-13/drafts/06-cindercloak-assassin-reference-256.png`
+- Render ID: `rnd_0e1a4f22abf32e0d074251cc`
+- Path: `enemies/infernal-demons-batch-13/drafts/06-cindercloak-assassin.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6207,8 +6207,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Mirror Hexer
 
-- Render ID: `rnd_808226e3997eeb913806629c`
-- Path: `enemies/infernal-demons-batch-13/drafts/11-ember-mirror-hexer-reference-256.png`
+- Render ID: `rnd_1744ccba8d722b7f607845c3`
+- Path: `enemies/infernal-demons-batch-13/drafts/11-ember-mirror-hexer.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6220,8 +6220,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flesh Crown Levant
 
-- Render ID: `rnd_bff2b0c79c77b9e021a6c41a`
-- Path: `enemies/infernal-demons-batch-13/drafts/13-flesh-crown-levant-reference-256.png`
+- Render ID: `rnd_60b88b7293cdb4282a5f3008`
+- Path: `enemies/infernal-demons-batch-13/drafts/13-flesh-crown-levant.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6233,8 +6233,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flesh Veil Oracle
 
-- Render ID: `rnd_89939d029fca02c70104d1da`
-- Path: `enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-reference-256.png`
+- Render ID: `rnd_b6c98bd3e4f4d174de50a401`
+- Path: `enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6246,8 +6246,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Goat Headed Pike Dancer
 
-- Render ID: `rnd_4b8be3bc0aee79259f2f775c`
-- Path: `enemies/infernal-demons-batch-13/drafts/02-goat-headed-pike-dancer-reference-256.png`
+- Render ID: `rnd_d9eabdd542992347316ab545`
+- Path: `enemies/infernal-demons-batch-13/drafts/02-goat-headed-pike-dancer.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6259,8 +6259,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Horned Ash Dervish
 
-- Render ID: `rnd_f94989ea6f61da70f46a2495`
-- Path: `enemies/infernal-demons-batch-13/drafts/12-horned-ash-dervish-reference-256.png`
+- Render ID: `rnd_a8622c7cbc87cd6949d1328b`
+- Path: `enemies/infernal-demons-batch-13/drafts/12-horned-ash-dervish.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6272,8 +6272,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Infernal Procession Lord
 
-- Render ID: `rnd_412db5cac5843ae10e6cacda`
-- Path: `enemies/infernal-demons-batch-13/drafts/15-infernal-procession-lord-reference-256.png`
+- Render ID: `rnd_574d9d8a9a956fb1a498b2ed`
+- Path: `enemies/infernal-demons-batch-13/drafts/15-infernal-procession-lord.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6285,8 +6285,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pink Thornstaff Witch
 
-- Render ID: `rnd_e056ccab0456af3d6a4409f9`
-- Path: `enemies/infernal-demons-batch-13/drafts/07-pink-thornstaff-witch-reference-256.png`
+- Render ID: `rnd_ac1ecbc644d3620adab2de36`
+- Path: `enemies/infernal-demons-batch-13/drafts/07-pink-thornstaff-witch.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6298,8 +6298,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pyre Chain Harvester
 
-- Render ID: `rnd_2fe714c7493be27b2cc0980a`
-- Path: `enemies/infernal-demons-batch-13/drafts/14-pyre-chain-harvester-reference-256.png`
+- Render ID: `rnd_e5363889db5ce9db17e6cfe0`
+- Path: `enemies/infernal-demons-batch-13/drafts/14-pyre-chain-harvester.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6311,8 +6311,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ram Horn Ember Priest
 
-- Render ID: `rnd_603cb822859595e53a3f41f4`
-- Path: `enemies/infernal-demons-batch-13/drafts/05-ram-horn-ember-priest-reference-256.png`
+- Render ID: `rnd_a929a48695005985acb56986`
+- Path: `enemies/infernal-demons-batch-13/drafts/05-ram-horn-ember-priest.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6324,8 +6324,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Scarlet Banner Reaver
 
-- Render ID: `rnd_8f67c1189af0d001c16328bd`
-- Path: `enemies/infernal-demons-batch-13/drafts/09-scarlet-banner-reaver-reference-256.png`
+- Render ID: `rnd_45cd5efbc788a0f24adb450a`
+- Path: `enemies/infernal-demons-batch-13/drafts/09-scarlet-banner-reaver.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6337,8 +6337,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Scarlet Hornblade Duelist
 
-- Render ID: `rnd_de5921dde390e218b37156f5`
-- Path: `enemies/infernal-demons-batch-13/drafts/01-scarlet-hornblade-duelist-reference-256.png`
+- Render ID: `rnd_cae30557a16aeaf0b86ad39d`
+- Path: `enemies/infernal-demons-batch-13/drafts/01-scarlet-hornblade-duelist.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6350,8 +6350,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sootwing Talon Hunter
 
-- Render ID: `rnd_3631cec9102e52c303e78e6e`
-- Path: `enemies/infernal-demons-batch-13/drafts/08-sootwing-talon-hunter-reference-256.png`
+- Render ID: `rnd_027c9d261ba9c1ced0b7387c`
+- Path: `enemies/infernal-demons-batch-13/drafts/08-sootwing-talon-hunter.png`
 - Collection: Infernal Demons Batch 13
 - Rating: 1/5
 - Decision: delete
@@ -6363,8 +6363,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Downcast Visor Estoc Duelist
 
-- Render ID: `rnd_c62452079cc754002095db55`
-- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist-reference-256.png`
+- Render ID: `rnd_0828947305d6ddb7a25025c4`
+- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/02-downcast-visor-estoc-duelist.png`
 - Collection: Inverted Cross Demonic Knights Batch 44
 - Rating: 1/5
 - Decision: delete
@@ -6376,8 +6376,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Downward Vow Arbalist
 
-- Render ID: `rnd_57b03fc655df9d2224d687d4`
-- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist-reference-256.png`
+- Render ID: `rnd_5b170256fdaefc473a981c18`
+- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/04-downward-vow-arbalist.png`
 - Collection: Inverted Cross Demonic Knights Batch 44
 - Rating: 1/5
 - Decision: delete
@@ -6389,8 +6389,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Rood Gauntlet Pursuer
 
-- Render ID: `rnd_f219f438bda8ece7c7b0fd28`
-- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer-reference-256.png`
+- Render ID: `rnd_e5ff843dd99bddfd4056c0ae`
+- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/03-hollow-rood-gauntlet-pursuer.png`
 - Collection: Inverted Cross Demonic Knights Batch 44
 - Rating: 1/5
 - Decision: delete
@@ -6402,8 +6402,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Rood Spine Lancer
 
-- Render ID: `rnd_806a7a034db0fcd9bc0c373f`
-- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer-reference-256.png`
+- Render ID: `rnd_2a6933176d5dd000f53f3501`
+- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/01-inverted-rood-spine-lancer.png`
 - Collection: Inverted Cross Demonic Knights Batch 44
 - Rating: 1/5
 - Decision: delete
@@ -6415,8 +6415,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Rood Ward Cantor
 
-- Render ID: `rnd_00749c5969447e6649a93b5e`
-- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor-reference-256.png`
+- Render ID: `rnd_d06e4544498ec3b0eb08966e`
+- Path: `enemies/inverted-cross-demonic-knights-batch-44/drafts/05-inverted-rood-ward-cantor.png`
 - Collection: Inverted Cross Demonic Knights Batch 44
 - Rating: 1/5
 - Decision: delete
@@ -6428,8 +6428,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Battle Axe Breaker
 
-- Render ID: `rnd_eae17b564dcc50b4c458edee`
-- Path: `enemies/iron-maidens-batch-34/drafts/03-iron-battle-axe-breaker-reference-256.png`
+- Render ID: `rnd_48f89032e57670ba83a53433`
+- Path: `enemies/iron-maidens-batch-34/drafts/03-iron-battle-axe-breaker.png`
 - Collection: Iron Maidens Batch 34
 - Rating: 1/5
 - Decision: delete
@@ -6441,8 +6441,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Crossbow Skirmisher
 
-- Render ID: `rnd_eaa4e0a80843f13171ce8e68`
-- Path: `enemies/iron-maidens-batch-34/drafts/04-iron-crossbow-skirmisher-reference-256.png`
+- Render ID: `rnd_ed5098226463c78215b1e4c4`
+- Path: `enemies/iron-maidens-batch-34/drafts/04-iron-crossbow-skirmisher.png`
 - Collection: Iron Maidens Batch 34
 - Rating: 1/5
 - Decision: delete
@@ -6454,8 +6454,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Plume Matchlock Watcher
 
-- Render ID: `rnd_2759e9b3a3fae92727228281`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/03-abaca-plume-matchlock-watcher-reference-256.png`
+- Render ID: `rnd_e6819f900130d321bfb7152d`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/03-abaca-plume-matchlock-watcher.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6467,8 +6467,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Crest Halberd Linekeeper
 
-- Render ID: `rnd_c7bf90199a6334fe6fa795a9`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/01-capiz-crest-halberd-linekeeper-reference-256.png`
+- Render ID: `rnd_3fec5482a02acdb7ce7454bf`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/01-capiz-crest-halberd-linekeeper.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6480,8 +6480,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cross Step Twin Blade Skirmisher
 
-- Render ID: `rnd_e85ef669e3ddb00802864ea8`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/09-cross-step-twin-blade-skirmisher-reference-256.png`
+- Render ID: `rnd_715cb8344eb09d0c0cdcd295`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/09-cross-step-twin-blade-skirmisher.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6493,8 +6493,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Censer Mace Suppressor
 
-- Render ID: `rnd_e76a9f82b865f493e9da7cdd`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/04-ember-censer-mace-suppressor-reference-256.png`
+- Render ID: `rnd_f09a8e013e7503a5677a31cf`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/04-ember-censer-mace-suppressor.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6506,8 +6506,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Low Gate Warhammer Breaker
 
-- Render ID: `rnd_ed4dcd8978dbdcad1c62e8eb`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/07-low-gate-warhammer-breaker-reference-256.png`
+- Render ID: `rnd_1231649524831cd47b681db7`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/07-low-gate-warhammer-breaker.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6519,8 +6519,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mourning Shield Warder
 
-- Render ID: `rnd_5c86c900bad186054702efcf`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/02-mourning-shield-warder-reference-256.png`
+- Render ID: `rnd_a99ac6eaed8d4619a7c5e7f1`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/02-mourning-shield-warder.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6532,8 +6532,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Funeral Standard Captain
 
-- Render ID: `rnd_97ebb9c1e1d3a3d7fb13991d`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/05-pale-funeral-standard-captain-reference-256.png`
+- Render ID: `rnd_6cf5e91202491aa7960cb35c`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/05-pale-funeral-standard-captain.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6545,8 +6545,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sable Bolo Pursuer
 
-- Render ID: `rnd_1b9033dd8e5fb64f9cf43b5f`
-- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/08-sable-bolo-pursuer-reference-256.png`
+- Render ID: `rnd_4755aba4279ffe7387dac1fe`
+- Path: `enemies/ivory-vigil-soldiers-batch-27/drafts/08-sable-bolo-pursuer.png`
 - Collection: Ivory Vigil Soldiers Batch 27
 - Rating: 1/5
 - Decision: delete
@@ -6558,8 +6558,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Incense Dowager
 
-- Render ID: `rnd_be1f4c7d5087b2e88b0dd5fc`
-- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/04-ash-incense-dowager-reference-256.png`
+- Render ID: `rnd_55141e5808605acc91a1bb93`
+- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/04-ash-incense-dowager.png`
 - Collection: Japanese Wealthy Vampires Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6571,8 +6571,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Seal Daimyo Widow
 
-- Render ID: `rnd_fd695504d49396d5c50da967`
-- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/01-black-seal-daimyo-widow-reference-256.png`
+- Render ID: `rnd_6146211fee6a0afe2d2215b2`
+- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/01-black-seal-daimyo-widow.png`
 - Collection: Japanese Wealthy Vampires Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6584,8 +6584,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Gate Naginata Matriarch
 
-- Render ID: `rnd_f845c2185f76921b2e00bba3`
-- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/05-moon-gate-naginata-matriarch-reference-256.png`
+- Render ID: `rnd_8303959bf2c2d1d5a74af41f`
+- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/05-moon-gate-naginata-matriarch.png`
 - Collection: Japanese Wealthy Vampires Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6597,8 +6597,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Obsidian Obi Heiress
 
-- Render ID: `rnd_6fd7cb78003bd4ae870c1964`
-- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/03-obsidian-obi-heiress-reference-256.png`
+- Render ID: `rnd_b7ed30fdc4ca86111e69b946`
+- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/03-obsidian-obi-heiress.png`
 - Collection: Japanese Wealthy Vampires Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6610,8 +6610,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Silver Kiseru Baroness
 
-- Render ID: `rnd_2b21123e244259fbf45b522f`
-- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/02-silver-kiseru-baroness-reference-256.png`
+- Render ID: `rnd_9de9172266bda7db886a4307`
+- Path: `enemies/japanese-wealthy-vampires-batch-45/drafts/02-silver-kiseru-baroness.png`
 - Collection: Japanese Wealthy Vampires Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6623,8 +6623,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Mask Stillness Censor
 
-- Render ID: `rnd_e746541928fc67172871bb87`
-- Path: `enemies/kamatayan-batch-45/drafts/05-capiz-mask-stillness-censor-reference-256.png`
+- Render ID: `rnd_44eb9c74f63b0084a6fadd84`
+- Path: `enemies/kamatayan-batch-45/drafts/05-capiz-mask-stillness-censor.png`
 - Collection: Kamatayan Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6636,8 +6636,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Huling Hibla Severer
 
-- Render ID: `rnd_a8f1c62258b17508fb9d5c33`
-- Path: `enemies/kamatayan-batch-45/drafts/01-huling-hibla-severer-reference-256.png`
+- Render ID: `rnd_bc9cf31339317d90536147cd`
+- Path: `enemies/kamatayan-batch-45/drafts/01-huling-hibla-severer.png`
 - Collection: Kamatayan Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6649,8 +6649,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tagahukay Burdener
 
-- Render ID: `rnd_9c4719b59a9e9829aad7dedc`
-- Path: `enemies/kamatayan-batch-45/drafts/04-tagahukay-burdener-reference-256.png`
+- Render ID: `rnd_e260fe5b431c59749eabfb62`
+- Path: `enemies/kamatayan-batch-45/drafts/04-tagahukay-burdener.png`
 - Collection: Kamatayan Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6662,8 +6662,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tawiran Oar Pursuer
 
-- Render ID: `rnd_e97c66e215cc906721eedc3d`
-- Path: `enemies/kamatayan-batch-45/drafts/03-tawiran-oar-pursuer-reference-256.png`
+- Render ID: `rnd_711c1e4e906abc0dffdd9ecc`
+- Path: `enemies/kamatayan-batch-45/drafts/03-tawiran-oar-pursuer.png`
 - Collection: Kamatayan Batch 45
 - Rating: 1/5
 - Decision: delete
@@ -6675,8 +6675,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Root Guerrilla
 
-- Render ID: `rnd_190dc2b28f6c4661e3b773d4`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/07-balete-root-guerrilla-reference-256.png`
+- Render ID: `rnd_2a37226bb3dc41fe8bd7a36c`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/07-balete-root-guerrilla.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: 1/5
 - Decision: delete
@@ -6688,8 +6688,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Beetle Swarm Lookout
 
-- Render ID: `rnd_5f845660901e44910aa28853`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/10-beetle-swarm-lookout-reference-256.png`
+- Render ID: `rnd_139dd490cc816bd0cdd2fca5`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/10-beetle-swarm-lookout.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: 1/5
 - Decision: delete
@@ -6701,8 +6701,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bite Fever Scout
 
-- Render ID: `rnd_d7756ec66c2e3c9663517682`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/01-bite-fever-scout-reference-256.png`
+- Render ID: `rnd_98d55ea9308ecfa93d489e0c`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/01-bite-fever-scout.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: 1/5
 - Decision: delete
@@ -6714,8 +6714,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Curse Marked Courier
 
-- Render ID: `rnd_5950b342c33a2059f40948c7`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/05-curse-marked-courier-reference-256.png`
+- Render ID: `rnd_36d4b6c96cf2194fc6d50459`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/05-curse-marked-courier.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: 1/5
 - Decision: delete
@@ -6727,8 +6727,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Detached Shadow Scout
 
-- Render ID: `rnd_a71a1f3bdb968f2281b02400`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/12-detached-shadow-scout-reference-256.png`
+- Render ID: `rnd_0ccecdb6ff7c38acae4f0127`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/12-detached-shadow-scout.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: 1/5
 - Decision: delete
@@ -6740,8 +6740,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Sashed Torchman
 
-- Render ID: `rnd_e84367f4fa00966dc4221c17`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/08-ember-sashed-torchman-reference-256.png`
+- Render ID: `rnd_e1c4cdb10d7da009c92dd210`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/08-ember-sashed-torchman.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6753,8 +6753,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Hunger Boloman
 
-- Render ID: `rnd_5f3765be199cedc71abcd074`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/02-hollow-hunger-boloman-reference-256.png`
+- Render ID: `rnd_a66cd6b58293be56156e611d`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/02-hollow-hunger-boloman.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6766,8 +6766,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moonlit Oathkeeper
 
-- Render ID: `rnd_64c6f6cdee2dc4474b677117`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/14-moonlit-oathkeeper-reference-256.png`
+- Render ID: `rnd_cbe0c50e4afbe8cd118d1277`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/14-moonlit-oathkeeper.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6779,8 +6779,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Thirst Veteran
 
-- Render ID: `rnd_4df4233c70fa8aa614d90881`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/06-night-thirst-veteran-reference-256.png`
+- Render ID: `rnd_529ac5b375d9540974cfac37`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/06-night-thirst-veteran.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6792,8 +6792,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Bound Sharpshooter
 
-- Render ID: `rnd_dcc5d5f0d0cdd842373084f6`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/09-rain-bound-sharpshooter-reference-256.png`
+- Render ID: `rnd_7370abd36dc1e56dedba9bb2`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/09-rain-bound-sharpshooter.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6805,8 +6805,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reanimated Standard Bearer
 
-- Render ID: `rnd_2f007afaeb1ea8601f91bc36`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/03-reanimated-standard-bearer-reference-256.png`
+- Render ID: `rnd_900f9c27dde5ecb6928798d4`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/03-reanimated-standard-bearer.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6818,8 +6818,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Crusted Guard
 
-- Render ID: `rnd_b57fe2fc00c3c8ca4aa738d5`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/13-salt-crusted-guard-reference-256.png`
+- Render ID: `rnd_806319c236481362440e9b59`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/13-salt-crusted-guard.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6831,8 +6831,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Smoke Lung Sapper
 
-- Render ID: `rnd_bc1240fa74da121e770c6414`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/11-smoke-lung-sapper-reference-256.png`
+- Render ID: `rnd_07c5ddf3f994bfaf0bbee127`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/11-smoke-lung-sapper.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6844,8 +6844,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Spirit Ridden Rifleman
 
-- Render ID: `rnd_f281b9ba5276fc236496165c`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/04-spirit-ridden-rifleman-reference-256.png`
+- Render ID: `rnd_370d122e04f884e72c52872a`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/04-spirit-ridden-rifleman.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6857,8 +6857,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Weapon Bound Boloman
 
-- Render ID: `rnd_93a8c5a1060db561fc59db8e`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/15-weapon-bound-boloman-reference-256.png`
+- Render ID: `rnd_e97d74f9b5b451dee3251833`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/15-weapon-bound-boloman.png`
 - Collection: Katipunero Afflictions Batch 10
 - Rating: Not rated/5
 - Decision: delete
@@ -6870,8 +6870,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Root Guerrilla Rejected Human
 
-- Render ID: `rnd_40c9a4943616394185abe5c1`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/07-balete-root-guerrilla-rejected-human-v02-reference-256.png`
+- Render ID: `rnd_e6d4bd955c4044113bf92c8c`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/07-balete-root-guerrilla-rejected-human-v02.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6883,8 +6883,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Root Guerrilla Rejected Same Side Roots
 
-- Render ID: `rnd_98188cade651632ec0c994b9`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/07-balete-root-guerrilla-rejected-same-side-roots-v01-reference-256.png`
+- Render ID: `rnd_aaf7e9aa724028a502231b52`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/07-balete-root-guerrilla-rejected-same-side-roots-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6896,8 +6896,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bite Fever Scout Rejected Human
 
-- Render ID: `rnd_f452ebe33111deac7bbaeeac`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/01-bite-fever-scout-rejected-human-v01-reference-256.png`
+- Render ID: `rnd_f2760129938bcdcc6bb3eb84`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/01-bite-fever-scout-rejected-human-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6909,8 +6909,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Curse Marked Courier Rejected Human
 
-- Render ID: `rnd_7d0e613e4ac8c82e4fe1f64a`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/05-curse-marked-courier-rejected-human-v01-reference-256.png`
+- Render ID: `rnd_269de9f53cccbd539f80a74c`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/05-curse-marked-courier-rejected-human-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6922,8 +6922,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Curse Marked Courier Rejected Missing Bolo Monster
 
-- Render ID: `rnd_78f4ee7168e4f176efcff08a`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/05-curse-marked-courier-rejected-missing-bolo-monster-v02-reference-256.png`
+- Render ID: `rnd_2158181d1d42cdbba3e86cfd`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/05-curse-marked-courier-rejected-missing-bolo-monster-v02.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6935,8 +6935,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Hunger Boloman Rejected Human
 
-- Render ID: `rnd_752c0dbce808f8055029c1fe`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/02-hollow-hunger-boloman-rejected-human-v01-reference-256.png`
+- Render ID: `rnd_6a7b32aafd3aa2ca782ee37b`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/02-hollow-hunger-boloman-rejected-human-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6948,8 +6948,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Hunger Boloman Rejected Landscape Monster
 
-- Render ID: `rnd_c4fc852c675b5e78da1d4b5b`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/02-hollow-hunger-boloman-rejected-landscape-monster-v02-reference-256.png`
+- Render ID: `rnd_3cf40ba0e153a013a3977540`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/02-hollow-hunger-boloman-rejected-landscape-monster-v02.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6961,8 +6961,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Thirst Veteran Rejected Human
 
-- Render ID: `rnd_53b377a0017fd646aa464d47`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/06-night-thirst-veteran-rejected-human-v01-reference-256.png`
+- Render ID: `rnd_43b3ea684a98357388ae27b9`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/06-night-thirst-veteran-rejected-human-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6974,8 +6974,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reanimated Standard Bearer Rejected Cropped Cords
 
-- Render ID: `rnd_32d362597c03ee1c3bb8e375`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/03-reanimated-standard-bearer-rejected-cropped-cords-v01-reference-256.png`
+- Render ID: `rnd_f74a0aa81d9271401cafc43f`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/03-reanimated-standard-bearer-rejected-cropped-cords-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -6987,8 +6987,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Reanimated Standard Bearer Rejected Human
 
-- Render ID: `rnd_94aa84dd0fbef7bf15fce1d6`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/03-reanimated-standard-bearer-rejected-human-v02-reference-256.png`
+- Render ID: `rnd_03933a3ddfd804d10cde6315`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/03-reanimated-standard-bearer-rejected-human-v02.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7000,8 +7000,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Spirit Ridden Rifleman Rejected Double Muzzle
 
-- Render ID: `rnd_a77e3b02f1c567d24ab69431`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/04-spirit-ridden-rifleman-rejected-double-muzzle-v01-reference-256.png`
+- Render ID: `rnd_81eaf80b8c6aeafb4f7d9d63`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/04-spirit-ridden-rifleman-rejected-double-muzzle-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7013,8 +7013,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Spirit Ridden Rifleman Rejected Human
 
-- Render ID: `rnd_63138a55c5c1449d4ee40712`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/04-spirit-ridden-rifleman-rejected-human-v03-reference-256.png`
+- Render ID: `rnd_0c4039d4b8d73c7af2b3dba2`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/04-spirit-ridden-rifleman-rejected-human-v03.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7026,8 +7026,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Spirit Ridden Rifleman Rejected Lost Weapon Arm
 
-- Render ID: `rnd_ae5224ddbb2002574a93db22`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/04-spirit-ridden-rifleman-rejected-lost-weapon-arm-v02-reference-256.png`
+- Render ID: `rnd_458dbf4b84a72853a6ecdd06`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/04-spirit-ridden-rifleman-rejected-lost-weapon-arm-v02.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7039,8 +7039,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Weapon Bound Boloman Rejected Oversized Blade Monster
 
-- Render ID: `rnd_0c4bb83ba0371a1c60aa6dbf`
-- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/15-weapon-bound-boloman-rejected-oversized-blade-monster-v01-reference-256.png`
+- Render ID: `rnd_ddacd9dac9136efc27253e14`
+- Path: `enemies/katipunero-afflictions-batch-10/drafts/rejected/15-weapon-bound-boloman-rejected-oversized-blade-monster-v01.png`
 - Collection: Katipunero Afflictions Batch 10 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7052,8 +7052,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crooked Bellman Left Facing
 
-- Render ID: `rnd_25a766ce273825175eb629aa`
-- Path: `enemies/left-facing-pose-tests-v01/drafts/01-crooked-bellman-left-facing-v01-reference-256.png`
+- Render ID: `rnd_1ef91bbc5799c023323eaa29`
+- Path: `enemies/left-facing-pose-tests-v01/drafts/01-crooked-bellman-left-facing-v01.png`
 - Collection: Left Facing Pose Tests
 - Rating: Not rated/5
 - Decision: delete
@@ -7065,8 +7065,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Roadside White Lady Left Facing
 
-- Render ID: `rnd_d6b55a84c068aa7788260a29`
-- Path: `enemies/left-facing-pose-tests-v01/drafts/02-roadside-white-lady-left-facing-v01-reference-256.png`
+- Render ID: `rnd_016425b46a9861f930f0dc69`
+- Path: `enemies/left-facing-pose-tests-v01/drafts/02-roadside-white-lady-left-facing-v01.png`
 - Collection: Left Facing Pose Tests
 - Rating: Not rated/5
 - Decision: delete
@@ -7078,8 +7078,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Roadside White Lady Left Facing Medium Density
 
-- Render ID: `rnd_f0795e765b640080bdc6a09a`
-- Path: `enemies/left-facing-pose-tests-v01/drafts/02-roadside-white-lady-left-facing-medium-density-v03-reference-256.png`
+- Render ID: `rnd_b3323632b5541e8c1ae8b2fd`
+- Path: `enemies/left-facing-pose-tests-v01/drafts/02-roadside-white-lady-left-facing-medium-density-v03.png`
 - Collection: Left Facing Pose Tests
 - Rating: Not rated/5
 - Decision: delete
@@ -7091,8 +7091,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Roof Hunter Manananggal Left Facing
 
-- Render ID: `rnd_dfd4dc85005e6e1807b4102d`
-- Path: `enemies/left-facing-pose-tests-v01/drafts/03-roof-hunter-manananggal-left-facing-v01-reference-256.png`
+- Render ID: `rnd_47874cfc92ad5b1581c6b700`
+- Path: `enemies/left-facing-pose-tests-v01/drafts/03-roof-hunter-manananggal-left-facing-v01.png`
 - Collection: Left Facing Pose Tests
 - Rating: Not rated/5
 - Decision: delete
@@ -7104,8 +7104,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bamboo Bridge Serpent
 
-- Render ID: `rnd_2d08df8b1aea2de9943b3584`
-- Path: `enemies/living-houses-roadside-mimics-batch-19/drafts/03-bamboo-bridge-serpent-reference-256.png`
+- Render ID: `rnd_7070ab0f413c94ff482b9b10`
+- Path: `enemies/living-houses-roadside-mimics-batch-19/drafts/03-bamboo-bridge-serpent.png`
 - Collection: Living Houses Roadside Mimics Batch 19
 - Rating: Not rated/5
 - Decision: delete
@@ -7117,8 +7117,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Stilt Walking Bahay Kubo
 
-- Render ID: `rnd_c534a03a44be4afb046afc55`
-- Path: `enemies/living-houses-roadside-mimics-batch-19/drafts/01-stilt-walking-bahay-kubo-reference-256.png`
+- Render ID: `rnd_c15bf6f42819b724942fe1ef`
+- Path: `enemies/living-houses-roadside-mimics-batch-19/drafts/01-stilt-walking-bahay-kubo.png`
 - Collection: Living Houses Roadside Mimics Batch 19
 - Rating: Not rated/5
 - Decision: delete
@@ -7130,8 +7130,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Well Mouth Mimic
 
-- Render ID: `rnd_6794b85e159d5da071208a56`
-- Path: `enemies/living-houses-roadside-mimics-batch-19/drafts/02-well-mouth-mimic-reference-256.png`
+- Render ID: `rnd_ff6f950c4b32b5f87163c9e8`
+- Path: `enemies/living-houses-roadside-mimics-batch-19/drafts/02-well-mouth-mimic.png`
 - Collection: Living Houses Roadside Mimics Batch 19
 - Rating: Not rated/5
 - Decision: delete
@@ -7143,8 +7143,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bell Tongue Ritualist
 
-- Render ID: `rnd_541eed063234c781a4aec7e7`
-- Path: `enemies/manananggal-variations-batch-06/04-bell-tongue-ritualist-reference-256.png`
+- Render ID: `rnd_beebe0df3c272ab4b96492df`
+- Path: `enemies/manananggal-variations-batch-06/04-bell-tongue-ritualist.png`
 - Collection: Manananggal Variations Batch 06
 - Rating: Not rated/5
 - Decision: delete
@@ -7156,8 +7156,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Moon Matriarch
 
-- Render ID: `rnd_189ca07c85094fa2beb196d3`
-- Path: `enemies/manananggal-variations-batch-06/02-blood-moon-matriarch-reference-256.png`
+- Render ID: `rnd_236d9d0c5518b1f0f69e1bc6`
+- Path: `enemies/manananggal-variations-batch-06/02-blood-moon-matriarch.png`
 - Collection: Manananggal Variations Batch 06
 - Rating: Not rated/5
 - Decision: delete
@@ -7169,8 +7169,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Roof Hunter Manananggal
 
-- Render ID: `rnd_a710cb02ca08435fbd5485f2`
-- Path: `enemies/manananggal-variations-batch-06/01-roof-hunter-manananggal-reference-256.png`
+- Render ID: `rnd_b9820a58492547f07b66b392`
+- Path: `enemies/manananggal-variations-batch-06/01-roof-hunter-manananggal.png`
 - Collection: Manananggal Variations Batch 06
 - Rating: Not rated/5
 - Decision: delete
@@ -7182,8 +7182,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Scarred Exile
 
-- Render ID: `rnd_7ed77e8909b2db386368fe7e`
-- Path: `enemies/manananggal-variations-batch-06/05-salt-scarred-exile-reference-256.png`
+- Render ID: `rnd_930482bb3256c8dce65ace3b`
+- Path: `enemies/manananggal-variations-batch-06/05-salt-scarred-exile.png`
 - Collection: Manananggal Variations Batch 06
 - Rating: Not rated/5
 - Decision: delete
@@ -7195,8 +7195,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thatch Wing Prowler
 
-- Render ID: `rnd_23c2479860096cc9f57f9f42`
-- Path: `enemies/manananggal-variations-batch-06/03-thatch-wing-prowler-reference-256.png`
+- Render ID: `rnd_130f5a098ecd8bb57fae4c92`
+- Path: `enemies/manananggal-variations-batch-06/03-thatch-wing-prowler.png`
 - Collection: Manananggal Variations Batch 06
 - Rating: Not rated/5
 - Decision: delete
@@ -7208,8 +7208,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tapis Snare Mourner
 
-- Render ID: `rnd_44df1af1070094da94e0c226`
-- Path: `enemies/maria-clara-corruptions-batch-41/drafts/04-tapis-snare-mourner-reference-256.png`
+- Render ID: `rnd_778c70ec13a35c7c27ea7cca`
+- Path: `enemies/maria-clara-corruptions-batch-41/drafts/04-tapis-snare-mourner.png`
 - Collection: Maria Clara Corruptions Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -7221,8 +7221,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wake Stiff Processional
 
-- Render ID: `rnd_c6c2a20342a4f46e402ec234`
-- Path: `enemies/maria-clara-corruptions-batch-41/drafts/03-wake-stiff-processional-reference-256.png`
+- Render ID: `rnd_1459ac85fdf3b049f228279d`
+- Path: `enemies/maria-clara-corruptions-batch-41/drafts/03-wake-stiff-processional.png`
 - Collection: Maria Clara Corruptions Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -7234,8 +7234,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blank Mouth Ashpot Thrower
 
-- Render ID: `rnd_d4d4da59d14c4b345f95d1ba`
-- Path: `enemies/masked-ash-levy-batch-28/drafts/05-blank-mouth-ashpot-thrower-reference-256.png`
+- Render ID: `rnd_b799b3fd99bf6c63c33e4d99`
+- Path: `enemies/masked-ash-levy-batch-28/drafts/05-blank-mouth-ashpot-thrower.png`
 - Collection: Masked Ash Levy Batch 28
 - Rating: Not rated/5
 - Decision: delete
@@ -7247,8 +7247,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grinning Pike Sentry
 
-- Render ID: `rnd_04b7de77f746f09d18cad5aa`
-- Path: `enemies/masked-ash-levy-batch-28/drafts/01-grinning-pike-sentry-reference-256.png`
+- Render ID: `rnd_3a9997e3f65e4283da52e1fa`
+- Path: `enemies/masked-ash-levy-batch-28/drafts/01-grinning-pike-sentry.png`
 - Collection: Masked Ash Levy Batch 28
 - Rating: Not rated/5
 - Decision: delete
@@ -7260,8 +7260,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Eye Crossbowman
 
-- Render ID: `rnd_60f76aad709641110f28a025`
-- Path: `enemies/masked-ash-levy-batch-28/drafts/04-hollow-eye-crossbowman-reference-256.png`
+- Render ID: `rnd_9c8d6c9811c68b5cd34d7a2f`
+- Path: `enemies/masked-ash-levy-batch-28/drafts/04-hollow-eye-crossbowman.png`
 - Collection: Masked Ash Levy Batch 28
 - Rating: Not rated/5
 - Decision: delete
@@ -7273,8 +7273,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Weeping Shield Mourner
 
-- Render ID: `rnd_55a8c17210dd5de8f4a76363`
-- Path: `enemies/masked-ash-levy-batch-28/drafts/02-weeping-shield-mourner-reference-256.png`
+- Render ID: `rnd_e5d03b025b3bbbc8376668ec`
+- Path: `enemies/masked-ash-levy-batch-28/drafts/02-weeping-shield-mourner.png`
 - Collection: Masked Ash Levy Batch 28
 - Rating: Not rated/5
 - Decision: delete
@@ -7286,8 +7286,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wrath Bolo Pursuer
 
-- Render ID: `rnd_0802295e32e5d7ea4dfaf1ca`
-- Path: `enemies/masked-ash-levy-batch-28/drafts/03-wrath-bolo-pursuer-reference-256.png`
+- Render ID: `rnd_ab323f4e0ccb11d70a1ac1e6`
+- Path: `enemies/masked-ash-levy-batch-28/drafts/03-wrath-bolo-pursuer.png`
 - Collection: Masked Ash Levy Batch 28
 - Rating: Not rated/5
 - Decision: delete
@@ -7299,8 +7299,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blind Cave Pilgrim
 
-- Render ID: `rnd_7bf401b610724886e4209341`
-- Path: `enemies/mountain-cave-horrors-batch-20/drafts/01-blind-cave-pilgrim-reference-256.png`
+- Render ID: `rnd_c018c96469c2f51d25bd18e9`
+- Path: `enemies/mountain-cave-horrors-batch-20/drafts/01-blind-cave-pilgrim.png`
 - Collection: Mountain Cave Horrors Batch 20
 - Rating: Not rated/5
 - Decision: delete
@@ -7312,8 +7312,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Echo Mouth Hunter
 
-- Render ID: `rnd_5c6f34a872a45e4081af2d13`
-- Path: `enemies/mountain-cave-horrors-batch-20/drafts/03-echo-mouth-hunter-reference-256.png`
+- Render ID: `rnd_b8a022b3d2d696b7be30721e`
+- Path: `enemies/mountain-cave-horrors-batch-20/drafts/03-echo-mouth-hunter.png`
 - Collection: Mountain Cave Horrors Batch 20
 - Rating: Not rated/5
 - Decision: delete
@@ -7325,8 +7325,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hanging Root Lurker
 
-- Render ID: `rnd_4b5e7611ae57a01c65c731ab`
-- Path: `enemies/mountain-cave-horrors-batch-20/drafts/02-hanging-root-lurker-reference-256.png`
+- Render ID: `rnd_21bbe0521598bb6cde93cc89`
+- Path: `enemies/mountain-cave-horrors-batch-20/drafts/02-hanging-root-lurker.png`
 - Collection: Mountain Cave Horrors Batch 20
 - Rating: Not rated/5
 - Decision: delete
@@ -7338,8 +7338,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bamboo Sword Cane Visitador
 
-- Render ID: `rnd_f71406cefe9f7521662b3295`
-- Path: `enemies/murderous-friars-batch-42/rejected/03-bamboo-sword-cane-visitador-reference-256.png`
+- Render ID: `rnd_b72bde02429f756ccd69a4da`
+- Path: `enemies/murderous-friars-batch-42/rejected/03-bamboo-sword-cane-visitador.png`
 - Collection: Murderous Friars Batch 42 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7351,8 +7351,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bitter Alms Poisoner
 
-- Render ID: `rnd_138516e9231c4631e59f28f6`
-- Path: `enemies/murderous-friars-batch-42/rejected/04-bitter-alms-poisoner-reference-256.png`
+- Render ID: `rnd_7c832038499ce51ab32fe272`
+- Path: `enemies/murderous-friars-batch-42/rejected/04-bitter-alms-poisoner.png`
 - Collection: Murderous Friars Batch 42 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7364,8 +7364,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Bamboo Blowpipe Friar
 
-- Render ID: `rnd_cb5726c3b0deb34f57334bfb`
-- Path: `enemies/murderous-friars-batch-42/rejected/01-black-bamboo-blowpipe-friar-reference-256.png`
+- Render ID: `rnd_5e82ae4cabe1b4afec7d0f46`
+- Path: `enemies/murderous-friars-batch-42/rejected/01-black-bamboo-blowpipe-friar.png`
 - Collection: Murderous Friars Batch 42 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7377,8 +7377,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Paten Razor Friar
 
-- Render ID: `rnd_587f827bae34ccd11c335c5f`
-- Path: `enemies/murderous-friars-batch-42/rejected/02-paten-razor-friar-reference-256.png`
+- Render ID: `rnd_76ed8f815bd58e22ff46c291`
+- Path: `enemies/murderous-friars-batch-42/rejected/02-paten-razor-friar.png`
 - Collection: Murderous Friars Batch 42 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7390,8 +7390,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rattan Switch Disciplinarian
 
-- Render ID: `rnd_526eb7ae41a00b52a8b7047f`
-- Path: `enemies/murderous-friars-batch-42/rejected/05-rattan-switch-disciplinarian-reference-256.png`
+- Render ID: `rnd_1fcfcd336c75651ea908a79a`
+- Path: `enemies/murderous-friars-batch-42/rejected/05-rattan-switch-disciplinarian.png`
 - Collection: Murderous Friars Batch 42 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -7403,8 +7403,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Lace Shears Wife
 
-- Render ID: `rnd_a3105cf7db83279d9347fa21`
-- Path: `enemies/murderous-wives-batch-41/drafts/03-black-lace-shears-wife-reference-256.png`
+- Render ID: `rnd_e4c778fbc7e03799ec603ba9`
+- Path: `enemies/murderous-wives-batch-41/drafts/03-black-lace-shears-wife.png`
 - Collection: Murderous Wives Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7416,8 +7416,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Garden Sickle Consort
 
-- Render ID: `rnd_76c34cc3e9e42f6c16470ec5`
-- Path: `enemies/murderous-wives-batch-41/drafts/04-garden-sickle-consort-reference-256.png`
+- Render ID: `rnd_4048383fc3d21ae38a4dfa89`
+- Path: `enemies/murderous-wives-batch-41/drafts/04-garden-sickle-consort.png`
 - Collection: Murderous Wives Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7429,8 +7429,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rice Pestle Hearth Matron
 
-- Render ID: `rnd_6cd709d67bae4705cce610c4`
-- Path: `enemies/murderous-wives-batch-41/drafts/02-rice-pestle-hearth-matron-reference-256.png`
+- Render ID: `rnd_8166fd897c7a0b1c207e8f0a`
+- Path: `enemies/murderous-wives-batch-41/drafts/02-rice-pestle-hearth-matron.png`
 - Collection: Murderous Wives Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7442,8 +7442,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Star Arquebusier
 
-- Render ID: `rnd_9bf99598117b1d343737517b`
-- Path: `enemies/otherworldly-knights-batch-41/drafts/02-capiz-star-arquebusier-reference-256.png`
+- Render ID: `rnd_30649aef05903c35022aa922`
+- Path: `enemies/otherworldly-knights-batch-41/drafts/02-capiz-star-arquebusier.png`
 - Collection: Otherworldly Knights Batch 41
 - Rating: 1/5
 - Decision: delete
@@ -7455,8 +7455,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cardinal Weight Warden
 
-- Render ID: `rnd_c0075d4288ad0aeebfb46934`
-- Path: `enemies/otherworldly-knights-batch-41/drafts/04-cardinal-weight-warden-reference-256.png`
+- Render ID: `rnd_3ee1a7610d98f86c1db48433`
+- Path: `enemies/otherworldly-knights-batch-41/drafts/04-cardinal-weight-warden.png`
 - Collection: Otherworldly Knights Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7468,8 +7468,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Folded Gate Counterguard
 
-- Render ID: `rnd_33ececd6227bfae011f2a382`
-- Path: `enemies/otherworldly-knights-batch-41/drafts/03-folded-gate-counterguard-reference-256.png`
+- Render ID: `rnd_710edb313bb3bcf84a200a70`
+- Path: `enemies/otherworldly-knights-batch-41/drafts/03-folded-gate-counterguard.png`
 - Collection: Otherworldly Knights Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7481,8 +7481,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Noonless Eclipse Sentinel
 
-- Render ID: `rnd_738e0d7d74d10969f799bbad`
-- Path: `enemies/otherworldly-knights-batch-41/drafts/05-noonless-eclipse-sentinel-reference-256.png`
+- Render ID: `rnd_078cad35767d82c4a3385f10`
+- Path: `enemies/otherworldly-knights-batch-41/drafts/05-noonless-eclipse-sentinel.png`
 - Collection: Otherworldly Knights Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7494,8 +7494,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Upward Rain Lancer
 
-- Render ID: `rnd_ff5cf1dffcbf5208fc015223`
-- Path: `enemies/otherworldly-knights-batch-41/drafts/01-upward-rain-lancer-reference-256.png`
+- Render ID: `rnd_2adeda31295977b44a1b573b`
+- Path: `enemies/otherworldly-knights-batch-41/drafts/01-upward-rain-lancer.png`
 - Collection: Otherworldly Knights Batch 41
 - Rating: Not rated/5
 - Decision: delete
@@ -7507,8 +7507,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Vow Bulwark
 
-- Render ID: `rnd_5510b1e64dccb5feb15a3079`
-- Path: `enemies/penitent-knights-batch-37/drafts/01-abaca-vow-bulwark-reference-256.png`
+- Render ID: `rnd_14ad6a8a6aaa236f6206000b`
+- Path: `enemies/penitent-knights-batch-37/drafts/01-abaca-vow-bulwark.png`
 - Collection: Penitent Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -7520,8 +7520,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Cord Contrite
 
-- Render ID: `rnd_8df54c29e994cd10b39fac38`
-- Path: `enemies/penitent-knights-batch-37/drafts/03-ash-cord-contrite-reference-256.png`
+- Render ID: `rnd_20304c4dbab3717106e50c61`
+- Path: `enemies/penitent-knights-batch-37/drafts/03-ash-cord-contrite.png`
 - Collection: Penitent Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -7533,8 +7533,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Stone Burdener
 
-- Render ID: `rnd_f248ed991a085b3136ba8fe5`
-- Path: `enemies/penitent-knights-batch-37/drafts/04-river-stone-burdener-v02-reference-256.png`
+- Render ID: `rnd_a636f6d59506eac46424e3cc`
+- Path: `enemies/penitent-knights-batch-37/drafts/04-river-stone-burdener-v02.png`
 - Collection: Penitent Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -7546,8 +7546,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Back Handed Roost
 
-- Render ID: `rnd_54f70741de5a4f2ec38437b9`
-- Path: `enemies/philippine-folklore-batch-03/17-back-handed-roost-reference-256.png`
+- Render ID: `rnd_815687336425731791c08fc1`
+- Path: `enemies/philippine-folklore-batch-03/17-back-handed-roost.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7559,8 +7559,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Backstepper
 
-- Render ID: `rnd_bc22cf95c6841329eeaf68b6`
-- Path: `enemies/philippine-folklore-batch-03/09-backstepper-reference-256.png`
+- Render ID: `rnd_b9f92a3878d08b32150721e7`
+- Path: `enemies/philippine-folklore-batch-03/09-backstepper.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7572,8 +7572,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Ember Watcher
 
-- Render ID: `rnd_560216454b684f58f0ad181e`
-- Path: `enemies/philippine-folklore-batch-03/05-balete-ember-watcher-reference-256.png`
+- Render ID: `rnd_bf41eeab76d79080badedfe3`
+- Path: `enemies/philippine-folklore-batch-03/05-balete-ember-watcher.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7585,8 +7585,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Beetle Vessel
 
-- Render ID: `rnd_4deabc8c4e8f1f17e3c4ed67`
-- Path: `enemies/philippine-folklore-batch-03/19-beetle-vessel-reference-256.png`
+- Render ID: `rnd_5a8da1987e5820e0a344ad2d`
+- Path: `enemies/philippine-folklore-batch-03/19-beetle-vessel.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7598,8 +7598,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bench Wight
 
-- Render ID: `rnd_11b205e143f9a99ccf56d988`
-- Path: `enemies/philippine-folklore-batch-03/11-bench-wight-reference-256.png`
+- Render ID: `rnd_6628aa2370b0b134779a699c`
+- Path: `enemies/philippine-folklore-batch-03/11-bench-wight.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7611,8 +7611,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drizzle Walker
 
-- Render ID: `rnd_677c562c52d3314113e878d4`
-- Path: `enemies/philippine-folklore-batch-03/06-drizzle-walker-reference-256.png`
+- Render ID: `rnd_2f6359c614b2b73b278d6b6c`
+- Path: `enemies/philippine-folklore-batch-03/06-drizzle-walker.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7624,8 +7624,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Kikik Underhouse Caller
 
-- Render ID: `rnd_efb2ec8781065fe55dd8a298`
-- Path: `enemies/philippine-folklore-batch-03/04-kikik-underhouse-caller-reference-256.png`
+- Render ID: `rnd_7260aa1467c04be35a199f1b`
+- Path: `enemies/philippine-folklore-batch-03/04-kikik-underhouse-caller.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7637,8 +7637,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Laughing Field Giant
 
-- Render ID: `rnd_ea2ea520bb03eb8da3d554f8`
-- Path: `enemies/philippine-folklore-batch-03/15-laughing-field-giant-reference-256.png`
+- Render ID: `rnd_48cd80ea7b2b78c2be623399`
+- Path: `enemies/philippine-folklore-batch-03/15-laughing-field-giant.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7650,8 +7650,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Eaters Spawn
 
-- Render ID: `rnd_4030b4dcc10842c400453cbe`
-- Path: `enemies/philippine-folklore-batch-03/20-moon-eaters-spawn-reference-256.png`
+- Render ID: `rnd_ccdd5d33de6a4e443acf668d`
+- Path: `enemies/philippine-folklore-batch-03/20-moon-eaters-spawn.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7663,8 +7663,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mud Luring Santelmo
 
-- Render ID: `rnd_4dbba25e06b6d9a38598768a`
-- Path: `enemies/philippine-folklore-batch-03/12-mud-luring-santelmo-reference-256.png`
+- Render ID: `rnd_966642ad702f0eb68c45e57c`
+- Path: `enemies/philippine-folklore-batch-03/12-mud-luring-santelmo.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7676,8 +7676,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Ointment Flier
 
-- Render ID: `rnd_7086fbcf7655f3a16e45b27f`
-- Path: `enemies/philippine-folklore-batch-03/02-night-ointment-flier-reference-256.png`
+- Render ID: `rnd_de46aa0d5f8d690ba0bbb3a2`
+- Path: `enemies/philippine-folklore-batch-03/02-night-ointment-flier.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7689,8 +7689,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Orchard Stalker
 
-- Render ID: `rnd_522791ac076b9c007d5d377c`
-- Path: `enemies/philippine-folklore-batch-03/18-orchard-stalker-reference-256.png`
+- Render ID: `rnd_46851db393fa6ee073edd4bb`
+- Path: `enemies/philippine-folklore-batch-03/18-orchard-stalker.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7702,8 +7702,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rice Mortar Listener
 
-- Render ID: `rnd_5844573971620976aebcff83`
-- Path: `enemies/philippine-folklore-batch-03/01-rice-mortar-listener-reference-256.png`
+- Render ID: `rnd_1fbe4ab94c2748c2c66a6cd9`
+- Path: `enemies/philippine-folklore-batch-03/01-rice-mortar-listener.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7715,8 +7715,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Dam Ogre
 
-- Render ID: `rnd_a5a9472f9ced7f4c4f64fd10`
-- Path: `enemies/philippine-folklore-batch-03/16-river-dam-ogre-reference-256.png`
+- Render ID: `rnd_8c05a06203ec613708cbc3e5`
+- Path: `enemies/philippine-folklore-batch-03/16-river-dam-ogre.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7728,8 +7728,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Leg Tikbalang
 
-- Render ID: `rnd_de3591e472bc0fa519fd0bb3`
-- Path: `enemies/philippine-folklore-batch-03/08-river-leg-tikbalang-reference-256.png`
+- Render ID: `rnd_bcfd2eeaafe543e24b66d320`
+- Path: `enemies/philippine-folklore-batch-03/08-river-leg-tikbalang.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7741,8 +7741,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Road Turner
 
-- Render ID: `rnd_5fbb21d3cb137c4f3904eaed`
-- Path: `enemies/philippine-folklore-batch-03/07-road-turner-reference-256.png`
+- Render ID: `rnd_b4d26c95ada2344e7d3b0002`
+- Path: `enemies/philippine-folklore-batch-03/07-road-turner.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7754,8 +7754,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sigbin Keeper
 
-- Render ID: `rnd_031ed14706014e467243aaa8`
-- Path: `enemies/philippine-folklore-batch-03/10-sigbin-keeper-reference-256.png`
+- Render ID: `rnd_f388f5968889d940a58b3a61`
+- Path: `enemies/philippine-folklore-batch-03/10-sigbin-keeper.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7767,8 +7767,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Straight Walker
 
-- Render ID: `rnd_710026734102b8458044a00e`
-- Path: `enemies/philippine-folklore-batch-03/14-straight-walker-reference-256.png`
+- Render ID: `rnd_77cdf0129c0e488ad5e5c9c6`
+- Path: `enemies/philippine-folklore-batch-03/14-straight-walker.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7780,8 +7780,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thatch Glider
 
-- Render ID: `rnd_eaa1938926bfa6548108d2c5`
-- Path: `enemies/philippine-folklore-batch-03/13-thatch-glider-reference-256.png`
+- Render ID: `rnd_47603b5ed280de0cbc31f8d5`
+- Path: `enemies/philippine-folklore-batch-03/13-thatch-glider.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7793,8 +7793,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wakwak Roof Scout
 
-- Render ID: `rnd_7891807dba19035651d4456c`
-- Path: `enemies/philippine-folklore-batch-03/03-wakwak-roof-scout-reference-256.png`
+- Render ID: `rnd_6016ffe7117afe1f5666b323`
+- Path: `enemies/philippine-folklore-batch-03/03-wakwak-roof-scout.png`
 - Collection: Philippine Folklore Batch 03
 - Rating: Not rated/5
 - Decision: delete
@@ -7806,8 +7806,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blunt Bob Kiln Breaker
 
-- Render ID: `rnd_51e06009e74fd6fee8bfb6ec`
-- Path: `enemies/porcelain-knights-batch-42/drafts/07-blunt-bob-kiln-breaker-reference-256.png`
+- Render ID: `rnd_2441d83159f40c27e25c36ad`
+- Path: `enemies/porcelain-knights-batch-42/drafts/07-blunt-bob-kiln-breaker.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7819,8 +7819,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Braided Crown Pike Marshal
 
-- Render ID: `rnd_b79a741b51251af92f3b62ae`
-- Path: `enemies/porcelain-knights-batch-42/drafts/06-braided-crown-pike-marshal-reference-256.png`
+- Render ID: `rnd_29f1ab7271a8c1836a62d385`
+- Path: `enemies/porcelain-knights-batch-42/drafts/06-braided-crown-pike-marshal.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7832,8 +7832,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Coiled Knot Bolo Duelist
 
-- Render ID: `rnd_dfbac94a64dc9e3be5b021cf`
-- Path: `enemies/porcelain-knights-batch-42/drafts/08-coiled-knot-bolo-duelist-reference-256.png`
+- Render ID: `rnd_d8170a096f3e0674cc71914e`
+- Path: `enemies/porcelain-knights-batch-42/drafts/08-coiled-knot-bolo-duelist.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7845,8 +7845,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Copper Stitch Hook Warden
 
-- Render ID: `rnd_6a23fec64b891d04bffed46d`
-- Path: `enemies/porcelain-knights-batch-42/drafts/05-copper-stitch-hook-warden-reference-256.png`
+- Render ID: `rnd_48803788205f5365128b483f`
+- Path: `enemies/porcelain-knights-batch-42/drafts/05-copper-stitch-hook-warden.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7858,8 +7858,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Kiln Split Maul Bearer
 
-- Render ID: `rnd_6f55affad2b42068592f5616`
-- Path: `enemies/porcelain-knights-batch-42/drafts/02-kiln-split-maul-bearer-reference-256.png`
+- Render ID: `rnd_cce0f4c103a68407ac3282dc`
+- Path: `enemies/porcelain-knights-batch-42/drafts/02-kiln-split-maul-bearer.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7871,8 +7871,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Loose Wave Hook Warden
 
-- Render ID: `rnd_77fd1dfc3edf9d29035b341a`
-- Path: `enemies/porcelain-knights-batch-42/drafts/10-loose-wave-hook-warden-reference-256.png`
+- Render ID: `rnd_dd129993044d45e55c09221b`
+- Path: `enemies/porcelain-knights-batch-42/drafts/10-loose-wave-hook-warden.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7884,8 +7884,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Porcelain Pike Sentinel
 
-- Render ID: `rnd_1f193a33af2471c9e8812b41`
-- Path: `enemies/porcelain-knights-batch-42/drafts/01-porcelain-pike-sentinel-reference-256.png`
+- Render ID: `rnd_cd55834834a9017f5476c653`
+- Path: `enemies/porcelain-knights-batch-42/drafts/01-porcelain-pike-sentinel.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7897,8 +7897,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Side Braid Tile Arbalist
 
-- Render ID: `rnd_1cac8969b8924e924668655e`
-- Path: `enemies/porcelain-knights-batch-42/drafts/09-side-braid-tile-arbalist-reference-256.png`
+- Render ID: `rnd_d335c02792ea768203bfcec3`
+- Path: `enemies/porcelain-knights-batch-42/drafts/09-side-braid-tile-arbalist.png`
 - Collection: Porcelain Knights Batch 42
 - Rating: Not rated/5
 - Decision: delete
@@ -7910,8 +7910,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Shackle Lunger
 
-- Render ID: `rnd_af7dfa670727ec887674087c`
-- Path: `enemies/prisoners-criminals-batch-39/drafts/01-ash-shackle-lunger-reference-256.png`
+- Render ID: `rnd_7b67e3b58d3b1ba73638b3c4`
+- Path: `enemies/prisoners-criminals-batch-39/drafts/01-ash-shackle-lunger.png`
 - Collection: Prisoners Criminals Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -7923,8 +7923,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Contraband Pot Smuggler
 
-- Render ID: `rnd_6772175ded27be2b84f2caa5`
-- Path: `enemies/prisoners-criminals-batch-39/drafts/03-contraband-pot-smuggler-reference-256.png`
+- Render ID: `rnd_a21edf9175061e378b450edf`
+- Path: `enemies/prisoners-criminals-batch-39/drafts/03-contraband-pot-smuggler.png`
 - Collection: Prisoners Criminals Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -7936,8 +7936,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Latch Lockbreaker
 
-- Render ID: `rnd_0ee6b745b7884a23f12dc3aa`
-- Path: `enemies/prisoners-criminals-batch-39/drafts/04-iron-latch-lockbreaker-reference-256.png`
+- Render ID: `rnd_7f494db5bb2948139658dbdf`
+- Path: `enemies/prisoners-criminals-batch-39/drafts/04-iron-latch-lockbreaker.png`
 - Collection: Prisoners Criminals Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -7949,8 +7949,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Quarry Collar Hammerer
 
-- Render ID: `rnd_e5ca77f0df099a322d0d0ade`
-- Path: `enemies/prisoners-criminals-batch-39/drafts/02-quarry-collar-hammerer-reference-256.png`
+- Render ID: `rnd_72b5efe869ebb9345d1f36c6`
+- Path: `enemies/prisoners-criminals-batch-39/drafts/02-quarry-collar-hammerer.png`
 - Collection: Prisoners Criminals Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -7962,8 +7962,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sentence Rope Snarer
 
-- Render ID: `rnd_2e9177453e35c483700983d3`
-- Path: `enemies/prisoners-criminals-batch-39/drafts/05-sentence-rope-snarer-reference-256.png`
+- Render ID: `rnd_9d1abedc7a5956be9e82ea73`
+- Path: `enemies/prisoners-criminals-batch-39/drafts/05-sentence-rope-snarer.png`
 - Collection: Prisoners Criminals Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -7975,8 +7975,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Road Reaper
 
-- Render ID: `rnd_2933563c5c88324a77a8bbf4`
-- Path: `enemies/reapers-batch-40/drafts/04-drowned-road-reaper-reference-256.png`
+- Render ID: `rnd_e601dd1869b07ad7c455f912`
+- Path: `enemies/reapers-batch-40/drafts/04-drowned-road-reaper.png`
 - Collection: Reapers Batch 40
 - Rating: Not rated/5
 - Decision: delete
@@ -7988,8 +7988,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rice Wake Reaper
 
-- Render ID: `rnd_e5af86c71fe594294271b9b5`
-- Path: `enemies/reapers-batch-40/drafts/01-rice-wake-reaper-reference-256.png`
+- Render ID: `rnd_f32f9922ef7c6bd429f8411f`
+- Path: `enemies/reapers-batch-40/drafts/01-rice-wake-reaper.png`
 - Collection: Reapers Batch 40
 - Rating: Not rated/5
 - Decision: delete
@@ -8001,8 +8001,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Antlered Cinder Healer
 
-- Render ID: `rnd_c1d2aa9bf6b42ad37814500b`
-- Path: `enemies/redeemed-demons-batch-22/drafts/03-antlered-cinder-healer-reference-256.png`
+- Render ID: `rnd_0e4c2a3d8e94a3179c3c1695`
+- Path: `enemies/redeemed-demons-batch-22/drafts/03-antlered-cinder-healer.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8014,8 +8014,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Plume Harrowbird
 
-- Render ID: `rnd_fe505d2836ac90d1bb5140d1`
-- Path: `enemies/redeemed-demons-batch-22/drafts/23-ash-plume-harrowbird-reference-256.png`
+- Render ID: `rnd_470187d477502441534e54c8`
+- Path: `enemies/redeemed-demons-batch-22/drafts/23-ash-plume-harrowbird.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8027,8 +8027,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashwing Firebreak
 
-- Render ID: `rnd_80bd08b9726cb1c3bc866e57`
-- Path: `enemies/redeemed-demons-batch-22/drafts/13-ashwing-firebreak-reference-256.png`
+- Render ID: `rnd_94d09360028873fb30f9d0ee`
+- Path: `enemies/redeemed-demons-batch-22/drafts/13-ashwing-firebreak.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8040,8 +8040,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bone Sail Wayfinder
 
-- Render ID: `rnd_4cabee9b284ef73fe0a084ba`
-- Path: `enemies/redeemed-demons-batch-22/drafts/18-bone-sail-wayfinder-reference-256.png`
+- Render ID: `rnd_e6c1f96219d5b1df2efe9e73`
+- Path: `enemies/redeemed-demons-batch-22/drafts/18-bone-sail-wayfinder.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8053,8 +8053,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Broken Horn Shieldbearer
 
-- Render ID: `rnd_0548abeb3bbfcc8d3df7b86f`
-- Path: `enemies/redeemed-demons-batch-22/drafts/01-broken-horn-shieldbearer-reference-256.png`
+- Render ID: `rnd_833fe4a09360cad496190ec2`
+- Path: `enemies/redeemed-demons-batch-22/drafts/01-broken-horn-shieldbearer.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8066,8 +8066,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crescent Coil Sealkeeper
 
-- Render ID: `rnd_334860e4bd59bc5a45589a1e`
-- Path: `enemies/redeemed-demons-batch-22/drafts/22-crescent-coil-sealkeeper-reference-256.png`
+- Render ID: `rnd_9281418c1557c2197d38b823`
+- Path: `enemies/redeemed-demons-batch-22/drafts/22-crescent-coil-sealkeeper.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8079,8 +8079,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crooked Wing Beacon
 
-- Render ID: `rnd_0ac477de826bd1abef4b8bca`
-- Path: `enemies/redeemed-demons-batch-22/drafts/14-crooked-wing-beacon-reference-256.png`
+- Render ID: `rnd_dca18dd7def85419294c69ab`
+- Path: `enemies/redeemed-demons-batch-22/drafts/14-crooked-wing-beacon.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8092,8 +8092,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crownless Warlord
 
-- Render ID: `rnd_dd3da905e2c0da0dec098d3e`
-- Path: `enemies/redeemed-demons-batch-22/drafts/05-crownless-warlord-reference-256.png`
+- Render ID: `rnd_4b432c269c68f255f2825e80`
+- Path: `enemies/redeemed-demons-batch-22/drafts/05-crownless-warlord.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8105,8 +8105,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Four Armed Chainbreaker
 
-- Render ID: `rnd_b3230851b653dd39b3bf6661`
-- Path: `enemies/redeemed-demons-batch-22/drafts/07-four-armed-chainbreaker-reference-256.png`
+- Render ID: `rnd_2744eb32f46a6170f8d21e0d`
+- Path: `enemies/redeemed-demons-batch-22/drafts/07-four-armed-chainbreaker.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8118,8 +8118,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Glasswing Atoner
 
-- Render ID: `rnd_d2fda268c656f2e789ec83c1`
-- Path: `enemies/redeemed-demons-batch-22/drafts/15-glasswing-atoner-reference-256.png`
+- Render ID: `rnd_0dbbf4e223f37d6454f8f0c3`
+- Path: `enemies/redeemed-demons-batch-22/drafts/15-glasswing-atoner.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8131,8 +8131,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Eyed River Newt
 
-- Render ID: `rnd_adf90811a928fee28ab13543`
-- Path: `enemies/redeemed-demons-batch-22/drafts/24-moon-eyed-river-newt-reference-256.png`
+- Render ID: `rnd_3c3467204020e156864e7c66`
+- Path: `enemies/redeemed-demons-batch-22/drafts/24-moon-eyed-river-newt.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8144,8 +8144,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Ring Sentinel
 
-- Render ID: `rnd_9604f904d40ac37b57b11081`
-- Path: `enemies/redeemed-demons-batch-22/drafts/17-moon-ring-sentinel-reference-256.png`
+- Render ID: `rnd_f9a269971ec30afc190475d8`
+- Path: `enemies/redeemed-demons-batch-22/drafts/17-moon-ring-sentinel.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8157,8 +8157,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Muzzle Bound Oathkeeper
 
-- Render ID: `rnd_8297f86d782d247fb24c53a6`
-- Path: `enemies/redeemed-demons-batch-22/drafts/04-muzzle-bound-oathkeeper-reference-256.png`
+- Render ID: `rnd_0f9c8cf89f92ec47fe4da7da`
+- Path: `enemies/redeemed-demons-batch-22/drafts/04-muzzle-bound-oathkeeper.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8170,8 +8170,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### One Wing Penitent
 
-- Render ID: `rnd_fba35dae36935634c2fd1173`
-- Path: `enemies/redeemed-demons-batch-22/drafts/10-one-wing-penitent-reference-256.png`
+- Render ID: `rnd_731e7ce833749e7fd9c5cd48`
+- Path: `enemies/redeemed-demons-batch-22/drafts/10-one-wing-penitent.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8183,8 +8183,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Centaur Guardian
 
-- Render ID: `rnd_4af13336a8b26654a036f87e`
-- Path: `enemies/redeemed-demons-batch-22/drafts/19-pale-centaur-guardian-reference-256.png`
+- Render ID: `rnd_9bd10eaf9aee828bf13273c6`
+- Path: `enemies/redeemed-demons-batch-22/drafts/19-pale-centaur-guardian.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8196,8 +8196,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ram Headed Gate Sealer
 
-- Render ID: `rnd_7c879e17405e54ece8d2a4db`
-- Path: `enemies/redeemed-demons-batch-22/drafts/02-ram-headed-gate-sealer-reference-256.png`
+- Render ID: `rnd_cd83514d50e06dbd8d2dc67d`
+- Path: `enemies/redeemed-demons-batch-22/drafts/02-ram-headed-gate-sealer.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8209,8 +8209,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Leg Blight Cleanser
 
-- Render ID: `rnd_cc83ab1e4dbdac96b586a769`
-- Path: `enemies/redeemed-demons-batch-22/drafts/09-root-leg-blight-cleanser-reference-256.png`
+- Render ID: `rnd_e6f16afb567eb2af0ca88bf3`
+- Path: `enemies/redeemed-demons-batch-22/drafts/09-root-leg-blight-cleanser.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8222,8 +8222,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Serpent Tailed Soul Guide
 
-- Render ID: `rnd_b8f83c1d4abf2ab5cb1ee684`
-- Path: `enemies/redeemed-demons-batch-22/drafts/08-serpent-tailed-soul-guide-reference-256.png`
+- Render ID: `rnd_0d959386767c75faa8d57f3b`
+- Path: `enemies/redeemed-demons-batch-22/drafts/08-serpent-tailed-soul-guide.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8235,8 +8235,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shellback Mercy Carrier
 
-- Render ID: `rnd_8ef8c1e84a2acd5d95c3628b`
-- Path: `enemies/redeemed-demons-batch-22/drafts/21-shellback-mercy-carrier-reference-256.png`
+- Render ID: `rnd_0507a3eb2169baea5ad3e3a7`
+- Path: `enemies/redeemed-demons-batch-22/drafts/21-shellback-mercy-carrier.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8248,8 +8248,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Six Legged Burden Bearer
 
-- Render ID: `rnd_29f2830eee45c256e1d3954f`
-- Path: `enemies/redeemed-demons-batch-22/drafts/20-six-legged-burden-bearer-reference-256.png`
+- Render ID: `rnd_ec94d1d07cea31a3b7c7fbc7`
+- Path: `enemies/redeemed-demons-batch-22/drafts/20-six-legged-burden-bearer.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8261,8 +8261,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Smoke Mantle Watcher
 
-- Render ID: `rnd_cfbce7aeaac21d158f51bbd3`
-- Path: `enemies/redeemed-demons-batch-22/drafts/16-smoke-mantle-watcher-reference-256.png`
+- Render ID: `rnd_1de3ac6524fd4e9e19c9977f`
+- Path: `enemies/redeemed-demons-batch-22/drafts/16-smoke-mantle-watcher.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8274,8 +8274,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Stoneback Refuge Warden
 
-- Render ID: `rnd_7bda29e17dcabadc295d76d5`
-- Path: `enemies/redeemed-demons-batch-22/drafts/12-stoneback-refuge-warden-reference-256.png`
+- Render ID: `rnd_5af91646b50acd1b4988f32d`
+- Path: `enemies/redeemed-demons-batch-22/drafts/12-stoneback-refuge-warden.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8287,8 +8287,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tide Fin Purifier
 
-- Render ID: `rnd_320f7bf1fd51f054e2cb9dbe`
-- Path: `enemies/redeemed-demons-batch-22/drafts/06-tide-fin-purifier-reference-256.png`
+- Render ID: `rnd_ffbd4c4a1b46eeb36d1ba903`
+- Path: `enemies/redeemed-demons-batch-22/drafts/06-tide-fin-purifier.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8300,8 +8300,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Twin Faced Confessor
 
-- Render ID: `rnd_a5d2df66746eb942e4ce445c`
-- Path: `enemies/redeemed-demons-batch-22/drafts/11-twin-faced-confessor-reference-256.png`
+- Render ID: `rnd_97cb2624e16c20e394543376`
+- Path: `enemies/redeemed-demons-batch-22/drafts/11-twin-faced-confessor.png`
 - Collection: Redeemed Demons Batch 22
 - Rating: Not rated/5
 - Decision: delete
@@ -8313,8 +8313,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Barbed Quarrel Justiciar
 
-- Render ID: `rnd_f95e9a6c72de0acd165c94bf`
-- Path: `enemies/sadistic-knights-batch-37/drafts/05-barbed-quarrel-justiciar-reference-256.png`
+- Render ID: `rnd_b7c2b4cc98ade763961c54c0`
+- Path: `enemies/sadistic-knights-batch-37/drafts/05-barbed-quarrel-justiciar.png`
 - Collection: Sadistic Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -8326,8 +8326,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Quiet Sentence Castellan
 
-- Render ID: `rnd_b92231ef977b374603449ce7`
-- Path: `enemies/sadistic-knights-batch-37/drafts/03-quiet-sentence-castellan-reference-256.png`
+- Render ID: `rnd_5ff209c12866ec03d08fd011`
+- Path: `enemies/sadistic-knights-batch-37/drafts/03-quiet-sentence-castellan.png`
 - Collection: Sadistic Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -8339,8 +8339,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Seven Lash Reeve
 
-- Render ID: `rnd_fbdc2990f2b50732604ca366`
-- Path: `enemies/sadistic-knights-batch-37/drafts/01-seven-lash-reeve-reference-256.png`
+- Render ID: `rnd_3ac234981ceafa0be3b786e9`
+- Path: `enemies/sadistic-knights-batch-37/drafts/01-seven-lash-reeve.png`
 - Collection: Sadistic Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -8352,8 +8352,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mercy Executioner
 
-- Render ID: `rnd_d41d0d76b30c519da9099bea`
-- Path: `enemies/sadistic-nuns-batch-35/drafts/03-mercy-executioner-reference-256.png`
+- Render ID: `rnd_93676c41d188959df5bfc981`
+- Path: `enemies/sadistic-nuns-batch-35/drafts/03-mercy-executioner.png`
 - Collection: Sadistic Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -8365,8 +8365,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Penance Hammer Sister
 
-- Render ID: `rnd_6e27139a8527d3752af6340a`
-- Path: `enemies/sadistic-nuns-batch-35/drafts/04-penance-hammer-sister-reference-256.png`
+- Render ID: `rnd_bae37d06e677b1e0a390f570`
+- Path: `enemies/sadistic-nuns-batch-35/drafts/04-penance-hammer-sister.png`
 - Collection: Sadistic Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -8378,8 +8378,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Scourge Confessor
 
-- Render ID: `rnd_1c167cd48d39b5dd2713aa52`
-- Path: `enemies/sadistic-nuns-batch-35/drafts/01-scourge-confessor-reference-256.png`
+- Render ID: `rnd_c9e14f728fb658df3e549862`
+- Path: `enemies/sadistic-nuns-batch-35/drafts/01-scourge-confessor.png`
 - Collection: Sadistic Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -8391,8 +8391,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Threshing Penance Sister
 
-- Render ID: `rnd_66579f8402be04ca48d07155`
-- Path: `enemies/sadistic-nuns-batch-35/rejected/06-threshing-penance-sister-reference-256.png`
+- Render ID: `rnd_72b1663f9844b3a4eff6a1a7`
+- Path: `enemies/sadistic-nuns-batch-35/rejected/06-threshing-penance-sister.png`
 - Collection: Sadistic Nuns Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -8404,8 +8404,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Broken Circle Gaoler
 
-- Render ID: `rnd_c7135ccdc1d2d2bfdfd9dc3b`
-- Path: `enemies/satanic-cult-knights-batch-39/drafts/04-broken-circle-gaoler-reference-256.png`
+- Render ID: `rnd_a7da4e1e17932854a804f5af`
+- Path: `enemies/satanic-cult-knights-batch-39/drafts/04-broken-circle-gaoler.png`
 - Collection: Satanic Cult Knights Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -8417,8 +8417,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fallen Rood Sentinel
 
-- Render ID: `rnd_cdc0cd150e9b049080683259`
-- Path: `enemies/satanic-cult-knights-batch-39/drafts/03-fallen-rood-sentinel-reference-256.png`
+- Render ID: `rnd_fb8af2e1b590529eb2f505aa`
+- Path: `enemies/satanic-cult-knights-batch-39/drafts/03-fallen-rood-sentinel.png`
 - Collection: Satanic Cult Knights Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -8430,8 +8430,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Star Vent Thurifer
 
-- Render ID: `rnd_7b0d20f7d3ad57883cf951a9`
-- Path: `enemies/satanic-cult-knights-batch-39/drafts/02-star-vent-thurifer-reference-256.png`
+- Render ID: `rnd_8af3b9672e6d0fcc2e3943c5`
+- Path: `enemies/satanic-cult-knights-batch-39/drafts/02-star-vent-thurifer.png`
 - Collection: Satanic Cult Knights Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -8443,8 +8443,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Gospel Cantor
 
-- Render ID: `rnd_439cd90cb7d6c7feaaeb9f35`
-- Path: `enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-reference-256.png`
+- Render ID: `rnd_4e49e02690f48bb0d704c526`
+- Path: `enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor.png`
 - Collection: Satanic Priests Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -8456,8 +8456,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bolo Confessor
 
-- Render ID: `rnd_1c3fe2519e2d16f33400cc76`
-- Path: `enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-reference-256.png`
+- Render ID: `rnd_54c68a750cc768ba5ae8932f`
+- Path: `enemies/satanic-priests-batch-39/drafts/05-bolo-confessor.png`
 - Collection: Satanic Priests Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -8469,8 +8469,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Eclipse Deacon
 
-- Render ID: `rnd_1f7e95bde85c0f7d85384ff3`
-- Path: `enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-reference-256.png`
+- Render ID: `rnd_4a4f2e5410745359f2ebbeee`
+- Path: `enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon.png`
 - Collection: Satanic Priests Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -8482,8 +8482,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shutter Visor Counterblade
 
-- Render ID: `rnd_dd2eabc340c52a1413d8528a`
-- Path: `enemies/shadow-knights-batch-44/drafts/01-shutter-visor-counterblade-reference-256.png`
+- Render ID: `rnd_d29e0051664f285081ee2983`
+- Path: `enemies/shadow-knights-batch-44/drafts/01-shutter-visor-counterblade.png`
 - Collection: Shadow Knights Batch 44
 - Rating: 2/5
 - Decision: delete
@@ -8495,8 +8495,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Brine Votive Tidecaller
 
-- Render ID: `rnd_6f3633a9f1f2818ef734375a`
-- Path: `enemies/siyokoy-knights-batch-29/drafts/05-brine-votive-tidecaller-reference-256.png`
+- Render ID: `rnd_536f416d0f71014524384d13`
+- Path: `enemies/siyokoy-knights-batch-29/drafts/05-brine-votive-tidecaller.png`
 - Collection: Siyokoy Knights Batch 29
 - Rating: Not rated/5
 - Decision: delete
@@ -8508,8 +8508,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Estuary Trident Warden
 
-- Render ID: `rnd_7007642afa209370a704101d`
-- Path: `enemies/siyokoy-knights-batch-29/drafts/01-estuary-trident-warden-reference-256.png`
+- Render ID: `rnd_43738d440927ff903ce45f5d`
+- Path: `enemies/siyokoy-knights-batch-29/drafts/01-estuary-trident-warden.png`
 - Collection: Siyokoy Knights Batch 29
 - Rating: Not rated/5
 - Decision: delete
@@ -8521,8 +8521,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ripcurrent Kalis Duelist
 
-- Render ID: `rnd_ec712db15f78255a7b5624ec`
-- Path: `enemies/siyokoy-knights-batch-29/drafts/04-ripcurrent-kalis-duelist-reference-256.png`
+- Render ID: `rnd_1dab26575e0af527c3db59fc`
+- Path: `enemies/siyokoy-knights-batch-29/drafts/04-ripcurrent-kalis-duelist.png`
 - Collection: Siyokoy Knights Batch 29
 - Rating: Not rated/5
 - Decision: delete
@@ -8534,8 +8534,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shell Gate Breaker
 
-- Render ID: `rnd_ea63f268e727820fd05242a1`
-- Path: `enemies/siyokoy-knights-batch-29/drafts/02-shell-gate-breaker-reference-256.png`
+- Render ID: `rnd_8c15625e780aa2b3b9eb022e`
+- Path: `enemies/siyokoy-knights-batch-29/drafts/02-shell-gate-breaker.png`
 - Collection: Siyokoy Knights Batch 29
 - Rating: Not rated/5
 - Decision: delete
@@ -8547,8 +8547,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Undertow Grapnel Bailiff
 
-- Render ID: `rnd_7517bcd321d90824950055a5`
-- Path: `enemies/siyokoy-knights-batch-29/drafts/03-undertow-grapnel-bailiff-reference-256.png`
+- Render ID: `rnd_7591de2ace40f6dee23835de`
+- Path: `enemies/siyokoy-knights-batch-29/drafts/03-undertow-grapnel-bailiff.png`
 - Collection: Siyokoy Knights Batch 29
 - Rating: Not rated/5
 - Decision: delete
@@ -8560,8 +8560,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Aswang Swollen Colonial Sapper
 
-- Render ID: `rnd_4853d082e6f67533ee99eaf2`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/16-aswang-swollen-colonial-sapper-reference-256.png`
+- Render ID: `rnd_4ab27fe8afa3496694880b40`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/16-aswang-swollen-colonial-sapper.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8573,8 +8573,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bandage Bound Wounded Charger
 
-- Render ID: `rnd_2e87a159440f4661509297da`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/08-bandage-bound-wounded-charger-reference-256.png`
+- Render ID: `rnd_838423c8da9ca682f248612c`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/08-bandage-bound-wounded-charger.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8586,8 +8586,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Beetle Carapace Colonial Sapper
 
-- Render ID: `rnd_dd3b7b960ad157f54d931f7f`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/15-beetle-carapace-colonial-sapper-reference-256.png`
+- Render ID: `rnd_805de8c171ce78db10e83dd8`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/15-beetle-carapace-colonial-sapper.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8599,8 +8599,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Starved Vampire Officer
 
-- Render ID: `rnd_f5d35f5d6975b8b1ea7efcd9`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/17-blood-starved-vampire-officer-reference-256.png`
+- Render ID: `rnd_b67beb9a4afd7671968667ac`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/17-blood-starved-vampire-officer.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8612,8 +8612,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Boiler Swollen Naval Stoker
 
-- Render ID: `rnd_296511b80a66e201e8d6eac6`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/25-boiler-swollen-naval-stoker-reference-256.png`
+- Render ID: `rnd_3a0bdf107da141ca4aff8f32`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/25-boiler-swollen-naval-stoker.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8625,8 +8625,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Brass Lung Expeditionary Bugler
 
-- Render ID: `rnd_a112c03d2ae9583cafec09b7`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/29-brass-lung-expeditionary-bugler-reference-256.png`
+- Render ID: `rnd_5011a2e93e0cfe8931f51845`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/29-brass-lung-expeditionary-bugler.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8638,8 +8638,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bridle Faced Cavalry Trooper
 
-- Render ID: `rnd_54f4ec965cfcdae67bc97e75`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/23-bridle-faced-cavalry-trooper-reference-256.png`
+- Render ID: `rnd_b5aef183625aad8ae594d71d`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/23-bridle-faced-cavalry-trooper.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8651,8 +8651,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bronze Throated Mountain Gunner
 
-- Render ID: `rnd_db3b2554821f00f4caebf570`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/22-bronze-throated-mountain-gunner-reference-256.png`
+- Render ID: `rnd_5939ffcb3d233756111513ce`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/22-bronze-throated-mountain-gunner.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8664,8 +8664,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Carapace Mutated Charger
 
-- Render ID: `rnd_ac8f5d730fd2bf36b1b48747`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/06-carapace-mutated-charger-reference-256.png`
+- Render ID: `rnd_105eef1ee2ce2996be4565ec`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/06-carapace-mutated-charger.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8677,8 +8677,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Coral Eaten Marine Sentry
 
-- Render ID: `rnd_26f05489ac5f773aaf47cc91`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/21-coral-eaten-marine-sentry-reference-256.png`
+- Render ID: `rnd_ad91785effb7e491caa737b6`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/21-coral-eaten-marine-sentry.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8690,8 +8690,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Feral Aswang Bitten Cazador
 
-- Render ID: `rnd_050d8648f144e1320a109232`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/01-feral-aswang-bitten-cazador-reference-256.png`
+- Render ID: `rnd_6ae66330a7b0bd9c966e8ccb`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/01-feral-aswang-bitten-cazador.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8703,8 +8703,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fire Charred Guardia
 
-- Render ID: `rnd_17e237e9b8ab1954c86d3ace`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/12-fire-charred-guardia-reference-256.png`
+- Render ID: `rnd_af25351886ac55895f85afd1`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/12-fire-charred-guardia.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8716,8 +8716,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Gaunt Guardia Ghoul
 
-- Render ID: `rnd_a30e2aafcadd180cc48423e7`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/11-gaunt-guardia-ghoul-reference-256.png`
+- Render ID: `rnd_6c659fe10969ff9b29ab3b92`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/11-gaunt-guardia-ghoul.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8729,8 +8729,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grave Hungry Sapper Ghoul
 
-- Render ID: `rnd_44d8493a34c97ec9d7d0647c`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/14-grave-hungry-sapper-ghoul-reference-256.png`
+- Render ID: `rnd_68dbedf4749e58aee5cc0abf`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/14-grave-hungry-sapper-ghoul.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8742,8 +8742,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Chested Cursed Officer
 
-- Render ID: `rnd_629184a39ab56e95be469d49`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/19-hollow-chested-cursed-officer-reference-256.png`
+- Render ID: `rnd_3521aa3e98bfab3518652c19`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/19-hollow-chested-cursed-officer.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8755,8 +8755,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Sigil Possessed Guardia
 
-- Render ID: `rnd_fc55a038210e445fde936f69`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/09-inverted-sigil-possessed-guardia-reference-256.png`
+- Render ID: `rnd_0dfc493320dd675828eb0a1c`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/09-inverted-sigil-possessed-guardia.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8768,8 +8768,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Sigil Possessed Rifleman
 
-- Render ID: `rnd_5e2951793f739c3cd03faa8b`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/03-inverted-sigil-possessed-rifleman-reference-256.png`
+- Render ID: `rnd_fbc8e4f017a2909bc0d69486`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/03-inverted-sigil-possessed-rifleman.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8781,8 +8781,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ledger Skinned Philippine Carabinero
 
-- Render ID: `rnd_2e34ef012d23fcc03957ae44`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/24-ledger-skinned-philippine-carabinero-reference-256.png`
+- Render ID: `rnd_ac506d3bdb5638038da9602b`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/24-ledger-skinned-philippine-carabinero.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8794,8 +8794,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Marionette Possessed Officer
 
-- Render ID: `rnd_771b063fc7d876585c3e874e`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/18-marionette-possessed-officer-reference-256.png`
+- Render ID: `rnd_7c76ded8838aa082bddb1932`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/18-marionette-possessed-officer.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8807,8 +8807,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Mutated Officer
 
-- Render ID: `rnd_a9c2409a1359e6e5dd22cb61`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/20-mirror-mutated-officer-reference-256.png`
+- Render ID: `rnd_015c3a96ef79151917cff1ab`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/20-mirror-mutated-officer.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8820,8 +8820,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Listener Cazador
 
-- Render ID: `rnd_2edd5493972d3978f36cc5c9`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/04-night-listener-cazador-reference-256.png`
+- Render ID: `rnd_ec12935565aa4711194614c0`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/04-night-listener-cazador.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8833,8 +8833,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Mutated Colonial Sapper
 
-- Render ID: `rnd_8898f386faaef8a8297595ee`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/13-root-mutated-colonial-sapper-reference-256.png`
+- Render ID: `rnd_1915af8136d043c1e7b4a2e9`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/13-root-mutated-colonial-sapper.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8846,8 +8846,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Cured Colonial Quartermaster
 
-- Render ID: `rnd_45639e145d53efbdc458e99d`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/27-salt-cured-colonial-quartermaster-reference-256.png`
+- Render ID: `rnd_3e04ad96ee2fa4c8b7c165e4`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/27-salt-cured-colonial-quartermaster.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8859,8 +8859,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Starved Jungle Ghoul Rifleman
 
-- Render ID: `rnd_1ff7660cc0860aab037299e8`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/02-starved-jungle-ghoul-rifleman-reference-256.png`
+- Render ID: `rnd_bf5db8d0bb7f7c18b42dc00c`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/02-starved-jungle-ghoul-rifleman.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8872,8 +8872,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Waterlogged Guardia Revenant
 
-- Render ID: `rnd_6e7be9001342888fc2e2dcbf`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/10-waterlogged-guardia-revenant-reference-256.png`
+- Render ID: `rnd_44f66f6c47e45879989bc54b`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/10-waterlogged-guardia-revenant.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8885,8 +8885,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wax Drowned Garrison Chaplain
 
-- Render ID: `rnd_049fb56ae6fe47f55efdcc60`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/30-wax-drowned-garrison-chaplain-reference-256.png`
+- Render ID: `rnd_19f230071b79a2b09703ddad`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/30-wax-drowned-garrison-chaplain.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8898,8 +8898,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wire Nerve Military Telegraphist
 
-- Render ID: `rnd_2c47fc8a622e9d8fbd17a001`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/26-wire-nerve-military-telegraphist-reference-256.png`
+- Render ID: `rnd_8ecec31daf86381734adfb54`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/26-wire-nerve-military-telegraphist.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8911,8 +8911,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Zombified Bayonet Charger
 
-- Render ID: `rnd_47914e17d26acc8ade20df1d`
-- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/05-zombified-bayonet-charger-reference-256.png`
+- Render ID: `rnd_3d108de46d64ffd927ebf1b3`
+- Path: `enemies/spanish-colonial-corruption-batch-09/drafts/05-zombified-bayonet-charger.png`
 - Collection: Spanish Colonial Corruption Batch 09
 - Rating: Not rated/5
 - Decision: delete
@@ -8924,8 +8924,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Beetle Vessel Sapper
 
-- Render ID: `rnd_4a8fb81a0bcf769f084ef655`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/10-beetle-vessel-sapper-reference-256.png`
+- Render ID: `rnd_eb7772ad495eeec14e026c6b`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/10-beetle-vessel-sapper.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: 2/5
 - Decision: delete
@@ -8937,8 +8937,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Yeast Camp Baker
 
-- Render ID: `rnd_ceb4399c904c8a331f2b70c4`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/33-black-yeast-camp-baker-reference-256.png`
+- Render ID: `rnd_358c4a7ed075bffa18629862`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/33-black-yeast-camp-baker.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -8950,8 +8950,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Carapace Mutated Bayonet Charger
 
-- Render ID: `rnd_1b48c83c3d699224272f7535`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/15-carapace-mutated-bayonet-charger-reference-256.png`
+- Render ID: `rnd_92526eabad2ad5ac89d7e4e8`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/15-carapace-mutated-bayonet-charger.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -8963,8 +8963,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Copper Skull Arsenal Diver
 
-- Render ID: `rnd_52c77f14f4ed566b797392de`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/31-copper-skull-arsenal-diver-reference-256.png`
+- Render ID: `rnd_e3a5e067f897ad78d610a71a`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/31-copper-skull-arsenal-diver.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -8976,8 +8976,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drum Heart Regimental Drummer
 
-- Render ID: `rnd_30e4b6b0dc69a8bc5c8c0685`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/35-drum-heart-regimental-drummer-reference-256.png`
+- Render ID: `rnd_36acd338ed2f874716489337`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/35-drum-heart-regimental-drummer.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -8989,8 +8989,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flag Shrouded Standard Bearer
 
-- Render ID: `rnd_4e04e65e59e8a6bb6a87284a`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/38-flag-shrouded-standard-bearer-reference-256.png`
+- Render ID: `rnd_42d1fd050af3af3109c9cc5f`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/38-flag-shrouded-standard-bearer.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9002,8 +9002,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Horseshoe Spined Cavalry Farrier
 
-- Render ID: `rnd_18de07d3d5148c8f383cf161`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/34-horseshoe-spined-cavalry-farrier-reference-256.png`
+- Render ID: `rnd_5cf1b4920cc3391343f56f25`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/34-horseshoe-spined-cavalry-farrier.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9015,8 +9015,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Inverted Sigil Guardia
 
-- Render ID: `rnd_c6cedc1e4231ad709a72a8eb`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/04-inverted-sigil-guardia-reference-256.png`
+- Render ID: `rnd_35008803f9557066f0ec8177`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/04-inverted-sigil-guardia.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9028,8 +9028,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Jungle Ghoul Rifleman
 
-- Render ID: `rnd_83b3e5f0fbce20eec95073de`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/02-jungle-ghoul-rifleman-reference-256.png`
+- Render ID: `rnd_8070942e45a6ce578733ab13`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/02-jungle-ghoul-rifleman.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9041,8 +9041,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lantern Faced Fortress Watchman
 
-- Render ID: `rnd_98d7dd0d5ef109bc8dd41eeb`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/39-lantern-faced-fortress-watchman-reference-256.png`
+- Render ID: `rnd_3f3016c0ea7ccf665e605b37`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/39-lantern-faced-fortress-watchman.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9054,8 +9054,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Many Eyed Coastal Rangefinder
 
-- Render ID: `rnd_b452774a2aaa6e751bf2eb34`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/32-many-eyed-coastal-rangefinder-reference-256.png`
+- Render ID: `rnd_94f200da9d770ab27d068548`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/32-many-eyed-coastal-rangefinder.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9067,8 +9067,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mercury Sick Field Pharmacist
 
-- Render ID: `rnd_b077eeb9b15a8e4553a5a3ff`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/37-mercury-sick-field-pharmacist-reference-256.png`
+- Render ID: `rnd_534916ddeef6c1a6f87a9486`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/37-mercury-sick-field-pharmacist.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9080,8 +9080,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Possessed Colonial Officer
 
-- Render ID: `rnd_dd1c3455add6b6a0c81d7f3c`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/13-mirror-possessed-colonial-officer-reference-256.png`
+- Render ID: `rnd_2fe91c3b302c803f741025a8`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/13-mirror-possessed-colonial-officer.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9093,8 +9093,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Salt Revenant
 
-- Render ID: `rnd_899fec6469fab1f3f66a090e`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/11-moon-salt-revenant-reference-256.png`
+- Render ID: `rnd_1179aef0eb91812a2521e6c8`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/11-moon-salt-revenant.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9106,8 +9106,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Powder Bloom Magazine Keeper
 
-- Render ID: `rnd_d1635cefa64e791d1fbefe2f`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/36-powder-bloom-magazine-keeper-reference-256.png`
+- Render ID: `rnd_f9764784bf4b41c10a9b7512`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/36-powder-bloom-magazine-keeper.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9119,8 +9119,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Cursed Colonial Sapper
 
-- Render ID: `rnd_03f16a5a9d4b489b5ae4712b`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/06-root-cursed-colonial-sapper-reference-256.png`
+- Render ID: `rnd_6e7bf6140884ca9e8020e5d3`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/06-root-cursed-colonial-sapper.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9132,8 +9132,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Santelmo Scorched Guardia
 
-- Render ID: `rnd_0a130cbf94b7b85fc1539e95`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/08-santelmo-scorched-guardia-reference-256.png`
+- Render ID: `rnd_2c4dc6fe4ee9ff2a96ad5ac9`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/08-santelmo-scorched-guardia.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9145,8 +9145,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Semaphore Torn Naval Signalman
 
-- Render ID: `rnd_c5e524bd835414531b61d9ed`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/40-semaphore-torn-naval-signalman-reference-256.png`
+- Render ID: `rnd_40cd4c83b9bb66bbbef1ce83`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/support-siege-extension/40-semaphore-torn-naval-signalman.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9158,8 +9158,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Smoke Hollowed Officer
 
-- Render ID: `rnd_1f8b62e6f405bea3f5582e26`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/14-smoke-hollowed-officer-reference-256.png`
+- Render ID: `rnd_3cb2261b020b7b3aa03e7d4a`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/14-smoke-hollowed-officer.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9171,8 +9171,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tiktik Call Cazador
 
-- Render ID: `rnd_7fc708a66f846c37fee31fd1`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/07-tiktik-call-cazador-reference-256.png`
+- Render ID: `rnd_e7478f14c508eaa15d6807cf`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/07-tiktik-call-cazador.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9184,8 +9184,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wakwak Shadow Thrall
 
-- Render ID: `rnd_567482bc7155caec248eeeb4`
-- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/12-wakwak-shadow-thrall-reference-256.png`
+- Render ID: `rnd_80352fa8bed8e288cd17a8a6`
+- Path: `enemies/spanish-colonial-corruption-batch-09/rejected/effects-first-pass/12-wakwak-shadow-thrall.png`
 - Collection: Spanish Colonial Corruption Batch 09 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9197,8 +9197,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cazador Bayonet Charger
 
-- Render ID: `rnd_d025d522e44fc1366098c187`
-- Path: `enemies/spanish-colonial-forces-batch-08/drafts/02-cazador-bayonet-charger-reference-256.png`
+- Render ID: `rnd_6903113ea0f0058cb224424e`
+- Path: `enemies/spanish-colonial-forces-batch-08/drafts/02-cazador-bayonet-charger.png`
 - Collection: Spanish Colonial Forces Batch 08
 - Rating: Not rated/5
 - Decision: delete
@@ -9210,8 +9210,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Gorget Mace Penitent
 
-- Render ID: `rnd_bac0fc04cc86ec20eb95b0d8`
-- Path: `enemies/spanish-knight-orders-batch-38/drafts/05-ivory-gorget-mace-penitent-reference-256.png`
+- Render ID: `rnd_fcfb5ff4d687dabb27126a48`
+- Path: `enemies/spanish-knight-orders-batch-38/drafts/05-ivory-gorget-mace-penitent.png`
 - Collection: Spanish Knight Orders Batch 38
 - Rating: Not rated/5
 - Decision: delete
@@ -9223,8 +9223,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Soot Sallet Crossbow Castellan
 
-- Render ID: `rnd_d7287ef9b2cbdc091437ee18`
-- Path: `enemies/spanish-knight-orders-batch-38/drafts/04-soot-sallet-crossbow-castellan-reference-256.png`
+- Render ID: `rnd_1e82e2a10fb9824e17a51022`
+- Path: `enemies/spanish-knight-orders-batch-38/drafts/04-soot-sallet-crossbow-castellan.png`
 - Collection: Spanish Knight Orders Batch 38
 - Rating: Not rated/5
 - Decision: delete
@@ -9236,8 +9236,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Capiz Gauge Polehammer Breaker
 
-- Render ID: `rnd_641342715bdaa6d04ab29531`
-- Path: `enemies/steampunk-knights-batch-37/drafts/01-capiz-gauge-polehammer-breaker-reference-256.png`
+- Render ID: `rnd_8c15e509aa44a86554f27935`
+- Path: `enemies/steampunk-knights-batch-37/drafts/01-capiz-gauge-polehammer-breaker.png`
 - Collection: Steampunk Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -9249,8 +9249,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Condenser Shield Gate Bulwark
 
-- Render ID: `rnd_3e99e3ac101dc964e4c7bd65`
-- Path: `enemies/steampunk-knights-batch-37/drafts/02-condenser-shield-gate-bulwark-reference-256.png`
+- Render ID: `rnd_40068294a1c940a0c3577129`
+- Path: `enemies/steampunk-knights-batch-37/drafts/02-condenser-shield-gate-bulwark.png`
 - Collection: Steampunk Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -9262,8 +9262,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Piston Wrist Sabre Adjudicator
 
-- Render ID: `rnd_cc66bbfeb2300e0b35aaf91b`
-- Path: `enemies/steampunk-knights-batch-37/drafts/03-piston-wrist-sabre-adjudicator-reference-256.png`
+- Render ID: `rnd_ec2fed7c40b3d6570c3bc22f`
+- Path: `enemies/steampunk-knights-batch-37/drafts/03-piston-wrist-sabre-adjudicator.png`
 - Collection: Steampunk Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -9275,8 +9275,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pneumatic Rivet Watcher
 
-- Render ID: `rnd_e8487a35e29bbe99c6a8c874`
-- Path: `enemies/steampunk-knights-batch-37/drafts/04-pneumatic-rivet-watcher-reference-256.png`
+- Render ID: `rnd_99da73ed1124bcff9b3cfd89`
+- Path: `enemies/steampunk-knights-batch-37/drafts/04-pneumatic-rivet-watcher.png`
 - Collection: Steampunk Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -9288,8 +9288,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Steam Censer Processioner
 
-- Render ID: `rnd_c37a90e7b70b181b7e6baa81`
-- Path: `enemies/steampunk-knights-batch-37/drafts/05-steam-censer-processioner-reference-256.png`
+- Render ID: `rnd_ae14ecbf08e12650ee1a5f58`
+- Path: `enemies/steampunk-knights-batch-37/drafts/05-steam-censer-processioner.png`
 - Collection: Steampunk Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -9301,8 +9301,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Alimokon Omen
 
-- Render ID: `rnd_7bce42ba1c8600f19380268d`
-- Path: `enemies/tiktik-variations-batch-07/drafts/01-alimokon-omen-reference-256.png`
+- Render ID: `rnd_e540c0fd49d4de69042b6f09`
+- Path: `enemies/tiktik-variations-batch-07/drafts/01-alimokon-omen.png`
 - Collection: Tiktik Variations Batch 07
 - Rating: Not rated/5
 - Decision: delete
@@ -9314,8 +9314,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Roof Clinger Tiktik
 
-- Render ID: `rnd_ee24935ffa94ebc1915a4033`
-- Path: `enemies/tiktik-variations-batch-07/drafts/02-roof-clinger-tiktik-reference-256.png`
+- Render ID: `rnd_bbffd8b6fc51d74506f800be`
+- Path: `enemies/tiktik-variations-batch-07/drafts/02-roof-clinger-tiktik.png`
 - Collection: Tiktik Variations Batch 07
 - Rating: Not rated/5
 - Decision: delete
@@ -9327,8 +9327,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Swaddled Tiyanak
 
-- Render ID: `rnd_abdc93b5127d1bc93b1659e4`
-- Path: `enemies/tiyanak-variations-batch-17/drafts/03-ash-swaddled-tiyanak-reference-256.png`
+- Render ID: `rnd_074e35297f3ecb6ccb0fd653`
+- Path: `enemies/tiyanak-variations-batch-17/drafts/03-ash-swaddled-tiyanak.png`
 - Collection: Tiyanak Variations Batch 17
 - Rating: Not rated/5
 - Decision: delete
@@ -9340,8 +9340,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bamboo Cradle Tiyanak
 
-- Render ID: `rnd_8c238b74135fa5940d99cb36`
-- Path: `enemies/tiyanak-variations-batch-17/drafts/01-bamboo-cradle-tiyanak-reference-256.png`
+- Render ID: `rnd_7ea6c525d6e58a72d6c3ed56`
+- Path: `enemies/tiyanak-variations-batch-17/drafts/01-bamboo-cradle-tiyanak.png`
 - Collection: Tiyanak Variations Batch 17
 - Rating: Not rated/5
 - Decision: delete
@@ -9353,8 +9353,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Cry Tiyanak
 
-- Render ID: `rnd_a079778ee31953bd2dd7ca46`
-- Path: `enemies/tiyanak-variations-batch-17/drafts/02-river-cry-tiyanak-reference-256.png`
+- Render ID: `rnd_88239eab073d18fb59800caf`
+- Path: `enemies/tiyanak-variations-batch-17/drafts/02-river-cry-tiyanak.png`
 - Collection: Tiyanak Variations Batch 17
 - Rating: Not rated/5
 - Decision: delete
@@ -9366,8 +9366,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fallen Bough Lancer
 
-- Render ID: `rnd_b6d5fda43f3a6e371718eeba`
-- Path: `enemies/treant-knights-batch-25/drafts/05-fallen-bough-lancer-reference-256.png`
+- Render ID: `rnd_e66fef2d8e2836f3bc4a5142`
+- Path: `enemies/treant-knights-batch-25/drafts/05-fallen-bough-lancer.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9379,8 +9379,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Fern Mantle Cleaver
 
-- Render ID: `rnd_02ab989c61b80c7178a353ee`
-- Path: `enemies/treant-knights-batch-25/drafts/06-fern-mantle-cleaver-reference-256.png`
+- Render ID: `rnd_72094003a5c7ece560abafa4`
+- Path: `enemies/treant-knights-batch-25/drafts/06-fern-mantle-cleaver.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9392,8 +9392,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Trunk Arbalist
 
-- Render ID: `rnd_49ac30fad8541b1eebc9e271`
-- Path: `enemies/treant-knights-batch-25/drafts/03-hollow-trunk-arbalist-reference-256.png`
+- Render ID: `rnd_7a36279b6295f884e1d82320`
+- Path: `enemies/treant-knights-batch-25/drafts/03-hollow-trunk-arbalist.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9405,8 +9405,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mossback Maul Guard
 
-- Render ID: `rnd_503dcaf53cf3275afc90a90d`
-- Path: `enemies/treant-knights-batch-25/drafts/09-mossback-maul-guard-reference-256.png`
+- Render ID: `rnd_4d5fd0d6259b49b67db8ddbe`
+- Path: `enemies/treant-knights-batch-25/drafts/09-mossback-maul-guard.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9418,8 +9418,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Orchid Leaf Duelist
 
-- Render ID: `rnd_26a01ebe8d7e6b5dd6f5aafd`
-- Path: `enemies/treant-knights-batch-25/drafts/08-orchid-leaf-duelist-reference-256.png`
+- Render ID: `rnd_cad633f23ea03f03934c19a3`
+- Path: `enemies/treant-knights-batch-25/drafts/08-orchid-leaf-duelist.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9431,8 +9431,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Root Hook Reeve
 
-- Render ID: `rnd_f6d49b70e9ac4ae288e88f40`
-- Path: `enemies/treant-knights-batch-25/drafts/02-root-hook-reeve-reference-256.png`
+- Render ID: `rnd_d697dfe6fb8ddcd7bb2eadbb`
+- Path: `enemies/treant-knights-batch-25/drafts/02-root-hook-reeve.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9444,8 +9444,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sap Censer Castellan
 
-- Render ID: `rnd_94c9ac138c88ac5d61dd2659`
-- Path: `enemies/treant-knights-batch-25/drafts/04-sap-censer-castellan-reference-256.png`
+- Render ID: `rnd_6112a3e980f2e161c5c9f5d9`
+- Path: `enemies/treant-knights-batch-25/drafts/04-sap-censer-castellan.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9457,8 +9457,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Seed Vault Grenadier
 
-- Render ID: `rnd_90d20f94499f5665e8c281d4`
-- Path: `enemies/treant-knights-batch-25/drafts/10-seed-vault-grenadier-reference-256.png`
+- Render ID: `rnd_345361f7c7067d8ba91ddb77`
+- Path: `enemies/treant-knights-batch-25/drafts/10-seed-vault-grenadier.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9470,8 +9470,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thorn Gate Warden
 
-- Render ID: `rnd_bb8f71210776751866445bcd`
-- Path: `enemies/treant-knights-batch-25/drafts/01-thorn-gate-warden-reference-256.png`
+- Render ID: `rnd_62f475bc9646e87c8fa08691`
+- Path: `enemies/treant-knights-batch-25/drafts/01-thorn-gate-warden.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9483,8 +9483,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Vine Ring Binder
 
-- Render ID: `rnd_84d198718d25fa50a03e6bee`
-- Path: `enemies/treant-knights-batch-25/drafts/07-vine-ring-binder-reference-256.png`
+- Render ID: `rnd_9ca92bb00263617ec199391f`
+- Path: `enemies/treant-knights-batch-25/drafts/07-vine-ring-binder.png`
 - Collection: Treant Knights Batch 25
 - Rating: Not rated/5
 - Decision: delete
@@ -9496,8 +9496,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flood Debris Colossus
 
-- Render ID: `rnd_56151b1c733cc95d53b6c975`
-- Path: `enemies/typhoon-flood-born-batch-14/drafts/02-flood-debris-colossus-reference-256.png`
+- Render ID: `rnd_a6d49c7b734149b84785ac76`
+- Path: `enemies/typhoon-flood-born-batch-14/drafts/02-flood-debris-colossus.png`
 - Collection: Typhoon Flood Born Batch 14
 - Rating: Not rated/5
 - Decision: delete
@@ -9509,8 +9509,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lightning Santelmo
 
-- Render ID: `rnd_2ac72e1f6e26c350dd9d4949`
-- Path: `enemies/typhoon-flood-born-batch-14/drafts/03-lightning-santelmo-reference-256.png`
+- Render ID: `rnd_81d4f67717cb24359c93ac9c`
+- Path: `enemies/typhoon-flood-born-batch-14/drafts/03-lightning-santelmo.png`
 - Collection: Typhoon Flood Born Batch 14
 - Rating: Not rated/5
 - Decision: delete
@@ -9522,8 +9522,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wind Torn Processioner
 
-- Render ID: `rnd_8f964d22bfa9b43639031903`
-- Path: `enemies/typhoon-flood-born-batch-14/drafts/01-wind-torn-processioner-reference-256.png`
+- Render ID: `rnd_a7d06cca4f03dc4db5ba4f6c`
+- Path: `enemies/typhoon-flood-born-batch-14/drafts/01-wind-torn-processioner.png`
 - Collection: Typhoon Flood Born Batch 14
 - Rating: Not rated/5
 - Decision: delete
@@ -9535,8 +9535,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Gold Sword Bride
 
-- Render ID: `rnd_d89a7181d1df2026c6381362`
-- Path: `enemies/vampire-brides-batch-35/drafts/11-ash-gold-sword-bride-v02-reference-256.png`
+- Render ID: `rnd_06e968c95261f8e74063f573`
+- Path: `enemies/vampire-brides-batch-35/drafts/11-ash-gold-sword-bride-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9548,8 +9548,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Lace Ravager
 
-- Render ID: `rnd_4c8f6e68e887c3abc4afd175`
-- Path: `enemies/vampire-brides-batch-35/drafts/25-black-lace-ravager-v02-reference-256.png`
+- Render ID: `rnd_5fc9e5052d5055f10c25c782`
+- Path: `enemies/vampire-brides-batch-35/drafts/25-black-lace-ravager-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9561,8 +9561,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Copper Spear Heiress
 
-- Render ID: `rnd_3c50803bfb489a2b5a0a5cf8`
-- Path: `enemies/vampire-brides-batch-35/drafts/13-copper-spear-heiress-v02-reference-256.png`
+- Render ID: `rnd_d5b84471a3c09847fe06cd9a`
+- Path: `enemies/vampire-brides-batch-35/drafts/13-copper-spear-heiress-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9574,8 +9574,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Veil Mauler
 
-- Render ID: `rnd_0258b6b59dea39903845f896`
-- Path: `enemies/vampire-brides-batch-35/drafts/20-drowned-veil-mauler-v02-reference-256.png`
+- Render ID: `rnd_0806d049f29ce5c61c764554`
+- Path: `enemies/vampire-brides-batch-35/drafts/20-drowned-veil-mauler-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9587,8 +9587,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ember Bow Consort
 
-- Render ID: `rnd_8d38d0c2a44933a56ff21570`
-- Path: `enemies/vampire-brides-batch-35/drafts/14-ember-bow-consort-v02-reference-256.png`
+- Render ID: `rnd_056ea10501345e0b3391c98d`
+- Path: `enemies/vampire-brides-batch-35/drafts/14-ember-bow-consort-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9600,8 +9600,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flood Spear Widow
 
-- Render ID: `rnd_aa0936eeb3238848996b1cb7`
-- Path: `enemies/vampire-brides-batch-35/drafts/18-flood-spear-widow-v02-reference-256.png`
+- Render ID: `rnd_3800473ee8350fd4ac89d231`
+- Path: `enemies/vampire-brides-batch-35/drafts/18-flood-spear-widow-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9613,8 +9613,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lavender Spear Dowager
 
-- Render ID: `rnd_8f1b6ccb3324c8a96f594d88`
-- Path: `enemies/vampire-brides-batch-35/drafts/23-lavender-spear-dowager-v02-reference-256.png`
+- Render ID: `rnd_f31996e47364edfed1c22182`
+- Path: `enemies/vampire-brides-batch-35/drafts/23-lavender-spear-dowager-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9626,8 +9626,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Blue Bow Bride
 
-- Render ID: `rnd_814ebbd0bfc6fab470b115ea`
-- Path: `enemies/vampire-brides-batch-35/drafts/19-mirror-blue-bow-bride-v02-reference-256.png`
+- Render ID: `rnd_d1357022b20aa3a48bd1dbd4`
+- Path: `enemies/vampire-brides-batch-35/drafts/19-mirror-blue-bow-bride-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9639,8 +9639,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Salt Sabre Bride
 
-- Render ID: `rnd_500beeb2470bc200abd5351c`
-- Path: `enemies/vampire-brides-batch-35/drafts/06-moon-salt-sabre-bride-v02-reference-256.png`
+- Render ID: `rnd_3c45c07888ff0721c208857f`
+- Path: `enemies/vampire-brides-batch-35/drafts/06-moon-salt-sabre-bride-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9652,8 +9652,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mourning Dagger Bride
 
-- Render ID: `rnd_f2ccb86964d352a6e62d0203`
-- Path: `enemies/vampire-brides-batch-35/drafts/22-mourning-dagger-bride-v02-reference-256.png`
+- Render ID: `rnd_2a736cd2d18d6ed480d75f40`
+- Path: `enemies/vampire-brides-batch-35/drafts/22-mourning-dagger-bride-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9665,8 +9665,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Orchid Bow Widow
 
-- Render ID: `rnd_a098ad9a3755ec94f9bd26c3`
-- Path: `enemies/vampire-brides-batch-35/drafts/24-orchid-bow-widow-v02-reference-256.png`
+- Render ID: `rnd_76bfbfe58f9fac9291bf7277`
+- Path: `enemies/vampire-brides-batch-35/drafts/24-orchid-bow-widow-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9678,8 +9678,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pearl Blade Mourner
 
-- Render ID: `rnd_71e9a50c3ace7f955dd9f842`
-- Path: `enemies/vampire-brides-batch-35/drafts/17-pearl-blade-mourner-v02-reference-256.png`
+- Render ID: `rnd_bb0836e6f618c797ce4d3615`
+- Path: `enemies/vampire-brides-batch-35/drafts/17-pearl-blade-mourner-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9691,8 +9691,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pearl Bow Huntress
 
-- Render ID: `rnd_ae4b8fa5b55ffc0a7008b1e7`
-- Path: `enemies/vampire-brides-batch-35/drafts/07-pearl-bow-huntress-v02-reference-256.png`
+- Render ID: `rnd_d6ef9153c78287306f53652e`
+- Path: `enemies/vampire-brides-batch-35/drafts/07-pearl-bow-huntress-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9704,8 +9704,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Bolo Bride
 
-- Render ID: `rnd_b4fe5d6326af1a587ed50809`
-- Path: `enemies/vampire-brides-batch-35/drafts/16-river-bolo-bride-v02-reference-256.png`
+- Render ID: `rnd_274ec1b7c88e25dd656a2f38`
+- Path: `enemies/vampire-brides-batch-35/drafts/16-river-bolo-bride-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9717,8 +9717,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Saffron Knife Betrothed
 
-- Render ID: `rnd_9154d498297f1b164ef33ea9`
-- Path: `enemies/vampire-brides-batch-35/drafts/12-saffron-knife-betrothed-v02-reference-256.png`
+- Render ID: `rnd_b28636fa04425ad262634413`
+- Path: `enemies/vampire-brides-batch-35/drafts/12-saffron-knife-betrothed-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9730,8 +9730,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tidal Dagger Widow
 
-- Render ID: `rnd_78dac2593a7408eee6ee685a`
-- Path: `enemies/vampire-brides-batch-35/drafts/08-tidal-dagger-widow-v02-reference-256.png`
+- Render ID: `rnd_b7b0d25e6ace0952f440e8c3`
+- Path: `enemies/vampire-brides-batch-35/drafts/08-tidal-dagger-widow-v02.png`
 - Collection: Vampire Brides Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -9743,8 +9743,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Veil Mauler
 
-- Render ID: `rnd_8063523a728af89830f26bba`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/20-drowned-veil-mauler-reference-256.png`
+- Render ID: `rnd_e7cfc94d6eb4683b7bce8094`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/20-drowned-veil-mauler.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9756,8 +9756,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flood Spear Widow
 
-- Render ID: `rnd_beef58372cf22756f70e8351`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/18-flood-spear-widow-reference-256.png`
+- Render ID: `rnd_aa61dc837ae9cd53826c1c0a`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/18-flood-spear-widow.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9769,8 +9769,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grave Train Prowler
 
-- Render ID: `rnd_78140ace2b0de83d7b61f94e`
-- Path: `enemies/vampire-brides-batch-35/rejected/04-grave-train-prowler-v01-reference-256.png`
+- Render ID: `rnd_2a06ed478489f35a80c7fa94`
+- Path: `enemies/vampire-brides-batch-35/rejected/04-grave-train-prowler-v01.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9782,8 +9782,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lavender Spear Dowager
 
-- Render ID: `rnd_3901057f4c3279e54461abba`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/23-lavender-spear-dowager-reference-256.png`
+- Render ID: `rnd_fa68faae6eec1666c69269cd`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/23-lavender-spear-dowager.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9795,8 +9795,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Blue Bow Bride
 
-- Render ID: `rnd_e4c07cea3d75bad0c98217ff`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/19-mirror-blue-bow-bride-reference-256.png`
+- Render ID: `rnd_dd9334273ec9d2d3fe66b0d6`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/19-mirror-blue-bow-bride.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9808,8 +9808,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mourning Dagger Bride
 
-- Render ID: `rnd_90751edf4600e6aae0c04a19`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/22-mourning-dagger-bride-reference-256.png`
+- Render ID: `rnd_4d8bb48b5b535fdbabd8b47b`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/22-mourning-dagger-bride.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9821,8 +9821,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Orchid Bow Widow
 
-- Render ID: `rnd_73ef96ed42115d4253954fa6`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/24-orchid-bow-widow-reference-256.png`
+- Render ID: `rnd_fb73872fb79d06eb8dbab86e`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/24-orchid-bow-widow.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9834,8 +9834,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pearl Blade Mourner
 
-- Render ID: `rnd_4fc43fde6f1ac82dd994136d`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/17-pearl-blade-mourner-reference-256.png`
+- Render ID: `rnd_88d1283a0a4c4d40684438bc`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/17-pearl-blade-mourner.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9847,8 +9847,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pearl Bow Huntress
 
-- Render ID: `rnd_028db755c269236a68ad2df6`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/07-pearl-bow-huntress-reference-256.png`
+- Render ID: `rnd_d238ba688d7ad01d7c758478`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/07-pearl-bow-huntress.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9860,8 +9860,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Plum Sword Duchess
 
-- Render ID: `rnd_51613c0a527001e1440ec58e`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/21-plum-sword-duchess-reference-256.png`
+- Render ID: `rnd_3a0a83610205af2797e38474`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/21-plum-sword-duchess.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9873,8 +9873,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Bolo Bride
 
-- Render ID: `rnd_4d05093dc05809330eefa4f0`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/16-river-bolo-bride-reference-256.png`
+- Render ID: `rnd_31a5f4cae1bc2a48847e1a64`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/16-river-bolo-bride.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9886,8 +9886,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Wake Ravager
 
-- Render ID: `rnd_0a1e617bf5338767a18f5cd1`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/10-salt-wake-ravager-reference-256.png`
+- Render ID: `rnd_36ab8fb104fba864321f7667`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/10-salt-wake-ravager.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9899,8 +9899,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Tidal Dagger Widow
 
-- Render ID: `rnd_b6e090c819ba155f0e634c9e`
-- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/08-tidal-dagger-widow-reference-256.png`
+- Render ID: `rnd_d8e10632cfcd30f89b2b559b`
+- Path: `enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/08-tidal-dagger-widow.png`
 - Collection: Vampire Brides Batch 35 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -9912,8 +9912,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashwood Spear Patrol
 
-- Render ID: `rnd_d77065e891850c1ae83b6861`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/07-ashwood-spear-patrol-reference-256.png`
+- Render ID: `rnd_31ecdd35aa3dbf667592e108`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/07-ashwood-spear-patrol.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -9925,8 +9925,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Blood Moon Lance Count
 
-- Render ID: `rnd_afc7e2acf64c8678d7b30014`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/11-blood-moon-lance-count-reference-256.png`
+- Render ID: `rnd_fd3e03440a5382cfcae0615c`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/11-blood-moon-lance-count.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -9938,8 +9938,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chalice Longsword Castellan
 
-- Render ID: `rnd_81e753251bc6a0f61b0415d6`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/13-chalice-longsword-castellan-reference-256.png`
+- Render ID: `rnd_6fea16249e7f6804826c7e12`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/13-chalice-longsword-castellan.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -9951,8 +9951,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Roundshield Escort
 
-- Render ID: `rnd_f6ad68899c753795754bef3a`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/09-ivory-roundshield-escort-reference-256.png`
+- Render ID: `rnd_b592562a8b0a01f583eab012`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/09-ivory-roundshield-escort.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -9964,8 +9964,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Recurve Huntress
 
-- Render ID: `rnd_8337a0d6772a50e1a9bf9832`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/14-night-recurve-huntress-reference-256.png`
+- Render ID: `rnd_738634b0b817752e6df1a173`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/14-night-recurve-huntress.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -9977,8 +9977,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Tithe Arbalist
 
-- Render ID: `rnd_983595ccc962201b23c69818`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/03-night-tithe-arbalist-reference-256.png`
+- Render ID: `rnd_96d250de9ab4886b6527d826`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/03-night-tithe-arbalist.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -9990,8 +9990,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Court Swordguard
 
-- Render ID: `rnd_d5566f84a23b0aa6e4d274cb`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/06-pale-court-swordguard-reference-256.png`
+- Render ID: `rnd_e1a6a33a8dc879b9e31eb864`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/06-pale-court-swordguard.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -10003,8 +10003,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pall Standard Marshal
 
-- Render ID: `rnd_60aeea9d86e37c78d3a65ba3`
-- Path: `enemies/vampire-horse-knights-batch-31/drafts/04-pall-standard-marshal-reference-256.png`
+- Render ID: `rnd_a5b960b0a30d0f6af6f118f5`
+- Path: `enemies/vampire-horse-knights-batch-31/drafts/04-pall-standard-marshal.png`
 - Collection: Vampire Horse Knights Batch 31
 - Rating: Not rated/5
 - Decision: delete
@@ -10016,8 +10016,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bare Calf Halberd Sentinel
 
-- Render ID: `rnd_3d55d34d973ac6e9118878f7`
-- Path: `enemies/vampire-knights-batch-37/drafts/09-bare-calf-halberd-sentinel-reference-256.png`
+- Render ID: `rnd_93dc56e42c733bd40b42f80a`
+- Path: `enemies/vampire-knights-batch-37/drafts/09-bare-calf-halberd-sentinel.png`
 - Collection: Vampire Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -10029,8 +10029,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Funeral Pike Lane Keeper
 
-- Render ID: `rnd_5b1d9223abfdd947152febe5`
-- Path: `enemies/vampire-knights-batch-37/drafts/02-funeral-pike-lane-keeper-reference-256.png`
+- Render ID: `rnd_67d35294ad62d9b8e7113a63`
+- Path: `enemies/vampire-knights-batch-37/drafts/02-funeral-pike-lane-keeper.png`
 - Collection: Vampire Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -10042,8 +10042,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Draw Warbow Huntress
 
-- Render ID: `rnd_c0e1182731621a653df03521`
-- Path: `enemies/vampire-knights-batch-37/drafts/07-moon-draw-warbow-huntress-reference-256.png`
+- Render ID: `rnd_19420776f014aa1cd2561510`
+- Path: `enemies/vampire-knights-batch-37/drafts/07-moon-draw-warbow-huntress.png`
 - Collection: Vampire Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -10055,8 +10055,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Night Bloom Execution Knight
 
-- Render ID: `rnd_74c31fe4e7be7907e57e62a9`
-- Path: `enemies/vampire-knights-batch-37/drafts/05-night-bloom-execution-knight-reference-256.png`
+- Render ID: `rnd_725366c81d11f09b326fc2f5`
+- Path: `enemies/vampire-knights-batch-37/drafts/05-night-bloom-execution-knight.png`
 - Collection: Vampire Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -10068,8 +10068,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Pale Throat Hex Captain
 
-- Render ID: `rnd_7f05b416af10e7ef877c7f01`
-- Path: `enemies/vampire-knights-batch-37/drafts/10-pale-throat-hex-captain-reference-256.png`
+- Render ID: `rnd_0cf5e75d764f0d0457b99e76`
+- Path: `enemies/vampire-knights-batch-37/drafts/10-pale-throat-hex-captain.png`
 - Collection: Vampire Knights Batch 37
 - Rating: Not rated/5
 - Decision: delete
@@ -10081,8 +10081,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Split Fauld Sledgehammer Breaker
 
-- Render ID: `rnd_9161c85d66d1ad9280f3a4cf`
-- Path: `enemies/vampire-knights-batch-37/drafts/14-split-fauld-sledgehammer-breaker-reference-256.png`
+- Render ID: `rnd_74d191644089d9af89140bd0`
+- Path: `enemies/vampire-knights-batch-37/drafts/14-split-fauld-sledgehammer-breaker.png`
 - Collection: Vampire Knights Batch 37
 - Rating: 3/5
 - Decision: delete
@@ -10094,8 +10094,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Crown Augur
 
-- Render ID: `rnd_891aed9f998f27284478c85d`
-- Path: `enemies/veiled-ember-coven-batch-24/drafts/04-ash-crown-augur-reference-256.png`
+- Render ID: `rnd_9f9b0744af078a74b7d46b7d`
+- Path: `enemies/veiled-ember-coven-batch-24/drafts/04-ash-crown-augur.png`
 - Collection: Veiled Ember Coven Batch 24
 - Rating: Not rated/5
 - Decision: delete
@@ -10107,8 +10107,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cinder Thread Binder
 
-- Render ID: `rnd_3c45af0bda7a111f6a4eced9`
-- Path: `enemies/veiled-ember-coven-batch-24/drafts/02-cinder-thread-binder-reference-256.png`
+- Render ID: `rnd_fc98f9619ad79378e2341796`
+- Path: `enemies/veiled-ember-coven-batch-24/drafts/02-cinder-thread-binder.png`
 - Collection: Veiled Ember Coven Batch 24
 - Rating: Not rated/5
 - Decision: delete
@@ -10120,8 +10120,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Amethyst Halberd Prioress
 
-- Render ID: `rnd_5ba17770cf86d7ce18b79c1b`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/04-amethyst-halberd-prioress-reference-256.png`
+- Render ID: `rnd_2c4c99ca0c6d116b3d31d974`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/04-amethyst-halberd-prioress.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10133,8 +10133,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ash Blue Bolo Sister
 
-- Render ID: `rnd_34d33db3e292dd62d1af96c9`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/14-ash-blue-bolo-sister-reference-256.png`
+- Render ID: `rnd_805066dfaa458203e336f719`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/14-ash-blue-bolo-sister.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10146,8 +10146,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Burnished Ochre Battle Axe Prioress
 
-- Render ID: `rnd_afcb9d913cea705d83e00d37`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/11-burnished-ochre-battle-axe-prioress-reference-256.png`
+- Render ID: `rnd_9ed52e98290f143f5012a220`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/11-burnished-ochre-battle-axe-prioress.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 4/5
 - Decision: delete
@@ -10159,8 +10159,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cobalt Spear Sentinel
 
-- Render ID: `rnd_301a86ff61b7629522a7c74f`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/01-cobalt-spear-sentinel-reference-256.png`
+- Render ID: `rnd_6b6e5be44766084960729a26`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/01-cobalt-spear-sentinel.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10172,8 +10172,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dark Jade Rondel Novice
 
-- Render ID: `rnd_d5dc167db842b66ed012f92c`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/20-dark-jade-rondel-novice-reference-256.png`
+- Render ID: `rnd_c1356916bba213f5f8bd9c67`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/20-dark-jade-rondel-novice.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10185,8 +10185,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dark Rust Sabre Sister
 
-- Render ID: `rnd_3192f7c42fa3eb02a699ad1a`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/18-dark-rust-sabre-sister-reference-256.png`
+- Render ID: `rnd_761e1ec7739dbc2b42af1e11`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/18-dark-rust-sabre-sister.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: 4/5
 - Decision: delete
@@ -10198,8 +10198,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Deep Teal Glaive Sister
 
-- Render ID: `rnd_ae8ab3f1077f172e2da2a7d2`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/07-deep-teal-glaive-sister-reference-256.png`
+- Render ID: `rnd_46c07c27b745ceabd353ed16`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/07-deep-teal-glaive-sister.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10211,8 +10211,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Indigo Partisan Lancer
 
-- Render ID: `rnd_27fc4719ad7d4c9c78581783`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/17-indigo-partisan-lancer-reference-256.png`
+- Render ID: `rnd_014dd75fbef38c3f75e51bef`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/17-indigo-partisan-lancer.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10224,8 +10224,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Midnight Recurve Huntress
 
-- Render ID: `rnd_c459fa72617d383844c02ef7`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/06-midnight-recurve-huntress-reference-256.png`
+- Render ID: `rnd_166d8610c07e5a53e470d5a9`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/06-midnight-recurve-huntress.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10237,8 +10237,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Russet Poleaxe Matron
 
-- Render ID: `rnd_c01ffd7d47f79fff53478c66`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/08-russet-poleaxe-matron-reference-256.png`
+- Render ID: `rnd_44815c9ccf79f7f3cd2972fd`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/08-russet-poleaxe-matron.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10250,8 +10250,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wine Falchion Canoness
 
-- Render ID: `rnd_22eca59ef2e461f76e98ec20`
-- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/13-wine-falchion-canoness-reference-256.png`
+- Render ID: `rnd_0917bc678168f817a98f3750`
+- Path: `enemies/veiled-warrior-nuns-batch-35/drafts/13-wine-falchion-canoness.png`
 - Collection: Veiled Warrior Nuns Batch 35
 - Rating: Not rated/5
 - Decision: delete
@@ -10263,8 +10263,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Dove Gray War Hammer Listener
 
-- Render ID: `rnd_06897d85cf694f0bad7ace89`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/10-dove-gray-war-hammer-listener-reference-256.png`
+- Render ID: `rnd_8828d7d0a490430ecb53aec1`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/10-dove-gray-war-hammer-listener.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: Not rated/5
 - Decision: delete
@@ -10276,8 +10276,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Lilac Short Spear Handmaid
 
-- Render ID: `rnd_58745ebf24ffa5c84153aaae`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/04-lilac-short-spear-handmaid-reference-256.png`
+- Render ID: `rnd_354ca6f8e0b1eaf18e0db59c`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/04-lilac-short-spear-handmaid.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: Not rated/5
 - Decision: delete
@@ -10289,8 +10289,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Periwinkle Bolo Votary
 
-- Render ID: `rnd_07c84eee7ed1fffaa9726af9`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/09-periwinkle-bolo-votary-reference-256.png`
+- Render ID: `rnd_2eb7e6271e91ff0612b9cba0`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/09-periwinkle-bolo-votary.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: Not rated/5
 - Decision: delete
@@ -10302,8 +10302,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Powder Blue Stiletto Novice
 
-- Render ID: `rnd_8b7544539dd225f7f213a628`
-- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/02-powder-blue-stiletto-novice-reference-256.png`
+- Render ID: `rnd_da3227af85bddb115168fe13`
+- Path: `enemies/veiled-warrior-nuns-batch-36/drafts/02-powder-blue-stiletto-novice.png`
 - Collection: Veiled Warrior Nuns Batch 36
 - Rating: Not rated/5
 - Decision: delete
@@ -10315,8 +10315,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Absolution Axe Prioress
 
-- Render ID: `rnd_97f90530bd19f8a121e0afc8`
-- Path: `enemies/warrior-nuns-batch-32/drafts/04-absolution-axe-prioress-reference-256.png`
+- Render ID: `rnd_097fb4c91597bebd0ced0ac6`
+- Path: `enemies/warrior-nuns-batch-32/drafts/04-absolution-axe-prioress.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10328,8 +10328,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Branding Staff Penitent
 
-- Render ID: `rnd_2a8eb968ed875c94430c4708`
-- Path: `enemies/warrior-nuns-batch-32/drafts/09-branding-staff-penitent-reference-256.png`
+- Render ID: `rnd_943b701285af58b825379e8c`
+- Path: `enemies/warrior-nuns-batch-32/drafts/09-branding-staff-penitent.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10341,8 +10341,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Burden Shield Novice
 
-- Render ID: `rnd_51ab799cbab127911efb86d4`
-- Path: `enemies/warrior-nuns-batch-32/drafts/05-burden-shield-novice-reference-256.png`
+- Render ID: `rnd_2de9299586e14285727eb6e1`
+- Path: `enemies/warrior-nuns-batch-32/drafts/05-burden-shield-novice.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10354,8 +10354,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Censer Flail Cantor
 
-- Render ID: `rnd_ffd4ac1a63a3a92f348074a4`
-- Path: `enemies/warrior-nuns-batch-32/drafts/02-censer-flail-cantor-reference-256.png`
+- Render ID: `rnd_1154e662b3f9b48b639033c7`
+- Path: `enemies/warrior-nuns-batch-32/drafts/02-censer-flail-cantor.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10367,8 +10367,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chain Sickle Votary
 
-- Render ID: `rnd_42872ea029c60811fb3df268`
-- Path: `enemies/warrior-nuns-batch-32/drafts/07-chain-sickle-votary-reference-256.png`
+- Render ID: `rnd_6490ea0b381d063952383ab8`
+- Path: `enemies/warrior-nuns-batch-32/drafts/07-chain-sickle-votary.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10380,8 +10380,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Confession Maul Abbess
 
-- Render ID: `rnd_8321a06689ed67b6436302aa`
-- Path: `enemies/warrior-nuns-batch-32/drafts/06-confession-maul-abbess-reference-256.png`
+- Render ID: `rnd_aaa2775eff5d7c2fc8537a3a`
+- Path: `enemies/warrior-nuns-batch-32/drafts/06-confession-maul-abbess.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10393,8 +10393,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Nail Reliquary Lancer
 
-- Render ID: `rnd_59454fc0e62e51e8cc139244`
-- Path: `enemies/warrior-nuns-batch-32/drafts/03-nail-reliquary-lancer-reference-256.png`
+- Render ID: `rnd_68b917c08ac96884bac8963e`
+- Path: `enemies/warrior-nuns-batch-32/drafts/03-nail-reliquary-lancer.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10406,8 +10406,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rosary Bow Huntress
 
-- Render ID: `rnd_599e1eb034b5799099e450bd`
-- Path: `enemies/warrior-nuns-batch-32/drafts/10-rosary-bow-huntress-reference-256.png`
+- Render ID: `rnd_3d2091fb9156a40bac209c4c`
+- Path: `enemies/warrior-nuns-batch-32/drafts/10-rosary-bow-huntress.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10419,8 +10419,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sacramental Shears Sister
 
-- Render ID: `rnd_254a76912ccc707202126884`
-- Path: `enemies/warrior-nuns-batch-32/drafts/08-sacramental-shears-sister-reference-256.png`
+- Render ID: `rnd_583ffced5ede99ebab5d2561`
+- Path: `enemies/warrior-nuns-batch-32/drafts/08-sacramental-shears-sister.png`
 - Collection: Warrior Nuns Batch 32
 - Rating: Not rated/5
 - Decision: delete
@@ -10432,8 +10432,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Black Veil Rapier Confessor
 
-- Render ID: `rnd_abdfe19253b8cc41bd26e09e`
-- Path: `enemies/warrior-nuns-batch-34/drafts/01-black-veil-rapier-confessor-reference-256.png`
+- Render ID: `rnd_24c0d093cd5814d42c8363cc`
+- Path: `enemies/warrior-nuns-batch-34/drafts/01-black-veil-rapier-confessor.png`
 - Collection: Warrior Nuns Batch 34
 - Rating: Not rated/5
 - Decision: delete
@@ -10445,8 +10445,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Spear Votary
 
-- Render ID: `rnd_ac498c72e1afa87d3b6f6bc1`
-- Path: `enemies/warrior-nuns-batch-34/drafts/02-ivory-spear-votary-reference-256.png`
+- Render ID: `rnd_89e9871a243520e1744a4f17`
+- Path: `enemies/warrior-nuns-batch-34/drafts/02-ivory-spear-votary.png`
 - Collection: Warrior Nuns Batch 34
 - Rating: Not rated/5
 - Decision: delete
@@ -10458,8 +10458,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Silent Crossbow Novice
 
-- Render ID: `rnd_aff741b403666a1235febda9`
-- Path: `enemies/warrior-nuns-batch-34/drafts/05-silent-crossbow-novice-reference-256.png`
+- Render ID: `rnd_12f05617b38bb76bd97558c4`
+- Path: `enemies/warrior-nuns-batch-34/drafts/05-silent-crossbow-novice.png`
 - Collection: Warrior Nuns Batch 34
 - Rating: Not rated/5
 - Decision: delete
@@ -10471,8 +10471,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### White Gold Halberd Prioress
 
-- Render ID: `rnd_da061a3cf912e44ebb96e884`
-- Path: `enemies/warrior-nuns-batch-34/drafts/04-white-gold-halberd-prioress-reference-256.png`
+- Render ID: `rnd_93faecb1fdb7c11668fc67db`
+- Path: `enemies/warrior-nuns-batch-34/drafts/04-white-gold-halberd-prioress.png`
 - Collection: Warrior Nuns Batch 34
 - Rating: Not rated/5
 - Decision: delete
@@ -10484,8 +10484,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Procession Shield White Lady
 
-- Render ID: `rnd_59f05cf8cef80e8d3789656b`
-- Path: `enemies/warrior-white-ladies-batch-33/rejected/03-procession-shield-white-lady-reference-256.png`
+- Render ID: `rnd_843bc69a17781a2bc3432a61`
+- Path: `enemies/warrior-white-ladies-batch-33/rejected/03-procession-shield-white-lady.png`
 - Collection: Warrior White Ladies Batch 33 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -10497,8 +10497,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wake Sibat White Lady
 
-- Render ID: `rnd_0b366cb32e75636c4a3d453d`
-- Path: `enemies/warrior-white-ladies-batch-33/rejected/02-wake-sibat-white-lady-reference-256.png`
+- Render ID: `rnd_51c02424ca6c1c37858c4e63`
+- Path: `enemies/warrior-white-ladies-batch-33/rejected/02-wake-sibat-white-lady.png`
 - Collection: Warrior White Ladies Batch 33 · Rejected
 - Rating: 2/5
 - Decision: delete
@@ -10510,8 +10510,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Cane Blade Heir
 
-- Render ID: `rnd_b2b10d90a4f95618bdeac46c`
-- Path: `enemies/wealthy-demonic-vampires-batch-38/drafts/03-cane-blade-heir-reference-256.png`
+- Render ID: `rnd_16da2f5bd615905fe23b0288`
+- Path: `enemies/wealthy-demonic-vampires-batch-38/drafts/03-cane-blade-heir.png`
 - Collection: Wealthy Demonic Vampires Batch 38
 - Rating: Not rated/5
 - Decision: delete
@@ -10523,8 +10523,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Gilded Estate Exactor
 
-- Render ID: `rnd_7df61cbba2e0bf762da965de`
-- Path: `enemies/wealthy-demonic-vampires-batch-38/drafts/01-gilded-estate-exactor-reference-256.png`
+- Render ID: `rnd_7e7041188dda13d4f24befe9`
+- Path: `enemies/wealthy-demonic-vampires-batch-38/drafts/01-gilded-estate-exactor.png`
 - Collection: Wealthy Demonic Vampires Batch 38
 - Rating: Not rated/5
 - Decision: delete
@@ -10536,8 +10536,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Sable Parasol Duquesa
 
-- Render ID: `rnd_a88732048b7eb456fb927324`
-- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/05-sable-parasol-duquesa-reference-256.png`
+- Render ID: `rnd_d6df9cb6cc57f71a995f98dd`
+- Path: `enemies/wealthy-spanish-vampire-wives-batch-46/drafts/05-sable-parasol-duquesa.png`
 - Collection: Wealthy Spanish Vampire Wives Batch 46
 - Rating: Not rated/5
 - Decision: delete
@@ -10549,8 +10549,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Bride
 
-- Render ID: `rnd_4cbdd116749ad2f2c95beccc`
-- Path: `enemies/white-lady-variations-batch-05/02-balete-bride-reference-256.png`
+- Render ID: `rnd_c5b7f9382acc6a039f31c23f`
+- Path: `enemies/white-lady-variations-batch-05/02-balete-bride.png`
 - Collection: White Lady Variations Batch 05
 - Rating: Not rated/5
 - Decision: delete
@@ -10562,8 +10562,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Bride
 
-- Render ID: `rnd_5056a2a37eed0c8e7c78f064`
-- Path: `enemies/white-lady-variations-batch-05-v02/drafts/02-balete-bride-v02-reference-256.png`
+- Render ID: `rnd_62dcd7c3b4c8ea01d0c8af6b`
+- Path: `enemies/white-lady-variations-batch-05-v02/drafts/02-balete-bride-v02.png`
 - Collection: White Lady Variations Batch 05
 - Rating: Not rated/5
 - Decision: delete
@@ -10575,8 +10575,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Balete Bride
 
-- Render ID: `rnd_5ce292293bd30e91b1700c86`
-- Path: `enemies/white-lady-variations-batch-05-v02/drafts/02-balete-bride-v03-reference-256.png`
+- Render ID: `rnd_1ceedc865b6e2cba6b2e9f13`
+- Path: `enemies/white-lady-variations-batch-05-v02/drafts/02-balete-bride-v03.png`
 - Collection: White Lady Variations Batch 05
 - Rating: Not rated/5
 - Decision: delete
@@ -10588,8 +10588,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Chapel Candle White Lady
 
-- Render ID: `rnd_234c7b929ca8ed2892b14822`
-- Path: `enemies/white-lady-variations-batch-05/04-chapel-candle-white-lady-reference-256.png`
+- Render ID: `rnd_84d919f7ba1211f8ac8aaf74`
+- Path: `enemies/white-lady-variations-batch-05/04-chapel-candle-white-lady.png`
 - Collection: White Lady Variations Batch 05
 - Rating: Not rated/5
 - Decision: delete
@@ -10601,8 +10601,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Road White Lady
 
-- Render ID: `rnd_ccd8dacf0cd92a65e8892c77`
-- Path: `enemies/white-lady-variations-batch-05/03-rain-road-white-lady-reference-256.png`
+- Render ID: `rnd_07361e2ac1301532a2d19734`
+- Path: `enemies/white-lady-variations-batch-05/03-rain-road-white-lady.png`
 - Collection: White Lady Variations Batch 05
 - Rating: Not rated/5
 - Decision: delete
@@ -10614,8 +10614,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### River Mirror White Lady
 
-- Render ID: `rnd_8e8e327ce0acdf9a0d9c7db2`
-- Path: `enemies/white-lady-variations-batch-05/05-river-mirror-white-lady-reference-256.png`
+- Render ID: `rnd_827ce02ef3df88dae0fdf225`
+- Path: `enemies/white-lady-variations-batch-05/05-river-mirror-white-lady.png`
 - Collection: White Lady Variations Batch 05
 - Rating: Not rated/5
 - Decision: delete
@@ -10627,8 +10627,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Abaca Knot Binder
 
-- Render ID: `rnd_b51ef40f577ccbc906190e02`
-- Path: `enemies/wraiths-batch-36/rejected/03-abaca-knot-binder-reference-256.png`
+- Render ID: `rnd_22f0b82c7d3f8c21bd67dbf3`
+- Path: `enemies/wraiths-batch-36/rejected/03-abaca-knot-binder.png`
 - Collection: Wraiths Batch 36 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -10640,8 +10640,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Drowned Fare Keeper
 
-- Render ID: `rnd_663416dfe42dd72eb86dc5ad`
-- Path: `enemies/wraiths-batch-36/rejected/01-drowned-fare-keeper-reference-256.png`
+- Render ID: `rnd_fb7a3bed350d1a6179bc3c66`
+- Path: `enemies/wraiths-batch-36/rejected/01-drowned-fare-keeper.png`
 - Collection: Wraiths Batch 36 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -10653,8 +10653,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rain Riven Courier
 
-- Render ID: `rnd_0d7942adc0541273d11961a7`
-- Path: `enemies/wraiths-batch-36/rejected/05-rain-riven-courier-reference-256.png`
+- Render ID: `rnd_d5896b2934b3feeaa6f5b222`
+- Path: `enemies/wraiths-batch-36/rejected/05-rain-riven-courier.png`
 - Collection: Wraiths Batch 36 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -10666,8 +10666,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Road Hem Mourner
 
-- Render ID: `rnd_34a6c6ec6ad802dc7f09ce85`
-- Path: `enemies/wraiths-batch-36/rejected/02-road-hem-mourner-reference-256.png`
+- Render ID: `rnd_b8959357ffc5573755a21165`
+- Path: `enemies/wraiths-batch-36/rejected/02-road-hem-mourner.png`
 - Collection: Wraiths Batch 36 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -10679,8 +10679,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shut Eye Witness
 
-- Render ID: `rnd_49e363b93b826146509bca2e`
-- Path: `enemies/wraiths-batch-36/rejected/04-shut-eye-witness-reference-256.png`
+- Render ID: `rnd_ab122fe164c12c06bac4f77e`
+- Path: `enemies/wraiths-batch-36/rejected/04-shut-eye-witness.png`
 - Collection: Wraiths Batch 36 · Rejected
 - Rating: Not rated/5
 - Decision: delete
@@ -10887,8 +10887,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Crimson Knight Player Character
 
-- Render ID: `rnd_44aa61ca2c4f5c2a50a3b043`
-- Path: `protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png`
+- Render ID: `rnd_3e41f23acecc25eadeb8349a`
+- Path: `protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01.png`
 - Collection: Crimson Knight Player Character
 - Rating: Not rated/5
 - Decision: delete
@@ -10900,8 +10900,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Barbute Scripture Guard
 
-- Render ID: `rnd_dcd106026e7115ec6b2c8932`
-- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/07-barbute-scripture-guard-reference-256.png`
+- Render ID: `rnd_ec7d48a330c6098eab3d77b3`
+- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/07-barbute-scripture-guard.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10913,8 +10913,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bellows Visor Reliquary
 
-- Render ID: `rnd_a17ce58b65255020d5413fc0`
-- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/08-bellows-visor-reliquary-reference-256.png`
+- Render ID: `rnd_40c67a5fb4d960cdac37733e`
+- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/08-bellows-visor-reliquary.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10926,8 +10926,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Book Spine Inquisitor
 
-- Render ID: `rnd_58de6dca4df76b5db652a61c`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/06-book-spine-inquisitor-reference-256.png`
+- Render ID: `rnd_93e2bc8ccaf04171e76931b3`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/06-book-spine-inquisitor.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10939,8 +10939,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Caged Tribunal Knight
 
-- Render ID: `rnd_f68b639e0723b4cbb7290420`
-- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/02-caged-tribunal-knight-reference-256.png`
+- Render ID: `rnd_fa32b0a010427897f9c7fb16`
+- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/02-caged-tribunal-knight.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10952,8 +10952,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Falling Buffe Auditor
 
-- Render ID: `rnd_f1ed6dc21282cb50f4feaf69`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/02-falling-buffe-auditor-reference-256.png`
+- Render ID: `rnd_e0bb95518cc3cd5b4800d00f`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/02-falling-buffe-auditor.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10965,8 +10965,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Frog Mouth Tithe Knight
 
-- Render ID: `rnd_39a49b0657cc79c7d5f61bc8`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/01-frog-mouth-tithe-knight-reference-256.png`
+- Render ID: `rnd_28a662455f4ce1dc5760bd85`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/01-frog-mouth-tithe-knight.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10978,8 +10978,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hounskull Questioner
 
-- Render ID: `rnd_ed71e2d072fa4fa48f44dcbf`
-- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/04-hounskull-questioner-reference-256.png`
+- Render ID: `rnd_d35fa729a2f2f9dde74b173b`
+- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/04-hounskull-questioner.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -10991,8 +10991,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Iron Abbot Chapel Hat
 
-- Render ID: `rnd_f134cc33d99b9e1a3241a3c6`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/08-iron-abbot-chapel-hat-reference-256.png`
+- Render ID: `rnd_f60bf958ad8b2964416ae9d3`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/08-iron-abbot-chapel-hat.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -11004,8 +11004,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Long Tail Sallet Marshal
 
-- Render ID: `rnd_a03901953e80f33fb923d725`
-- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/06-long-tail-sallet-marshal-reference-256.png`
+- Render ID: `rnd_ee05157f76eb4d9fd11ad53f`
+- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/06-long-tail-sallet-marshal.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -11017,8 +11017,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mirror Face Examiner
 
-- Render ID: `rnd_3a481fecac7a7f3a1294f531`
-- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/03-mirror-face-examiner-reference-256.png`
+- Render ID: `rnd_bcefb19af69453db079389ba`
+- Path: `protagonist/holy-knight-helmet-orders-v03/drafts/03-mirror-face-examiner.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -11030,8 +11030,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Nasal Scripture Knight
 
-- Render ID: `rnd_3d99a3c75a09523b85d1fe71`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/04-nasal-scripture-knight-reference-256.png`
+- Render ID: `rnd_993cc57a869bdba12f4afb19`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/04-nasal-scripture-knight.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -11043,8 +11043,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rosette Breather Templar
 
-- Render ID: `rnd_a67e4a1a6d03d0a2383b8309`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/07-rosette-breather-templar-reference-256.png`
+- Render ID: `rnd_e30de1aa6a2969810f4f9676`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/07-rosette-breather-templar.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -11056,8 +11056,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shutter Visor Canon
 
-- Render ID: `rnd_8a707dcf6719993dd1dc6c31`
-- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/05-shutter-visor-canon-reference-256.png`
+- Render ID: `rnd_cf1248e6dbdae36c2c042958`
+- Path: `protagonist/holy-knight-helmet-orders-v04/drafts/05-shutter-visor-canon.png`
 - Collection: Holy Knight Helmet Orders
 - Rating: Not rated/5
 - Decision: delete
@@ -11069,8 +11069,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Bell Helm Judicator
 
-- Render ID: `rnd_d8c0c4741db4b273efba18f1`
-- Path: `protagonist/holy-knight-variations-v02/drafts/01-bell-helm-judicator-reference-256.png`
+- Render ID: `rnd_40fc48c2a5c03b6f7064384d`
+- Path: `protagonist/holy-knight-variations-v02/drafts/01-bell-helm-judicator.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11082,8 +11082,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Broken Halo Greatsword
 
-- Render ID: `rnd_cdfa5794cb403ad6524e629a`
-- Path: `protagonist/holy-knight-variations-v02/drafts/06-broken-halo-greatsword-reference-256.png`
+- Render ID: `rnd_d11b44ee250f87ca3414f0fb`
+- Path: `protagonist/holy-knight-variations-v02/drafts/06-broken-halo-greatsword.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11095,8 +11095,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Floodlight Hospitaller
 
-- Render ID: `rnd_ff5309e394cafdb146f3196a`
-- Path: `protagonist/holy-knight-variations-v01/drafts/05-floodlight-hospitaller-reference-256.png`
+- Render ID: `rnd_fe8257ae89c21560afc09709`
+- Path: `protagonist/holy-knight-variations-v01/drafts/05-floodlight-hospitaller.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11108,8 +11108,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ivory Processional
 
-- Render ID: `rnd_af1a1ab9880fc3cdb8cf0bd9`
-- Path: `protagonist/holy-knight-variations-v02/drafts/02-ivory-processional-reference-256.png`
+- Render ID: `rnd_4f9a48f3f57fd57ec242b1f0`
+- Path: `protagonist/holy-knight-variations-v02/drafts/02-ivory-processional.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11121,8 +11121,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Salt Warden
 
-- Render ID: `rnd_5abc25fb0dcf042c83204028`
-- Path: `protagonist/holy-knight-variations-v01/drafts/03-moon-salt-warden-reference-256.png`
+- Render ID: `rnd_fc21a9c38cdfb5d5ecab8da1`
+- Path: `protagonist/holy-knight-variations-v01/drafts/03-moon-salt-warden.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11134,8 +11134,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Moon Thorn Lancer
 
-- Render ID: `rnd_27511e24ad8bbe030e5efb10`
-- Path: `protagonist/holy-knight-variations-v02/drafts/04-moon-thorn-lancer-reference-256.png`
+- Render ID: `rnd_8635f866a8f201f98e827ecb`
+- Path: `protagonist/holy-knight-variations-v02/drafts/04-moon-thorn-lancer.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11147,8 +11147,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Bastion
 
-- Render ID: `rnd_418de3fc3a564b946c17d518`
-- Path: `protagonist/holy-knight-variations-v02/drafts/03-salt-bastion-reference-256.png`
+- Render ID: `rnd_4d728006b3d50ed23ae23471`
+- Path: `protagonist/holy-knight-variations-v02/drafts/03-salt-bastion.png`
 - Collection: Holy Knight Variations
 - Rating: Not rated/5
 - Decision: delete
@@ -11160,8 +11160,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashglass Pistolier
 
-- Render ID: `rnd_a81c920237aba412d4eb6388`
-- Path: `protagonist/slayer-concepts/drafts/03-ashglass-pistolier-reference-256.png`
+- Render ID: `rnd_a38e29e6d0bd2eb0337f2c80`
+- Path: `protagonist/slayer-concepts/drafts/03-ashglass-pistolier.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11173,8 +11173,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Ashhound Pactkeeper
 
-- Render ID: `rnd_333a856b4a46bf1886078532`
-- Path: `protagonist/slayer-concepts/drafts/14-ashhound-pactkeeper-reference-256.png`
+- Render ID: `rnd_180f36d53dbd5293325630fa`
+- Path: `protagonist/slayer-concepts/drafts/14-ashhound-pactkeeper.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11186,8 +11186,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Coffin Nail Fencer
 
-- Render ID: `rnd_598e5f102fc6445e95fc7a2c`
-- Path: `protagonist/slayer-concepts/drafts/06-coffin-nail-fencer-reference-256.png`
+- Render ID: `rnd_156eee799daf8723c43be5b5`
+- Path: `protagonist/slayer-concepts/drafts/06-coffin-nail-fencer.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11199,8 +11199,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Eclipse Netter
 
-- Render ID: `rnd_7ffcc80a6ddf24b49dbfed46`
-- Path: `protagonist/slayer-concepts/drafts/12-eclipse-netter-reference-256.png`
+- Render ID: `rnd_02507ba525bbc9ba2ebdae09`
+- Path: `protagonist/slayer-concepts/drafts/12-eclipse-netter.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11212,8 +11212,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Flood Bell Harpooner
 
-- Render ID: `rnd_0afb6b240bdb87fa910d0f87`
-- Path: `protagonist/slayer-concepts/drafts/01-flood-bell-harpooner-reference-256.png`
+- Render ID: `rnd_de27550caa293f4c8de1078d`
+- Path: `protagonist/slayer-concepts/drafts/01-flood-bell-harpooner.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11225,8 +11225,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Funeral Kite Duelist
 
-- Render ID: `rnd_92abd0e977c067733e634b4b`
-- Path: `protagonist/slayer-concepts/drafts/13-funeral-kite-duelist-reference-256.png`
+- Render ID: `rnd_4649899e1c584c5ba9b58c0e`
+- Path: `protagonist/slayer-concepts/drafts/13-funeral-kite-duelist.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11238,8 +11238,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Grave Salt Pugilist
 
-- Render ID: `rnd_c33872fbed1aa05aac4233a0`
-- Path: `protagonist/slayer-concepts/drafts/11-grave-salt-pugilist-reference-256.png`
+- Render ID: `rnd_d164821582440a6436b77b36`
+- Path: `protagonist/slayer-concepts/drafts/11-grave-salt-pugilist.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11251,8 +11251,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Hollow Drummer
 
-- Render ID: `rnd_52305043e9ee7975a9c5f30d`
-- Path: `protagonist/slayer-concepts/drafts/09-hollow-drummer-reference-256.png`
+- Render ID: `rnd_d0a424f778b09a9ddb2434e1`
+- Path: `protagonist/slayer-concepts/drafts/09-hollow-drummer.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11264,8 +11264,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Mourning Parasol
 
-- Render ID: `rnd_3c82e318422861ce76a108ab`
-- Path: `protagonist/slayer-concepts/drafts/07-mourning-parasol-reference-256.png`
+- Render ID: `rnd_1d84902b7aba681646400f29`
+- Path: `protagonist/slayer-concepts/drafts/07-mourning-parasol.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11277,8 +11277,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Rootbound Outcast
 
-- Render ID: `rnd_0c5f11fcc49f9ed64cef58d6`
-- Path: `protagonist/slayer-concepts/drafts/04-rootbound-outcast-reference-256.png`
+- Render ID: `rnd_1a6b86fa60c9f1392cca325b`
+- Path: `protagonist/slayer-concepts/drafts/04-rootbound-outcast.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11290,8 +11290,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Salt Loom Hunter
 
-- Render ID: `rnd_c499def539bb09c7982e41b8`
-- Path: `protagonist/slayer-concepts/drafts/02-salt-loom-hunter-reference-256.png`
+- Render ID: `rnd_ea98c292e3b36bea0aae15e1`
+- Path: `protagonist/slayer-concepts/drafts/02-salt-loom-hunter.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11303,8 +11303,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Shrinebreaker Mason
 
-- Render ID: `rnd_586f73ac41759ff016b63013`
-- Path: `protagonist/slayer-concepts/drafts/08-shrinebreaker-mason-reference-256.png`
+- Render ID: `rnd_e7d870378f74c29f913835cf`
+- Path: `protagonist/slayer-concepts/drafts/08-shrinebreaker-mason.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11316,8 +11316,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Threshold Thief
 
-- Render ID: `rnd_c1fc42fc138eeb6ce4c752cd`
-- Path: `protagonist/slayer-concepts/drafts/10-threshold-thief-reference-256.png`
+- Render ID: `rnd_488dbe659458db8d741214c4`
+- Path: `protagonist/slayer-concepts/drafts/10-threshold-thief.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11329,8 +11329,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Thunder Jar Breaker
 
-- Render ID: `rnd_e6c8c2cbbeadf5d0d211812e`
-- Path: `protagonist/slayer-concepts/drafts/05-thunder-jar-breaker-reference-256.png`
+- Render ID: `rnd_f0b0716ceaa885391830f73c`
+- Path: `protagonist/slayer-concepts/drafts/05-thunder-jar-breaker.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete
@@ -11342,8 +11342,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 ### Wax Seal Smith
 
-- Render ID: `rnd_1c74a786f7ef2d991e9d9bfe`
-- Path: `protagonist/slayer-concepts/drafts/15-wax-seal-smith-reference-256.png`
+- Render ID: `rnd_4d1be554a033b2605a880873`
+- Path: `protagonist/slayer-concepts/drafts/15-wax-seal-smith.png`
 - Collection: Slayer Concepts
 - Rating: Not rated/5
 - Decision: delete

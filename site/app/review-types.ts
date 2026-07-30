@@ -21,8 +21,6 @@ export type ArtItem = {
   status: ArtStatus;
   width: number;
   height: number;
-  sourceAvailable: boolean;
-  sourceUrl: string | null;
   suggestedTags: SuggestedTag[];
 };
 

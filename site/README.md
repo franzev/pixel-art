@@ -27,12 +27,11 @@ come before `drafts/` or `rejected/`. While the local website is running, the
 catalog refreshes automatically when PNGs are added, changed, moved, or
 removed.
 
-Character and creature renders use
-`<NN>-<slug>-reference-256.png`. Environment previews use
-`<NN>-<slug>-preview-<width>x<height>.png`.
+Character and creature renders use `<NN>-<slug>.png` at full quality.
+Environment previews use `<NN>-<slug>-preview-<width>x<height>.png`.
 
-The matching full-resolution source remains in the parent repository's category
-collection. Do not keep another copy of the website-ready render there.
+Each render exists exactly once, here. There are no separate `-source`
+originals or `-reference-256` downscales anywhere in the repository.
 
 ## Local use
 

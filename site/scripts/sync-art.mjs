@@ -1,21 +1,11 @@
-import {
-  link,
-  mkdir,
-  readFile,
-  readdir,
-  stat,
-  unlink,
-  writeFile,
-} from "node:fs/promises";
+import { readFile, readdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 export const siteDir = path.resolve(scriptDir, "..");
-const repositoryDir = path.resolve(siteDir, "..");
 export const artDir = path.join(siteDir, "public", "art");
-const sourceMirrorDir = path.join(siteDir, "public", "art-source");
 const outputIndex = path.join(siteDir, "app", "art-index.json");
 const categoryLabels = new Set([
   "enemies",
@@ -40,16 +30,7 @@ async function walk(directory) {
 
 function shouldInclude(relativePath) {
   const normalized = relativePath.split(path.sep).join("/");
-  if (!normalized.toLowerCase().endsWith(".png")) return false;
-  if (normalized.includes("/rejected/") && normalized.includes("-source")) {
-    return false;
-  }
-
-  return (
-    normalized.endsWith("-reference-256.png") ||
-    (normalized.startsWith("environments/") &&
-      /-preview-\d+x\d+\.png$/i.test(normalized))
-  );
+  return normalized.toLowerCase().endsWith(".png");
 }
 
 function humanize(value) {
@@ -88,25 +69,6 @@ function deriveStatus(normalizedPath) {
   if (normalizedPath.includes("/rejected/")) return "rejected";
   if (normalizedPath.includes("/drafts/")) return "draft";
   return "retained";
-}
-
-async function mirrorSource(sourceFile, relativeParts) {
-  const mirrorPath = path.join(sourceMirrorDir, ...relativeParts);
-  const sourceStat = await stat(sourceFile);
-
-  try {
-    const mirrorStat = await stat(mirrorPath);
-    if (mirrorStat.ino === sourceStat.ino) return;
-    await unlink(mirrorPath);
-  } catch {
-    await mkdir(path.dirname(mirrorPath), { recursive: true });
-  }
-
-  try {
-    await link(sourceFile, mirrorPath);
-  } catch {
-    await writeFile(mirrorPath, await readFile(sourceFile));
-  }
 }
 
 async function pngMetadata(file) {
@@ -261,36 +223,6 @@ export async function syncArt() {
       throw error;
     }
     const filename = parts.at(-1);
-    const repositoryCandidate = path.join(repositoryDir, ...parts);
-    const sourceCandidate = repositoryCandidate.replace(
-      /-reference-256\.png$/i,
-      "-source.png",
-    );
-    let sourceAvailable = false;
-    if (sourceCandidate !== repositoryCandidate) {
-      try {
-        sourceAvailable = (await stat(sourceCandidate)).isFile();
-      } catch {
-        sourceAvailable = false;
-      }
-    }
-
-    let sourceUrl = null;
-    if (sourceAvailable) {
-      const sourceParts = [
-        ...parts.slice(0, -1),
-        filename.replace(/-reference-256\.png$/i, "-source.png"),
-      ];
-      try {
-        await mirrorSource(sourceCandidate, sourceParts);
-        sourceUrl = `/art-source/${sourceParts
-          .map(encodeURIComponent)
-          .join("/")}`;
-      } catch {
-        sourceUrl = null;
-      }
-    }
-
     const collection = collectionName(parts);
     const status = deriveStatus(normalized);
 
@@ -307,8 +239,6 @@ export async function syncArt() {
       status,
       width: metadata.width,
       height: metadata.height,
-      sourceAvailable,
-      sourceUrl,
       suggestedTags: suggestedTags({
         category,
         collection,

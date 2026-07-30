@@ -197,7 +197,7 @@ export function ReviewDesk({
       if (!candidate) continue;
       const image = new Image();
       image.decoding = "async";
-      image.src = candidate.sourceUrl ?? candidate.url;
+      image.src = candidate.url;
     }
   }, [current, currentIndex, queueItems]);
 
@@ -559,8 +559,7 @@ export function ReviewDesk({
             aria-label="Toggle render zoom"
           >
             <img
-              src={current.sourceUrl ?? current.url}
-              data-res={current.sourceUrl ? "high" : undefined}
+              src={current.url}
               alt={current.name}
             />
           </button>

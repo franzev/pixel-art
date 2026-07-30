@@ -1,0 +1,52 @@
+{
+  "collection": "Holy Knight Realism Pass v05",
+  "date": "2026-07-29",
+  "status": "draft",
+  "use_case": "stylized-concept",
+  "generation_mode": "built-in image generation",
+  "purpose": "Replace the five least plausible or excessively bulky v04 concepts.",
+  "originality": "Generated from original text briefs. Museum sources informed only general mechanical constraints; no visual reference images were supplied.",
+  "background": "#171311",
+  "source_dimensions": [1254, 1254],
+  "reference_dimensions": [256, 256],
+  "entries": [
+    {
+      "id": "01",
+      "name": "Pivot-Visor Penitent",
+      "replaces": "Frog-Mouth Tithe Knight",
+      "source": "drafts/01-pivot-visor-penitent-source.png",
+      "reference": "drafts/01-pivot-visor-penitent-reference-256.png"
+    },
+    {
+      "id": "02",
+      "name": "Split-Buffe Examiner",
+      "replaces": "Shutter-Visor Canon",
+      "source": "drafts/02-split-buffe-examiner-source.png",
+      "reference": "drafts/02-split-buffe-examiner-reference-256.png"
+    },
+    {
+      "id": "03",
+      "name": "Ribbed-Sallet Canon",
+      "replaces": "Book-Spine Inquisitor",
+      "source": "drafts/03-ribbed-sallet-canon-source.png",
+      "reference": "drafts/03-ribbed-sallet-canon-reference-256.png"
+    },
+    {
+      "id": "04",
+      "name": "Pierced-Visor Templar",
+      "replaces": "Rosette-Breather Templar",
+      "source": "drafts/04-pierced-visor-templar-source.png",
+      "reference": "drafts/04-pierced-visor-templar-reference-256.png"
+    },
+    {
+      "id": "05",
+      "name": "Pilgrim Abbot",
+      "replaces": "Iron Abbot of the Chapel Hat",
+      "source": "drafts/05-pilgrim-abbot-source.png",
+      "reference": "drafts/05-pilgrim-abbot-reference-256.png"
+    }
+  ],
+  "review_sheet": "holy-knight-realism-pass-v05-review-sheet.png",
+  "prompts": "GENERATION-PROMPTS.md",
+  "research_notes": "RESEARCH-NOTES.md"
+}

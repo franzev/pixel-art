@@ -1,8 +1,8 @@
 # Ashen Provinces Master Render Contract
 
-Version: 1.0
+Version: 1.1
 
-Last updated: 2026-07-30
+Last updated: 2026-07-30 (incorporates the 996-render bulk review; see `art-catalog/REVIEW-LEARNINGS.md`)
 
 Status: Active project-wide rendering instructions
 
@@ -35,6 +35,8 @@ Current active specifications include:
 - `ASSET-SPEC.md`
 - `ENEMY-ASSET-SPEC.md`
 - `enemies/ENEMY-ART-DIRECTION-FEEDBACK.md`
+- `art-catalog/REVIEW-LEARNINGS.md` — distilled lessons from the confirmed review data; read before every batch
+- `art-catalog/RENDER-FEEDBACK.md` and `art-catalog/render-feedback.jsonl` — machine-exported review records (never hand-edit)
 - Category and collection `STATUS.md`, `POSITIVE-REFERENCE-NOTES.md`, and `REJECTION-NOTES.md` files
 
 If an older prompt conflicts with a newer specification, follow the newer specification.
@@ -131,7 +133,7 @@ Favor:
 - Severe, mournful, occult, weathered, and historically grounded character.
 - Black, charcoal, soot, dirty ivory, dull metal, bronze, copper, dirty gold, and controlled family-specific accents.
 - Controlled ember-orange light.
-- Countable spell geometry.
+- Countable spell geometry, only when a caster with visible magic is explicitly briefed (effects are otherwise default-off; see the Weapon, Grip, and Effect Contract).
 - Clear negative spaces between the body, limbs, weapons, wings, cloth, and effects.
 - Designs that remain recognizable at 256 pixels and gameplay scale.
 
@@ -156,6 +158,31 @@ Unless the request is explicitly an environment or narrative scene:
 - Follow the collection's established facing direction. If none exists, choose a readable three-quarter view and keep the batch consistent.
 
 Do not use the Penitent One or another copyrighted character as a design template. Existing references may guide pixel treatment, weight, or atmosphere, but do not copy their helmet, costume, pose, weapon, or silhouette.
+
+## Weapon, Grip, and Effect Contract
+
+These rules come directly from the confirmed review data (`art-catalog/REVIEW-LEARNINGS.md`). Weapon faults and unwanted effects are the two most common rejection causes across 996 reviews.
+
+Weapons:
+
+- Blades, hafts, shafts, and handles must be perfectly straight. A bent or crooked weapon is an automatic rejection.
+- Render every weapon at full combat length. A longsword or spear that reads short at 256 pixels is a rejection; do not compress the weapon to fit the frame — adjust the pose or padding instead.
+- Hands grip the handle only. Never place a hand on the blade.
+- Two-handed weapons (greatswords, spears held ready, polearms in action poses) take both hands on the grip.
+- Do not rest a blade on the character's shoulder.
+- Thumbs and fingers must wrap the grip correctly, with the wrist and forearm aligned to the handle. Shields need a mechanically plausible interior handle or strap that the hand actually holds.
+- Use conventional, immediately recognizable weapons: halberd, longsword, arming sword, greatsword, rapier, sabre, mace, morning star, war pick, flail, bolo, knife, spear, glaive, crossbow, arquebus. Do not arm characters with gimmick objects — fans, books, spindles, serving plates, candelabra — unless the user explicitly requests one. A religious or family motif belongs in the weapon's detailing, not in replacing the weapon.
+
+Effects and props:
+
+- Default to zero floating spell effects, blood droplets, magic threads, sigils, orbiting projectiles, floating ammunition, smoke wisps, and ambient particles. Add visible magic only when the brief explicitly calls for a caster with effects.
+- One weapon or one clearly-purposed tool per character. Remove secondary hand props (plates, books, ropes) that clutter the read.
+- Do not add decorative skin tattoos or markings unless the family specification requires them.
+
+Coherence:
+
+- The character must be physically able to use their equipment as depicted — no blindfolded crossbow aimers, no grips the hand cannot make.
+- Garments must be weathered and specific, never pristine, symmetric-perfect, or cartoony.
 
 ## Pixel-Art Treatment
 
@@ -242,22 +269,19 @@ Also avoid:
 - Whimsical unrelated animal, object, or abstract outsiders.
 - Excessively repeated veiled women, identical handsome men, or cloned athletic bodies.
 
-### Positive Infernal Direction
+### Positive Direction (updated from the 2026-07-30 bulk review)
 
-Use `enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-source.png` as the strongest general infernal mood reference when appropriate.
+The Flesh-Veil Oracle is no longer a positive reference: the user rated it 1/5 and marked it for deletion during the bulk review, together with nearly all effect-heavy caster batches. Do not use it or Infernal Demons Batch 13 as a mood anchor.
 
-Preserve its high-level qualities:
+The confirmed positive direction is armed, martial, religious-gothic humanoids with conventional weapons, weathered garments, and no floating effects. Use the 5/5 review keeps as references — for example:
 
-- Elegant, statuesque adult presence.
-- Severe veil or hood logic.
-- Partly concealed but readable face.
-- Pale intact skin with restrained ritual markings.
-- Soot-dark layered cloth.
-- Worn bronze or copper.
-- Controlled ember magic.
-- Melancholy occult menace.
+- `enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02-reference-256.png`
+- `enemies/blood-priestesses-batch-39/drafts/01-oxblood-rapier-confessor-reference-256.png`
+- `enemies/blood-priestesses-batch-39/drafts/10-pale-grave-hammer-canoness-reference-256.png`
+- `enemies/catholic-knights-batch-41/drafts/01-processional-crucifer-reference-256.png`
+- `enemies/veiled-warrior-nuns-batch-37/drafts/01-oxblood-arming-sword-survivor-reference-256.png`
 
-Do not copy its pose, profile, hood, garment panels, hands, spell column, or exact silhouette. Do not generalize its horns or burgundy accents into a family whose newer rules prohibit them.
+The full anchor list lives in `art-catalog/REVIEW-LEARNINGS.md`. Preserve the high-level qualities these share — statuesque adult presence, severe religious dress logic, worn metal and cloth, melancholy menace, one readable weapon — without copying any single pose, costume, or silhouette.
 
 ## Knight and Armored-Humanoid Direction
 
@@ -386,11 +410,11 @@ Construct a separate prompt for each concept using this logic:
 
 > Create one original [category] concept for the Ashen Provinces: [specific identity and gameplay role]. Show exactly one complete [adult humanoid or specified anatomy] on a square 1:1 canvas, isolated against a plain warm near-black background. Preserve generous padding around the entire silhouette, including [all counted extensions]. Use deliberate crisp pixel art with hard square pixels, connected clusters, broad value masses, restrained color ramps, and no anti-aliasing, blur, painterly gradients, or microtexture.
 >
-> - Anatomy and counted elements: [exact count].
+> - Anatomy and counted elements: [exact count], five fingers per visible hand.
 > - Silhouette and posture: [specific construction].
-> - Clothing or armor: [coherent functional system].
-> - Primary equipment or corruption event: [one idea].
-> - Secondary accent: [none or one restrained idea].
+> - Clothing or armor: [coherent functional system], weathered and specific, never pristine.
+> - Primary equipment or corruption event: [one idea]. Weapon: [named conventional weapon], perfectly straight, full combat length, gripped correctly by the handle with [one or both] hands.
+> - Secondary accent: [none or one restrained idea]; no floating spell effects, droplets, or particles unless explicitly briefed.
 > - Palette: [dominant neutrals and limited accent coverage].
 > - Mood: severe, mournful, occult, grounded, and non-graphic.
 >
@@ -411,7 +435,12 @@ Inspect every returned image before presenting or saving it as a viable draft.
 - Correct anatomy.
 - Correct count of every repeated part.
 - No accidental extra face, hand, limb, weapon, wing, jar, orb, or attachment.
+- Five fingers on every visible hand, with correct thumb placement.
+- Weapon is straight, full combat length, and gripped by the handle only — both hands for two-handed weapons, no hand on the blade, no blade resting on a shoulder.
+- No unrequested spell effects, droplets, particles, or floating props.
+- Feet and legs are planted plausibly.
 - Coherent joins between anatomy, clothing, armor, and props.
+- Equipment is physically usable by the character as depicted.
 - Requested facing and pose.
 - No scenery or text.
 

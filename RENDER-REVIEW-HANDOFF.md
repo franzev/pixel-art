@@ -12,15 +12,17 @@ Continue building and validating a fast, local-first system for reviewing a grow
 ## Product decisions
 
 - The primary interface is a desktop-first, keyboard-first local web app that presents one render at a time.
-- A 1–5 overall rating is required for a decision. Concept, execution, and art-direction ratings are optional details.
+- A 1–5 overall rating is required for review decisions except deletion. Pressing `D` marks for deletion, saves, and advances immediately without requiring a rating or feedback. The unused concept, execution, and direction-fit rating controls were removed after all three recorded zero use across 996 reviews; their compatibility fields remain in storage.
 - Supported decisions are: Keep, Correct, Rerender same concept, Redesign, Reference-only, Duplicate, Reject concept, and Mark for deletion.
-- Defects are structured and have minor, major, or fatal severity. Important defect families include proportions, anatomy/limbs, weapon handling, magic/effects, silhouette/pose, duplication/repetition, art-direction mismatch, costume, composition/background, pixel treatment, originality, and technical issues.
+- Defects are structured and have minor, major, or fatal severity. The active quick-failure list contains proportions, anatomy/limbs, hands/fingers, weapon handling, weapon too short, bent/crooked weapon, wrong weapon design, unwanted magic/effects, silhouette/pose, duplication/repetition, costume, and technical issues. Hands/fingers, weapon too short, bent/crooked weapon, and wrong weapon design were promoted from recurring free-text feedback and backfilled without deleting the original notes. Four zero-use options—art-direction mismatch, composition/background, pixel treatment, and generic/derivative—were removed from the interface after auditing 996 reviews; the database remains flexible enough to preserve older defect keys.
 - “Correct” means the concept should be preserved and repaired. “Rerender” preserves the concept but starts a new execution. “Redesign” and “Reject concept” signal deeper conceptual failure.
 - Feedback includes free-form notes plus explicit “preserve” and “change in next attempt” guidance.
 - Duplicate records should link to the earlier/better render and support comparison.
 - Marking for deletion is deliberately non-destructive. No source image is physically deleted.
 - Automatically derived tags remain suggestions until the user confirms them. Only confirmed user feedback should influence future art direction.
 - The database is the organization layer. Existing folders remain the storage/provenance layer; do not reorganize the live archive while generation is active.
+- Lifecycle state remains internal provenance only. The gallery no longer exposes a retained/draft/rejected filter or badges because the user reviews every render together.
+- Collection filtering uses autocomplete-backed checkbox results and removable chips rather than rendering the full collection list.
 - Originals stay in their collection folders. Browser-ready 256 px references live under `site/public/art`; high-resolution sources should not be placed there.
 - Render IDs and asset hashes are content-based and stable.
 - This remains local-only for now: no deployment, authentication, or cloud storage.
@@ -49,7 +51,7 @@ Keyboard controls:
 - `V`: reference-only
 - `U`: duplicate
 - `X`: reject concept
-- `D`: deletion queue
+- `D`: mark for deletion, save, and advance immediately; no rating required
 - `N`: focus feedback
 - Left/Right arrows: navigate
 - Space: zoom
@@ -91,13 +93,13 @@ Exporter:
 
 The development process refreshes these exports approximately every three seconds. Only rated/reviewed records are exported. The export preserves user decisions, ratings, confirmed or rejected tag states, defects, feedback, next-attempt guidance, duplicate relationships, deletion status, and user-review provenance.
 
-At the time of handoff, there were no real user reviews yet, so the Markdown export reported zero reviews and the JSONL file was empty.
+As of 2026-07-30 the user has completed a bulk review of 996 renders (203 keep, 86 reject, 707 delete). Both export files now contain the full record, and the confirmed lessons have been distilled into `art-catalog/REVIEW-LEARNINGS.md` and folded into `RENDER-PROMPT.md` and `enemies/ENEMY-ART-DIRECTION-FEEDBACK.md`. Notable: the Flesh-Veil Oracle positive reference was reversed (rated 1/5, marked for deletion); weapon correctness and default-off spell effects are now codified generation rules.
 
 The parent agent instructions were updated at:
 
 - `/Users/franz/Work/Personal/me/AGENTS.md`
 
-Future pixel-art sessions are instructed to read `art-catalog/RENDER-FEEDBACK.md`, treat confirmed feedback as direct evidence, avoid treating unconfirmed tag suggestions as approved, and read collection-level `REJECTION-NOTES.md` files.
+Future pixel-art sessions are instructed to read `art-catalog/REVIEW-LEARNINGS.md` (the human-authored distillation) and `art-catalog/RENDER-FEEDBACK.md`, treat confirmed feedback as direct evidence, avoid treating unconfirmed tag suggestions as approved, and read collection-level `REJECTION-NOTES.md` files.
 
 ## Art-direction sources
 

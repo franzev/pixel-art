@@ -1,0 +1,71 @@
+import { readFile, readdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const siteDir = path.resolve(scriptDir, "..");
+const repositoryDir = path.resolve(siteDir, "..");
+const categories = [
+  "enemies",
+  "bosses",
+  "angels",
+  "protagonist",
+  "environments",
+];
+
+async function walk(directory) {
+  const entries = await readdir(directory, { withFileTypes: true });
+  const files = [];
+
+  for (const entry of entries) {
+    const absolute = path.join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...(await walk(absolute)));
+    if (entry.isFile()) files.push(absolute);
+  }
+
+  return files;
+}
+
+const byHash = new Map();
+let scanned = 0;
+
+for (const category of categories) {
+  const categoryDir = path.join(repositoryDir, category);
+  let files;
+  try {
+    files = await walk(categoryDir);
+  } catch {
+    continue;
+  }
+
+  for (const file of files) {
+    if (!file.toLowerCase().endsWith(".png")) continue;
+    scanned += 1;
+    const hash = createHash("sha256")
+      .update(await readFile(file))
+      .digest("hex");
+    const relative = path.relative(repositoryDir, file);
+    byHash.set(hash, [...(byHash.get(hash) ?? []), relative]);
+  }
+}
+
+const groups = Array.from(byHash.values())
+  .filter((paths) => paths.length > 1)
+  .sort((a, b) => a[0].localeCompare(b[0]));
+
+console.log(`Scanned ${scanned} PNGs across ${categories.join(", ")}.`);
+
+if (!groups.length) {
+  console.log("No byte-identical duplicates found.");
+  process.exit(0);
+}
+
+console.log(`Found ${groups.length} duplicate group(s):\n`);
+for (const paths of groups) {
+  for (const [index, file] of paths.entries()) {
+    console.log(index === 0 ? `• ${file}` : `  = ${file}`);
+  }
+  console.log("");
+}
+process.exit(1);

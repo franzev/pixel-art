@@ -1,7 +1,12 @@
 # Enemy Art Direction and User Feedback
 
-**Last updated:** 2026-07-29  
+**Last updated:** 2026-07-30  
 **Purpose:** Durable user-taste and workflow guidance for future enemy generation
+
+> 2026-07-30: The user completed a 996-render bulk review. The distilled,
+> confirmed lessons live in `art-catalog/REVIEW-LEARNINGS.md` — read that file
+> together with this one. Where this document and the review data conflict,
+> the review data wins (notable: spell effects are now default-off; see §4b).
 
 Read this document before proposing or generating a new enemy batch. It records
 what the user has explicitly liked, disliked, rejected, or corrected. It does
@@ -31,7 +36,16 @@ The project is not primarily seeking:
 
 ## 2. Strongest Positive Reference
 
-The clearest liked reference is:
+> **Superseded 2026-07-30.** In the bulk review the user rated the Flesh-Veil
+> Oracle 1/5 and marked it for deletion, along with nearly all of Infernal
+> Demons Batch 13 (1/15 kept). Do not use it as a positive reference anymore.
+> Use the 5/5 keeps listed in `art-catalog/REVIEW-LEARNINGS.md` instead —
+> e.g. Sable Longsword Castellan (Blood Demon Knights 37), Oxblood Rapier
+> Confessor and Pale Grave Hammer Canoness (Blood Priestesses 39), and the
+> Catholic Knights Batch 41 set. The historical record below is retained for
+> provenance only.
+
+The clearest liked reference was:
 
 `enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-source.png`
 
@@ -78,6 +92,9 @@ The user has positively selected or requested:
 - Bronze, copper, or dirty-gold trim
 - Strong but controlled ember lighting
 - Floating spell geometry that remains easy to count and understand
+  (superseded 2026-07-30: the bulk review rejected floating effects repeatedly
+  — "remove spells" is the most common correction note. Default to no spell
+  effects; add them only when the brief explicitly requests a caster.)
 - Severe, mournful, occult character presence
 - One complete character on a plain warm near-black background
 - Cohesive families of related characters with different combat roles
@@ -167,6 +184,54 @@ is:
   Metroidvania identity;
 - do not replace a requested character family with unrelated animal, object,
   or whimsical abstract silhouettes.
+
+### 4b. 2026-07-30 bulk review (996 renders)
+
+The user reviewed the entire archive one render at a time: 203 keep, 86
+reject, 707 delete. Rejects carry structured defects and correction notes.
+Full distillation: `art-catalog/REVIEW-LEARNINGS.md`. The enemy-relevant
+conclusions:
+
+**Weapon faults are the top rejection cause.** Recurring, explicitly stated
+corrections:
+
+- weapons must be perfectly straight (bent blades/hafts rejected ~10 times);
+- weapons must be full combat length ("weapon too short" killed most of
+  Forest Elf Sword Knights Batch 35 — 2/26 kept);
+- never grip the blade ("STOP HOLDING THE BLADE, THIS IS A COMMON MISTAKE");
+- two-handed weapons take both hands on the grip;
+- no blade resting on shoulders;
+- correct thumbs, no missing fingers, plausible shield handles;
+- conventional weapons only ("please no weird weapons") — fans, books,
+  spindles, plates, and candlesticks were all rejected as weapons.
+
+**Spell effects are default-off.** "Remove spells / blood drops / blood
+string / effects" is the most repeated next-attempt note across at least ten
+collections. Effect-heavy caster batches were nearly wiped out (Combat Magic
+04: 2/31; Cultists Demons 02: 1/29; Infernal Demons 13: 1/15).
+
+**Anatomy and proportions.** Missing fingers, odd hands, weird legs/feet, and
+"weird body" recur. "Too tall", "too muscular", and "too masculine" were
+explicit rejections for female fighter families — keep feminine builds.
+
+**Coherence and finish.** Equipment logic must hold (no blindfolded crossbow
+aimer); garments must be weathered and specific, not "too boring too perfect"
+and not "too cartoony".
+
+**What was kept.** Keeps concentrate in armed, martial, religious-gothic
+humanoids with conventional weapons and clean silhouettes: Catholic Knights
+41 (10/10), Bone Knights 39 (5/5), Veiled Warrior Nuns 37 (8/10), Blood
+Priestesses 39 (8/11), Crown of Thorns Knights 40 (7/10), Blood Demon
+Knights 37 (10/15), Convent Horrors 37 (13/25), Maria Clara Corruptions 41
+(3/5). Philippine-inflected elements (bolo, abaca, capiz, abaniko, Maria
+Clara dress, sampaguita) performed well when execution was correct.
+
+**What was cleared out.** Near-0% keep, do not regenerate without new
+direction: novelty-species knights (treant, siyokoy, dwende, goat, frost,
+steampunk, ethereal-horse, otherworldly, inverted-cross), effect-heavy
+casters, Redeemed Demons 22, Katipunero Afflictions 10, Philippine Folklore
+03 (in its old creature-heavy form), Ghouls/Ghoul Foot Soldiers, and
+Manananggal Variations 06.
 
 ## 5. Visual Quality Requirements the User Cares About
 
@@ -280,6 +345,16 @@ appropriate and to reject weird or mechanically implausible shield-handle
 placement. Do not infer additional rejection reasons for the other designs, and
 do not use any Batch 33 output as a positive reference.
 
+### 2026-07-30 Bulk Archive Review
+
+The user reviewed 996 renders one by one in the local review app (203 keep,
+86 reject, 707 delete). See §4b and `art-catalog/REVIEW-LEARNINGS.md`.
+Headline outcomes: the Flesh-Veil Oracle positive reference was reversed
+(rated 1/5, marked for deletion); weapon correctness and effect removal
+became the dominant correction themes; armed martial religious humanoids are
+the confirmed direction; caster, novelty-species, and creature batches were
+cleared out.
+
 ## 9. Decision Rules for Future Sessions
 
 Before generating:
@@ -310,7 +385,14 @@ After generation:
 
 ## 10. Current Approval State
 
-- The Flesh-Veil Oracle is the strongest confirmed liked reference.
+- The Flesh-Veil Oracle is no longer a positive reference (rated 1/5 and
+  marked for deletion, 2026-07-30). The current positive anchors are the
+  5/5 review keeps listed in `art-catalog/REVIEW-LEARNINGS.md`.
+- 203 renders carry review keeps from the 2026-07-30 bulk review. A review
+  keep is not canon approval; kept work remains draft until explicitly
+  approved.
+- 707 renders are marked for deletion (non-destructively). Physical deletion
+  still requires a separately authorized cleanup pass.
 - Batch 23 is fully rejected and deleted from the project.
 - Batch 24 Designs 01–04 are saved drafts, not retained canon.
 - Batch 24 Design 05 is not a project asset.

@@ -311,14 +311,27 @@ Unless folklore intentionally changes anatomy:
 
 - Extra arms, hands, fingers, legs, feet, wings, heads, or faces
 - Missing required limb or wing
+- Missing fingers or a malformed thumb on a visible hand
 - Accidental body fusion
 - Props growing out of hands
 - Clothing merging with anatomy
 - Unreadable silhouette
 - Oversized head without a concept reason
 - Tiny or hidden gameplay-defining weapon
+- Bent or crooked blade, haft, shaft, or handle
+- Weapon rendered shorter than its real combat length
+- A hand gripping the blade instead of the handle
+- A two-handed weapon held with one hand in a ready pose
+- A blade resting on the character's shoulder
+- Unrequested floating spell effects, droplets, sigils, or particles
+- Equipment the character could not physically use as depicted
+  (e.g. a blindfolded crossbow aimer)
 - Cropped effects or body parts
 - Enemy accidentally resembling the Crimson Knight
+
+The weapon and effect rules above were codified from the 2026-07-30 bulk
+review of 996 renders; see `art-catalog/REVIEW-LEARNINGS.md` for the
+evidence and the full prompt-writing checklist.
 
 ## 9. Enemy identity separation
 
@@ -402,6 +415,10 @@ Avoid: <artifacts, accidental anatomy, copying, forbidden colors and content>
 Prompt requirements:
 
 - Spell out exact counts: wings, arms, flames, lanterns, weapons, roots, orbs.
+- Name the exact weapon, state that it is straight and full combat length, and
+  state which hand or hands grip the handle (both for two-handed weapons).
+- State that no floating spell effects, droplets, or particles appear unless
+  the concept explicitly requires visible magic.
 - Name the facing direction and flow direction of hair, cloth, smoke, or cape.
 - Name the gameplay-defining prop and ensure it remains fully visible.
 - Use one accent family deliberately.
@@ -605,9 +622,24 @@ An asset can be retained only when all applicable checks pass.
 ### Anatomy
 
 - [ ] Exact required limb, hand, foot, wing, head, and tail count
+- [ ] Five fingers and a correct thumb on every visible hand
 - [ ] No duplicated or missing anatomy
+- [ ] Plausible feet and leg placement
+- [ ] Adult human proportions; feminine build preserved on female concepts
 - [ ] Intentional folkloric anatomy remains coherent
 - [ ] Hands, feet, wings, and props are separated visually
+
+### Weapon and equipment
+
+- [ ] Blade, haft, shaft, and handle are perfectly straight
+- [ ] Weapon reads at full combat length at 256
+- [ ] Hands grip the handle only; no hand on the blade
+- [ ] Both hands on a two-handed weapon in ready poses
+- [ ] No blade resting on a shoulder
+- [ ] Shield handle or strap is interior and mechanically plausible
+- [ ] Conventional recognizable weapon design (no gimmick objects as weapons)
+- [ ] No unrequested spell effects, droplets, sigils, or particles
+- [ ] Character can physically use the equipment as depicted
 
 ### Composition
 

@@ -24,6 +24,12 @@ saving an asset.
 - `enemies/ENEMY-ART-DIRECTION-FEEDBACK.md` — Durable user preferences,
   rejected directions, strongest positive references, and batch workflow
   lessons. Read this before proposing or generating a new enemy batch.
+- `RENDER-PROMPT.md` — Master render contract for all new generation requests.
+- `art-catalog/REVIEW-LEARNINGS.md` — Distilled, confirmed lessons from the
+  user's bulk render review (weapon rules, default-off effects, current
+  positive anchors, cleared-out directions). Mandatory reading before writing
+  any generation prompt. The adjacent `RENDER-FEEDBACK.md` and
+  `render-feedback.jsonl` are machine exports — never hand-edit them.
 
 ## Non-negotiable project rules
 
@@ -39,6 +45,10 @@ saving an asset.
 7. Do not add rejected or deleted generations to the lore or canonical counts.
 8. Do not copy the Penitent One's costume, pose, proportions, helmet, or
    silhouette. It is a pixel-treatment reference only.
+9. Weapons must be straight, full combat length, and gripped correctly by the
+   handle — never by the blade, and with both hands for two-handed weapons.
+10. No floating spell effects, droplets, or particles unless the brief
+    explicitly requests visible magic.
 
 ## Continuing work
 

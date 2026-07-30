@@ -21,6 +21,9 @@ saving an asset.
   review sheets, approvals, and lore updates.
 - `enemies/ENEMY-LORE-COMPENDIUM.md` — Working world canon and gameplay identity
   for retained enemy designs.
+- `enemies/ENEMY-ART-DIRECTION-FEEDBACK.md` — Durable user preferences,
+  rejected directions, strongest positive references, and batch workflow
+  lessons. Read this before proposing or generating a new enemy batch.
 
 ## Non-negotiable project rules
 
@@ -41,3 +44,7 @@ saving an asset.
 
 Read the selected collection's `STATUS.md` and manifest before resuming it.
 Collection status files take precedence over older continuation notes elsewhere.
+When a collection contains `POSITIVE-REFERENCE-NOTES.md` or
+`REJECTION-NOTES.md`, both are mandatory continuation reading. Follow their
+visual anchors, guardrails, and approval checkpoints before generating new
+assets.

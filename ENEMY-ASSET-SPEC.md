@@ -1,8 +1,8 @@
 # Enemy Pixel-Art Asset Specification
 
 **Status:** Canonical production baseline  
-**Version:** 1.0  
-**Last updated:** 2026-07-28  
+**Version:** 1.1  
+**Last updated:** 2026-07-30  
 **Scope:** Enemies, demons, cultists, ghosts, possessed civilians, folkloric
 creatures, and enemy concept batches
 
@@ -53,6 +53,25 @@ The desired result is:
 - Clearly distinct from the Crimson Knight
 - Inspired by the density and discipline of high-quality Metroidvania sprites
   without reproducing an existing game's character, costume, or composition
+
+### Active demon diversity lock
+
+Effective 2026-07-30 and until the user explicitly changes this direction, all
+new demon character concepts must follow these project-wide constraints:
+
+- No animal-bodied, animal-headed, or animal-derived demon designs.
+- No imps or imp-like designs: avoid small hunched bodies, oversized heads,
+  mischievous goblin-like faces, diminutive proportions, and generic imp
+  silhouettes.
+- No red-dominant demons. Red, scarlet, oxblood, burgundy, flesh-pink, and
+  mauve may not be the primary body palette.
+- Prefer full-height adult humanoid or clearly person-like infernal characters
+  using cool and neutral body palettes.
+- Create variety through posture, clothing, tools, bindings, masks, controlled
+  effects, facial planes, and hand gestures—not animal anatomy.
+
+This lock governs new work; it does not retroactively approve, reject, delete,
+or rewrite existing assets.
 
 ### Reference roles
 

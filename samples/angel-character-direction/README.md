@@ -14,4 +14,4 @@ recorded approval status. Do not treat the whole sheet as an approved style
 reference.
 
 The authoritative interpretation and generation checklist live in
-`angels/corrupted-angels-v01/POSITIVE-REFERENCE-NOTES.md`.
+`collections/angels/corrupted-angels-v01/POSITIVE-REFERENCE-NOTES.md`.

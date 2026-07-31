@@ -1,4 +1,4 @@
-import { ArchiveGallery } from "./ArchiveGallery";
+import { ArchiveGallery } from "./_features/archive/archive-gallery";
 import artIndex from "./art-index.json";
 import { compactGalleryCatalog } from "./gallery-catalog";
 import type { ArtItem } from "./review-types";

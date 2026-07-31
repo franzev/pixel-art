@@ -12,7 +12,7 @@ import {
   type GalleryItem,
   type RenderReview,
   type ReviewMap,
-} from "./review-types";
+} from "../../review-types";
 
 type PendingReview = {
   renderId: string;

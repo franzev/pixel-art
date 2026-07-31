@@ -1,33 +1,29 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { AutoHideScrollArea } from "./_components/ui/auto-hide-scroll-area";
-import { ReviewCompleteState } from "./_features/review/review-complete-state";
+import { AutoHideScrollArea } from "../../_components/ui/auto-hide-scroll-area";
+import {
+  type GalleryItem,
+  type RenderReview,
+  type ReviewDecision,
+  type ReviewDefect,
+} from "../../review-types";
+import { ReviewCompleteState } from "./review-complete-state";
 import {
   DECISIONS,
   DEFECTS,
   DETAIL_DECISIONS,
   QUEUE_LABELS,
   type DefectOption,
-} from "./_features/review/review-config";
-import { ReviewDeskHeader } from "./_features/review/review-desk-header";
-import {
-  defaultSeverity,
-  mergeDrafts,
-  nextSeverity,
-} from "./_features/review/review-model";
-import { ReviewPanel } from "./_features/review/review-panel";
-import { queueMatches, type ReviewQueue } from "./_features/review/review-queue";
-import { ReviewStage } from "./_features/review/review-stage";
-import {
-  type GalleryItem,
-  type RenderReview,
-  type ReviewDecision,
-  type ReviewDefect,
-} from "./review-types";
-import type { useReviewStore } from "./useReviewStore";
+} from "./review-config";
+import { ReviewDeskHeader } from "./review-desk-header";
+import { defaultSeverity, mergeDrafts, nextSeverity } from "./review-model";
+import { ReviewPanel } from "./review-panel";
+import { queueMatches, type ReviewQueue } from "./review-queue";
+import { ReviewStage } from "./review-stage";
+import type { useReviewStore } from "./use-review-store";
 
-export type { ReviewQueue } from "./_features/review/review-queue";
+export type { ReviewQueue } from "./review-queue";
 
 export type ReviewStore = ReturnType<typeof useReviewStore>;
 

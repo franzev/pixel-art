@@ -8,32 +8,32 @@ import {
   useRef,
   useState,
 } from "react";
-import { AutoHideScrollArea } from "./_components/ui/auto-hide-scroll-area";
-import { ActiveFilterStrip } from "./_features/archive/active-filter-strip";
-import { ArchiveHeader } from "./_features/archive/archive-header";
+import { AutoHideScrollArea } from "../../_components/ui/auto-hide-scroll-area";
+import { expandGalleryCatalog } from "../../gallery-catalog";
+import type { GalleryItem } from "../../review-types";
+import { ReviewDesk } from "../review/review-desk";
+import type { ReviewQueue } from "../review/review-queue";
+import { useReviewStore } from "../review/use-review-store";
+import { ActiveFilterStrip } from "./active-filter-strip";
+import { ArchiveHeader } from "./archive-header";
 import {
   DECISION_FILTER_OPTIONS,
   DECISION_QUEUES,
   FAVORITE_FILTER_OPTIONS,
   LIFECYCLE_FILTER_OPTIONS,
   RATING_FILTER_OPTIONS,
-} from "./_features/archive/archive-config";
-import type { ArchiveGalleryProps } from "./_features/archive/archive-types";
-import { FilterDrawer } from "./_features/archive/filters/filter-drawer";
-import { GalleryEmptyState } from "./_features/archive/gallery-empty-state";
-import { GalleryHeading } from "./_features/archive/gallery-heading";
-import { RenderGrid } from "./_features/archive/grid/render-grid";
-import { useCatalogAutoRefresh } from "./_features/archive/hooks/use-catalog-auto-refresh";
-import { useGalleryFilters } from "./_features/archive/hooks/use-gallery-filters";
-import { useGalleryPreferences } from "./_features/archive/hooks/use-gallery-preferences";
-import { MobileRenderViewer } from "./_features/archive/mobile-render-viewer";
-import { QuickFilterBar } from "./_features/archive/quick-filter-bar";
-import { RenderInspector } from "./_features/archive/render-inspector";
-import type { ReviewQueue } from "./_features/review/review-queue";
-import { expandGalleryCatalog } from "./gallery-catalog";
-import { ReviewDesk } from "./ReviewDesk";
-import type { GalleryItem } from "./review-types";
-import { useReviewStore } from "./useReviewStore";
+} from "./archive-config";
+import type { ArchiveGalleryProps } from "./archive-types";
+import { FilterDrawer } from "./filters/filter-drawer";
+import { GalleryEmptyState } from "./gallery-empty-state";
+import { GalleryHeading } from "./gallery-heading";
+import { RenderGrid } from "./grid/render-grid";
+import { useCatalogAutoRefresh } from "./hooks/use-catalog-auto-refresh";
+import { useGalleryFilters } from "./hooks/use-gallery-filters";
+import { useGalleryPreferences } from "./hooks/use-gallery-preferences";
+import { MobileRenderViewer } from "./mobile-render-viewer";
+import { QuickFilterBar } from "./quick-filter-bar";
+import { RenderInspector } from "./render-inspector";
 
 export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
   const items = useMemo(() => expandGalleryCatalog(catalog), [catalog]);

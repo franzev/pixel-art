@@ -48,6 +48,7 @@ test("race and gender tags follow authored character concepts", async () => {
     item.suggestedTags.find((tag) => tag.group === group)?.key;
 
   for (const item of items) {
+    if (item.category === "environments") continue;
     assert.equal(
       item.suggestedTags.filter((tag) => tag.group === "race").length,
       1,
@@ -118,6 +119,53 @@ test("race and gender tags follow authored character concepts", async () => {
   );
   assert.equal(tagValue(vampire, "race"), "race:vampire");
   assert.equal(tagValue(zombie, "race"), "race:zombie");
+
+  const vampireMinionExpectations = [
+    ["01-grave-step-usher.png", "masculine"],
+    ["02-veil-neck-handmaid.png", "feminine"],
+    ["03-capiz-eyed-listener.png", "masculine"],
+    ["04-tapis-hem-stalker.png", "feminine"],
+    ["05-coffin-cloth-warden.png", "masculine"],
+  ];
+  for (const [filename, gender] of vampireMinionExpectations) {
+    const minion = byFilename(
+      "creepy-vampire-minions-batch-05",
+      filename,
+    );
+    assert.equal(tagValue(minion, "race"), "race:vampire");
+    assert.equal(
+      tagValue(minion, "gender-presentation"),
+      `gender-presentation:${gender}`,
+    );
+  }
+
+  for (const [collection, filename] of [
+    ["murderous-courtesans-batch-47", "01-oxblood-bolo-hostess.png"],
+    ["short-haired-inquisitors-batch-48", "01-copper-bob-castellan.png"],
+  ]) {
+    const item = byFilename(collection, filename);
+    assert.equal(tagValue(item, "race"), "race:human");
+    assert.equal(
+      tagValue(item, "gender-presentation"),
+      "gender-presentation:feminine",
+    );
+  }
+
+  const witchHunterExpectations = [
+    ["01-ash-road-bolo-pursuer.png", "masculine"],
+    ["02-capiz-lens-crossbow-examiner.png", "feminine"],
+    ["03-palm-fiber-arquebus-tracker.png", "masculine"],
+    ["04-black-veil-estoc-confessor.png", "feminine"],
+    ["05-iron-seal-lucerne-hunter.png", "masculine"],
+  ];
+  for (const [filename, gender] of witchHunterExpectations) {
+    const hunter = byFilename("witch-hunters-batch-47", filename);
+    assert.equal(tagValue(hunter, "race"), "race:human");
+    assert.equal(
+      tagValue(hunter, "gender-presentation"),
+      `gender-presentation:${gender}`,
+    );
+  }
 });
 
 test("local review persistence and exports are configured", async () => {
@@ -139,4 +187,68 @@ test("local review persistence and exports are configured", async () => {
   ]) {
     assert.match(migration, new RegExp(`CREATE TABLE \\\`${table}\\\``));
   }
+
+  const catalogMigration = await readFile(
+    new URL("../drizzle/0001_careful_boomerang.sql", import.meta.url),
+    "utf8",
+  );
+  assert.match(catalogMigration, /CREATE TABLE `catalog_state`/);
+});
+
+test("review desk snapshots the contact sheet's filtered render scope", async () => {
+  const gallerySource = await readFile(
+    new URL("../app/ArchiveGallery.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(
+    gallerySource,
+    /setReviewItems\(filteredItems\)/,
+    "Opening Review must snapshot the filtered contact sheet",
+  );
+  assert.match(
+    gallerySource,
+    /<ReviewDesk\s+items=\{reviewItems\}/,
+    "Opening Review from a filtered contact sheet must not fall back to the full catalog",
+  );
+});
+
+test("review loading leaves catalog synchronization on the server", async () => {
+  const storeSource = await readFile(
+    new URL("../app/useReviewStore.ts", import.meta.url),
+    "utf8",
+  );
+  const reviewRouteSource = await readFile(
+    new URL("../app/api/reviews/route.ts", import.meta.url),
+    "utf8",
+  );
+  const catalogRouteSource = await readFile(
+    new URL("../app/api/catalog/route.ts", import.meta.url),
+    "utf8",
+  );
+  const syncSource = await readFile(
+    new URL("../db/catalog-sync.ts", import.meta.url),
+    "utf8",
+  );
+
+  assert.doesNotMatch(storeSource, /fetch\("\/api\/catalog"/);
+  assert.match(storeSource, /fetch\("\/api\/reviews"/);
+  assert.match(storeSource, /renderId:\s*item\.renderId/);
+  assert.doesNotMatch(catalogRouteSource, /export async function POST/);
+  assert.match(reviewRouteSource, /ensureCatalogSynced\(catalogItems\)/);
+  assert.match(reviewRouteSource, /catalogByRenderId\.get\(payload\.renderId\)/);
+  assert.match(syncSource, /SELECT version FROM catalog_state/);
+  assert.match(syncSource, /current\?\.version === version/);
+});
+
+test("gallery transport removes server-only render metadata", async () => {
+  const source = await readFile(
+    new URL("../app/gallery-catalog.ts", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(source, /tagDefinitionIds/);
+  assert.match(source, /tagDefinitions/);
+  assert.doesNotMatch(source, /assetHash:\s*item\.assetHash/);
+  assert.doesNotMatch(source, /path:\s*item\.path/);
 });

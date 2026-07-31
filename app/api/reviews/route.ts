@@ -7,8 +7,9 @@ import type {
   ReviewTag,
   TagState,
 } from "../../review-types";
-import { isCatalogItem, prepareCatalogUpsert } from "../../../db/catalog";
-import { ensureReviewSchema, getRawDb } from "../../../db/runtime";
+import artIndex from "../../art-index.json";
+import { ensureCatalogSynced } from "../../../db/catalog-sync";
+import { getRawDb } from "../../../db/runtime";
 
 const DECISIONS = new Set<ReviewDecision>([
   "keep",
@@ -21,6 +22,10 @@ const DEFECT_SEVERITIES = new Set<DefectSeverity>([
   "major",
   "fatal",
 ]);
+const catalogItems = artIndex as ArtItem[];
+const catalogByRenderId = new Map(
+  catalogItems.map((item) => [item.renderId, item]),
+);
 
 type ReviewRow = {
   render_id: string;
@@ -123,7 +128,7 @@ function validReview(value: unknown): value is RenderReview {
 
 export async function GET() {
   try {
-    await ensureReviewSchema();
+    await ensureCatalogSynced(catalogItems);
     const db = await getRawDb();
     const [reviewResult, tagResult, defectResult] = await Promise.all([
       db.prepare("SELECT * FROM reviews").all<ReviewRow>(),
@@ -183,30 +188,32 @@ export async function GET() {
 export async function POST(request: Request) {
   try {
     const payload = (await request.json()) as {
-      item?: unknown;
+      renderId?: unknown;
       review?: unknown;
     };
-    if (!isCatalogItem(payload.item) || !validReview(payload.review)) {
+    if (
+      typeof payload.renderId !== "string" ||
+      !validReview(payload.review)
+    ) {
       return Response.json(
         { error: "review payload is invalid" },
         { status: 400 },
       );
     }
 
-    const item = payload.item as ArtItem;
+    const item = catalogByRenderId.get(payload.renderId);
     const review = payload.review as RenderReview;
-    if (item.renderId !== review.renderId) {
+    if (!item || item.renderId !== review.renderId) {
       return Response.json(
         { error: "render identity does not match" },
         { status: 400 },
       );
     }
 
-    await ensureReviewSchema();
+    await ensureCatalogSynced(catalogItems);
     const db = await getRawDb();
     const timestamp = new Date().toISOString();
     const statements = [
-      prepareCatalogUpsert(db, item, timestamp),
       db
         .prepare(
           `INSERT INTO reviews (

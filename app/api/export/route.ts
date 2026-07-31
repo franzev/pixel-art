@@ -159,7 +159,7 @@ export async function GET() {
         .prepare(
           `SELECT
             reviews.render_id,
-            renders.path,
+            COALESCE(renders.historical_path, renders.path) AS path,
             renders.name,
             renders.category,
             renders.collection,

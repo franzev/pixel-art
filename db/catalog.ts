@@ -61,9 +61,25 @@ export function prepareCatalogUpsert(
       item.status,
       item.width,
       item.height,
-      0,
+      1,
       JSON.stringify(item.suggestedTags),
       timestamp,
       timestamp,
     );
+}
+
+export function prepareCatalogPathRelease(
+  db: D1Database,
+  item: ArtItem,
+) {
+  return db
+    .prepare(
+      `UPDATE renders
+       SET
+         historical_path = COALESCE(historical_path, path),
+         path = '__superseded__/' || id,
+         source_available = 0
+       WHERE path = ? AND id <> ?`,
+    )
+    .bind(item.path, item.renderId);
 }

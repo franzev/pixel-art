@@ -30,7 +30,20 @@ const worker = {
     const url = new URL(request.url);
 
     if (url.pathname === "/_vinext/image") {
-      const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
+      const allowedWidths = Array.from(
+        new Set([
+          ...DEFAULT_DEVICE_SIZES,
+          ...DEFAULT_IMAGE_SIZES,
+          160,
+          192,
+          320,
+          480,
+          960,
+          1200,
+          1440,
+          1920,
+        ]),
+      );
       return handleImageOptimization(request, {
         fetchAsset: (path) => env.ASSETS.fetch(new Request(new URL(path, request.url))),
         transformImage: async (body, { width, format, quality }) => {

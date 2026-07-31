@@ -13,6 +13,7 @@ const categoryLabels = new Set([
   "angels",
   "protagonist",
   "environments",
+  "npcs",
 ]);
 
 async function walk(directory) {
@@ -31,6 +32,38 @@ async function walk(directory) {
 function shouldInclude(relativePath) {
   const normalized = relativePath.split(path.sep).join("/");
   return normalized.toLowerCase().endsWith(".png");
+}
+
+export function versionSiblingGroups(relativePaths) {
+  const groups = new Map();
+  for (const relativePath of relativePaths) {
+    const normalized = relativePath.split(path.sep).join("/");
+    const directory = path.posix.dirname(normalized);
+    const filename = path.posix.basename(normalized);
+    const canonicalFilename = filename.replace(/-v\d+(?=\.png$)/i, "");
+    const key = `${directory}/${canonicalFilename}`;
+    groups.set(key, [...(groups.get(key) ?? []), normalized]);
+  }
+  return Array.from(groups.entries())
+    .filter(([, siblings]) => siblings.length > 1)
+    .map(([canonicalPath, siblings]) => ({
+      canonicalPath,
+      siblings: siblings.sort(),
+    }));
+}
+
+export function assertNoVersionSiblings(relativePaths) {
+  const duplicateGroups = versionSiblingGroups(relativePaths);
+  if (!duplicateGroups.length) return;
+  const details = duplicateGroups
+    .map(
+      ({ canonicalPath, siblings }) =>
+        `${canonicalPath}\n${siblings.map((item) => `  - ${item}`).join("\n")}`,
+    )
+    .join("\n");
+  throw new Error(
+    `Version siblings would create duplicate review items. Activate one candidate with npm run redo:activate before syncing:\n${details}`,
+  );
 }
 
 function humanize(value) {
@@ -121,6 +154,7 @@ const CLASSIFICATION_LABELS = {
   race: {
     angel: "Angel",
     aswang: "Aswang",
+    beast: "Beast",
     demon: "Demon",
     elf: "Elf",
     ghost: "Ghost",
@@ -145,6 +179,7 @@ const CLASSIFICATION_LABELS = {
 // mixed-roster exceptions in classificationForAsset below.
 const COLLECTION_CLASSIFICATIONS = {
   "aswang-knights-batch-37": { race: "aswang" },
+  "axe-wielding-knights-batch-50": { race: "human" },
   "balete-forest-court-batch-16": { race: "nature-spirit" },
   "banshees-batch-33": {
     race: "ghost",
@@ -157,6 +192,7 @@ const COLLECTION_CLASSIFICATIONS = {
     "gender-presentation": "feminine",
   },
   "bone-knights-batch-39": { race: "skeleton" },
+  "boss-expansion-20-v01": { race: "beast" },
   "catholic-evil-white-priests-batch-41": {
     race: "human",
     "gender-presentation": "masculine",
@@ -173,6 +209,7 @@ const COLLECTION_CLASSIFICATIONS = {
     "gender-presentation": "feminine",
   },
   "core-enemies": { race: "human" },
+  "creepy-vampire-minions-batch-05": { race: "vampire" },
   "crown-of-thorns-female-knights-batch-37": {
     race: "human",
     "gender-presentation": "feminine",
@@ -204,6 +241,10 @@ const COLLECTION_CLASSIFICATIONS = {
     race: "human",
     "gender-presentation": "masculine",
   },
+  "experimental-haired-inquisitors-batch-51": {
+    race: "human",
+    "gender-presentation": "feminine",
+  },
   "forest-elf-sword-knights-batch-35": {
     race: "elf",
     "gender-presentation": "feminine",
@@ -229,6 +270,10 @@ const COLLECTION_CLASSIFICATIONS = {
   "kamatayan-batch-45": { race: "spirit" },
   "maria-clara-corruptions-batch-41": {
     race: "vampire",
+    "gender-presentation": "feminine",
+  },
+  "murderous-courtesans-batch-47": {
+    race: "human",
     "gender-presentation": "feminine",
   },
   "murderous-wives-batch-41": {
@@ -263,6 +308,10 @@ const COLLECTION_CLASSIFICATIONS = {
   "shadow-knights-batch-44": {
     race: "human",
     "gender-presentation": "masculine",
+  },
+  "short-haired-inquisitors-batch-48": {
+    race: "human",
+    "gender-presentation": "feminine",
   },
   "spanish-colonial-corruption-batch-09": { race: "human" },
   "spanish-colonial-forces-batch-08": {
@@ -319,6 +368,19 @@ const COLLECTION_CLASSIFICATIONS = {
     race: "ghost",
     "gender-presentation": "feminine",
   },
+  "witch-hunters-batch-47": { race: "human" },
+  "demon-knight-legions-v07": { race: "demon" },
+  "evil-green-spectral-legion-v10": { race: "ghost" },
+  "ghost-knight-orders-v08": { race: "ghost" },
+  "skeleton-feudal-court-batch-39": { race: "skeleton" },
+  "skeleton-knight-legions-v08": { race: "skeleton" },
+  "spectral-foot-soldiers-v09": { race: "ghost" },
+  "unfaced-demon-court-batch-49": { race: "demon" },
+  "unholy-succubus-knights-v14": {
+    race: "demon",
+    "gender-presentation": "feminine",
+  },
+  "vampire-knight-courts-v08": { race: "vampire" },
 };
 
 function conceptNumber(filename) {
@@ -332,13 +394,24 @@ function classificationForAsset({
   filename,
   normalizedPath,
 }) {
-  const classification = {
-    ...(COLLECTION_CLASSIFICATIONS[collectionKey] ?? {}),
-  };
+  const classification = {};
   const number = conceptNumber(filename);
 
   if (category === "angels") classification.race = "angel";
+  if (category === "npcs") classification.race = "human";
   if (category === "protagonist") classification.race = "human";
+  Object.assign(
+    classification,
+    COLLECTION_CLASSIFICATIONS[collectionKey] ?? {},
+  );
+
+  if (collectionKey === "boss-expansion-20-v01") {
+    if ([2].includes(number)) classification.race = "aswang";
+    if ([3, 9, 16, 17].includes(number)) classification.race = "nature-spirit";
+    if ([6, 8, 13].includes(number)) classification.race = "human";
+    if (number === 14) classification.race = "ghost";
+    if (number === 20) classification.race = "demon";
+  }
 
   if (collectionKey === "aswang-knights-batch-37") {
     classification["gender-presentation"] =
@@ -377,6 +450,11 @@ function classificationForAsset({
     if (number === 7) classification["gender-presentation"] = "masculine";
   }
 
+  if (collectionKey === "creepy-vampire-minions-batch-05") {
+    classification["gender-presentation"] =
+      number === 2 || number === 4 ? "feminine" : "masculine";
+  }
+
   if (collectionKey === "crown-of-thorns-knights-batch-40") {
     classification["gender-presentation"] =
       number !== undefined && number % 2 === 0 ? "feminine" : "masculine";
@@ -408,6 +486,11 @@ function classificationForAsset({
   if (collectionKey === "vampire-horse-knights-batch-31") {
     classification["gender-presentation"] =
       number === 12 || number === 14 ? "feminine" : "masculine";
+  }
+
+  if (collectionKey === "witch-hunters-batch-47") {
+    classification["gender-presentation"] =
+      number === 2 || number === 4 ? "feminine" : "masculine";
   }
 
   // Lifecycle folders sometimes carry useful authored intent (for example,
@@ -504,6 +587,7 @@ const CATEGORY_LABELS = {
   angels: "Angel",
   protagonist: "Protagonist",
   environments: "Environment",
+  npcs: "NPC",
 };
 
 export async function syncArt() {
@@ -517,6 +601,7 @@ export async function syncArt() {
     .filter(({ relative }) =>
       categoryLabels.has(relative.split(path.sep)[0]),
     );
+  assertNoVersionSiblings(selectedFiles.map(({ relative }) => relative));
 
   const assets = [];
 
@@ -570,7 +655,8 @@ export async function syncArt() {
     ["bosses", 1],
     ["angels", 2],
     ["protagonist", 3],
-    ["environments", 4],
+    ["npcs", 4],
+    ["environments", 5],
   ]);
 
   assets.sort((a, b) => {

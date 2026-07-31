@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import {
+  type CSSProperties,
   type RefObject,
   useCallback,
   useEffect,
@@ -8,9 +10,10 @@ import {
   useRef,
   useState,
 } from "react";
+import { AutoHideScrollArea } from "./AutoHideScrollArea";
 import {
-  type ArtItem,
   type DefectSeverity,
+  type GalleryItem,
   type RenderReview,
   type ReviewDecision,
   type ReviewDefect,
@@ -18,12 +21,7 @@ import {
 import type { useReviewStore } from "./useReviewStore";
 
 export type ReviewQueue =
-  | "unreviewed"
-  | "all"
-  | "kept"
-  | "rejected"
-  | "deletion"
-  | "favorites";
+  "unreviewed" | "all" | "kept" | "rejected" | "deletion" | "favorites";
 
 export type ReviewStore = ReturnType<typeof useReviewStore>;
 
@@ -65,7 +63,11 @@ const DEFECTS: DefectOption[] = [
   { key: "wrong-weapon-design", label: "Wrong weapon design", shortcut: "W" },
   { key: "magic-effects", label: "Unwanted magic / effects", shortcut: "M" },
   { key: "silhouette-pose", label: "Silhouette or pose", shortcut: "S" },
-  { key: "duplicate-repetition", label: "Feels repetitive / samey", shortcut: "Q" },
+  {
+    key: "duplicate-repetition",
+    label: "Feels repetitive / samey",
+    shortcut: "Q",
+  },
   { key: "costume", label: "Costume or styling", shortcut: "C" },
   { key: "technical", label: "Technical failure", shortcut: "T" },
 ];
@@ -85,16 +87,58 @@ const SYNC_LABELS = {
 
 function queueMatches(
   queue: ReviewQueue,
-  item: ArtItem,
+  item: GalleryItem,
   review?: RenderReview,
 ) {
   if (queue === "all") return true;
-  if (queue === "unreviewed") return !review?.decision;
+  if (queue === "unreviewed") {
+    return item.status !== "rejected" && !review?.decision;
+  }
   if (queue === "kept") return review?.decision === "keep";
   if (queue === "rejected") return review?.decision === "reject";
   if (queue === "deletion") return review?.deletionState === "marked";
   if (queue === "favorites") return review?.overallRating === 5;
   return Boolean(item);
+}
+
+function ReviewCanvasImage({ item }: { item: GalleryItem }) {
+  const [originalLoaded, setOriginalLoaded] = useState(false);
+
+  return (
+    <span
+      className="review-image-stack"
+      data-original-loaded={originalLoaded ? "true" : "false"}
+      style={
+        {
+          "--review-aspect-ratio": `${item.width} / ${item.height}`,
+        } as CSSProperties
+      }
+    >
+      <Image
+        className="review-canvas-preview"
+        src={item.url}
+        alt=""
+        fill
+        sizes="(max-width: 760px) 92vw, 760px"
+        quality={82}
+        // vinext fill images default to inline `object-fit: cover`; the
+        // review canvas must never crop the render.
+        style={{ objectFit: "contain" }}
+      />
+      {/* The review surface must load the exact source PNG, not a transform. */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        className="review-canvas-original"
+        src={item.url}
+        alt={item.name}
+        decoding="async"
+        onLoad={() => setOriginalLoaded(true)}
+      />
+      <span className="review-image-loading" aria-live="polite">
+        Loading full resolution
+      </span>
+    </span>
+  );
 }
 
 function defaultSeverity(decision: ReviewDecision | null): DefectSeverity {
@@ -127,7 +171,7 @@ export function ReviewDesk({
   initialQueue = "unreviewed",
   onClose,
 }: {
-  items: ArtItem[];
+  items: GalleryItem[];
   store: ReviewStore;
   initialRenderId?: string;
   initialQueue?: ReviewQueue;
@@ -142,13 +186,11 @@ export function ReviewDesk({
   const [noteDraft, setNoteDraft] = useState("");
   const [correctionDraft, setCorrectionDraft] = useState("");
   const noteRef = useRef<HTMLTextAreaElement>(null);
-  const undoRef = useRef<{ item: ArtItem; review: RenderReview }[]>([]);
+  const undoRef = useRef<{ item: GalleryItem; review: RenderReview }[]>([]);
 
   const queueItems = useMemo(
     () =>
-      items.filter((item) =>
-        queueMatches(queue, item, reviews[item.renderId]),
-      ),
+      items.filter((item) => queueMatches(queue, item, reviews[item.renderId])),
     [items, queue, reviews],
   );
 
@@ -176,9 +218,7 @@ export function ReviewDesk({
   /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     setDetailMode(
-      Boolean(
-        review?.decision && DETAIL_DECISIONS.has(review.decision),
-      ),
+      Boolean(review?.decision && DETAIL_DECISIONS.has(review.decision)),
     );
     setNoteDraft(review?.note ?? "");
     setCorrectionDraft(review?.correctionNote ?? "");
@@ -187,23 +227,9 @@ export function ReviewDesk({
   }, [current?.renderId]); // eslint-disable-line react-hooks/exhaustive-deps
   /* eslint-enable react-hooks/set-state-in-effect */
 
-  useEffect(() => {
-    if (!current || currentIndex < 0) return;
-    for (let offset = -5; offset <= 14; offset += 1) {
-      const candidate =
-        queueItems[
-          (currentIndex + offset + queueItems.length) % queueItems.length
-        ];
-      if (!candidate) continue;
-      const image = new Image();
-      image.decoding = "async";
-      image.src = candidate.url;
-    }
-  }, [current, currentIndex, queueItems]);
-
   const applyReview = useCallback(
     (
-      item: ArtItem,
+      item: GalleryItem,
       change: (value: RenderReview) => RenderReview,
       remember = true,
     ) => {
@@ -230,13 +256,7 @@ export function ReviewDesk({
       (value) => mergeDrafts(value, noteDraft, correctionDraft),
       false,
     );
-  }, [
-    applyReview,
-    correctionDraft,
-    current,
-    noteDraft,
-    review,
-  ]);
+  }, [applyReview, correctionDraft, current, noteDraft, review]);
 
   const move = useCallback(
     (direction: -1 | 1) => {
@@ -252,11 +272,8 @@ export function ReviewDesk({
   const advanceAfterReview = useCallback(() => {
     if (!current || !queueItems.length) return;
     const nextIndex =
-      currentIndex >= 0
-        ? (currentIndex + 1) % queueItems.length
-        : 0;
-    const next =
-      queueItems[nextIndex];
+      currentIndex >= 0 ? (currentIndex + 1) % queueItems.length : 0;
+    const next = queueItems[nextIndex];
     if (next) setCurrentId(next.renderId);
   }, [current, currentIndex, queueItems]);
 
@@ -268,7 +285,10 @@ export function ReviewDesk({
         ...mergeDrafts(value, noteDraft, correctionDraft),
         overallRating: rating,
         ...(autoKeep
-          ? { decision: "keep" as ReviewDecision, deletionState: "none" as const }
+          ? {
+              decision: "keep" as ReviewDecision,
+              deletionState: "none" as const,
+            }
           : {}),
       }));
       setMessage(autoKeep ? "5 / 5 · KEEP" : `${rating} / 5`);
@@ -285,7 +305,9 @@ export function ReviewDesk({
         setMessage("RATE 1–5 FIRST");
         return;
       }
-      const option = DECISIONS.find((candidate) => candidate.value === decision);
+      const option = DECISIONS.find(
+        (candidate) => candidate.value === decision,
+      );
       applyReview(current, (value) => ({
         ...(decision === "delete"
           ? value
@@ -550,19 +572,24 @@ export function ReviewDesk({
         </button>
       </header>
 
-      <main className="review-workspace">
+      <AutoHideScrollArea
+        className="review-workspace-scroll"
+        contentClassName="review-workspace"
+      >
         <section className="review-stage">
-          <button
+          <AutoHideScrollArea
             className={zoomed ? "review-canvas is-zoomed" : "review-canvas"}
-            type="button"
-            onClick={() => setZoomed((value) => !value)}
-            aria-label="Toggle render zoom"
+            horizontal
           >
-            <img
-              src={current.url}
-              alt={current.name}
-            />
-          </button>
+            <button
+              className="review-canvas-action"
+              type="button"
+              onClick={() => setZoomed((value) => !value)}
+              aria-label="Toggle render zoom"
+            >
+              <ReviewCanvasImage key={current.renderId} item={current} />
+            </button>
+          </AutoHideScrollArea>
           <div className="review-stage-meta">
             <button type="button" onClick={() => move(-1)}>
               ← PREVIOUS
@@ -578,161 +605,175 @@ export function ReviewDesk({
             </button>
           </div>
           <div className="review-shortcuts" aria-hidden="true">
-            <span><kbd>1–5</kbd> RATE</span>
-            <span><kbd>K</kbd> KEEP</span>
-            <span><kbd>R</kbd> REJECT</span>
-            <span><kbd>D</kbd> DELETE QUEUE</span>
-            <span><kbd>SPACE</kbd> ZOOM</span>
+            <span>
+              <kbd>1–5</kbd> RATE
+            </span>
+            <span>
+              <kbd>K</kbd> KEEP
+            </span>
+            <span>
+              <kbd>R</kbd> REJECT
+            </span>
+            <span>
+              <kbd>D</kbd> DELETE QUEUE
+            </span>
+            <span>
+              <kbd>SPACE</kbd> ZOOM
+            </span>
           </div>
           {message ? <div className="review-message">{message}</div> : null}
         </section>
 
         <aside className="review-panel">
-          <section className="rating-section">
-            <div className="review-section-heading">
-              <span>OVERALL RATING</span>
-              <strong>{review.overallRating ?? "—"} / 5</strong>
-            </div>
-            <div className="rating-buttons">
-              {[1, 2, 3, 4, 5].map((rating) => (
-                <button
-                  key={rating}
-                  type="button"
-                  className={
-                    review.overallRating === rating ? "is-active" : undefined
-                  }
-                  onClick={() => setRating(rating)}
-                  aria-pressed={review.overallRating === rating}
-                >
-                  <kbd>{rating}</kbd>
-                  <span>{rating === 1 ? "Reject" : rating === 5 ? "Anchor" : ""}</span>
-                </button>
-              ))}
-            </div>
-          </section>
-
-          <section className="decision-section">
-            <div className="review-section-heading">
-              <span>DECISION</span>
-              {review.decision ? (
-                <strong>{review.decision.toLocaleUpperCase()}</strong>
-              ) : null}
-            </div>
-            <div className="decision-grid">
-              {DECISIONS.map((option) => (
-                <button
-                  key={option.value}
-                  type="button"
-                  className={
-                    review.decision === option.value ? "is-active" : undefined
-                  }
-                  onClick={() => chooseDecision(option.value)}
-                  aria-pressed={review.decision === option.value}
-                >
-                  <kbd>{option.shortcut}</kbd>
-                  <span>{option.label}</span>
-                </button>
-              ))}
-            </div>
-          </section>
-
-          <section className="tag-section">
-            <div className="review-section-heading">
-              <span>SUGGESTED TAGS</span>
-              <small>CLICK: CONFIRM → REJECT → RESET</small>
-            </div>
-            <div className="review-tags">
-              {review.tags.map((tag) => (
-                <button
-                  key={tag.key}
-                  type="button"
-                  data-state={tag.state}
-                  onClick={() => cycleTag(tag.key)}
-                  title={`${tag.source} · ${Math.round(tag.confidence * 100)}% confidence`}
-                >
-                  {tag.label}
-                </button>
-              ))}
-            </div>
-          </section>
-
-          {detailMode || review.defects.length ? (
-            <section className="defect-section">
+          <AutoHideScrollArea>
+            <section className="rating-section">
               <div className="review-section-heading">
-                <span>WHAT FAILED?</span>
-                <small>SELECT ALL THAT APPLY</small>
+                <span>OVERALL RATING</span>
+                <strong>{review.overallRating ?? "—"} / 5</strong>
               </div>
-              <div className="defect-list">
-                {DEFECTS.map((option) => {
-                  const selected = review.defects.find(
-                    (defect) => defect.key === option.key,
-                  );
-                  return (
-                    <div
-                      key={option.key}
-                      className={selected ? "is-selected" : undefined}
-                    >
-                      <button
-                        type="button"
-                        onClick={() => toggleDefect(option)}
-                        aria-pressed={Boolean(selected)}
-                      >
-                        <kbd>{option.shortcut}</kbd>
-                        <span>{option.label}</span>
-                      </button>
-                      {selected ? (
-                        <button
-                          className="severity-button"
-                          type="button"
-                          data-severity={selected.severity}
-                          onClick={() => cycleDefectSeverity(selected)}
-                          aria-label={`Change ${option.label} severity`}
-                        >
-                          {selected.severity}
-                        </button>
-                      ) : null}
-                    </div>
-                  );
-                })}
+              <div className="rating-buttons">
+                {[1, 2, 3, 4, 5].map((rating) => (
+                  <button
+                    key={rating}
+                    type="button"
+                    className={
+                      review.overallRating === rating ? "is-active" : undefined
+                    }
+                    onClick={() => setRating(rating)}
+                    aria-pressed={review.overallRating === rating}
+                  >
+                    <kbd>{rating}</kbd>
+                    <span>
+                      {rating === 1 ? "Reject" : rating === 5 ? "Anchor" : ""}
+                    </span>
+                  </button>
+                ))}
               </div>
             </section>
-          ) : null}
 
-          <section className="feedback-section">
-            <label>
-              <span>FEEDBACK</span>
-              <textarea
-                ref={noteRef as RefObject<HTMLTextAreaElement>}
-                value={noteDraft}
-                onChange={(event) => setNoteDraft(event.target.value)}
-                onBlur={saveDrafts}
-                placeholder="What do you like or dislike?"
-                rows={3}
-              />
-            </label>
-            <label>
-              <span>NEXT ATTEMPT</span>
-              <textarea
-                value={correctionDraft}
-                onChange={(event) => setCorrectionDraft(event.target.value)}
-                onBlur={saveDrafts}
-                placeholder="Preserve… Change…"
-                rows={3}
-              />
-            </label>
-          </section>
+            <section className="decision-section">
+              <div className="review-section-heading">
+                <span>DECISION</span>
+                {review.decision ? (
+                  <strong>{review.decision.toLocaleUpperCase()}</strong>
+                ) : null}
+              </div>
+              <div className="decision-grid">
+                {DECISIONS.map((option) => (
+                  <button
+                    key={option.value}
+                    type="button"
+                    className={
+                      review.decision === option.value ? "is-active" : undefined
+                    }
+                    onClick={() => chooseDecision(option.value)}
+                    aria-pressed={review.decision === option.value}
+                  >
+                    <kbd>{option.shortcut}</kbd>
+                    <span>{option.label}</span>
+                  </button>
+                ))}
+              </div>
+            </section>
 
-          {detailMode ? (
-            <button
-              className="finish-review"
-              type="button"
-              onClick={finishDetail}
-            >
-              SAVE &amp; NEXT <kbd>ENTER</kbd>
-            </button>
-          ) : null}
+            <section className="tag-section">
+              <div className="review-section-heading">
+                <span>SUGGESTED TAGS</span>
+                <small>CLICK: CONFIRM → REJECT → RESET</small>
+              </div>
+              <div className="review-tags">
+                {review.tags.map((tag) => (
+                  <button
+                    key={tag.key}
+                    type="button"
+                    data-state={tag.state}
+                    onClick={() => cycleTag(tag.key)}
+                    title={`${tag.source} · ${Math.round(tag.confidence * 100)}% confidence`}
+                  >
+                    {tag.label}
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            {detailMode || review.defects.length ? (
+              <section className="defect-section">
+                <div className="review-section-heading">
+                  <span>WHAT FAILED?</span>
+                  <small>SELECT ALL THAT APPLY</small>
+                </div>
+                <div className="defect-list">
+                  {DEFECTS.map((option) => {
+                    const selected = review.defects.find(
+                      (defect) => defect.key === option.key,
+                    );
+                    return (
+                      <div
+                        key={option.key}
+                        className={selected ? "is-selected" : undefined}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => toggleDefect(option)}
+                          aria-pressed={Boolean(selected)}
+                        >
+                          <kbd>{option.shortcut}</kbd>
+                          <span>{option.label}</span>
+                        </button>
+                        {selected ? (
+                          <button
+                            className="severity-button"
+                            type="button"
+                            data-severity={selected.severity}
+                            onClick={() => cycleDefectSeverity(selected)}
+                            aria-label={`Change ${option.label} severity`}
+                          >
+                            {selected.severity}
+                          </button>
+                        ) : null}
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            ) : null}
+
+            <section className="feedback-section">
+              <label>
+                <span>FEEDBACK</span>
+                <textarea
+                  ref={noteRef as RefObject<HTMLTextAreaElement>}
+                  value={noteDraft}
+                  onChange={(event) => setNoteDraft(event.target.value)}
+                  onBlur={saveDrafts}
+                  placeholder="What do you like or dislike?"
+                  rows={3}
+                />
+              </label>
+              <label>
+                <span>NEXT ATTEMPT</span>
+                <textarea
+                  value={correctionDraft}
+                  onChange={(event) => setCorrectionDraft(event.target.value)}
+                  onBlur={saveDrafts}
+                  placeholder="Preserve… Change…"
+                  rows={3}
+                />
+              </label>
+            </section>
+
+            {detailMode ? (
+              <button
+                className="finish-review"
+                type="button"
+                onClick={finishDetail}
+              >
+                SAVE &amp; NEXT <kbd>ENTER</kbd>
+              </button>
+            ) : null}
+          </AutoHideScrollArea>
         </aside>
-      </main>
+      </AutoHideScrollArea>
     </div>
   );
 }

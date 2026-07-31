@@ -3,6 +3,7 @@ const SCHEMA_STATEMENTS = [
     id TEXT PRIMARY KEY NOT NULL,
     asset_hash TEXT NOT NULL,
     path TEXT NOT NULL UNIQUE,
+    historical_path TEXT,
     url TEXT NOT NULL,
     name TEXT NOT NULL,
     filename TEXT NOT NULL,
@@ -19,6 +20,11 @@ const SCHEMA_STATEMENTS = [
   `CREATE INDEX IF NOT EXISTS renders_asset_hash_idx ON renders (asset_hash)`,
   `CREATE INDEX IF NOT EXISTS renders_category_idx ON renders (category)`,
   `CREATE INDEX IF NOT EXISTS renders_collection_idx ON renders (collection)`,
+  `CREATE TABLE IF NOT EXISTS catalog_state (
+    id INTEGER PRIMARY KEY NOT NULL CHECK (id = 1),
+    version TEXT NOT NULL,
+    synced_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  )`,
   `CREATE TABLE IF NOT EXISTS reviews (
     render_id TEXT PRIMARY KEY NOT NULL REFERENCES renders(id) ON DELETE CASCADE,
     overall_rating INTEGER,
@@ -84,9 +90,19 @@ export function getRawDb(): Promise<D1Database> {
 export function ensureReviewSchema(): Promise<void> {
   if (!schemaReady) {
     schemaReady = getRawDb()
-      .then((db) =>
-        db.batch(SCHEMA_STATEMENTS.map((statement) => db.prepare(statement))),
-      )
+      .then(async (db) => {
+        await db.batch(
+          SCHEMA_STATEMENTS.map((statement) => db.prepare(statement)),
+        );
+        const columns = await db
+          .prepare("PRAGMA table_info(renders)")
+          .all<{ name: string }>();
+        if (!columns.results.some((column) => column.name === "historical_path")) {
+          await db
+            .prepare("ALTER TABLE renders ADD COLUMN historical_path TEXT")
+            .run();
+        }
+      })
       .then(() => undefined)
       .catch((error) => {
         schemaReady = undefined;

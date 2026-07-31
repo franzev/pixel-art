@@ -13,6 +13,7 @@ export const renders = sqliteTable(
     id: text("id").primaryKey(),
     assetHash: text("asset_hash").notNull(),
     path: text("path").notNull().unique(),
+    historicalPath: text("historical_path"),
     url: text("url").notNull(),
     name: text("name").notNull(),
     filename: text("filename").notNull(),
@@ -34,6 +35,12 @@ export const renders = sqliteTable(
     index("renders_collection_idx").on(table.collection),
   ],
 );
+
+export const catalogState = sqliteTable("catalog_state", {
+  id: integer("id").primaryKey(),
+  version: text("version").notNull(),
+  syncedAt: text("synced_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+});
 
 export const reviews = sqliteTable("reviews", {
   renderId: text("render_id")

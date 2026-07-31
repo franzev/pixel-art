@@ -9,13 +9,13 @@ import {
 import {
   emptyReview,
   normalizeDecision,
-  type ArtItem,
+  type GalleryItem,
   type RenderReview,
   type ReviewMap,
 } from "./review-types";
 
 type PendingReview = {
-  item: ArtItem;
+  renderId: string;
   review: RenderReview;
 };
 
@@ -24,7 +24,7 @@ type SyncState = "loading" | "saved" | "saving" | "offline";
 const OUTBOX_KEY = "ashen-review-outbox-v1";
 
 function mergeSuggestedTags(
-  item: ArtItem,
+  item: GalleryItem,
   review: RenderReview,
 ): RenderReview {
   const existing = new Map(review.tags.map((tag) => [tag.key, tag]));
@@ -41,7 +41,25 @@ function readOutbox(): PendingReview[] {
     const stored = window.localStorage.getItem(OUTBOX_KEY);
     if (!stored) return [];
     const parsed = JSON.parse(stored) as unknown;
-    return Array.isArray(parsed) ? (parsed as PendingReview[]) : [];
+    if (!Array.isArray(parsed)) return [];
+
+    return parsed.flatMap((value) => {
+      if (!value || typeof value !== "object") return [];
+      const pending = value as {
+        item?: { renderId?: unknown };
+        renderId?: unknown;
+        review?: RenderReview;
+      };
+      const renderId =
+        typeof pending.renderId === "string"
+          ? pending.renderId
+          : typeof pending.item?.renderId === "string"
+            ? pending.item.renderId
+            : "";
+      return renderId && pending.review
+        ? [{ renderId, review: pending.review }]
+        : [];
+    });
   } catch {
     return [];
   }
@@ -55,7 +73,7 @@ function writeOutbox(entries: Iterable<PendingReview>) {
   }
 }
 
-export function useReviewStore(items: ArtItem[]) {
+export function useReviewStore(items: GalleryItem[]) {
   const [reviews, setReviews] = useState<ReviewMap>({});
   const [syncState, setSyncState] = useState<SyncState>("loading");
   const reviewsRef = useRef<ReviewMap>({});
@@ -103,9 +121,9 @@ export function useReviewStore(items: ArtItem[]) {
           throw new Error(`Review save failed (${response.status})`);
         }
 
-        const current = outboxRef.current.get(pending.review.renderId);
+        const current = outboxRef.current.get(pending.renderId);
         if (current?.review.revision === pending.review.revision) {
-          outboxRef.current.delete(pending.review.renderId);
+          outboxRef.current.delete(pending.renderId);
           writeOutbox(outboxRef.current.values());
         }
       }
@@ -121,24 +139,20 @@ export function useReviewStore(items: ArtItem[]) {
 
   useEffect(() => {
     mountedRef.current = true;
+    const currentRenderIds = new Set(items.map((item) => item.renderId));
     const pendingEntries = readOutbox();
     for (const pending of pendingEntries) {
-      if (pending?.review?.renderId && pending?.item?.renderId) {
-        outboxRef.current.set(pending.review.renderId, pending);
+      if (
+        pending.review.renderId === pending.renderId &&
+        currentRenderIds.has(pending.renderId)
+      ) {
+        outboxRef.current.set(pending.renderId, pending);
       }
     }
 
     const load = async () => {
       try {
-        const [, response] = await Promise.all([
-          fetch("/api/catalog", {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify({ items }),
-          }),
-          fetch("/api/reviews"),
-        ]);
-
+        const response = await fetch("/api/reviews");
         if (!response.ok) {
           throw new Error(`Review load failed (${response.status})`);
         }
@@ -188,7 +202,7 @@ export function useReviewStore(items: ArtItem[]) {
   }, [commitReviews, flushOutbox, items, scheduleRetry]);
 
   const getReview = useCallback(
-    (item: ArtItem) => {
+    (item: GalleryItem) => {
       const stored = reviews[item.renderId];
       return mergeSuggestedTags(item, stored ?? emptyReview(item));
     },
@@ -197,7 +211,7 @@ export function useReviewStore(items: ArtItem[]) {
 
   const updateReview = useCallback(
     (
-      item: ArtItem,
+      item: GalleryItem,
       update: (current: RenderReview) => RenderReview,
     ): RenderReview => {
       const current = mergeSuggestedTags(
@@ -220,7 +234,10 @@ export function useReviewStore(items: ArtItem[]) {
         ...reviewsRef.current,
         [item.renderId]: next,
       });
-      outboxRef.current.set(item.renderId, { item, review: next });
+      outboxRef.current.set(item.renderId, {
+        renderId: item.renderId,
+        review: next,
+      });
       writeOutbox(outboxRef.current.values());
       setSyncState("saving");
       void flushOutbox();

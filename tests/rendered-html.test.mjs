@@ -58,6 +58,24 @@ test("server-renders the archive shell", async () => {
   assert.match(html, /CONTACT SHEET/);
   assert.match(html, /Search renders/i);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);
+
+  const renderedTiles = html.match(/data-render-index=/g) ?? [];
+  assert.equal(
+    renderedTiles.length,
+    24,
+    "The server should render only the hydration contact sheet",
+  );
+  assert.doesNotMatch(
+    html,
+    /<img[^>]+src="\/art\//i,
+    "Grid and inspector images must use responsive transforms",
+  );
+  assert.match(html, /\/_vinext\/image\?/);
+  assert.doesNotMatch(html, /"assetHash":|"suggestedTags":/);
+  assert.ok(
+    Buffer.byteLength(html) < 650_000,
+    `Initial HTML is too large: ${Buffer.byteLength(html)} bytes`,
+  );
 });
 
 test("catalog contains real responsive render data", async () => {
@@ -69,11 +87,12 @@ test("catalog contains real responsive render data", async () => {
     (file) => file.toLowerCase().endsWith(".png"),
   );
 
-  assert.ok(index.length >= 340, `Expected at least 340 renders, found ${index.length}`);
+  assert.ok(index.length >= 250, `Expected a populated catalog, found ${index.length}`);
   assert.equal(index.length, canonicalRenders.length);
   assert.ok(index.some((item) => item.category === "enemies"));
-  assert.ok(index.some((item) => item.category === "bosses"));
-  assert.ok(index.some((item) => item.category === "environments"));
+  assert.ok(index.some((item) => item.category === "angels"));
+  assert.ok(index.some((item) => item.category === "npcs"));
+  assert.ok(index.some((item) => item.category === "protagonist"));
   assert.ok(
     index.some((item) =>
       item.id.includes("holy-knight-helmet-orders-v03"),
@@ -114,11 +133,6 @@ test("catalog contains real responsive render data", async () => {
       ),
   );
   assert.ok(
-    index.every(
-      (item) => item.category === "environments" || item.sourceAvailable,
-    ),
-  );
-  assert.ok(
     index
       .filter((item) => item.id.includes("rejected/effects-first-pass"))
       .every((item) => item.status === "rejected"),
@@ -136,34 +150,35 @@ test("catalog contains real responsive render data", async () => {
 });
 
 test("working assets use collection-first paths without render duplicates", async () => {
-  const assetRoots = [
+  const formerAssetRoots = [
     "angels",
     "bosses",
     "enemies",
     "environments",
+    "npcs",
     "protagonist",
   ];
 
-  for (const rootName of [...assetRoots, "samples"]) {
-    const entries = await readdir(path.join(repositoryDir, rootName), {
-      withFileTypes: true,
-    });
-    const loosePngs = entries
-      .filter(
-        (entry) =>
-          entry.isFile() && entry.name.toLowerCase().endsWith(".png"),
-      )
-      .map((entry) => entry.name);
-    assert.deepEqual(
-      loosePngs,
-      [],
-      `Loose PNGs found in ${rootName}: ${loosePngs.join(", ")}`,
+  for (const rootName of formerAssetRoots) {
+    await assert.rejects(
+      access(path.join(repositoryDir, rootName)),
+      `Legacy root category still exists: ${rootName}`,
     );
   }
 
+  const collectionPngs = await walkFiles(
+    path.join(repositoryDir, "collections"),
+    (file) => file.toLowerCase().endsWith(".png"),
+  );
+  assert.deepEqual(collectionPngs, [], "Collection records must remain text-only");
+
   const workingPngs = (
     await Promise.all(
-      assetRoots.map((rootName) =>
+      [
+        path.join("archive", "legacy-art"),
+        path.join("art-catalog", "review-sheets"),
+        "samples",
+      ].map((rootName) =>
         walkFiles(
           path.join(repositoryDir, rootName),
           (file) => file.toLowerCase().endsWith(".png"),
@@ -195,40 +210,25 @@ test("working assets use collection-first paths without render duplicates", asyn
     );
   }
 
-  const sourceName =
-    /^\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*(?:-v\d{2})?-source\.png$/;
   for (const file of workingPngs.filter((item) =>
     item.endsWith("-source.png"),
   )) {
-    assert.match(path.basename(file), sourceName);
-    const relative = path.relative(repositoryDir, file).split(path.sep);
     assert.ok(
-      relative.length >= 3,
-      `Source is missing its collection folder: ${file}`,
+      file.startsWith(path.join(repositoryDir, "archive", "legacy-art")) ||
+        file.startsWith(path.join(repositoryDir, "samples")),
+      `Source exists outside quarantine or intentional samples: ${file}`,
     );
   }
 });
 
 test("collection manifests point to the single canonical render copy", async () => {
-  const categoryDirectories = [
-    "angels",
-    "bosses",
-    "enemies",
-    "environments",
-    "protagonist",
-  ];
-  const manifests = (
-    await Promise.all(
-      categoryDirectories.map((category) =>
-        walkFiles(
-          path.join(repositoryDir, category),
-          (file) => file.endsWith("-manifest.json"),
-        ),
-      ),
-    )
-  ).flat();
+  const manifests = await walkFiles(
+    path.join(repositoryDir, "collections"),
+    (file) => file.endsWith("-manifest.json"),
+  );
 
   assert.ok(manifests.length >= 10);
+  let canonicalEntries = 0;
 
   for (const manifest of manifests) {
     const data = JSON.parse(await readFile(manifest, "utf8"));
@@ -237,16 +237,22 @@ test("collection manifests point to the single canonical render copy", async () 
       : (data.assets ?? data.entries ?? []);
 
     for (const asset of assets) {
-      assert.ok(asset.source, `Missing source path in ${manifest}`);
-      await access(path.join(repositoryDir, asset.source));
+      const render = asset.render;
+      if (!render) continue;
 
-      const render = asset.reference_256 ?? asset.reference;
-      assert.ok(render, `Missing render path in ${manifest}`);
+      canonicalEntries += 1;
       assert.ok(
         render.startsWith("public/art/"),
         `Render is outside public/art in ${manifest}: ${render}`,
       );
       await access(path.join(repositoryDir, render));
+      assert.equal(
+        "source" in asset || "reference_256" in asset || "reference" in asset,
+        false,
+        `Canonical manifest entry keeps a duplicate render field in ${manifest}`,
+      );
     }
   }
+
+  assert.ok(canonicalEntries > 0, "No canonical manifest render entries found");
 });

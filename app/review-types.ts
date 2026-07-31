@@ -24,6 +24,31 @@ export type ArtItem = {
   suggestedTags: SuggestedTag[];
 };
 
+export type GalleryItem = Pick<
+  ArtItem,
+  | "id"
+  | "renderId"
+  | "url"
+  | "name"
+  | "filename"
+  | "category"
+  | "collection"
+  | "status"
+  | "width"
+  | "height"
+  | "suggestedTags"
+>;
+
+export type CompactGalleryItem = Omit<GalleryItem, "suggestedTags"> & {
+  tagDefinitionIds: number[];
+};
+
+export type GalleryCatalog = {
+  version: string;
+  items: CompactGalleryItem[];
+  tagDefinitions: SuggestedTag[];
+};
+
 export type ReviewDecision = "keep" | "reject" | "delete";
 
 const LEGACY_DECISIONS: Record<string, ReviewDecision> = {
@@ -77,7 +102,7 @@ export type RenderReview = {
 export type ReviewMap = Record<string, RenderReview>;
 
 export function emptyReview(
-  item: ArtItem,
+  item: GalleryItem,
   timestamp = new Date().toISOString(),
 ): RenderReview {
   return {

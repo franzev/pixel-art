@@ -1,0 +1,48 @@
+{
+  "collection": "Elite Demon Slayers v01",
+  "created": "2026-07-31",
+  "background": "#171311",
+  "source_dimensions": "1254x1254",
+  "reference_check": "256x256",
+  "generation_mode": "Built-in image generation, one call per character, with one targeted weapon-scale revision for concept 04",
+  "art_direction_references": {
+    "role": "Confirmed 5/5 anchors used only for pixel treatment, weathered materials, broad values, and full-body presentation",
+    "source": "art-catalog/REVIEW-LEARNINGS.md"
+  },
+  "equipment_references": "samples/equipment/elite-demon-slayers-v01/",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "lifecycle": "draft",
+  "entries": [
+    {
+      "id": 1,
+      "name": "Iron Vow Greatblade",
+      "weapon": "Italian two-handed sword",
+      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/01-iron-vow-greatblade.png"
+    },
+    {
+      "id": 2,
+      "name": "Oxblood Rapier Huntress",
+      "weapon": "Spanish rapier",
+      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/02-oxblood-rapier-huntress.png"
+    },
+    {
+      "id": 3,
+      "name": "Ash-Gate Halberd Sentinel",
+      "weapon": "French halberd",
+      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/03-ash-gate-halberd-sentinel.png"
+    },
+    {
+      "id": 4,
+      "name": "Silver Beak Hammerer",
+      "weapon": "German Saxon war hammer",
+      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/04-silver-beak-hammerer.png"
+    },
+    {
+      "id": 5,
+      "name": "Quiet Needle Exorcist",
+      "weapon": "Spanish/Solingen smallsword",
+      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/05-quiet-needle-exorcist.png"
+    }
+  ]
+}

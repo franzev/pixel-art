@@ -1,0 +1,56 @@
+{
+  "collection": "Unholy Succubus Knights v14",
+  "created": "2026-07-30",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": "256x256",
+  "generation_mode": "Built-in image generation with approved female-armor and demon-direction references",
+  "input_references": [
+    {
+      "path": "../sacred-tribunal-canonesses-v13/sacred-tribunal-canonesses-v13-review-sheet.png",
+      "role": "Practical female armor fit, proportions, pixel treatment, and presentation"
+    },
+    {
+      "path": "../demon-knight-legions-v07/demon-knight-legions-v07-review-sheet-11-20.png",
+      "role": "Infernal material language, restrained menace, and silhouette variety"
+    }
+  ],
+  "design_contract": "../KNIGHT-ART-DIRECTION-SPEC.md",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/unholy-succubus-knights-v14/unholy-succubus-knights-v14-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Velvet-Horn Castellan",
+      "score": 96,
+      "render": "public/art/protagonist/unholy-succubus-knights-v14/drafts/01-velvet-horn-castellan.png"
+    },
+    {
+      "id": 2,
+      "name": "Duskwing Lancer",
+      "score": 95,
+      "render": "public/art/protagonist/unholy-succubus-knights-v14/drafts/02-duskwing-lancer.png"
+    },
+    {
+      "id": 3,
+      "name": "Scorpion-Tail Duelist",
+      "score": 98,
+      "render": "public/art/protagonist/unholy-succubus-knights-v14/drafts/03-scorpion-tail-duelist.png"
+    },
+    {
+      "id": 4,
+      "name": "Chalice-Maw Gaoler",
+      "score": 94,
+      "render": "public/art/protagonist/unholy-succubus-knights-v14/drafts/04-chalice-maw-gaoler.png"
+    },
+    {
+      "id": 5,
+      "name": "Ash-Seraph Reaper",
+      "score": 98,
+      "render": "public/art/protagonist/unholy-succubus-knights-v14/drafts/05-ash-seraph-reaper.png"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "collection": "Beast-Helm Orders v08",
+  "created": "2026-07-31",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "lifecycle": "draft",
+  "originality": "Text-generated original animal-helm factions; Beast-Helm Orders v07 used only as collection-level direction.",
+  "prompts": "collections/protagonist/beast-helm-orders-v08/GENERATION-PROMPTS.md",
+  "status": "collections/protagonist/beast-helm-orders-v08/STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/beast-helm-orders-v08/beast-helm-orders-v08-wave-01-review-sheet.png",
+    "art-catalog/review-sheets/protagonist/beast-helm-orders-v08/beast-helm-orders-v08-wave-02-review-sheet.png",
+    "art-catalog/review-sheets/protagonist/beast-helm-orders-v08/beast-helm-orders-v08-wave-03-review-sheet.png",
+    "art-catalog/review-sheets/protagonist/beast-helm-orders-v08/beast-helm-orders-v08-wave-04-review-sheet.png",
+    "art-catalog/review-sheets/protagonist/beast-helm-orders-v08/beast-helm-orders-v08-complete-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Tiger-Stripe Sword Marshal",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/01-tiger-stripe-sword-marshal.png"
+    },
+    {
+      "id": 2,
+      "name": "Crocodile-Jaw Mace Warden",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/02-crocodile-jaw-mace-warden.png"
+    },
+    {
+      "id": 3,
+      "name": "Rhino-Nasal Halberd Bastion",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/03-rhino-nasal-halberd-bastion.png"
+    },
+    {
+      "id": 4,
+      "name": "Eagle-Beak Axe Pursuer",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/04-eagle-beak-axe-pursuer.png"
+    },
+    {
+      "id": 5,
+      "name": "Mantis-Visor Rapier Judge",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/05-mantis-visor-rapier-judge.png"
+    },
+    {
+      "id": 6,
+      "name": "Pangolin-Scale Mace Sentinel",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/06-pangolin-scale-mace-sentinel.png"
+    },
+    {
+      "id": 7,
+      "name": "Ram-Coil Halberd Breaker",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/07-ram-coil-halberd-breaker.png"
+    },
+    {
+      "id": 8,
+      "name": "Shark-Fin Sword Reaver",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/08-shark-fin-sword-reaver.png"
+    },
+    {
+      "id": 9,
+      "name": "Bat-Ear Axe Stalker",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/09-bat-ear-axe-stalker.png"
+    },
+    {
+      "id": 10,
+      "name": "Crane-Beak Rapier Duelist",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/10-crane-beak-rapier-duelist.png"
+    },
+    {
+      "id": 11,
+      "name": "Elephant-Fan Mace Anchor",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/11-elephant-fan-mace-anchor.png"
+    },
+    {
+      "id": 12,
+      "name": "Turtle-Shell Halberd Keeper",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/12-turtle-shell-halberd-keeper.png"
+    },
+    {
+      "id": 13,
+      "name": "Scorpion-Tail Sword Exactor",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/13-scorpion-tail-sword-exactor.png"
+    },
+    {
+      "id": 14,
+      "name": "Hyena-Jaw Axe Harrier",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/14-hyena-jaw-axe-harrier.png"
+    },
+    {
+      "id": 15,
+      "name": "Hornbill-Casque Rapier Envoy",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/15-hornbill-casque-rapier-envoy.png"
+    },
+    {
+      "id": 16,
+      "name": "Tarsier-Eye Sword Watcher",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/16-tarsier-eye-sword-watcher.png"
+    },
+    {
+      "id": 17,
+      "name": "Peacock-Crest Mace Herald",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/17-peacock-crest-mace-herald.png"
+    },
+    {
+      "id": 18,
+      "name": "Monitor-Jaw Halberd Ranger",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/18-monitor-jaw-halberd-ranger.png"
+    },
+    {
+      "id": 19,
+      "name": "Manta-Wing Axe Guardian",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/19-manta-wing-axe-guardian.png"
+    },
+    {
+      "id": 20,
+      "name": "Octopus-Crown Rapier Savant",
+      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/20-octopus-crown-rapier-savant.png"
+    }
+  ]
+}

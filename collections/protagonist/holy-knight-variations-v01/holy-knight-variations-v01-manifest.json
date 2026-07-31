@@ -1,0 +1,49 @@
+{
+  "collection": "holy-knight-variations-v01",
+  "status": "draft",
+  "generated": "2026-07-28",
+  "use_case": "stylized-concept",
+  "generation_mode": "built-in image generation",
+  "identity_reference": "public/art/protagonist/crimson-knight-player-character/drafts/01-crimson-knight-player-character-v01-reference-256.png",
+  "supporting_reference": "samples/silver-knight/silver-knight-left-facing-source.png",
+  "background": "#171311",
+  "assets": [
+    {
+      "id": 1,
+      "name": "Ivory Vow",
+      "status": "draft",
+      "render": "public/art/protagonist/holy-knight-variations-v01/drafts/01-ivory-vow.png"
+    },
+    {
+      "id": 2,
+      "name": "Bell-Sanctum",
+      "status": "draft",
+      "render": "public/art/protagonist/holy-knight-variations-v01/drafts/02-bell-sanctum.png"
+    },
+    {
+      "id": 3,
+      "name": "Moon-Salt Warden",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v01/drafts/03-moon-salt-warden-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Ember Reliquary",
+      "status": "draft",
+      "render": "public/art/protagonist/holy-knight-variations-v01/drafts/04-ember-reliquary.png"
+    },
+    {
+      "id": 5,
+      "name": "Floodlight Hospitaller",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v01/drafts/05-floodlight-hospitaller-source.png"
+    },
+    {
+      "id": 6,
+      "name": "Broken Halo Exile",
+      "status": "draft",
+      "render": "public/art/protagonist/holy-knight-variations-v01/drafts/06-broken-halo-exile.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/protagonist/holy-knight-variations-v01/holy-knight-variations-v01-review-sheet.png"
+}

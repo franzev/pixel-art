@@ -1,0 +1,65 @@
+{
+  "batch": "otherworldly-knights-batch-41",
+  "status": "draft",
+  "prepared": "2026-07-30",
+  "generator": "built-in image generation",
+  "palette": {
+    "base": [
+      "soot black",
+      "charcoal",
+      "dull iron",
+      "dirty ivory",
+      "weathered fiber brown"
+    ],
+    "accents": [
+      "pale slate-cyan",
+      "pale ivory",
+      "bruised violet",
+      "dirty gold"
+    ],
+    "background": "#171311 warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant body palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Upward-Rain Lancer",
+      "role": "pursuit lancer",
+      "status": "draft",
+      "source": "collections/enemies/otherworldly-knights-batch-41/drafts/01-upward-rain-lancer-source.png"
+    },
+    {
+      "id": 2,
+      "name": "Capiz-Star Arquebusier",
+      "role": "ranged artillery knight",
+      "status": "draft",
+      "source": "collections/enemies/otherworldly-knights-batch-41/drafts/02-capiz-star-arquebusier-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Folded-Gate Counterguard",
+      "role": "reactive counter-duelist",
+      "status": "draft",
+      "source": "collections/enemies/otherworldly-knights-batch-41/drafts/03-folded-gate-counterguard-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Cardinal-Weight Warden",
+      "role": "gravity controller",
+      "status": "draft",
+      "source": "collections/enemies/otherworldly-knights-batch-41/drafts/04-cardinal-weight-warden-source.png"
+    },
+    {
+      "id": 5,
+      "name": "Noonless Eclipse Sentinel",
+      "role": "stationary barrier-caster",
+      "status": "draft",
+      "source": "collections/enemies/otherworldly-knights-batch-41/drafts/05-noonless-eclipse-sentinel-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/otherworldly-knights-batch-41/drafts/otherworldly-knights-batch-41-draft-review-sheet.png",
+  "prompts": "collections/enemies/otherworldly-knights-batch-41/GENERATION-PROMPTS.md"
+}

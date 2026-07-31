@@ -1,0 +1,65 @@
+{
+  "collection": "Beast-Helm Orders v07",
+  "created": "2026-07-29",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": "256x256",
+  "originality": "Text-only original briefs; no visual game references and no deliberate copying.",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/beast-helm-orders-v07/beast-helm-orders-v07-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Stag-Crown Lancer",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/01-stag-crown-lancer.png"
+    },
+    {
+      "id": 2,
+      "name": "Bear-Mantle Axeguard",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/02-bear-mantle-axeguard.png"
+    },
+    {
+      "id": 3,
+      "name": "Grey-Wolf Swordwarden",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/03-grey-wolf-swordwarden.png"
+    },
+    {
+      "id": 4,
+      "name": "Iron-Boar Spear Knight",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/04-iron-boar-spear-knight.png"
+    },
+    {
+      "id": 5,
+      "name": "Pale-Owl Watcher",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/05-pale-owl-watcher.png"
+    },
+    {
+      "id": 6,
+      "name": "Black-Raven Cavalier",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/06-black-raven-cavalier.png"
+    },
+    {
+      "id": 7,
+      "name": "Red-Fox Scout Knight",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/07-red-fox-scout-knight.png"
+    },
+    {
+      "id": 8,
+      "name": "Oxblood Bull Gatekeeper",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/08-oxblood-bull-gatekeeper.png"
+    },
+    {
+      "id": 9,
+      "name": "Jade-Cobra Sentinel",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/09-jade-cobra-sentinel.png"
+    },
+    {
+      "id": 10,
+      "name": "Moon-Hare Duelist",
+      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/10-moon-hare-duelist.png"
+    }
+  ]
+}

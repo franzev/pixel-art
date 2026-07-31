@@ -1,0 +1,277 @@
+[
+  {
+    "number": 1,
+    "name": "01-blood-lantern-acolyte",
+    "bbox": {
+      "left": 0,
+      "top": 92,
+      "width": 1254,
+      "height": 1102
+    },
+    "render": "public/art/enemies/combat-magic-batch-04/01-blood-lantern-acolyte.png"
+  },
+  {
+    "number": 2,
+    "name": "02-acid-censer-bearer",
+    "bbox": {
+      "left": 52,
+      "top": 64,
+      "width": 1174,
+      "height": 1127
+    },
+    "render": "public/art/enemies/combat-magic-batch-04/02-acid-censer-bearer.png"
+  },
+  {
+    "number": 3,
+    "name": "03-beetle-hexer",
+    "bbox": {
+      "left": 120,
+      "top": 49,
+      "width": 1009,
+      "height": 1147
+    },
+    "render": "public/art/enemies/combat-magic-batch-04/03-beetle-hexer.png"
+  },
+  {
+    "number": 4,
+    "name": "04-moon-salt-deacon",
+    "source": "collections/enemies/combat-magic-batch-04/04-moon-salt-deacon-source.png",
+    "bbox": {
+      "left": 169,
+      "top": 63,
+      "width": 1036,
+      "height": 1113
+    }
+  },
+  {
+    "number": 5,
+    "name": "05-chain-psalmist",
+    "source": "collections/enemies/combat-magic-batch-04/05-chain-psalmist-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 75,
+      "width": 1254,
+      "height": 1086
+    }
+  },
+  {
+    "number": 6,
+    "name": "06-candle-brander",
+    "source": "collections/enemies/combat-magic-batch-04/06-candle-brander-source.png",
+    "bbox": {
+      "left": 142,
+      "top": 0,
+      "width": 1072,
+      "height": 1245
+    }
+  },
+  {
+    "number": 7,
+    "name": "07-hook-bailiff",
+    "bbox": {
+      "left": 53,
+      "top": 87,
+      "width": 1201,
+      "height": 1080
+    },
+    "render": "public/art/enemies/combat-magic-batch-04/07-hook-bailiff.png"
+  },
+  {
+    "number": 8,
+    "name": "08-bell-torturer",
+    "source": "collections/enemies/combat-magic-batch-04/08-bell-torturer-source.png",
+    "bbox": {
+      "left": 70,
+      "top": 71,
+      "width": 1184,
+      "height": 1119
+    }
+  },
+  {
+    "number": 9,
+    "name": "09-thorn-gaoler",
+    "source": "collections/enemies/combat-magic-batch-04/09-thorn-gaoler-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 58,
+      "width": 1254,
+      "height": 1162
+    }
+  },
+  {
+    "number": 10,
+    "name": "10-pain-steward",
+    "source": "collections/enemies/combat-magic-batch-04/10-pain-steward-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 77,
+      "width": 1254,
+      "height": 1108
+    }
+  },
+  {
+    "number": 11,
+    "name": "11-possessed-farmer",
+    "source": "collections/enemies/combat-magic-batch-04/11-possessed-farmer-source.png",
+    "bbox": {
+      "left": 29,
+      "top": 21,
+      "width": 1097,
+      "height": 1167
+    }
+  },
+  {
+    "number": 12,
+    "name": "12-possessed-washerwoman",
+    "source": "collections/enemies/combat-magic-batch-04/12-possessed-washerwoman-source.png",
+    "bbox": {
+      "left": 150,
+      "top": 49,
+      "width": 1102,
+      "height": 1123
+    }
+  },
+  {
+    "number": 13,
+    "name": "13-possessed-fisherman",
+    "source": "collections/enemies/combat-magic-batch-04/13-possessed-fisherman-source.png",
+    "bbox": {
+      "left": 13,
+      "top": 85,
+      "width": 1241,
+      "height": 1090
+    }
+  },
+  {
+    "number": 14,
+    "name": "14-possessed-carpenter",
+    "source": "collections/enemies/combat-magic-batch-04/14-possessed-carpenter-source.png",
+    "bbox": {
+      "left": 204,
+      "top": 40,
+      "width": 820,
+      "height": 1126
+    }
+  },
+  {
+    "number": 15,
+    "name": "15-possessed-candle-seller",
+    "source": "collections/enemies/combat-magic-batch-04/15-possessed-candle-seller-source.png",
+    "bbox": {
+      "left": 246,
+      "top": 27,
+      "width": 762,
+      "height": 1175
+    }
+  },
+  {
+    "number": 16,
+    "name": "16-possessed-fishmonger",
+    "source": "collections/enemies/combat-magic-batch-04/16-possessed-fishmonger-source.png",
+    "bbox": {
+      "left": 99,
+      "top": 81,
+      "width": 1100,
+      "height": 1031
+    }
+  },
+  {
+    "number": 17,
+    "name": "17-drowned-net-caster",
+    "source": "collections/enemies/combat-magic-batch-04/17-drowned-net-caster-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 97,
+      "width": 1254,
+      "height": 1036
+    }
+  },
+  {
+    "number": 18,
+    "name": "18-balete-mourner",
+    "source": "collections/enemies/combat-magic-batch-04/18-balete-mourner-source.png",
+    "bbox": {
+      "left": 91,
+      "top": 0,
+      "width": 1023,
+      "height": 1254
+    }
+  },
+  {
+    "number": 19,
+    "name": "19-empty-procession",
+    "source": "collections/enemies/combat-magic-batch-04/19-empty-procession-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 269,
+      "width": 1163,
+      "height": 720
+    }
+  },
+  {
+    "number": 20,
+    "name": "20-mirror-tenant",
+    "source": "collections/enemies/combat-magic-batch-04/20-mirror-tenant-source.png",
+    "bbox": {
+      "left": 95,
+      "top": 102,
+      "width": 1118,
+      "height": 1051
+    }
+  },
+  {
+    "number": 21,
+    "name": "21-rain-apparition",
+    "source": "collections/enemies/combat-magic-batch-04/21-rain-apparition-source.png",
+    "bbox": {
+      "left": 149,
+      "top": 0,
+      "width": 1083,
+      "height": 1225
+    }
+  },
+  {
+    "number": 22,
+    "name": "22-santelmo-choir",
+    "source": "collections/enemies/combat-magic-batch-04/22-santelmo-choir-source.png",
+    "bbox": {
+      "left": 187,
+      "top": 53,
+      "width": 879,
+      "height": 1055
+    }
+  },
+  {
+    "number": 23,
+    "name": "23-blood-fed-wakwak",
+    "source": "collections/enemies/combat-magic-batch-04/23-blood-fed-wakwak-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 62,
+      "width": 1241,
+      "height": 1019
+    }
+  },
+  {
+    "number": 24,
+    "name": "24-acid-sigbin",
+    "source": "collections/enemies/combat-magic-batch-04/24-acid-sigbin-source.png",
+    "bbox": {
+      "left": 42,
+      "top": 182,
+      "width": 1140,
+      "height": 947
+    }
+  },
+  {
+    "number": 25,
+    "name": "25-possession-kapre",
+    "source": "collections/enemies/combat-magic-batch-04/25-possession-kapre-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 56,
+      "width": 1236,
+      "height": 1138
+    }
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "collection": "Ghost Knight Orders v08",
+  "created": "2026-07-29",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": "256x256",
+  "originality": "Text-only original briefs; no visual game references and no deliberate copying.",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/ghost-knight-orders-v08/ghost-knight-orders-v08-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Fog-Sallet Wanderer",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/01-fog-sallet-wanderer.png"
+    },
+    {
+      "id": 2,
+      "name": "Drowned Bell Knight",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/02-drowned-bell-knight.png"
+    },
+    {
+      "id": 3,
+      "name": "Wick-Crown Watcher",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/03-wick-crown-watcher.png"
+    },
+    {
+      "id": 4,
+      "name": "Gale-Riven Lancer",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/04-gale-riven-lancer.png"
+    },
+    {
+      "id": 5,
+      "name": "Mourning-Veil Duelist",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/05-mourning-veil-duelist.png"
+    },
+    {
+      "id": 6,
+      "name": "Barrow-Chain Warden",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/06-barrow-chain-warden.png"
+    },
+    {
+      "id": 7,
+      "name": "Frost-Rime Templar",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/07-frost-rime-templar.png"
+    },
+    {
+      "id": 8,
+      "name": "Hollow Banner Knight",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/08-hollow-banner-knight.png"
+    },
+    {
+      "id": 9,
+      "name": "Ashen Pilgrim Guard",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/09-ashen-pilgrim-guard.png"
+    },
+    {
+      "id": 10,
+      "name": "Echo-Crown Marshal",
+      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/10-echo-crown-marshal.png"
+    }
+  ]
+}

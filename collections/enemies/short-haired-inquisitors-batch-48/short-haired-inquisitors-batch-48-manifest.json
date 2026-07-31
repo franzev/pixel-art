@@ -1,0 +1,100 @@
+{
+  "batch": "short-haired-inquisitors-batch-48",
+  "status": "draft",
+  "planned_assets": 10,
+  "completed_assets": 10,
+  "palette": {
+    "base": [
+      "charcoal",
+      "blackened steel",
+      "dirty ivory",
+      "old brass"
+    ],
+    "hair_accents": [
+      "copper red",
+      "ivory white",
+      "raven black",
+      "honey gold",
+      "ash-rose brown",
+      "ash white",
+      "silver ash",
+      "smoke grey",
+      "pale ash-blonde",
+      "charcoal ash"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "long hair",
+      "visible spells",
+      "spell-like effects"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Copper Bob Castellan",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/01-copper-bob-castellan.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivory Pageboy Interrogator",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/02-ivory-pageboy-interrogator.png"
+    },
+    {
+      "id": 3,
+      "name": "Raven Page Prosecutor",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/03-raven-page-prosecutor.png"
+    },
+    {
+      "id": 4,
+      "name": "Gilt Crop Justiciar",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/04-gilt-crop-justiciar.png"
+    },
+    {
+      "id": 5,
+      "name": "Ash-Rose Wave Examiner",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/05-ash-rose-wave-examiner.png"
+    },
+    {
+      "id": 6,
+      "name": "Ashen Blade Preceptress",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/06-ashen-blade-preceptress.png"
+    },
+    {
+      "id": 7,
+      "name": "Silver Point Interrogator",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/07-silver-point-interrogator.png"
+    },
+    {
+      "id": 8,
+      "name": "Cinder Halberd Canoness",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/08-cinder-halberd-canoness.png"
+    },
+    {
+      "id": 9,
+      "name": "Pale Axe Pursuer",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/09-pale-axe-pursuer.png"
+    },
+    {
+      "id": 10,
+      "name": "Ash Crossbow Exactor",
+      "status": "draft",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/short-haired-inquisitors-batch-48/drafts/short-haired-inquisitors-batch-48-wave-02-review-sheet.png",
+  "review_sheets": [
+    "art-catalog/review-sheets/enemies/short-haired-inquisitors-batch-48/drafts/short-haired-inquisitors-batch-48-wave-01-review-sheet.png",
+    "art-catalog/review-sheets/enemies/short-haired-inquisitors-batch-48/drafts/short-haired-inquisitors-batch-48-wave-02-review-sheet.png"
+  ]
+}

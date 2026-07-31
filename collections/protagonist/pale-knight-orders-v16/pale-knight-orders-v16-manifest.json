@@ -1,0 +1,86 @@
+{
+  "collection": "Pale Knight Orders v16",
+  "status": "complete",
+  "art_direction_spec": "../KNIGHT-ART-DIRECTION-SPEC.md",
+  "background": "#171311",
+  "review_sheet": "art-catalog/review-sheets/protagonist/pale-knight-orders-v16/pale-knight-orders-v16-review-sheet.png",
+  "hard_gates": {
+    "palette": "distinct aged light materials, never flat white recolors",
+    "wings": "none of any kind, including wing-shaped cape panels",
+    "body_scale": "lean or medium human proportions",
+    "armor": "full-coverage, nonsexualized, mechanically wearable",
+    "cape": "gravity-driven constructed textile with a unique silhouette"
+  },
+  "references": [
+    "../holy-knight-realism-pass-v05/holy-knight-realism-pass-v05-review-sheet.png",
+    "../sacred-tribunal-v12/sacred-tribunal-v12-review-sheet.png",
+    "../unholy-cape-orders-v15/unholy-cape-orders-v15-review-sheet.png"
+  ],
+  "renders": [
+    {
+      "id": "01",
+      "name": "Porcelain Vowkeeper",
+      "gender": "female",
+      "palette": "worn warm-ivory enamel, muted gold, smoke-blue linen",
+      "cape_system": "ring-linked narrow plaits gathered into a weighted column",
+      "render": "public/art/protagonist/pale-knight-orders-v16/drafts/01-porcelain-vowkeeper.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "score": 95
+    },
+    {
+      "id": "02",
+      "name": "Salt-Ring Warden",
+      "gender": "male",
+      "palette": "salt-weathered silver, sand leather, chalk linen",
+      "cape_system": "short circular mantle gathered around a rope-weighted hem",
+      "render": "public/art/protagonist/pale-knight-orders-v16/drafts/02-salt-ring-warden.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "score": 93
+    },
+    {
+      "id": "03",
+      "name": "Celadon Fold Duelist",
+      "gender": "female",
+      "palette": "pale celadon enamel, cream textile, oxidized silver",
+      "cape_system": "close accordion-pleated vertical fall with metal stays",
+      "render": "public/art/protagonist/pale-knight-orders-v16/drafts/03-celadon-fold-duelist.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "score": 92
+    },
+    {
+      "id": "04",
+      "name": "Pearl Bell Castellan",
+      "gender": "male",
+      "palette": "pearl-gray steel, champagne brass, pale amber cloth",
+      "cape_system": "three weighted mantle tiers forming a tapered bell profile",
+      "render": "public/art/protagonist/pale-knight-orders-v16/drafts/04-pearl-bell-castellan.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "score": 95
+    },
+    {
+      "id": "05",
+      "name": "Rose-Ash Procession Knight",
+      "gender": "female",
+      "palette": "bone-white plate, dusty rose leather, pale pewter",
+      "cape_system": "chain-lattice mantle feeding into unequal weighted tails",
+      "render": "public/art/protagonist/pale-knight-orders-v16/drafts/05-rose-ash-procession-knight.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "score": 94
+    }
+  ]
+}

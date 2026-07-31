@@ -1,0 +1,48 @@
+{
+  "collection": "Sacred Tribunal Inquisitors v17",
+  "created": "2026-07-30",
+  "background": "#171311",
+  "source_dimensions": "1254x1254",
+  "reference_check": "256x256",
+  "generation_mode": "Built-in image generation, one call per character, with targeted weapon-only revisions for concepts 01 and 05",
+  "input_reference": {
+    "path": "art-catalog/review-sheets/protagonist/sacred-tribunal-v12/sacred-tribunal-v12-review-sheet.png",
+    "role": "Faction language, presentation, palette restraint, pixel treatment, and quality reference only"
+  },
+  "design_contract": "../KNIGHT-ART-DIRECTION-SPEC.md",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "lifecycle": "draft",
+  "entries": [
+    {
+      "id": 1,
+      "name": "Ashen Greatsword Justiciar",
+      "weapon": "greatsword",
+      "render": "public/art/protagonist/sacred-tribunal-inquisitors-v17/drafts/01-ashen-greatsword-justiciar.png"
+    },
+    {
+      "id": 2,
+      "name": "Twin-Catch Zweihander Prosecutor",
+      "weapon": "zweihander",
+      "render": "public/art/protagonist/sacred-tribunal-inquisitors-v17/drafts/02-twin-catch-zweihander-prosecutor.png"
+    },
+    {
+      "id": 3,
+      "name": "Narrow-Slit Longsword Examiner",
+      "weapon": "longsword",
+      "render": "public/art/protagonist/sacred-tribunal-inquisitors-v17/drafts/03-narrow-slit-longsword-examiner.png"
+    },
+    {
+      "id": 4,
+      "name": "Chain-Law Flail Questioner",
+      "weapon": "flail",
+      "render": "public/art/protagonist/sacred-tribunal-inquisitors-v17/drafts/04-chain-law-flail-questioner.png"
+    },
+    {
+      "id": 5,
+      "name": "Bronze-Star Morningstar Bailiff",
+      "weapon": "morning star",
+      "render": "public/art/protagonist/sacred-tribunal-inquisitors-v17/drafts/05-bronze-star-morningstar-bailiff.png"
+    }
+  ]
+}

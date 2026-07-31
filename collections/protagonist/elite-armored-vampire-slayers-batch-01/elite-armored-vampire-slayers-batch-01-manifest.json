@@ -1,0 +1,66 @@
+{
+  "collection": "elite-armored-vampire-slayers-batch-01",
+  "category": "protagonist",
+  "created": "2026-07-31",
+  "status": "draft",
+  "background": "#171311",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "generation_mode": "built-in image generation",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status_notes": "STATUS.md",
+  "entries": [
+    {
+      "id": "01",
+      "name": "Oxblood Arming-Sword Provost",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/01-oxblood-arming-sword-provost.png"
+    },
+    {
+      "id": "02",
+      "name": "Black-Veil Estoc Marshal",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/02-black-veil-estoc-marshal.png"
+    },
+    {
+      "id": "03",
+      "name": "Iron-Sun Mace Castellan",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/03-iron-sun-mace-castellan.png"
+    },
+    {
+      "id": "04",
+      "name": "Palm-Lock Night Sentinel",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/04-palm-lock-night-sentinel.png"
+    },
+    {
+      "id": "05",
+      "name": "Capiz-Nut Crossbow Canoness",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/05-capiz-nut-crossbow-canoness.png"
+    },
+    {
+      "id": "06",
+      "name": "Sable Two-Handed Sword Vindicator",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/06-sable-two-handed-sword-vindicator.png"
+    },
+    {
+      "id": "07",
+      "name": "Silver-Beak War-Hammer Marshal",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/07-silver-beak-war-hammer-marshal.png"
+    },
+    {
+      "id": "08",
+      "name": "Oxblood Ring-Hilt Rapier Outrider",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/08-oxblood-ring-hilt-rapier-outrider.png"
+    },
+    {
+      "id": "09",
+      "name": "Ash-Crescent Saber Pursuer",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/09-ash-crescent-saber-pursuer.png"
+    },
+    {
+      "id": "10",
+      "name": "Capiz-Eye Persian-Axe Bailiff",
+      "render": "public/art/protagonist/elite-armored-vampire-slayers-batch-01/drafts/10-capiz-eye-persian-axe-bailiff.png"
+    }
+  ]
+}

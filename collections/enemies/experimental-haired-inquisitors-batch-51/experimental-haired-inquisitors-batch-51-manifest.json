@@ -1,0 +1,58 @@
+{
+  "batch": "experimental-haired-inquisitors-batch-51",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "charcoal",
+      "blackened steel",
+      "dirty ivory",
+      "old brass"
+    ],
+    "hair_accents": [
+      "ivory white",
+      "copper crimson",
+      "raven black",
+      "ash-rose brown",
+      "honey gold"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "visible spells",
+      "spell-like effects"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Ivory Cascade Interrogator",
+      "status": "draft",
+      "render": "public/art/enemies/experimental-haired-inquisitors-batch-51/drafts/01-ivory-cascade-interrogator.png"
+    },
+    {
+      "id": 2,
+      "name": "Crimson Crown Castellan",
+      "status": "draft",
+      "render": "public/art/enemies/experimental-haired-inquisitors-batch-51/drafts/02-crimson-crown-castellan.png"
+    },
+    {
+      "id": 3,
+      "name": "Raven Coil Prosecutor",
+      "status": "draft",
+      "render": "public/art/enemies/experimental-haired-inquisitors-batch-51/drafts/03-raven-coil-prosecutor.png"
+    },
+    {
+      "id": 4,
+      "name": "Ash-Rose Bob Examiner",
+      "status": "draft",
+      "render": "public/art/enemies/experimental-haired-inquisitors-batch-51/drafts/04-ash-rose-bob-examiner.png"
+    },
+    {
+      "id": 5,
+      "name": "Gilt Cable Justiciar",
+      "status": "draft",
+      "render": "public/art/enemies/experimental-haired-inquisitors-batch-51/drafts/05-gilt-cable-justiciar.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/experimental-haired-inquisitors-batch-51/drafts/experimental-haired-inquisitors-batch-51-review-sheet.png"
+}

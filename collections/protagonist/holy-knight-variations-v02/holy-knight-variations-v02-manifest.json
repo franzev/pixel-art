@@ -1,0 +1,48 @@
+{
+  "collection": "holy-knight-variations-v02",
+  "status": "draft",
+  "generated": "2026-07-28",
+  "use_case": "stylized-concept",
+  "generation_mode": "built-in image generation",
+  "direction": "six independent original holy-knight silhouettes with high-level grim medieval action-RPG influence",
+  "background": "#171311",
+  "assets": [
+    {
+      "id": 1,
+      "name": "Bell-Helm Judicator",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v02/drafts/01-bell-helm-judicator-source.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivory Processional",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v02/drafts/02-ivory-processional-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Salt Bastion",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v02/drafts/03-salt-bastion-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Moon-Thorn Lancer",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v02/drafts/04-moon-thorn-lancer-source.png"
+    },
+    {
+      "id": 5,
+      "name": "Ash-Reliquary Pilgrim",
+      "status": "draft",
+      "render": "public/art/protagonist/holy-knight-variations-v02/drafts/05-ash-reliquary-pilgrim.png"
+    },
+    {
+      "id": 6,
+      "name": "Broken-Halo Greatsword",
+      "status": "draft",
+      "source": "collections/protagonist/holy-knight-variations-v02/drafts/06-broken-halo-greatsword-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/protagonist/holy-knight-variations-v02/holy-knight-variations-v02-review-sheet.png"
+}

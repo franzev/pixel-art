@@ -1,0 +1,66 @@
+{
+  "batch": "evil-catholic-knights-batch-43",
+  "status": "draft",
+  "generated": "2026-07-30",
+  "generation_path": "built-in image generation",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "ash grey",
+      "dull iron",
+      "dirty ivory",
+      "abaca brown",
+      "worn bronze"
+    ],
+    "accent": [
+      "controlled ember orange",
+      "restrained bruised violet"
+    ],
+    "background": "#171311",
+    "forbidden": [
+      "green background",
+      "green wash",
+      "red-dominant body palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Ash-Monstrance Pikeman",
+      "status": "draft",
+      "role": "reach-control sentinel",
+      "render": "public/art/enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman.png"
+    },
+    {
+      "id": 2,
+      "name": "Black-Rosary Flail Justiciar",
+      "status": "draft",
+      "source": "collections/enemies/evil-catholic-knights-batch-43/drafts/02-black-rosary-flail-justiciar-source.png",
+      "role": "chain-control attacker"
+    },
+    {
+      "id": 3,
+      "name": "Capiz-Reliquary Arbalist",
+      "status": "draft",
+      "source": "collections/enemies/evil-catholic-knights-batch-43/drafts/03-capiz-reliquary-arbalist-source.png",
+      "role": "ranged overwatch"
+    },
+    {
+      "id": 4,
+      "name": "Three-Seal Indulgence Pavise Knight",
+      "status": "draft",
+      "source": "collections/enemies/evil-catholic-knights-batch-43/drafts/04-three-seal-indulgence-pavise-knight-source.png",
+      "role": "defensive doctrinal enforcer"
+    },
+    {
+      "id": 5,
+      "name": "Black-Scapular Headsman",
+      "status": "draft",
+      "source": "collections/enemies/evil-catholic-knights-batch-43/drafts/05-black-scapular-headsman-source.png",
+      "role": "two-handed execution elite"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/evil-catholic-knights-batch-43/drafts/evil-catholic-knights-batch-43-draft-review-sheet.png",
+  "prompt_record": "collections/enemies/evil-catholic-knights-batch-43/GENERATION-PROMPTS.md"
+}

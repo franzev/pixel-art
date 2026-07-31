@@ -1,0 +1,51 @@
+{
+  "batch": "manananggal-variations-batch-06",
+  "status": "retained",
+  "palette": {
+    "base": [
+      "charcoal",
+      "black-brown",
+      "corpse-pale skin",
+      "weathered indigo",
+      "aged bronze"
+    ],
+    "dominant_accent": [
+      "deep crimson",
+      "vivid scarlet"
+    ],
+    "blood_coverage_target": "15–22 percent",
+    "forbidden": [
+      "green",
+      "green background"
+    ],
+    "background": "warm near-black"
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Roof-Hunter Manananggal",
+      "source": "collections/enemies/manananggal-variations-batch-06/01-roof-hunter-manananggal-source.png"
+    },
+    {
+      "id": 2,
+      "name": "Blood-Moon Matriarch",
+      "source": "collections/enemies/manananggal-variations-batch-06/02-blood-moon-matriarch-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Thatch-Wing Prowler",
+      "source": "collections/enemies/manananggal-variations-batch-06/03-thatch-wing-prowler-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Bell-Tongue Ritualist",
+      "source": "collections/enemies/manananggal-variations-batch-06/04-bell-tongue-ritualist-source.png"
+    },
+    {
+      "id": 5,
+      "name": "Salt-Scarred Exile",
+      "source": "collections/enemies/manananggal-variations-batch-06/05-salt-scarred-exile-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/manananggal-variations-batch-06/manananggal-variations-review-sheet.png"
+}

@@ -1,0 +1,24 @@
+{
+  "collection": "cultist-pixel-treatment-tests",
+  "status": "draft",
+  "assets": [
+    {
+      "source": "collections/enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-source.png"
+    },
+    {
+      "source": "collections/enemies/cultist-pixel-treatment-tests/drafts/01-lantern-faced-novice-v02-source.png"
+    },
+    {
+      "source": "collections/enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-source.png"
+    },
+    {
+      "source": "collections/enemies/cultist-pixel-treatment-tests/drafts/06-starless-astrologer-v02-source.png"
+    },
+    {
+      "source": "collections/enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-source.png"
+    },
+    {
+      "source": "collections/enemies/cultist-pixel-treatment-tests/drafts/10-blind-standard-bearer-v02-source.png"
+    }
+  ]
+}

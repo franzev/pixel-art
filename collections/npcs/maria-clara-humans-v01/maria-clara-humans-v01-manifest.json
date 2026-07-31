@@ -1,0 +1,58 @@
+{
+  "collection": "Maria Clara Humans v01",
+  "category": "npcs",
+  "status": "rejected",
+  "generated": "2026-07-30",
+  "assets": [
+    {
+      "id": "01",
+      "name": "Emerald Reception Lady",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/01-emerald-reception-lady.png"
+    },
+    {
+      "id": "02",
+      "name": "Saffron Turning Lady",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/02-saffron-turning-lady.png"
+    },
+    {
+      "id": "03",
+      "name": "Cobalt Kneeling Listener",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/03-cobalt-kneeling-listener.png"
+    },
+    {
+      "id": "04",
+      "name": "Burgundy Supervisor",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/04-burgundy-supervisor.png"
+    },
+    {
+      "id": "05",
+      "name": "Lavender Hair-Comb Lady",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/05-lavender-hair-comb-lady.png"
+    },
+    {
+      "id": "06",
+      "name": "Rust-Navy Skeptic",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/06-rust-navy-skeptic.png"
+    },
+    {
+      "id": "07",
+      "name": "Teal Curious Listener",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/07-teal-curious-listener.png"
+    },
+    {
+      "id": "08",
+      "name": "Rose Walking Lady",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/08-rose-walking-lady.png"
+    },
+    {
+      "id": "09",
+      "name": "Mustard Curtsy Lady",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/09-mustard-curtsy-lady.png"
+    },
+    {
+      "id": "10",
+      "name": "Coral Conversational Lady",
+      "render": "public/art/npcs/maria-clara-humans-v01/rejected/10-coral-conversational-lady.png"
+    }
+  ]
+}

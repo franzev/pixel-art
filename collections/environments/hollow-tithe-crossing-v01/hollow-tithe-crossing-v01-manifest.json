@@ -1,0 +1,12 @@
+{
+  "collection": "Hollow Tithe Crossing v01",
+  "status": "draft",
+  "restored": "2026-07-30",
+  "entries": [
+    {
+      "id": "01",
+      "name": "Populated Gameplay Mockup",
+      "render": "public/art/environments/hollow-tithe-crossing-v01/drafts/01-populated-gameplay-mockup.png"
+    }
+  ]
+}

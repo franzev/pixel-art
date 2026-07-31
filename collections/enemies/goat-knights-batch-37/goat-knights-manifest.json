@@ -1,0 +1,57 @@
+{
+  "batch": "goat-knights-batch-37",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "dull iron",
+      "ash brown",
+      "abaca tan"
+    ],
+    "accent": [
+      "aged copper",
+      "muted indigo",
+      "dirty ivory",
+      "muted ochre"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant body palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Ramcoil Buttress",
+      "status": "draft",
+      "source": "collections/enemies/goat-knights-batch-37/drafts/01-ramcoil-buttress-source.png"
+    },
+    {
+      "id": 2,
+      "name": "Ibex-Ridge Bounder",
+      "status": "draft",
+      "source": "collections/enemies/goat-knights-batch-37/drafts/02-ibex-ridge-bounder-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Herd-Cord Snarer",
+      "status": "draft",
+      "source": "collections/enemies/goat-knights-batch-37/drafts/03-herd-cord-snarer-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Scree-Brow Arbalist",
+      "status": "draft",
+      "source": "collections/enemies/goat-knights-batch-37/drafts/04-scree-brow-arbalist-source.png"
+    },
+    {
+      "id": 5,
+      "name": "Cleft-Horn Bolo Pursuer",
+      "status": "draft",
+      "source": "collections/enemies/goat-knights-batch-37/drafts/05-cleft-horn-bolo-pursuer-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/goat-knights-batch-37/goat-knights-review-sheet.png"
+}

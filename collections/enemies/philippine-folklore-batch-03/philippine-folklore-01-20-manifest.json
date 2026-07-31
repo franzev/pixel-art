@@ -1,0 +1,222 @@
+[
+  {
+    "number": 1,
+    "name": "01-rice-mortar-listener",
+    "source": "collections/enemies/philippine-folklore-batch-03/01-rice-mortar-listener-source.png",
+    "bbox": {
+      "left": 66,
+      "top": 185,
+      "width": 1120,
+      "height": 901
+    }
+  },
+  {
+    "number": 2,
+    "name": "02-night-ointment-flier",
+    "source": "collections/enemies/philippine-folklore-batch-03/02-night-ointment-flier-source.png",
+    "bbox": {
+      "left": 54,
+      "top": 208,
+      "width": 1179,
+      "height": 836
+    }
+  },
+  {
+    "number": 3,
+    "name": "03-wakwak-roof-scout",
+    "source": "collections/enemies/philippine-folklore-batch-03/03-wakwak-roof-scout-source.png",
+    "bbox": {
+      "left": 147,
+      "top": 56,
+      "width": 1024,
+      "height": 1178
+    }
+  },
+  {
+    "number": 4,
+    "name": "04-kikik-underhouse-caller",
+    "source": "collections/enemies/philippine-folklore-batch-03/04-kikik-underhouse-caller-source.png",
+    "bbox": {
+      "left": 183,
+      "top": 48,
+      "width": 887,
+      "height": 1195
+    }
+  },
+  {
+    "number": 5,
+    "name": "05-balete-ember-watcher",
+    "source": "collections/enemies/philippine-folklore-batch-03/05-balete-ember-watcher-source.png",
+    "bbox": {
+      "left": 40,
+      "top": 0,
+      "width": 1166,
+      "height": 1233
+    }
+  },
+  {
+    "number": 6,
+    "name": "06-drizzle-walker",
+    "source": "collections/enemies/philippine-folklore-batch-03/06-drizzle-walker-source.png",
+    "bbox": {
+      "left": 170,
+      "top": 0,
+      "width": 755,
+      "height": 1254
+    }
+  },
+  {
+    "number": 7,
+    "name": "07-road-turner",
+    "source": "collections/enemies/philippine-folklore-batch-03/07-road-turner-source.png",
+    "bbox": {
+      "left": 170,
+      "top": 0,
+      "width": 815,
+      "height": 1254
+    }
+  },
+  {
+    "number": 8,
+    "name": "08-river-leg-tikbalang",
+    "source": "collections/enemies/philippine-folklore-batch-03/08-river-leg-tikbalang-source.png",
+    "bbox": {
+      "left": 191,
+      "top": 0,
+      "width": 835,
+      "height": 1254
+    }
+  },
+  {
+    "number": 9,
+    "name": "09-backstepper",
+    "source": "collections/enemies/philippine-folklore-batch-03/09-backstepper-source.png",
+    "bbox": {
+      "left": 50,
+      "top": 174,
+      "width": 1164,
+      "height": 887
+    }
+  },
+  {
+    "number": 10,
+    "name": "10-sigbin-keeper",
+    "source": "collections/enemies/philippine-folklore-batch-03/10-sigbin-keeper-source.png",
+    "bbox": {
+      "left": 128,
+      "top": 22,
+      "width": 978,
+      "height": 1232
+    }
+  },
+  {
+    "number": 11,
+    "name": "11-bench-wight",
+    "source": "collections/enemies/philippine-folklore-batch-03/11-bench-wight-source.png",
+    "bbox": {
+      "left": 105,
+      "top": 0,
+      "width": 1043,
+      "height": 1223
+    }
+  },
+  {
+    "number": 12,
+    "name": "12-mud-luring-santelmo",
+    "source": "collections/enemies/philippine-folklore-batch-03/12-mud-luring-santelmo-source.png",
+    "bbox": {
+      "left": 126,
+      "top": 16,
+      "width": 921,
+      "height": 1238
+    }
+  },
+  {
+    "number": 13,
+    "name": "13-thatch-glider",
+    "source": "collections/enemies/philippine-folklore-batch-03/13-thatch-glider-source.png",
+    "bbox": {
+      "left": 61,
+      "top": 114,
+      "width": 1141,
+      "height": 988
+    }
+  },
+  {
+    "number": 14,
+    "name": "14-straight-walker",
+    "source": "collections/enemies/philippine-folklore-batch-03/14-straight-walker-source.png",
+    "bbox": {
+      "left": 284,
+      "top": 12,
+      "width": 547,
+      "height": 1224
+    }
+  },
+  {
+    "number": 15,
+    "name": "15-laughing-field-giant",
+    "source": "collections/enemies/philippine-folklore-batch-03/15-laughing-field-giant-source.png",
+    "bbox": {
+      "left": 40,
+      "top": 33,
+      "width": 1125,
+      "height": 1184
+    }
+  },
+  {
+    "number": 16,
+    "name": "16-river-dam-ogre",
+    "source": "collections/enemies/philippine-folklore-batch-03/16-river-dam-ogre-source.png",
+    "bbox": {
+      "left": 0,
+      "top": 36,
+      "width": 1254,
+      "height": 1185
+    }
+  },
+  {
+    "number": 17,
+    "name": "17-back-handed-roost",
+    "source": "collections/enemies/philippine-folklore-batch-03/17-back-handed-roost-source.png",
+    "bbox": {
+      "left": 55,
+      "top": 16,
+      "width": 1136,
+      "height": 1219
+    }
+  },
+  {
+    "number": 18,
+    "name": "18-orchard-stalker",
+    "source": "collections/enemies/philippine-folklore-batch-03/18-orchard-stalker-source.png",
+    "bbox": {
+      "left": 156,
+      "top": 47,
+      "width": 927,
+      "height": 1158
+    }
+  },
+  {
+    "number": 19,
+    "name": "19-beetle-vessel",
+    "source": "collections/enemies/philippine-folklore-batch-03/19-beetle-vessel-source.png",
+    "bbox": {
+      "left": 252,
+      "top": 0,
+      "width": 789,
+      "height": 1225
+    }
+  },
+  {
+    "number": 20,
+    "name": "20-moon-eaters-spawn",
+    "source": "collections/enemies/philippine-folklore-batch-03/20-moon-eaters-spawn-source.png",
+    "bbox": {
+      "left": 200,
+      "top": 0,
+      "width": 772,
+      "height": 1254
+    }
+  }
+]

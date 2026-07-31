@@ -1,0 +1,87 @@
+{
+  "batch": "witch-hunters-batch-47",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "weathered brown",
+      "dirty ivory",
+      "dull steel",
+      "oxidized bronze"
+    ],
+    "accent": [
+      "restrained oxblood",
+      "bruised plum"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "visible spells",
+      "spell-like effects"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Ash-Road Bolo Pursuer",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/01-ash-road-bolo-pursuer.png"
+    },
+    {
+      "id": 2,
+      "name": "Capiz-Lens Crossbow Examiner",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/02-capiz-lens-crossbow-examiner.png"
+    },
+    {
+      "id": 3,
+      "name": "Palm-Fiber Arquebus Tracker",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/03-palm-fiber-arquebus-tracker.png"
+    },
+    {
+      "id": 4,
+      "name": "Black-Veil Estoc Confessor",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/04-black-veil-estoc-confessor.png"
+    },
+    {
+      "id": 5,
+      "name": "Iron-Seal Lucerne Hunter",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/05-iron-seal-lucerne-hunter.png"
+    },
+    {
+      "id": 6,
+      "name": "Funeral-Brim Falchion Seeker",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/06-funeral-brim-falchion-seeker.png"
+    },
+    {
+      "id": 7,
+      "name": "Salt-Iron Morning-Star Beadle",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/07-salt-iron-morning-star-beadle.png"
+    },
+    {
+      "id": 8,
+      "name": "Ivory-Scapular Greatsword Exactor",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/08-ivory-scapular-greatsword-exactor.png"
+    },
+    {
+      "id": 9,
+      "name": "Capiz-Sight Wheellock Pursuer",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/09-capiz-sight-wheellock-pursuer.png"
+    },
+    {
+      "id": 10,
+      "name": "Black-Abaca Partisan Sentinel",
+      "status": "draft",
+      "render": "public/art/enemies/witch-hunters-batch-47/drafts/10-black-abaca-partisan-sentinel.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/witch-hunters-batch-47/drafts/witch-hunters-batch-47-draft-review-sheet.png"
+}

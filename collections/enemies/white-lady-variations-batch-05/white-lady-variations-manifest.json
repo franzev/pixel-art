@@ -1,0 +1,49 @@
+{
+  "batch": "white-lady-variations-batch-05",
+  "status": "retained",
+  "palette": {
+    "dominant": [
+      "pearl white",
+      "aged ivory",
+      "silver grey",
+      "charcoal",
+      "cold blue-grey"
+    ],
+    "accent": "icy cyan",
+    "forbidden": [
+      "green",
+      "emerald",
+      "teal",
+      "lime"
+    ],
+    "background": "warm near-black"
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Roadside White Lady",
+      "render": "public/art/enemies/white-lady-variations-batch-05/01-roadside-white-lady.png"
+    },
+    {
+      "id": 2,
+      "name": "Balete Bride",
+      "source": "collections/enemies/white-lady-variations-batch-05/02-balete-bride-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Rain-Road White Lady",
+      "source": "collections/enemies/white-lady-variations-batch-05/03-rain-road-white-lady-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Chapel Candle White Lady",
+      "source": "collections/enemies/white-lady-variations-batch-05/04-chapel-candle-white-lady-source.png"
+    },
+    {
+      "id": 5,
+      "name": "River-Mirror White Lady",
+      "source": "collections/enemies/white-lady-variations-batch-05/05-river-mirror-white-lady-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/white-lady-variations-batch-05/white-lady-variations-review-sheet.png"
+}

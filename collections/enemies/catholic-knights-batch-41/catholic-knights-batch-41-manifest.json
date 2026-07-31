@@ -1,0 +1,121 @@
+{
+  "batch": "catholic-knights-batch-41",
+  "status": "draft",
+  "generation_path": "built-in image generation",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "blackened steel",
+      "dirty ivory",
+      "weathered brown"
+    ],
+    "accent": [
+      "worn bronze",
+      "controlled ember gold"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Processional Crucifer",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/01-processional-crucifer.png"
+    },
+    {
+      "id": 2,
+      "name": "Censer Penitent",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/02-censer-penitent.png"
+    },
+    {
+      "id": 3,
+      "name": "Capiz-Mantle Warder",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/03-capiz-mantle-warder.png"
+    },
+    {
+      "id": 4,
+      "name": "Black-Scapular Auditor",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/04-black-scapular-auditor.png"
+    },
+    {
+      "id": 5,
+      "name": "Sunburst Relic Lancer",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/05-sunburst-relic-lancer.png"
+    },
+    {
+      "id": 6,
+      "name": "Votive-Lamp Sabreur",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/06-votive-lamp-sabreur.png"
+    },
+    {
+      "id": 7,
+      "name": "Palm-Weave Arquebusier",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/07-palm-weave-arquebusier.png"
+    },
+    {
+      "id": 8,
+      "name": "Ivory-Arc Votary",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/08-ivory-arc-votary.png"
+    },
+    {
+      "id": 9,
+      "name": "Ash-Hatchet Penitent",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/09-ash-hatchet-penitent.png"
+    },
+    {
+      "id": 10,
+      "name": "Veiled Relic-Pick Canoness",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/10-veiled-relic-pick-canoness.png"
+    },
+    {
+      "id": 11,
+      "name": "Capiz-Barong Sacristan",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/11-capiz-barong-sacristan.png"
+    },
+    {
+      "id": 12,
+      "name": "Abaca-Halberd Prioress",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/12-abaca-halberd-prioress.png"
+    },
+    {
+      "id": 13,
+      "name": "Black-Canon Longsword",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/13-black-canon-longsword.png"
+    },
+    {
+      "id": 14,
+      "name": "Seven-Flange Matron",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/14-seven-flange-matron.png"
+    },
+    {
+      "id": 15,
+      "name": "Ivory-Rapier Penitent",
+      "status": "draft",
+      "render": "public/art/enemies/catholic-knights-batch-41/drafts/15-ivory-rapier-penitent.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/catholic-knights-batch-41/drafts/catholic-knights-batch-41-draft-review-sheet.png",
+  "review_sheets": [
+    "art-catalog/review-sheets/enemies/catholic-knights-batch-41/drafts/catholic-knights-batch-41-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/catholic-knights-batch-41/drafts/catholic-knights-batch-41-female-wave-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/catholic-knights-batch-41/drafts/catholic-knights-batch-41-female-wave-02-draft-review-sheet.png"
+  ]
+}

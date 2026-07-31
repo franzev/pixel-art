@@ -148,6 +148,9 @@ idle loop, but it must not touch the ground.
 - Visible blade length: 42–48 pixels
 - Blade width: 2–3 pixels at native resolution
 - Crossguard width: 7–9 pixels
+- Blade, crossguard center, grip, and pommel share one mechanically coherent
+  axis with no kink, offset, or disconnected join
+- Grip is straight and aligned with the blade centerline
 - Held low and diagonally downward
 - Sword tip approaches the lower frame boundary without touching it
 - Bright edge, mid-steel center, and dark back edge
@@ -279,6 +282,9 @@ For an approved animation:
 - [ ] Legs occupy more than half the body height.
 - [ ] Character is upright with only slightly bent knees.
 - [ ] Sword blade is 42–48 pixels long.
+- [ ] Sword blade, crossguard center, grip, and pommel align on one coherent
+      axis.
+- [ ] Sword grip is straight, correctly held, and appropriate to the Knight.
 - [ ] Cape reaches the lower calf without touching the ground.
 - [ ] Cape has three or four broad readable tails.
 - [ ] Off-hand is empty and separated from the hip.

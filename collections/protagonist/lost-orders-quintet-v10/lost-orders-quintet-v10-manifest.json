@@ -1,0 +1,46 @@
+{
+  "collection": "Lost Orders Quintet v10",
+  "created": "2026-07-30",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": "256x256",
+  "generation_mode": "Built-in image generation, one call per character",
+  "design_contract": "../KNIGHT-ART-DIRECTION-SPEC.md",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/lost-orders-quintet-v10/lost-orders-quintet-v10-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Astrolabe Surveyor",
+      "score": 94,
+      "render": "public/art/protagonist/lost-orders-quintet-v10/drafts/01-astrolabe-surveyor.png"
+    },
+    {
+      "id": 2,
+      "name": "Funeral-Cicada Bailiff",
+      "score": 89,
+      "render": "public/art/protagonist/lost-orders-quintet-v10/drafts/02-funeral-cicada-bailiff.png"
+    },
+    {
+      "id": 3,
+      "name": "Saltglass Duelist",
+      "score": 95,
+      "render": "public/art/protagonist/lost-orders-quintet-v10/drafts/03-saltglass-duelist.png"
+    },
+    {
+      "id": 4,
+      "name": "Reed-Crown Marsh Lancer",
+      "score": 93,
+      "render": "public/art/protagonist/lost-orders-quintet-v10/drafts/04-reed-crown-marsh-lancer.png"
+    },
+    {
+      "id": 5,
+      "name": "Black Orchard Castellan",
+      "score": 92,
+      "render": "public/art/protagonist/lost-orders-quintet-v10/drafts/05-black-orchard-castellan.png"
+    }
+  ]
+}

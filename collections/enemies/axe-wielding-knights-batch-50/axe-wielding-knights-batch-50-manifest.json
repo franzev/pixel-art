@@ -1,0 +1,64 @@
+{
+  "batch": "axe-wielding-knights-batch-50",
+  "status": "draft",
+  "generation_path": "built-in image generation",
+  "equipment": {
+    "type": "late-15th-century English/Northern European pollaxe",
+    "overall_length_m": 1.85,
+    "handler_relative_scale": 1.06,
+    "reference": "Royal Armouries"
+  },
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "blackened steel",
+      "dirty ivory",
+      "weathered brown"
+    ],
+    "accent": [
+      "dull bronze",
+      "pearl-grey capiz",
+      "dark indigo-grey"
+    ],
+    "background": "#171311",
+    "forbidden": [
+      "green background",
+      "red-dominant palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Capiz-Visor High Guard",
+      "status": "draft",
+      "render": "public/art/enemies/axe-wielding-knights-batch-50/drafts/01-capiz-visor-high-guard.png"
+    },
+    {
+      "id": 2,
+      "name": "Ash-Road Hook Castellan",
+      "status": "draft",
+      "render": "public/art/enemies/axe-wielding-knights-batch-50/drafts/02-ash-road-hook-castellan.png"
+    },
+    {
+      "id": 3,
+      "name": "Black-Scapular Brace",
+      "status": "draft",
+      "render": "public/art/enemies/axe-wielding-knights-batch-50/drafts/03-black-scapular-brace.png"
+    },
+    {
+      "id": 4,
+      "name": "Rain-Mantle Pursuer",
+      "status": "draft",
+      "render": "public/art/enemies/axe-wielding-knights-batch-50/drafts/04-rain-mantle-pursuer.png"
+    },
+    {
+      "id": 5,
+      "name": "Ivory-Langet Processioner",
+      "status": "draft",
+      "render": "public/art/enemies/axe-wielding-knights-batch-50/drafts/05-ivory-langet-processioner.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/axe-wielding-knights-batch-50/axe-wielding-knights-batch-50-review-sheet.png",
+  "equipment_qc_sheet": "art-catalog/review-sheets/enemies/axe-wielding-knights-batch-50/axe-wielding-knights-batch-50-equipment-qc.png"
+}

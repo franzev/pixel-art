@@ -1,0 +1,49 @@
+{
+  "batch": "reapers-batch-40",
+  "revision": 2,
+  "status": "draft",
+  "generated_with": "built-in image generation",
+  "background": "#171311",
+  "reference": {
+    "role": "visual reference only",
+    "path": "collections/enemies/infernal-demons-batch-13/drafts/03-flesh-veil-oracle-source.png"
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Rice-Wake Reaper",
+      "role": "low advancing lane sweeper",
+      "generated_original": "archive/legacy-art/enemies/reapers-batch-40/drafts/revision-02/generated-originals/01-rice-wake-reaper-generated.png",
+      "render": "public/art/enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper.png"
+    },
+    {
+      "id": 2,
+      "name": "Funeral-Lane Reaper",
+      "role": "upright passage controller",
+      "source": "collections/enemies/reapers-batch-40/drafts/revision-02/02-funeral-lane-reaper-source.png",
+      "generated_original": "archive/legacy-art/enemies/reapers-batch-40/drafts/revision-02/generated-originals/02-funeral-lane-reaper-generated.png"
+    },
+    {
+      "id": 3,
+      "name": "Severed-Thread Reaper",
+      "role": "reactive counter-duelist",
+      "source": "collections/enemies/reapers-batch-40/drafts/revision-02/03-severed-thread-reaper-source.png",
+      "generated_original": "archive/legacy-art/enemies/reapers-batch-40/drafts/revision-02/generated-originals/03-severed-thread-reaper-generated.png"
+    },
+    {
+      "id": 4,
+      "name": "Drowned-Road Reaper",
+      "role": "planted puller",
+      "generated_original": "archive/legacy-art/enemies/reapers-batch-40/drafts/revision-02/generated-originals/04-drowned-road-reaper-generated.png",
+      "render": "public/art/enemies/reapers-batch-40/drafts/revision-02/04-drowned-road-reaper.png"
+    },
+    {
+      "id": 5,
+      "name": "Ember-Writ Reaper",
+      "role": "drifting delayed executioner",
+      "source": "collections/enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper-source.png",
+      "generated_original": "archive/legacy-art/enemies/reapers-batch-40/drafts/revision-02/generated-originals/05-ember-writ-reaper-generated.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/reapers-batch-40/drafts/revision-02/reapers-batch-40-revision-02-draft-review-sheet.png"
+}

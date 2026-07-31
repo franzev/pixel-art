@@ -20,6 +20,7 @@
 /.wrangler/
 /outputs/
 /work/
+*.tsbuildinfo
 
 # local and generated files
 *.pem

@@ -1,0 +1,65 @@
+{
+  "collection": "Vampire Knight Courts v08",
+  "created": "2026-07-29",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": "256x256",
+  "originality": "Text-only original briefs; no visual game references and no deliberate copying.",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/vampire-knight-courts-v08/vampire-knight-courts-v08-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Chalice-Mask Seneschal",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/01-chalice-mask-seneschal.png"
+    },
+    {
+      "id": 2,
+      "name": "Nightwing Dragoon",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/02-nightwing-dragoon.png"
+    },
+    {
+      "id": 3,
+      "name": "Funeral-Rose Duelist",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/03-funeral-rose-duelist.png"
+    },
+    {
+      "id": 4,
+      "name": "Crimson Widow Lancer",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/04-crimson-widow-lancer.png"
+    },
+    {
+      "id": 5,
+      "name": "Moonless Castellan",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/05-moonless-castellan.png"
+    },
+    {
+      "id": 6,
+      "name": "Leech-Jaw Gaoler",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/06-leech-jaw-gaoler.png"
+    },
+    {
+      "id": 7,
+      "name": "Gilded Coffin Paladin",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/07-gilded-coffin-paladin.png"
+    },
+    {
+      "id": 8,
+      "name": "Velvet Hound Cavalier",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/08-velvet-hound-cavalier.png"
+    },
+    {
+      "id": 9,
+      "name": "White-Fang Inquisitor",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/09-white-fang-inquisitor.png"
+    },
+    {
+      "id": 10,
+      "name": "Blood-Sun Prince",
+      "render": "public/art/protagonist/vampire-knight-courts-v08/drafts/10-blood-sun-prince.png"
+    }
+  ]
+}

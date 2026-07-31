@@ -1,0 +1,174 @@
+{
+  "batch": "blood-demon-knights-batch-37",
+  "status": "draft",
+  "generated": "2026-07-30",
+  "positive_reference": "public/art/enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02.png",
+  "palette": {
+    "base": [
+      "charcoal",
+      "soot black",
+      "ash grey",
+      "blackened iron",
+      "worn bronze",
+      "dirty ivory"
+    ],
+    "accent": [
+      "oxblood",
+      "controlled crimson"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant body"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Blood-Needle Duelist",
+      "status": "draft",
+      "review_status": "redo-awaiting-review",
+      "sha256": "5a021e9942208c12abd021998d8e95a12143c41d631e0e5c79501c0552490bad",
+      "render_id": "rnd_5a021e9942208c12abd02199",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist.png",
+      "source_feedback_render_id": "rnd_ea106332a553a7e09c5f2495"
+    },
+    {
+      "id": 2,
+      "name": "Vein-Hook Arrestor",
+      "status": "draft",
+      "review_status": "redo-awaiting-review",
+      "sha256": "ff5e05df4ff0f2b96166e127d77cd267691332a09cedcf7e33a67c9725c4ce8b",
+      "render_id": "rnd_ff5e05df4ff0f2b96166e127",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor.png",
+      "source_feedback_render_id": "rnd_9e54937ec7e54ea511dcbaa9"
+    },
+    {
+      "id": 3,
+      "name": "Clot-Sigil Bastion",
+      "status": "draft",
+      "review_status": "redo-awaiting-review",
+      "sha256": "fc5f6ba8407c478a2b77f03082777b9175fd47b87dd092de967e141e29ec9e3c",
+      "render_id": "rnd_fc5f6ba8407c478a2b77f030",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion.png",
+      "source_feedback_render_id": "rnd_c7086304834d0e56246f2b34"
+    },
+    {
+      "id": 4,
+      "name": "Arterial Thread Lancer",
+      "status": "draft",
+      "sha256": "442ddc6034caed15fe4bb30ebfb185cd72e0b4aca03ba22650069d1f7e1ad077",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/04-arterial-thread-lancer.png"
+    },
+    {
+      "id": 5,
+      "name": "Heartseal Mace Captain",
+      "status": "draft",
+      "sha256": "b3eb988e3a877a145f9bd4c146066c2fa65fc0a1275d31a676f603579deaf814",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/05-heartseal-mace-captain.png"
+    },
+    {
+      "id": 6,
+      "name": "Longsword Oathguard",
+      "status": "draft",
+      "sha256": "63ab73bca0e8834da411d64c4b17156daed309bd1d4ddee4becf0b27ff355f0d",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/06-longsword-oathguard.png"
+    },
+    {
+      "id": 7,
+      "name": "Crimson-Line Pikeman",
+      "status": "draft",
+      "sha256": "39ea45039c818265c73597a4bf92fa70945d21d8f08b172fce4d7a92adeb4f04",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/07-crimson-line-pikeman.png"
+    },
+    {
+      "id": 8,
+      "name": "Sable Greatsword Pursuer",
+      "status": "draft",
+      "review_status": "redo-awaiting-review",
+      "sha256": "310e3cf3188f2e6fa5a51aab0ecaad2606399ea40edfc5ada2241268363d4146",
+      "render_id": "rnd_310e3cf3188f2e6fa5a51aab",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer.png",
+      "source_feedback_render_id": "rnd_5c000ea727d632e34cbc4039"
+    },
+    {
+      "id": 9,
+      "name": "Bronze Flange Sergeant",
+      "status": "draft",
+      "sha256": "138e11b54e3176168a4e8ae8a613f91fbac55b75ae535227f3978ce0d1ab2ca3",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/09-bronze-flange-sergeant.png"
+    },
+    {
+      "id": 10,
+      "name": "Ashen Warhammer Provost",
+      "status": "draft",
+      "sha256": "9072abebc48edf40fba54f340154c20db3105c0cae078dfc2ad913b464ca5b15",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/10-ashen-warhammer-provost.png"
+    },
+    {
+      "id": 11,
+      "name": "Sable Longsword Castellan v02",
+      "status": "draft",
+      "sha256": "e184f21165c8188d9ead467b73c04e6002c013554da798f4f3cf3a75910147b5",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/11-sable-longsword-castellan-v02.png"
+    },
+    {
+      "id": 12,
+      "name": "Ash-Pike Linekeeper v02",
+      "status": "draft",
+      "sha256": "7d03390d0573f08fcf0d914acc37de6ec79df0dadc1d56609d4a3cb4b0e36576",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/12-ash-pike-linekeeper-v02.png"
+    },
+    {
+      "id": 13,
+      "name": "Oxblood Greatsword Pursuer",
+      "status": "draft",
+      "review_status": "redo-awaiting-review",
+      "sha256": "19e1d3cc1755e4124db2f99d8ea3d018697c13a2b1339ca196b06872a019a848",
+      "render_id": "rnd_19e1d3cc1755e4124db2f99d",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer.png",
+      "source_feedback_render_id": "rnd_66146f6cd1c3762b2c5d7dcf"
+    },
+    {
+      "id": 14,
+      "name": "Bronze Mace Prefect v02",
+      "status": "draft",
+      "sha256": "2b28ace4c1cfa4b2de2780720be521f001572a2f5b0e454c05e7ad3d971ba195",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/14-bronze-mace-prefect-v02.png"
+    },
+    {
+      "id": 15,
+      "name": "Iron Warhammer Marshal v02",
+      "status": "draft",
+      "sha256": "ce5f322d355a6775477683e41be20eced7c01b6c12d1c231b3c18459fb0a5469",
+      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/15-iron-warhammer-marshal-v02.png"
+    }
+  ],
+  "rejected_versions": [
+    {
+      "ids": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "version": "v01",
+      "status": "rejected",
+      "reason": "Faces looked the same; user requested lighter skin and younger adult faces.",
+      "source_folder": "collections/enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/",
+      "reference_folder": "public/art/enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/blood-demon-knights-batch-37/drafts/blood-demon-knights-batch-37-draft-review-sheet-01-15-v02.png",
+  "redo_review_sheet": "art-catalog/review-sheets/enemies/blood-demon-knights-batch-37/drafts/blood-demon-knights-batch-37-redo-wave-01-review-sheet.png",
+  "redo_wave_02_review_sheet": "art-catalog/review-sheets/enemies/redo-wave-02/redo-wave-02-review-sheet.png",
+  "review_waves": [
+    "art-catalog/review-sheets/enemies/blood-demon-knights-batch-37/drafts/blood-demon-knights-batch-37-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/blood-demon-knights-batch-37/drafts/blood-demon-knights-batch-37-draft-review-sheet-06-10.png",
+    "art-catalog/review-sheets/enemies/blood-demon-knights-batch-37/drafts/blood-demon-knights-batch-37-draft-review-sheet-11-15-v02.png",
+    "art-catalog/review-sheets/enemies/blood-demon-knights-batch-37/drafts/blood-demon-knights-batch-37-redo-wave-01-review-sheet.png",
+    "art-catalog/review-sheets/enemies/redo-wave-02/redo-wave-02-review-sheet.png"
+  ],
+  "generation_prompts": "collections/enemies/blood-demon-knights-batch-37/GENERATION-PROMPTS.md"
+}

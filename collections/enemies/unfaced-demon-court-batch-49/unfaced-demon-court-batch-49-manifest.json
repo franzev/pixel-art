@@ -1,0 +1,139 @@
+{
+  "batch": "unfaced-demon-court-batch-49",
+  "status": "draft",
+  "palette": {
+    "base": ["ash gray", "dirty ivory", "soot black", "charcoal"],
+    "accent": ["old teal", "muted plum", "tarnished brass", "dirty gold"],
+    "background": "warm near-black",
+    "forbidden": ["green background", "red-dominant body palette"]
+  },
+  "assets": [
+    {
+      "id": "faceless-usher",
+      "name": "Faceless Usher",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/01-faceless-usher.png"
+    },
+    {
+      "id": "backward-processioner",
+      "name": "Backward Processioner",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/02-backward-processioner.png",
+      "review_note": "Rear-mounted false-mask staging remains visually ambiguous."
+    },
+    {
+      "id": "hinge-jaw-confessor",
+      "name": "Hinge-Jaw Confessor",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/03-hinge-jaw-confessor.png"
+    },
+    {
+      "id": "coffin-spine-porter",
+      "name": "Coffin-Spine Porter",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/04-coffin-spine-porter.png"
+    },
+    {
+      "id": "seam-mouth-butcher",
+      "name": "Seam-Mouth Butcher",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/05-seam-mouth-butcher.png"
+    },
+    {
+      "id": "cage-rib-warden",
+      "name": "Cage-Rib Warden",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/06-cage-rib-warden.png"
+    },
+    {
+      "id": "split-mask-duelist",
+      "name": "Split-Mask Duelist",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/07-split-mask-duelist.png"
+    },
+    {
+      "id": "wax-skin-mourner",
+      "name": "Wax-Skin Mourner",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/08-wax-skin-mourner.png"
+    },
+    {
+      "id": "doorway-tenant",
+      "name": "Doorway Tenant",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/09-doorway-tenant.png"
+    },
+    {
+      "id": "choir-mantle-orator",
+      "name": "Choir-Mantle Orator",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/10-choir-mantle-orator.png"
+    },
+    {
+      "id": "recessed-head-magistrate",
+      "name": "Recessed-Head Magistrate",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/11-recessed-head-magistrate.png"
+    },
+    {
+      "id": "latch-face-bailiff",
+      "name": "Latch-Face Bailiff",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/12-latch-face-bailiff.png"
+    },
+    {
+      "id": "cross-armed-penitent",
+      "name": "Cross-Armed Penitent",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/13-cross-armed-penitent.png"
+    },
+    {
+      "id": "hollow-hem-surveyor",
+      "name": "Hollow-Hem Surveyor",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/14-hollow-hem-surveyor.png"
+    },
+    {
+      "id": "palm-seal-registrar",
+      "name": "Palm-Seal Registrar",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/15-palm-seal-registrar.png"
+    },
+    {
+      "id": "ladder-sternum-sentinel",
+      "name": "Ladder-Sternum Sentinel",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/16-ladder-sternum-sentinel.png"
+    },
+    {
+      "id": "orbit-collar-duelist",
+      "name": "Orbit-Collar Duelist",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/17-orbit-collar-duelist.png"
+    },
+    {
+      "id": "pelvis-yoke-marshal",
+      "name": "Pelvis-Yoke Marshal",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/18-pelvis-yoke-marshal.png"
+    },
+    {
+      "id": "split-cage-gaoler",
+      "name": "Split-Cage Gaoler",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/19-split-cage-gaoler.png"
+    },
+    {
+      "id": "crown-cage-butcher",
+      "name": "Crown-Cage Butcher",
+      "status": "draft",
+      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/20-crown-cage-butcher.png"
+    }
+  ],
+  "review_sheets": [
+    "art-catalog/review-sheets/enemies/unfaced-demon-court-batch-49/drafts/unfaced-demon-court-batch-49-wave-01-review-sheet.png",
+    "art-catalog/review-sheets/enemies/unfaced-demon-court-batch-49/drafts/unfaced-demon-court-batch-49-wave-02-review-sheet.png",
+    "art-catalog/review-sheets/enemies/unfaced-demon-court-batch-49/drafts/unfaced-demon-court-batch-49-wave-03-review-sheet.png",
+    "art-catalog/review-sheets/enemies/unfaced-demon-court-batch-49/drafts/unfaced-demon-court-batch-49-wave-04-review-sheet.png"
+  ]
+}

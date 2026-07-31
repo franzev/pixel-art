@@ -1,0 +1,96 @@
+{
+  "collection": "Vampire Knights Batch 37",
+  "created": "2026-07-30",
+  "lifecycle": "draft",
+  "background": "#171311",
+  "source_dimensions": "1254x1254",
+  "reference_dimensions": "256x256",
+  "reference_resize": "nearest-neighbor",
+  "originality": "Original briefs using the supplied figure only for moderated body proportion and Vampire Knight Courts v08 only for project treatment; no exact pose, costume, prop, or silhouette copying.",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/enemies/vampire-knights-batch-37/drafts/vampire-knights-batch-37-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/vampire-knights-batch-37/drafts/vampire-knights-batch-37-wave-02-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/vampire-knights-batch-37/drafts/vampire-knights-batch-37-combined-10-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/vampire-knights-batch-37/drafts/vampire-knights-batch-37-wave-03-draft-review-sheet.png",
+    "art-catalog/review-sheets/enemies/vampire-knights-batch-37/drafts/vampire-knights-batch-37-combined-15-draft-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Sable-Fang Rapieress",
+      "source": "drafts/01-sable-fang-rapieress-source.png"
+    },
+    {
+      "id": 2,
+      "name": "Funeral-Pike Lane Keeper",
+      "source": "drafts/02-funeral-pike-lane-keeper-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Capiz-Bolt Arbalist",
+      "source": "drafts/03-capiz-bolt-arbalist-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Coffin-Veil Pavise Warden",
+      "source": "drafts/04-coffin-veil-pavise-warden-source.png"
+    },
+    {
+      "id": 5,
+      "name": "Night-Bloom Execution Knight",
+      "source": "drafts/05-night-bloom-execution-knight-source.png"
+    },
+    {
+      "id": 6,
+      "name": "Bare-Sleeve Sabre Pursuer",
+      "source": "drafts/06-bare-sleeve-sabre-pursuer-source.png"
+    },
+    {
+      "id": 7,
+      "name": "Moon-Draw Warbow Huntress",
+      "source": "drafts/07-moon-draw-warbow-huntress-source.png"
+    },
+    {
+      "id": 8,
+      "name": "Ash-Waist Mace Breaker",
+      "source": "drafts/08-ash-waist-mace-breaker-source.png"
+    },
+    {
+      "id": 9,
+      "name": "Bare-Calf Halberd Sentinel",
+      "source": "drafts/09-bare-calf-halberd-sentinel-source.png"
+    },
+    {
+      "id": 10,
+      "name": "Pale-Throat Hex Captain",
+      "source": "drafts/10-pale-throat-hex-captain-source.png"
+    },
+    {
+      "id": 11,
+      "name": "Bare-Arm Cestus Grappler",
+      "source": "drafts/11-bare-arm-cestus-grappler-source.png"
+    },
+    {
+      "id": 12,
+      "name": "Split-Fauld Thighguard",
+      "source": "drafts/12-split-fauld-thighguard-source.png"
+    },
+    {
+      "id": 13,
+      "name": "Sleeveless Glaive Harrier",
+      "source": "drafts/13-sleeveless-glaive-harrier-source.png"
+    },
+    {
+      "id": 14,
+      "name": "Split-Fauld Sledgehammer Breaker",
+      "source": "drafts/14-split-fauld-sledgehammer-breaker-source.png"
+    },
+    {
+      "id": 15,
+      "name": "Bare-Arm Ashlock Arquebusier",
+      "source": "drafts/15-bare-arm-ashlock-arquebusier-source.png"
+    }
+  ]
+}

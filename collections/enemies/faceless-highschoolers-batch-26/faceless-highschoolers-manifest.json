@@ -1,0 +1,44 @@
+{
+  "batch": "faceless-highschoolers-batch-26",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "soot black",
+      "charcoal",
+      "faded white",
+      "navy",
+      "medium-brown skin"
+    ],
+    "accent": [
+      "dull blue",
+      "muted maroon",
+      "cold cyan"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant palette"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Blank-ID Commuter",
+      "status": "draft",
+      "source": "collections/enemies/faceless-highschoolers-batch-26/drafts/01-blank-id-commuter-source.png"
+    },
+    {
+      "id": 2,
+      "name": "Rain-Duty Sentinel",
+      "status": "draft",
+      "source": "collections/enemies/faceless-highschoolers-batch-26/drafts/02-rain-duty-sentinel-source.png"
+    },
+    {
+      "id": 3,
+      "name": "Screenlight Lingerer",
+      "status": "draft",
+      "source": "collections/enemies/faceless-highschoolers-batch-26/drafts/03-screenlight-lingerer-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/faceless-highschoolers-batch-26/faceless-highschoolers-review-sheet.png"
+}

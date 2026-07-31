@@ -1,0 +1,171 @@
+{
+  "collection": "Skeleton Feudal Court Batch 39",
+  "status": "draft",
+  "generated": "2026-07-30",
+  "generation_mode": "built-in-image-generation",
+  "review_sheet": "art-catalog/review-sheets/enemies/skeleton-feudal-court-batch-39/review-sheet-draft.png",
+  "requested_counts": {
+    "knight": 5,
+    "lord": 5,
+    "king": 3,
+    "queen": 3,
+    "prince": 3,
+    "princess": 3
+  },
+  "assets": [
+    {
+      "id": 1,
+      "category": "knight",
+      "name": "Ash-Pike Gate Knight",
+      "slug": "ash-pike-gate-knight",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/01-ash-pike-gate-knight.png"
+    },
+    {
+      "id": 2,
+      "category": "knight",
+      "name": "Burial-Pavise Knight",
+      "slug": "burial-pavise-knight",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/02-burial-pavise-knight.png"
+    },
+    {
+      "id": 3,
+      "category": "knight",
+      "name": "Charcoal Headsman Knight",
+      "slug": "charcoal-headsman-knight",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/03-charcoal-headsman-knight.png"
+    },
+    {
+      "id": 4,
+      "category": "knight",
+      "name": "Rain-Road Lancer Knight",
+      "slug": "rain-road-lancer-knight",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/04-rain-road-lancer-knight.png"
+    },
+    {
+      "id": 5,
+      "category": "knight",
+      "name": "Ossuary Longbow Knight",
+      "slug": "ossuary-longbow-knight",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/05-ossuary-longbow-knight.png"
+    },
+    {
+      "id": 6,
+      "category": "lord",
+      "name": "Black-Standard Procession Lord",
+      "slug": "black-standard-procession-lord",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/06-black-standard-procession-lord.png"
+    },
+    {
+      "id": 7,
+      "category": "lord",
+      "name": "Chain-Judicator Lord",
+      "slug": "chain-judicator-lord",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/07-chain-judicator-lord.png"
+    },
+    {
+      "id": 8,
+      "category": "lord",
+      "name": "Ivory Ledger Lord",
+      "slug": "ivory-ledger-lord",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/08-ivory-ledger-lord.png"
+    },
+    {
+      "id": 9,
+      "category": "lord",
+      "name": "Censer-Mantle Lord",
+      "slug": "censer-mantle-lord",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/09-censer-mantle-lord.png"
+    },
+    {
+      "id": 10,
+      "category": "lord",
+      "name": "Rain-Court Poleaxe Lord",
+      "slug": "rain-court-poleaxe-lord",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/10-rain-court-poleaxe-lord.png"
+    },
+    {
+      "id": 11,
+      "category": "king",
+      "name": "Five-Nail Ash War King",
+      "slug": "five-nail-ash-war-king",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/11-five-nail-ash-war-king.png"
+    },
+    {
+      "id": 12,
+      "category": "king",
+      "name": "Three-Arch Floodroad King",
+      "slug": "three-arch-floodroad-king",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/12-three-arch-floodroad-king.png"
+    },
+    {
+      "id": 13,
+      "category": "king",
+      "name": "Square-Seal Tithe King",
+      "slug": "square-seal-tithe-king",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/13-square-seal-tithe-king.png"
+    },
+    {
+      "id": 14,
+      "category": "queen",
+      "name": "Seven-Tooth Widow Queen",
+      "slug": "seven-tooth-widow-queen",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/14-seven-tooth-widow-queen.png"
+    },
+    {
+      "id": 15,
+      "category": "queen",
+      "name": "Ivory Tribunal Queen",
+      "slug": "ivory-tribunal-queen",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/15-ivory-tribunal-queen.png"
+    },
+    {
+      "id": 16,
+      "category": "queen",
+      "name": "Four-Pearl Flood Queen",
+      "slug": "four-pearl-flood-queen",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/16-four-pearl-flood-queen.png"
+    },
+    {
+      "id": 17,
+      "category": "prince",
+      "name": "Three-Point Lance Prince",
+      "slug": "three-point-lance-prince",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/17-three-point-lance-prince.png"
+    },
+    {
+      "id": 18,
+      "category": "prince",
+      "name": "Four-Tab Blackglass Prince",
+      "slug": "four-tab-blackglass-prince",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/18-four-tab-blackglass-prince.png"
+    },
+    {
+      "id": 19,
+      "category": "prince",
+      "name": "Broken-Circlet Exile Prince",
+      "slug": "broken-circlet-exile-prince",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/19-broken-circlet-exile-prince.png"
+    },
+    {
+      "id": 20,
+      "category": "princess",
+      "name": "Three-Seal Pall Princess",
+      "slug": "three-seal-pall-princess",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/20-three-seal-pall-princess.png"
+    },
+    {
+      "id": 21,
+      "category": "princess",
+      "name": "Five-Stud Ember-Vow Princess",
+      "slug": "five-stud-ember-vow-princess",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/21-five-stud-ember-vow-princess.png"
+    },
+    {
+      "id": 22,
+      "category": "princess",
+      "name": "Two-Point Banig-Blade Princess",
+      "slug": "two-point-banig-blade-princess",
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/22-two-point-banig-blade-princess.png"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "collection": "Sacred Tribunal v12",
+  "created": "2026-07-30",
+  "background": "#171311",
+  "source_dimensions": "varies by generated source",
+  "reference_dimensions": "256x256",
+  "generation_mode": "Built-in image generation, one call per character",
+  "design_contract": "../KNIGHT-ART-DIRECTION-SPEC.md",
+  "prompts": "GENERATION-PROMPTS.md",
+  "status": "STATUS.md",
+  "review_sheets": [
+    "art-catalog/review-sheets/protagonist/sacred-tribunal-v12/sacred-tribunal-v12-review-sheet.png"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Three-Lancet Examiner",
+      "score": 96,
+      "render": "public/art/protagonist/sacred-tribunal-v12/drafts/01-three-lancet-examiner.png"
+    },
+    {
+      "id": 2,
+      "name": "Split-Mitre Judicator",
+      "score": 95,
+      "render": "public/art/protagonist/sacred-tribunal-v12/drafts/02-split-mitre-judicator.png"
+    },
+    {
+      "id": 3,
+      "name": "Chain-Veil Questioner",
+      "score": 93,
+      "render": "public/art/protagonist/sacred-tribunal-v12/drafts/03-chain-veil-questioner.png"
+    },
+    {
+      "id": 4,
+      "name": "Lockplate Confessor",
+      "score": 94,
+      "render": "public/art/protagonist/sacred-tribunal-v12/drafts/04-lockplate-confessor.png"
+    },
+    {
+      "id": 5,
+      "name": "White-Nail Penitent",
+      "score": 97,
+      "render": "public/art/protagonist/sacred-tribunal-v12/drafts/05-white-nail-penitent.png"
+    }
+  ]
+}

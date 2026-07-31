@@ -1,0 +1,57 @@
+{
+  "batch": "satanic-priests-batch-39",
+  "status": "draft",
+  "palette": {
+    "base": [
+      "soot black",
+      "charcoal",
+      "ash grey",
+      "dirty ivory"
+    ],
+    "accent": [
+      "weathered bronze",
+      "worn copper",
+      "pearly capiz grey",
+      "controlled ember orange"
+    ],
+    "background": "warm near-black",
+    "forbidden": [
+      "green background",
+      "red-dominant body or garments",
+      "bright gold dominance"
+    ]
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "Ashen-Palm Hierophant",
+      "status": "draft",
+      "render": "public/art/enemies/satanic-priests-batch-39/drafts/01-ashen-palm-hierophant.png"
+    },
+    {
+      "id": 2,
+      "name": "Chain-Censer Processional",
+      "status": "draft",
+      "render": "public/art/enemies/satanic-priests-batch-39/drafts/02-chain-censer-processional.png"
+    },
+    {
+      "id": 3,
+      "name": "Black-Gospel Cantor",
+      "status": "draft",
+      "source": "collections/enemies/satanic-priests-batch-39/drafts/03-black-gospel-cantor-source.png"
+    },
+    {
+      "id": 4,
+      "name": "Capiz-Eclipse Deacon",
+      "status": "draft",
+      "source": "collections/enemies/satanic-priests-batch-39/drafts/04-capiz-eclipse-deacon-source.png"
+    },
+    {
+      "id": 5,
+      "name": "Bolo Confessor",
+      "status": "draft",
+      "source": "collections/enemies/satanic-priests-batch-39/drafts/05-bolo-confessor-source.png"
+    }
+  ],
+  "review_sheet": "art-catalog/review-sheets/enemies/satanic-priests-batch-39/drafts/satanic-priests-batch-39-draft-review-sheet.png"
+}

@@ -1,8 +1,8 @@
 # Enemy Pixel-Art Asset Specification
 
 **Status:** Canonical production baseline  
-**Version:** 1.1  
-**Last updated:** 2026-07-30  
+**Version:** 1.7
+**Last updated:** 2026-07-31
 **Scope:** Enemies, demons, cultists, ghosts, possessed civilians, folkloric
 creatures, and enemy concept batches
 
@@ -29,20 +29,28 @@ Before creating a new enemy batch:
 1. Read `pixel-art/README.md`.
 2. Read this entire file.
 3. Read the current batch's `STATUS.md` or `GENERATION-PROMPTS.md`, if present.
-4. Read only the relevant sections of `enemies/ENEMY-LORE-COMPENDIUM.md`.
+4. Read only the relevant sections of `collections/enemies/ENEMY-LORE-COMPENDIUM.md`.
 5. Inspect one or two approved references from the closest existing batch.
 6. Confirm the next batch number from the registry in this document.
 7. Generate one separate image per distinct design.
-8. Save the full source and mandatory 256 × 256 reference.
-9. Inspect the 256 references together on a review sheet.
+8. Save the full-quality render once under `public/art/`.
+9. Inspect the renders at 256 × 256 together on a review sheet without creating
+   permanent downscale copies.
 10. Mark assets retained only after the batch passes the quality checklist.
 
 ## 3. Core art direction
 
 Create original dark-fantasy pixel-art characters for a side-scrolling gothic
-Metroidvania. The mood combines ruined sacred spaces, weathered rural life,
-Philippine folklore, restrained supernatural color, and readable in-game
-silhouettes.
+Metroidvania. The mood combines ruined sacred spaces, weathered lived-in
+materials, restrained supernatural color, and readable in-game silhouettes.
+
+The enemy library is not limited to Filipino, Philippine, 1970s, colonial, or
+folklore-derived design. Do not add banig, abaca, capiz, Filipino clothing,
+Philippine creature anatomy, or regional craft motifs unless the user's current
+brief or active collection explicitly requires them. A themed collection
+governs only its own assets. When culture and period are unspecified, use an
+original grounded gothic or dark-fantasy direction without culture-specific
+decoration.
 
 The desired result is:
 
@@ -130,9 +138,8 @@ Rules:
 
 - Created deliberately at the chosen native pixel grid.
 - Human-sized actors should begin from the Knight's 96 × 96 scale comparison,
-  but may use a different frame when silhouette or effects require it.
-- Large creatures, flying wings, spell trails, and bosses may require wider or
-  taller frames.
+  but may use a different frame when the physical silhouette requires it.
+- Large creatures, flying wings, and bosses may require wider or taller frames.
 - Do not obtain a production native sprite by blindly shrinking concept art.
 - Validate outline, anatomy, clusters, baseline, pivot, and collision silhouette
   at 1× before using it in Godot.
@@ -166,7 +173,7 @@ Rules:
 - Exactly one primary enemy unless the concept explicitly requires a coordinated
   group, such as the Empty Procession or Santelmo Choir.
 - Complete silhouette visible.
-- Generous padding around weapons, wings, cloth, hair, tails, magic, and feet.
+- Generous padding around weapons, wings, cloth, hair, tails, and feet.
 - Most humanoid concepts should occupy roughly 70–80 percent of canvas height.
 - Wide flying creatures may prioritize width while retaining safe padding.
 - No cropped hands, feet, wings, weapon tips, or trailing cloth.
@@ -174,17 +181,15 @@ Rules:
 
 ### Background
 
-Use a plain warm near-black background.
-
-Preferred starting range:
-
-- `#120F0E`
-- `#171311`
-- `#1A1513`
+For every future isolated enemy concept and opaque preview, use a perfectly
+uniform warm-charcoal background of exactly `#171311`. Older enemy prompts that
+use `#120F0E`, `#1A1513`, or an unspecified warm near-black are historical
+records and do not control future generations.
 
 Non-negotiable:
 
 - Never use a green background.
+- No alternate near-black, tint, texture, glow field, or atmospheric variation.
 - No bright chroma-key-looking field unless the user specifically requests
   transparent extraction.
 - No scenery, floor plane, cast shadow, gradient vignette, or environment unless
@@ -218,9 +223,10 @@ must still read as intentional pixel art rather than a filtered illustration.
 
 ## 7. Palette system
 
-### Shared base
+### Material palette, not a mandatory shared base
 
-Use a restrained foundation:
+The following are available material families, not a recipe to place in every
+enemy:
 
 - Charcoal
 - Soot black
@@ -231,35 +237,54 @@ Use a restrained foundation:
 - Aged wood, bamboo, brass, or iron
 - Corpse-pale or natural muted skin where appropriate
 
+Do not automatically combine charcoal, soot black, ash grey, weathered brown,
+dirty bone, blackened iron, and bronze. Dark fantasy does not require a shared
+sepia, black-grey, or brown-metal grade.
+
+Keep metal, cloth, leather, wood, skin, bone, shell, and accents on distinct
+local color ramps. Never apply a global sepia, tobacco-brown, bronze, copper,
+amber, grey-black, uniformly desaturated, or uniformly warm/cool filter.
+
+For waves of two or more comparable enemies, record dominant material,
+secondary garment hue, metal finish, leather or wood hue, accent role, and
+lighting temperature. Require at least three differences between every pair
+and against each of the ten most recent comparable enemies. Small shifts inside
+the same black-grey-brown family do not count.
+
+The combined blackened-steel, soot/charcoal-cloth, dark-brown wood/leather,
+dirty-ivory, tiny bronze/copper, and warm-rim-lighting look is fatigue-locked
+until the user explicitly requests it again.
+
 Typical color count:
 
 - Quiet humanoid or ghost: 14–18 colors
-- Combat, magic, or blood enemy: 16–22 colors
-- Hard maximum is flexible only for bosses or complex coordinated effects
+- Combat or blood enemy: 16–22 colors
+- Hard maximum is flexible only for bosses or complex coordinated physical
+  designs
 
 ### Accent coverage
 
 Color accents must make gameplay readable without swallowing the base design.
 
-- Minor magical cue: 5–10 percent
-- Standard combat magic: 10–20 percent
 - Blood-centered enemy: 15–22 percent
 - Do not make the entire sprite one bright neon color.
 - Do not let every enemy become a muted brown-grey silhouette.
 
-### Effect families
+### Material accent families
 
-| Effect | Preferred colors | Use |
+These are physical material and palette cues, not permission to render emitted
+or floating effects.
+
+| Accent | Preferred colors | Use |
 | --- | --- | --- |
-| Blood | Burgundy, deep crimson, vivid scarlet | Wounds, rites, projectiles, OSL |
-| Fire | Ember orange, copper, gold | Flames, brands, hoofprints |
-| Acid | Ochre, sickly yellow, yellow-chartreuse | Pools, smoke, corrosion |
-| Moon | Indigo, silver, pale ice blue | Barriers, salt, celestial attacks |
-| Curse | Bruised violet, muted plum | Binding, possession, traps |
-| Water ghost | Slate blue, pale cyan, spectral white | Rain, nets, puddles |
-| White Lady | Pearl white, ivory, silver grey, cold blue | Dress, mist, mirror light |
-| Green Host only | Deep emerald through mint | Oath-bound ghosts and spectral weapons |
-| Insect magic | Amber, violet | Beetles, sealed vessels, swarm cues |
+| Blood | Burgundy, deep crimson, vivid scarlet | Wounds, rites, and material accents |
+| Fire | Ember orange, copper, gold | Scorched materials and brands; no emitted flame |
+| Acid | Ochre, sickly yellow, yellow-chartreuse | Corroded materials; no pools or smoke |
+| Moon | Indigo, silver, pale ice blue | Salt and celestial material accents |
+| Curse | Bruised violet, muted plum | Physical binding and possession cues |
+| Water ghost | Slate blue, pale cyan, spectral white | Wet cloth and water-worn materials |
+| White Lady | Pearl white, ivory, silver grey, cold blue | Dress and cold material accents |
+| Green Host only | Deep emerald through mint | Oath-bound ghosts and physical equipment |
 
 ### Green rule
 
@@ -304,22 +329,78 @@ Unless folklore intentionally changes anatomy:
 - Props growing out of hands
 - Clothing merging with anatomy
 - Unreadable silhouette
+- Global sepia, brown, bronze, grey-black, desaturated, or uniformly warm/cool
+  grading that makes separate materials share one filter
+- Soft vignette, edge falloff, warm halo, or any variation in the canonical
+  `#171311` background
+- Fatigue-locked blackened-steel, soot-cloth, dark-brown, tiny-bronze,
+  warm-rim palette bundle
 - Oversized head without a concept reason
+- Female anatomy that is masculine, excessively muscular, sexualized,
+  childlike, or stretched into a nine-head fashion figure
+- Female character that does not read as an attractive, unmistakably adult
+  young woman approximately 21–35 in apparent age
+- Teenager, schoolgirl, childlike, or age-ambiguous facial, anatomical,
+  clothing, or posture cues
+- Standardized glamour-filter face or a generic “pretty face” reused across the
+  batch
+- Female face that reads as deliberately masculine or heavily androgynous due
+  to a combined pronounced brow ridge, very broad square jaw, oversized blocky
+  chin, heavy low brows, coarse angular planes, or thick masculine neck
+- Oversized breasts, extreme hourglass anatomy, pinched waist, exaggerated hips
+  or buttocks, or a chest-forward pin-up pose
+- Cleavage emphasis, molded breast-cup armor, vacuum-sealed garments, or
+  fetishized camera framing
+- Female face duplicated from another concept, even when hair, clothing,
+  makeup, scars, or palette differ
+- Female batch differentiated only through hairstyle
+- Fancy, salon-styled, excessively voluminous, or unsecured female hair in the
+  war-torn setting
+- Hair obscuring the eyes, armor articulation, weapon hand, shield grip, or
+  crossbow rail, string, trigger, or stock
+- Long loose combat hair, elaborate braided crown, decorative braid network,
+  towering or sculpted bun, cascading salon curls, ornate hair jewelry,
+  flowers, ribbons, excessive pins, ceremonial hair architecture, or dramatic
+  windblown volume
+- Buzz cut, shaved-side undercut, mohawk, fauxhawk, high-and-tight cut, graphic
+  shaved pattern, neon/multicolor fantasy dye, or conflicting contemporary
+  statement hairstyle
+- Romantic, couple, courtship, or sexual signaling added to an isolated
+  character brief
 - Tiny or hidden gameplay-defining weapon
+- Weapon, shield, or tool generated without a recorded authoritative full
+  profile and handle/construction reference
+- Handle, hilt, socket, trigger, or shield-back construction guessed from
+  memory or invented from an exterior-only view
+- Every hand contact or the only head/blade-to-handle join hidden from review
 - Bent or crooked blade, haft, shaft, or handle
 - Weapon rendered shorter than its real combat length
+- Weapon length not measured against a realistic example and converted to the
+  handler's depicted height
+- Misaligned blade, guard, grip, pommel, head, socket, shaft, or butt
+- Bent or kinked wooden stick, staff, tool handle, or pole
 - A hand gripping the blade instead of the handle
 - A two-handed weapon held with one hand in a ready pose
+- Oversized sword with either hand touching the blade, forte, or ricasso;
+  crossing the guard; using a half-sword or mordhau pose; or failing to fit both
+  hands entirely on the grip between guard and pommel
 - A blade resting on the character's shoulder
-- Unrequested floating spell effects, droplets, sigils, or particles
+- Front-face, outer-rim, disconnected, or anatomically misaligned shield handle
+- Bow, arrow, quiver, or loose or floating ammunition
+- Crossbow with an unsupported stock, malformed firing-hand grip, misplaced
+  trigger finger, or fingers intersecting the rail, string path, or mechanism
+- Any visible spell or spell-like effect, including floating magic, auras,
+  droplets, sigils, runes, orbs, magical projectiles, elemental emissions,
+  summoned geometry, smoke wisps, or ambient particles
 - Equipment the character could not physically use as depicted
   (e.g. a blindfolded crossbow aimer)
 - Cropped effects or body parts
 - Enemy accidentally resembling the Crimson Knight
 
-The weapon and effect rules above were codified from the 2026-07-30 bulk
-review of 996 renders; see `art-catalog/REVIEW-LEARNINGS.md` for the
-evidence and the full prompt-writing checklist.
+The weapon and no-spell rules above were codified from the 2026-07-30 bulk
+review of 996 renders and the user's subsequent 10/10 failure clarification;
+see `art-catalog/REVIEW-LEARNINGS.md` for the evidence and full prompt-writing
+checklist.
 
 ## 9. Enemy identity separation
 
@@ -364,20 +445,27 @@ Manananggal batch:
 - Avoid photorealistic tissue, detailed organs, entrail piles, victims, or
   pregnancy imagery unless the user explicitly asks for a more graphic treatment.
 
-## 11. Philippine folklore handling
+## 11. Culturally and historically specific source handling
 
-- Research the named being before finalizing prompts.
+- Apply this section only when the current brief or active collection names a
+  real culture, tradition, historical period, or folkloric being.
+- Research the named being, culture, equipment, clothing, or period before
+  finalizing prompts.
 - Prefer academic, cultural-institution, government, museum, or documented oral
   tradition sources where available.
 - Treat different regional accounts as variations, not errors.
 - State that designs are original game interpretations rather than definitive
   cultural portrayals.
-- Use locally relevant material cues—abaca, bamboo, nipa, balete, river roads,
-  rice fields, rural work clothes—only when they genuinely serve the concept.
-- Do not turn respected living traditions or roles such as babaylan, albularyo,
-  or diwata into default villains.
-- Do not add Western cathedral clothing, European armor, or generic vampire
-  styling to every Philippine creature.
+- Use locally relevant materials, clothing, architecture, tools, and
+  environmental cues only when they genuinely serve that specifically selected
+  concept.
+- For Philippine-specific work, this may include abaca, bamboo, nipa, balete,
+  river roads, rice fields, or rural work clothes; none is a default for other
+  work.
+- Do not turn respected living traditions, spiritual roles, or cultural
+  identities into default villains.
+- Do not overwrite a named tradition with unrelated generic fantasy styling,
+  and do not force that tradition's motifs onto unrelated creatures.
 - Never depict real cultural groups as monstrous.
 
 ## 12. Prompt structure
@@ -390,8 +478,8 @@ Use this compact structure:
 Use case: stylized-concept
 Asset type: production-ready enemy concept for a 2D gothic Metroidvania
 Primary request: <one named enemy and its gameplay role>
-Scene/backdrop: uniform warm near-black, no scenery
-Subject: <body plan, exact anatomy, clothing, prop, pose, direction, effects>
+Scene/backdrop: perfectly uniform warm charcoal #171311, no scenery
+Subject: <body plan, exact anatomy, clothing, prop, pose, direction>
 Style/medium: deliberate crisp pixel art, connected clusters, restrained detail
 Composition/framing: one full creature, centered, generous padding, readable at 256
 Color palette: <base colors, accent family, approximate accent coverage>
@@ -402,14 +490,62 @@ Avoid: <artifacts, accidental anatomy, copying, forbidden colors and content>
 
 Prompt requirements:
 
-- Spell out exact counts: wings, arms, flames, lanterns, weapons, roots, orbs.
+- Complete `render-contracts/EQUIPMENT-RESEARCH.md` before prompting any weapon,
+  shield, or weapon-like tool.
+- Record authoritative full-profile and handle/construction sources outside the
+  image prompt. If the hidden construction cannot be verified, change weapons.
+- Spell out exact counts for physical elements: wings, arms, lanterns, weapons,
+  and roots.
 - Name the exact weapon, state that it is straight and full combat length, and
-  state which hand or hands grip the handle (both for two-handed weapons).
-- State that no floating spell effects, droplets, or particles appear unless
-  the concept explicitly requires visible magic.
-- Name the facing direction and flow direction of hair, cloth, smoke, or cape.
+  record its realistic total length, component proportions, and
+  handler-relative scale. State which hand or hands grip the handle (both for
+  two-handed weapons).
+- For a longsword, greatsword, zweihänder, or other oversized sword, record the
+  usable grip length and require both complete hands to fit on the grip between
+  guard and pommel. Exclude half-swording, ricasso/forte contact, mordhau, blade
+  contact, and any hand crossing the guard.
+- Require continuous straight centerlines and aligned blade–guard–grip or
+  head–socket–shaft construction.
+- Exclude bows, arrows, quivers, and loose or floating ammunition. For a
+  crossbow, specify support-hand placement, firing-hand grip, trigger-finger
+  placement, and string clearance.
+- State why the weapon is physically and culturally appropriate to its handler.
+- For adult female characters, specify approximately 7.5–8 heads of height,
+  long plausible legs, a balanced ribcage and pelvis, natural shoulders, a
+  moderately defined waist, hips only modestly wider than the shoulders, and a
+  naturally proportionate chest with no sexualized emphasis.
+- Specify an attractive, unmistakably adult young-woman appearance,
+  approximately 21–35 in apparent age. Build attractiveness through coherent,
+  individually varied features and readable eyes, not sexualization, glossy
+  glamour styling, or a repeated beauty-filter face. Exclude teenager,
+  schoolgirl, childlike, and age-ambiguous cues.
+- Require a distinctly feminine overall face. Avoid a strongly masculine-coded
+  combination of brow ridge, broad square jaw, blocky chin, heavy low brows,
+  coarse angular planes, and thick neck. Preserve varied brief-appropriate
+  facial structures rather than imposing one ethnicity or one doll-like face.
+- For every female character, specify face shape, jaw and chin, eyes and brows,
+  nose, mouth, cheek structure, age cues, hairline, resting expression, and a
+  setting-compatible hairstyle. In a wave, require at least four structural
+  facial differences between every pair, excluding hairstyle and surface
+  decoration.
+- Specify simple, low-maintenance, battle-ready hair suited to a war-torn era.
+  Keep it secured and clear of vision, armor, hands, shield grips, and weapon
+  mechanisms. Do not use ornate accessories, elaborate braid architecture,
+  towering buns, salon curls, ceremonial styling, long loose combat hair, or
+  dramatic windblown volume.
+- State that no visible spells or spell-like effects appear. This prohibition
+  has no caster or magical-subject exception.
+- Name the facing direction and flow direction of hair, cloth, or cape.
 - Name the gameplay-defining prop and ensure it remains fully visible.
 - Use one accent family deliberately.
+- Keep metal, cloth, leather, wood, skin, and accents on separate local color
+  ramps; prohibit any global sepia, brown, bronze, grey-black, desaturated, or
+  uniformly warm/cool filter.
+- For a comparable wave, complete the six-axis palette matrix and require at
+  least three differences between every pair and against the ten most recent
+  comparable renders.
+- Do not use the fatigue-locked blackened-steel, soot-cloth, dark-brown,
+  dirty-ivory, tiny-bronze, warm-rim bundle as the default gothic palette.
 - Repeat critical anatomy constraints at the end.
 - Do not ask one generation to produce five separate assets.
 
@@ -423,7 +559,7 @@ Render root (the one home for images):
 
 Batch documents root (prompts, manifests, status):
 
-`pixel-art/enemies/`
+`pixel-art/collections/enemies/`
 
 New numbered batch:
 
@@ -444,26 +580,28 @@ public/art/enemies/<theme>-batch-<NN>/
 ├── 01-<slug>.png
 └── ...
 
-enemies/<theme>-batch-<NN>/
+collections/enemies/<theme>-batch-<NN>/
 ├── GENERATION-PROMPTS.md
-├── <theme>-manifest.json
-└── <theme>-review-sheet.png
+├── STATUS.md
+└── <theme>-manifest.json
 ```
 
 The render lives once, at full quality, under `public/art/`. Never create
 a second copy anywhere — no `-source` pair, no `-reference-256` downscale.
+Generated review sheets live under
+`art-catalog/review-sheets/enemies/<theme>-batch-<NN>/`.
 
-### Drafts
+### Reviewable, unapproved renders
 
-Unapproved or incomplete work goes in:
+After normal viability checks, save each new full-quality render directly at:
 
-`public/art/enemies/<theme>-batch-<NN>/drafts/`
+`public/art/enemies/<theme>-batch-<NN>/<NN>-<slug>.png`
 
-Drafts:
-
-- Are not canonical
-- Are not counted in the lore compendium
-- Must be promoted to the batch root only after approval
+Collection-root placement means the render is available in the review website.
+It does not mean approved, retained, canonical, production-ready, or counted in
+the lore compendium. Do not place new generations in a `drafts/` folder.
+Existing legacy `drafts/` paths may remain until separately reviewed or
+migrated.
 
 ### Revisions
 
@@ -491,8 +629,9 @@ Use descriptive lowercase kebab-case.
 - One `GENERATION-PROMPTS.md` while the batch has retained or active draft
   renders; append later waves and revisions to this file
 - `<theme>-manifest.json`
-- `<theme>-review-sheet.png`
 - `STATUS.md` when a batch is incomplete or has special continuation notes
+- Review sheets under
+  `art-catalog/review-sheets/enemies/<theme>-batch-<NN>/`
 
 Do not keep standalone continuation, retry, revision, or rejected prompt files.
 Remove the prompt record when the batch has no retained or active draft renders;
@@ -520,7 +659,8 @@ on the fly from the renders; those panels are never saved individually.
 - Do not stretch panels.
 - Do not add labels over the artwork unless explicitly requested.
 
-Review sheets are for comparison only and do not replace individual references.
+Review sheets are for comparison only and never replace the individual
+full-quality catalog renders.
 
 ## 16. Manifest convention
 
@@ -536,7 +676,7 @@ Minimum structure:
   "palette": {
     "base": ["charcoal", "weathered brown"],
     "accent": ["crimson"],
-    "background": "warm near-black",
+    "background": "#171311",
     "forbidden": ["green background"]
   },
   "assets": [
@@ -547,7 +687,7 @@ Minimum structure:
       "render": "public/art/enemies/theme-batch-07/01-readable-display-name.png"
     }
   ],
-  "review_sheet": "theme-review-sheet.png"
+  "review_sheet": "art-catalog/review-sheets/enemies/theme-batch-07/theme-review-sheet.png"
 }
 ```
 
@@ -563,7 +703,7 @@ Only `retained` assets belong in canonical counts.
 
 After a batch is retained, update:
 
-`pixel-art/enemies/ENEMY-LORE-COMPENDIUM.md`
+`pixel-art/collections/enemies/ENEMY-LORE-COMPENDIUM.md`
 
 For each design add:
 
@@ -583,9 +723,9 @@ Do not create lore for rejected images. Draft lore may live in a batch
 
 ## 18. Retention and deletion
 
-- Preserve all retained full sources in their collection and all 256 references
-  under the matching `public/art/` path.
-- Do not delete an approved source after making a smaller reference.
+- Preserve each retained full-quality render once under its matching
+  `public/art/` collection.
+- Inspect renders at 256 pixels without keeping permanent per-render downscales.
 - Rejected images should not remain in canonical batch folders.
 - If the user asks to delete a generation, remove its project files and remove it
   from manifests, review sheets, lore, and counts.
@@ -611,20 +751,77 @@ An asset can be retained only when all applicable checks pass.
 - [ ] No duplicated or missing anatomy
 - [ ] Plausible feet and leg placement
 - [ ] Adult human proportions; feminine build preserved on female concepts
+- [ ] Adult woman is approximately 7.5–8 heads high, not a nine-head fashion
+      figure
+- [ ] Female character is visibly attractive and unmistakably adult, normally
+      approximately 21–35 in apparent age
+- [ ] No teenager, schoolgirl, childlike, or age-ambiguous facial, anatomical,
+      clothing, posture, or head-to-body cues
+- [ ] Attractiveness comes from coherent individually varied features, not
+      sexualization, glossy glamour, or a repeated beauty-filter face
+- [ ] Female face reads as distinctly feminine, without a strongly
+      masculine-coded combination of brow, jaw, chin, facial planes, and neck
+- [ ] Feminine facial variety preserves brief-appropriate features rather than
+      imposing one ethnicity or repeating one doll-like face
+- [ ] Female legs are long but plausible; ribcage and pelvis are balanced
+- [ ] Female waist is moderately defined and hips are only modestly wider than
+      shoulders
+- [ ] Female chest is naturally proportionate with no oversized breasts
+- [ ] No extreme hourglass, pin-up posture, cleavage emphasis, molded
+      breast-cup armor, vacuum-sealed garment, or fetishized framing
+- [ ] Female face differs structurally from every other woman in the wave on at
+      least four axes, excluding hair and surface decoration
+- [ ] Female hairstyle is setting-compatible and not the only identity change
+- [ ] Female hairstyle is simple, secured, low-maintenance, and battle ready
+- [ ] Hair remains clear of the eyes, armor, weapon hands, shield grips, and
+      weapon mechanisms
+- [ ] No long loose combat hair, elaborate braid architecture, towering bun,
+      salon curls, ornate accessories, ceremonial styling, or dramatic
+      windblown volume
+- [ ] Short hair, when used, retains a clearly feminine contour
+- [ ] No buzz cut, shaved-side undercut, mohawk, fauxhawk, high-and-tight cut,
+      graphic shaved pattern, neon/multicolor fantasy dye, or conflicting
+      contemporary statement hairstyle
+- [ ] No inferred sexual orientation or romantic/relationship signaling unless
+      explicitly required by a narrative brief
 - [ ] Intentional folkloric anatomy remains coherent
 - [ ] Hands, feet, wings, and props are separated visually
 
 ### Weapon and equipment
 
-- [ ] Blade, haft, shaft, and handle are perfectly straight
-- [ ] Weapon reads at full combat length at 256
+- [ ] `EQUIPMENT-RESEARCH.md` completed before prompt assembly
+- [ ] Authoritative measured object record and source links are recorded
+- [ ] Full-profile and handle/socket/trigger/shield-back views are usable
+- [ ] No handle or hidden construction was guessed
+- [ ] Exact weapon type and realistic total length are recorded
+- [ ] Handler-relative scale matches the real weapon-to-handler ratio
+- [ ] Weapon reads at measured full combat length at 256
+- [ ] Straight blade, haft, shaft, stick, and handle centerlines are unbroken
+- [ ] Blade–guard–grip and head–socket–shaft components align mechanically
 - [ ] Hands grip the handle only; no hand on the blade
+- [ ] Oversized sword shows the guard, both complete hands fully on the grip,
+      the full usable grip, and the pommel in one inspectable crop
+- [ ] No oversized-sword hand touches the blade, forte, or ricasso; crosses the
+      guard; or uses half-swording or mordhau
+- [ ] Handle length, cross-section, hand count, contact points, thumb side,
+      finger closure, and wrist direction match the researched subtype
+- [ ] Hand contacts and blade/head-to-handle joins remain visible for review
 - [ ] Both hands on a two-handed weapon in ready poses
 - [ ] No blade resting on a shoulder
-- [ ] Shield handle or strap is interior and mechanically plausible
+- [ ] Shield handle or strap is interior, load-bearing, and aligned with hand,
+      wrist, and forearm
+- [ ] No bows, arrows, quivers, or loose or floating ammunition
+- [ ] Crossbow mechanism matches the researched period and subtype
+- [ ] Ready crossbow trigger finger is indexed straight along the stock; only a
+      firing pose places it on the trigger
+- [ ] Crossbow support hand, firing hand, and string clearance are mechanically
+      correct
 - [ ] Conventional recognizable weapon design (no gimmick objects as weapons)
-- [ ] No unrequested spell effects, droplets, sigils, or particles
-- [ ] Character can physically use the equipment as depicted
+- [ ] No visible spells or spell-like effects, including auras, droplets,
+      sigils, runes, orbs, magical projectiles, elemental emissions, smoke
+      wisps, or particles
+- [ ] Weapon suits the handler's anatomy, size, strength, hands, vision, role,
+      culture, clothing, armor, stance, and implied attack
 
 ### Composition
 
@@ -643,16 +840,25 @@ An asset can be retained only when all applicable checks pass.
 
 ### Palette
 
-- [ ] Warm near-black background
+- [ ] Perfectly uniform `#171311` background
 - [ ] No green background
+- [ ] No vignette, edge falloff, warm halo, or background tint
+- [ ] No global sepia, brown, bronze, grey-black, desaturated, or uniformly
+      warm/cool grade
+- [ ] Metal, cloth, leather, wood, skin, and accents retain distinct local
+      color ramps
+- [ ] Palette matrix differs on at least three axes from the current wave and
+      ten most recent comparable enemies
+- [ ] Fatigue-locked blackened/soot/brown/bronze/warm-rim bundle not repeated
 - [ ] Accent color is controlled but visible
 - [ ] Enemy is not too muted or entirely neon
 - [ ] Color family matches its gameplay effect
 
 ### Files
 
-- [ ] Full source saved
-- [ ] 256 × 256 nearest-neighbor reference saved
+- [ ] Full-quality render saved once under `public/art/`
+- [ ] No `-source` or `-reference-256` duplicate created
+- [ ] Render inspected at 256 × 256
 - [ ] Prompt record saved
 - [ ] Manifest valid
 - [ ] Review sheet correct
@@ -662,8 +868,8 @@ An asset can be retained only when all applicable checks pass.
 
 A batch is complete when:
 
-1. Every requested variation has its own full source.
-2. Every retained source has a verified 256 × 256 reference.
+1. Every requested variation has its own full-quality catalog render.
+2. Every retained render has been verified at 256 × 256.
 3. The review sheet presents all retained assets in manifest order.
 4. Anatomy, palette, silhouette, and crop checks pass.
 5. `GENERATION-PROMPTS.md` records the shared direction and subjects.
@@ -675,14 +881,14 @@ A batch is complete when:
 
 | Number | Collection | Location | Status |
 | --- | --- | --- | --- |
-| 01 | Restrained Gothic Enemies | `enemies/` root | Retained |
-| 02 | Cultists and Demons | `enemies/cultists-demons-batch-02/` | Retained |
-| 03 | Philippine Folklore | `enemies/philippine-folklore-batch-03/` | Retained |
-| 04 | Combat and Magic | `enemies/combat-magic-batch-04/` | Retained |
-| — | Green Ghost Palette Test | `enemies/green-ghost-palette-test/` | Retained test |
-| 05 | White Lady Variations | `enemies/white-lady-variations-batch-05/` | Retained |
-| 06 | Manananggal Variations | `enemies/manananggal-variations-batch-06/` | Retained |
-| 07 | Tiktik Variations | `enemies/tiktik-variations-batch-07/` | Draft, 2 of 5 |
+| 01 | Restrained Gothic Enemies | `collections/enemies/` root | Retained |
+| 02 | Cultists and Demons | `collections/enemies/cultists-demons-batch-02/` | Retained |
+| 03 | Philippine Folklore | `collections/enemies/philippine-folklore-batch-03/` | Retained |
+| 04 | Combat and Magic | `collections/enemies/combat-magic-batch-04/` | Retained |
+| — | Green Ghost Palette Test | `collections/enemies/green-ghost-palette-test/` | Retained test |
+| 05 | White Lady Variations | `collections/enemies/white-lady-variations-batch-05/` | Retained |
+| 06 | Manananggal Variations | `collections/enemies/manananggal-variations-batch-06/` | Retained |
+| 07 | Tiktik Variations | `collections/enemies/tiktik-variations-batch-07/` | Draft, 2 of 5 |
 
 The next new batch after completing Tiktik is batch `08`.
 
@@ -712,4 +918,4 @@ Direction:
   blood.
 - Avoid victims and pregnancy imagery.
 
-Read `enemies/tiktik-variations-batch-07/STATUS.md` before resuming.
+Read `collections/enemies/tiktik-variations-batch-07/STATUS.md` before resuming.

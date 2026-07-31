@@ -10,7 +10,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { AutoHideScrollArea } from "./AutoHideScrollArea";
+import { AutoHideScrollArea } from "./_components/ui/AutoHideScrollArea";
 import {
   DECISIONS,
   DEFECTS,

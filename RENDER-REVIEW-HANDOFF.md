@@ -93,7 +93,7 @@ Exporter:
 
 The development process refreshes these exports approximately every three seconds. Only rated/reviewed records are exported. The export preserves user decisions, ratings, confirmed or rejected tag states, defects, feedback, next-attempt guidance, duplicate relationships, deletion status, and user-review provenance.
 
-As of 2026-07-30 the user has completed a bulk review of 996 renders (203 keep, 86 reject, 707 delete). Both export files now contain the full record, and the confirmed lessons have been distilled into `art-catalog/REVIEW-LEARNINGS.md` and folded into `RENDER-PROMPT.md` and `enemies/ENEMY-ART-DIRECTION-FEEDBACK.md`. Notable: the Flesh-Veil Oracle positive reference was reversed (rated 1/5, marked for deletion); weapon correctness and default-off spell effects are now codified generation rules.
+As of 2026-07-30 the user has completed a bulk review of 996 renders (203 keep, 86 reject, 707 delete). Both export files now contain the full record, and the confirmed lessons have been distilled into `art-catalog/REVIEW-LEARNINGS.md` and folded into the routed contracts under `render-contracts/` and `collections/enemies/ENEMY-ART-DIRECTION-FEEDBACK.md`. Notable: the Flesh-Veil Oracle positive reference was reversed (rated 1/5, marked for deletion); weapon correctness and default-off spell effects are now codified generation rules.
 
 The parent agent instructions were updated at:
 
@@ -108,8 +108,8 @@ Do not recreate the project’s art-direction history from memory. Read the sour
 - `/Users/franz/Work/Personal/me/pixel-art/README.md`
 - `/Users/franz/Work/Personal/me/pixel-art/ASSET-SPEC.md`
 - `/Users/franz/Work/Personal/me/pixel-art/ENEMY-ASSET-SPEC.md`
-- `/Users/franz/Work/Personal/me/pixel-art/enemies/ENEMY-ART-DIRECTION-FEEDBACK.md`
-- `/Users/franz/Work/Personal/me/pixel-art/angels/corrupted-angels-v01/REJECTION-NOTES.md`
+- `/Users/franz/Work/Personal/me/pixel-art/collections/enemies/ENEMY-ART-DIRECTION-FEEDBACK.md`
+- `/Users/franz/Work/Personal/me/pixel-art/collections/angels/corrupted-angels-v01/REJECTION-NOTES.md`
 - `/Users/franz/Work/Personal/me/pixel-art/art-catalog/RENDER-FEEDBACK.md`
 
 Collection folders also contain `STATUS.md`, generation prompts, manifests, and sometimes rejection notes. Confirmed review exports should gradually become the highest-value source for future generation prompts.

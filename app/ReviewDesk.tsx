@@ -12,7 +12,20 @@ import {
 } from "react";
 import { AutoHideScrollArea } from "./AutoHideScrollArea";
 import {
-  type DefectSeverity,
+  DECISIONS,
+  DEFECTS,
+  DETAIL_DECISIONS,
+  QUEUE_LABELS,
+  SYNC_LABELS,
+  type DefectOption,
+} from "./_features/review/review-config";
+import {
+  defaultSeverity,
+  mergeDrafts,
+  nextSeverity,
+} from "./_features/review/review-model";
+import { queueMatches, type ReviewQueue } from "./_features/review/review-queue";
+import {
   type GalleryItem,
   type RenderReview,
   type ReviewDecision,
@@ -20,86 +33,9 @@ import {
 } from "./review-types";
 import type { useReviewStore } from "./useReviewStore";
 
-export type ReviewQueue =
-  "unreviewed" | "all" | "kept" | "rejected" | "deletion" | "favorites";
+export type { ReviewQueue } from "./_features/review/review-queue";
 
 export type ReviewStore = ReturnType<typeof useReviewStore>;
-
-type DecisionOption = {
-  value: ReviewDecision;
-  label: string;
-  shortcut: string;
-  detail: boolean;
-};
-
-type DefectOption = {
-  key: string;
-  label: string;
-  shortcut: string;
-};
-
-const QUEUE_LABELS: Record<ReviewQueue, string> = {
-  unreviewed: "Unreviewed",
-  all: "All renders",
-  kept: "Kept",
-  rejected: "Rejected · redo",
-  deletion: "Marked for deletion",
-  favorites: "Five-star anchors",
-};
-
-const DECISIONS: DecisionOption[] = [
-  { value: "keep", label: "Keep", shortcut: "K", detail: false },
-  { value: "reject", label: "Reject · redo", shortcut: "R", detail: true },
-  { value: "delete", label: "Delete · next", shortcut: "D", detail: false },
-];
-
-const DEFECTS: DefectOption[] = [
-  { key: "proportions", label: "Wrong proportions", shortcut: "P" },
-  { key: "anatomy", label: "Anatomy or limbs", shortcut: "A" },
-  { key: "hands-fingers", label: "Hands or fingers", shortcut: "F" },
-  { key: "weapon-handling", label: "Weapon handling", shortcut: "H" },
-  { key: "weapon-too-short", label: "Weapon too short", shortcut: "L" },
-  { key: "weapon-bent", label: "Bent / crooked weapon", shortcut: "B" },
-  { key: "wrong-weapon-design", label: "Wrong weapon design", shortcut: "W" },
-  { key: "magic-effects", label: "Unwanted magic / effects", shortcut: "M" },
-  { key: "silhouette-pose", label: "Silhouette or pose", shortcut: "S" },
-  {
-    key: "duplicate-repetition",
-    label: "Feels repetitive / samey",
-    shortcut: "Q",
-  },
-  { key: "costume", label: "Costume or styling", shortcut: "C" },
-  { key: "technical", label: "Technical failure", shortcut: "T" },
-];
-
-const DETAIL_DECISIONS = new Set(
-  DECISIONS.filter((decision) => decision.detail).map(
-    (decision) => decision.value,
-  ),
-);
-
-const SYNC_LABELS = {
-  loading: "LOADING REVIEWS",
-  saved: "ALL SAVED",
-  saving: "SAVING",
-  offline: "BUFFERED LOCALLY",
-} as const;
-
-function queueMatches(
-  queue: ReviewQueue,
-  item: GalleryItem,
-  review?: RenderReview,
-) {
-  if (queue === "all") return true;
-  if (queue === "unreviewed") {
-    return item.status !== "rejected" && !review?.decision;
-  }
-  if (queue === "kept") return review?.decision === "keep";
-  if (queue === "rejected") return review?.decision === "reject";
-  if (queue === "deletion") return review?.deletionState === "marked";
-  if (queue === "favorites") return review?.overallRating === 5;
-  return Boolean(item);
-}
 
 function ReviewCanvasImage({ item }: { item: GalleryItem }) {
   const [originalLoaded, setOriginalLoaded] = useState(false);
@@ -139,29 +75,6 @@ function ReviewCanvasImage({ item }: { item: GalleryItem }) {
       </span>
     </span>
   );
-}
-
-function defaultSeverity(decision: ReviewDecision | null): DefectSeverity {
-  if (decision === "delete") return "fatal";
-  return "major";
-}
-
-function nextSeverity(value: DefectSeverity): DefectSeverity {
-  if (value === "minor") return "major";
-  if (value === "major") return "fatal";
-  return "minor";
-}
-
-function mergeDrafts(
-  review: RenderReview,
-  note: string,
-  correctionNote: string,
-) {
-  return {
-    ...review,
-    note,
-    correctionNote,
-  };
 }
 
 export function ReviewDesk({

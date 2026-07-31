@@ -15,185 +15,42 @@ import {
   useState,
 } from "react";
 import { AutoHideScrollArea } from "./AutoHideScrollArea";
-import { expandGalleryCatalog } from "./gallery-catalog";
-import { ReviewDesk, type ReviewQueue } from "./ReviewDesk";
+import {
+  CATEGORY_LABELS,
+  DECISION_FILTER_OPTIONS,
+  DECISION_LABELS,
+  DECISION_QUEUES,
+  FAVORITES_STORAGE_KEY,
+  FAVORITE_FILTER_OPTIONS,
+  GENDER_TAG_GROUP,
+  GRID_GAP,
+  GRID_PREVIEW_SIZES,
+  INITIAL_RENDER_COUNT,
+  LIFECYCLE_FILTER_OPTIONS,
+  RACE_TAG_GROUP,
+  RATING_FILTER_OPTIONS,
+  TILE_CHROME_HEIGHT,
+  TILE_SIZE_STORAGE_KEY,
+} from "./_features/archive/archive-config";
+import {
+  DEFAULT_FILTER_STATE,
+  type FilterState,
+  activeFilterDimensionCount,
+  copyFilterState,
+  filterGalleryItems,
+  filtersToSearchParams,
+  tagFilterOptions,
+  tagValueFor,
+} from "./_features/archive/archive-filters";
 import type {
-  GalleryCatalog,
-  GalleryItem,
-  RenderReview,
-  ReviewDecision,
-  ReviewMap,
-} from "./review-types";
+  ArchiveGalleryProps,
+  FilterToken,
+} from "./_features/archive/archive-types";
+import type { ReviewQueue } from "./_features/review/review-queue";
+import { expandGalleryCatalog } from "./gallery-catalog";
+import { ReviewDesk } from "./ReviewDesk";
+import type { GalleryItem, RenderReview } from "./review-types";
 import { useReviewStore } from "./useReviewStore";
-
-type ArchiveGalleryProps = {
-  catalog: GalleryCatalog;
-};
-
-const CATEGORY_LABELS: Record<string, string> = {
-  enemies: "Enemies",
-  bosses: "Bosses",
-  angels: "Angels",
-  protagonist: "Protagonist",
-  environments: "Environments",
-};
-
-const DECISION_LABELS: Record<ReviewDecision, string> = {
-  keep: "Keep",
-  reject: "Redo",
-  delete: "Delete queue",
-};
-
-const DECISION_QUEUES: Record<string, ReviewQueue> = {
-  all: "all",
-  unreviewed: "unreviewed",
-  keep: "kept",
-  reject: "rejected",
-  delete: "deletion",
-};
-
-const GENDER_TAG_GROUP = "gender-presentation";
-const RACE_TAG_GROUP = "race";
-const FAVORITES_STORAGE_KEY = "ashen-archive-favorites-v1";
-const INITIAL_RENDER_COUNT = 24;
-const GRID_GAP = 8;
-const TILE_CHROME_HEIGHT = 49;
-const GRID_PREVIEW_SIZES =
-  "(max-width: 720px) 42vw, (max-width: 1100px) 25vw, 220px";
-
-type FilterState = {
-  lifecycle: string;
-  decision: string;
-  rating: string;
-  favorite: string;
-  gender: string;
-  race: string;
-  collections: string[];
-};
-
-const DEFAULT_FILTER_STATE: FilterState = {
-  lifecycle: "active",
-  decision: "all",
-  rating: "all",
-  favorite: "all",
-  gender: "all",
-  race: "all",
-  collections: [],
-};
-
-function copyFilterState(filters: FilterState): FilterState {
-  return { ...filters, collections: [...filters.collections] };
-}
-
-const URL_FILTER_KEYS = [
-  "lifecycle",
-  "decision",
-  "rating",
-  "favorite",
-  "gender",
-  "race",
-] as const;
-
-function filtersToSearchParams(filters: FilterState, query: string) {
-  const params = new URLSearchParams();
-  if (query.trim()) params.set("q", query);
-  for (const key of URL_FILTER_KEYS) {
-    if (filters[key] !== DEFAULT_FILTER_STATE[key]) {
-      params.set(key, filters[key]);
-    }
-  }
-  for (const name of filters.collections) params.append("c", name);
-  return params;
-}
-
-function activeFilterDimensionCount(filters: FilterState) {
-  return [
-    filters.lifecycle !== DEFAULT_FILTER_STATE.lifecycle,
-    filters.decision !== DEFAULT_FILTER_STATE.decision,
-    filters.rating !== DEFAULT_FILTER_STATE.rating,
-    filters.favorite !== DEFAULT_FILTER_STATE.favorite,
-    filters.gender !== DEFAULT_FILTER_STATE.gender,
-    filters.race !== DEFAULT_FILTER_STATE.race,
-    filters.collections.length > 0,
-  ].filter(Boolean).length;
-}
-
-function tagValueFor(item: GalleryItem, group: string) {
-  const tag = item.suggestedTags.find((entry) => entry.group === group);
-  return tag ? tag.key.slice(group.length + 1) : "untagged";
-}
-
-function filterGalleryItems(
-  items: GalleryItem[],
-  filters: FilterState,
-  favoriteIds: Set<string>,
-  reviews: ReviewMap,
-  query: string,
-) {
-  const needle = query.trim().toLocaleLowerCase();
-  return items.filter((item) => {
-    if (filters.lifecycle === "active" && item.status === "rejected")
-      return false;
-    if (filters.lifecycle === "rejected" && item.status !== "rejected")
-      return false;
-    if (filters.favorite === "favorite" && !favoriteIds.has(item.renderId))
-      return false;
-    if (
-      filters.collections.length &&
-      !filters.collections.includes(item.collection)
-    )
-      return false;
-    if (
-      filters.gender !== "all" &&
-      tagValueFor(item, GENDER_TAG_GROUP) !== filters.gender
-    )
-      return false;
-    if (
-      filters.race !== "all" &&
-      tagValueFor(item, RACE_TAG_GROUP) !== filters.race
-    )
-      return false;
-    if (filters.decision !== "all") {
-      const reviewed = reviews[item.renderId]?.decision ?? "unreviewed";
-      if (reviewed !== filters.decision) return false;
-    }
-    if (filters.rating !== "all") {
-      const overallRating = reviews[item.renderId]?.overallRating;
-      const itemRating =
-        overallRating === null || overallRating === undefined
-          ? "unrated"
-          : String(overallRating);
-      if (itemRating !== filters.rating) return false;
-    }
-    if (!needle) return true;
-    return [item.name, item.filename, item.category, item.collection]
-      .join(" ")
-      .toLocaleLowerCase()
-      .includes(needle);
-  });
-}
-
-function tagFilterOptions(
-  items: GalleryItem[],
-  group: string,
-  allLabel: string,
-) {
-  const labels = new Map<string, string>();
-  for (const item of items) {
-    for (const tag of item.suggestedTags) {
-      if (tag.group === group) {
-        labels.set(tag.key.slice(group.length + 1), tag.label);
-      }
-    }
-  }
-  return [
-    { value: "all", label: allLabel },
-    ...Array.from(labels, ([value, label]) => ({ value, label })).sort((a, b) =>
-      a.label.localeCompare(b.label),
-    ),
-    { value: "untagged", label: "Untagged" },
-  ];
-}
 
 function PreviewImage({
   item,
@@ -871,7 +728,7 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
   useEffect(() => {
     try {
       const storedSize = Number(
-        window.localStorage.getItem("archive-tile-size"),
+        window.localStorage.getItem(TILE_SIZE_STORAGE_KEY),
       );
       const storedFavorites = JSON.parse(
         window.localStorage.getItem(FAVORITES_STORAGE_KEY) ?? "[]",
@@ -1089,40 +946,16 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
     const nextSize = Number(event.target.value);
     setTileSize(nextSize);
     try {
-      window.localStorage.setItem("archive-tile-size", String(nextSize));
+      window.localStorage.setItem(TILE_SIZE_STORAGE_KEY, String(nextSize));
     } catch {
       // Browsing preferences are optional.
     }
   };
 
-  const decisionOptions = [
-    { value: "all", label: "All decisions" },
-    { value: "unreviewed", label: "Unreviewed" },
-    { value: "keep", label: "Keep" },
-    { value: "reject", label: "Redo" },
-    { value: "delete", label: "Delete queue" },
-  ];
-
-  const lifecycleOptions = [
-    { value: "active", label: "Active · not rejected" },
-    { value: "rejected", label: "Rejected only" },
-    { value: "all", label: "Everything" },
-  ];
-
-  const ratingOptions = [
-    { value: "all", label: "Any" },
-    { value: "5", label: "5" },
-    { value: "4", label: "4" },
-    { value: "3", label: "3" },
-    { value: "2", label: "2" },
-    { value: "1", label: "1" },
-    { value: "unrated", label: "Unrated" },
-  ];
-
-  const favoriteOptions = [
-    { value: "all", label: "All renders" },
-    { value: "favorite", label: "Favorites" },
-  ];
+  const decisionOptions = DECISION_FILTER_OPTIONS;
+  const lifecycleOptions = LIFECYCLE_FILTER_OPTIONS;
+  const ratingOptions = RATING_FILTER_OPTIONS;
+  const favoriteOptions = FAVORITE_FILTER_OPTIONS;
 
   const labelFor = (
     options: { value: string; label: string }[],
@@ -1134,7 +967,6 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
 
   // The token strip is the single source of truth: every non-default
   // dimension gets a removable token, no exceptions.
-  type FilterToken = { id: string; label: string; onRemove: () => void };
   const singleValueToken = (
     key: "decision" | "rating" | "favorite" | "gender" | "race" | "lifecycle",
     label: string,

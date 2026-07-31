@@ -1170,122 +1170,122 @@ step.
 
 ### Phase 0: Establish the baseline
 
-- [ ] Read repository instructions and product documentation.
-- [ ] Record `git status` and preserve the existing dirty worktree.
-- [ ] Record current lint, build, and relevant test results.
-- [ ] Record current server-rendered HTML tile count.
-- [ ] Manually note current gallery and review behavior on desktop and mobile.
+- [x] Read repository instructions and product documentation.
+- [x] Record `git status` and preserve the existing dirty worktree.
+- [x] Record current lint, build, and relevant test results.
+- [x] Record current server-rendered HTML tile count.
+- [x] Manually note current gallery and review behavior on desktop and mobile.
 
 ### Phase 1: Move pure modules
 
-- [ ] Create `archive-config.ts`.
-- [ ] Create `archive-filters.ts`.
-- [ ] Create `archive-types.ts`.
-- [ ] Create `review-config.ts`.
-- [ ] Create `review-queue.ts`.
-- [ ] Create `review-model.ts`.
-- [ ] Update imports without changing implementation.
-- [ ] Run lint/type validation and relevant tests.
+- [x] Create `archive-config.ts`.
+- [x] Create `archive-filters.ts`.
+- [x] Create `archive-types.ts`.
+- [x] Create `review-config.ts`.
+- [x] Create `review-queue.ts`.
+- [x] Create `review-model.ts`.
+- [x] Update imports without changing implementation.
+- [x] Run lint/type validation and relevant tests.
 
 ### Phase 2: Move shared UI
 
-- [ ] Move `AutoHideScrollArea.tsx`.
-- [ ] Update all imports.
-- [ ] Verify scroll markup is unchanged.
+- [x] Move `AutoHideScrollArea.tsx`.
+- [x] Update all imports.
+- [x] Verify scroll markup is unchanged.
 
 ### Phase 3: Extract the grid
 
-- [ ] Extract `PreviewImage`.
-- [ ] Extract `RenderTile`.
-- [ ] Extract `InitialRenderGrid`.
-- [ ] Extract `VirtualizedRenderGrid`.
-- [ ] Add the `RenderGrid` hydration adapter.
-- [ ] Confirm server output still contains exactly 24 tiles.
-- [ ] Confirm virtualization and selected-item navigation.
+- [x] Extract `PreviewImage`.
+- [x] Extract `RenderTile`.
+- [x] Extract `InitialRenderGrid`.
+- [x] Extract `VirtualizedRenderGrid`.
+- [x] Add the `RenderGrid` hydration adapter.
+- [x] Confirm server output still contains exactly 24 tiles.
+- [x] Confirm virtualization and selected-item navigation.
 
 ### Phase 4: Extract the inspector
 
-- [ ] Extract `RenderInspector`.
-- [ ] Extract the existing `MobileRenderViewer`.
-- [ ] Verify desktop and mobile DOM/class equivalence.
-- [ ] Do not activate or repair the mobile dialog.
+- [x] Extract `RenderInspector`.
+- [x] Extract the existing `MobileRenderViewer`.
+- [x] Verify desktop and mobile DOM/class equivalence.
+- [x] Do not activate or repair the mobile dialog.
 
 ### Phase 5: Extract archive controls
 
-- [ ] Extract `ArchiveHeader`.
-- [ ] Extract `QuickFilterBar`.
-- [ ] Extract `ActiveFilterStrip`.
-- [ ] Extract `FilterGroup`.
-- [ ] Extract `CollectionFilter`.
-- [ ] Extract `RaceFilter`.
-- [ ] Extract `FilterDrawer`.
-- [ ] Extract `GalleryHeading`.
-- [ ] Extract `GalleryEmptyState`.
-- [ ] Verify URL filters, counts, clear actions, and keyboard focus.
+- [x] Extract `ArchiveHeader`.
+- [x] Extract `QuickFilterBar`.
+- [x] Extract `ActiveFilterStrip`.
+- [x] Extract `FilterGroup`.
+- [x] Extract `CollectionFilter`.
+- [x] Extract `RaceFilter`.
+- [x] Extract `FilterDrawer`.
+- [x] Extract `GalleryHeading`.
+- [x] Extract `GalleryEmptyState`.
+- [x] Verify URL filters, counts, clear actions, and keyboard focus.
 
 ### Phase 6: Extract Review Desk leaf UI
 
-- [ ] Extract `ReviewCanvasImage`.
-- [ ] Extract `ReviewStage`.
-- [ ] Extract rating, decision, tag, defect, and feedback controls.
-- [ ] Extract `FinishReviewButton`.
-- [ ] Extract `ReviewPanel`.
-- [ ] Extract `ReviewDeskHeader`.
-- [ ] Extract `ReviewCompleteState`.
-- [ ] Keep all workflow mutations in `ReviewDesk`.
-- [ ] Verify all shortcuts and save/advance behavior.
+- [x] Extract `ReviewCanvasImage`.
+- [x] Extract `ReviewStage`.
+- [x] Extract rating, decision, tag, defect, and feedback controls.
+- [x] Extract `FinishReviewButton`.
+- [x] Extract `ReviewPanel`.
+- [x] Extract `ReviewDeskHeader`.
+- [x] Extract `ReviewCompleteState`.
+- [x] Keep all workflow mutations in `ReviewDesk`.
+- [x] Verify all shortcuts and save/advance behavior.
 
 ### Phase 7: Extract archive hooks
 
-- [ ] Extract `useGalleryPreferences`.
-- [ ] Extract `useGalleryFilters`.
-- [ ] Extract `useCatalogAutoRefresh`.
-- [ ] Confirm state ownership has not moved into conditional children.
-- [ ] Confirm hydration has no mismatch warnings.
+- [x] Extract `useGalleryPreferences`.
+- [x] Extract `useGalleryFilters`.
+- [x] Extract `useCatalogAutoRefresh`.
+- [x] Confirm state ownership has not moved into conditional children.
+- [x] Confirm hydration has no mismatch warnings.
 
 ### Phase 8: Move feature entry modules
 
-- [ ] Move `ArchiveGallery.tsx` into `app/_features/archive/`.
-- [ ] Move `ReviewDesk.tsx` and `useReviewStore.ts` into
+- [x] Move `ArchiveGallery.tsx` into `app/_features/archive/`.
+- [x] Move `ReviewDesk.tsx` and `useReviewStore.ts` into
   `app/_features/review/`.
-- [ ] Update `app/page.tsx`.
-- [ ] Remove old pass-through files rather than keeping shallow re-export
+- [x] Update `app/page.tsx`.
+- [x] Remove old pass-through files rather than keeping shallow re-export
   modules, once all imports are updated.
 
 ### Phase 9: Retarget tests
 
-- [ ] Update source paths in the existing tests.
-- [ ] Keep behavior assertions equally strong.
-- [ ] Run the complete applicable suite.
+- [x] Update source paths in the existing tests.
+- [x] Keep behavior assertions equally strong.
+- [x] Run the complete applicable suite.
 
 ### Phase 10: Optional CSS split
 
-- [ ] Split only by the existing contiguous sections.
-- [ ] Preserve import and cascade order.
-- [ ] Compare representative desktop, tablet, and phone layouts.
+- [x] Split only by the existing contiguous sections.
+- [x] Preserve import and cascade order.
+- [x] Compare representative desktop, tablet, and phone layouts.
 
 ### Phase 11: Final validation
 
-- [ ] Lint passes.
-- [ ] Type/build validation passes.
-- [ ] Existing test suites pass.
-- [ ] Server renders exactly 24 initial tiles.
-- [ ] No hydration errors.
-- [ ] Filter URLs survive reload.
-- [ ] Favorites survive reload and invalid IDs are discarded.
-- [ ] Tile size survives reload.
-- [ ] Filter counts and empty recovery match the baseline.
-- [ ] Review queues and counts match the baseline.
-- [ ] Filtered review sessions remain snapshots.
-- [ ] Rating, decision, defect, tag, feedback, and undo flows match the
+- [x] Lint passes.
+- [x] Type/build validation passes.
+- [x] Existing test suites pass.
+- [x] Server renders exactly 24 initial tiles.
+- [x] No hydration errors.
+- [x] Filter URLs survive reload.
+- [x] Favorites survive reload and invalid IDs are discarded.
+- [x] Tile size survives reload.
+- [x] Filter counts and empty recovery match the baseline.
+- [x] Review queues and counts match the baseline.
+- [x] Filtered review sessions remain snapshots.
+- [x] Rating, decision, defect, tag, feedback, and undo flows match the
   baseline.
-- [ ] Offline review buffering and sync labels match the baseline.
-- [ ] Full-resolution review source still loads.
-- [ ] Arrow, `/`, `F`, `1–5`, `K`, `R`, `D`, `N`, Space, Enter, Escape, and
+- [x] Offline review buffering and sync labels match the baseline.
+- [x] Full-resolution review source still loads.
+- [x] Arrow, `/`, `F`, `1–5`, `K`, `R`, `D`, `N`, Space, Enter, Escape, and
   Cmd/Ctrl+Z shortcuts match the baseline.
-- [ ] Desktop, tablet, phone, coarse-pointer, reduced-motion, and forced-color
+- [x] Desktop, tablet, phone, coarse-pointer, reduced-motion, and forced-color
   layouts were spot-checked.
-- [ ] No art, generated catalog, review export, API, database, or unrelated
+- [x] No art, generated catalog, review export, API, database, or unrelated
   project files changed unintentionally.
 
 ---

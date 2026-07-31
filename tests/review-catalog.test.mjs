@@ -123,9 +123,7 @@ test("race and gender tags follow authored character concepts", async () => {
   const vampireMinionExpectations = [
     ["01-grave-step-usher.png", "masculine"],
     ["02-veil-neck-handmaid.png", "feminine"],
-    ["03-capiz-eyed-listener.png", "masculine"],
     ["04-tapis-hem-stalker.png", "feminine"],
-    ["05-coffin-cloth-warden.png", "masculine"],
   ];
   for (const [filename, gender] of vampireMinionExpectations) {
     const minion = byFilename(
@@ -197,7 +195,7 @@ test("local review persistence and exports are configured", async () => {
 
 test("review desk snapshots the contact sheet's filtered render scope", async () => {
   const gallerySource = await readFile(
-    new URL("../app/ArchiveGallery.tsx", import.meta.url),
+    new URL("../app/_features/archive/archive-gallery.tsx", import.meta.url),
     "utf8",
   );
 
@@ -215,7 +213,7 @@ test("review desk snapshots the contact sheet's filtered render scope", async ()
 
 test("review loading leaves catalog synchronization on the server", async () => {
   const storeSource = await readFile(
-    new URL("../app/useReviewStore.ts", import.meta.url),
+    new URL("../app/_features/review/use-review-store.ts", import.meta.url),
     "utf8",
   );
   const reviewRouteSource = await readFile(

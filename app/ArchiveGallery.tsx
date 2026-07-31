@@ -372,6 +372,10 @@ function VirtualizedRenderGrid({
     gap: GRID_GAP,
     overscan: 3,
     scrollMargin,
+    // Defer row measurements out of ResizeObserver's delivery cycle. The
+    // virtual rows update layout in response to those measurements, which can
+    // otherwise make Chromium report an undelivered-notifications loop.
+    useAnimationFrameWithResizeObserver: true,
   });
   const virtualRows = rowVirtualizer.getVirtualItems();
 

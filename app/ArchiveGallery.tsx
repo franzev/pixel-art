@@ -1,20 +1,16 @@
 "use client";
 
-import { useVirtualizer } from "@tanstack/react-virtual";
-import Image from "next/image";
 import {
-  type CSSProperties,
   type ChangeEvent,
   type RefObject,
   useCallback,
   useEffect,
   useId,
-  useLayoutEffect,
   useMemo,
   useRef,
   useState,
 } from "react";
-import { AutoHideScrollArea } from "./_components/ui/AutoHideScrollArea";
+import { AutoHideScrollArea } from "./_components/ui/auto-hide-scroll-area";
 import {
   CATEGORY_LABELS,
   DECISION_FILTER_OPTIONS,
@@ -23,13 +19,9 @@ import {
   FAVORITES_STORAGE_KEY,
   FAVORITE_FILTER_OPTIONS,
   GENDER_TAG_GROUP,
-  GRID_GAP,
-  GRID_PREVIEW_SIZES,
-  INITIAL_RENDER_COUNT,
   LIFECYCLE_FILTER_OPTIONS,
   RACE_TAG_GROUP,
   RATING_FILTER_OPTIONS,
-  TILE_CHROME_HEIGHT,
   TILE_SIZE_STORAGE_KEY,
 } from "./_features/archive/archive-config";
 import {
@@ -46,286 +38,13 @@ import type {
   ArchiveGalleryProps,
   FilterToken,
 } from "./_features/archive/archive-types";
+import { PreviewImage } from "./_features/archive/grid/preview-image";
+import { RenderGrid } from "./_features/archive/grid/render-grid";
 import type { ReviewQueue } from "./_features/review/review-queue";
 import { expandGalleryCatalog } from "./gallery-catalog";
 import { ReviewDesk } from "./ReviewDesk";
 import type { GalleryItem, RenderReview } from "./review-types";
 import { useReviewStore } from "./useReviewStore";
-
-function PreviewImage({
-  item,
-  alt,
-  eager = false,
-  inspector = false,
-}: {
-  item: GalleryItem;
-  alt: string;
-  eager?: boolean;
-  inspector?: boolean;
-}) {
-  const [loaded, setLoaded] = useState(false);
-
-  return (
-    <Image
-      className={loaded ? "responsive-preview is-loaded" : "responsive-preview"}
-      src={item.url}
-      alt={alt}
-      fill
-      sizes={
-        inspector
-          ? "(max-width: 760px) calc(100vw - 24px), 296px"
-          : GRID_PREVIEW_SIZES
-      }
-      quality={82}
-      loading={eager ? "eager" : "lazy"}
-      fetchPriority={eager ? "high" : "auto"}
-      // vinext's fill images ship inline `object-fit: cover`, which crops
-      // portrait renders and outranks any stylesheet rule. The whole render
-      // must always be visible, so contain has to be inline too.
-      style={{ objectFit: "contain" }}
-      onLoad={() => setLoaded(true)}
-    />
-  );
-}
-
-function RenderTile({
-  item,
-  index,
-  total,
-  selected,
-  eager,
-  onOpen,
-}: {
-  item: GalleryItem;
-  index: number;
-  total: number;
-  selected: boolean;
-  eager: boolean;
-  onOpen: (item: GalleryItem) => void;
-}) {
-  return (
-    <div
-      className={selected ? "render-tile is-selected" : "render-tile"}
-      role="listitem"
-      aria-posinset={index + 1}
-      aria-setsize={total}
-      data-render-index={index}
-    >
-      <button
-        type="button"
-        className="render-tile-main"
-        aria-pressed={selected}
-        aria-label={`Open ${item.name}, ${item.collection}`}
-        onClick={() => onOpen(item)}
-      >
-        <div className="render-image">
-          <span className="render-image-placeholder" aria-hidden="true" />
-          <span className="render-number">
-            {String(index + 1).padStart(3, "0")}
-          </span>
-          <PreviewImage item={item} alt="" eager={eager} />
-        </div>
-        <span className="render-title">{item.name}</span>
-        <span className="render-meta">
-          {item.collection} · {item.width}×{item.height}
-        </span>
-      </button>
-    </div>
-  );
-}
-
-function InitialRenderGrid({
-  items,
-  selectedId,
-  tileSize,
-  onOpen,
-}: {
-  items: GalleryItem[];
-  selectedId?: string;
-  tileSize: number;
-  onOpen: (item: GalleryItem) => void;
-}) {
-  return (
-    <div
-      id="render-grid"
-      className="render-grid"
-      role="list"
-      aria-label="Render contact sheet"
-      style={{ "--tile-size": `${tileSize}px` } as CSSProperties}
-    >
-      {items.slice(0, INITIAL_RENDER_COUNT).map((item, index) => (
-        <RenderTile
-          key={item.id}
-          item={item}
-          index={index}
-          total={items.length}
-          selected={selectedId === item.id}
-          eager={index < 12}
-          onOpen={onOpen}
-        />
-      ))}
-    </div>
-  );
-}
-
-function VirtualizedRenderGrid({
-  items,
-  selectedId,
-  tileSize,
-  scrollElement,
-  resetKey,
-  onOpen,
-}: {
-  items: GalleryItem[];
-  selectedId?: string;
-  tileSize: number;
-  scrollElement: HTMLDivElement | null;
-  resetKey: string;
-  onOpen: (item: GalleryItem) => void;
-}) {
-  const gridRef = useRef<HTMLDivElement>(null);
-  const [gridWidth, setGridWidth] = useState(0);
-  const [scrollMargin, setScrollMargin] = useState(0);
-  const anchorRenderIdRef = useRef(items[0]?.renderId);
-  const previousTileSizeRef = useRef(tileSize);
-
-  useLayoutEffect(() => {
-    const grid = gridRef.current;
-    if (!grid) return;
-
-    const measure = () => {
-      setGridWidth(grid.clientWidth);
-      setScrollMargin(grid.offsetTop);
-    };
-    measure();
-
-    const observer = new ResizeObserver(measure);
-    observer.observe(grid);
-    // Viewport resizes (tablet rotation, window drags across the layout
-    // breakpoint) can outrun the element observer; listen to both.
-    window.addEventListener("resize", measure);
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("resize", measure);
-    };
-  }, []);
-
-  const columnCount = Math.max(
-    1,
-    Math.floor((gridWidth + GRID_GAP) / (tileSize + GRID_GAP)),
-  );
-  const tileWidth =
-    gridWidth > 0
-      ? (gridWidth - GRID_GAP * (columnCount - 1)) / columnCount
-      : tileSize;
-  const rowCount = Math.ceil(items.length / columnCount);
-
-  // TanStack Virtual intentionally exposes mutable measurement helpers.
-  // eslint-disable-next-line react-hooks/incompatible-library
-  const rowVirtualizer = useVirtualizer({
-    count: rowCount,
-    getScrollElement: () => scrollElement,
-    estimateSize: () => tileWidth + TILE_CHROME_HEIGHT,
-    gap: GRID_GAP,
-    overscan: 3,
-    scrollMargin,
-    // Defer row measurements out of ResizeObserver's delivery cycle. The
-    // virtual rows update layout in response to those measurements, which can
-    // otherwise make Chromium report an undelivered-notifications loop.
-    useAnimationFrameWithResizeObserver: true,
-  });
-  const virtualRows = rowVirtualizer.getVirtualItems();
-
-  useEffect(() => {
-    const firstRow = virtualRows[0]?.index ?? 0;
-    anchorRenderIdRef.current =
-      items[firstRow * columnCount]?.renderId ?? items[0]?.renderId;
-  }, [columnCount, items, virtualRows]);
-
-  useLayoutEffect(() => {
-    // Re-measure whenever the tile geometry changes, including container
-    // resizes (gridWidth) — rotating a tablet across the layout breakpoint
-    // otherwise leaves rows positioned with stale estimates.
-    rowVirtualizer.measure();
-    if (previousTileSizeRef.current === tileSize) return;
-
-    const anchorIndex = items.findIndex(
-      (item) => item.renderId === anchorRenderIdRef.current,
-    );
-    if (anchorIndex >= 0) {
-      rowVirtualizer.scrollToIndex(Math.floor(anchorIndex / columnCount), {
-        align: "start",
-      });
-    }
-    previousTileSizeRef.current = tileSize;
-  }, [columnCount, gridWidth, items, rowVirtualizer, tileSize]);
-
-  useEffect(() => {
-    rowVirtualizer.scrollToOffset(0);
-  }, [resetKey, rowVirtualizer]);
-
-  const trackedSelectedIdRef = useRef(selectedId);
-  useEffect(() => {
-    // Keep the selection in view as it moves, but let the page arrive at the
-    // top: the count heading is the first thing worth seeing. Layout churn
-    // (column count settling, remeasures) must not re-trigger the scroll, so
-    // only an actual selection change counts.
-    if (!selectedId || trackedSelectedIdRef.current === selectedId) return;
-    trackedSelectedIdRef.current = selectedId;
-    const selectedIndex = items.findIndex((item) => item.id === selectedId);
-    if (selectedIndex >= 0) {
-      rowVirtualizer.scrollToIndex(Math.floor(selectedIndex / columnCount), {
-        align: "auto",
-      });
-    }
-  }, [columnCount, items, rowVirtualizer, selectedId]);
-
-  return (
-    <div
-      ref={gridRef}
-      id="render-grid"
-      className="virtual-render-grid"
-      role="list"
-      aria-label="Render contact sheet"
-      style={{ height: `${rowVirtualizer.getTotalSize()}px` }}
-    >
-      {virtualRows.map((virtualRow) => {
-        const rowStart = virtualRow.index * columnCount;
-        const rowItems = items.slice(rowStart, rowStart + columnCount);
-        return (
-          <div
-            key={virtualRow.key}
-            ref={rowVirtualizer.measureElement}
-            className="virtual-render-row"
-            data-row-index={virtualRow.index}
-            data-index={virtualRow.index}
-            style={{
-              gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`,
-              transform: `translateY(${
-                virtualRow.start - scrollMargin
-              }px)`,
-            }}
-          >
-            {rowItems.map((item, offset) => {
-              const index = rowStart + offset;
-              return (
-                <RenderTile
-                  key={item.id}
-                  item={item}
-                  index={index}
-                  total={items.length}
-                  selected={selectedId === item.id}
-                  eager={index < 12}
-                  onOpen={onOpen}
-                />
-              );
-            })}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
 
 function Inspector({
   item,
@@ -538,7 +257,6 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
   const [reviewOpen, setReviewOpen] = useState(false);
   const [reviewItems, setReviewItems] = useState<GalleryItem[]>([]);
   const [reviewQueue, setReviewQueue] = useState<ReviewQueue>("unreviewed");
-  const [gridVirtualized, setGridVirtualized] = useState(false);
   const [galleryViewport, setGalleryViewport] =
     useState<HTMLDivElement | null>(null);
   const searchRef = useRef<HTMLInputElement>(null);
@@ -553,12 +271,6 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
     (node: HTMLDivElement | null) => setGalleryViewport(node),
     [],
   );
-
-  useEffect(() => {
-    // Match the server's 24-card contact sheet for hydration, then window it.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setGridVirtualized(true);
-  }, []);
 
   useEffect(() => {
     busyRef.current = filtersOpen || reviewOpen;
@@ -1534,23 +1246,14 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
               </div>
 
               {filteredItems.length ? (
-                gridVirtualized ? (
-                  <VirtualizedRenderGrid
-                    items={filteredItems}
-                    selectedId={selected?.id}
-                    tileSize={tileSize}
-                    scrollElement={galleryViewport}
-                    resetKey={gridResetKey}
-                    onOpen={openItem}
-                  />
-                ) : (
-                  <InitialRenderGrid
-                    items={filteredItems}
-                    selectedId={selected?.id}
-                    tileSize={tileSize}
-                    onOpen={openItem}
-                  />
-                )
+                <RenderGrid
+                  items={filteredItems}
+                  selectedId={selected?.id}
+                  tileSize={tileSize}
+                  scrollElement={galleryViewport}
+                  resetKey={gridResetKey}
+                  onOpen={openItem}
+                />
               ) : (
                 <div id="render-grid" className="empty-state">
                   {filters.favorite === "favorite" &&

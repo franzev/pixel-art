@@ -120,9 +120,14 @@ References:
 
 ## Naming conventions
 
-- React module files: PascalCase, with a matching named export.
-- Hooks: `useX.ts`.
-- Pure model/configuration modules: lowercase kebab-case.
+- **Amended during execution:** all files use lowercase kebab-case,
+  including React module files and hooks — not just pure modules. Next.js
+  itself is unopinionated about non-routing file names, and kebab-case is
+  the convention in current canonical Next.js code (shadcn/ui, Vercel's own
+  Commerce template, the official Next.js Learn tutorial, bulletproof-react).
+  A component's exported identifier remains PascalCase (e.g. `ArchiveHeader`
+  exported from `archive-header.tsx`); only the filename changes. Hook
+  identifiers remain `useX`, exported from `use-x.ts`.
 - Feature-local files stay in their feature folder.
 - Keep prop types local to the module unless another module genuinely consumes
   them.
@@ -138,52 +143,52 @@ References:
 app/
 ├── _components/
 │   └── ui/
-│       └── AutoHideScrollArea.tsx
+│       └── auto-hide-scroll-area.tsx
 ├── _features/
 │   ├── archive/
-│   │   ├── ArchiveGallery.tsx
-│   │   ├── ArchiveHeader.tsx
-│   │   ├── QuickFilterBar.tsx
-│   │   ├── ActiveFilterStrip.tsx
-│   │   ├── GalleryHeading.tsx
-│   │   ├── GalleryEmptyState.tsx
-│   │   ├── RenderInspector.tsx
-│   │   ├── MobileRenderViewer.tsx
+│   │   ├── archive-gallery.tsx
+│   │   ├── archive-header.tsx
+│   │   ├── quick-filter-bar.tsx
+│   │   ├── active-filter-strip.tsx
+│   │   ├── gallery-heading.tsx
+│   │   ├── gallery-empty-state.tsx
+│   │   ├── render-inspector.tsx
+│   │   ├── mobile-render-viewer.tsx
 │   │   ├── archive-config.ts
 │   │   ├── archive-filters.ts
 │   │   ├── archive-types.ts
 │   │   ├── filters/
-│   │   │   ├── FilterDrawer.tsx
-│   │   │   ├── FilterGroup.tsx
-│   │   │   ├── CollectionFilter.tsx
-│   │   │   └── RaceFilter.tsx
+│   │   │   ├── filter-drawer.tsx
+│   │   │   ├── filter-group.tsx
+│   │   │   ├── collection-filter.tsx
+│   │   │   └── race-filter.tsx
 │   │   ├── grid/
-│   │   │   ├── RenderGrid.tsx
-│   │   │   ├── InitialRenderGrid.tsx
-│   │   │   ├── VirtualizedRenderGrid.tsx
-│   │   │   ├── RenderTile.tsx
-│   │   │   └── PreviewImage.tsx
+│   │   │   ├── render-grid.tsx
+│   │   │   ├── initial-render-grid.tsx
+│   │   │   ├── virtualized-render-grid.tsx
+│   │   │   ├── render-tile.tsx
+│   │   │   └── preview-image.tsx
 │   │   └── hooks/
-│   │       ├── useGalleryPreferences.ts
-│   │       ├── useGalleryFilters.ts
-│   │       └── useCatalogAutoRefresh.ts
+│   │       ├── use-gallery-preferences.ts
+│   │       ├── use-gallery-filters.ts
+│   │       └── use-catalog-auto-refresh.ts
 │   └── review/
-│       ├── ReviewDesk.tsx
-│       ├── ReviewDeskHeader.tsx
-│       ├── ReviewCompleteState.tsx
-│       ├── ReviewStage.tsx
-│       ├── ReviewCanvasImage.tsx
-│       ├── ReviewPanel.tsx
-│       ├── RatingControl.tsx
-│       ├── DecisionControl.tsx
-│       ├── SuggestedTagsControl.tsx
-│       ├── DefectControl.tsx
-│       ├── FeedbackEditor.tsx
-│       ├── FinishReviewButton.tsx
+│       ├── review-desk.tsx
+│       ├── review-desk-header.tsx
+│       ├── review-complete-state.tsx
+│       ├── review-stage.tsx
+│       ├── review-canvas-image.tsx
+│       ├── review-panel.tsx
+│       ├── rating-control.tsx
+│       ├── decision-control.tsx
+│       ├── suggested-tags-control.tsx
+│       ├── defect-control.tsx
+│       ├── feedback-editor.tsx
+│       ├── finish-review-button.tsx
 │       ├── review-config.ts
 │       ├── review-model.ts
 │       ├── review-queue.ts
-│       └── useReviewStore.ts
+│       └── use-review-store.ts
 ├── _styles/
 │   ├── foundation.css
 │   ├── scroll-area.css
@@ -313,7 +318,7 @@ values.
 
 ### Modules to extract
 
-#### `app/_features/archive/hooks/useGalleryPreferences.ts`
+#### `app/_features/archive/hooks/use-gallery-preferences.ts`
 
 Responsibility:
 
@@ -347,7 +352,7 @@ Risks:
 - Keep the tile-size range and validation unchanged.
 - Keep storage failures non-fatal.
 
-#### `app/_features/archive/hooks/useGalleryFilters.ts`
+#### `app/_features/archive/hooks/use-gallery-filters.ts`
 
 Responsibility:
 
@@ -385,7 +390,7 @@ Risks:
 - Do not change facet conditioning: each count excludes only its own active
   dimension.
 
-#### `app/_features/archive/hooks/useCatalogAutoRefresh.ts`
+#### `app/_features/archive/hooks/use-catalog-auto-refresh.ts`
 
 Responsibility:
 
@@ -435,7 +440,7 @@ application.
 
 ### React modules to extract
 
-#### `app/_features/archive/ArchiveHeader.tsx`
+#### `app/_features/archive/archive-header.tsx`
 
 Responsibility:
 
@@ -457,7 +462,7 @@ Risks:
 - Preserve the ref required for the `/` shortcut.
 - Preserve the range min, max, and step.
 
-#### `app/_features/archive/QuickFilterBar.tsx`
+#### `app/_features/archive/quick-filter-bar.tsx`
 
 Responsibility:
 
@@ -481,7 +486,7 @@ Risks:
 - Preserve quick-filter toggle-to-`"all"` behavior.
 - Preserve the exact displayed labels.
 
-#### `app/_features/archive/ActiveFilterStrip.tsx`
+#### `app/_features/archive/active-filter-strip.tsx`
 
 Responsibility:
 
@@ -497,7 +502,7 @@ Risks:
 - Preserve token order.
 - Preserve removal labels and accessible names.
 
-#### `app/_features/archive/filters/FilterDrawer.tsx`
+#### `app/_features/archive/filters/filter-drawer.tsx`
 
 Responsibility:
 
@@ -519,7 +524,7 @@ Risks:
 - Escape must stop propagation and close only the drawer.
 - Preserve footer control order and disabled behavior.
 
-#### `app/_features/archive/filters/FilterGroup.tsx`
+#### `app/_features/archive/filters/filter-group.tsx`
 
 Responsibility:
 
@@ -535,7 +540,7 @@ Risks:
 - Preserve generated radio-group names.
 - Preserve active and empty class calculations.
 
-#### `app/_features/archive/filters/CollectionFilter.tsx`
+#### `app/_features/archive/filters/collection-filter.tsx`
 
 Responsibility:
 
@@ -551,7 +556,7 @@ Risks:
 - Preserve the top-eight behavior and count sorting.
 - Preserve search clearing after selecting an option.
 
-#### `app/_features/archive/filters/RaceFilter.tsx`
+#### `app/_features/archive/filters/race-filter.tsx`
 
 Responsibility:
 
@@ -566,7 +571,7 @@ Risks:
 - Preserve radio roles and toggle-back-to-all behavior.
 - Preserve the top-eight behavior and count sorting.
 
-#### `app/_features/archive/GalleryHeading.tsx`
+#### `app/_features/archive/gallery-heading.tsx`
 
 Responsibility:
 
@@ -580,7 +585,7 @@ Risks:
 - Preserve clear-button label selection.
 - Preserve screen-reader announcement text.
 
-#### `app/_features/archive/GalleryEmptyState.tsx`
+#### `app/_features/archive/gallery-empty-state.tsx`
 
 Responsibility:
 
@@ -618,7 +623,7 @@ Risks:
 
 ### React modules to extract
 
-#### `app/_features/archive/grid/PreviewImage.tsx`
+#### `app/_features/archive/grid/preview-image.tsx`
 
 Responsibility:
 
@@ -640,7 +645,7 @@ Risks:
 - Preserve eager `loading` and `fetchPriority`.
 - Preserve inspector and grid `sizes` strings.
 
-#### `app/_features/archive/grid/RenderTile.tsx`
+#### `app/_features/archive/grid/render-tile.tsx`
 
 Responsibility:
 
@@ -658,7 +663,7 @@ Risks:
 - Preserve `aria-pressed` and accessible name.
 - Preserve selection comparison using the item’s `id`.
 
-#### `app/_features/archive/grid/InitialRenderGrid.tsx`
+#### `app/_features/archive/grid/initial-render-grid.tsx`
 
 Responsibility:
 
@@ -670,7 +675,7 @@ Risks:
 - Keep the first 12 eager.
 - Preserve list role, ID, and CSS custom property.
 
-#### `app/_features/archive/grid/VirtualizedRenderGrid.tsx`
+#### `app/_features/archive/grid/virtualized-render-grid.tsx`
 
 Responsibility:
 
@@ -699,7 +704,7 @@ Risks:
 - Preserve row and tile keys.
 - Preserve `data-row-index`, `data-index`, transforms, and scroll margin.
 
-#### `app/_features/archive/grid/RenderGrid.tsx`
+#### `app/_features/archive/grid/render-grid.tsx`
 
 Responsibility:
 
@@ -725,7 +730,7 @@ Risks:
 
 ### React modules to extract
 
-#### `app/_features/archive/RenderInspector.tsx`
+#### `app/_features/archive/render-inspector.tsx`
 
 Responsibility:
 
@@ -754,7 +759,7 @@ Risks:
 - Preserve favorite keyboard hint and accessible names.
 - Keep all optional controls conditional as they are now.
 
-#### `app/_features/archive/MobileRenderViewer.tsx`
+#### `app/_features/archive/mobile-render-viewer.tsx`
 
 Responsibility:
 
@@ -847,7 +852,7 @@ The render tree and image module inside `app/ReviewDesk.tsx`.
 
 ### React modules to extract
 
-#### `app/_features/review/ReviewDeskHeader.tsx`
+#### `app/_features/review/review-desk-header.tsx`
 
 Responsibility:
 
@@ -871,7 +876,7 @@ Risks:
   detail mode.
 - Preserve responsive header structure.
 
-#### `app/_features/review/ReviewCompleteState.tsx`
+#### `app/_features/review/review-complete-state.tsx`
 
 Responsibility:
 
@@ -883,7 +888,7 @@ Risks:
 - Preserve existing copy and button order.
 - Do not generalize the duplicate empty-state topbar during this refactor.
 
-#### `app/_features/review/ReviewCanvasImage.tsx`
+#### `app/_features/review/review-canvas-image.tsx`
 
 Responsibility:
 
@@ -900,7 +905,7 @@ Risks:
 - Preserve `key={current.renderId}` at the call site.
 - Preserve preview/original class names and load-state attribute.
 
-#### `app/_features/review/ReviewStage.tsx`
+#### `app/_features/review/review-stage.tsx`
 
 Responsibility:
 
@@ -922,7 +927,7 @@ Risks:
 - Preserve button hierarchy and labels.
 - Preserve shortcut order and responsive hiding behavior.
 
-#### `app/_features/review/RatingControl.tsx`
+#### `app/_features/review/rating-control.tsx`
 
 Responsibility:
 
@@ -934,7 +939,7 @@ Risks:
 - Keep rating labels and active state.
 - Delegate all rating behavior to the parent.
 
-#### `app/_features/review/DecisionControl.tsx`
+#### `app/_features/review/decision-control.tsx`
 
 Responsibility:
 
@@ -946,7 +951,7 @@ Risks:
 - Do not embed rating validation here.
 - Delegate decision behavior to the parent.
 
-#### `app/_features/review/SuggestedTagsControl.tsx`
+#### `app/_features/review/suggested-tags-control.tsx`
 
 Responsibility:
 
@@ -959,7 +964,7 @@ Risks:
 - Preserve suggested → confirmed → rejected → suggested cycling in the parent
   workflow.
 
-#### `app/_features/review/DefectControl.tsx`
+#### `app/_features/review/defect-control.tsx`
 
 Responsibility:
 
@@ -973,7 +978,7 @@ Risks:
 - Preserve nested button structure required by CSS.
 - Delegate toggle and severity mutation to the parent.
 
-#### `app/_features/review/FeedbackEditor.tsx`
+#### `app/_features/review/feedback-editor.tsx`
 
 Responsibility:
 
@@ -989,7 +994,7 @@ Risks:
 - Preserve rows, placeholders, labels, and blur timing.
 - Preserve the note ref required by the `N` shortcut.
 
-#### `app/_features/review/FinishReviewButton.tsx`
+#### `app/_features/review/finish-review-button.tsx`
 
 Responsibility:
 
@@ -1000,7 +1005,7 @@ Risks:
 - Render only in detail mode.
 - Preserve Enter shortcut copy.
 
-#### `app/_features/review/ReviewPanel.tsx`
+#### `app/_features/review/review-panel.tsx`
 
 Responsibility:
 
@@ -1071,7 +1076,7 @@ monolith and expose a nearly equally complicated interface.
 
 ### New path
 
-`app/_components/ui/AutoHideScrollArea.tsx`.
+`app/_components/ui/auto-hide-scroll-area.tsx`.
 
 ### Responsibility
 
@@ -1137,9 +1142,9 @@ these files in the exact current cascade order.
 ### Required changes
 
 - Point virtualization assertions at:
-  - `app/_features/archive/grid/RenderGrid.tsx`
-  - `app/_features/archive/grid/InitialRenderGrid.tsx`
-  - `app/_features/archive/grid/VirtualizedRenderGrid.tsx`
+  - `app/_features/archive/grid/render-grid.tsx`
+  - `app/_features/archive/grid/initial-render-grid.tsx`
+  - `app/_features/archive/grid/virtualized-render-grid.tsx`
 - Point responsive preview assertions at `PreviewImage.tsx`.
 - Point exact-source review assertions at `ReviewCanvasImage.tsx`.
 - Point favorite persistence assertions at `useGalleryPreferences.ts`.

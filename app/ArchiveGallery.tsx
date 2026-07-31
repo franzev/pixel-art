@@ -4,12 +4,13 @@ import {
   type ChangeEvent,
   useCallback,
   useEffect,
-  useId,
   useMemo,
   useRef,
   useState,
 } from "react";
 import { AutoHideScrollArea } from "./_components/ui/auto-hide-scroll-area";
+import { ActiveFilterStrip } from "./_features/archive/active-filter-strip";
+import { ArchiveHeader } from "./_features/archive/archive-header";
 import {
   DECISION_FILTER_OPTIONS,
   DECISION_QUEUES,
@@ -35,61 +36,18 @@ import type {
   ArchiveGalleryProps,
   FilterToken,
 } from "./_features/archive/archive-types";
+import { FilterDrawer } from "./_features/archive/filters/filter-drawer";
+import { GalleryEmptyState } from "./_features/archive/gallery-empty-state";
+import { GalleryHeading } from "./_features/archive/gallery-heading";
 import { RenderGrid } from "./_features/archive/grid/render-grid";
 import { MobileRenderViewer } from "./_features/archive/mobile-render-viewer";
+import { QuickFilterBar } from "./_features/archive/quick-filter-bar";
 import { RenderInspector } from "./_features/archive/render-inspector";
 import type { ReviewQueue } from "./_features/review/review-queue";
 import { expandGalleryCatalog } from "./gallery-catalog";
 import { ReviewDesk } from "./ReviewDesk";
 import type { GalleryItem } from "./review-types";
 import { useReviewStore } from "./useReviewStore";
-
-function FilterGroup({
-  label,
-  value,
-  options,
-  counts,
-  onChange,
-}: {
-  label: string;
-  value: string;
-  options: { value: string; label: string }[];
-  counts: Map<string, number>;
-  onChange: (value: string) => void;
-}) {
-  const groupName = useId();
-
-  return (
-    <fieldset className="filter-group">
-      <legend>{label}</legend>
-      <div className="filter-list">
-        {options.map((option) => (
-          <label
-            key={option.value}
-            className={[
-              "filter-choice",
-              value === option.value ? "active" : "",
-              (counts.get(option.value) ?? 0) === 0 ? "is-empty" : "",
-            ]
-              .filter(Boolean)
-              .join(" ")}
-          >
-            <input
-              className="sr-only"
-              type="radio"
-              name={groupName}
-              value={option.value}
-              checked={value === option.value}
-              onChange={() => onChange(option.value)}
-            />
-            <span>{option.label}</span>
-            <strong>{counts.get(option.value) ?? 0}</strong>
-          </label>
-        ))}
-      </div>
-    </fieldset>
-  );
-}
 
 export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
   const items = useMemo(() => expandGalleryCatalog(catalog), [catalog]);
@@ -676,423 +634,76 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
         Skip to render grid
       </a>
 
-      <header className="topbar">
-        <div className="brand-lockup">
-          <div>
-            <h1>THE ASHEN ARCHIVE</h1>
-            <p>PRIVATE RENDER INDEX</p>
-          </div>
-        </div>
-
-        <label className="search-field">
-          <span className="sr-only">Search renders</span>
-          <input
-            ref={searchRef}
-            type="search"
-            aria-label="Search renders"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search name, collection, filename…"
-          />
-          <kbd>/</kbd>
-        </label>
-
-        <div className="topbar-actions">
-          <label className="grid-control">
-            <span>GRID</span>
-            <input
-              type="range"
-              min="116"
-              max="220"
-              step="8"
-              value={tileSize}
-              onChange={updateTileSize}
-              aria-label="Gallery tile size"
-            />
-          </label>
-        </div>
-      </header>
+      <ArchiveHeader
+        query={query}
+        onQueryChange={setQuery}
+        searchRef={searchRef}
+        tileSize={tileSize}
+        onTileSizeChange={updateTileSize}
+      />
 
       <div className="archive-shell">
         <section className="gallery-browser" aria-label="Render browser">
-          <div className="quick-filter-bar">
-            <div
-              className="quick-filter-scroll"
-              role="group"
-              aria-label="Quick filters"
-            >
-              <button
-                type="button"
-                className={
-                  filters.favorite === "favorite"
-                    ? "quick-filter is-active"
-                    : "quick-filter"
-                }
-                aria-label="Favorites"
-                aria-pressed={filters.favorite === "favorite"}
-                onClick={() => updateQuickFilter("favorite", "favorite")}
-              >
-                <span aria-hidden="true">★</span>
-                <span className="quick-favorite-label">FAVORITES</span>
-              </button>
-              {[
-                ["unreviewed", "UNREVIEWED"],
-                ["keep", "KEEP"],
-                ["reject", "REDO"],
-              ].map(([value, label]) => (
-                <button
-                  key={value}
-                  type="button"
-                  className={
-                    filters.decision === value
-                      ? "quick-filter is-active"
-                      : "quick-filter"
-                  }
-                  aria-pressed={filters.decision === value}
-                  onClick={() => updateQuickFilter("decision", value)}
-                >
-                  {label}
-                </button>
-              ))}
-              <button
-                type="button"
-                className={
-                  filters.rating === "5"
-                    ? "quick-filter is-active"
-                    : "quick-filter"
-                }
-                aria-pressed={filters.rating === "5"}
-                onClick={() => updateQuickFilter("rating", "5")}
-              >
-                5★
-              </button>
-            </div>
-
-            <button
-              ref={filterButtonRef}
-              className="all-filters-action"
-              type="button"
-              aria-expanded={filtersOpen}
-              aria-controls="archive-filters"
-              onClick={() => (filtersOpen ? closeFilters() : openFilters())}
-            >
-              FILTERS
-              {activeFilterCount ? (
-                <strong aria-label={`${activeFilterCount} active filters`}>
-                  {activeFilterCount}
-                </strong>
-              ) : null}
-            </button>
-          </div>
+          <QuickFilterBar
+            favorite={filters.favorite}
+            decision={filters.decision}
+            rating={filters.rating}
+            onUpdateQuickFilter={updateQuickFilter}
+            filtersOpen={filtersOpen}
+            filterButtonRef={filterButtonRef}
+            activeFilterCount={activeFilterCount}
+            onOpenFilters={openFilters}
+            onCloseFilters={closeFilters}
+          />
 
           {filtersOpen ? (
-            <section
-              id="archive-filters"
-              className="filter-drawer"
-              aria-label="Filter renders"
-              onKeyDown={(event) => {
-                if (event.key === "Escape") {
-                  event.stopPropagation();
-                  closeFilters();
-                }
-              }}
-            >
-              <AutoHideScrollArea className="filter-drawer-scroll">
-                <div className="filter-drawer-columns">
-                  <section className="filter-section">
-                    <h3>Collections</h3>
-                    {filters.collections.length ? (
-                      <div
-                        className="collection-chips"
-                        aria-label="Selected collections"
-                      >
-                        {filters.collections.map((name) => (
-                          <button
-                            key={name}
-                            type="button"
-                            className="collection-chip"
-                            onClick={() => toggleCollection(name)}
-                            aria-label={`Remove ${name} collection filter`}
-                          >
-                            <span>{name}</span>
-                            <strong aria-hidden="true">×</strong>
-                          </button>
-                        ))}
-                      </div>
-                    ) : null}
-                    <label className="collection-combobox">
-                      <span>Find a collection</span>
-                      <input
-                        type="search"
-                        value={collectionQuery}
-                        onChange={(event) =>
-                          setCollectionQuery(event.target.value)
-                        }
-                        placeholder={`Search ${collectionOptions.length} collections…`}
-                        role="combobox"
-                        aria-autocomplete="list"
-                        aria-expanded={Boolean(collectionQuery.trim())}
-                        aria-controls="collection-options"
-                      />
-                    </label>
-                    <div
-                      id="collection-options"
-                      className="filter-list collection-options"
-                      role="group"
-                      aria-label="Matching collections"
-                    >
-                      {matchingCollections.map((name) => {
-                        const checked = filters.collections.includes(name);
-                        const count = collectionCounts.get(name) ?? 0;
-                        return (
-                          <button
-                            key={name}
-                            type="button"
-                            role="checkbox"
-                            aria-checked={checked}
-                            className={[
-                              "filter-row",
-                              checked ? "active" : "",
-                              count === 0 ? "is-empty" : "",
-                            ]
-                              .filter(Boolean)
-                              .join(" ")}
-                            onClick={() => {
-                              toggleCollection(name);
-                              setCollectionQuery("");
-                            }}
-                          >
-                            <span
-                              className="filter-marker"
-                              aria-hidden="true"
-                            />
-                            <span>{name}</span>
-                            <strong>{count}</strong>
-                          </button>
-                        );
-                      })}
-                    </div>
-                    <p className="collection-filter-hint" role="status">
-                      {collectionQuery.trim() && matchingCollections.length === 0
-                        ? "No matching collection."
-                        : collectionQuery.trim()
-                          ? "Select more than one collection to compare batches."
-                          : "Largest batches shown. Search to find the rest."}
-                    </p>
-                  </section>
-
-                  <section className="filter-section">
-                    <h3>Subject</h3>
-                    <FilterGroup
-                      label="Gender"
-                      value={filters.gender}
-                      options={genderOptions}
-                      counts={genderCounts}
-                      onChange={(gender) => setFilterValue("gender", gender)}
-                    />
-                    <div className="filter-group race-filter">
-                      <span className="filter-group-label" id="race-filter-label">
-                        Race
-                      </span>
-                      {filters.race !== "all" ? (
-                        <div
-                          className="collection-chips"
-                          aria-label="Selected race"
-                        >
-                          <button
-                            type="button"
-                            className="collection-chip"
-                            onClick={() => setFilterValue("race", "all")}
-                            aria-label={`Remove ${labelFor(
-                              raceOptions,
-                              filters.race,
-                            )} race filter`}
-                          >
-                            <span>{labelFor(raceOptions, filters.race)}</span>
-                            <strong aria-hidden="true">×</strong>
-                          </button>
-                        </div>
-                      ) : null}
-                      <label className="collection-combobox">
-                        <span className="sr-only">Find a race</span>
-                        <input
-                          type="search"
-                          value={raceQuery}
-                          onChange={(event) =>
-                            setRaceQuery(event.target.value)
-                          }
-                          placeholder={`Search ${raceOptions.length - 1} races…`}
-                          role="combobox"
-                          aria-autocomplete="list"
-                          aria-expanded={Boolean(raceQuery.trim())}
-                          aria-controls="race-options"
-                        />
-                      </label>
-                      <div
-                        id="race-options"
-                        className="filter-list collection-options"
-                        role="radiogroup"
-                        aria-labelledby="race-filter-label"
-                      >
-                        {matchingRaceOptions.map((option) => {
-                          const checked = filters.race === option.value;
-                          const count = raceCounts.get(option.value) ?? 0;
-                          return (
-                            <button
-                              key={option.value}
-                              type="button"
-                              role="radio"
-                              aria-checked={checked}
-                              className={[
-                                "filter-row",
-                                checked ? "active" : "",
-                                count === 0 ? "is-empty" : "",
-                              ]
-                                .filter(Boolean)
-                                .join(" ")}
-                              onClick={() => {
-                                setFilterValue(
-                                  "race",
-                                  checked ? "all" : option.value,
-                                );
-                                setRaceQuery("");
-                              }}
-                            >
-                              <span
-                                className="filter-marker"
-                                aria-hidden="true"
-                              />
-                              <span>{option.label}</span>
-                              <strong>{count}</strong>
-                            </button>
-                          );
-                        })}
-                      </div>
-                      <p className="collection-filter-hint" role="status">
-                        {raceQuery.trim() && matchingRaceOptions.length === 0
-                          ? "No matching race."
-                          : "Most common shown. Search to find the rest."}
-                      </p>
-                    </div>
-                  </section>
-
-                  <section className="filter-section">
-                    <h3>Review</h3>
-                    <FilterGroup
-                      label="Favorites"
-                      value={filters.favorite}
-                      options={favoriteOptions}
-                      counts={favoriteCounts}
-                      onChange={(favorite) =>
-                        setFilterValue("favorite", favorite)
-                      }
-                    />
-                    <FilterGroup
-                      label="Decision"
-                      value={filters.decision}
-                      options={decisionOptions}
-                      counts={decisionCounts}
-                      onChange={(decision) =>
-                        setFilterValue("decision", decision)
-                      }
-                    />
-                  </section>
-
-                  <section className="filter-section">
-                    <h3>Rating &amp; state</h3>
-                    <FilterGroup
-                      label="Rating"
-                      value={filters.rating}
-                      options={ratingOptions}
-                      counts={ratingCounts}
-                      onChange={(rating) => setFilterValue("rating", rating)}
-                    />
-                    <FilterGroup
-                      label="Lifecycle"
-                      value={filters.lifecycle}
-                      options={lifecycleOptions}
-                      counts={lifecycleCounts}
-                      onChange={(lifecycle) =>
-                        setFilterValue("lifecycle", lifecycle)
-                      }
-                    />
-                  </section>
-                </div>
-              </AutoHideScrollArea>
-
-              <div className="filter-drawer-footer">
-                <button
-                  type="button"
-                  onClick={clearEverything}
-                  disabled={!hasFilters && !query.trim()}
-                >
-                  CLEAR ALL
-                </button>
-                <span className="filter-drawer-count">
-                  SHOWING {filteredItems.length} RENDERS
-                </span>
-                <button
-                  className="filter-drawer-done"
-                  type="button"
-                  onClick={closeFilters}
-                >
-                  DONE
-                </button>
-              </div>
-            </section>
+            <FilterDrawer
+              filters={filters}
+              query={query}
+              filteredCount={filteredItems.length}
+              hasFilters={hasFilters}
+              collectionQuery={collectionQuery}
+              onCollectionQueryChange={setCollectionQuery}
+              collectionOptions={collectionOptions}
+              collectionCounts={collectionCounts}
+              matchingCollections={matchingCollections}
+              raceQuery={raceQuery}
+              onRaceQueryChange={setRaceQuery}
+              raceOptions={raceOptions}
+              raceCounts={raceCounts}
+              matchingRaceOptions={matchingRaceOptions}
+              genderOptions={genderOptions}
+              genderCounts={genderCounts}
+              favoriteOptions={favoriteOptions}
+              favoriteCounts={favoriteCounts}
+              decisionOptions={decisionOptions}
+              decisionCounts={decisionCounts}
+              ratingOptions={ratingOptions}
+              ratingCounts={ratingCounts}
+              lifecycleOptions={lifecycleOptions}
+              lifecycleCounts={lifecycleCounts}
+              onToggleCollection={toggleCollection}
+              onSetFilterValue={setFilterValue}
+              onClearEverything={clearEverything}
+              onClose={closeFilters}
+            />
           ) : null}
 
-          <div className="active-filter-strip" aria-label="Active filters">
-            {filterTokens.length ? (
-              filterTokens.map((token) => (
-                <button
-                  key={token.id}
-                  type="button"
-                  onClick={token.onRemove}
-                  aria-label={`Remove ${token.label} filter`}
-                >
-                  <span>{token.label}</span>
-                  <strong aria-hidden="true">×</strong>
-                </button>
-              ))
-            ) : (
-              <span className="shortcut-hint">
-                F TO FAVORITE · ← → TO NAVIGATE · / TO SEARCH
-              </span>
-            )}
-          </div>
+          <ActiveFilterStrip tokens={filterTokens} />
 
           <AutoHideScrollArea
             className="gallery-scroll-area"
             viewportRef={galleryViewportRef}
           >
             <main className="gallery-region">
-              <div className="gallery-heading">
-                <div>
-                  <span className="eyebrow">CONTACT SHEET</span>
-                  <p>
-                    {filteredItems.length} OF {items.length} RENDERS
-                    {hiddenRejectedCount ? (
-                      <span className="heading-note">
-                        {" "}
-                        · {hiddenRejectedCount} REJECTED HIDDEN
-                      </span>
-                    ) : null}
-                  </p>
-                </div>
-                <p className="sr-only" role="status">
-                  Showing {filteredItems.length} of {items.length} renders
-                </p>
-                {hasFilters || query.trim() ? (
-                  <button type="button" onClick={clearEverything}>
-                    {hasFilters && query.trim()
-                      ? "CLEAR FILTERS & SEARCH"
-                      : hasFilters
-                        ? "CLEAR FILTERS"
-                        : "CLEAR SEARCH"}
-                  </button>
-                ) : null}
-              </div>
+              <GalleryHeading
+                filteredCount={filteredItems.length}
+                totalCount={items.length}
+                hiddenRejectedCount={hiddenRejectedCount}
+                hasFilters={hasFilters}
+                query={query}
+                onClear={clearEverything}
+              />
 
               {filteredItems.length ? (
                 <RenderGrid
@@ -1104,62 +715,14 @@ export function ArchiveGallery({ catalog }: ArchiveGalleryProps) {
                   onOpen={openItem}
                 />
               ) : (
-                <div id="render-grid" className="empty-state">
-                  {filters.favorite === "favorite" &&
-                  activeFilterCount === 1 &&
-                  !query.trim() ? (
-                    <>
-                      <span>NO FAVORITES</span>
-                      <h2>No favorites in this drawer.</h2>
-                      <p>
-                        <span className="pointer-fine-only">
-                          Select a render and press F to add it to favorites.
-                        </span>
-                        <span className="pointer-coarse-only">
-                          Open a render and tap the star to favorite it.
-                        </span>
-                      </p>
-                      <button
-                        type="button"
-                        onClick={() => setFilterValue("favorite", "all")}
-                      >
-                        SHOW ALL RENDERS
-                      </button>
-                    </>
-                  ) : emptyRecovery && emptyRecovery.freed > 0 ? (
-                    <>
-                      <span>NO MATCHES</span>
-                      <h2>Nothing in this drawer.</h2>
-                      <p>
-                        The {emptyRecovery.label} filter is emptying this
-                        view.
-                      </p>
-                      <button type="button" onClick={emptyRecovery.loosen}>
-                        DROP {emptyRecovery.label} · SHOW{" "}
-                        {emptyRecovery.freed} RENDERS
-                      </button>
-                      <button
-                        type="button"
-                        className="empty-state-secondary"
-                        onClick={clearEverything}
-                      >
-                        CLEAR ALL
-                      </button>
-                    </>
-                  ) : (
-                    <>
-                      <span>NO MATCHES</span>
-                      <h2>Nothing in this drawer.</h2>
-                      <p>
-                        No single filter frees this view. Clear everything
-                        and start again.
-                      </p>
-                      <button type="button" onClick={clearEverything}>
-                        CLEAR ALL
-                      </button>
-                    </>
-                  )}
-                </div>
+                <GalleryEmptyState
+                  favorite={filters.favorite}
+                  activeFilterCount={activeFilterCount}
+                  query={query}
+                  emptyRecovery={emptyRecovery}
+                  onShowAllFavorites={() => setFilterValue("favorite", "all")}
+                  onClearEverything={clearEverything}
+                />
               )}
             </main>
           </AutoHideScrollArea>

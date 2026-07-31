@@ -6,17 +6,11 @@ import { fileURLToPath } from "node:url";
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repositoryDir = path.resolve(scriptDir, "..");
 const artDir = path.join(repositoryDir, "public", "art");
-const categories = [
-  "enemies",
-  "bosses",
-  "angels",
-  "protagonist",
-  "environments",
-];
-const scanRoots = [
-  ...categories.map((category) => path.join(repositoryDir, category)),
-  ...categories.map((category) => path.join(artDir, category)),
-];
+const categories = (await readdir(artDir, { withFileTypes: true }))
+  .filter((entry) => entry.isDirectory() && !entry.name.startsWith("."))
+  .map((entry) => entry.name)
+  .sort();
+const scanRoots = categories.map((category) => path.join(artDir, category));
 
 async function walk(directory) {
   const entries = await readdir(directory, { withFileTypes: true });

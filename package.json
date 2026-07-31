@@ -8,6 +8,8 @@
   "scripts": {
     "sync:art": "node scripts/sync-art.mjs",
     "redo:activate": "node scripts/activate-redo.mjs",
+    "render:qa": "node scripts/build-render-qa.mjs",
+    "render:check": "node scripts/validate-render.mjs",
     "export:feedback": "node scripts/export-feedback.mjs",
     "find:duplicates": "node scripts/find-duplicates.mjs",
     "dev": "node scripts/dev.mjs",

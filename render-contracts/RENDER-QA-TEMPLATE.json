@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "asset": {
+    "category": "",
+    "collection": "",
+    "slug": "",
+    "mode": "isolated",
+    "humanoid": true
+  },
+  "hardGates": {
+    "squareCanvas": false,
+    "uniformBackground": false,
+    "noVisibleEffects": false,
+    "neutralColorBalance": false,
+    "completeSilhouette": false,
+    "safePadding": false
+  },
+  "palette": {
+    "dominantMaterial": "",
+    "secondaryGarment": "",
+    "metalFinish": "",
+    "leatherOrWood": "",
+    "accentRole": "",
+    "lighting": "",
+    "localColorRamps": []
+  },
+  "equipment": null,
+  "diversity": {
+    "armoredHumanoid": false,
+    "comparableWave": false,
+    "recentComparables": [],
+    "noComparableReason": "",
+    "structuralDifferences": [],
+    "bodyOnlySilhouetteDistinct": false,
+    "paletteDifferences": [],
+    "paletteAndLightingDistinct": false
+  },
+  "crops": {
+    "face": [],
+    "hands": [],
+    "equipmentJoins": [],
+    "feet": []
+  },
+  "visualReview": {
+    "completeAnatomy": false,
+    "handsAndFeetVerified": false,
+    "noVisibleEffects": false,
+    "neutralColorBalance": false,
+    "readableAt256": false,
+    "noCropping": false,
+    "distinctFromComparables": false
+  }
+}

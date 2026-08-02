@@ -125,6 +125,15 @@ pixel-filtered paintings, excessive dithering, confetti pixels, noisy
 microtexture, mixed pixel sizes, and unnecessary tiny surface marks. Do not use
 extremely chunky, chibi, toy-like, mitten-handed, or oversimplified treatment.
 
+Prompt-construction lock: state the pixel-art medium near the beginning and
+again in the final style line of every generation prompt. Never positively
+describe an isolated asset as `concept art`, `digital painting`, `illustration`,
+`painterly`, `cinematic render`, `studio render`, or `photorealistic`; those
+phrases compete with and often erase the pixel-art requirement. `High-detail`
+or `full-quality` may describe pixel art only when immediately joined to
+`deliberately pixel-authored`, `hard square pixels`, `connected clusters`, and
+`no anti-aliasing or smooth gradients`.
+
 ## Universal Composition
 
 - Every original full-quality generated render uses a square `1:1` canvas in
@@ -135,11 +144,42 @@ extremely chunky, chibi, toy-like, mitten-handed, or oversimplified treatment.
 - Maintain coherent anatomy unless the brief specifies another anatomy.
 - State and verify exact counts for repeated anatomy, props, and effects.
 - Keep overlaps and attachment points readable.
-- Follow the collection's established facing direction. Otherwise use a
-  readable three-quarter view and keep the batch consistent.
+- Every directional subject is mostly frontal in a shallow **front**
+  three-quarter view, turned slightly toward screen-right from the viewer's
+  perspective.
+  `Right-facing` means a subtle bias, not a complete side profile. Face, gaze,
+  leading torso action, locomotion, attack, and equipment use favor the right
+  edge while the camera-facing facial plane remains readable. For an
+  unobscured face, show both eyes, nose, mouth, chin, and expression; the gaze
+  may glance right without turning the face away. Preserve both shoulders when
+  the anatomy and costume permit. Do not use a 90-degree profile, rear
+  three-quarter view, back-of-head view, ear-only view, far-cheek sliver, or
+  edge-on torso unless explicitly requested. Hair, cloth, or capes may trail
+  toward screen-left. The forward knee and leading foot, weight transfer,
+  weapon head or active end, and attack line must concretely favor
+  screen-right. Reject any result whose dominant locomotion or equipment cue
+  still leads left. Do not mirror a correction; regenerate it while locking
+  asymmetric costume, scars, handed props, and ornaments to their original
+  screen sides. This supersedes older collection-specific, screen-left, and
+  mandatory full-profile directions.
 - Do not add text, typography, or decorative frames unless requested.
 - Never use a flat green background, green fog, magical green wash, or global
   green character tint. Natural green remains valid where materially relevant.
+
+## Redo Identity Preservation
+
+A redo, regeneration, correction, or reference-based revision must remain the
+same depicted person. Preserve the source character's visible skin tone and
+undertone, facial structure, eye and nose shape, lips, hair texture, age, gender
+presentation, and culturally or ethnically specific appearance. Never lighten,
+darken, or change racial or ethnic appearance unless the user explicitly asks
+for that exact identity change.
+
+When the source covers or leaves an identity trait ambiguous, preserve that
+covering or ambiguity rather than inventing a new identity. A role, name,
+costume, faction, location, or fantasy species is not evidence for assigning an
+ethnicity. Change only the defects and traits named in the redo brief. This
+lock does not impose a racial exclusion or default on new character concepts.
 
 ## Canonical Canvas
 
@@ -169,6 +209,11 @@ uniform warm-charcoal background of exactly `#171311`.
 - Keep every background pixel the same color; no alternate near-black, tint,
   gradient, vignette, glow field, texture, scenery, floor plane, horizon, cast
   shadow, or atmosphere.
+- Describe it only as a `perfectly flat, perfectly uniform solid-color
+  #171311 field from edge to edge`. Never request a radial field, studio
+  falloff, light falloff, spotlight, halo, soft backdrop, photographic
+  background, paper/canvas/grain texture, mist, haze, or ambient shadow. Do not
+  light or shade the background; lighting applies to the subject only.
 - Older prompts or collection notes that specify `#120F0E`, `#1A1513`, a range
   of warm near-blacks, or an unspecified warm near-black are superseded.
 - Do not recolor historical renders solely to conform to this future-facing
@@ -232,6 +277,11 @@ At full resolution verify:
 - For an isolated concept or opaque preview, a perfectly uniform `#171311`
   background with no off-color corners, edge variation, floor, shadow,
   gradient, vignette, texture, or scenery.
+- Deliberate pixel construction visible at full size and 256 px: hard square
+  pixel edges, connected clusters, restrained ramps, and no smooth painted or
+  anti-aliased passages. Preserve a failing raw attempt, but never select it as
+  the review candidate; regenerate from the full prompt instead of filtering,
+  resizing, recoloring, or manipulating its pixels.
 - Complete silhouette, generous padding, coherent anatomy, and exact repeated
   element counts.
 - No accidental extra face, hand, limb, weapon, wing, prop, or attachment.

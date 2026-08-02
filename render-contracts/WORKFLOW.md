@@ -14,12 +14,32 @@ collection notes. Then give the user a compact preflight stating:
 - Traits being preserved.
 - How the concepts will differ.
 - Relevant hard prohibitions.
+- The mandatory mostly frontal, shallow front-three-quarter pose with a
+  visible camera-facing facial plane and slight screen-right bias for every
+  directional subject.
 - The mandatory square `1:1` canvas for every generated render.
 - The canonical `#171311` background when the request is an isolated asset
   concept or opaque preview.
 
 This confirms interpretation; it is not a request for the user to redesign the
 brief.
+
+For every redo, regeneration, correction, or reference-based revision,
+preflight must also record the source character's visible identity invariants:
+skin tone and undertone, facial structure, hair texture, age, gender
+presentation, and any culturally or ethnically specific appearance. State that
+the result is the same character, not a recast, and list only the traits or
+defects authorized to change. If an identity trait is covered or ambiguous,
+record that the candidate must preserve the covering or ambiguity.
+
+The redo preflight must also produce a complete visual inventory of the source:
+face covering and visibility, body build, pose, silhouette, every garment
+layer and opening, local palette and materials, accessories, footwear or bare
+feet, equipment construction and grip, framing, lighting, background, and
+pixel treatment. Put those visual facts into the generation prompt. A category
+name or short character description is not an adequate reconstruction prompt.
+List the named defect as the only authorized change and list every other source
+trait as locked.
 
 Before selecting any existing render as an image reference, distinguish its
 review decision from its reference status. A `keep` rating does not
@@ -86,11 +106,33 @@ facts—not URLs or workflow prose—in the image-generation prompt.
 
 - Default to one when quantity is omitted.
 - Generate one distinct asset per image and use one generation call per concept.
+- Immediately after every generation call returns, archive the untouched PNG
+  before visual inspection, QA, retrying, or selection:
+
+  ```bash
+  npm run render:save-attempt -- \
+    --source <generator-output.png> \
+    --series <category>/<collection>/<NN>-<slug>
+  ```
+
+  The command assigns the next ordered `attempt-NN.png` filename and refuses
+  overwrites. Preserve first, second, third, and all later attempts, including
+  obvious failures. Never delete an archived attempt merely because a later
+  try currently appears stronger; the user may prefer an earlier image.
 - Treat the requested quantity as the total desired count.
 - Work in review waves of no more than five.
 - Never substitute a large contact sheet for separate source images.
 - Stop immediately when the user says stop, even if the total is incomplete.
 - Run the routed quality gates before presenting or saving a result as viable.
+- Redos are fresh whole-image generations. Never mirror, composite, recolor,
+  replace the background, inpaint with a local script, or otherwise manipulate
+  the returned pixels to force compliance. Correct failures through a revised
+  full-description prompt and another generation call.
+- Keep every new or changed candidate under `work/` until it passes the
+  executable render gate. Copy `render-contracts/RENDER-QA-TEMPLATE.json` to a
+  task-specific JSON file under `work/`, fill its construction, palette,
+  diversity, crop, and visual-review fields, and never mark an attestation true
+  without inspecting the corresponding evidence.
 - Set the generator to `1:1` when an aspect-ratio control is available, and
   include `square 1:1 canvas; output width must equal output height` in every
   generation prompt.
@@ -98,6 +140,20 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   (`width == height`). Reject and regenerate any non-square result before
   presentation or saving; never crop, stretch, squash, or pad it into
   compliance.
+- Verify at full resolution and 256 pixels that every directional subject is
+  mostly frontal in a shallow front-three-quarter view with a slight
+  screen-right bias. The camera-facing facial plane must be readable; when
+  unobscured, both eyes, nose, mouth, chin, and expression must be visible.
+  Face, gaze, leading torso action, locomotion, attack, and equipment use favor
+  the right edge without turning the face away. Inspect the concrete cues:
+  forward knee and leading foot, weight transfer, weapon head or active end,
+  and attack line must lead screen-right, while the rear leg and loose cloth
+  may trail left. Reject and regenerate a
+  left-facing, 90-degree-profile, rear-three-quarter, back-of-head, ear-only,
+  far-cheek-sliver, or edge-on result unless explicitly requested; do not
+  mirror it as a repair. For a redo, also verify that asymmetric shoulders,
+  scars, sleeves, shawls, handed props, and ornaments remain on their original
+  screen sides.
 - For an isolated concept or opaque preview, verify that sampled background
   pixels—including every corner and canvas edge—are uniformly `#171311`.
   Reject a result with any alternate near-black, tint, gradient, vignette,
@@ -141,12 +197,67 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   the remaining wave and rewrite the palette-and-lighting scripts before
   generating again.
 
+### Mandatory executable render gate
+
+Before any new or changed PNG enters `public/art/`:
+
+1. Build the temporary evidence sheet while the candidate remains under
+   `work/`:
+
+   ```bash
+   npm run render:qa -- \
+     --image work/<render>.png \
+     --plan work/<render>-qa.json
+   ```
+
+2. Inspect the full-color and grayscale 256-pixel views and every face, hand,
+   equipment-join, and feet crop. Confirm a mostly frontal, shallow
+   front-three-quarter pose with the complete camera-facing facial plane
+  readable and the gaze, leading torso action, locomotion, attack, and
+  equipment biased slightly toward screen-right. Confirm that the subject has
+  not turned away, exposed mainly the rear or far cheek, or collapsed into a
+  full side profile. Confirm that the forward knee and leading foot, weight
+  transfer, weapon head or active end, and attack line actually lead right;
+  reject a result when dominant cues still lead left. Record only confirmed
+  pass attestations in the QA plan.
+  For a redo or source-based revision, compare source and candidate side by
+  side at the same scale. Confirm that visible skin tone and undertone, facial
+   structure, hair texture, age, and culturally or ethnically specific
+   appearance remain the same. Reject an incidental lightening, darkening,
+  racial or ethnic recast, or newly invented identity where the source was
+  covered or ambiguous. Also confirm that face covering, body build,
+  proportions, unaffected pose, silhouette, garment topology, palette,
+  materials, accessories, footwear state, and unaffected equipment
+  construction remain unchanged. The candidate fails when it fixes the named
+  defect by redesigning any unrelated trait.
+3. Run the blocking validator and bind the passing receipt to the intended
+   catalog destination:
+
+   ```bash
+   npm run render:check -- \
+     --image work/<render>.png \
+     --plan work/<render>-qa.json \
+     --destination public/art/<category>/<collection>/<NN>-<slug>.png
+   ```
+
+4. Save or activate the candidate only after the validator prints `PASS`.
+
+`npm run sync:art` independently enforces the content-hash receipt. A new
+render, pixel-changing replacement, or redo cannot enter the review catalog
+without a receipt whose image checks, visual QA plan, content hash, and
+destination all match. Unchanged historical entries are grandfathered; do not
+create receipts that pretend they passed the new policy.
+
 ## Saving and Prompt Retention
 
 - Save one original full-quality render directly under
    `public/art/<category>/<collection>/` as `<NN>-<slug>.png`.
-- Save only after its actual pixel dimensions pass the square `1:1` gate.
-- Never create `-source` or `-reference-256` duplicate files.
+- Save only after the executable render gate passes and writes the matching
+  content-hash receipt. Prompt compliance or a self-assigned quality score is
+  never sufficient.
+- Never create catalog `-source` or `-reference-256` duplicate files. Ordered
+  raw generator attempts in `archive/render-attempts/` are the intentional
+  non-catalog exception.
 - Follow existing category, collection, numbering, and filename conventions.
 - Do not place new generations in a `drafts/` folder. After the normal
   viability checks, save each viable render at the collection root so it
@@ -161,6 +272,9 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   not relax the `1:1` requirement for the original generated render.
 - Append the exact prompt, revisions, and waves to the active collection's
   single `GENERATION-PROMPTS.md`.
+- Record which archived attempt was selected as the candidate. Non-selected
+  attempts remain non-catalog comparison history and are never treated as
+  approved, retained, canonical, or positive references by default.
 - Do not create prompt files under `rejected/`.
 - Remove the prompt record when a collection has no active catalog renders.
 
@@ -172,8 +286,9 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   manifests before approval.
 - Silence is not approval.
 - “This is enough” means stop generating, not approve the renders.
-- If generation finishes after the user says stop, do not save the result unless
-  the user later requests it.
+- If generation finishes after the user says stop, preserve the raw result in
+  attempt history but do not select, present, or promote it unless the user
+  later requests it.
 - When the user rejects a complete batch and requests deletion, use a
   recoverable method when practical and remove it from active presentation.
 
@@ -186,6 +301,9 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   approval is not required before saving.
 - Mention internally rejected attempts only when they materially affected the
   result.
+- When a concept required multiple attempts, state that all attempts were
+  preserved and provide the attempt-history location so the user can compare
+  them.
 - Invite approval, rejection, or adjustment either in the website or in chat.
 
 Do not write lore essays or promote unreviewed renders while awaiting visual

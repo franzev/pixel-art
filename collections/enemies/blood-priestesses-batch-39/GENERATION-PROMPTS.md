@@ -1,5 +1,14 @@
 # Blood Priestesses Batch 39 — Replacement Generation Prompts
 
+> **Current facing override (2026-08-01):** Any `right-facing` direction
+> in this file means a mostly frontal, shallow front-three-quarter view.
+> Keep the camera-facing facial plane visible; when unobscured, show both
+> eyes, nose, mouth, chin, and expression. The gaze, leading action,
+> locomotion, and equipment may favor screen-right, but never turn the face
+> away into a rear-three-quarter, back-of-head, ear-only, far-cheek, or
+> complete side-profile view unless explicitly requested. This block
+> overrides older pose or facing wording below.
+
 Generated: 2026-07-30
 
 Mode: built-in image generation
@@ -336,4 +345,45 @@ Scene and composition: square canvas, one complete figure on uniform warm near-b
 Style: deliberate premium crisp pixel art, connected clusters, broad values, restrained ramps, readable at 256 pixels.
 Palette and mood: dirty ivory, charcoal, deep burgundy, dark oxblood cloth, pale skin, restrained dull brass; severe, mournful, grounded.
 Constraints: no broken fingers, floating diamond, ward, barrier, spell, blood effect, string, particle, aura, smoke, glow, weapon, handheld prop, extra anatomy, green, crop, blur, or painterly gradient.
+```
+
+## Redo validation wave — 2026-08-01
+
+Mode: built-in ImageGen source-based edit.
+
+### Oxblood Quarrel Canoness — archived attempt 03
+
+Source reference:
+`public/art/enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness.png`
+
+Archived output:
+`archive/render-attempts/enemies/blood-priestesses-batch-39/04-oxblood-quarrel-canoness/attempt-03.png`
+
+Outcome: preserved and indexed as a raw attempt, but not activated as a redo
+candidate. The render preserved the source character, kept both eyes visible,
+and used the required shallow screen-right bias. It failed the executable
+isolated-render gate because the generated background contains a vignette
+instead of a perfectly uniform `#171311` field. The ready-position trigger hand
+also requires another pass before activation.
+
+```text
+Edit the supplied source into a corrected pixel-art render of the SAME Oxblood Quarrel Canoness character. This is a targeted correction, not a redesign or recast.
+
+IDENTITY LOCK — highest priority: preserve the source character's exact visible warm medium-ivory skin tone and undertone, long mature oval face, straight dark brows, focused almond eyes, straight nose, firm mouth, dark hair, apparent late-20s to early-30s age, feminine adult facial structure, body proportions, oxblood-and-ivory hooded priestess habit, charcoal underlayers, leather belt, boots, and disciplined presence. Do not lighten or darken her complexion. Do not change racial or ethnic appearance, facial structure, age, body type, or costume family.
+
+FACE AND FACING — highest priority: she is MOSTLY FRONTAL in a shallow front-three-quarter view with only a SLIGHT screen-right bias. This is not a full right profile. Keep the camera-facing facial plane clearly readable and show both eyes, both brows, nose, mouth, chin, and focused expression. Both eyes are open, unobstructed, and looking slightly toward screen-right along the crossbow. No blindfold, eye band, veil over the eyes, opaque visor, closed eyes, rear view, far-cheek view, or side profile. Preserve both shoulders.
+
+CROSSBOW AND HAND CONTRACT: exactly one ordinary compact historically plausible early-modern crossbow, complete and coherent, held in a safe low-ready aim toward screen-right without covering the face. One continuous dark wooden tiller/stock, one steel prod centered squarely through the fore-end, one taut functional dark bowstring mechanically attached to both prod tips and seated in the lock, one compact release mechanism, and exactly one plain loaded bolt aligned straight in the top groove. The full crossbow and both bow tips remain visible. Right hand wraps the grip behind the lock; right index finger is straight and safely indexed along the stock outside the trigger until firing. Left hand supports the fore-end from below and stays clear of the string path and bolt. Both wrists align naturally; five coherent fingers on each visible hand. No hand touches the bolt tip or bowstring. No quiver, spare bolt, sidearm, shield, second weapon, detached parts, or decorative crossbow fantasy shapes.
+
+POSE: stable grounded adult stance with torso mostly toward camera, feet separated on one implied baseline, crossbow action and gaze favoring screen-right. Exactly two arms, two hands, two legs, and two fully visible feet. Preserve the source's practical ranged-priestess silhouette.
+
+STYLE: deliberate premium high-density pixel art made of crisp hard square pixels, connected clusters, broad readable value masses, restrained color ramps, selective highlights, consistent pixel density. Mature gothic game concept art. No painterly blur, soft focus, antialiasing, smooth vector rendering, 3D, airbrushing, noisy microtexture, or pixel-filter look.
+
+COMPOSITION: square 1:1 canvas, exactly one complete full-body adult woman centered at about 72–76% canvas height. Full hood, both hands, crossbow stock, both prod tips, string, loaded bolt, robes, legs, and both boots fully inside frame with generous padding. No crop.
+
+BACKGROUND — absolute technical requirement: every background pixel outside the character must be exactly the same solid warm-charcoal color #171311. Perfectly flat and uniform edge-to-edge. No pure black substitute, no vignette, no edge falloff, no warm halo, no texture, no grain, no spotlight, no glow, no gradient, no floor, no cast shadow, no scenery.
+
+PALETTE AND MOOD: preserve source deep oxblood cloth, dirty ivory trim and apron, charcoal fabric, dark brown leather and wood, cool dark steel, aged brass, and the source's natural warm medium-ivory skin. Severe, patient, mournful, disciplined, grounded, non-graphic. No red lighting.
+
+ABSOLUTE NEGATIVES: no racial or complexion change, no blindfold, no magic, spell effects, glowing bolt, aura, particles, mist, smoke, projectile trail, blood strings, ribbons, floating objects, extra faces, extra limbs, extra hands, missing fingers, fused anatomy, green tint, text, border, frame, watermark, scenery, copyrighted character resemblance.
 ```

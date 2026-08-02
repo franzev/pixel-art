@@ -1,5 +1,15 @@
 # Beast-Helm Orders v08 — Generation Prompts
 
+> **Current facing override (2026-08-01):** Any future directional pose
+> in this file uses a mostly frontal, shallow front-three-quarter view
+> with a slight screen-right bias. Keep the camera-facing facial plane
+> visible; when unobscured, show both eyes, nose, mouth, chin, and
+> expression. The gaze, leading action, locomotion, and equipment may favor
+> screen-right, but never turn the face away into a left-facing,
+> rear-three-quarter, back-of-head, ear-only, far-cheek, or complete
+> side-profile view unless explicitly requested. This block overrides older
+> pose or facing wording below.
+
 All prompts follow `RENDER-PROMPT.md`, the shared character and knight
 contracts, the project-wide no-spell lock, and the equipment research gate.
 Beast-Helm Orders v07 is a collection-level visual direction only. No prior

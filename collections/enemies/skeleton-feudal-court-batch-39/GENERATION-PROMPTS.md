@@ -1,5 +1,15 @@
 # Skeleton Feudal Court Batch 39 — Generation Prompts
 
+> **Current medium/background override (2026-08-02):** Every future prompt in
+> this file begins and ends with deliberately pixel-authored high-density pixel
+> art: hard square pixels, connected clusters, restrained ramps, no smoothing,
+> anti-aliasing, painterly gradients, brushwork, or pixel-filtered painting.
+> Use a perfectly flat, perfectly uniform solid-color `#171311` background from
+> edge to edge; lighting affects the subject only. No radial/studio falloff,
+> halo, vignette, texture, grain, floor, shadow, mist, or haze. Never positively
+> request concept art, illustration, painting, cinematic rendering, or
+> photorealism. This overrides older wording below.
+
 ## Redo wave 04
 
 Equipment research: Met hand-and-a-half sword `2006.564`, 124.8 cm overall

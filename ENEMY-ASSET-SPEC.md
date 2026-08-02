@@ -1,8 +1,8 @@
 # Enemy Pixel-Art Asset Specification
 
 **Status:** Canonical production baseline  
-**Version:** 1.7
-**Last updated:** 2026-07-31
+**Version:** 2.0
+**Last updated:** 2026-08-02
 **Scope:** Enemies, demons, cultists, ghosts, possessed civilians, folkloric
 creatures, and enemy concept batches
 
@@ -61,6 +61,59 @@ The desired result is:
 - Clearly distinct from the Crimson Knight
 - Inspired by the density and discipline of high-quality Metroidvania sprites
   without reproducing an existing game's character, costume, or composition
+
+### Project-wide facing lock
+
+Every future enemy or other directional subject is mostly frontal in a shallow
+**front** three-quarter view, turned slightly toward screen-right from the viewer's
+perspective. `Right-facing` is a subtle directional bias, not a complete side
+profile. Face, gaze, leading torso action, locomotion, attack, and equipment use
+favor the right edge while the camera-facing facial plane remains readable.
+For an unobscured face, show both eyes, nose, mouth, chin, and expression; the
+gaze may glance right without turning the face away. Preserve both shoulders
+when the creature's anatomy and costume permit. Do not force a 90-degree
+profile, rear three-quarter view, back-of-head view, ear-only view, far-cheek
+sliver, or edge-on torso unless explicitly requested. Hair, cloth, or a cape
+may trail toward screen-left. Require concrete screen-space evidence: the
+forward knee and leading foot, weight transfer, attack line, and weapon head or
+active end lead screen-right; the rear leg and loose fabric may trail
+screen-left. Reject a render when any dominant locomotion or equipment cue
+still leads left. Do not mirror a result to repair direction. Regenerate while
+locking each asymmetric shoulder, scar, sleeve, shawl, handed prop, and
+ornament to its original screen side. This supersedes every older enemy
+prompt, collection direction, retained-reference pose, or continuation note
+that points the subject screen-left or requires a stronger side profile.
+
+### Redo identity lock
+
+Every enemy redo, regeneration, correction, or reference-based revision is the
+same character, not a recast. Preserve the source character's visible skin tone
+and undertone, facial structure, hair texture, age, gender presentation, and
+culturally or ethnically specific appearance. Do not lighten, darken, or change
+racial or ethnic appearance unless explicitly requested. If those traits are
+covered or ambiguous in the source, preserve that covering or ambiguity rather
+than inventing a new identity from the enemy's name, role, costume, faction,
+location, or species. Correct only the defects named in the redo brief.
+
+### Redo full-description and minimum-delta lock
+
+Every enemy redo is regenerated as a complete new image from the supplied
+source reference and a self-contained visual reconstruction prompt. Do not
+perform pixel manipulation, mirroring, compositing, recoloring, background
+replacement, scripted inpainting, or manual touch-up.
+
+The prompt must inventory the source character's face covering and visibility,
+identity, anatomy, build, proportions, pose, silhouette, garment topology,
+openings and hems, palette, materials, damage, devotional accessories,
+footwear or bare feet, weapon construction and grip, framing, lighting,
+background, and pixel treatment. Name one or more confirmed defects as the
+only authorized changes. Preserve every unlisted trait exactly in design and
+visual role.
+
+Reject a candidate as a redesign when it changes an unrelated face, covering,
+body build, silhouette, garment layer, color family, accessory, footwear,
+weapon type, or pose. A visually attractive replacement is still a failed redo
+when it is no longer the same source design.
 
 ### Active demon diversity lock
 
@@ -190,6 +243,10 @@ Non-negotiable:
 
 - Never use a green background.
 - No alternate near-black, tint, texture, glow field, or atmospheric variation.
+- Prompt the background only as a perfectly flat, perfectly uniform solid
+  `#171311` field from edge to edge, with lighting restricted to the subject.
+  Never request radial or studio falloff, a spotlight, halo, soft backdrop,
+  grain, paper/canvas texture, mist, haze, or ambient shadow.
 - No bright chroma-key-looking field unless the user specifically requests
   transparent extraction.
 - No scenery, floor plane, cast shadow, gradient vignette, or environment unless
@@ -220,6 +277,13 @@ Avoid:
 
 The concept source may contain more detail than the future native sprite, but it
 must still read as intentional pixel art rather than a filtered illustration.
+
+In generation prompts, name `deliberately pixel-authored high-density pixel
+art` both near the beginning and in the final style line. Never use `concept
+art`, `digital painting`, `illustration`, `painterly`, `cinematic render`,
+`studio render`, or `photorealistic` as positive medium language. Reject and
+regenerate any result whose smooth rendering, anti-aliasing, or brush-like
+detail makes the pixel construction ambiguous.
 
 ## 7. Palette system
 
@@ -535,7 +599,15 @@ Prompt requirements:
   dramatic windblown volume.
 - State that no visible spells or spell-like effects appear. This prohibition
   has no caster or magical-subject exception.
-- Name the facing direction and flow direction of hair, cloth, or cape.
+- State that the subject is mostly frontal in a shallow front-three-quarter
+  view, turned slightly toward screen-right without turning the face away. For
+  an unobscured face, require both eyes, nose, mouth, chin, and expression; ban
+  rear-three-quarter, back-of-head, ear-only, and far-cheek views. Then name the
+  screen-left trailing flow of hair, cloth, or cape where applicable.
+- For every redo or source-based revision, state that this is the same
+  character, not a recast; preserve visible skin tone and undertone, facial
+  structure, hair texture, age, and culturally or ethnically specific
+  appearance; change only the explicitly named defects.
 - Name the gameplay-defining prop and ensure it remains fully visible.
 - Use one accent family deliberately.
 - Keep metal, cloth, leather, wood, skin, and accents on separate local color
@@ -828,7 +900,13 @@ An asset can be retained only when all applicable checks pass.
 - [ ] One intended subject
 - [ ] Generous safe padding
 - [ ] No crop
-- [ ] Correct facing and flow direction
+- [ ] Mostly frontal shallow front-three-quarter pose is biased slightly toward
+      screen-right
+- [ ] Camera-facing facial plane is readable; both eyes, nose, mouth, chin, and
+      expression are visible when unobscured
+- [ ] Face and torso are not turned into a rear or complete side profile
+- [ ] Hair, cloth, or cape trails screen-left where motion requires trailing
+      flow
 - [ ] Readable at 256
 
 ### Pixel treatment

@@ -4,6 +4,13 @@
 **Applies to:** Every continuation or revision after drafts 01–10  
 **Status:** Mandatory active collection guidance
 
+> **Current facing clarification (2026-08-01):** The historical left-facing
+> presentation below is superseded for future renders. Use a mostly frontal,
+> shallow front-three-quarter horse-and-rider view with a slight screen-right
+> bias. Keep the rider's camera-facing facial plane visible; when unobscured,
+> show both eyes, nose, mouth, chin, and expression. Do not use rear,
+> back-of-head, far-cheek, or complete side-profile views.
+
 ## Direct user feedback
 
 The first ten drafts have good render quality, but they do not unmistakably read
@@ -112,7 +119,8 @@ Do not use another mace, hammer, or hand axe in the next correction wave.
 
 - Keep exactly one complete adult vampire rider and one complete natural horse.
 - Preserve coherent saddles, stirrups, reins, tack, human anatomy, horse anatomy,
-  full padding, and the left-facing three-quarter mounted presentation.
+  full padding, and the mostly frontal shallow front-three-quarter mounted
+  presentation with a slight screen-right bias and visible rider face.
 - The horse may carry vampire-court cloth and heraldry but must remain a
   believable living horse with no fangs, exposed bone, extra anatomy, or glowing
   body.

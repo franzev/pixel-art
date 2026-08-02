@@ -1,8 +1,8 @@
 # Ashen Archive Render Router
 
-Version: 3.4
+Version: 3.9
 
-Last updated: 2026-07-31
+Last updated: 2026-08-02
 
 Status: Active project-wide entry point for new renders
 
@@ -21,6 +21,11 @@ render directly at `public/art/<category>/<collection>/` for review on the
 website. Do not use a `drafts/` folder for new generations. Catalog placement
 does not grant approval: each render remains unapproved until the user reviews
 it.
+
+Before inspecting or retrying any generator result, preserve the raw PNG with
+`npm run render:save-attempt`. Every first, second, third, and later attempt
+must remain recoverable under `archive/render-attempts/`, even when an agent
+initially prefers a later result. Attempt history is not catalog approval.
 
 ## Gallery-Wide Style Freedom
 
@@ -79,15 +84,138 @@ not proof of compliance: inspect the returned file metadata and require exact
 pixel equality (`width == height`) before the render can pass viability checks
 or be saved under `public/art/`.
 
-A non-square generated result is a failed attempt. Reject and regenerate it; do
-not crop, stretch, squash, or add padding merely to make the file square. This
-lock is future-facing and does not require retroactive changes to historical
-renders.
+A non-square generated result is a failed attempt. Preserve the raw result in
+the attempt archive, then reject and regenerate it; do not crop, stretch,
+squash, or add padding merely to make the file square. This lock is
+future-facing and does not require retroactive changes to historical renders.
 
 Deliberately authored native production sprites, animation sheets, environment
 plates, UI composites, and review sheets may use their named target dimensions.
 They are derived production or review artifacts, not original full-quality
 generated renders, and do not waive the `1:1` generation requirement.
+
+## Project-Wide Slight Right-Facing Lock
+
+Every future render with a directional subject must have a subtle screen-right
+bias from the viewer's perspective. `Right-facing` does not mean a complete
+side profile. Keep the subject mostly frontal in a shallow **front**
+three-quarter view, never a rear three-quarter view. The camera-facing facial
+plane must remain readable: when the face is unobscured, show both eyes, nose,
+mouth, chin, and expression. The gaze may look slightly right without turning
+the face away from the viewer. Turn the head and upper torso only enough for the
+leading action, locomotion, weapon use, and primary directional action to favor
+the right edge. Preserve both shoulders when the design permits. Do not rotate
+the subject into a 90-degree profile, back-of-head view, ear-only view,
+far-cheek sliver, or edge-on torso unless the user explicitly requests it.
+
+Every applicable generation prompt must explicitly say:
+
+> Subject is mostly frontal in a shallow front three-quarter view, turned
+> slightly toward screen-right from the viewer's perspective. Keep the
+> camera-facing facial plane visible; when unobscured, show both eyes, nose,
+> mouth, chin, and expression. The gaze, leading torso action, locomotion,
+> attack, and equipment direction favor the right edge without turning the
+> face away. The forward knee and leading foot, weight transfer, attack line,
+> and weapon head or active end visibly lead toward screen-right; the rear leg
+> and loose cloth may trail toward screen-left. Do not use a complete side
+> profile, rear three-quarter view, back-of-head view, ear-only view,
+> far-cheek sliver, or edge-on torso. Do not mirror the result; preserve every
+> asymmetric character trait on its original screen side.
+
+Hair, loose cloth, banners, or capes may trail toward screen-left when the pose
+implies forward motion to the right. Do not mirror the complete output after
+generation merely to repair the direction; regenerate it with correct anatomy,
+handed equipment, asymmetrical costume details, and lighting.
+
+Do not rely on the words `right-facing` or `screen-right bias` alone. Every
+directional prompt must make the screen-space evidence agree: the forward knee
+and leading foot, weight transfer, weapon head or attack end, gaze, and trailing
+cloth must collectively read toward screen-right. Never preserve a
+screen-left-leading leg or weapon angle while simultaneously asking for a
+right-facing result. Before accepting a render, inspect those concrete cues.
+If any dominant cue still leads screen-left, preserve the raw attempt and
+regenerate it. When correcting direction, explicitly lock every asymmetrical
+character trait to its original screen side so the generator does not solve the
+request by mirroring the costume or anatomy.
+
+This lock supersedes every older prompt, collection note, canonical pose, or
+reference direction that says screen-left, facing left, or interprets
+screen-right as a mandatory full side profile. A genuinely non-directional
+prop, empty environment, or abstract composition may record facing as not
+applicable, but its QA plan must explain why no directional subject or action
+exists.
+
+## Project-Wide Redo Identity Lock
+
+A redo, regeneration, correction, or reference-based revision depicts the same
+character—not a recast. Preserve every identity trait visible in the source:
+skin tone and undertone, facial structure, eye and nose shape, lips, hair
+texture, age, gender presentation, and culturally or ethnically specific
+appearance. Do not lighten, darken, or change the character's racial or ethnic
+appearance unless the user explicitly requests that exact change.
+
+If the source fully covers or leaves an identity trait ambiguous, preserve the
+covering or ambiguity. Do not infer or invent an ethnicity from the character's
+name, role, costume, faction, culture, location, or fantasy species. Correct
+only the defects and attributes named by the current redo brief.
+
+Every redo prompt must explicitly say:
+
+> Identity preservation: this is the same character, not a recast. Preserve
+> the source character's visible skin tone and undertone, facial structure,
+> hair texture, age, and culturally or ethnically specific appearance. Do not
+> lighten, darken, or change racial or ethnic appearance. If a trait is covered
+> or ambiguous in the source, preserve that ambiguity. Change only the defects
+> explicitly named in this redo brief.
+
+This lock governs source-based revisions only. New characters follow the
+current brief and collection direction without any prohibited or preferred
+race.
+
+## Project-Wide Full-Description Redo Lock
+
+A redo is a fresh generator output driven by a complete source-reconstruction
+prompt. It is never repaired through mirroring, compositing, recoloring,
+background replacement, inpainting by local scripts, or other pixel
+manipulation.
+
+Before generating, describe every visually meaningful source trait in the
+prompt even when the source image is also supplied:
+
+- exact face visibility or covering, head angle, apparent age, visible skin
+  tone, facial structure, hair, scars, and expression;
+- body build, proportions, posture, limb placement, stance, and bare-foot or
+  footwear state;
+- complete silhouette and negative spaces;
+- every garment layer from head to foot, including topology, openings, sleeve
+  coverage, hems, wear, damage, fasteners, devotional objects, and which body
+  areas remain exposed;
+- exact local colors and materials without a global filter;
+- exact equipment type, dimensions, components, attachment, hand contacts,
+  orientation, and load path;
+- original composition, scale in frame, padding, pixel treatment, lighting,
+  and background;
+- the one named defect authorized to change;
+- an explicit list of all source traits that must not change.
+
+Do not summarize the source as a character archetype such as “nun,” “knight,”
+or “priestess.” Those labels are too broad and invite a redesign. Reconstruct
+the observed image in concrete visual language.
+
+Every redo prompt must explicitly say:
+
+> Generate a new complete render from this full description and the supplied
+> source reference. Do not manipulate or reuse source pixels. Change only the
+> named defect. Preserve the source character's face visibility or covering,
+> identity, body build, proportions, pose outside the corrected area,
+> silhouette, garment topology, palette, materials, accessories, equipment
+> identity outside the corrected component, framing, and pixel-art treatment.
+> Do not improve, modernize, beautify, reinterpret, simplify, or redesign any
+> unlisted trait.
+
+If the requested correction cannot be made without changing an unrelated
+trait, preserve the raw attempt and reject it. Do not broaden the correction
+scope after generation.
 
 ## Project-Wide Background Lock
 
@@ -99,6 +227,35 @@ substitute `#120F0E`, `#1A1513`, another near-black, a transparent background,
 scenery, floor plane, cast shadow, gradient, vignette, glow field, texture, or
 atmospheric variation. This lock supersedes older collection prompts, status
 notes, and specification ranges that permit other background colors.
+
+Use this exact positive construction: `perfectly flat, perfectly uniform
+solid-color #171311 background from edge to edge; every background pixel is the
+same color; lighting affects the subject only`. Never use `radial`, `studio
+falloff`, `soft falloff`, `spotlight`, `halo`, `soft backdrop`, `cinematic
+background`, `grain`, `paper`, `canvas`, `mist`, or `haze` as positive
+background language. Those terms are defects even when the result still looks
+near-black.
+
+## Project-Wide Pixel-Art Prompt Lock
+
+Every isolated asset prompt must declare `deliberately pixel-authored
+high-density pixel art` near the beginning and repeat the medium in its final
+style line. Require hard square pixels, connected clusters, broad readable
+value masses, restrained color ramps, selective highlights, consistent pixel
+density, and clean silhouette edges readable at 256 pixels.
+
+Never positively call the requested output `concept art`, `digital painting`,
+`illustration`, `painterly`, `cinematic render`, `studio render`, or
+`photorealistic`. Do not use a generic `high-resolution fantasy game concept
+art` ending: it can override the pixel-art medium. Explicitly reject smoothing,
+anti-aliasing, blur, airbrushing, smooth gradients, painterly brushwork,
+pixel-filtered paintings, noisy microtexture, and mixed pixel sizes.
+
+A result that reads as a smooth painting or has any background texture,
+gradient, vignette, halo, falloff, floor, or cast shadow is a failed attempt.
+Archive it before judgment, do not pixel-edit it, and regenerate from the full
+visual prompt. It cannot be the selected review candidate merely because its
+character design is otherwise strong.
 
 Do not recolor historical renders merely to enforce this future-facing rule.
 Native production sprites and animation frames remain transparent. Intentionally

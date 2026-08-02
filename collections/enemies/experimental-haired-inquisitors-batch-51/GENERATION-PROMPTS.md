@@ -1,5 +1,25 @@
 # Experimental-Haired Inquisitors Batch 51 — Generation Prompts
 
+> **Current medium/background override (2026-08-02):** Every future prompt in
+> this file begins and ends with deliberately pixel-authored high-density pixel
+> art: hard square pixels, connected clusters, restrained ramps, no smoothing,
+> anti-aliasing, painterly gradients, brushwork, or pixel-filtered painting.
+> Use a perfectly flat, perfectly uniform solid-color `#171311` background from
+> edge to edge; lighting affects the subject only. No radial/studio falloff,
+> halo, vignette, texture, grain, floor, shadow, mist, or haze. Never positively
+> request concept art, illustration, painting, cinematic rendering, or
+> photorealism. This overrides older wording below.
+
+> **Current facing override (2026-08-01):** Any future directional pose
+> in this file uses a mostly frontal, shallow front-three-quarter view
+> with a slight screen-right bias. Keep the camera-facing facial plane
+> visible; when unobscured, show both eyes, nose, mouth, chin, and
+> expression. The gaze, leading action, locomotion, and equipment may favor
+> screen-right, but never turn the face away into a left-facing,
+> rear-three-quarter, back-of-head, ear-only, far-cheek, or complete
+> side-profile view unless explicitly requested. This block overrides older
+> pose or facing wording below.
+
 Generation mode: built-in image generation, one call per character.
 
 These prompts were submitted during the interrupted first direction. The

@@ -72,3 +72,34 @@ anti-aliasing, green backgrounds, watermarks, and text.
 24. **Acid Sigbin** — Backward-running goat-dog leaving corrosive footprints.
 25. **Possession Kapre** — Balete-tree giant releasing violet-blue possession
     smoke from an enormous cigar.
+
+## 2026-08-02 rejected-attempt correction — Beetle Hexer v03
+
+Source under correction:
+`archive/render-attempts/enemies/combat-magic-batch-04/03-beetle-hexer/attempt-01.png`
+
+Prompt intent: reconstruct the same Beetle Hexer as a fresh complete render,
+using the original catalog character as the authoritative identity and design
+reference. Preserve the character's visible skin tone and undertone, facial
+structure, age, build, hood and clothing construction, bamboo insect vessels,
+hooked staff, palette, proportions, pixel-art treatment, framing, and all
+recognizable asymmetries. Remove only the rejected floating beetles and magic
+effects. Keep exactly one character with normal anatomy and correct contact
+between both hands and equipment. Pose the torso mostly frontally in a shallow
+front three-quarter view, turned only slightly toward screen-right; keep the
+camera-facing facial plane readable and make the staff, leading action, and
+locomotion reinforce screen-right. Do not mirror, recast, recolor, beautify, or
+redesign the character. Use a square full-body composition on a uniform flat
+`#171311` background with no vignette, texture, glow, particles, scenery,
+floor, shadow, text, border, or interface.
+
+Generated review candidate:
+`work/redo-staging/enemies/combat-magic-batch-04/03-beetle-hexer-v03.png`
+
+Untouched raw archive:
+`archive/render-attempts/enemies/combat-magic-batch-04/03-beetle-hexer/attempt-02.png`
+
+Result: identity and equipment are retained, the unwanted effects are absent,
+and the pose has a subtle screen-right bias. The raw output is preserved and
+indexed for review. It is not activated because the generator did not produce
+an exact edge-to-edge `#171311` background.

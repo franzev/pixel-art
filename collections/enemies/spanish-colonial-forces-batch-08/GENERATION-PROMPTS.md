@@ -1,5 +1,15 @@
 # Spanish Colonial Forces Batch 08 — Generation Prompts
 
+> **Current facing override (2026-08-01):** Any future directional pose
+> in this file uses a mostly frontal, shallow front-three-quarter view
+> with a slight screen-right bias. Keep the camera-facing facial plane
+> visible; when unobscured, show both eyes, nose, mouth, chin, and
+> expression. The gaze, leading action, locomotion, and equipment may favor
+> screen-right, but never turn the face away into a left-facing,
+> rear-three-quarter, back-of-head, ear-only, far-cheek, or complete
+> side-profile view unless explicitly requested. This block overrides older
+> pose or facing wording below.
+
 **Workflow:** Built-in image generation, one separate call per design  
 **Status:** Unapproved drafts  
 **Date:** 2026-07-28
@@ -114,4 +124,3 @@ barrel, cylinder, and grip. Exactly one officer's sabre remains fully sheathed
 at the opposite hip in a narrow dark scabbard; the other hand rests on its hilt.
 No rifle and no drawn sword. Target a 70–74 px standing silhouette and keep him
 the same body scale as enlisted troops.
-

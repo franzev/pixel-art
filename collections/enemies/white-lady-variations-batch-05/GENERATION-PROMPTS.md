@@ -1,5 +1,14 @@
 # White Lady Variations — Prompt Set
 
+> **Current facing override (2026-08-01):** Any `right-facing` direction
+> in this file means a mostly frontal, shallow front-three-quarter view.
+> Keep the camera-facing facial plane visible; when unobscured, show both
+> eyes, nose, mouth, chin, and expression. The gaze, leading action,
+> locomotion, and equipment may favor screen-right, but never turn the face
+> away into a rear-three-quarter, back-of-head, ear-only, far-cheek, or
+> complete side-profile view unless explicitly requested. This block
+> overrides older pose or facing wording below.
+
 Generated as five separate assets through the built-in image-generation workflow.
 These are original game interpretations inspired by Philippine White Lady ghost
 stories, not depictions of one specific reported apparition or local tradition.

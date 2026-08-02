@@ -1,6 +1,6 @@
 # Enemy Art Direction and User Feedback
 
-**Last updated:** 2026-07-31
+**Last updated:** 2026-08-01
 **Purpose:** Durable user-taste and workflow guidance for future enemy generation
 
 > 2026-07-30: The user completed a 996-render bulk review. The distilled,
@@ -14,6 +14,23 @@
 > colonial, folkloric, or folk-craft themed. Apply those directions only to an
 > explicitly named brief or collection. Banig, abaca, capiz, Filipino clothing,
 > and Philippine creature traits are not default knight or creature features.
+>
+> 2026-08-01: When the user says an enemy is `right-facing`, interpret it as a
+> subtle screen-right bias in a mostly frontal, shallow front-three-quarter
+> view—not a complete side profile or a view from behind. Keep the
+> camera-facing facial plane readable. For an unobscured face, show both eyes,
+> nose, mouth, chin, and expression. Gaze, leading action, locomotion, and
+> equipment may favor screen-right, but do not turn the face away into a rear
+> three-quarter, back-of-head, ear-only, far-cheek, or 90-degree profile view
+> unless explicitly requested.
+>
+> 2026-08-01: Redos must be fresh whole-image generations from a complete
+> description of the source, not pixel manipulation and not a loose redesign.
+> The prompt must reconstruct the original face visibility or covering, body,
+> pose, silhouette, garment topology, palette, accessories, footwear state,
+> equipment, framing, and pixel treatment. Change only the confirmed defect.
+> A candidate that looks polished but changes unrelated traits is a failed
+> redo.
 
 Read this document before proposing or generating a new enemy batch. It records
 what the user has explicitly liked, disliked, rejected, or corrected. It does
@@ -610,11 +627,12 @@ After generation:
   subject to current reference-retirement and fatigue locks.
 - The Ash-Hatchet Penitent remains a historical 5/5 review keep but is not an
   active generation reference. Its repeated armor bundle is fatigue-locked.
-- 203 renders carry review keeps from the 2026-07-30 bulk review. A review
+- 362 renders carry review keeps in the current confirmed review export. A review
   keep is not canon approval; kept work remains draft until explicitly
   approved.
-- 707 renders are marked for deletion (non-destructively). Physical deletion
-  still requires a separately authorized cleanup pass.
+- 813 renders are marked for deletion in the current confirmed review export.
+  Their catalog PNGs were physically removed through the separately authorized
+  cleanup pass on 2026-07-31; the review records remain historical evidence.
 - Batch 23 is fully rejected and deleted from the project.
 - Batch 24 Designs 01–04 are saved drafts, not retained canon.
 - Batch 24 Design 05 is not a project asset.

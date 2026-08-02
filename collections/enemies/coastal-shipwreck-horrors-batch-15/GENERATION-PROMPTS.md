@@ -1,5 +1,14 @@
 # Coastal and Shipwreck Horrors Batch 15 — Generation Prompts
 
+> **Current facing override (2026-08-01):** Any `right-facing` direction
+> in this file means a mostly frontal, shallow front-three-quarter view.
+> Keep the camera-facing facial plane visible; when unobscured, show both
+> eyes, nose, mouth, chin, and expression. The gaze, leading action,
+> locomotion, and equipment may favor screen-right, but never turn the face
+> away into a rear-three-quarter, back-of-head, ear-only, far-cheek, or
+> complete side-profile view unless explicitly requested. This block
+> overrides older pose or facing wording below.
+
 **Prepared:** 2026-07-28
 **Workflow:** Built-in image generation; one fresh call per design
 **Status:** Draft-only

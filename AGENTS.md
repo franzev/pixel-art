@@ -18,14 +18,39 @@ pixel-art:
    collection notes are insufficient. Treat confirmed ratings, decisions, tags,
    defects, and corrections as direct evidence; do not treat unconfirmed
    suggestions as approved art direction.
-7. Follow `ORGANIZATION.md`. Save each original full-quality render once under
-   `public/art/<category>/<collection>/`; never create `-source` or
-   `-reference-256` duplicates.
+7. Follow `ORGANIZATION.md`. Immediately archive every raw generator output,
+   before judging or retrying it, with `npm run render:save-attempt`. Keep
+   ordered first, second, third, and later attempts; never overwrite or delete
+   an attempt because a later try initially looks better. Save only the chosen
+   viable render under `public/art/<category>/<collection>/`; never create
+   `-source` or `-reference-256` duplicates in the catalog.
 8. Do not use a `drafts/` folder for new generations. After the normal
    viability checks, save each generated full-quality render directly at the
    collection root so it appears in the review website. Root placement means
    “available for review,” not approved, retained, canonical, or
    production-ready.
+9. Interpret `right-facing` as a subtle directional bias, not a complete side
+   profile. Keep the subject mostly frontal in a shallow **front**
+   three-quarter view, turned slightly toward screen-right. Keep the
+   camera-facing facial plane readable: for an unobscured face, show both eyes,
+   the nose, mouth, and expression. The gaze, leading action, locomotion, and
+   equipment must read rightward, but do not rotate the head or torso into a
+   90-degree profile, rear three-quarter view, back-of-head view, or far-cheek
+   sliver unless the user explicitly requests one. Do not rely on the label
+   `right-facing`: verify that the forward knee and leading foot, weight
+   transfer, attack line, and weapon head or active end lead toward
+   screen-right while the rear leg and loose cloth may trail screen-left.
+   Reject and regenerate a result when any dominant cue still leads left. Do
+   not mirror a result to repair direction; lock asymmetric shoulders, scars,
+   garments, handed props, and ornaments to their original screen sides.
+10. Treat every redo, regeneration, correction, and reference-based revision as
+    the same character—not a recast. Preserve the source character's visible
+    skin tone and undertone, facial structure, hair texture, age, and
+    culturally or ethnically specific appearance unless the user explicitly
+    requests a change. Never lighten, darken, or otherwise change racial or
+    ethnic appearance as an incidental consequence of regeneration. If those
+    traits are covered or ambiguous in the source, preserve that ambiguity
+    instead of inventing a new identity.
 
 Only visual and category instructions belong in an image-generation prompt.
 Workflow, saving, approval, and response instructions guide the agent but must

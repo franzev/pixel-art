@@ -1,7 +1,7 @@
 # Pixel-Art Asset Specification
 
 **Status:** Canonical baseline  
-**Version:** 2.0
+**Version:** 2.1
 
 ## Reference Roles
 
@@ -82,8 +82,11 @@ waist, and controlled shoulder width—not because of a decorative helmet crest.
 - Hands end around upper-to-mid thigh.
 - Keep gloves and boots proportional; do not enlarge them for readability.
 - Use a wide but natural stance with slightly bent knees.
-- Turn the torso three-quarters toward the viewer while directing attention
-  screen-left.
+- Keep the torso mostly frontal in a shallow front-three-quarter view while
+  turning the gaze, sword action, and attention slightly toward screen-right.
+  Keep the front of the visor and faceplate readable; do not show mainly the
+  rear plate or far side of the helmet. Do not use a complete side profile,
+  rear three-quarter view, or edge-on torso.
 - Preserve negative space between both legs and between the empty hand and hip.
 
 Automatic proportion failures:
@@ -129,7 +132,7 @@ chain link, scratch, seam, or overlapping plate.
 The cape is a defining feature and must not be shortened into a shoulder mantle.
 
 - Begin as a crimson scarf or mantle around both shoulders.
-- Flow behind the body toward screen-right.
+- Flow behind the body toward screen-left.
 - End around the lower calf, approximately 42–48 pixels below its shoulder
   attachment.
 - Use three or four broad torn tails.
@@ -202,14 +205,15 @@ downscaling a detailed concept illustration is not acceptable.
 
 ## Canonical Idle Pose
 
-- Face and sword direction: screen-left
-- Torso: three-quarter view
+- Face and sword direction: slight screen-right bias
+- Torso: mostly frontal, shallow front-three-quarter view; never rear or full
+  profile
 - Weight: mostly on screen-right leg
 - Knees: slightly bent, not crouched
 - Feet: widely but naturally planted
 - Sword: low diagonal guard
 - Off-hand: empty and relaxed near hip
-- Cape: trailing toward screen-right
+- Cape: trailing toward screen-left
 - Head: level or very slightly bowed
 
 The resulting silhouette should combine:
@@ -251,9 +255,14 @@ Animation rules:
 > Metroidvania knight directly on an implied native 96 × 96 grid. The knight is
 > 70–74 pixels tall with a 9–10-pixel helmeted head, 7–7.5-head proportions,
 > long legs, narrow waist, 24–27-pixel shoulders, and a wide upright combat
-> stance with slightly bent knees. Give him one 42–48-pixel visible straight
-> sword blade held diagonally downward and a long crimson cape flowing behind
-> him to the lower calf with three or four broad torn tails. Use 12–14 colors,
+> stance with slightly bent knees. Keep the knight mostly frontal in a shallow
+> front-three-quarter view, turned slightly toward screen-right. Keep the front
+> of the visor and faceplate visible rather than showing the rear or far side of
+> the helmet. Gaze, leading torso action, and sword use favor the right edge
+> without becoming a complete side profile. The cape trails screen-left.
+> Give him one 42–48-pixel visible straight sword blade held diagonally downward
+> and a long crimson cape flowing behind him to the lower calf with three or
+> four broad torn tails. Use 12–14 colors,
 > large connected clusters, selective one-pixel highlights, and no
 > anti-aliasing, gradients, painterly detail, microtexture, extra weapon,
 > shield, text, logo, scenery, or copied game character. Present the preview at
@@ -281,6 +290,12 @@ For an approved animation:
 - [ ] Body reads as 7–7.5 heads high.
 - [ ] Legs occupy more than half the body height.
 - [ ] Character is upright with only slightly bent knees.
+- [ ] Mostly frontal shallow front-three-quarter pose has a slight screen-right
+      bias.
+- [ ] Front of visor and faceplate remains readable; rear helmet does not
+      dominate.
+- [ ] Head and torso do not collapse into a rear or complete side profile.
+- [ ] Cape trails screen-left without reversing the character's action.
 - [ ] Sword blade is 42–48 pixels long.
 - [ ] Sword blade, crossguard center, grip, and pommel align on one coherent
       axis.
@@ -310,3 +325,4 @@ Reject or revise an asset when:
 - Armor detail creates noise or exceeds the palette budget.
 - The cape hides both legs or touches the ground.
 - The pose loses the tall-body, diagonal-sword, trailing-cape silhouette.
+- The face, gaze, torso action, or sword use reads screen-left.

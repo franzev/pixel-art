@@ -1,5 +1,14 @@
 # Banshees Batch 33 — Generation Prompts
 
+> **Current facing override (2026-08-01):** Any `right-facing` direction
+> in this file means a mostly frontal, shallow front-three-quarter view.
+> Keep the camera-facing facial plane visible; when unobscured, show both
+> eyes, nose, mouth, chin, and expression. The gaze, leading action,
+> locomotion, and equipment may favor screen-right, but never turn the face
+> away into a rear-three-quarter, back-of-head, ear-only, far-cheek, or
+> complete side-profile view unless explicitly requested. This block
+> overrides older pose or facing wording below.
+
 ## Shared direction
 
 - Five separate isolated adult humanoid ghost-enemy concepts.
@@ -514,4 +523,42 @@ Scene and composition: square canvas, one complete figure on uniform warm near-b
 Style: mature deliberate crisp pixel art, connected clusters, broad value masses, restrained ramps, readable at 256 pixels; not cartoony.
 Palette and mood: soot black, charcoal, dirty ivory, slate, muted violet stripe, pale skin; oppressive, mournful, grounded.
 Constraints: no hands gripping shawl, no lament threads, spell, aura, particles, mist, glow, weapon, prop, extra anatomy, missing fingers, fused cloth, green, crop, blur, or painterly gradient.
+```
+
+## Redo validation wave — 2026-08-01
+
+Mode: built-in ImageGen source-based edit.
+
+### Comb-Reclaiming Widow — archived attempt 03
+
+Source reference:
+`public/art/enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow.png`
+
+Archived output:
+`archive/render-attempts/enemies/banshees-batch-33/03-comb-reclaiming-widow/attempt-03.png`
+
+Outcome: preserved and indexed as a raw attempt, but not activated as a redo
+candidate. The render improved source-identity retention, the camera-facing
+face, and the comb scale, but failed the executable isolated-render gate because
+the generated background contains a vignette instead of a perfectly uniform
+`#171311` field.
+
+```text
+Edit the supplied source into a corrected pixel-art render of the SAME Comb-Reclaiming Widow character. This is a targeted correction, not a redesign or recast.
+
+IDENTITY LOCK — highest priority: preserve the source character's exact visible pale cool-ivory skin tone and undertone, long narrow mature face, fine pointed chin, straight nose, thin lips, dark eye styling, apparent early-40s age, extremely long dense iron-black hair texture, tall lean body proportions, high-collared charcoal mourning coat, dirty-ivory underdress, bare feet, and severe mournful presence. Do not change racial or ethnic appearance, facial structure, age, body type, or costume family.
+
+POSE AND FACE: rotate her from the source's left-facing near-profile into a MOSTLY FRONTAL shallow front-three-quarter view with only a SLIGHT screen-right bias. This is not a full right profile. Keep the camera-facing facial plane clearly visible; show both eyes, nose, mouth, chin, and her quiet watchful expression. Preserve both shoulders. Hair may partly frame the face but must not hide either eye or create another face. Her gaze and the combing action favor screen-right.
+
+COMB AND HAND CORRECTION: exactly one historically plausible small late-medieval double-ended ivory comb, approximately palm-width, with one thick straight rigid central spine and two short, evenly spaced tooth rows. It has NO handle. The raised hand closes naturally around the solid central spine: thumb opposed to four fingers, teeth entirely outside the palm, wrist aligned with forearm. The comb enters the lower hair naturally. Show the grip clearly. The other hand hangs separately and visibly beside the hip with coherent fingers. No fused comb, oversized comb, brush, wand, weapon, or second prop.
+
+STYLE: deliberate premium high-density pixel art made of crisp hard square pixels, connected clusters, broad readable value masses, restrained color ramps, selective single-pixel highlights, consistent pixel density. Mature gothic game concept art, severe rather than cartoony. No painterly blur, soft focus, antialiasing, smooth vector rendering, airbrushing, noisy microtexture, or pixel-filter look.
+
+COMPOSITION: square 1:1 canvas, exactly one complete full-body adult woman centered at about 74% canvas height. Full hair, both hands, every finger, coat hem, underdress, both legs, both bare feet, and comb fully inside frame with generous padding. Both feet planted on one implied baseline. No crop.
+
+BACKGROUND — absolute technical requirement: every background pixel outside the character must be exactly the same solid warm-charcoal color #171311. Perfectly flat and uniform edge-to-edge. No black substitute, no vignette, no edge falloff, no warm halo, no texture, no grain, no spotlight, no glow, no gradient, no floor, no cast shadow, no scenery.
+
+PALETTE AND MOOD: preserve source charcoal, soot black, iron grey, dirty ivory, pale intact skin, and tiny cold-silver accents. Severe, quiet, watchful, mournful, uncanny, non-graphic.
+
+ABSOLUTE NEGATIVES: no magic, spell effects, aura, particles, mist, smoke, glow, floating objects, extra faces, extra limbs, extra hands, missing fingers, fused anatomy, green tint, text, border, frame, watermark, scenery, copyrighted character resemblance.
 ```

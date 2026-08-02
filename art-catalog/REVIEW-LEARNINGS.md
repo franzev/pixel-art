@@ -1,8 +1,13 @@
 # Confirmed Review Learnings
 
-Last updated: 2026-07-31
+Last updated: 2026-08-02
 
-Source: the 996-render bulk review recorded in `render-feedback.jsonl` and `RENDER-FEEDBACK.md` (996 reviews: 203 keep, 86 reject, 707 delete). Those two files are machine exports and must not be hand-edited; this document is the human-readable distillation for future generation sessions.
+Source: the 1,382 confirmed reviews recorded in `render-feedback.jsonl` and
+`RENDER-FEEDBACK.md` (362 keep, 207 reject, 813 delete). The 813 marked catalog
+files were physically removed through the authorized deletion workflow on
+2026-07-31; their review records remain historical evidence. Those two files
+are machine exports and must not be hand-edited; this document is the
+human-readable distillation for future generation sessions.
 
 Read this before writing any new generation prompt. Every rule here comes from explicit user decisions, structured defects, or verbatim correction notes — not from inference.
 
@@ -30,6 +35,23 @@ Read this before writing any new generation prompt. Every rule here comes from e
   are superseded for future generations.
 - Do not add a tint, gradient, vignette, glow field, texture, scenery, floor
   plane, cast shadow, or atmosphere to the flat background.
+
+### 2026-08-02 prompt-language correction
+
+- `Near-black`, `soft radial studio falloff`, and similar photographic backdrop
+  wording are not acceptable substitutes for the fixed background. They caused
+  visible mottling, halos, edge darkening, and floor-like shading in redo
+  attempts. Future prompts must say: perfectly flat, perfectly uniform
+  solid-color `#171311` from edge to edge; every background pixel is the same;
+  subject lighting does not affect the background.
+- `High-resolution fantasy concept art` and other painting/illustration labels
+  can overpower an earlier pixel-art clause. Future prompts repeat
+  `deliberately pixel-authored high-density pixel art` at the beginning and end
+  and explicitly reject smoothing, anti-aliasing, painterly gradients,
+  brushwork, and pixel-filtered painting.
+- A strong design with textured background or smooth non-pixel rendering is
+  still a failed attempt. Preserve it in the raw attempt archive, but rerun the
+  complete visual prompt; do not repair it through pixel manipulation.
 - Do not retroactively recolor historical renders. Native production sprites
   and animation frames remain transparent; intentionally illustrated
   environments and narrative scenes remain full compositions.
@@ -49,6 +71,75 @@ Read this before writing any new generation prompt. Every rule here comes from e
   sprites, animation sheets, environment plates, UI composites, and review
   sheets may retain their specified production dimensions because they are
   derived artifacts rather than generated source renders.
+
+## Canonical facing clarification
+
+- **2026-08-01 direct clarification:** `right-facing` means a slight
+  screen-right bias, not a complete side profile.
+- Keep every future directional subject mostly frontal in a shallow
+  **front** three-quarter view. The camera-facing facial plane must remain
+  readable. For an unobscured face, show both eyes, nose, mouth, chin, and
+  expression; the gaze may glance right without turning the face away.
+- Turn the head and upper torso only enough for the leading action, locomotion,
+  attack, and equipment use to favor the right edge. Preserve both shoulders
+  when anatomy and costume permit. Do not force a 90-degree profile, rear
+  three-quarter view, back-of-head view, ear-only view, far-cheek sliver, or
+  edge-on torso unless explicitly requested. Hair, cloth, banners, and capes
+  may trail toward screen-left.
+- This direction supersedes older screen-left canonical poses, collection
+  prompts, continuation notes, reference poses, and any interpretation of the
+  2026-07-31 screen-right rule as requiring a full profile.
+- Do not mirror a finished render as a repair because mirroring can reverse
+  handed equipment, asymmetrical construction, costume details, and lighting.
+  Regenerate the subject with the correct slight rightward three-quarter bias,
+  anatomy, and equipment.
+- A generic `right-facing` clause is insufficient when the same prompt locks a
+  screen-left-leading leg, weapon head, or attack line. State and verify the
+  concrete screen-space cues: forward knee and leading foot toward
+  screen-right, rear leg and loose cloth trailing toward screen-left, and the
+  weapon head or active end leading toward screen-right. Reject any result whose
+  dominant locomotion or equipment cue still leads left.
+- Directional correction must not be implemented by mirroring the character.
+  Lock each asymmetric trait—exposed shoulder, scar, sleeve, shawl, handed
+  equipment, and ornament—to its original screen side in the regeneration
+  prompt and verify those sides in the returned image.
+- A truly non-directional prop, empty environment, or abstract composition may
+  record facing as not applicable only with an explicit QA explanation.
+
+## Redo identity preservation clarification
+
+- **2026-08-01 direct clarification:** redos must not racially or ethnically
+  recast a character. A redo is the same person, not a replacement person.
+- Preserve the source character's visible skin tone and undertone, facial
+  structure, eye and nose shape, lips, hair texture, age, gender presentation,
+  and culturally or ethnically specific appearance.
+- Do not lighten, darken, or change racial or ethnic appearance unless the user
+  explicitly requests that exact identity change. Correcting pose, facing,
+  equipment, anatomy, palette, or background does not authorize recasting.
+- When the source covers or leaves an identity trait ambiguous, preserve the
+  covering or ambiguity. Do not infer ethnicity from name, costume, role,
+  faction, location, culture, or fantasy species.
+- This is an identity-continuity rule for source-based revisions. It does not
+  create a prohibited or preferred race for newly designed characters.
+
+## Redo minimum-delta clarification
+
+- **2026-08-01 direct clarification:** a redo must correct the named defect,
+  not reinterpret the whole character.
+- A polished candidate still fails when it changes unrelated face visibility,
+  identity, body build, proportions, pose, silhouette, garment topology,
+  palette, accessories, footwear state, or equipment outside the confirmed
+  correction.
+- The failure example was Burnt-Rose Iron-Club Nun: the instruction was only
+  to change the club into a morning star, but an earlier candidate exposed and
+  recast the face, changed the body, stance, dress layers, shawl, belt, rosary,
+  boots, silhouette, and one-hand pose.
+- Prevent drift through a self-contained reconstruction prompt that describes
+  every visible source detail and names the one authorized change. Do not rely
+  on an archetype label or the source bitmap alone.
+- Redos are fresh whole-image generations. Never mirror, composite, recolor,
+  replace the background, script-inpaint, or otherwise manipulate pixels to
+  repair them. Preserve every raw result and retry through the prompt.
 
 ## How to read the decisions
 
@@ -427,7 +518,14 @@ Before submitting any generation prompt, confirm it explicitly states:
     with no vignette, edge falloff, warm halo, background tint, or color leak.
 35. A square `1:1` canvas with output width equal to output height for every
     original full-quality generated render.
+36. Every directional subject stays mostly frontal in a shallow
+    front-three-quarter view with a slight screen-right bias. The camera-facing
+    facial plane remains readable; an unobscured face shows both eyes, nose,
+    mouth, chin, and expression. Gaze, leading torso action, locomotion, attack,
+    and equipment use favor the right edge without turning the subject away,
+    rearward, or into a complete side profile. A non-directional exception
+    records why facing is not applicable.
 
-Before saving any result for review, verify all thirty-five at full resolution,
+Before saving any result for review, verify all thirty-six at full resolution,
 with focused handle, attachment, and portrait crops, and at 256 px. Reject
 internally on any failure.

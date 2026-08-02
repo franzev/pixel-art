@@ -1,5 +1,20 @@
 # Convent Horrors Batch 37 — Generation Prompts
 
+> **Current facing override (2026-08-02):** Any `right-facing` direction
+> in this file means a mostly frontal, shallow front-three-quarter view.
+> Keep the camera-facing facial plane visible; when unobscured, show both
+> eyes, nose, mouth, chin, and expression. The gaze, leading action,
+> locomotion, and equipment may favor screen-right, but never turn the face
+> away into a rear-three-quarter, back-of-head, ear-only, far-cheek, or
+> complete side-profile view unless explicitly requested. This block
+> overrides older pose or facing wording below.
+> The screen-space cues must agree: the forward knee and leading foot, weight
+> transfer, and weapon head or active end favor screen-right, while the rear
+> leg and loose cloth may trail screen-left. Older instructions preserving a
+> screen-left-leading leg or weapon angle are invalid. Do not mirror the
+> character to comply; preserve every asymmetric garment, scar, and equipment
+> detail on its original screen side.
+
 **Status:** Draft prompt record
 **Prepared:** 2026-07-30
 **Mode:** Built-in image generation
@@ -764,3 +779,215 @@ Primary correction: Replace only the oversized sword in Image 1 with exactly one
 Preserve: exactly one woman, one head, two arms, exactly two complete hands with five fingers and one opposed thumb per hand, two legs, two distinct bare feet, closed opaque dress, and moderate natural chest.
 Constraints: change no face, garment color, garment construction, limb, hand, foot, stance, or background; no body-length sword, shortened dagger, bent blade, half-swording, hand on guard or blade, hidden or fused hand, second weapon, extra anatomy, cropping, slit, cleavage, breast cups, magic, glow, particles, blood, text, blur, or painterly gradient.
 ```
+
+## Redo validation wave — full-description minimum-delta method
+
+Date: 2026-08-01
+
+Mode: built-in ImageGen, fresh whole-image generation from the original source
+as a visual reference. No mirroring, compositing, recoloring, background
+replacement, scripted inpainting, or other pixel manipulation.
+
+### 17 — Burnt-Rose Morning-Star Nun v05
+
+Confirmed source:
+`public/art/enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun.png`
+
+Source render ID: `rnd_64825680add2191eb8d7e008`
+
+Confirmed correction: replace the plain iron-banded wooden club with a rigid
+shafted morning-star mace. No other redesign is authorized.
+
+Equipment research
+
+- Exact type, culture, and period: rigid European shafted morning-star mace,
+  not a chain flail.
+- Authoritative records: British Museum OA.4763 supplies a 67.5 cm complete
+  rigid mace profile and centered head-to-haft axis; Metropolitan Museum
+  36.25.2919 records a long-handled morning-star weapon.
+- Overall and component dimensions: approximately 67.5 cm overall, one compact
+  iron spherical head with eight short evenly spaced conical spikes, one
+  perfectly straight dark hardwood haft, narrow iron neck ferrule, lower iron
+  butt cap. The weapon remains human-scale and close to the source club's
+  diagonal visual footprint.
+- Handle and attachment: the straight haft enters the head through one centered
+  load-bearing socket on the same axis. No chain, hinge, offset head, second
+  ball, or detached component.
+- Correct hand count and contacts: preserve the source's two-hand braced grip.
+  The upper hand closes around the middle haft below the head; the lower hand
+  closes around the lower haft above the butt. Both thumbs oppose four fingers;
+  both wrists align with their forearms. Neither hand touches the head, spikes,
+  socket, or ferrules.
+- Intended pose and load path: preserve the source's diagonal across-body
+  two-hand carry. The compact head remains toward upper screen-left and the
+  butt remains near lower screen-right, with weight visibly carried through
+  both hands, wrists, stooped shoulders, and long forward stride.
+
+Exact generation prompt:
+
+```text
+Use case: identity-preserve
+Asset type: full-quality redo of one isolated enemy-character concept master for a gothic 2D Metroidvania
+Input image: Image 1 is the original Burnt-Rose Iron-Club Nun and is the complete visual reconstruction reference for this same character. Generate a fresh whole image from the description and reference; do not copy, composite, mirror, recolor, inpaint, or otherwise manipulate source pixels.
+
+Primary correction — the only authorized change: replace the source character's plain three-banded wooden club with exactly one historically plausible rigid shafted morning-star mace. Do not change any other design trait.
+
+Same character and identity: preserve the exact same tall lean adult woman, apparent late-30s to early-40s age, elongated 7.5–8-head feminine proportions, long narrow torso, long slim legs, pale warm-ivory intact skin, narrow lower face, small straight nose, narrow closed mouth, pointed chin, downcast severe expression, and restrained healed burn scarring on the exposed upper shoulder. The source hides both eyes and most of the upper face beneath a straight dirty-ivory hanging face cloth inside the hood; preserve that exact covering and identity ambiguity. Do not expose either eye, reveal a new face, invent hair, add a bun, change skin tone, change racial or ethnic appearance, beautify, glamorize, age-shift, or recast her.
+
+Head and upper-body construction: preserve the large dusty burnt-rose hood and long veil that begins at the crown, frames the concealed face, rests around the neck and shoulders, and falls behind the upper body. Keep the short dirty-ivory wrapped throat cloth beneath the hood. Preserve the asymmetry: the screen-right side carries a large soot-charcoal and dark-brown tattered shawl wrapped around the shoulder, upper arm, forearm, and back, ending in many long irregular fire-darkened strips; the opposite shoulder remains exposed with the same intact healed burn scar and a loosened dusty-rose sleeve edge around the upper arm. Do not turn this into a symmetrical cape, short capelet, full paired sleeves, armor, or clean tailored habit.
+
+Dress and accessories: preserve the same fitted sleeveless dusty burnt-rose convent dress with one narrow vertical center seam, the same narrow brown rope belt at the natural waist, and the same small dark wooden rosary hanging from the front belt with one small plain metal cross near the upper thigh. Preserve the original skirt topology exactly: long narrow dusty-rose panels, charcoal underlayers, heavily torn fire-darkened edges, one high open side exposing the full forward screen-left thigh and long bare leg, and one separate torn opening exposing the rear screen-right calf and bare foot. Preserve the same ragged pointed cloth strips, soot damage, worn seams, small holes, and uneven hem. Do not replace the dress with a closed A-line gown, apron, white center panel, buttoned bodice, corset, broad leather belt, decorative buckle, full skirt, clean hem, trousers, or armor. Do not remove, enlarge, duplicate, or relocate the rosary.
+
+Pose, anatomy, and silhouette: preserve the original heavy stooped forward stride and narrow diagonal silhouette. The torso remains mostly camera-facing in a shallow front-three-quarter presentation with only a subtle screen-right movement bias; the hooded head stays bowed and the face remains covered. Preserve the same shoulder heights, bent elbows, two-hand weapon carry, long forward screen-left leg, rear screen-right leg, and broad separation between the two legs. Exactly one head, two arms, two complete hands, two legs, and two separate bare feet. Preserve bare feet exactly—no shoes, boots, stockings, greaves, or sandals. Both feet, every toe silhouette, both hands, all cloth, and the complete weapon remain inside the frame. Do not change her stance into an upright walk, heroic guard, side profile, rear view, planted symmetric pose, or one-handed pose.
+
+Weapon reconstruction: exactly one conventional rigid shafted morning-star mace, approximately 67.5 cm overall and human-scale, occupying nearly the same diagonal footprint as the source club. One compact dark iron spherical head carries exactly eight short evenly spaced conical spikes. The head is centered on one narrow iron neck and load-bearing socket; one perfectly straight dark hardwood haft continues from the socket to one small iron butt cap on a single unbroken axis. No chain, hinge, second ball, flanges, giant fantasy head, club barrel, broken shaft, bent shaft, offset head, floating component, or secondary weapon. Preserve the original two-hand braced grip and hand locations: the upper hand fully encloses the middle haft below the head, and the lower hand fully encloses the lower haft above the butt; each thumb opposes four fingers, each wrist follows the forearm, and wood remains visible entering and leaving both fists. Neither hand touches the head, spikes, socket, ferrules, or butt. Keep the weapon diagonally across the waist and torso with the head toward upper screen-left and butt toward lower screen-right.
+
+Palette and materials: preserve the source's local color relationships—dusty muted burnt rose cloth, soot charcoal and dark umber tattered shawl, dirty ivory face and throat wraps, warm pale skin, dark brown hardwood, dull cold iron, and the small dark rosary. Retain separate local ramps for skin, dusty-rose cloth, charcoal cloth, wood, and iron. Neutral restrained lighting with no global sepia, bronze, brown, gray-black, warm, cool, or desaturated filter.
+
+Pixel-art treatment: deliberate premium high-density pixel art made from crisp hard square pixels, connected clusters, broad readable value masses, restrained ramps, selective single-pixel highlights, consistent pixel density, clean silhouette edges, and strong readability at 256 pixels. Match the source's detailed pixel-authored finish. No smooth painting, airbrushing, antialiasing, blur, photorealism, vector edges, 3D rendering, noisy confetti pixels, or pixel-filter appearance.
+
+Composition and background: square 1:1 canvas; output width must equal output height. Exactly one complete full-body character centered with the same approximate scale and generous padding as the source. Perfectly uniform flat warm-charcoal #171311 background edge-to-edge. No pure-black substitute, alternate near-black, vignette, edge falloff, halo, glow field, texture, grain, gradient, floor plane, cast shadow, scenery, architecture, frame, text, UI, logo, or watermark.
+
+Absolute preservation lock: change only the weapon type from the original iron-banded club to the specified rigid morning-star mace. Preserve face covering, identity ambiguity, skin tone, burn scar, age, body build, proportions, stoop, hand locations, two-hand pose, leg placement, silhouette, dusty-rose hood, throat wrap, exposed shoulder, tattered charcoal shawl, fitted dress, high side openings, rosary, bare feet, palette, framing, lighting, and pixel treatment. Do not improve, modernize, sanitize, close, cover, reinterpret, simplify, or redesign any unlisted trait.
+
+Avoid: visible eyes, uncovered face, new hairstyle, racial or complexion change, upright recast, different body mass, full sleeves, clean cape, closed dress, white apron, boots, broad belt, relocated cross, extra accessories, missing scar, one-handed weapon pose, changed leg stance, extra anatomy, fused fingers, cropped toes, blood, gore, vampire fangs, magic, aura, sigil, particles, mist, smoke, glow, green tint, copyrighted character resemblance.
+```
+
+Generated output:
+`work/redo-staging/enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v05.png`
+
+Untouched raw archive:
+`archive/render-attempts/enemies/convent-horrors-batch-37/17-burnt-rose-iron-club-nun/attempt-03.png`
+
+Visual result: the full-description method preserved the source's concealed
+face, identity ambiguity, body build, stooped stride, hand positions, exposed
+scarred shoulder, asymmetrical tattered shawl, dress openings, rosary, bare
+feet, silhouette, and palette while replacing only the club with a rigid
+shafted morning star.
+
+Gate state: preserved and indexed for review, not activated. The untouched
+generator output is square and opaque but still contains generator-created
+background falloff rather than an exact edge-to-edge `#171311` field. No pixel
+manipulation was used to repair it.
+
+### 17 — Burnt-Rose Morning-Star Nun v06 directional correction
+
+Date: 2026-08-02
+
+Reason: v05 correctly preserved the character and replaced the club, but its
+forward leg and morning-star head still led toward screen-left. Those dominant
+screen-space cues contradicted the project-wide slight-right-facing lock.
+
+Exact generation prompt:
+
+```text
+Create a fresh, complete pixel-art character render using the supplied image as the strict character and design reference. This is not pixel manipulation and not a loose redesign. Reconstruct the same character from scratch and make exactly one meaningful correction: change the directional pose so the character reads as subtly facing and moving toward SCREEN-RIGHT (the viewer's right).
+
+Preserve the identical tall, lean, late-30s-to-early-40s convent-horror woman; pale warm-ivory skin and undertone; slim covered facial structure; age; proportions; scarred exposed shoulder; dusty burnt-rose hood and dress; dirty-ivory hanging face cloth and neck wrapping; rope belt; rosary and cross; bare feet; torn hems; soot-dark wear; asymmetric ragged charcoal-brown shawl; subdued palette; rigid two-hand morning-star mace with compact eight-spike iron head, straight dark wooden shaft, collars, and butt cap; high-detail hand-rendered pixel-art treatment; square full-body composition; and uniform #171311 background with no vignette, halo, gradient, texture, scenery, floor, shadow, particles, text, border, or interface.
+
+Keep the torso mostly frontal in a shallow front-three-quarter view, rotated only 10–15 degrees toward screen-right. Keep both shoulders readable and keep the bowed cloth-covered facial plane substantially camera-facing. Reverse the locomotion cue: forward knee and leading foot extend toward screen-right; rear leg trails toward screen-left. Reverse the weapon cue: morning-star head leads toward upper screen-right and the butt toward lower screen-left. Hood edge and loose cloth may trail screen-left. Reconstruct anatomy and garment asymmetry coherently; do not mirror the reference. No profile, rear view, screen-left-leading stride, or screen-left-leading weapon. Treat every unmentioned reference detail as locked.
+```
+
+Generated output:
+`work/redo-staging/enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v06.png`
+
+Untouched raw archive:
+`archive/render-attempts/enemies/convent-horrors-batch-37/17-burnt-rose-iron-club-nun/attempt-04.png`
+
+Visual result: locomotion and weapon action correctly lead screen-right, but
+the generator mirrored the costume asymmetry. The scarred exposed shoulder and
+heavy shawl changed screen sides. The untouched result remains preserved and
+indexed but is not the selected correction.
+
+### 17 — Burnt-Rose Morning-Star Nun v07 directional and asymmetry correction
+
+Date: 2026-08-02
+
+Reference roles: v05 is authoritative for identity, costume asymmetry,
+exposed-shoulder placement, covered face, palette, proportions, and weapon.
+v06 is authoritative only for the successful screen-right locomotion and
+weapon direction.
+
+Exact generation prompt:
+
+```text
+Generate a fresh complete dark-fantasy pixel-art character render. Do not manipulate pixels or simply mirror either reference. Reconstruct the same woman from scratch.
+
+Reference 1 (v05) is authoritative for character identity, anatomy, costume asymmetry, exposed shoulder placement, facial covering, palette, proportions, and weapon design. Reference 2 (v06) is authoritative only for the successful subtle screen-right directional reading: forward leg toward the viewer's right and morning-star head toward the upper viewer's right. Combine those requirements and do not inherit v06's mirrored costume.
+
+Match Reference 1: the same tall lean late-30s-to-early-40s woman, roughly 7.5–8 heads tall; the same pale warm-ivory skin and undertone, covered facial structure, age, scars, body proportions, and identity; no recasting, ethnicity change, beautification, or age change. The scarred bare shoulder and large asymmetrical ragged soot-charcoal/dark-umber shawl must remain on their original screen sides. Preserve the dusty burnt-rose hood and ruined dress, dirty-ivory hanging face cloth concealing the eyes, visible lower nose/mouth/chin, neck wrapping, rope belt, rosary and cross, bare feet, torn hems, and soot-dark weathering. Preserve one rigid morning-star mace with compact dark iron ball, exactly eight short fixed spikes, straight dark wooden shaft, metal collars and butt cap, and two correct hands on the same shaft. No chain or different weapon. Preserve the restrained palette, crisp high-detail hand-rendered pixel-art style, square full-body composition, and uniform flat #171311 background without vignette, halo, gradient, spotlight, texture, scenery, floor, shadow, particles, text, border, or interface.
+
+Match only Reference 2's rightward read: keep the subject mostly frontal in a shallow front-three-quarter view, turned only 10–15 degrees toward screen-right. Keep both shoulders readable and the bowed cloth-covered facial plane substantially camera-facing. The forward knee and leading bare foot extend clearly toward screen-right; the rear leg trails screen-left; the body intends to move right. The morning-star head leads toward upper screen-right and the butt toward lower screen-left. Preserve correct left/right anatomy and the original exposed-shoulder and heavy-shawl screen sides while constructing the pose. Do not mirror either reference. Torn fabric may trail screen-left. No screen-left-leading stride or weapon, full side profile, or rear view. Every detail not assigned to Reference 2 remains locked to Reference 1.
+```
+
+Generated review candidate:
+`work/redo-staging/enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v07.png`
+
+Untouched raw archive:
+`archive/render-attempts/enemies/convent-horrors-batch-37/17-burnt-rose-iron-club-nun/attempt-05.png`
+
+Visual result: the forward leg, body intent, and morning-star head lead toward
+screen-right while the torso and covered facial plane remain mostly frontal.
+The original exposed-shoulder and heavy-shawl asymmetry is retained. The result
+is preserved and staged for review; it is not canonical or approved. It still
+has generator-created background falloff, so it is not activated as the active
+catalog replacement.
+
+## 2026-08-02 ten-redo trial — nine Convent Horrors
+
+Shared prompt lock for this trial: every redo is a fresh full reconstruction of
+the same source character, not a recast and not pixel manipulation. Preserve
+the source character's visible skin tone and undertone, facial structure, age,
+hair texture, build, clothing topology, garment asymmetry, equipment, palette,
+proportions, and recognizable identity. Correct only the review defect and the
+project-wide direction requirement. Keep the torso mostly frontal in a shallow
+front three-quarter view, turned only 10–15 degrees toward screen-right. Keep
+both shoulders and the camera-facing facial plane readable; when the face is
+unobscured, retain both eyes, nose, mouth, and expression. Reinforce the read
+with the leading foot, gaze, weapon point or head, and action toward
+screen-right, while loose cloth may trail left. Do not mirror the source or
+rotate into a full profile. Use exactly one complete full-body figure with
+correct anatomy and weapon contact on a square, flat `#171311` field without
+vignette, texture, halo, glow, scenery, floor, shadow, text, border, or UI.
+
+Final review candidates and their untouched raw archives:
+
+- Moon-Veil Rapier Sister v05 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister-v05.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/01-moon-veil-rapier-sister/attempt-04.png`.
+- Cinder Sickle Widow v04 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow-v04.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/09-cinder-sickle-widow/attempt-02.png`.
+- Pale-Rosary Mace Sister v04 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister-v04.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/11-pale-rosary-mace-sister/attempt-03.png`.
+- Black Procession Morning-Star Sister v04 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer-v04.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/14-black-procession-threshing-flailer/attempt-03.png`.
+- Silver-Rosary Mourner v06 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-v06.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/18-silver-rosary-mourner/attempt-04.png`.
+- White-Stake Vampire Sister v04 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister-v04.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/19-white-stake-vampire-sister/attempt-02.png`.
+- Plum-Amber Longsword Votary v05 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary-v05.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/22-plum-amber-longsword-votary/attempt-03.png`.
+- Lavender-Ash-Rose War-Pick Matron v05 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron-v05.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/24-lavender-ash-rose-war-pick-matron/attempt-03.png`.
+- Ultramarine-Apricot Rapier Sister v04 —
+  `work/redo-staging/enemies/convent-horrors-batch-37/drafts/27-ultramarine-apricot-rapier-sister-v04.png`;
+  `archive/render-attempts/enemies/convent-horrors-batch-37/27-ultramarine-apricot-rapier-sister/attempt-03.png`.
+
+Direction-miss attempts remain preserved in the same attempt series rather
+than overwritten. Moon-Veil required one direction retry; Silver-Rosary
+required two; Plum-Amber, Lavender-Ash-Rose, and Ultramarine-Apricot required
+one each. The Ash-Blue Vampire Whip Sister request was blocked twice before an
+image was returned, so it produced no file and was replaced in the ten-image
+trial by Ultramarine-Apricot.
+
+All nine final candidates visually retain their source identities and read
+slightly toward screen-right without becoming side profiles. They remain
+staged for review rather than activated: the generator outputs are square and
+opaque, but their border pixels are not uniformly exact `#171311`.

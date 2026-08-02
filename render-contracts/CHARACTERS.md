@@ -57,6 +57,10 @@ pedestal, or exact silhouette.
 Every woman must have a distinct adult identity, not a repeated face template
 with new hair.
 
+The diversity guidance in this section applies when designing distinct new
+characters. It never authorizes changing an existing character's racial or
+ethnic appearance during a redo.
+
 - Make every woman visibly attractive through harmonious but individually
   varied facial proportions, clear readable eyes, well-formed features,
   setting-compatible grooming, and a composed, severe, mournful, or
@@ -87,6 +91,20 @@ with new hair.
 - Preserve believable anatomy and family resemblance only when the brief
   explicitly calls for relatives. Family resemblance never means identical
   eyes, nose, mouth, jaw, and face shape.
+
+## Source-Based Character Revisions
+
+Treat every redo, regeneration, correction, or reference-based revision as the
+same person. Preserve the source character's visible skin tone and undertone,
+facial structure, eye and nose shape, lips, hair texture, age, gender
+presentation, and culturally or ethnically specific appearance. Do not
+lighten, darken, or recast the character unless explicitly requested.
+
+If the source face or skin is covered, shadowed, or ambiguous, preserve that
+degree of visibility and ambiguity. Do not invent an ethnicity from costume,
+name, role, faction, location, or fantasy species. A corrected pose, weapon,
+background, anatomy defect, or facing direction is not permission to redesign
+the person's identity.
 - Do not use hairstyle as the only identity cue. Compare same-scale portrait
   crops side by side and reject same-face results before saving.
 - Reject any minor-coded or age-ambiguous result: no childlike head-to-body

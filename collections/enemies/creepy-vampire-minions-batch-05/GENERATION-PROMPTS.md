@@ -1,5 +1,14 @@
 # Creepy Vampire Minions Batch 05 — Generation Prompts
 
+> **Current facing override (2026-08-01):** Any `right-facing` direction
+> in this file means a mostly frontal, shallow front-three-quarter view.
+> Keep the camera-facing facial plane visible; when unobscured, show both
+> eyes, nose, mouth, chin, and expression. The gaze, leading action,
+> locomotion, and equipment may favor screen-right, but never turn the face
+> away into a rear-three-quarter, back-of-head, ear-only, far-cheek, or
+> complete side-profile view unless explicitly requested. This block
+> overrides older pose or facing wording below.
+
 Generated: 2026-07-31
 
 Status: Five separate draft concepts. No design is approved or canonical.

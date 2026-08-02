@@ -1,7 +1,9 @@
 # Project Organization
 
-The repository keeps exactly **one image per item**: the full-quality render.
-There are no reference copies, downscales, or mirrored duplicates.
+The public catalog keeps exactly **one active image per item**: the
+full-quality render. There are no catalog reference copies, downscales, or
+mirrored duplicates. Distinct raw generator attempts are preserved outside the
+catalog as non-canonical history.
 
 ## Canvas requirement
 
@@ -18,6 +20,34 @@ Native production sprites, animation sheets, environment plates, UI
 composites, and review sheets may use explicitly named target dimensions. They
 are derived production or review artifacts, not exceptions to the square
 source-render requirement.
+
+## Facing requirement
+
+Every future directional subject uses a mostly frontal, shallow **front**
+three-quarter view turned slightly toward screen-right from the viewer's
+perspective.
+`Right-facing` is a subtle directional bias, not a complete side profile. The
+gaze, leading torso action, locomotion, attack, and equipment use favor the
+right edge, but the camera-facing facial plane remains readable. For an
+unobscured face, both eyes, nose, mouth, chin, and expression remain visible.
+Do not use a 90-degree profile, rear three-quarter view, back-of-head view,
+ear-only view, far-cheek sliver, or edge-on torso unless explicitly requested.
+The wording alone is not sufficient: the forward knee and leading foot,
+weight transfer, weapon head or active end, and attack line must visibly favor
+screen-right, while the rear leg and loose cloth may trail screen-left. Reject
+a result when any dominant locomotion or equipment cue still leads left. Never
+mirror the result to fix direction; regenerate it while locking every
+asymmetric garment, scar, handed prop, and ornament to its original screen
+side.
+This requirement
+supersedes older collection and canonical screen-left or full-profile
+directions. Record `screen-right` in the executable QA plan and treat that
+value as this slight three-quarter bias when verifying the 256-pixel inspection
+sheet before saving.
+
+A genuinely non-directional prop, empty environment, or abstract composition
+may use `not-applicable` only when its QA plan explains why it contains no
+directional subject or action.
 
 ## One asset location
 
@@ -52,8 +82,9 @@ public/art/enemies/tiktik-variations-batch-07/
 └── 01-alimokon-omen.png
 ```
 
-Never keep a second copy of a render anywhere — no `-source` pairs, no
-`-reference-256` downscales. The catalog file is the source.
+Never keep a second catalog or reference copy of an active render—no `-source`
+pairs and no `-reference-256` downscales. Raw generator attempts are the sole
+intentional archival exception and remain outside the catalog.
 
 Generation inputs that are not part of the website catalog live by family:
 
@@ -75,6 +106,33 @@ out of quarantine only after confirming its intended lifecycle:
 - Intentional visual reference → `samples/`
 - Review or comparison artifact → `art-catalog/review-sheets/`
 - Confirmed obsolete or deleted work → remove through the review workflow
+
+## Raw attempt preservation
+
+Save every returned generator PNG before inspecting, rejecting, retrying, or
+selecting it:
+
+```bash
+npm run render:save-attempt -- \
+  --source <generator-output.png> \
+  --series <category>/<collection>/<NN>-<slug>
+```
+
+The command stores attempts in generation order without overwriting:
+
+```text
+archive/render-attempts/<category>/<collection>/<NN>-<slug>/
+├── attempt-01.png
+├── attempt-02.png
+├── attempt-03.png
+└── attempt-log.jsonl
+```
+
+Keep every attempt, including internally rejected results. Attempt history is
+outside `public/art/`, so it creates no duplicate review items and carries no
+approval, retention, lore, canonical, or positive-reference status. Copy only
+the selected attempt into the normal candidate workflow; never hand-repaint,
+resize, crop, mirror, or overwrite an archived attempt.
 
 ## Naming
 
@@ -127,22 +185,28 @@ lifecycle status.
 2. Inspect the returned PNG metadata and confirm `width == height`. Reject and
    regenerate any non-square result without cropping, stretching, or padding
    it.
-3. Save the full generated render directly under its
+3. While the candidate remains under `work/`, create its temporary QA sheet and
+   run the executable gate documented in `render-contracts/WORKFLOW.md`.
+   `npm run render:check` must write a content-hash receipt for the exact
+   intended catalog destination.
+4. Save the full generated render directly under its
    `public/art/<category>/<collection>/` path — at full quality, once.
-   Do this after the normal viability checks and do not stage new generations
-   in a `drafts/` folder.
-4. Treat the saved render as unapproved until the user reviews it on the
+   Do this only after the gate passes and do not stage new generations in a
+   `drafts/` folder.
+5. Treat the saved render as unapproved until the user reviews it on the
    website. Do not update lore, approval manifests, canonical counts, or
    production-ready status merely because the file is at the collection root.
-5. Append its exact generation prompt to
+6. Append its exact generation prompt to
    `collections/<category>/<collection>/GENERATION-PROMPTS.md`.
-6. Keep `STATUS.md` and the collection manifest current.
+7. Keep `STATUS.md` and the collection manifest current.
 
 Paths written in manifests are relative to the repository root.
 
 While the website is running locally, adding or replacing a PNG under
 `public/art/` refreshes the catalog automatically. `npm run sync:art`
-from the repository root performs the same refresh manually.
+from the repository root performs the same refresh manually. New or
+pixel-changed renders are rejected during synchronization unless their
+content-hash QA receipt matches both the PNG and its catalog destination.
 
 ## Redo workflow: one active render per concept
 
@@ -160,14 +224,31 @@ go directly to the collection root.
    work/redo-staging/<category>/<collection>/drafts/<NN>-<slug>-v<NN>.png
    ```
 
-2. Run full-size, 256-pixel, focused-crop, anatomy, equipment, and defect
-   checks while the attempt remains in staging. Delete internal failures there.
+2. Preserve each raw output first under `archive/render-attempts/`, then run
+   full-size, 256-pixel, focused-crop, anatomy, equipment, and defect checks
+   while the candidate remains in staging. Keep internal failures in the
+   attempt archive so an earlier version can be reconsidered later.
+   Compare every redo beside its source at the same scale and confirm it is the
+   same character: visible skin tone and undertone, facial structure, hair
+   texture, age, and culturally or ethnically specific appearance remain
+   unchanged. Reject incidental lightening, darkening, racial or ethnic
+   recasting, or invented identity where the source was covered or ambiguous.
+   Before generation, write a self-contained reconstruction prompt describing
+   the source's face visibility or covering, body, pose, silhouette, garment
+   topology, palette, materials, accessories, footwear state, equipment,
+   framing, lighting, background, and pixel treatment. Name the confirmed
+   defect as the only authorized change. Do not use mirroring, compositing,
+   recoloring, background replacement, scripted inpainting, or any other pixel
+   manipulation; a failed redo is regenerated from a revised prompt.
 3. Do not copy the candidate into `public/art`; that creates a watcher window
    in which both versions can be indexed.
 4. Activate the staged file directly:
 
    ```bash
-   npm run redo:activate -- --candidate work/redo-staging/<category>/<collection>/drafts/<NN>-<slug>-v<NN>.png
+   npm run redo:activate -- \
+     --candidate work/redo-staging/<category>/<collection>/drafts/<NN>-<slug>-v<NN>.png \
+     --source-render-id rnd_<24-hex> \
+     --source-path <category>/<collection>/<source.png>
    ```
 
    The command preflights every path, durably archives older siblings under

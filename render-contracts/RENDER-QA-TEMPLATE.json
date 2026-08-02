@@ -1,11 +1,33 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "asset": {
     "category": "",
     "collection": "",
     "slug": "",
     "mode": "isolated",
-    "humanoid": true
+    "humanoid": true,
+    "directionalSubject": true,
+    "facingDirection": "screen-right",
+    "nonDirectionalReason": ""
+  },
+  "redo": {
+    "isRedo": false,
+    "sourcePath": "",
+    "sourceRenderId": "",
+    "authorizedChanges": [],
+    "sourceCandidateCompared": false,
+    "minimalDeltaVerified": false,
+    "unauthorizedChanges": [],
+    "preserved": {
+      "identity": false,
+      "faceVisibilityOrCovering": false,
+      "bodyProportions": false,
+      "silhouette": false,
+      "clothingConstruction": false,
+      "paletteAndMaterials": false,
+      "equipmentTypeAndConstruction": false,
+      "unaffectedPose": false
+    }
   },
   "hardGates": {
     "squareCanvas": false,
@@ -13,7 +35,8 @@
     "noVisibleEffects": false,
     "neutralColorBalance": false,
     "completeSilhouette": false,
-    "safePadding": false
+    "safePadding": false,
+    "rightFacing": false
   },
   "palette": {
     "dominantMaterial": "",
@@ -48,6 +71,7 @@
     "neutralColorBalance": false,
     "readableAt256": false,
     "noCropping": false,
-    "distinctFromComparables": false
+    "distinctFromComparables": false,
+    "rightFacingVerified": false
   }
 }

@@ -35,6 +35,9 @@ motifs.
   classification; never use these as active renders or positive references.
 - `archive/redo-history/` — durable, non-catalog history for superseded redo
   bitmaps, keyed by content-based render ID.
+- `archive/render-attempts/` — durable, non-catalog history of every raw
+  generator result, including first, second, third, and internally rejected
+  attempts.
 - `work/` — ignored local outputs, temporary files, and backups.
 - `ORGANIZATION.md` — canonical folder, filename, and generation workflow.
 
@@ -90,7 +93,9 @@ motifs.
 5. Website availability is not approval. A newly saved render remains
    unapproved until the user reviews it; do not promote it to lore, approval
    manifests, canonical counts, or production-ready status beforehand.
-6. Do not create separate `-source` or `-reference-256` copies.
+6. Do not create separate catalog `-source` or `-reference-256` copies. The
+   ordered raw files under `archive/render-attempts/` are the intentional
+   non-catalog exception for distinct generator attempts.
 7. A catalog render is not automatically a native game sprite.
 8. Review anatomy, silhouette, palette, and artifacts at 256 pixels before marking
    an asset retained.
@@ -154,6 +159,51 @@ motifs.
     leather, wood, skin, and accents. Blackened metal, soot cloth, brown
     leather or wood, tiny bronze highlights, and warm rim lighting are one
     optional palette family, not the default gallery look.
+17. Every future directional subject has a slight screen-right bias from the
+    viewer's perspective. `Right-facing` means a mostly frontal, shallow
+    **front** three-quarter view—not a complete side profile or a view from
+    behind. Keep the camera-facing facial plane readable. When the face is not
+    intentionally covered, show both eyes, the nose, mouth, chin, and
+    expression; the gaze may glance right without turning the face away. Turn
+    the head and upper torso only enough for the leading action, locomotion,
+    attack, and carried equipment to favor the right edge. Do not use a
+    90-degree profile, rear three-quarter view, back-of-head view, ear-only
+    view, far-cheek sliver, or edge-on torso unless explicitly requested. Hair,
+    cloth, or a cape may trail toward screen-left. Do not accept the wording
+    `right-facing` as proof by itself: the forward knee and leading foot,
+    weight transfer, attack line, and weapon head or active end must visibly
+    favor screen-right, while the rear leg and loose cloth may trail
+    screen-left. Reject and regenerate any result whose dominant locomotion or
+    equipment cue still leads left. Do not mirror a result to repair facing;
+    preserve asymmetric shoulders, scars, garments, handed props, and
+    ornaments on their original screen sides. This project-wide
+    clarification supersedes every older screen-left or stronger side-profile
+    instruction. A genuinely
+    non-directional prop, environment, or abstract composition must record why
+    facing is not applicable in its QA plan.
+18. Preserve every raw generator output before evaluating or retrying it. Use
+    `npm run render:save-attempt` so attempts receive ordered, non-overwriting
+    `attempt-01.png`, `attempt-02.png`, and later filenames under
+    `archive/render-attempts/`. A failed or superseded attempt stays available
+    for comparison but never enters the catalog, lore, or canonical counts
+    unless it is later selected and passes the normal render gate.
+19. A redo, regeneration, correction, or reference-based revision preserves the
+    same character identity. Match the source character's visible skin tone and
+    undertone, facial structure, hair texture, age, and culturally or
+    ethnically specific appearance. Do not lighten, darken, or change racial or
+    ethnic appearance unless the user explicitly requests that change. When
+    the source conceals or leaves those traits ambiguous, preserve the
+    ambiguity; do not invent a new identity from the character's name, role,
+    costume, faction, or setting. This identity lock applies to redos and does
+    not impose a racial exclusion or default on newly designed characters.
+20. Redos use fresh whole-image generation from a self-contained, complete
+    visual description of the source. Do not mirror, composite, recolor,
+    replace backgrounds, script-inpaint, or otherwise manipulate pixels to
+    repair a render. The prompt must lock face covering, identity, build,
+    proportions, unaffected pose, silhouette, garment topology, local palette,
+    materials, accessories, footwear state, equipment outside the named
+    correction, framing, and pixel treatment. Change only the confirmed defect;
+    reject every unrelated redesign.
 
 ## Continuing work
 
@@ -193,6 +243,18 @@ memory is exported to:
 
 - `art-catalog/RENDER-FEEDBACK.md`
 - `art-catalog/render-feedback.jsonl`
+
+Apply confirmed deletion marks with a dry run first:
+
+```bash
+npm run delete:marked
+npm run delete:marked -- --apply
+```
+
+The command validates that every live target is a unique, tracked PNG below
+`public/art/` and refuses modified, untracked, non-file, symlink, or unsafe
+paths. It removes only live catalog files through Git; already-absent files and
+machine-maintained review history remain untouched.
 
 The contact sheet defaults to active renders. Lifecycle-rejected history is
 available through the `Rejected history` filter and is excluded from the

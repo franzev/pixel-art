@@ -14,7 +14,10 @@
     {
       "id": 1,
       "name": "Fog-Sallet Wanderer",
-      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/01-fog-sallet-wanderer.png"
+      "status": "deleted",
+      "render_id": "rnd_536c2ea7261a915595f74aea",
+      "historical_render": "public/art/protagonist/ghost-knight-orders-v08/drafts/01-fog-sallet-wanderer.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 2,
@@ -39,17 +42,26 @@
     {
       "id": 6,
       "name": "Barrow-Chain Warden",
-      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/06-barrow-chain-warden.png"
+      "status": "deleted",
+      "render_id": "rnd_a2a95e7db7f8eaea44189c4b",
+      "historical_render": "public/art/protagonist/ghost-knight-orders-v08/drafts/06-barrow-chain-warden.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 7,
       "name": "Frost-Rime Templar",
-      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/07-frost-rime-templar.png"
+      "status": "deleted",
+      "render_id": "rnd_8b4df62d733fe6237f6301fc",
+      "historical_render": "public/art/protagonist/ghost-knight-orders-v08/drafts/07-frost-rime-templar.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 8,
       "name": "Hollow Banner Knight",
-      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/08-hollow-banner-knight.png"
+      "status": "deleted",
+      "render_id": "rnd_a0fbcb8422e33aa5a3716c24",
+      "historical_render": "public/art/protagonist/ghost-knight-orders-v08/drafts/08-hollow-banner-knight.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 9,
@@ -59,7 +71,10 @@
     {
       "id": 10,
       "name": "Echo-Crown Marshal",
-      "render": "public/art/protagonist/ghost-knight-orders-v08/drafts/10-echo-crown-marshal.png"
+      "status": "deleted",
+      "render_id": "rnd_83295e5ad01ffeea53c0379b",
+      "historical_render": "public/art/protagonist/ghost-knight-orders-v08/drafts/10-echo-crown-marshal.png",
+      "deleted_at": "2026-07-31"
     }
   ]
 }

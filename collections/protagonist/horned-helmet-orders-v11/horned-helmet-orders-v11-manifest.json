@@ -16,7 +16,10 @@
       "id": 1,
       "name": "Ramcoil Justiciar",
       "score": 95,
-      "render": "public/art/protagonist/horned-helmet-orders-v11/drafts/01-ramcoil-justiciar.png"
+      "status": "deleted",
+      "render_id": "rnd_82919c9160974aec0698b1ba",
+      "historical_render": "public/art/protagonist/horned-helmet-orders-v11/drafts/01-ramcoil-justiciar.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 2,

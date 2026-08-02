@@ -14,12 +14,18 @@
     {
       "id": 1,
       "name": "Ivory Catacomb Legionary",
-      "render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/01-ivory-catacomb-legionary.png"
+      "status": "deleted",
+      "render_id": "rnd_5a81c4949e8ea9f002b681dd",
+      "historical_render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/01-ivory-catacomb-legionary.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 2,
       "name": "Verdigris Crypt Spearman",
-      "render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/02-verdigris-crypt-spearman.png"
+      "status": "deleted",
+      "render_id": "rnd_eacc232b47079ea330f817cb",
+      "historical_render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/02-verdigris-crypt-spearman.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 3,
@@ -34,17 +40,26 @@
     {
       "id": 5,
       "name": "Salt-Bone Crusader",
-      "render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/05-salt-bone-crusader.png"
+      "status": "deleted",
+      "render_id": "rnd_9ada5c3e7dce06bf7367654c",
+      "historical_render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/05-salt-bone-crusader.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 6,
       "name": "Grave-Moss Reaver",
-      "render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/06-grave-moss-reaver.png"
+      "status": "deleted",
+      "render_id": "rnd_4428d1f39319aac42e5d8ea0",
+      "historical_render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/06-grave-moss-reaver.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 7,
       "name": "Funeral-Brass Bellguard",
-      "render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/07-funeral-brass-bellguard.png"
+      "status": "deleted",
+      "render_id": "rnd_097ed9adeccf6402b10a079b",
+      "historical_render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/07-funeral-brass-bellguard.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 8,
@@ -54,7 +69,10 @@
     {
       "id": 9,
       "name": "Charred Marrow Axeman",
-      "render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/09-charred-marrow-axeman.png"
+      "status": "deleted",
+      "render_id": "rnd_00512b0db46387952b3f0efd",
+      "historical_render": "public/art/protagonist/skeleton-knight-legions-v08/drafts/09-charred-marrow-axeman.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 10,

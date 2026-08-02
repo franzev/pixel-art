@@ -2,10 +2,23 @@
   "batch": "unfaced-demon-court-batch-49",
   "status": "draft",
   "palette": {
-    "base": ["ash gray", "dirty ivory", "soot black", "charcoal"],
-    "accent": ["old teal", "muted plum", "tarnished brass", "dirty gold"],
+    "base": [
+      "ash gray",
+      "dirty ivory",
+      "soot black",
+      "charcoal"
+    ],
+    "accent": [
+      "old teal",
+      "muted plum",
+      "tarnished brass",
+      "dirty gold"
+    ],
     "background": "warm near-black",
-    "forbidden": ["green background", "red-dominant body palette"]
+    "forbidden": [
+      "green background",
+      "red-dominant body palette"
+    ]
   },
   "assets": [
     {
@@ -17,9 +30,11 @@
     {
       "id": "backward-processioner",
       "name": "Backward Processioner",
-      "status": "draft",
-      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/02-backward-processioner.png",
-      "review_note": "Rear-mounted false-mask staging remains visually ambiguous."
+      "status": "deleted",
+      "review_note": "Rear-mounted false-mask staging remains visually ambiguous.",
+      "render_id": "rnd_74842fef19fe550e128c8d46",
+      "historical_render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/02-backward-processioner.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "hinge-jaw-confessor",
@@ -66,14 +81,18 @@
     {
       "id": "choir-mantle-orator",
       "name": "Choir-Mantle Orator",
-      "status": "draft",
-      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/10-choir-mantle-orator.png"
+      "status": "deleted",
+      "render_id": "rnd_0d6ca7e49fc251681bd4bae7",
+      "historical_render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/10-choir-mantle-orator.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "recessed-head-magistrate",
       "name": "Recessed-Head Magistrate",
-      "status": "draft",
-      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/11-recessed-head-magistrate.png"
+      "status": "deleted",
+      "render_id": "rnd_a24898704ee78b2edbe2f2cd",
+      "historical_render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/11-recessed-head-magistrate.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "latch-face-bailiff",
@@ -114,8 +133,10 @@
     {
       "id": "pelvis-yoke-marshal",
       "name": "Pelvis-Yoke Marshal",
-      "status": "draft",
-      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/18-pelvis-yoke-marshal.png"
+      "status": "deleted",
+      "render_id": "rnd_471f2028ca2a7e498e8b5650",
+      "historical_render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/18-pelvis-yoke-marshal.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "split-cage-gaoler",
@@ -126,8 +147,10 @@
     {
       "id": "crown-cage-butcher",
       "name": "Crown-Cage Butcher",
-      "status": "draft",
-      "render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/20-crown-cage-butcher.png"
+      "status": "deleted",
+      "render_id": "rnd_ba08e112a83ecfbfea77cfa3",
+      "historical_render": "public/art/enemies/unfaced-demon-court-batch-49/drafts/20-crown-cage-butcher.png",
+      "deleted_at": "2026-07-31"
     }
   ],
   "review_sheets": [

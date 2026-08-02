@@ -36,17 +36,26 @@
     {
       "id": 5,
       "name": "Mire-Devil Dragoon",
-      "render": "public/art/protagonist/demon-knight-legions-v07/drafts/05-mire-devil-dragoon.png"
+      "status": "deleted",
+      "render_id": "rnd_e187f251fe1428b2b85c23e3",
+      "historical_render": "public/art/protagonist/demon-knight-legions-v07/drafts/05-mire-devil-dragoon.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 6,
       "name": "Blood-Comet Lancer",
-      "render": "public/art/protagonist/demon-knight-legions-v07/drafts/06-blood-comet-lancer.png"
+      "status": "deleted",
+      "render_id": "rnd_9b87ec6a7650bc60b2b0baa5",
+      "historical_render": "public/art/protagonist/demon-knight-legions-v07/drafts/06-blood-comet-lancer.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 7,
       "name": "Chain-Maw Gaoler",
-      "render": "public/art/protagonist/demon-knight-legions-v07/drafts/07-chain-maw-gaoler.png"
+      "status": "deleted",
+      "render_id": "rnd_57eb70d569fac7075f1fa16a",
+      "historical_render": "public/art/protagonist/demon-knight-legions-v07/drafts/07-chain-maw-gaoler.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 8,
@@ -66,12 +75,18 @@
     {
       "id": 11,
       "name": "Brass-Spiral Legionary",
-      "render": "public/art/protagonist/demon-knight-legions-v07/drafts/11-brass-spiral-legionary.png"
+      "status": "deleted",
+      "render_id": "rnd_b73356e8ee1360bd7169e899",
+      "historical_render": "public/art/protagonist/demon-knight-legions-v07/drafts/11-brass-spiral-legionary.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 12,
       "name": "Salt-Wraith Knight",
-      "render": "public/art/protagonist/demon-knight-legions-v07/drafts/12-salt-wraith-knight.png"
+      "status": "deleted",
+      "render_id": "rnd_19cd4e4d1324f627ee6feb52",
+      "historical_render": "public/art/protagonist/demon-knight-legions-v07/drafts/12-salt-wraith-knight.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 13,
@@ -106,7 +121,10 @@
     {
       "id": 19,
       "name": "Dusk-Wing Standarder",
-      "render": "public/art/protagonist/demon-knight-legions-v07/drafts/19-dusk-wing-standarder.png"
+      "status": "deleted",
+      "render_id": "rnd_3e33e66cc7f87f0ee0c0d770",
+      "historical_render": "public/art/protagonist/demon-knight-legions-v07/drafts/19-dusk-wing-standarder.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 20,

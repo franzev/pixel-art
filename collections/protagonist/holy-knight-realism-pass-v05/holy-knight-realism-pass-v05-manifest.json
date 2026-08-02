@@ -20,19 +20,28 @@
       "id": "01",
       "name": "Pivot-Visor Penitent",
       "replaces": "Frog-Mouth Tithe Knight",
-      "render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/01-pivot-visor-penitent.png"
+      "status": "deleted",
+      "render_id": "rnd_df7765b28d8d194e60f4d32e",
+      "historical_render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/01-pivot-visor-penitent.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "02",
       "name": "Split-Buffe Examiner",
       "replaces": "Shutter-Visor Canon",
-      "render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/02-split-buffe-examiner.png"
+      "status": "deleted",
+      "render_id": "rnd_b1b14b8246d0881d64fd9651",
+      "historical_render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/02-split-buffe-examiner.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "03",
       "name": "Ribbed-Sallet Canon",
       "replaces": "Book-Spine Inquisitor",
-      "render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/03-ribbed-sallet-canon.png"
+      "status": "deleted",
+      "render_id": "rnd_6ee1392dba990abce662b3c8",
+      "historical_render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/03-ribbed-sallet-canon.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "04",
@@ -44,7 +53,10 @@
       "id": "05",
       "name": "Pilgrim Abbot",
       "replaces": "Iron Abbot of the Chapel Hat",
-      "render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/05-pilgrim-abbot.png"
+      "status": "deleted",
+      "render_id": "rnd_615eb1c51153c0140ab9665a",
+      "historical_render": "public/art/protagonist/holy-knight-realism-pass-v05/drafts/05-pilgrim-abbot.png",
+      "deleted_at": "2026-07-31"
     }
   ],
   "review_sheet": "art-catalog/review-sheets/protagonist/holy-knight-realism-pass-v05/holy-knight-realism-pass-v05-review-sheet.png",

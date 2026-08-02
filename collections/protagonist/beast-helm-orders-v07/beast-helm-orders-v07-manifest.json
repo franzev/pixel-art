@@ -19,12 +19,18 @@
     {
       "id": 2,
       "name": "Bear-Mantle Axeguard",
-      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/02-bear-mantle-axeguard.png"
+      "status": "deleted",
+      "render_id": "rnd_7ffb5b8f2e4784d6e585b2ef",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v07/drafts/02-bear-mantle-axeguard.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 3,
       "name": "Grey-Wolf Swordwarden",
-      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/03-grey-wolf-swordwarden.png"
+      "status": "deleted",
+      "render_id": "rnd_e7542e9de3fac82a94332cc4",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v07/drafts/03-grey-wolf-swordwarden.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 4,
@@ -39,12 +45,18 @@
     {
       "id": 6,
       "name": "Black-Raven Cavalier",
-      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/06-black-raven-cavalier.png"
+      "status": "deleted",
+      "render_id": "rnd_6f6efba55faca006c8c8b0a8",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v07/drafts/06-black-raven-cavalier.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 7,
       "name": "Red-Fox Scout Knight",
-      "render": "public/art/protagonist/beast-helm-orders-v07/drafts/07-red-fox-scout-knight.png"
+      "status": "deleted",
+      "render_id": "rnd_c557681f59d55171f26930ae",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v07/drafts/07-red-fox-scout-knight.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 8,

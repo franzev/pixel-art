@@ -46,14 +46,20 @@
       "category": "knight",
       "name": "Ossuary Longbow Knight",
       "slug": "ossuary-longbow-knight",
-      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/05-ossuary-longbow-knight.png"
+      "status": "deleted",
+      "render_id": "rnd_13b7af26d14fb2308e0a746a",
+      "historical_render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/05-ossuary-longbow-knight.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 6,
       "category": "lord",
       "name": "Black-Standard Procession Lord",
       "slug": "black-standard-procession-lord",
-      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/06-black-standard-procession-lord.png"
+      "status": "deleted",
+      "render_id": "rnd_df57aa971fbe5d6c84ddbf94",
+      "historical_render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/06-black-standard-procession-lord.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 7,
@@ -151,7 +157,10 @@
       "category": "princess",
       "name": "Three-Seal Pall Princess",
       "slug": "three-seal-pall-princess",
-      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/20-three-seal-pall-princess.png"
+      "status": "deleted",
+      "render_id": "rnd_cef8bee9f3875f51e1271898",
+      "historical_render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/20-three-seal-pall-princess.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 21,

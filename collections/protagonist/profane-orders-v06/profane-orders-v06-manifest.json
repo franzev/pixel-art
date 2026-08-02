@@ -21,7 +21,10 @@
     {
       "id": "02",
       "name": "Bell-Toll Justiciar",
-      "render": "public/art/protagonist/profane-orders-v06/drafts/02-bell-toll-justiciar.png"
+      "status": "deleted",
+      "render_id": "rnd_7806d3145e4ad6b585aa44a0",
+      "historical_render": "public/art/protagonist/profane-orders-v06/drafts/02-bell-toll-justiciar.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "03",
@@ -31,12 +34,18 @@
     {
       "id": "04",
       "name": "Briar Gaoler",
-      "render": "public/art/protagonist/profane-orders-v06/drafts/04-briar-gaoler.png"
+      "status": "deleted",
+      "render_id": "rnd_5831ef9a7d3341e91296861c",
+      "historical_render": "public/art/protagonist/profane-orders-v06/drafts/04-briar-gaoler.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "05",
       "name": "Grave-Tithe Lancer",
-      "render": "public/art/protagonist/profane-orders-v06/drafts/05-grave-tithe-lancer.png"
+      "status": "deleted",
+      "render_id": "rnd_19b092bf788d40d6a16c3fe2",
+      "historical_render": "public/art/protagonist/profane-orders-v06/drafts/05-grave-tithe-lancer.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "06",
@@ -46,7 +55,10 @@
     {
       "id": "07",
       "name": "Pestilent Standarder",
-      "render": "public/art/protagonist/profane-orders-v06/drafts/07-pestilent-standarder.png"
+      "status": "deleted",
+      "render_id": "rnd_9592ccfd19ed71abfc715f39",
+      "historical_render": "public/art/protagonist/profane-orders-v06/drafts/07-pestilent-standarder.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "08",
@@ -56,7 +68,10 @@
     {
       "id": "09",
       "name": "Chain-Vow Penitent",
-      "render": "public/art/protagonist/profane-orders-v06/drafts/09-chain-vow-penitent.png"
+      "status": "deleted",
+      "render_id": "rnd_c1989a657b0d18ba39e78c5a",
+      "historical_render": "public/art/protagonist/profane-orders-v06/drafts/09-chain-vow-penitent.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": "10",

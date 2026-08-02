@@ -36,22 +36,24 @@
     {
       "id": 2,
       "name": "Vein-Hook Arrestor",
-      "status": "draft",
-      "review_status": "redo-awaiting-review",
+      "status": "deleted",
+      "review_status": "deleted",
       "sha256": "ff5e05df4ff0f2b96166e127d77cd267691332a09cedcf7e33a67c9725c4ce8b",
       "render_id": "rnd_ff5e05df4ff0f2b96166e127",
-      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor.png",
-      "source_feedback_render_id": "rnd_9e54937ec7e54ea511dcbaa9"
+      "source_feedback_render_id": "rnd_9e54937ec7e54ea511dcbaa9",
+      "historical_render": "public/art/enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 3,
       "name": "Clot-Sigil Bastion",
-      "status": "draft",
-      "review_status": "redo-awaiting-review",
+      "status": "deleted",
+      "review_status": "deleted",
       "sha256": "fc5f6ba8407c478a2b77f03082777b9175fd47b87dd092de967e141e29ec9e3c",
       "render_id": "rnd_fc5f6ba8407c478a2b77f030",
-      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion.png",
-      "source_feedback_render_id": "rnd_c7086304834d0e56246f2b34"
+      "source_feedback_render_id": "rnd_c7086304834d0e56246f2b34",
+      "historical_render": "public/art/enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 4,
@@ -63,9 +65,11 @@
     {
       "id": 5,
       "name": "Heartseal Mace Captain",
-      "status": "draft",
+      "status": "deleted",
       "sha256": "b3eb988e3a877a145f9bd4c146066c2fa65fc0a1275d31a676f603579deaf814",
-      "render": "public/art/enemies/blood-demon-knights-batch-37/drafts/05-heartseal-mace-captain.png"
+      "render_id": "rnd_b3eb988e3a877a145f9bd4c1",
+      "historical_render": "public/art/enemies/blood-demon-knights-batch-37/drafts/05-heartseal-mace-captain.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 6,

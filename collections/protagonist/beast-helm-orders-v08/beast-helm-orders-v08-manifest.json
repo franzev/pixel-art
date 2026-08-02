@@ -23,12 +23,18 @@
     {
       "id": 2,
       "name": "Crocodile-Jaw Mace Warden",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/02-crocodile-jaw-mace-warden.png"
+      "status": "deleted",
+      "render_id": "rnd_ccdb625992df1fd652861545",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/02-crocodile-jaw-mace-warden.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 3,
       "name": "Rhino-Nasal Halberd Bastion",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/03-rhino-nasal-halberd-bastion.png"
+      "status": "deleted",
+      "render_id": "rnd_484abe7ab8876c4c48855c32",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/03-rhino-nasal-halberd-bastion.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 4,
@@ -48,22 +54,34 @@
     {
       "id": 7,
       "name": "Ram-Coil Halberd Breaker",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/07-ram-coil-halberd-breaker.png"
+      "status": "deleted",
+      "render_id": "rnd_e27a38c180da367be88d8ca4",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/07-ram-coil-halberd-breaker.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 8,
       "name": "Shark-Fin Sword Reaver",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/08-shark-fin-sword-reaver.png"
+      "status": "deleted",
+      "render_id": "rnd_115d623f4d91f8253876b94b",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/08-shark-fin-sword-reaver.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 9,
       "name": "Bat-Ear Axe Stalker",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/09-bat-ear-axe-stalker.png"
+      "status": "deleted",
+      "render_id": "rnd_6f12ccc6a51f3073b7bca18e",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/09-bat-ear-axe-stalker.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 10,
       "name": "Crane-Beak Rapier Duelist",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/10-crane-beak-rapier-duelist.png"
+      "status": "deleted",
+      "render_id": "rnd_0a6625a078ad8c715211e2b7",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/10-crane-beak-rapier-duelist.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 11,
@@ -78,7 +96,10 @@
     {
       "id": 13,
       "name": "Scorpion-Tail Sword Exactor",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/13-scorpion-tail-sword-exactor.png"
+      "status": "deleted",
+      "render_id": "rnd_0f6263c1a4ed0b07b40e7a3c",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/13-scorpion-tail-sword-exactor.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 14,
@@ -88,7 +109,10 @@
     {
       "id": 15,
       "name": "Hornbill-Casque Rapier Envoy",
-      "render": "public/art/protagonist/beast-helm-orders-v08/drafts/15-hornbill-casque-rapier-envoy.png"
+      "status": "deleted",
+      "render_id": "rnd_856c5571128d80363282d90d",
+      "historical_render": "public/art/protagonist/beast-helm-orders-v08/drafts/15-hornbill-casque-rapier-envoy.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 16,

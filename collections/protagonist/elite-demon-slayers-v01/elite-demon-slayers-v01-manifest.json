@@ -18,7 +18,10 @@
       "id": 1,
       "name": "Iron Vow Greatblade",
       "weapon": "Italian two-handed sword",
-      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/01-iron-vow-greatblade.png"
+      "status": "deleted",
+      "render_id": "rnd_8964e7de970fca8c476c8de9",
+      "historical_render": "public/art/protagonist/elite-demon-slayers-v01/drafts/01-iron-vow-greatblade.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 2,
@@ -36,7 +39,10 @@
       "id": 4,
       "name": "Silver Beak Hammerer",
       "weapon": "German Saxon war hammer",
-      "render": "public/art/protagonist/elite-demon-slayers-v01/drafts/04-silver-beak-hammerer.png"
+      "status": "deleted",
+      "render_id": "rnd_50c4bc1ac3373112fb339e19",
+      "historical_render": "public/art/protagonist/elite-demon-slayers-v01/drafts/04-silver-beak-hammerer.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 5,

@@ -18,7 +18,10 @@
     {
       "id": 1,
       "name": "Blue Levy Spearman",
-      "render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/01-blue-levy-spearman.png"
+      "status": "deleted",
+      "render_id": "rnd_0db138af6a7764d8d4a40591",
+      "historical_render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/01-blue-levy-spearman.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 2,
@@ -28,17 +31,26 @@
     {
       "id": 3,
       "name": "Mourning Halberdier",
-      "render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/03-mourning-halberdier.png"
+      "status": "deleted",
+      "render_id": "rnd_8514217cf11852a435d967ae",
+      "historical_render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/03-mourning-halberdier.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 4,
       "name": "Fallen Crossbowman",
-      "render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/04-fallen-crossbowman.png"
+      "status": "deleted",
+      "render_id": "rnd_61ecc7ee0c0871f0be980343",
+      "historical_render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/04-fallen-crossbowman.png",
+      "deleted_at": "2026-07-31"
     },
     {
       "id": 5,
       "name": "Pale Standard Bearer",
-      "render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/05-pale-standard-bearer.png"
+      "status": "deleted",
+      "render_id": "rnd_b74172788d9066d0cfec51db",
+      "historical_render": "public/art/protagonist/spectral-foot-soldiers-v09/drafts/05-pale-standard-bearer.png",
+      "deleted_at": "2026-07-31"
     }
   ]
 }

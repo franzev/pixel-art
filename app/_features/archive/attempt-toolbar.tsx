@@ -1,5 +1,7 @@
 "use client";
 
+import { SavedTimeFilter } from "./filters/saved-time-filter";
+
 export type AttemptSourceFilter = "all" | "successful" | "raw";
 
 export function AttemptToolbar({
@@ -9,7 +11,13 @@ export function AttemptToolbar({
   sourceFilter,
   successfulCount,
   rawCount,
+  savedTime,
+  savedFrom,
+  savedTo,
   onSourceFilterChange,
+  onSavedTimeChange,
+  onSavedFromChange,
+  onSavedToChange,
   onReviewUnreviewed,
 }: {
   attemptCount: number;
@@ -18,7 +26,13 @@ export function AttemptToolbar({
   sourceFilter: AttemptSourceFilter;
   successfulCount: number;
   rawCount: number;
+  savedTime: string;
+  savedFrom: string;
+  savedTo: string;
   onSourceFilterChange: (filter: AttemptSourceFilter) => void;
+  onSavedTimeChange: (value: string) => void;
+  onSavedFromChange: (value: string) => void;
+  onSavedToChange: (value: string) => void;
   onReviewUnreviewed: () => void;
 }) {
   return (
@@ -54,6 +68,15 @@ export function AttemptToolbar({
             RAW <strong>{rawCount}</strong>
           </button>
         </div>
+        <SavedTimeFilter
+          compact
+          value={savedTime}
+          customFrom={savedFrom}
+          customTo={savedTo}
+          onChange={onSavedTimeChange}
+          onCustomFromChange={onSavedFromChange}
+          onCustomToChange={onSavedToChange}
+        />
         <dl aria-label="Attempt archive summary">
           <div>
             <dt>Attempts</dt>

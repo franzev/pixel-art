@@ -3,6 +3,7 @@
 import type { AttemptItem, RenderReview } from "../../review-types";
 import { CATEGORY_LABELS, DECISION_LABELS } from "./archive-config";
 import { PreviewImage } from "./grid/preview-image";
+import { formatSavedTimestamp } from "./saved-time";
 
 export function AttemptInspector({
   item,
@@ -88,6 +89,14 @@ export function AttemptInspector({
           <dt>Dimensions</dt>
           <dd>
             {item.width} × {item.height}
+          </dd>
+        </div>
+        <div>
+          <dt>Saved</dt>
+          <dd>
+            <time dateTime={item.generatedAt}>
+              {formatSavedTimestamp(item.generatedAt)}
+            </time>
           </dd>
         </div>
         <div>

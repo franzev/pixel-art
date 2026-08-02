@@ -1,6 +1,10 @@
 "use client";
 
 import type { AttemptItem, GalleryItem } from "../../../review-types";
+import {
+  formatSavedTimestamp,
+  formatSavedTimestampCompact,
+} from "../saved-time";
 import { PreviewImage } from "./preview-image";
 
 function isAttemptItem(item: GalleryItem): item is AttemptItem {
@@ -58,7 +62,18 @@ export function RenderTile({
         </div>
         <span className="render-title">{title}</span>
         <span className="render-meta">
-          {attempt ? `${attemptLabel} · ` : ""}
+          {attempt ? (
+            <>
+              {attemptLabel} ·{" "}
+              <time
+                dateTime={attempt.generatedAt}
+                title={formatSavedTimestamp(attempt.generatedAt)}
+              >
+                Saved {formatSavedTimestampCompact(attempt.generatedAt)}
+              </time>{" "}
+              ·{" "}
+            </>
+          ) : null}
           {item.collection} · {item.width}×{item.height}
         </span>
       </button>

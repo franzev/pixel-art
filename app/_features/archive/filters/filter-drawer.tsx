@@ -6,6 +6,7 @@ import { CollectionFilter } from "./collection-filter";
 import { FilterGroup } from "./filter-group";
 import { RaceFilter } from "./race-filter";
 import { RatingFilter } from "./rating-filter";
+import { SavedTimeFilter } from "./saved-time-filter";
 import { ReviewProgressSummary } from "../review-progress";
 import type { ReviewProgress } from "../review-summary";
 
@@ -151,6 +152,20 @@ export function FilterDrawer({
 
           <section className="filter-section">
             <h3>Rating &amp; state</h3>
+            <SavedTimeFilter
+              value={filters.savedTime}
+              customFrom={filters.savedFrom}
+              customTo={filters.savedTo}
+              onChange={(savedTime) =>
+                onSetFilterValue("savedTime", savedTime)
+              }
+              onCustomFromChange={(savedFrom) =>
+                onSetFilterValue("savedFrom", savedFrom)
+              }
+              onCustomToChange={(savedTo) =>
+                onSetFilterValue("savedTo", savedTo)
+              }
+            />
             <RatingFilter
               value={filters.rating}
               counts={ratingCounts}

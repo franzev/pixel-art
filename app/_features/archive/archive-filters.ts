@@ -1,5 +1,9 @@
 import type { GalleryItem, ReviewMap } from "../../review-types";
 import { GENDER_TAG_GROUP, RACE_TAG_GROUP } from "./archive-config";
+import {
+  matchesSavedTimeFilter,
+  savedTimeFilterLabel,
+} from "./saved-time";
 
 export type FilterState = {
   lifecycle: string;
@@ -8,6 +12,9 @@ export type FilterState = {
   favorite: string;
   gender: string;
   race: string;
+  savedTime: string;
+  savedFrom: string;
+  savedTo: string;
   collections: string[];
 };
 
@@ -92,6 +99,9 @@ export const DEFAULT_FILTER_STATE: FilterState = {
   favorite: "all",
   gender: "all",
   race: "all",
+  savedTime: "all",
+  savedFrom: "",
+  savedTo: "",
   collections: [],
 };
 
@@ -106,6 +116,7 @@ export const URL_FILTER_KEYS = [
   "favorite",
   "gender",
   "race",
+  "savedTime",
 ] as const;
 
 export function filtersToSearchParams(filters: FilterState, query: string) {
@@ -115,6 +126,10 @@ export function filtersToSearchParams(filters: FilterState, query: string) {
     if (filters[key] !== DEFAULT_FILTER_STATE[key]) {
       params.set(key, filters[key]);
     }
+  }
+  if (filters.savedTime === "custom") {
+    if (filters.savedFrom) params.set("savedFrom", filters.savedFrom);
+    if (filters.savedTo) params.set("savedTo", filters.savedTo);
   }
   for (const name of filters.collections) params.append("c", name);
   return params;
@@ -128,6 +143,7 @@ export function activeFilterDimensionCount(filters: FilterState) {
     filters.favorite !== DEFAULT_FILTER_STATE.favorite,
     filters.gender !== DEFAULT_FILTER_STATE.gender,
     filters.race !== DEFAULT_FILTER_STATE.race,
+    filters.savedTime !== DEFAULT_FILTER_STATE.savedTime,
     filters.collections.length > 0,
   ].filter(Boolean).length;
 }
@@ -143,12 +159,17 @@ export function filterGalleryItems(
   favoriteIds: Set<string>,
   reviews: ReviewMap,
   query: string,
+  now = Date.now(),
 ) {
   const needle = query.trim().toLocaleLowerCase();
   return items.filter((item) => {
     // Candidates share the Catalog surface only through an explicit review
     // decision. The normal library stays canonical and uncluttered.
-    if (item.status === "unreviewed" && filters.decision === "all") {
+    if (
+      item.status === "unreviewed" &&
+      filters.decision === "all" &&
+      filters.savedTime === "all"
+    ) {
       return false;
     }
     if (filters.lifecycle === "active" && item.status === "rejected")
@@ -178,6 +199,16 @@ export function filterGalleryItems(
     }
     if (!matchesRatingFilter(reviews[item.renderId]?.overallRating, filters.rating))
       return false;
+    if (
+      !matchesSavedTimeFilter(
+        item,
+        filters.savedTime,
+        filters.savedFrom,
+        filters.savedTo,
+        now,
+      )
+    )
+      return false;
     if (!needle) return true;
     return [item.name, item.filename, item.category, item.collection]
       .join(" ")
@@ -185,6 +216,8 @@ export function filterGalleryItems(
       .includes(needle);
   });
 }
+
+export { savedTimeFilterLabel };
 
 export function tagFilterOptions(
   items: GalleryItem[],

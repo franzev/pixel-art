@@ -17,9 +17,11 @@ import {
   filtersToSearchParams,
   parseRatingFilter,
   ratingFilterLabel,
+  savedTimeFilterLabel,
   tagFilterOptions,
   tagValueFor,
 } from "../archive-filters";
+import { SAVED_TIME_PRESETS } from "../saved-time";
 import type { EmptyRecoveryCandidate, FilterToken } from "../archive-types";
 
 function labelFor(options: { value: string; label: string }[], value: string) {
@@ -37,7 +39,14 @@ export function useGalleryFilters(
   const [filters, setFilters] = useState<FilterState>(() =>
     copyFilterState(DEFAULT_FILTER_STATE),
   );
+  const [timeAnchor, setTimeAnchor] = useState(() => Date.now());
   const urlRestoredRef = useRef(false);
+
+  useEffect(() => {
+    if (filters.savedTime === "all") return;
+    const interval = window.setInterval(() => setTimeAnchor(Date.now()), 60_000);
+    return () => window.clearInterval(interval);
+  }, [filters.savedTime]);
 
   // Facet counts are conditioned on every OTHER active dimension (plus the
   // search query), so the number next to an option always equals the result
@@ -50,6 +59,7 @@ export function useGalleryFilters(
         favoriteIds,
         reviews,
         query,
+        timeAnchor,
       );
     return {
       lifecycle: pool({ lifecycle: "all" }),
@@ -60,7 +70,7 @@ export function useGalleryFilters(
       race: pool({ race: "all" }),
       collections: pool({ collections: [] }),
     };
-  }, [favoriteIds, filters, items, query, reviews]);
+  }, [favoriteIds, filters, items, query, reviews, timeAnchor]);
 
   const collectionCounts = useMemo(() => {
     const counts = new Map<string, number>();
@@ -193,8 +203,9 @@ export function useGalleryFilters(
       favoriteIds,
       reviews,
       query,
+      timeAnchor,
     );
-  }, [favoriteIds, filters, items, query, reviews]);
+  }, [favoriteIds, filters, items, query, reviews, timeAnchor]);
 
   const hiddenRejectedCount = useMemo(
     () =>
@@ -234,6 +245,17 @@ export function useGalleryFilters(
       "race",
       raceOptions.map((option) => option.value),
     );
+    pick(
+      "savedTime",
+      SAVED_TIME_PRESETS.map((preset) => preset.value),
+    );
+    if (next.savedTime === "custom") {
+      const savedFrom = params.get("savedFrom") ?? "";
+      const savedTo = params.get("savedTo") ?? "";
+      const localDateTime = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/;
+      if (localDateTime.test(savedFrom)) next.savedFrom = savedFrom;
+      if (localDateTime.test(savedTo)) next.savedTo = savedTo;
+    }
     next.collections = params
       .getAll("c")
       .filter((name) => collectionOptions.includes(name));
@@ -291,7 +313,13 @@ export function useGalleryFilters(
   // The token strip is the single source of truth: every non-default
   // dimension gets a removable token, no exceptions.
   const singleValueToken = (
-    key: "decision" | "rating" | "favorite" | "gender" | "race" | "lifecycle",
+    key:
+      | "decision"
+      | "rating"
+      | "favorite"
+      | "gender"
+      | "race"
+      | "lifecycle",
     label: string,
   ): FilterToken[] =>
     filters[key] !== DEFAULT_FILTER_STATE[key]
@@ -318,6 +346,19 @@ export function useGalleryFilters(
       "rating",
       `Rating: ${ratingFilterLabel(filters.rating)}`,
     ),
+    ...(filters.savedTime !== "all"
+      ? [
+          {
+            id: "savedTime",
+            label: `Saved: ${savedTimeFilterLabel(
+              filters.savedTime,
+              filters.savedFrom,
+              filters.savedTo,
+            )}`,
+            onRemove: () => setFilterValue("savedTime", "all"),
+          },
+        ]
+      : []),
     ...singleValueToken(
       "gender",
       `Gender: ${labelFor(genderOptions, filters.gender)}`,
@@ -343,6 +384,7 @@ export function useGalleryFilters(
         favoriteIds,
         reviews,
         dropQuery ? "" : query,
+        timeAnchor,
       ).length;
     const candidates: EmptyRecoveryCandidate[] = [];
     if (query.trim()) {
@@ -374,6 +416,17 @@ export function useGalleryFilters(
         label: ratingFilterLabel(filters.rating).toUpperCase(),
         freed: countWith({ rating: "all" }),
         loosen: () => setFilterValue("rating", "all"),
+      });
+    }
+    if (filters.savedTime !== "all") {
+      candidates.push({
+        label: "SAVED TIME",
+        freed: countWith({
+          savedTime: "all",
+          savedFrom: "",
+          savedTo: "",
+        }),
+        loosen: () => setFilterValue("savedTime", "all"),
       });
     }
     if (filters.gender !== "all") {
@@ -422,6 +475,9 @@ export function useGalleryFilters(
     filters.favorite,
     filters.gender,
     filters.race,
+    filters.savedTime,
+    filters.savedFrom,
+    filters.savedTo,
     filters.collections.join("\u0000"),
   ].join("\u0001");
 
@@ -456,5 +512,6 @@ export function useGalleryFilters(
     filterTokens,
     emptyRecovery,
     gridResetKey,
+    timeAnchor,
   };
 }

@@ -47,6 +47,7 @@ import { MobileAttemptViewer } from "./mobile-attempt-viewer";
 import { QuickFilterBar } from "./quick-filter-bar";
 import { RenderInspector } from "./render-inspector";
 import { summarizeReviewProgress } from "./review-summary";
+import { matchesSavedTimeFilter } from "./saved-time";
 
 export function ArchiveGallery({
   catalog,
@@ -135,6 +136,7 @@ export function ArchiveGallery({
     filterTokens,
     emptyRecovery,
     gridResetKey,
+    timeAnchor,
   } = useGalleryFilters(
     items,
     favoriteIds,
@@ -157,9 +159,28 @@ export function ArchiveGallery({
     ? matchingAttemptHistory(selectedCandidate, attempts)
     : [];
 
+  const attemptsInSavedRange = useMemo(
+    () =>
+      attempts.filter((item) =>
+        matchesSavedTimeFilter(
+          item,
+          filters.savedTime,
+          filters.savedFrom,
+          filters.savedTo,
+          timeAnchor,
+        ),
+      ),
+    [
+      attempts,
+      filters.savedFrom,
+      filters.savedTime,
+      filters.savedTo,
+      timeAnchor,
+    ],
+  );
   const filteredAttempts = useMemo(() => {
     const needle = attemptQuery.trim().toLocaleLowerCase();
-    return attempts.filter((item) => {
+    return attemptsInSavedRange.filter((item) => {
       if (
         attemptSourceFilter === "successful" &&
         item.sourceKind !== "redo-staging"
@@ -185,19 +206,21 @@ export function ArchiveGallery({
           .toLocaleLowerCase()
           .includes(needle);
     });
-  }, [attemptQuery, attemptSourceFilter, attempts]);
+  }, [attemptQuery, attemptSourceFilter, attemptsInSavedRange]);
   const selectedAttempt =
     filteredAttempts.find((item) => item.id === selectedAttemptId) ??
     filteredAttempts[0];
   const attemptSeriesCount = useMemo(
-    () => new Set(attempts.map((item) => item.series)).size,
-    [attempts],
+    () => new Set(attemptsInSavedRange.map((item) => item.series)).size,
+    [attemptsInSavedRange],
   );
   const successfulAttemptCount = useMemo(
-    () => attempts.filter((item) => item.sourceKind === "redo-staging").length,
-    [attempts],
+    () =>
+      attemptsInSavedRange.filter((item) => item.sourceKind === "redo-staging")
+        .length,
+    [attemptsInSavedRange],
   );
-  const rawAttemptCount = attempts.length - successfulAttemptCount;
+  const rawAttemptCount = attemptsInSavedRange.length - successfulAttemptCount;
   const unreviewedCandidateCount = useMemo(
     () =>
       candidates.filter((item) => !reviews[item.renderId]?.decision).length,
@@ -507,13 +530,23 @@ export function ArchiveGallery({
             </>
           ) : (
             <AttemptToolbar
-              attemptCount={attempts.length}
+              attemptCount={attemptsInSavedRange.length}
               seriesCount={attemptSeriesCount}
               unreviewedCount={unreviewedAttemptCount}
               sourceFilter={attemptSourceFilter}
               successfulCount={successfulAttemptCount}
               rawCount={rawAttemptCount}
+              savedTime={filters.savedTime}
+              savedFrom={filters.savedFrom}
+              savedTo={filters.savedTo}
               onSourceFilterChange={setAttemptSourceFilter}
+              onSavedTimeChange={(value) =>
+                setFilterValue("savedTime", value)
+              }
+              onSavedFromChange={(value) =>
+                setFilterValue("savedFrom", value)
+              }
+              onSavedToChange={(value) => setFilterValue("savedTo", value)}
               onReviewUnreviewed={() =>
                 openAttemptReview(selectedAttempt, "unreviewed")
               }
@@ -572,9 +605,16 @@ export function ArchiveGallery({
                     filteredCount={filteredAttempts.length}
                     totalCount={attempts.length}
                     hiddenRejectedCount={0}
-                    hasFilters={false}
+                    hasFilters={
+                      attemptSourceFilter !== "all" ||
+                      filters.savedTime !== "all"
+                    }
                     query={attemptQuery}
-                    onClear={() => setAttemptQuery("")}
+                    onClear={() => {
+                      setAttemptQuery("");
+                      setAttemptSourceFilter("all");
+                      setFilterValue("savedTime", "all");
+                    }}
                   />
 
                   {filteredAttempts.length ? (
@@ -583,13 +623,17 @@ export function ArchiveGallery({
                       selectedId={selectedAttempt?.id}
                       tileSize={tileSize}
                       scrollElement={galleryViewport}
-                      resetKey={`attempts:${attemptSourceFilter}:${attemptQuery}`}
+                      resetKey={`attempts:${attemptSourceFilter}:${filters.savedTime}:${filters.savedFrom}:${filters.savedTo}:${attemptQuery}`}
                       onOpen={openAttempt}
                     />
                   ) : (
                     <AttemptEmptyState
                       hasQuery={Boolean(attemptQuery.trim())}
-                      onClear={() => setAttemptQuery("")}
+                      onClear={() => {
+                        setAttemptQuery("");
+                        setAttemptSourceFilter("all");
+                        setFilterValue("savedTime", "all");
+                      }}
                     />
                   )}
                 </>

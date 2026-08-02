@@ -8,6 +8,7 @@ import type {
   RenderReview,
 } from "../../review-types";
 import { PreviewImage } from "./grid/preview-image";
+import { formatSavedTimestamp } from "./saved-time";
 
 type CatalogPlacement = "variant" | "replace";
 
@@ -97,6 +98,14 @@ export function CandidateInspector({
         <div><dt>Collection</dt><dd>{candidate.collection}</dd></div>
         <div><dt>Version</dt><dd>{String(candidate.attempt).padStart(2, "0")}</dd></div>
         <div><dt>History</dt><dd>{history.length} preserved outputs</dd></div>
+        <div>
+          <dt>Saved</dt>
+          <dd>
+            <time dateTime={candidate.generatedAt}>
+              {formatSavedTimestamp(candidate.generatedAt)}
+            </time>
+          </dd>
+        </div>
         <div><dt>Decision</dt><dd>{review?.decision ?? "Unreviewed"}</dd></div>
         <div><dt>Rating</dt><dd>{review?.overallRating ? `${review.overallRating} / 5` : "—"}</dd></div>
       </dl>

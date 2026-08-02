@@ -1,5 +1,10 @@
 # Sovereigns of the Provinces V01 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 1 marked render from the active catalog: Dwende Mound King. 4 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 **Status:** King review wave generated; all drafts awaiting review  
 **Prepared:** 2026-07-30  
 **Requested total:** 5 kings and 5 queens  

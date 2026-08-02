@@ -1,5 +1,10 @@
 # Beast-Helm Orders v07 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 4 marked renders from the active catalog: Bear Mantle Axeguard, Black Raven Cavalier, Grey Wolf Swordwarden, Red Fox Scout Knight. 6 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Create ten original animal-helm knights. Each helmet, armor geometry, palette,

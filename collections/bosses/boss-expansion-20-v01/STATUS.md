@@ -1,5 +1,10 @@
 # Boss Expansion 20 v01 — Draft Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 22 marked renders from the active catalog: Bakunawas Last Hunger, Candle Moth Abbot, Flood Leech Sovereign, Gilded Shears Executioner, Glass Hoof Tikbalang, Kapre Who Swallowed Dawn, Monsoon Mourner, Ossuary Stag, Physician Of Seven Fevers, Powder Cellar Ant Queen, Powder Shell Alimango, Queen Of The Wakwak Choir, Red Tide Sirena, River Crown Buwaya, Salt Crowned Carabao, Scarlet Chain Eater, Starved Santo, Thunder Tusk Baboy, Velvet Web Widow, Physician Of Seven Fevers Pass01 Eight Rack Jars, Physician Of Seven Fevers Pass02 Eight Total Jars, Powder Shell Alimango Pass01 Hidden Legs. 1 catalog PNG remains in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 **Status:** Twenty unapproved boss concepts ready for user review  
 **Generated:** 2026-07-29  
 **Active concepts:** 20  

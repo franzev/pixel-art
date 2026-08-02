@@ -1,5 +1,13 @@
 # Holy Knight Variations v01 — Status
 
+> **Current facing clarification (2026-08-01):** Historical pose notes
+> below remain provenance only. Any future render uses a mostly frontal,
+> shallow front-three-quarter view with a slight screen-right bias and a
+> visible camera-facing facial plane. When unobscured, show both eyes, nose,
+> mouth, chin, and expression. Left-facing, rear-three-quarter,
+> back-of-head, ear-only, far-cheek, and complete side-profile views are
+> prohibited unless explicitly requested.
+
 ## Scope
 
 Six animation-compatible holy variants of the established Crimson Knight:

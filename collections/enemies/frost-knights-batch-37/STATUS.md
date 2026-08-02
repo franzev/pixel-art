@@ -16,11 +16,11 @@
 
 ## Reference direction
 
-The retained Frost-Rime Templar from
-`public/art/protagonist/ghost-knight-orders-v08/drafts/07-frost-rime-templar.png`
-was used as a visual reference only for grounded plate construction, restrained
-pale-steel and lilac-grey frost colors, readable cold weathering, and isolated
-pixel-art presentation.
+The Frost-Rime Templar was used historically as a visual reference for grounded
+plate construction, restrained pale-steel and lilac-grey frost colors, readable
+cold weathering, and isolated pixel-art presentation. It was subsequently
+marked for deletion and physically removed on 2026-07-31, so it is no longer an
+eligible reference.
 
 None of its exact square helmet, hammer, cross tabard, purple scarf, pose,
 ghost-dissolving limb, or silhouette was requested or copied.

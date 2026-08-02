@@ -1,5 +1,18 @@
 # Beast-Helm Orders v08 — Status
 
+> **Current facing clarification (2026-08-01):** Historical pose notes
+> below remain provenance only. Any future render uses a mostly frontal,
+> shallow front-three-quarter view with a slight screen-right bias and a
+> visible camera-facing facial plane. When unobscured, show both eyes, nose,
+> mouth, chin, and expression. Left-facing, rear-three-quarter,
+> back-of-head, ear-only, far-cheek, and complete side-profile views are
+> prohibited unless explicitly requested.
+
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 8 marked renders from the active catalog: Bat Ear Axe Stalker, Crane Beak Rapier Duelist, Crocodile Jaw Mace Warden, Hornbill Casque Rapier Envoy, Ram Coil Halberd Breaker, Rhino Nasal Halberd Bastion, Scorpion Tail Sword Exactor, Shark Fin Sword Reaver. 12 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Create twenty new original animal-faction armored knights in four review waves

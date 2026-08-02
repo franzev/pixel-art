@@ -1,5 +1,10 @@
 # Blood Demon Knights Batch 37 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 3 marked renders from the active catalog: Clot Sigil Bastion, Heartseal Mace Captain, Vein Hook Arrestor. 17 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 **Status:** Three original draft waves plus redo waves 01–02; awaiting user review
 **Generated:** 2026-07-30  
 **Active concept slots:** 15

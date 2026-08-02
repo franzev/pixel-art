@@ -2,7 +2,7 @@
 
 **Status:** Twenty-nine active catalog drafts; five new Wave 06 drafts await
 user review
-**Updated:** 2026-07-31
+**Updated:** 2026-08-02
 **Active render files:** 29
 **Canonical retained assets:** 0
 **Lore/count changes:** None
@@ -41,6 +41,34 @@ also has a distinct adult face structure, age, practical hairstyle, stance,
 and combat read.
 
 ## Current Art Direction
+
+### Source-locked redo clarification — 2026-08-01
+
+For corrections to an existing reviewed render, preserve the source design
+even when later collection-wide directions differ. The Burnt-Rose Iron-Club
+Nun correction changes only the rejected club into a researched rigid
+morning-star mace. Her low concealed face, dusty-rose hood, exposed scarred
+shoulder, asymmetrical charcoal tattered shawl, fitted dusty-rose dress with
+high side opening, rosary, long bare legs and feet, stooped stride, palette,
+silhouette, and pixel treatment remain locked. Do not replace her with the
+later closed-dress, visible-face, booted interpretation.
+
+### Slight-right directional correction — 2026-08-02
+
+The first source-faithful morning-star correction preserved the original
+screen-left-leading leg and screen-left-leading weapon head, so its silhouette
+contradicted the project-wide slight-right-facing lock. That attempt remains
+archived but is not the directional reference. For this character and every
+future directional redo, the forward knee and leading foot, weight transfer,
+and weapon head must favor screen-right while the rear leg and loose fabric may
+trail screen-left. The torso and covered facial plane remain mostly frontal in
+a shallow front-three-quarter view.
+
+Direction must be regenerated, never repaired by mirroring. The exposed
+scarred shoulder and heavy tattered shawl remain on their original screen sides
+while the locomotion and morning-star action lead right. The v07 review
+candidate satisfies those directional and asymmetry locks and remains staged,
+preserved, and unapproved pending normal review.
 
 - One unmistakably adult barefoot woman per square isolated render.
 - Mature proportions around 7.5–8 heads, long plausible legs, balanced

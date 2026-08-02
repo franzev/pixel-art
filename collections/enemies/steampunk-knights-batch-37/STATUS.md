@@ -1,5 +1,14 @@
 # Steampunk Knights Batch 37 — Draft Status
 
+> **Current facing clarification (2026-08-01):** Any future use of
+> `right-facing` in this collection means a mostly frontal, shallow
+> front-three-quarter view with the camera-facing facial plane visible.
+> When unobscured, show both eyes, nose, mouth, chin, and expression.
+> Gaze and action may favor screen-right; rear-three-quarter,
+> back-of-head, ear-only, far-cheek, and complete side-profile views are
+> prohibited unless explicitly requested. This overrides older facing notes
+> below for future renders without rewriting historical outcomes.
+
 **Status:** Five generated drafts awaiting review
 
 **Generated:** 2026-07-30

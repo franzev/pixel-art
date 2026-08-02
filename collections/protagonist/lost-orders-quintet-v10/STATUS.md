@@ -1,5 +1,10 @@
 # Lost Orders Quintet v10 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 1 marked render from the active catalog: Reed Crown Marsh Lancer. 4 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Create five surprising original knights using unusual but wearable helmet-led

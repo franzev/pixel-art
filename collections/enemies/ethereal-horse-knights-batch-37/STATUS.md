@@ -28,10 +28,11 @@ was used only as an unapproved visual reference for coherent mounted anatomy,
 tack, isolated framing, and pixel construction. Its design, pose, equipment,
 cloth, and silhouette were not treated as approved direction or copied.
 
-`public/art/protagonist/ghost-knight-orders-v08/drafts/01-fog-sallet-wanderer.png`
-was used as a retained visual reference for spectral absence, empty armor,
-broken cloth clusters, restrained palette, and mournful presentation. Its exact
-pose, armor, garments, shield, sword, and silhouette were not copied.
+The Fog-Sallet Wanderer was used historically as a visual reference for
+spectral absence, empty armor, broken cloth clusters, restrained palette, and
+mournful presentation. It was subsequently marked for deletion and physically
+removed on 2026-07-31, so it is no longer an eligible reference. Its exact pose,
+armor, garments, shield, sword, and silhouette were not copied.
 
 ## Quality-control review
 

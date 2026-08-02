@@ -1,5 +1,10 @@
 # Ghost Knight Orders v08 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 5 marked renders from the active catalog: Barrow Chain Warden, Echo Crown Marshal, Fog Sallet Wanderer, Frost Rime Templar, Hollow Banner Knight. 5 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Create ten original ghost knights whose spectral nature comes from absence,

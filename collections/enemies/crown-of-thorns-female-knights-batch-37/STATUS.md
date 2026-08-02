@@ -1,5 +1,19 @@
 # Crown of Thorns Female Knights Batch 37 — Status
 
+> **Current facing clarification (2026-08-01):** Any future use of
+> `right-facing` in this collection means a mostly frontal, shallow
+> front-three-quarter view with the camera-facing facial plane visible.
+> When unobscured, show both eyes, nose, mouth, chin, and expression.
+> Gaze and action may favor screen-right; rear-three-quarter,
+> back-of-head, ear-only, far-cheek, and complete side-profile views are
+> prohibited unless explicitly requested. This overrides older facing notes
+> below for future renders without rewriting historical outcomes.
+
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 2 marked renders from the active catalog: Crown Burden Montante Marshal, Root Hammer Penitent. 3 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 Last updated: 2026-07-30
 
 ## Current State

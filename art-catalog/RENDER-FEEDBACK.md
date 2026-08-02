@@ -1,15 +1,16 @@
 # Render Feedback Memory
 
-Latest confirmed local review: 2026-07-31T08:49:18.271Z
+Latest confirmed local review: 2026-08-01T01:59:18.447Z
 
 This file records direct ratings, decisions, defects, and correction notes. Suggested tags remain explicitly separate from confirmed tags and must not be treated as user-approved art direction.
 
 ## Review summary
 
-- Reviewed or rated renders: 1382
-- delete: 813
-- keep: 362
-- reject: 207
+- Reviewed or rated renders: 1471
+- delete: 868
+- keep: 394
+- rated only: 1
+- reject: 208
 
 ## Five-star anchors
 
@@ -26,10 +27,101 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Capiz Visor High Guard
+
+- Render ID: `rnd_db63b2fb936237e6685dfb30`
+- Path: `enemies/axe-wielding-knights-batch-50/drafts/01-capiz-visor-high-guard.png`
+- Collection: Axe Wielding Knights Batch 50
+- Rating: 5/5
+- Decision: keep
+- Defects: Feels repetitive / samey (major)
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Black Bell Caller
+
+- Render ID: `rnd_eaf61a8ee1967ee57cf9dcec`
+- Path: `archive/render-attempts/enemies/banshees-batch-33/14-black-bell-caller/attempt-02.png`
+- Collection: Banshees Batch 33
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Crimson Edged Mourner
+
+- Render ID: `rnd_7d95c0a2c44534b581b1be54`
+- Path: `work/redo-staging/enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-v02.png`
+- Collection: Banshees Batch 33
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Indigo Wrap Mourner
+
+- Render ID: `rnd_8d480d3a143a33c0c436c347`
+- Path: `archive/render-attempts/enemies/banshees-batch-33/15-indigo-wrap-mourner/attempt-02.png`
+- Collection: Banshees Batch 33
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ashen Warhammer Provost
+
+- Render ID: `rnd_6830983edf116df77e2ca09a`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/10-ashen-warhammer-provost/attempt-02.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Blood Needle Duelist
 
 - Render ID: `rnd_5a021e9942208c12abd02199`
 - Path: `enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Needle Duelist
+
+- Render ID: `rnd_206e25eeb1a7d3cb6018c34d`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/01-blood-needle-duelist/attempt-03.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Needle Duelist
+
+- Render ID: `rnd_8a5478b71dd1bbcb47c45912`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/01-blood-needle-duelist/attempt-02.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -52,10 +144,49 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Clot Sigil Bastion
+
+- Render ID: `rnd_48aa71bb56a475edb343ba14`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/03-clot-sigil-bastion/attempt-01.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Oxblood Greatsword Pursuer
 
 - Render ID: `rnd_19e1d3cc1755e4124db2f99d`
 - Path: `enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Oxblood Greatsword Pursuer
+
+- Render ID: `rnd_b7ea340b80b1bf574ac62dbd`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/13-oxblood-greatsword-pursuer/attempt-05.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Oxblood Greatsword Pursuer
+
+- Render ID: `rnd_22ada4ee0525c3cd629cecf2`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/13-oxblood-greatsword-pursuer/attempt-04.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 5/5
 - Decision: keep
@@ -96,6 +227,45 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Render ID: `rnd_b6cd1be4ee598caaf2942626`
 - Path: `enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/15-iron-warhammer-marshal-v01.png`
 - Collection: Blood Demon Knights Batch 37 · Rejected
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Cup Interdictor
+
+- Render ID: `rnd_1d73c18c5e30b25c470bdfc0`
+- Path: `archive/render-attempts/enemies/blood-priestesses-batch-39/01-blood-cup-interdictor/attempt-02.png`
+- Collection: Blood Priestesses Batch 39
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Cup Interdictor
+
+- Render ID: `rnd_a7ab8acd69dbb0794d4ddae5`
+- Path: `work/redo-staging/enemies/blood-priestesses-batch-39/drafts/01-blood-cup-interdictor-v02.png`
+- Collection: Blood Priestesses Batch 39
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Diamond Hierophant
+
+- Render ID: `rnd_9e4aa50e2b6c5d91471a99ea`
+- Path: `work/redo-staging/enemies/blood-priestesses-batch-39/drafts/06-blood-diamond-hierophant-v02.png`
+- Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
 - Defects: None recorded
@@ -260,10 +430,36 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Blackwater Aspergillist
+
+- Render ID: `rnd_1f2352eb0c5c06554e0f009e`
+- Path: `work/redo-staging/enemies/catholic-evil-white-priests-batch-41/drafts/14-blackwater-aspergillist-v02.png`
+- Collection: Catholic Evil White Priests Batch 41
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Ivory Cross Interdictor
 
 - Render ID: `rnd_86615eb8add55ccb330cecd6`
 - Path: `enemies/catholic-evil-white-priests-batch-41/drafts/01-ivory-cross-interdictor.png`
+- Collection: Catholic Evil White Priests Batch 41
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Wax Mitre Ordinariate
+
+- Render ID: `rnd_59449be6add6637958f92870`
+- Path: `work/redo-staging/enemies/catholic-evil-white-priests-batch-41/drafts/10-wax-mitre-ordinariate-v02.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 5/5
 - Decision: keep
@@ -533,6 +729,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Ultramarine Apricot Rapier Sister
+
+- Render ID: `rnd_a1f105bd7727caea44174ab4`
+- Path: `work/redo-staging/enemies/convent-horrors-batch-37/drafts/27-ultramarine-apricot-rapier-sister-v02.png`
+- Collection: Convent Horrors Batch 37
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Verdigris Tapis Bow Sister
 
 - Render ID: `rnd_5ac5dd9c6ebaf943bd18d5a0`
@@ -681,6 +890,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Render ID: `rnd_598542dd171ce7c0738953f3`
 - Path: `enemies/crown-of-thorns-knights-batch-40/drafts/02-thorn-peak-lucerne-warden.png`
 - Collection: Crown Of Thorns Knights Batch 40
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Black Hedge Sacristan
+
+- Render ID: `rnd_0b4625fffae4b5fd23fd8d09`
+- Path: `archive/render-attempts/enemies/crowned-thorn-priestesses-batch-45/04-black-hedge-sacristan/attempt-02.png`
+- Collection: Crowned Thorn Priestesses Batch 45
 - Rating: 5/5
 - Decision: keep
 - Defects: None recorded
@@ -927,6 +1149,45 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 - Render ID: `rnd_8b0716255c505275c7be68b6`
 - Path: `enemies/short-haired-inquisitors-batch-48/drafts/06-ashen-blade-preceptress.png`
+- Collection: Short Haired Inquisitors Batch 48
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Cinder Halberd Canoness
+
+- Render ID: `rnd_174b328acacf1ce2276c343c`
+- Path: `work/redo-staging/enemies/short-haired-inquisitors-batch-48/drafts/08-cinder-halberd-canoness-v02.png`
+- Collection: Short Haired Inquisitors Batch 48
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ivory Pageboy Interrogator
+
+- Render ID: `rnd_dd13bd242ae54ce8087a5b39`
+- Path: `work/redo-staging/enemies/short-haired-inquisitors-batch-48/drafts/02-ivory-pageboy-interrogator-v02.png`
+- Collection: Short Haired Inquisitors Batch 48
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Pale Axe Pursuer
+
+- Render ID: `rnd_f279cac42960106388dfbacd`
+- Path: `work/redo-staging/enemies/short-haired-inquisitors-batch-48/drafts/09-pale-axe-pursuer-v02.png`
 - Collection: Short Haired Inquisitors Batch 48
 - Rating: 5/5
 - Decision: keep
@@ -1443,6 +1704,266 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Abaca Kanzashi Companion
+
+- Render ID: `rnd_c9058b4ba2b321459aab06eb`
+- Path: `npcs/sex-workers-v01/20-abaca-kanzashi-companion.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ash Silk Wakizashi Survivor
+
+- Render ID: `rnd_0f3f34265fa8231dcae43c71`
+- Path: `npcs/sex-workers-v01/drafts/22-ash-silk-wakizashi-survivor.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Bandurria Courtesan
+
+- Render ID: `rnd_b0ce9aaed182720171fde85f`
+- Path: `npcs/sex-workers-v01/drafts/12-bandurria-courtesan.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Bathhouse Hostess
+
+- Render ID: `rnd_8db50c7713e1cf0cf4a17507`
+- Path: `npcs/sex-workers-v01/drafts/09-bathhouse-hostess.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Black Lace Rapier Defender
+
+- Render ID: `rnd_87f2e66eb3631b9e8ca055b2`
+- Path: `npcs/sex-workers-v01/drafts/24-black-lace-rapier-defender.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Mud Talibon Courtesan
+
+- Render ID: `rnd_9bcb91acd00b1e9b2e1259e4`
+- Path: `npcs/sex-workers-v01/drafts/30-blood-mud-talibon-courtesan.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Festival Mask Courtesan
+
+- Render ID: `rnd_b56628c87b7a01020c9d02df`
+- Path: `npcs/sex-workers-v01/drafts/13-festival-mask-courtesan.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Jade Sash Songstress
+
+- Render ID: `rnd_f359fe769b330b7f57ed75fd`
+- Path: `npcs/sex-workers-v01/17-jade-sash-songstress.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Jade Scar Saber Hostess
+
+- Render ID: `rnd_82fa81f1ba18591bffcaf3ce`
+- Path: `npcs/sex-workers-v01/drafts/23-jade-scar-saber-hostess.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Lacquer Sleeve Oiran
+
+- Render ID: `rnd_f52e9870829b97ef453d68ab`
+- Path: `npcs/sex-workers-v01/16-lacquer-sleeve-oiran.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Oxblood Kampilan Guardian
+
+- Render ID: `rnd_88df5786a5995eb4f9573866`
+- Path: `npcs/sex-workers-v01/drafts/21-oxblood-kampilan-guardian.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Pearl Grip Dagger Survivor
+
+- Render ID: `rnd_17041377af2e911e8a9691f9`
+- Path: `npcs/sex-workers-v01/drafts/25-pearl-grip-dagger-survivor.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Pearl Mirror Companion
+
+- Render ID: `rnd_24c38ac0115751256c6778f4`
+- Path: `npcs/sex-workers-v01/drafts/06-pearl-mirror-companion.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Perfume House Hostess
+
+- Render ID: `rnd_649a8cd02cb74112251ce711`
+- Path: `npcs/sex-workers-v01/drafts/11-perfume-house-hostess.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Porcelain Capiz Mestiza
+
+- Render ID: `rnd_85559d34f0b700afde96652a`
+- Path: `npcs/sex-workers-v01/19-porcelain-capiz-mestiza.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Sable Mantilla Maja
+
+- Render ID: `rnd_9309370f3c6b9e42f5fcc987`
+- Path: `npcs/sex-workers-v01/18-sable-mantilla-maja.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Sealed Letter Courtesan
+
+- Render ID: `rnd_fa40e5fcafbbaecb99f98f6c`
+- Path: `npcs/sex-workers-v01/drafts/10-sealed-letter-courtesan.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Tambourine House Dancer
+
+- Render ID: `rnd_f0dd1182fd03cf80ebfc0b1a`
+- Path: `npcs/sex-workers-v01/drafts/07-tambourine-house-dancer.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Torn Mantilla Halberd Survivor
+
+- Render ID: `rnd_6d8faf07d151f1f9434622bc`
+- Path: `work/redo-staging/npcs/sex-workers-v01/drafts/29-torn-mantilla-halberd-survivor-v02.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Velvet War Hammer Madam
+
+- Render ID: `rnd_b3a06244d7a27d0f98aa4809`
+- Path: `npcs/sex-workers-v01/drafts/28-velvet-war-hammer-madam.png`
+- Collection: Courtesans
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Campus Photojournalist
 
 - Render ID: `rnd_07d46469ce6403e05056bf97`
@@ -1651,245 +2172,11 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
-### Abaca Kanzashi Companion
+### Exiled Key Bearer
 
-- Render ID: `rnd_c9058b4ba2b321459aab06eb`
-- Path: `npcs/sex-workers-v01/20-abaca-kanzashi-companion.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Ash Silk Wakizashi Survivor
-
-- Render ID: `rnd_0f3f34265fa8231dcae43c71`
-- Path: `npcs/sex-workers-v01/drafts/22-ash-silk-wakizashi-survivor.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Bandurria Courtesan
-
-- Render ID: `rnd_b0ce9aaed182720171fde85f`
-- Path: `npcs/sex-workers-v01/drafts/12-bandurria-courtesan.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Bathhouse Hostess
-
-- Render ID: `rnd_8db50c7713e1cf0cf4a17507`
-- Path: `npcs/sex-workers-v01/drafts/09-bathhouse-hostess.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Black Lace Rapier Defender
-
-- Render ID: `rnd_87f2e66eb3631b9e8ca055b2`
-- Path: `npcs/sex-workers-v01/drafts/24-black-lace-rapier-defender.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Blood Mud Talibon Courtesan
-
-- Render ID: `rnd_9bcb91acd00b1e9b2e1259e4`
-- Path: `npcs/sex-workers-v01/drafts/30-blood-mud-talibon-courtesan.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Festival Mask Courtesan
-
-- Render ID: `rnd_b56628c87b7a01020c9d02df`
-- Path: `npcs/sex-workers-v01/drafts/13-festival-mask-courtesan.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Jade Sash Songstress
-
-- Render ID: `rnd_f359fe769b330b7f57ed75fd`
-- Path: `npcs/sex-workers-v01/17-jade-sash-songstress.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Jade Scar Saber Hostess
-
-- Render ID: `rnd_82fa81f1ba18591bffcaf3ce`
-- Path: `npcs/sex-workers-v01/drafts/23-jade-scar-saber-hostess.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Lacquer Sleeve Oiran
-
-- Render ID: `rnd_f52e9870829b97ef453d68ab`
-- Path: `npcs/sex-workers-v01/16-lacquer-sleeve-oiran.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Oxblood Kampilan Guardian
-
-- Render ID: `rnd_88df5786a5995eb4f9573866`
-- Path: `npcs/sex-workers-v01/drafts/21-oxblood-kampilan-guardian.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Pearl Grip Dagger Survivor
-
-- Render ID: `rnd_17041377af2e911e8a9691f9`
-- Path: `npcs/sex-workers-v01/drafts/25-pearl-grip-dagger-survivor.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Pearl Mirror Companion
-
-- Render ID: `rnd_24c38ac0115751256c6778f4`
-- Path: `npcs/sex-workers-v01/drafts/06-pearl-mirror-companion.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Perfume House Hostess
-
-- Render ID: `rnd_649a8cd02cb74112251ce711`
-- Path: `npcs/sex-workers-v01/drafts/11-perfume-house-hostess.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Porcelain Capiz Mestiza
-
-- Render ID: `rnd_85559d34f0b700afde96652a`
-- Path: `npcs/sex-workers-v01/19-porcelain-capiz-mestiza.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Sable Mantilla Maja
-
-- Render ID: `rnd_9309370f3c6b9e42f5fcc987`
-- Path: `npcs/sex-workers-v01/18-sable-mantilla-maja.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Sealed Letter Courtesan
-
-- Render ID: `rnd_fa40e5fcafbbaecb99f98f6c`
-- Path: `npcs/sex-workers-v01/drafts/10-sealed-letter-courtesan.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Tambourine House Dancer
-
-- Render ID: `rnd_f0dd1182fd03cf80ebfc0b1a`
-- Path: `npcs/sex-workers-v01/drafts/07-tambourine-house-dancer.png`
-- Collection: Sex Workers
-- Rating: 5/5
-- Decision: keep
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Velvet War Hammer Madam
-
-- Render ID: `rnd_b3a06244d7a27d0f98aa4809`
-- Path: `npcs/sex-workers-v01/drafts/28-velvet-war-hammer-madam.png`
-- Collection: Sex Workers
+- Render ID: `rnd_b78720292a0571a36f8d6a28`
+- Path: `archive/render-attempts/npcs/princesses-v01/05-exiled-key-bearer/attempt-02.png`
+- Collection: Princesses V01
 - Rating: 5/5
 - Decision: keep
 - Defects: None recorded
@@ -1957,6 +2244,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Collection: Beast Helm Orders
 - Rating: 5/5
 - Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Oxblood Bull Gatekeeper
+
+- Render ID: `rnd_aeb6da8336f1f90bf1706fdd`
+- Path: `work/redo-staging/protagonist/beast-helm-orders-v07/drafts/08-oxblood-bull-gatekeeper-v02.png`
+- Collection: Beast Helm Orders V07
+- Rating: 5/5
+- Decision: Rated only
 - Defects: None recorded
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
@@ -2158,6 +2458,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Rose Ash Procession Knight
+
+- Render ID: `rnd_adc592d3c8d9c1cd79a7c33b`
+- Path: `work/redo-staging/protagonist/pale-knight-orders-v16/drafts/05-rose-ash-procession-knight-v02.png`
+- Collection: Pale Knight Orders V16
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Black Wax Sentinel
 
 - Render ID: `rnd_efa1a5b62bc4796dbb1ce79a`
@@ -2275,6 +2588,32 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Lockplate Confessor
+
+- Render ID: `rnd_a0d61c787d3e1190cabe03df`
+- Path: `work/redo-staging/protagonist/sacred-tribunal-v12/drafts/04-lockplate-confessor-v02.png`
+- Collection: Sacred Tribunal V12
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Split Mitre Judicator
+
+- Render ID: `rnd_664e39a48f0ba3e77a28d116`
+- Path: `work/redo-staging/protagonist/sacred-tribunal-v12/drafts/02-split-mitre-judicator-v02.png`
+- Collection: Sacred Tribunal V12
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Porcelain Skull Duelist
 
 - Render ID: `rnd_59790a14b9b55f4bf8d18734`
@@ -2293,6 +2632,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Render ID: `rnd_5bf4c77fd904d3e8c534271f`
 - Path: `protagonist/skeleton-knight-legions-v08/drafts/04-red-cord-bone-retainer.png`
 - Collection: Skeleton Knight Legions
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Black Iron Ossuary Knight
+
+- Render ID: `rnd_be000ec3e530d4ce870eb0ae`
+- Path: `work/redo-staging/protagonist/skeleton-knight-legions-v08/drafts/03-black-iron-ossuary-knight-v02.png`
+- Collection: Skeleton Knight Legions V08
 - Rating: 5/5
 - Decision: keep
 - Defects: None recorded
@@ -2358,6 +2710,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Render ID: `rnd_836ee5b7807b96e5c496ed14`
 - Path: `protagonist/unholy-cape-orders-v15/drafts/05-five-tongue-procession-marshal.png`
 - Collection: Unholy Cape Orders
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Chain Hem Bailiff
+
+- Render ID: `rnd_c9b7320d47daef50dc80cf3d`
+- Path: `work/redo-staging/protagonist/unholy-cape-orders-v15/drafts/03-chain-hem-bailiff-v02.png`
+- Collection: Unholy Cape Orders V15
 - Rating: 5/5
 - Decision: keep
 - Defects: None recorded
@@ -2470,6 +2835,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Blood Sun Prince
+
+- Render ID: `rnd_676978ae1f99a9b7a5706329`
+- Path: `archive/render-attempts/protagonist/vampire-knight-courts-v08/10-blood-sun-prince/attempt-02.png`
+- Collection: Vampire Knight Courts V08
+- Rating: 5/5
+- Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Birch Oath Axeguard
 
 - Render ID: `rnd_968f372322041d628db3ac07`
@@ -2563,6 +2941,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: weapon not straight
 - Next attempt: remove spells
 
+### Black Rain Arbalist
+
+- Render ID: `rnd_3ab3257768eafa6778cb77c0`
+- Path: `enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist.png`
+- Collection: Aswang Knights Batch 37
+- Rating: 3/5
+- Decision: reject
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Capiz Veil Bolo Harrier
 
 - Render ID: `rnd_54c0f55ac88fa15a4d7949d3`
@@ -2619,19 +3010,6 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 - Render ID: `rnd_5068bfc9ca25212ab61c33e6`
 - Path: `enemies/axe-wielding-knights-batch-50/drafts/03-black-scapular-brace.png`
-- Collection: Axe Wielding Knights Batch 50
-- Rating: 4/5
-- Decision: reject
-- Defects: Feels repetitive / samey (major)
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
-- Next attempt: None recorded
-
-### Capiz Visor High Guard
-
-- Render ID: `rnd_db63b2fb936237e6685dfb30`
-- Path: `enemies/axe-wielding-knights-batch-50/drafts/01-capiz-visor-high-guard.png`
 - Collection: Axe Wielding Knights Batch 50
 - Rating: 4/5
 - Decision: reject
@@ -3104,6 +3482,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Rating: 3/5
 - Decision: reject
 - Defects: Unwanted magic / effects (major)
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Beetle Hexer
+
+- Render ID: `rnd_f5babd8bb22f5e59cbfdc114`
+- Path: `archive/render-attempts/enemies/combat-magic-batch-04/03-beetle-hexer/attempt-01.png`
+- Collection: Combat Magic Batch 04
+- Rating: 1/5
+- Decision: reject
+- Defects: None recorded
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: None recorded
@@ -4331,6 +4722,71 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: just getting tired of this palette / filter
 - Next attempt: None recorded
 
+### Fan Veiled Courtesan
+
+- Render ID: `rnd_e8d822fb9853e4a390940706`
+- Path: `npcs/sex-workers-v01/drafts/03-fan-veiled-courtesan.png`
+- Collection: Courtesans
+- Rating: 4/5
+- Decision: reject
+- Defects: Anatomy or limbs (major)
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: weird post feet
+- Next attempt: None recorded
+
+### Iron Bloom Mace Companion
+
+- Render ID: `rnd_753e2e77240680836b560e8e`
+- Path: `npcs/sex-workers-v01/drafts/27-iron-bloom-mace-companion.png`
+- Collection: Courtesans
+- Rating: 4/5
+- Decision: reject
+- Defects: Wrong proportions (major), Wrong weapon design (major)
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: weird weapon
+- Next attempt: None recorded
+
+### Long Pipe Companion
+
+- Render ID: `rnd_79517a3ee2922fa098456dd6`
+- Path: `npcs/sex-workers-v01/drafts/15-long-pipe-companion.png`
+- Collection: Courtesans
+- Rating: 4/5
+- Decision: reject
+- Defects: Anatomy or limbs (major), Hands or fingers (major)
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: weird arms, hands
+- Next attempt: None recorded
+
+### Ruined Salon Axe Warden
+
+- Render ID: `rnd_9a878421623e46e2d8f16eb5`
+- Path: `npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden.png`
+- Collection: Courtesans
+- Rating: 4/5
+- Decision: reject
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: weird weapon z index
+- Next attempt: None recorded
+
+### Torn Mantilla Halberd Survivor
+
+- Render ID: `rnd_3c2ea5882f3c14a290c2358f`
+- Path: `npcs/sex-workers-v01/drafts/29-torn-mantilla-halberd-survivor.png`
+- Collection: Courtesans
+- Rating: 4/5
+- Decision: reject
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Abaca March Mace Retainer
 
 - Render ID: `rnd_2d59f67fbf4dede4ec607bc9`
@@ -4407,71 +4863,6 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: dont like the yellowish filter, right eye missing
-- Next attempt: None recorded
-
-### Fan Veiled Courtesan
-
-- Render ID: `rnd_e8d822fb9853e4a390940706`
-- Path: `npcs/sex-workers-v01/drafts/03-fan-veiled-courtesan.png`
-- Collection: Sex Workers
-- Rating: 4/5
-- Decision: reject
-- Defects: Anatomy or limbs (major)
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: weird post feet
-- Next attempt: None recorded
-
-### Iron Bloom Mace Companion
-
-- Render ID: `rnd_753e2e77240680836b560e8e`
-- Path: `npcs/sex-workers-v01/drafts/27-iron-bloom-mace-companion.png`
-- Collection: Sex Workers
-- Rating: 4/5
-- Decision: reject
-- Defects: Wrong proportions (major), Wrong weapon design (major)
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: weird weapon
-- Next attempt: None recorded
-
-### Long Pipe Companion
-
-- Render ID: `rnd_79517a3ee2922fa098456dd6`
-- Path: `npcs/sex-workers-v01/drafts/15-long-pipe-companion.png`
-- Collection: Sex Workers
-- Rating: 4/5
-- Decision: reject
-- Defects: Anatomy or limbs (major), Hands or fingers (major)
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: weird arms, hands
-- Next attempt: None recorded
-
-### Ruined Salon Axe Warden
-
-- Render ID: `rnd_9a878421623e46e2d8f16eb5`
-- Path: `npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden.png`
-- Collection: Sex Workers
-- Rating: 4/5
-- Decision: reject
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: weird weapon z index
-- Next attempt: None recorded
-
-### Torn Mantilla Halberd Survivor
-
-- Render ID: `rnd_3c2ea5882f3c14a290c2358f`
-- Path: `npcs/sex-workers-v01/drafts/29-torn-mantilla-halberd-survivor.png`
-- Collection: Sex Workers
-- Rating: 4/5
-- Decision: reject
-- Defects: None recorded
-- Confirmed tags: None recorded
-- Rejected tag suggestions: None recorded
-- Feedback: None recorded
 - Next attempt: None recorded
 
 ### Elephant Fan Mace Anchor
@@ -5750,6 +6141,45 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Cinder Crowned Apostate
+
+- Render ID: `att_1d32487e34f64a86310c5f1f`
+- Path: `work/redo-staging/angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate-v02.png`
+- Collection: Corrupted Angels V01
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Cinder Crowned Apostate
+
+- Render ID: `rnd_0a9c6713e3427e15bc9c01bb`
+- Path: `archive/render-attempts/angels/corrupted-angels-v01/06-cinder-crowned-apostate/attempt-01.png`
+- Collection: Corrupted Angels V01
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Cinder Crowned Apostate
+
+- Render ID: `rnd_1d32487e34f64a86310c5f1f`
+- Path: `work/redo-staging/angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate-v02.png`
+- Collection: Corrupted Angels V01
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Bakunawas Last Hunger
 
 - Render ID: `rnd_b73a175a8335d6d2322425e2`
@@ -6192,6 +6622,149 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Black Rain Arbalist
+
+- Render ID: `rnd_b7734acd9b55650046439ab3`
+- Path: `archive/render-attempts/enemies/aswang-knights-batch-37/04-black-rain-arbalist/attempt-02.png`
+- Collection: Aswang Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Capiz Veil Bolo Harrier
+
+- Render ID: `att_145c17d6696d5f5b528ffd11`
+- Path: `work/redo-staging/enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-v04.png`
+- Collection: Aswang Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Capiz Veil Bolo Harrier
+
+- Render ID: `rnd_e7f771856dd51ec6d1b17cf1`
+- Path: `archive/render-attempts/enemies/aswang-knights-batch-37/03-capiz-veil-bolo-harrier/attempt-02.png`
+- Collection: Aswang Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Dawn Hide Rattan Bulwark
+
+- Render ID: `att_28ef18bdb209e55cb31bbe0a`
+- Path: `work/redo-staging/enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-v05.png`
+- Collection: Aswang Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Dawn Hide Rattan Bulwark
+
+- Render ID: `rnd_427a5969386a73eb271b11a9`
+- Path: `archive/render-attempts/enemies/aswang-knights-batch-37/05-dawn-hide-rattan-bulwark/attempt-02.png`
+- Collection: Aswang Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Night Marrow Lance Warden
+
+- Render ID: `rnd_b2839affe4d1301d5a5f8661`
+- Path: `work/redo-staging/enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden-v04.png`
+- Collection: Aswang Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ash Road Hook Castellan
+
+- Render ID: `rnd_2229400d8814ab5c14abc076`
+- Path: `work/redo-staging/enemies/axe-wielding-knights-batch-50/drafts/02-ash-road-hook-castellan-v02.png`
+- Collection: Axe Wielding Knights Batch 50
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Black Scapular Brace
+
+- Render ID: `rnd_6e750dcae1dcf4ef4bee48f6`
+- Path: `work/redo-staging/enemies/axe-wielding-knights-batch-50/drafts/03-black-scapular-brace-v02.png`
+- Collection: Axe Wielding Knights Batch 50
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Capiz Visor High Guard
+
+- Render ID: `rnd_76fe7571a20e76a7956fadee`
+- Path: `work/redo-staging/enemies/axe-wielding-knights-batch-50/drafts/01-capiz-visor-high-guard-v02.png`
+- Collection: Axe Wielding Knights Batch 50
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ivory Langet Processioner
+
+- Render ID: `rnd_eb8cb645b67d502c6a64304a`
+- Path: `work/redo-staging/enemies/axe-wielding-knights-batch-50/drafts/05-ivory-langet-processioner-v02.png`
+- Collection: Axe Wielding Knights Batch 50
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Rain Mantle Pursuer
+
+- Render ID: `rnd_090a60f0abda58461dd62ee4`
+- Path: `work/redo-staging/enemies/axe-wielding-knights-batch-50/drafts/04-rain-mantle-pursuer-v02.png`
+- Collection: Axe Wielding Knights Batch 50
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Crescent Shell Guardian
 
 - Render ID: `rnd_b69e2cbc97d2ef08ff707685`
@@ -6244,6 +6817,32 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Comb Reclaiming Widow
+
+- Render ID: `rnd_44d930268d2bdeab7917b4fe`
+- Path: `archive/render-attempts/enemies/banshees-batch-33/03-comb-reclaiming-widow/attempt-02.png`
+- Collection: Banshees Batch 33
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Crimson Edged Mourner
+
+- Render ID: `rnd_1524785d7fe059471e4a115a`
+- Path: `archive/render-attempts/enemies/banshees-batch-33/07-crimson-edged-mourner/attempt-02.png`
+- Collection: Banshees Batch 33
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Crimson Hem Wailer
 
 - Render ID: `rnd_4a9f93732a320dcec0fd3210`
@@ -6270,6 +6869,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Indigo Wrap Mourner
+
+- Render ID: `rnd_6117142a41335bbeb2bf77c7`
+- Path: `work/redo-staging/enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-v02.png`
+- Collection: Banshees Batch 33
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Milestone Cryer
 
 - Render ID: `rnd_318f1c2c84deeafacecc450d`
@@ -6281,6 +6893,32 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: wrong hand placement
+- Next attempt: None recorded
+
+### Shawlbound Lamenter
+
+- Render ID: `rnd_f3a2475081fd7d8ebefd23c8`
+- Path: `archive/render-attempts/enemies/banshees-batch-33/02-shawlbound-lamenter/attempt-01.png`
+- Collection: Banshees Batch 33
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Shawlbound Lamenter
+
+- Render ID: `rnd_30accb30ca382974a55e8aa8`
+- Path: `work/redo-staging/enemies/banshees-batch-33/drafts/02-shawlbound-lamenter-v02.png`
+- Collection: Banshees Batch 33
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
 - Next attempt: None recorded
 
 ### Wake Ring Conductor
@@ -6307,6 +6945,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: missing finger
+- Next attempt: None recorded
+
+### Five Drop Phlebotomist
+
+- Render ID: `rnd_0c1e0f70ddc67d2bf1ae50dd`
+- Path: `work/redo-staging/enemies/blood-cult-sadists-batch-39/drafts/03-five-drop-phlebotomist-v02.png`
+- Collection: Blood Cult Sadists Batch 39
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
 - Next attempt: None recorded
 
 ### Hollow Reed Harrower
@@ -6341,6 +6992,58 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Path: `enemies/blood-demon-knights-batch-37/drafts/05-heartseal-mace-captain.png`
 - Collection: Blood Demon Knights Batch 37
 - Rating: 3/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Iron Warhammer Marshal
+
+- Render ID: `rnd_24556f290edc0763e36b1ddc`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/15-iron-warhammer-marshal/attempt-02.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Oxblood Greatsword Pursuer
+
+- Render ID: `rnd_d74bd56b370524f2ac95c8f7`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/13-oxblood-greatsword-pursuer/attempt-03.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Sable Greatsword Pursuer
+
+- Render ID: `rnd_d46c4e1def71d15f7e5236eb`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/08-sable-greatsword-pursuer/attempt-03.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Sable Longsword Castellan
+
+- Render ID: `rnd_bec9b54c7d2b06c3c5600e51`
+- Path: `archive/render-attempts/enemies/blood-demon-knights-batch-37/11-sable-longsword-castellan/attempt-02.png`
+- Collection: Blood Demon Knights Batch 37
+- Rating: Not rated/5
 - Decision: delete
 - Defects: None recorded
 - Confirmed tags: None recorded
@@ -6406,6 +7109,58 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Path: `enemies/catholic-evil-white-priests-batch-41/drafts/03-hollow-host-canon.png`
 - Collection: Catholic Evil White Priests Batch 41
 - Rating: 1/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Black Canon Longsword
+
+- Render ID: `rnd_6f92a4b06144b1d05a894304`
+- Path: `work/redo-staging/enemies/catholic-knights-batch-41/drafts/13-black-canon-longsword-v02.png`
+- Collection: Catholic Knights Batch 41
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Capiz Barong Sacristan
+
+- Render ID: `rnd_f3b4e6392a09d1f27788a3c6`
+- Path: `work/redo-staging/enemies/catholic-knights-batch-41/drafts/11-capiz-barong-sacristan-v02.png`
+- Collection: Catholic Knights Batch 41
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ivory Rapier Penitent
+
+- Render ID: `rnd_19c0a142bea81a4cf4c3be1a`
+- Path: `work/redo-staging/enemies/catholic-knights-batch-41/drafts/15-ivory-rapier-penitent-v02.png`
+- Collection: Catholic Knights Batch 41
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Seven Flange Matron
+
+- Render ID: `rnd_0c5792799f413a70236ed4aa`
+- Path: `work/redo-staging/enemies/catholic-knights-batch-41/drafts/14-seven-flange-matron-v02.png`
+- Collection: Catholic Knights Batch 41
+- Rating: Not rated/5
 - Decision: delete
 - Defects: None recorded
 - Confirmed tags: None recorded
@@ -6764,12 +7519,51 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Black Procession Morning Star Sister
+
+- Render ID: `rnd_07fd663e2a728603bbccbd44`
+- Path: `work/redo-staging/enemies/convent-horrors-batch-37/drafts/10-black-procession-morning-star-sister-v02.png`
+- Collection: Convent Horrors Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Cobalt Rust Billhook Sister
 
 - Render ID: `rnd_ea2b88393f403749b9e1419c`
 - Path: `enemies/convent-horrors-batch-37/drafts/23-cobalt-rust-billhook-sister.png`
 - Collection: Convent Horrors Batch 37
 - Rating: 1/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Coral Slate Longsword Votary
+
+- Render ID: `rnd_b636ec07c41b6258c94b5adb`
+- Path: `work/redo-staging/enemies/convent-horrors-batch-37/drafts/28-coral-slate-longsword-votary-v02.png`
+- Collection: Convent Horrors Batch 37
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Powder Blue Burgundy Rosary Mourner
+
+- Render ID: `rnd_5193253b260e8052aeca9215`
+- Path: `work/redo-staging/enemies/convent-horrors-batch-37/drafts/30-powder-blue-burgundy-rosary-mourner-v02.png`
+- Collection: Convent Horrors Batch 37
+- Rating: Not rated/5
 - Decision: delete
 - Defects: None recorded
 - Confirmed tags: None recorded
@@ -7193,6 +7987,32 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Chain Thorn Penitent
+
+- Render ID: `rnd_1070ab1b049b48bf9fa5bce7`
+- Path: `work/redo-staging/enemies/crown-of-thorns-female-knights-batch-38/drafts/09-chain-thorn-penitent-v02.png`
+- Collection: Crown Of Thorns Female Knights Batch 38
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Root Hammer Penitent
+
+- Render ID: `rnd_d33e73a0893f19442aac04cd`
+- Path: `work/redo-staging/enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent-v03.png`
+- Collection: Crown Of Thorns Female Knights Batch 38
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Briar Gauntlet Penitent
 
 - Render ID: `rnd_b0087a0e0b75aea2a34e1b59`
@@ -7204,6 +8024,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: i dont like the weapon
+- Next attempt: None recorded
+
+### Ember Salver Matriarch
+
+- Render ID: `rnd_9d96a8d9192fcb2d37cd46b2`
+- Path: `archive/render-attempts/enemies/crowned-thorn-mistresses-batch-46/04-ember-salver-matriarch/attempt-01.png`
+- Collection: Crowned Thorn Mistresses Batch 46
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
 - Next attempt: None recorded
 
 ### Crown Gate Hierophant
@@ -7719,6 +8552,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Path: `enemies/demonic-astrologers-batch-41/drafts/04-conjunction-core-cantor.png`
 - Collection: Demonic Astrologers Batch 41
 - Rating: 1/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Eclipse Ring Surveyor
+
+- Render ID: `rnd_3f1857f66242bb12d2e875fe`
+- Path: `archive/render-attempts/enemies/demonic-astrologers-batch-41/01-eclipse-ring-surveyor/attempt-01.png`
+- Collection: Demonic Astrologers Batch 41
+- Rating: Not rated/5
 - Decision: delete
 - Defects: None recorded
 - Confirmed tags: None recorded
@@ -12016,6 +12862,45 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Burial Pavise Knight
+
+- Render ID: `rnd_ad18e02217ac73fee2db35b1`
+- Path: `work/redo-staging/enemies/skeleton-feudal-court-batch-39/drafts/02-burial-pavise-knight-v02.png`
+- Collection: Skeleton Feudal Court Batch 39
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Censer Mantle Lord
+
+- Render ID: `rnd_5cdc3e5e6d1ffbf2992ba07c`
+- Path: `work/redo-staging/enemies/skeleton-feudal-court-batch-39/drafts/09-censer-mantle-lord-v02.png`
+- Collection: Skeleton Feudal Court Batch 39
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ivory Ledger Lord
+
+- Render ID: `rnd_54e30c4c0a730270ec546b38`
+- Path: `work/redo-staging/enemies/skeleton-feudal-court-batch-39/drafts/08-ivory-ledger-lord-v02.png`
+- Collection: Skeleton Feudal Court Batch 39
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Ossuary Longbow Knight
 
 - Render ID: `rnd_13b7af26d14fb2308e0a746a`
@@ -12033,6 +12918,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 - Render ID: `rnd_cef8bee9f3875f51e1271898`
 - Path: `enemies/skeleton-feudal-court-batch-39/drafts/20-three-seal-pall-princess.png`
+- Collection: Skeleton Feudal Court Batch 39
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Two Point Banig Blade Princess
+
+- Render ID: `rnd_8aa6a6adeab9ea15e0e23d5c`
+- Path: `work/redo-staging/enemies/skeleton-feudal-court-batch-39/drafts/22-two-point-banig-blade-princess-v02.png`
 - Collection: Skeleton Feudal Court Batch 39
 - Rating: Not rated/5
 - Decision: delete
@@ -13030,6 +13928,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Cage Rib Warden
+
+- Render ID: `rnd_e3ec243eb8f3fbe4663293c2`
+- Path: `work/redo-staging/enemies/unfaced-demon-court-batch-49/drafts/06-cage-rib-warden-v02.png`
+- Collection: Unfaced Demon Court Batch 49
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Choir Mantle Orator
 
 - Render ID: `rnd_0d6ca7e49fc251681bd4bae7`
@@ -13047,6 +13958,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 
 - Render ID: `rnd_ba08e112a83ecfbfea77cfa3`
 - Path: `enemies/unfaced-demon-court-batch-49/drafts/20-crown-cage-butcher.png`
+- Collection: Unfaced Demon Court Batch 49
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Doorway Tenant
+
+- Render ID: `rnd_1a06eb0aa985cb139ba1a97e`
+- Path: `work/redo-staging/enemies/unfaced-demon-court-batch-49/drafts/09-doorway-tenant-v02.png`
 - Collection: Unfaced Demon Court Batch 49
 - Rating: Not rated/5
 - Decision: delete
@@ -14447,6 +15371,32 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Fan Veiled Courtesan
+
+- Render ID: `rnd_e2b5c3386795831a04ba29ae`
+- Path: `work/redo-staging/npcs/sex-workers-v01/drafts/03-fan-veiled-courtesan-v02.png`
+- Collection: Courtesans
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Ruined Salon Axe Warden
+
+- Render ID: `rnd_69be57169ce318eb029cdc7b`
+- Path: `work/redo-staging/npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden-v02.png`
+- Collection: Courtesans
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Market Vendor
 
 - Render ID: `rnd_2bcface90dc65350af3416f8`
@@ -14473,11 +15423,37 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Salt Road Crown Guard
+
+- Render ID: `rnd_02c5d2fc455fd88f3a5d8a98`
+- Path: `work/redo-staging/npcs/kings-royal-guards-v01/drafts/06-salt-road-crown-guard-v02.png`
+- Collection: Kings Royal Guards V01
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Floodway Heir
 
 - Render ID: `rnd_c4038898cb06ee19136fa53c`
 - Path: `npcs/princesses-v01/drafts/02-floodway-heir.png`
 - Collection: Princesses
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Genealogy Keeper
+
+- Render ID: `rnd_621c6c1c8f9e3a34752aa194`
+- Path: `archive/render-attempts/npcs/princesses-v01/03-genealogy-keeper/attempt-02.png`
+- Collection: Princesses V01
 - Rating: Not rated/5
 - Decision: delete
 - Defects: None recorded
@@ -14720,6 +15696,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Turtle Shell Halberd Keeper
+
+- Render ID: `rnd_250b7720465ad6cb4b04345a`
+- Path: `work/redo-staging/protagonist/beast-helm-orders-v08/drafts/12-turtle-shell-halberd-keeper-v02.png`
+- Collection: Beast Helm Orders V08
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Crimson Knight Player Character
 
 - Render ID: `rnd_3e41f23acecc25eadeb8349a`
@@ -14803,6 +15792,58 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Render ID: `rnd_19cd4e4d1324f627ee6feb52`
 - Path: `protagonist/demon-knight-legions-v07/drafts/12-salt-wraith-knight.png`
 - Collection: Demon Knight Legions
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Bone Lacquer Duelist
+
+- Render ID: `rnd_4bb48ce01f777697f3089654`
+- Path: `work/redo-staging/protagonist/demon-knight-legions-v07/drafts/18-bone-lacquer-duelist-v02.png`
+- Collection: Demon Knight Legions V07
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Furnace Choir Templar
+
+- Render ID: `rnd_efbdc0922cae60608909805f`
+- Path: `work/redo-staging/protagonist/demon-knight-legions-v07/drafts/09-furnace-choir-templar-v02.png`
+- Collection: Demon Knight Legions V07
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Velvet Sin Cavalier
+
+- Render ID: `rnd_a2843d3cf384e7ea51f6f3e8`
+- Path: `work/redo-staging/protagonist/demon-knight-legions-v07/drafts/10-velvet-sin-cavalier-v02.png`
+- Collection: Demon Knight Legions V07
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Oxblood Ring Hilt Rapier Outrider
+
+- Render ID: `rnd_e71d539078063a5b3f7cea6d`
+- Path: `work/redo-staging/protagonist/elite-armored-vampire-slayers-batch-01/drafts/08-oxblood-ring-hilt-rapier-outrider-v02.png`
+- Collection: Elite Armored Vampire Slayers Batch 01
 - Rating: Not rated/5
 - Decision: delete
 - Defects: None recorded
@@ -15240,6 +16281,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Feedback: None recorded
 - Next attempt: None recorded
 
+### Ibex Ridge Lancer
+
+- Render ID: `rnd_774a1ddeb9c81f864497d4a1`
+- Path: `work/redo-staging/protagonist/horned-helmet-orders-v11/drafts/02-ibex-ridge-lancer-v02.png`
+- Collection: Horned Helmet Orders V11
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
 ### Reed Crown Marsh Lancer
 
 - Render ID: `rnd_e668f3f699683d8af12167df`
@@ -15251,6 +16305,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: dont like the yellowish filter
+- Next attempt: None recorded
+
+### Funeral Cicada Bailiff
+
+- Render ID: `rnd_bf94bb17a5b65de89f4fa9dd`
+- Path: `work/redo-staging/protagonist/lost-orders-quintet-v10/drafts/02-funeral-cicada-bailiff-v02.png`
+- Collection: Lost Orders Quintet V10
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
 - Next attempt: None recorded
 
 ### Bell Toll Justiciar
@@ -15316,6 +16383,45 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
 - Feedback: dont like the yellowish filter
+- Next attempt: None recorded
+
+### Eclipse Castellan
+
+- Render ID: `rnd_a6cd5e72a8a1a55a5b9b276f`
+- Path: `work/redo-staging/protagonist/profane-orders-v06/drafts/10-eclipse-castellan-v02.png`
+- Collection: Profane Orders V06
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Chain Veil Questioner
+
+- Render ID: `rnd_abca8417bd2c80a1de6840fc`
+- Path: `work/redo-staging/protagonist/sacred-tribunal-v12/drafts/03-chain-veil-questioner-v02.png`
+- Collection: Sacred Tribunal V12
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Three Lancet Examiner
+
+- Render ID: `rnd_58bad97bd25881a5d5da61d6`
+- Path: `work/redo-staging/protagonist/sacred-tribunal-v12/drafts/01-three-lancet-examiner-v02.png`
+- Collection: Sacred Tribunal V12
+- Rating: Not rated/5
+- Decision: delete
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
 - Next attempt: None recorded
 
 ### Charred Marrow Axeman
@@ -15857,6 +16963,9 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Veiled Sanguine Reliquary** — —/5; delete; None recorded; Corrupted Angels
 - **Vein Lattice Oracle** — —/5; delete; None recorded; Corrupted Angels
 - **Wound Rose Martyr** — —/5; delete; None recorded; Corrupted Angels
+- **Cinder Crowned Apostate** — —/5; delete; None recorded; Corrupted Angels V01
+- **Cinder Crowned Apostate** — —/5; delete; None recorded; Corrupted Angels V01
+- **Cinder Crowned Apostate** — —/5; delete; None recorded; Corrupted Angels V01
 - **Bakunawas Last Hunger** — —/5; delete; None recorded; Boss Expansion 20
 - **Candle Moth Abbot** — —/5; delete; None recorded; Boss Expansion 20
 - **Flood Leech Sovereign** — —/5; delete; None recorded; Boss Expansion 20
@@ -15892,16 +17001,27 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Crocodile River Warden** — 1/5; delete; None recorded; Animal Spirit Predators Batch 21
 - **Lantern Eyed Python** — 1/5; delete; None recorded; Animal Spirit Predators Batch 21
 - **Moon Horned Carabao** — 1/5; delete; None recorded; Animal Spirit Predators Batch 21
-- **Black Rain Arbalist** — 3/5; keep; None recorded; Aswang Knights Batch 37
+- **Black Rain Arbalist** — 3/5; reject; None recorded; Aswang Knights Batch 37
+- **Black Rain Arbalist** — —/5; delete; None recorded; Aswang Knights Batch 37
 - **Capiz Veil Bolo Harrier** — 1/5; reject; None recorded; Aswang Knights Batch 37
+- **Capiz Veil Bolo Harrier** — —/5; delete; None recorded; Aswang Knights Batch 37
+- **Capiz Veil Bolo Harrier** — —/5; delete; None recorded; Aswang Knights Batch 37
 - **Dawn Hide Rattan Bulwark** — 1/5; reject; None recorded; Aswang Knights Batch 37
+- **Dawn Hide Rattan Bulwark** — —/5; delete; None recorded; Aswang Knights Batch 37
+- **Dawn Hide Rattan Bulwark** — —/5; delete; None recorded; Aswang Knights Batch 37
 - **Mortar Oath Heart Listener** — 3/5; keep; None recorded; Aswang Knights Batch 37
 - **Night Marrow Lance Warden** — 4/5; reject; Bent / crooked weapon (major), Hands or fingers (major), Weapon handling (major), Wrong proportions (major), Wrong weapon design (major); Aswang Knights Batch 37
+- **Night Marrow Lance Warden** — —/5; delete; None recorded; Aswang Knights Batch 37
 - **Ash Road Hook Castellan** — 1/5; reject; Feels repetitive / samey (major); Axe Wielding Knights Batch 50
+- **Ash Road Hook Castellan** — —/5; delete; None recorded; Axe Wielding Knights Batch 50
 - **Black Scapular Brace** — 4/5; reject; Feels repetitive / samey (major); Axe Wielding Knights Batch 50
-- **Capiz Visor High Guard** — 4/5; reject; Feels repetitive / samey (major); Axe Wielding Knights Batch 50
+- **Black Scapular Brace** — —/5; delete; None recorded; Axe Wielding Knights Batch 50
+- **Capiz Visor High Guard** — 5/5; keep; Feels repetitive / samey (major); Axe Wielding Knights Batch 50
+- **Capiz Visor High Guard** — —/5; delete; None recorded; Axe Wielding Knights Batch 50
 - **Ivory Langet Processioner** — 4/5; reject; Bent / crooked weapon (major); Axe Wielding Knights Batch 50
+- **Ivory Langet Processioner** — —/5; delete; None recorded; Axe Wielding Knights Batch 50
 - **Rain Mantle Pursuer** — 4/5; reject; Bent / crooked weapon (major), Feels repetitive / samey (major); Axe Wielding Knights Batch 50
+- **Rain Mantle Pursuer** — —/5; delete; None recorded; Axe Wielding Knights Batch 50
 - **Crescent Shell Guardian** — 1/5; delete; None recorded; Bakunawa Eclipse Brood Batch 18
 - **Eclipse Fang** — 1/5; delete; None recorded; Bakunawa Eclipse Brood Batch 18
 - **Moon Fracture Serpent** — 1/5; delete; None recorded; Bakunawa Eclipse Brood Batch 18
@@ -15910,45 +17030,65 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Root Crown Bailiff** — 2/5; keep; None recorded; Balete Forest Court Batch 16
 - **Ash Gold Court Wailer** — 4/5; keep; None recorded; Banshees Batch 33
 - **Black Bell Caller** — 2/5; reject; Costume or styling (major); Banshees Batch 33
+- **Black Bell Caller** — 5/5; keep; None recorded; Banshees Batch 33
 - **Comb Reclaiming Widow** — 1/5; reject; Weapon handling (major); Banshees Batch 33
+- **Comb Reclaiming Widow** — —/5; delete; None recorded; Banshees Batch 33
+- **Comb Reclaiming Widow** — 4/5; keep; None recorded; Banshees Batch 33
 - **Crimson Edged Mourner** — 1/5; reject; Anatomy or limbs (major), Hands or fingers (major); Banshees Batch 33
+- **Crimson Edged Mourner** — —/5; delete; None recorded; Banshees Batch 33
+- **Crimson Edged Mourner** — 5/5; keep; None recorded; Banshees Batch 33
 - **Crimson Hem Wailer** — 1/5; delete; Duplicate or repeated (fatal); Banshees Batch 33
 - **Crimson Lace Regent** — 4/5; reject; None recorded; Banshees Batch 33
 - **Gilt Ash Sentinel** — 1/5; delete; Duplicate or repeated (fatal); Banshees Batch 33
 - **Hollow Throat Matriarch** — 3/5; reject; Unwanted magic / effects (major); Banshees Batch 33
 - **Indigo Wrap Mourner** — 2/5; reject; Anatomy or limbs (major), Hands or fingers (major); Banshees Batch 33
+- **Indigo Wrap Mourner** — 5/5; keep; None recorded; Banshees Batch 33
+- **Indigo Wrap Mourner** — —/5; delete; None recorded; Banshees Batch 33
 - **Milestone Cryer** — 1/5; delete; Anatomy or limbs (fatal), Unwanted magic / effects (fatal); Banshees Batch 33
 - **Pall Veil Keener** — 3/5; keep; None recorded; Banshees Batch 33
 - **Pearl Processional** — 3/5; keep; None recorded; Banshees Batch 33
 - **Shawlbound Lamenter** — 2/5; reject; Costume or styling (major), Hands or fingers (major), Technical failure (major), Unwanted magic / effects (major), Weapon handling (major); Banshees Batch 33
+- **Shawlbound Lamenter** — —/5; delete; None recorded; Banshees Batch 33
+- **Shawlbound Lamenter** — —/5; delete; None recorded; Banshees Batch 33
 - **Violet Hem Elegist** — 3/5; keep; None recorded; Banshees Batch 33
 - **Wake Ring Conductor** — 1/5; delete; Unwanted magic / effects (fatal); Banshees Batch 33
 - **White Hem Vigil** — 4/5; keep; None recorded; Banshees Batch 33
 - **Cautery Thurifer** — 1/5; delete; Anatomy or limbs (fatal), Unwanted magic / effects (fatal), Weapon handling (fatal), Wrong proportions (fatal); Blood Cult Sadists Batch 39
 - **Crimson Cord Arrestor** — 3/5; keep; None recorded; Blood Cult Sadists Batch 39
 - **Five Drop Phlebotomist** — 3/5; reject; Unwanted magic / effects (major); Blood Cult Sadists Batch 39
+- **Five Drop Phlebotomist** — —/5; delete; None recorded; Blood Cult Sadists Batch 39
 - **Hollow Reed Harrower** — 1/5; delete; Anatomy or limbs (fatal); Blood Cult Sadists Batch 39
 - **Vein Lancet Officiant** — 3/5; keep; None recorded; Blood Cult Sadists Batch 39
 - **Arterial Thread Lancer** — 4/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Ash Pike Linekeeper** — 3/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Ashen Warhammer Provost** — 4/5; reject; Feels repetitive / samey (major); Blood Demon Knights Batch 37
+- **Ashen Warhammer Provost** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Blood Needle Duelist** — 3/5; reject; Unwanted magic / effects (major), Weapon handling (major); Blood Demon Knights Batch 37
 - **Blood Needle Duelist** — 2/5; reject; None recorded; Blood Demon Knights Batch 37
+- **Blood Needle Duelist** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
+- **Blood Needle Duelist** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Blood Needle Duelist** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Bronze Flange Sergeant** — 4/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Bronze Mace Prefect** — 4/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Clot Sigil Bastion** — 4/5; reject; Unwanted magic / effects (major); Blood Demon Knights Batch 37
 - **Clot Sigil Bastion** — 5/5; delete; None recorded; Blood Demon Knights Batch 37
+- **Clot Sigil Bastion** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Crimson Line Pikeman** — 4/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Heartseal Mace Captain** — 3/5; delete; None recorded; Blood Demon Knights Batch 37
 - **Iron Warhammer Marshal** — 4/5; reject; Feels repetitive / samey (major); Blood Demon Knights Batch 37
+- **Iron Warhammer Marshal** — —/5; delete; None recorded; Blood Demon Knights Batch 37
 - **Longsword Oathguard** — 4/5; keep; None recorded; Blood Demon Knights Batch 37
 - **Oxblood Greatsword Pursuer** — 4/5; reject; Hands or fingers (major); Blood Demon Knights Batch 37
 - **Oxblood Greatsword Pursuer** — 2/5; reject; Hands or fingers (major), Weapon handling (major), Wrong proportions (major); Blood Demon Knights Batch 37
 - **Oxblood Greatsword Pursuer** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
+- **Oxblood Greatsword Pursuer** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
+- **Oxblood Greatsword Pursuer** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
+- **Oxblood Greatsword Pursuer** — —/5; delete; None recorded; Blood Demon Knights Batch 37
 - **Sable Greatsword Pursuer** — 4/5; reject; Weapon handling (major); Blood Demon Knights Batch 37
 - **Sable Greatsword Pursuer** — 3/5; reject; Anatomy or limbs (major), Hands or fingers (major); Blood Demon Knights Batch 37
+- **Sable Greatsword Pursuer** — —/5; delete; None recorded; Blood Demon Knights Batch 37
 - **Sable Longsword Castellan** — 5/5; keep; None recorded; Blood Demon Knights Batch 37
+- **Sable Longsword Castellan** — —/5; delete; None recorded; Blood Demon Knights Batch 37
 - **Vein Hook Arrestor** — 3/5; reject; Unwanted magic / effects (major); Blood Demon Knights Batch 37
 - **Vein Hook Arrestor** — 3/5; delete; None recorded; Blood Demon Knights Batch 37
 - **Ash Pike Linekeeper** — 4/5; keep; None recorded; Blood Demon Knights Batch 37 · Rejected
@@ -15956,6 +17096,9 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Iron Warhammer Marshal** — 5/5; keep; None recorded; Blood Demon Knights Batch 37 · Rejected
 - **Oxblood Greatsword Pursuer** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major); Blood Demon Knights Batch 37 · Rejected
 - **Sable Longsword Castellan** — 4/5; reject; Weapon handling (major); Blood Demon Knights Batch 37 · Rejected
+- **Blood Cup Interdictor** — 5/5; keep; None recorded; Blood Priestesses Batch 39
+- **Blood Cup Interdictor** — 5/5; keep; None recorded; Blood Priestesses Batch 39
+- **Blood Diamond Hierophant** — 5/5; keep; None recorded; Blood Priestesses Batch 39
 - **Brass Censer Prioress** — 4/5; keep; None recorded; Blood Priestesses Batch 39
 - **Iron Psalm Flail Prioress** — 4/5; keep; None recorded; Blood Priestesses Batch 39
 - **Ivory Hook Glaive Mourner** — 5/5; keep; None recorded; Blood Priestesses Batch 39
@@ -15982,22 +17125,29 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **River Toll Bolo Duelist** — 4/5; keep; None recorded; Bone Knights Batch 39
 - **Wax Sealed Votary** — 3/5; keep; None recorded; Bone Knights Batch 39
 - **Blackwater Aspergillist** — 3/5; reject; Unwanted magic / effects (major); Catholic Evil White Priests Batch 41
+- **Blackwater Aspergillist** — 5/5; keep; None recorded; Catholic Evil White Priests Batch 41
 - **Capiz Reliquary Bearer** — 1/5; delete; None recorded; Catholic Evil White Priests Batch 41
 - **Hollow Host Canon** — 1/5; delete; None recorded; Catholic Evil White Priests Batch 41
 - **Ivory Cross Interdictor** — 5/5; keep; None recorded; Catholic Evil White Priests Batch 41
 - **Wax Mitre Ordinariate** — 4/5; reject; Wrong weapon design (major); Catholic Evil White Priests Batch 41
+- **Wax Mitre Ordinariate** — 4/5; keep; None recorded; Catholic Evil White Priests Batch 41
+- **Wax Mitre Ordinariate** — 5/5; keep; None recorded; Catholic Evil White Priests Batch 41
 - **Abaca Halberd Prioress** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Ash Hatchet Penitent** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Black Canon Longsword** — 4/5; reject; Wrong weapon design (major); Catholic Knights Batch 41
+- **Black Canon Longsword** — —/5; delete; None recorded; Catholic Knights Batch 41
 - **Black Scapular Auditor** — 4/5; keep; None recorded; Catholic Knights Batch 41
 - **Capiz Barong Sacristan** — 4/5; reject; Wrong weapon design (major); Catholic Knights Batch 41
+- **Capiz Barong Sacristan** — —/5; delete; None recorded; Catholic Knights Batch 41
 - **Capiz Mantle Warder** — 4/5; keep; None recorded; Catholic Knights Batch 41
 - **Censer Penitent** — 4/5; keep; None recorded; Catholic Knights Batch 41
 - **Ivory Arc Votary** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Ivory Rapier Penitent** — 3/5; reject; Wrong weapon design (major); Catholic Knights Batch 41
+- **Ivory Rapier Penitent** — —/5; delete; None recorded; Catholic Knights Batch 41
 - **Palm Weave Arquebusier** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Processional Crucifer** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Seven Flange Matron** — 4/5; reject; None recorded; Catholic Knights Batch 41
+- **Seven Flange Matron** — —/5; delete; None recorded; Catholic Knights Batch 41
 - **Sunburst Relic Lancer** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Veiled Relic Pick Canoness** — 5/5; keep; None recorded; Catholic Knights Batch 41
 - **Votive Lamp Sabreur** — 5/5; keep; None recorded; Catholic Knights Batch 41
@@ -16009,6 +17159,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Acid Sigbin** — 1/5; delete; None recorded; Combat Magic Batch 04
 - **Balete Mourner** — 1/5; delete; None recorded; Combat Magic Batch 04
 - **Beetle Hexer** — 3/5; reject; Unwanted magic / effects (major); Combat Magic Batch 04
+- **Beetle Hexer** — 1/5; reject; None recorded; Combat Magic Batch 04
 - **Bell Torturer** — 1/5; delete; None recorded; Combat Magic Batch 04
 - **Blood Fed Wakwak** — 1/5; delete; None recorded; Combat Magic Batch 04
 - **Blood Lantern Acolyte** — 3/5; reject; Unwanted magic / effects (major); Combat Magic Batch 04
@@ -16036,6 +17187,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Santelmo Choir** — 1/5; delete; None recorded; Combat Magic Batch 04
 - **Thorn Gaoler** — 2/5; delete; None recorded; Combat Magic Batch 04
 - **Ash Blue Vampire Whip Sister** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major); Convent Horrors Batch 37
+- **Black Procession Morning Star Sister** — —/5; delete; None recorded; Convent Horrors Batch 37
 - **Black Procession Threshing Flailer** — 4/5; reject; Wrong weapon design (major); Convent Horrors Batch 37
 - **Burnt Rose Iron Club Nun** — 4/5; reject; Wrong weapon design (major); Convent Horrors Batch 37
 - **Burnt Umber Mace Matron** — 4/5; keep; None recorded; Convent Horrors Batch 37
@@ -16043,6 +17195,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Cobalt Rust Billhook Sister** — 1/5; delete; None recorded; Convent Horrors Batch 37
 - **Copper Pike Burn Warden** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Coral Slate Longsword Votary** — 4/5; reject; Hands or fingers (fatal), Weapon handling (major); Convent Horrors Batch 37
+- **Coral Slate Longsword Votary** — —/5; delete; None recorded; Convent Horrors Batch 37
 - **Crimson Crypt Halberdier** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Indigo Flail Votary** — 3/5; reject; None recorded; Convent Horrors Batch 37
 - **Lavender Ash Rose War Pick Matron** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major); Convent Horrors Batch 37
@@ -16053,6 +17206,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Pale Rosary Mace Sister** — 4/5; reject; Anatomy or limbs (major), Bent / crooked weapon (major), Weapon too short (major), Wrong proportions (major); Convent Horrors Batch 37
 - **Plum Amber Longsword Votary** — 4/5; reject; Weapon handling (major); Convent Horrors Batch 37
 - **Powder Blue Burgundy Rosary Mourner** — 2/5; reject; Anatomy or limbs (major), Wrong proportions (major); Convent Horrors Batch 37
+- **Powder Blue Burgundy Rosary Mourner** — —/5; delete; None recorded; Convent Horrors Batch 37
 - **Rosary Knife Novice** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Saffron Vampire Sabreur** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Silver Rosary Mourner** — 4/5; reject; Anatomy or limbs (major); Convent Horrors Batch 37
@@ -16062,6 +17216,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Thorn Crown Spear Warden** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Thorn Crown Whip Penitent** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Ultramarine Apricot Rapier Sister** — 4/5; reject; Bent / crooked weapon (major); Convent Horrors Batch 37
+- **Ultramarine Apricot Rapier Sister** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Verdigris Tapis Bow Sister** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **Violet War Hammer Abbess** — 5/5; keep; None recorded; Convent Horrors Batch 37
 - **White Stake Vampire Sister** — 4/5; reject; Wrong proportions (major); Convent Horrors Batch 37
@@ -16114,9 +17269,11 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Briar Bolt Skirmisher** — 5/5; keep; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Briar Point Justiciar** — 5/5; keep; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Chain Thorn Penitent** — 4/5; reject; Wrong weapon design (major); Crown Of Thorns Female Knights Batch 38
+- **Chain Thorn Penitent** — —/5; delete; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Crown Burden Sword Marshal** — 5/5; keep; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Crown Pick Adjudicator** — 4/5; reject; Wrong weapon design (major); Crown Of Thorns Female Knights Batch 38
 - **Root Hammer Penitent** — 4/5; reject; Wrong weapon design (major); Crown Of Thorns Female Knights Batch 38
+- **Root Hammer Penitent** — —/5; delete; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Thorn Gate Halberd Sentinel** — 5/5; keep; None recorded; Crown Of Thorns Female Knights Batch 38
 - **Thorn Mace Custodian** — 4/5; reject; Weapon too short (major); Crown Of Thorns Female Knights Batch 38
 - **Ash Briar Falchion Reeve** — 5/5; keep; None recorded; Crown Of Thorns Knights Batch 40
@@ -16132,9 +17289,11 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Briar Fan Dona** — 3/5; reject; Unwanted magic / effects (major); Crowned Thorn Mistresses Batch 46
 - **Crown Barong Chatelaine** — 3/5; reject; Wrong proportions (major), Wrong weapon design (major); Crowned Thorn Mistresses Batch 46
 - **Ember Salver Matriarch** — 3/5; reject; Unwanted magic / effects (major); Crowned Thorn Mistresses Batch 46
+- **Ember Salver Matriarch** — —/5; delete; None recorded; Crowned Thorn Mistresses Batch 46
 - **Thorn Ledger Preceptress** — 4/5; reject; Unwanted magic / effects (major); Crowned Thorn Mistresses Batch 46
 - **Thorn Spindle Widow** — 2/5; reject; Wrong weapon design (major); Crowned Thorn Mistresses Batch 46
 - **Black Hedge Sacristan** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major), Wrong proportions (major), Wrong weapon design (major); Crowned Thorn Priestesses Batch 45
+- **Black Hedge Sacristan** — 5/5; keep; None recorded; Crowned Thorn Priestesses Batch 45
 - **Briar Ring Processional** — 4/5; reject; Bent / crooked weapon (major); Crowned Thorn Priestesses Batch 45
 - **Crown Gate Hierophant** — 1/5; delete; Silhouette or pose (fatal); Crowned Thorn Priestesses Batch 45
 - **Root Tithe Sower** — 1/5; delete; None recorded; Crowned Thorn Priestesses Batch 45
@@ -16178,6 +17337,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Comet Mantle Pursuer** — 1/5; delete; None recorded; Demonic Astrologers Batch 41
 - **Conjunction Core Cantor** — 1/5; delete; None recorded; Demonic Astrologers Batch 41
 - **Eclipse Ring Surveyor** — 3/5; reject; Unwanted magic / effects (major); Demonic Astrologers Batch 41
+- **Eclipse Ring Surveyor** — —/5; delete; None recorded; Demonic Astrologers Batch 41
 - **Meridian Plumb Diviner** — 1/5; delete; None recorded; Demonic Astrologers Batch 41
 - **Ashwing Sabre Pursuer** — 1/5; delete; None recorded; Dragon Knights Batch 38
 - **Basalt Maw Glaive Marshal** — 4/5; keep; None recorded; Dragon Knights Batch 38
@@ -16226,6 +17386,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Starless Missal Canon** — 1/5; delete; None recorded; Evil Priests Batch 39
 - **Ash Rose Bob Examiner** — 4/5; reject; None recorded; Experimental Haired Inquisitors Batch 51
 - **Crimson Crown Castellan** — 4/5; reject; None recorded; Experimental Haired Inquisitors Batch 51
+- **Crimson Crown Castellan** — 4/5; keep; None recorded; Experimental Haired Inquisitors Batch 51
 - **Gilt Cable Justiciar** — 3/5; reject; None recorded; Experimental Haired Inquisitors Batch 51
 - **Ivory Cascade Interrogator** — 4/5; reject; None recorded; Experimental Haired Inquisitors Batch 51
 - **Raven Coil Prosecutor** — 4/5; reject; None recorded; Experimental Haired Inquisitors Batch 51
@@ -16575,10 +17736,13 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Ash Rose Wave Examiner** — 4/5; reject; None recorded; Short Haired Inquisitors Batch 48
 - **Ashen Blade Preceptress** — 5/5; keep; None recorded; Short Haired Inquisitors Batch 48
 - **Cinder Halberd Canoness** — 4/5; reject; Anatomy or limbs (major), Bent / crooked weapon (major), Hands or fingers (major), Weapon handling (major), Wrong proportions (major); Short Haired Inquisitors Batch 48
+- **Cinder Halberd Canoness** — 5/5; keep; None recorded; Short Haired Inquisitors Batch 48
 - **Copper Bob Castellan** — 4/5; reject; None recorded; Short Haired Inquisitors Batch 48
 - **Gilt Crop Justiciar** — 4/5; reject; None recorded; Short Haired Inquisitors Batch 48
 - **Ivory Pageboy Interrogator** — 4/5; reject; None recorded; Short Haired Inquisitors Batch 48
+- **Ivory Pageboy Interrogator** — 5/5; keep; None recorded; Short Haired Inquisitors Batch 48
 - **Pale Axe Pursuer** — 4/5; reject; Anatomy or limbs (major); Short Haired Inquisitors Batch 48
+- **Pale Axe Pursuer** — 5/5; keep; None recorded; Short Haired Inquisitors Batch 48
 - **Raven Page Prosecutor** — 4/5; keep; None recorded; Short Haired Inquisitors Batch 48
 - **Silver Point Interrogator** — 5/5; keep; None recorded; Short Haired Inquisitors Batch 48
 - **Brine Votive Tidecaller** — —/5; delete; None recorded; Siyokoy Knights Batch 29
@@ -16590,7 +17754,9 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Black Standard Procession Lord** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Broken Circlet Exile Prince** — 5/5; keep; None recorded; Skeleton Feudal Court Batch 39
 - **Burial Pavise Knight** — 4/5; reject; Weapon too short (major); Skeleton Feudal Court Batch 39
+- **Burial Pavise Knight** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Censer Mantle Lord** — 4/5; reject; None recorded; Skeleton Feudal Court Batch 39
+- **Censer Mantle Lord** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Chain Judicator Lord** — 4/5; keep; None recorded; Skeleton Feudal Court Batch 39
 - **Charcoal Headsman Knight** — 5/5; keep; None recorded; Skeleton Feudal Court Batch 39
 - **Five Nail Ash War King** — 4/5; reject; Weapon too short (major); Skeleton Feudal Court Batch 39
@@ -16598,6 +17764,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Four Pearl Flood Queen** — 3/5; reject; Unwanted magic / effects (major); Skeleton Feudal Court Batch 39
 - **Four Tab Blackglass Prince** — 5/5; keep; None recorded; Skeleton Feudal Court Batch 39
 - **Ivory Ledger Lord** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major), Wrong weapon design (major); Skeleton Feudal Court Batch 39
+- **Ivory Ledger Lord** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Ivory Tribunal Queen** — 5/5; keep; None recorded; Skeleton Feudal Court Batch 39
 - **Ossuary Longbow Knight** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Rain Court Poleaxe Lord** — 5/5; keep; None recorded; Skeleton Feudal Court Batch 39
@@ -16608,6 +17775,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Three Point Lance Prince** — 4/5; reject; None recorded; Skeleton Feudal Court Batch 39
 - **Three Seal Pall Princess** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Two Point Banig Blade Princess** — 4/5; reject; Weapon too short (major); Skeleton Feudal Court Batch 39
+- **Two Point Banig Blade Princess** — —/5; delete; None recorded; Skeleton Feudal Court Batch 39
 - **Aswang Swollen Colonial Sapper** — —/5; delete; None recorded; Spanish Colonial Corruption Batch 09
 - **Bandage Bound Wounded Charger** — —/5; delete; None recorded; Spanish Colonial Corruption Batch 09
 - **Beetle Carapace Colonial Sapper** — —/5; delete; None recorded; Spanish Colonial Corruption Batch 09
@@ -16698,11 +17866,13 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Wind Torn Processioner** — —/5; delete; None recorded; Typhoon Flood Born Batch 14
 - **Backward Processioner** — —/5; delete; None recorded; Unfaced Demon Court Batch 49
 - **Cage Rib Warden** — 4/5; reject; Wrong weapon design (major); Unfaced Demon Court Batch 49
+- **Cage Rib Warden** — —/5; delete; None recorded; Unfaced Demon Court Batch 49
 - **Choir Mantle Orator** — —/5; delete; None recorded; Unfaced Demon Court Batch 49
 - **Coffin Spine Porter** — 5/5; keep; None recorded; Unfaced Demon Court Batch 49
 - **Cross Armed Penitent** — 4/5; keep; None recorded; Unfaced Demon Court Batch 49
 - **Crown Cage Butcher** — —/5; delete; None recorded; Unfaced Demon Court Batch 49
 - **Doorway Tenant** — 4/5; reject; Weapon too short (major); Unfaced Demon Court Batch 49
+- **Doorway Tenant** — —/5; delete; None recorded; Unfaced Demon Court Batch 49
 - **Faceless Usher** — 4/5; keep; None recorded; Unfaced Demon Court Batch 49
 - **Hinge Jaw Confessor** — 5/5; keep; None recorded; Unfaced Demon Court Batch 49
 - **Hollow Hem Surveyor** — 3/5; reject; None recorded; Unfaced Demon Court Batch 49
@@ -16902,6 +18072,34 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Populated Gameplay Mockup** — 5/5; keep; None recorded; Hollow Tithe Crossing
 - **Cultist Fit** — 1/5; delete; None recorded; Starless Observatory
 - **Empty** — 1/5; delete; None recorded; Starless Observatory
+- **Abaca Kanzashi Companion** — 5/5; keep; None recorded; Courtesans
+- **Ash Silk Wakizashi Survivor** — 5/5; keep; None recorded; Courtesans
+- **Bandurria Courtesan** — 5/5; keep; None recorded; Courtesans
+- **Bathhouse Hostess** — 5/5; keep; None recorded; Courtesans
+- **Black Lace Rapier Defender** — 5/5; keep; None recorded; Courtesans
+- **Blood Mud Talibon Courtesan** — 5/5; keep; None recorded; Courtesans
+- **Dice Salon Beauty** — 4/5; keep; None recorded; Courtesans
+- **Fan Veiled Courtesan** — 4/5; reject; Anatomy or limbs (major); Courtesans
+- **Fan Veiled Courtesan** — —/5; delete; None recorded; Courtesans
+- **Festival Mask Courtesan** — 5/5; keep; None recorded; Courtesans
+- **Iron Bloom Mace Companion** — 4/5; reject; Wrong proportions (major), Wrong weapon design (major); Courtesans
+- **Jade Sash Songstress** — 5/5; keep; None recorded; Courtesans
+- **Jade Scar Saber Hostess** — 5/5; keep; None recorded; Courtesans
+- **Lacquer Sleeve Oiran** — 5/5; keep; None recorded; Courtesans
+- **Long Pipe Companion** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major); Courtesans
+- **Oxblood Kampilan Guardian** — 5/5; keep; None recorded; Courtesans
+- **Pearl Grip Dagger Survivor** — 5/5; keep; None recorded; Courtesans
+- **Pearl Mirror Companion** — 5/5; keep; None recorded; Courtesans
+- **Perfume House Hostess** — 5/5; keep; None recorded; Courtesans
+- **Porcelain Capiz Mestiza** — 5/5; keep; None recorded; Courtesans
+- **Ruined Salon Axe Warden** — 4/5; reject; None recorded; Courtesans
+- **Ruined Salon Axe Warden** — —/5; delete; None recorded; Courtesans
+- **Sable Mantilla Maja** — 5/5; keep; None recorded; Courtesans
+- **Sealed Letter Courtesan** — 5/5; keep; None recorded; Courtesans
+- **Tambourine House Dancer** — 5/5; keep; None recorded; Courtesans
+- **Torn Mantilla Halberd Survivor** — 4/5; reject; None recorded; Courtesans
+- **Torn Mantilla Halberd Survivor** — 5/5; keep; None recorded; Courtesans
+- **Velvet War Hammer Madam** — 5/5; keep; None recorded; Courtesans
 - **Campus Photojournalist** — 5/5; keep; None recorded; Filipina 1970s
 - **Lounge Singer** — 5/5; keep; None recorded; Filipina 1970s
 - **Market Vendor** — —/5; delete; None recorded; Filipina 1970s
@@ -16922,41 +18120,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Salt Road Crown Guard** — 3/5; reject; Weapon too short (major), Wrong proportions (major), Wrong weapon design (major); Kings Royal Guards
 - **Sampaguita Throne Sentinel** — —/5; delete; None recorded; Kings Royal Guards
 - **White Palm Crown Guard** — 4/5; reject; Weapon too short (major); Kings Royal Guards
+- **Salt Road Crown Guard** — —/5; delete; None recorded; Kings Royal Guards V01
 - **Ember Vow Princess** — 5/5; keep; None recorded; Princesses
 - **Exiled Key Bearer** — 4/5; reject; None recorded; Princesses
 - **Floodway Heir** — —/5; delete; None recorded; Princesses
 - **Genealogy Keeper** — 4/5; reject; None recorded; Princesses
 - **Mourning Seal Bearer** — 5/5; keep; None recorded; Princesses
-- **Abaca Kanzashi Companion** — 5/5; keep; None recorded; Sex Workers
-- **Ash Silk Wakizashi Survivor** — 5/5; keep; None recorded; Sex Workers
-- **Bandurria Courtesan** — 5/5; keep; None recorded; Sex Workers
-- **Bathhouse Hostess** — 5/5; keep; None recorded; Sex Workers
-- **Black Lace Rapier Defender** — 5/5; keep; None recorded; Sex Workers
-- **Blood Mud Talibon Courtesan** — 5/5; keep; None recorded; Sex Workers
-- **Dice Salon Beauty** — 4/5; keep; None recorded; Sex Workers
+- **Exiled Key Bearer** — 5/5; keep; None recorded; Princesses V01
+- **Genealogy Keeper** — —/5; delete; None recorded; Princesses V01
 - **Dockside Hostess** — —/5; delete; None recorded; Sex Workers
-- **Fan Veiled Courtesan** — 4/5; reject; Anatomy or limbs (major); Sex Workers
-- **Festival Mask Courtesan** — 5/5; keep; None recorded; Sex Workers
 - **House Madam Key Keeper** — —/5; delete; None recorded; Sex Workers
-- **Iron Bloom Mace Companion** — 4/5; reject; Wrong proportions (major), Wrong weapon design (major); Sex Workers
-- **Jade Sash Songstress** — 5/5; keep; None recorded; Sex Workers
-- **Jade Scar Saber Hostess** — 5/5; keep; None recorded; Sex Workers
-- **Lacquer Sleeve Oiran** — 5/5; keep; None recorded; Sex Workers
-- **Long Pipe Companion** — 4/5; reject; Anatomy or limbs (major), Hands or fingers (major); Sex Workers
 - **Mourning House Companion** — —/5; delete; None recorded; Sex Workers
-- **Oxblood Kampilan Guardian** — 5/5; keep; None recorded; Sex Workers
-- **Pearl Grip Dagger Survivor** — 5/5; keep; None recorded; Sex Workers
-- **Pearl Mirror Companion** — 5/5; keep; None recorded; Sex Workers
-- **Perfume House Hostess** — 5/5; keep; None recorded; Sex Workers
-- **Porcelain Capiz Mestiza** — 5/5; keep; None recorded; Sex Workers
 - **Rain Street Worker** — —/5; delete; None recorded; Sex Workers
-- **Ruined Salon Axe Warden** — 4/5; reject; None recorded; Sex Workers
-- **Sable Mantilla Maja** — 5/5; keep; None recorded; Sex Workers
-- **Sealed Letter Courtesan** — 5/5; keep; None recorded; Sex Workers
 - **Silk Sash Dancer** — —/5; delete; None recorded; Sex Workers
-- **Tambourine House Dancer** — 5/5; keep; None recorded; Sex Workers
-- **Torn Mantilla Halberd Survivor** — 4/5; reject; None recorded; Sex Workers
-- **Velvet War Hammer Madam** — 5/5; keep; None recorded; Sex Workers
 - **Ash Court Road King** — 3/5; keep; None recorded; Sovereigns Of The Provinces
 - **Balete Root Court King** — 3/5; keep; None recorded; Sovereigns Of The Provinces
 - **Dwende Mound King** — —/5; delete; None recorded; Sovereigns Of The Provinces
@@ -16992,6 +18168,8 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Tarsier Eye Sword Watcher** — 5/5; keep; None recorded; Beast Helm Orders
 - **Tiger Stripe Sword Marshal** — 5/5; keep; None recorded; Beast Helm Orders
 - **Turtle Shell Halberd Keeper** — 3/5; reject; None recorded; Beast Helm Orders
+- **Oxblood Bull Gatekeeper** — 5/5; rated; None recorded; Beast Helm Orders V07
+- **Turtle Shell Halberd Keeper** — —/5; delete; None recorded; Beast Helm Orders V08
 - **Crimson Knight Player Character** — —/5; delete; None recorded; Crimson Knight Player Character
 - **Ash Back Butcher** — 2/5; keep; None recorded; Demon Knight Legions
 - **Blood Comet Lancer** — —/5; delete; None recorded; Demon Knight Legions
@@ -17013,6 +18191,9 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Thorned Idol Guard** — 3/5; keep; None recorded; Demon Knight Legions
 - **Velvet Sin Cavalier** — 3/5; reject; Bent / crooked weapon (major); Demon Knight Legions
 - **Vermilion Gatekeeper** — 5/5; keep; None recorded; Demon Knight Legions
+- **Bone Lacquer Duelist** — —/5; delete; None recorded; Demon Knight Legions V07
+- **Furnace Choir Templar** — —/5; delete; None recorded; Demon Knight Legions V07
+- **Velvet Sin Cavalier** — —/5; delete; None recorded; Demon Knight Legions V07
 - **Ash Crescent Saber Pursuer** — 5/5; keep; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Black Veil Estoc Marshal** — 5/5; keep; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Capiz Eye Persian Axe Bailiff** — 5/5; keep; None recorded; Elite Armored Vampire Slayers Batch 01
@@ -17020,6 +18201,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Iron Sun Mace Castellan** — 5/5; keep; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Oxblood Arming Sword Provost** — 5/5; keep; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Oxblood Ring Hilt Rapier Outrider** — 4/5; reject; Wrong weapon design (major); Elite Armored Vampire Slayers Batch 01
+- **Oxblood Ring Hilt Rapier Outrider** — —/5; delete; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Palm Lock Night Sentinel** — 2/5; reject; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Sable Two Handed Sword Vindicator** — 2/5; reject; None recorded; Elite Armored Vampire Slayers Batch 01
 - **Silver Beak War Hammer Marshal** — 2/5; reject; None recorded; Elite Armored Vampire Slayers Batch 01
@@ -17081,16 +18263,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Oxblood Bull Gatekeeper** — 2/5; reject; None recorded; Horned Helmet Orders
 - **Ramcoil Justiciar** — —/5; delete; None recorded; Horned Helmet Orders
 - **Spiral Antelope Duelist** — 3/5; keep; None recorded; Horned Helmet Orders
+- **Ibex Ridge Lancer** — —/5; delete; None recorded; Horned Helmet Orders V11
 - **Astrolabe Surveyor** — 3/5; keep; None recorded; Lost Orders Quintet
 - **Black Orchard Castellan** — 4/5; keep; None recorded; Lost Orders Quintet
 - **Funeral Cicada Bailiff** — 1/5; reject; None recorded; Lost Orders Quintet
 - **Reed Crown Marsh Lancer** — 1/5; delete; None recorded; Lost Orders Quintet
 - **Saltglass Duelist** — 3/5; keep; None recorded; Lost Orders Quintet
+- **Funeral Cicada Bailiff** — —/5; delete; None recorded; Lost Orders Quintet V10
 - **Celadon Fold Duelist** — 3/5; reject; Weapon too short (major), Wrong proportions (major); Pale Knight Orders
 - **Pearl Bell Castellan** — 2/5; reject; Bent / crooked weapon (major), Hands or fingers (major), Weapon handling (major), Weapon too short (major), Wrong proportions (major), Wrong weapon design (major); Pale Knight Orders
 - **Porcelain Vowkeeper** — 2/5; reject; Bent / crooked weapon (major), Hands or fingers (major), Weapon handling (major), Weapon too short (major), Wrong proportions (major), Wrong weapon design (major); Pale Knight Orders
 - **Rose Ash Procession Knight** — 4/5; reject; Weapon handling (major), Weapon too short (major), Wrong proportions (major), Wrong weapon design (major); Pale Knight Orders
 - **Salt Ring Warden** — 5/5; keep; None recorded; Pale Knight Orders
+- **Rose Ash Procession Knight** — 5/5; keep; None recorded; Pale Knight Orders V16
 - **Bell Toll Justiciar** — —/5; delete; None recorded; Profane Orders
 - **Black Wax Sentinel** — 5/5; keep; None recorded; Profane Orders
 - **Briar Gaoler** — —/5; delete; None recorded; Profane Orders
@@ -17101,6 +18286,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Ossuary Confessor** — 5/5; keep; None recorded; Profane Orders
 - **Pestilent Standarder** — 1/5; delete; None recorded; Profane Orders
 - **Veiled Apostate** — 5/5; keep; None recorded; Profane Orders
+- **Eclipse Castellan** — —/5; delete; None recorded; Profane Orders V06
 - **Chain Veil Questioner** — 2/5; reject; None recorded; Sacred Tribunal
 - **Lockplate Confessor** — 3/5; reject; Wrong weapon design (major); Sacred Tribunal
 - **Split Mitre Judicator** — 2/5; reject; None recorded; Sacred Tribunal
@@ -17116,6 +18302,12 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Chain Law Flail Questioner** — 5/5; keep; None recorded; Sacred Tribunal Inquisitors
 - **Narrow Slit Longsword Examiner** — 5/5; keep; None recorded; Sacred Tribunal Inquisitors
 - **Twin Catch Zweihander Prosecutor** — 4/5; reject; Weapon handling (major), Wrong proportions (major), Wrong weapon design (major); Sacred Tribunal Inquisitors
+- **Bronze Star Morningstar Bailiff** — 4/5; keep; None recorded; Sacred Tribunal Inquisitors V17
+- **Twin Catch Zweihander Prosecutor** — 4/5; keep; None recorded; Sacred Tribunal Inquisitors V17
+- **Chain Veil Questioner** — —/5; delete; None recorded; Sacred Tribunal V12
+- **Lockplate Confessor** — 5/5; keep; None recorded; Sacred Tribunal V12
+- **Split Mitre Judicator** — 5/5; keep; None recorded; Sacred Tribunal V12
+- **Three Lancet Examiner** — —/5; delete; None recorded; Sacred Tribunal V12
 - **Black Iron Ossuary Knight** — 4/5; reject; Weapon handling (major); Skeleton Knight Legions
 - **Charred Marrow Axeman** — —/5; delete; None recorded; Skeleton Knight Legions
 - **Crowned Necropolis Marshal** — 4/5; reject; Hands or fingers (major), Weapon too short (major), Wrong weapon design (major); Skeleton Knight Legions
@@ -17126,6 +18318,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Red Cord Bone Retainer** — 5/5; keep; None recorded; Skeleton Knight Legions
 - **Salt Bone Crusader** — —/5; delete; None recorded; Skeleton Knight Legions
 - **Verdigris Crypt Spearman** — —/5; delete; None recorded; Skeleton Knight Legions
+- **Black Iron Ossuary Knight** — 5/5; keep; None recorded; Skeleton Knight Legions V08
 - **Ashglass Pistolier** — —/5; delete; None recorded; Slayer Concepts
 - **Ashhound Pactkeeper** — —/5; delete; None recorded; Slayer Concepts
 - **Coffin Nail Fencer** — —/5; delete; None recorded; Slayer Concepts
@@ -17171,6 +18364,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Crescent Collar Castellan** — 4/5; reject; None recorded; Unholy Cape Orders
 - **Five Tongue Procession Marshal** — 5/5; keep; None recorded; Unholy Cape Orders
 - **Spiral Mantle Duelist** — 3/5; reject; Weapon handling (major), Weapon too short (major), Wrong proportions (major), Wrong weapon design (major); Unholy Cape Orders
+- **Chain Hem Bailiff** — 5/5; keep; None recorded; Unholy Cape Orders V15
 - **Ash Seraph Reaper** — 4/5; reject; None recorded; Unholy Succubus Knights
 - **Chalice Maw Gaoler** — 5/5; keep; None recorded; Unholy Succubus Knights
 - **Duskwing Lancer** — 4/5; reject; None recorded; Unholy Succubus Knights
@@ -17186,6 +18380,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Nightwing Dragoon** — —/5; delete; None recorded; Vampire Knight Courts
 - **Velvet Hound Cavalier** — 4/5; reject; Bent / crooked weapon (major), Hands or fingers (major), Weapon handling (major), Wrong proportions (major), Wrong weapon design (major); Vampire Knight Courts
 - **White Fang Inquisitor** — 5/5; keep; None recorded; Vampire Knight Courts
+- **Blood Sun Prince** — 5/5; keep; None recorded; Vampire Knight Courts V08
 - **Birch Oath Axeguard** — 5/5; keep; None recorded; Wild Covenant
 - **Fen Reed Sentinel** — 5/5; keep; None recorded; Wild Covenant
 - **Granite Pass Keeper** — 5/5; keep; None recorded; Wild Covenant

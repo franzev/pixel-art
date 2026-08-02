@@ -1,5 +1,10 @@
 # Holy Knight Realism Pass v05 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 4 marked renders from the active catalog: Pilgrim Abbot, Pivot Visor Penitent, Ribbed Sallet Canon, Split Buffe Examiner. 1 catalog PNG remains in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Replace the five least plausible or excessively bulky v04 concepts with

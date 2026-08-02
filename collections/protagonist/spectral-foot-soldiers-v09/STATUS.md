@@ -1,5 +1,10 @@
 # Spectral Foot Soldiers v09 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 15 marked renders from the active catalog: Black Standard Bearer, Blue Levy Spearman, Cruel Crossbow Skirmisher, Crypt Crossbowman, Dread Levy Spearman, Evil Green Gallows Halberdier, Fallen Crossbowman, Grin Pike Sergeant, Grinning Longbow Huntress, Hook Grin Billwoman, Malice Drum Captain, Mourning Halberdier, Pale Standard Bearer, Smiling Pavise Guard, Smirking Glaive Reaper. 10 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Create five original ghost foot soldiers whose spectral bodies match the

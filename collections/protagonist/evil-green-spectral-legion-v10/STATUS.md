@@ -1,5 +1,10 @@
 # Evil-Green Spectral Legion v10 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 1 marked render from the active catalog: Hollow Rein Longbow Captain. 4 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 **Status:** Wave 01 ready for review  
 **Requested:** 2 bosses, 2 captains, and 5 horse knights  
 **Generated:** 2 bosses, 2 captains, and 1 horse knight  

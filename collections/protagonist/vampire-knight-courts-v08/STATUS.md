@@ -1,5 +1,10 @@
 # Vampire Knight Courts v08 — Status
 
+## Deletion cleanup — 2026-07-31
+
+The review-authorized cleanup removed 2 marked renders from the active catalog: Leech Jaw Gaoler, Nightwing Dragoon. 8 catalog PNGs remain in this collection. This supersedes older active-roster, restored-file, retention, review-ready, and render-count claims below for those designs. Review decisions and historical paths remain in the machine-maintained feedback export; no deleted design is canonical or production-ready.
+
+
 ## Goal
 
 Create ten original vampire knights with aristocratic menace, grounded armor,

@@ -1,5 +1,14 @@
 # Typhoon and Flood-Born Batch 14 — Status
 
+> **Current facing clarification (2026-08-01):** Any future use of
+> `right-facing` in this collection means a mostly frontal, shallow
+> front-three-quarter view with the camera-facing facial plane visible.
+> When unobscured, show both eyes, nose, mouth, chin, and expression.
+> Gaze and action may favor screen-right; rear-three-quarter,
+> back-of-head, ear-only, far-cheek, and complete side-profile views are
+> prohibited unless explicitly requested. This overrides older facing notes
+> below for future renders without rewriting historical outcomes.
+
 **Status:** Three generated drafts awaiting review
 **Prepared:** 2026-07-28
 **Valid draft assets:** 3 of 3 requested

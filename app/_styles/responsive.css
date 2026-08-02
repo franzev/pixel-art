@@ -175,6 +175,24 @@
     display: none;
   }
 
+  .saved-time-filter.is-compact legend {
+    display: none;
+  }
+
+  .saved-time-filter.is-compact .saved-time-select select {
+    width: 118px;
+  }
+
+  .saved-time-filter.is-compact .saved-time-custom {
+    width: 100%;
+    order: 3;
+  }
+
+  .saved-time-filter.is-compact .saved-time-custom label {
+    grid-template-columns: auto minmax(0, 1fr);
+    flex: 1 1 0;
+  }
+
   .attempt-toolbar p {
     display: none;
   }

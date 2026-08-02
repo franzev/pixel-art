@@ -1,15 +1,15 @@
 # Render Feedback Memory
 
-Latest confirmed local review: 2026-08-01T01:59:18.447Z
+Latest confirmed local review: 2026-08-02T04:56:51.923Z
 
 This file records direct ratings, decisions, defects, and correction notes. Suggested tags remain explicitly separate from confirmed tags and must not be treated as user-approved art direction.
 
 ## Review summary
 
-- Reviewed or rated renders: 1471
+- Reviewed or rated renders: 1472
 - delete: 868
 - keep: 394
-- rated only: 1
+- rated only: 2
 - reject: 208
 
 ## Five-star anchors
@@ -255,6 +255,19 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - Collection: Blood Priestesses Batch 39
 - Rating: 5/5
 - Decision: keep
+- Defects: None recorded
+- Confirmed tags: None recorded
+- Rejected tag suggestions: None recorded
+- Feedback: None recorded
+- Next attempt: None recorded
+
+### Blood Diamond Hierophant
+
+- Render ID: `rnd_3a9c757208b282ca92e32261`
+- Path: `archive/render-attempts/enemies/blood-priestesses-batch-39/05-blood-diamond-hierophant/attempt-02.png`
+- Collection: Blood Priestesses Batch 39
+- Rating: 5/5
+- Decision: Rated only
 - Defects: None recorded
 - Confirmed tags: None recorded
 - Rejected tag suggestions: None recorded
@@ -17098,6 +17111,7 @@ This file records direct ratings, decisions, defects, and correction notes. Sugg
 - **Sable Longsword Castellan** — 4/5; reject; Weapon handling (major); Blood Demon Knights Batch 37 · Rejected
 - **Blood Cup Interdictor** — 5/5; keep; None recorded; Blood Priestesses Batch 39
 - **Blood Cup Interdictor** — 5/5; keep; None recorded; Blood Priestesses Batch 39
+- **Blood Diamond Hierophant** — 5/5; rated; None recorded; Blood Priestesses Batch 39
 - **Blood Diamond Hierophant** — 5/5; keep; None recorded; Blood Priestesses Batch 39
 - **Brass Censer Prioress** — 4/5; keep; None recorded; Blood Priestesses Batch 39
 - **Iron Psalm Flail Prioress** — 4/5; keep; None recorded; Blood Priestesses Batch 39

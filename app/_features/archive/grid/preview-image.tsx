@@ -17,6 +17,16 @@ export function PreviewImage({
   inspector?: boolean;
 }) {
   const [loaded, setLoaded] = useState(false);
+  // A single PreviewImage instance is reused across items in the inspector
+  // (no per-item key there), so reset the loaded flag when the source changes
+  // — otherwise the fade-in never replays and later renders pop in abruptly.
+  // Adjusting state during render (rather than in an effect) is React's
+  // recommended way to reset on a prop change.
+  const [trackedUrl, setTrackedUrl] = useState(item.url);
+  if (item.url !== trackedUrl) {
+    setTrackedUrl(item.url);
+    setLoaded(false);
+  }
 
   return (
     <Image

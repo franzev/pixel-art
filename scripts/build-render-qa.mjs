@@ -8,6 +8,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(scriptDir, "..");
 const tileWidth = 320;
 const imageHeight = 320;
+const inspectionSize = 256;
 const labelHeight = 40;
 const tileHeight = imageHeight + labelHeight;
 
@@ -37,7 +38,7 @@ function escapeXml(value) {
 }
 
 async function labeledTile(input, label, { grayscale = false } = {}) {
-  let content = sharp(input).resize(tileWidth, imageHeight, {
+  let content = sharp(input).resize(inspectionSize, inspectionSize, {
     fit: "contain",
     background: CANONICAL_BACKGROUND,
     kernel: "nearest",
@@ -60,7 +61,11 @@ async function labeledTile(input, label, { grayscale = false } = {}) {
   })
     .composite([
       { input: labelSvg, left: 0, top: 0 },
-      { input: rendered, left: 0, top: labelHeight },
+      {
+        input: rendered,
+        left: (tileWidth - inspectionSize) / 2,
+        top: labelHeight + (imageHeight - inspectionSize) / 2,
+      },
     ])
     .png()
     .toBuffer();
@@ -89,10 +94,47 @@ export async function buildRenderQaSheet({
     throw new Error("Could not read QA image dimensions.");
   }
   const source = await readFile(imagePath);
-  const tiles = [
-    await labeledTile(source, "Full color at 256"),
-    await labeledTile(source, "Grayscale silhouette", { grayscale: true }),
-  ];
+  const directionLabel =
+    plan?.asset?.directionalSubject === true
+      ? " • expected facing →"
+      : "";
+  let tiles;
+  if (plan?.redo?.isRedo === true) {
+    const sourcePath = String(plan.redo.sourcePath ?? "").replaceAll("\\", "/");
+    const artDir = path.join(siteDir, "public", "art");
+    const sourceImagePath = path.resolve(artDir, sourcePath);
+    const relativeSource = path.relative(artDir, sourceImagePath);
+    if (
+      !relativeSource ||
+      relativeSource.startsWith("..") ||
+      path.isAbsolute(relativeSource)
+    ) {
+      throw new Error("Redo QA source must stay inside public/art.");
+    }
+    const original = await readFile(sourceImagePath);
+    tiles = [
+      await labeledTile(original, "Original source 256 × 256"),
+      await labeledTile(
+        source,
+        `Redo candidate 256 × 256${directionLabel}`,
+      ),
+      await labeledTile(original, "Original grayscale 256 × 256", {
+        grayscale: true,
+      }),
+      await labeledTile(
+        source,
+        `Candidate grayscale 256 × 256${directionLabel}`,
+        { grayscale: true },
+      ),
+    ];
+  } else {
+    tiles = [
+      await labeledTile(source, `Full color 256 × 256${directionLabel}`),
+      await labeledTile(source, `Grayscale 256 × 256${directionLabel}`, {
+        grayscale: true,
+      }),
+    ];
+  }
   const cropGroups = ["face", "hands", "equipmentJoins", "feet"];
   for (const group of cropGroups) {
     for (const crop of plan?.crops?.[group] ?? []) {

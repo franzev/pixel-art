@@ -1,0 +1,2259 @@
+[
+  {
+    "sourceRenderId": "rnd_896a8828a896d6f125a90a6b",
+    "sourcePath": "angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate.png",
+    "candidatePaths": [
+      "angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate-v02.png",
+      "angels/corrupted-angels-v01/drafts/06-cinder-crowned-apostate-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a69900f709f625ed046ef4cb",
+    "sourcePath": "enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden.png",
+    "candidatePaths": [
+      "enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden-v03.png",
+      "enemies/aswang-knights-batch-37/drafts/01-night-marrow-lance-warden-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_54c0f55ac88fa15a4d7949d3",
+    "sourcePath": "enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier.png",
+    "candidatePaths": [
+      "enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-v03.png",
+      "enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-v04.png",
+      "enemies/aswang-knights-batch-37/drafts/03-capiz-veil-bolo-harrier-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3ab3257768eafa6778cb77c0",
+    "sourcePath": "enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist.png",
+    "candidatePaths": [
+      "enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist-v02.png",
+      "enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist-v03.png",
+      "enemies/aswang-knights-batch-37/drafts/04-black-rain-arbalist-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_dfbb928893090833d54ee20d",
+    "sourcePath": "enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark.png",
+    "candidatePaths": [
+      "enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-v04.png",
+      "enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-v05.png",
+      "enemies/aswang-knights-batch-37/drafts/05-dawn-hide-rattan-bulwark-v06.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_db63b2fb936237e6685dfb30",
+    "sourcePath": "enemies/axe-wielding-knights-batch-50/drafts/01-capiz-visor-high-guard.png",
+    "candidatePaths": [
+      "enemies/axe-wielding-knights-batch-50/drafts/01-capiz-visor-high-guard-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_e06abd595e168173e7bf2f79",
+    "sourcePath": "enemies/axe-wielding-knights-batch-50/drafts/02-ash-road-hook-castellan.png",
+    "candidatePaths": [
+      "enemies/axe-wielding-knights-batch-50/drafts/02-ash-road-hook-castellan-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5068bfc9ca25212ab61c33e6",
+    "sourcePath": "enemies/axe-wielding-knights-batch-50/drafts/03-black-scapular-brace.png",
+    "candidatePaths": [
+      "enemies/axe-wielding-knights-batch-50/drafts/03-black-scapular-brace-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ee1ef826b359721d24ffa190",
+    "sourcePath": "enemies/axe-wielding-knights-batch-50/drafts/04-rain-mantle-pursuer.png",
+    "candidatePaths": [
+      "enemies/axe-wielding-knights-batch-50/drafts/04-rain-mantle-pursuer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7de857326656dca8cb43952a",
+    "sourcePath": "enemies/axe-wielding-knights-batch-50/drafts/05-ivory-langet-processioner.png",
+    "candidatePaths": [
+      "enemies/axe-wielding-knights-batch-50/drafts/05-ivory-langet-processioner-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_515eb97487639ecf4b31292c",
+    "sourcePath": "enemies/banshees-batch-33/drafts/02-shawlbound-lamenter.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/02-shawlbound-lamenter-v02.png",
+      "enemies/banshees-batch-33/drafts/02-shawlbound-lamenter-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8a081dfbcfdafca0b53754f1",
+    "sourcePath": "enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow-v02.png",
+      "enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow-v03.png",
+      "enemies/banshees-batch-33/drafts/03-comb-reclaiming-widow-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_caa616fe1004fe1b78edc93e",
+    "sourcePath": "enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch-v03.png",
+      "enemies/banshees-batch-33/drafts/05-hollow-throat-matriarch-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_dad432b5c77a0d4967014781",
+    "sourcePath": "enemies/banshees-batch-33/drafts/07-crimson-edged-mourner.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-v02.png",
+      "enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-v03.png",
+      "enemies/banshees-batch-33/drafts/07-crimson-edged-mourner-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b79a1fbacc420d65a9c4fa4e",
+    "sourcePath": "enemies/banshees-batch-33/drafts/09-crimson-lace-regent.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/09-crimson-lace-regent-v03.png",
+      "enemies/banshees-batch-33/drafts/09-crimson-lace-regent-v04.png",
+      "enemies/banshees-batch-33/drafts/09-crimson-lace-regent-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7db6400d8bebec5a2877a595",
+    "sourcePath": "enemies/banshees-batch-33/drafts/14-black-bell-caller.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/14-black-bell-caller-v03.png",
+      "enemies/banshees-batch-33/drafts/14-black-bell-caller-v04.png",
+      "enemies/banshees-batch-33/drafts/14-black-bell-caller-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_37dda5dc022182d0a8862abb",
+    "sourcePath": "enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner.png",
+    "candidatePaths": [
+      "enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-v02.png",
+      "enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-v03.png",
+      "enemies/banshees-batch-33/drafts/15-indigo-wrap-mourner-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9397237843c596c85861a6a9",
+    "sourcePath": "enemies/blood-cult-sadists-batch-39/drafts/03-five-drop-phlebotomist.png",
+    "candidatePaths": [
+      "enemies/blood-cult-sadists-batch-39/drafts/03-five-drop-phlebotomist-v02.png",
+      "enemies/blood-cult-sadists-batch-39/drafts/03-five-drop-phlebotomist-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_f12d4380faf5290e0347f737",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v02.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v02.png",
+      "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v03.png",
+      "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ea106332a553a7e09c5f2495",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v02.png",
+      "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v03.png",
+      "enemies/blood-demon-knights-batch-37/drafts/01-blood-needle-duelist-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9e54937ec7e54ea511dcbaa9",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/02-vein-hook-arrestor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c7086304834d0e56246f2b34",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/03-clot-sigil-bastion-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5c000ea727d632e34cbc4039",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-v02.png",
+      "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-v03.png",
+      "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_310e3cf3188f2e6fa5a51aab",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-v02.png",
+      "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-v03.png",
+      "enemies/blood-demon-knights-batch-37/drafts/08-sable-greatsword-pursuer-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9072abebc48edf40fba54f34",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/10-ashen-warhammer-provost.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/10-ashen-warhammer-provost-v02.png",
+      "enemies/blood-demon-knights-batch-37/drafts/10-ashen-warhammer-provost-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_66146f6cd1c3762b2c5d7dcf",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v02.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v04.png",
+      "enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3143fa6185e604d37e3a5cc9",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v03.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v04.png",
+      "enemies/blood-demon-knights-batch-37/drafts/13-oxblood-greatsword-pursuer-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ce5f322d355a6775477683e4",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/drafts/15-iron-warhammer-marshal-v02.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/drafts/15-iron-warhammer-marshal-v03.png",
+      "enemies/blood-demon-knights-batch-37/drafts/15-iron-warhammer-marshal-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_16feeb8573508fb205aaef15",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/11-sable-longsword-castellan-v01.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/11-sable-longsword-castellan-v02.png",
+      "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/11-sable-longsword-castellan-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9e80003198cc8d4e2ddab400",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/13-oxblood-greatsword-pursuer-v01.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/13-oxblood-greatsword-pursuer-v02.png",
+      "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/13-oxblood-greatsword-pursuer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_fd0365e4804f0a99d00540cb",
+    "sourcePath": "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/14-bronze-mace-prefect-v01.png",
+    "candidatePaths": [
+      "enemies/blood-demon-knights-batch-37/rejected/female-wave-v01/14-bronze-mace-prefect-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_56123c8c5799991409d21af1",
+    "sourcePath": "enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness.png",
+    "candidatePaths": [
+      "enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness-v02.png",
+      "enemies/blood-priestesses-batch-39/drafts/04-oxblood-quarrel-canoness-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8be24205e0d2fa7bc6fa16b7",
+    "sourcePath": "enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary.png",
+    "candidatePaths": [
+      "enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary-v02.png",
+      "enemies/blood-priestesses-batch-39/drafts/06-oxblood-processional-mace-votary-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ed68ff5784778fc9bd1ba19f",
+    "sourcePath": "enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary.png",
+    "candidatePaths": [
+      "enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary-v02.png",
+      "enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_929a658f370a3d5137508c14",
+    "sourcePath": "enemies/blood-priestesses-batch-39/rejected/candlestick-pilot/06-altar-candlestick-prioress.png",
+    "candidatePaths": [
+      "enemies/blood-priestesses-batch-39/rejected/candlestick-pilot/06-altar-candlestick-prioress-v02.png",
+      "enemies/blood-priestesses-batch-39/rejected/candlestick-pilot/06-altar-candlestick-prioress-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b5fa02e6471d19068fc7baf5",
+    "sourcePath": "enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor.png",
+    "candidatePaths": [
+      "enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor-v02.png",
+      "enemies/blood-priestesses-batch-39/rejected/wave-01/01-blood-cup-interdictor-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ddb1b873a7b68087f826cae7",
+    "sourcePath": "enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant.png",
+    "candidatePaths": [
+      "enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant-v02.png",
+      "enemies/blood-priestesses-batch-39/rejected/wave-01/05-blood-diamond-hierophant-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5c78cfadbe60bab0a632fe88",
+    "sourcePath": "enemies/catholic-evil-white-priests-batch-41/drafts/02-blackwater-aspergillist.png",
+    "candidatePaths": [
+      "enemies/catholic-evil-white-priests-batch-41/drafts/02-blackwater-aspergillist-v02.png",
+      "enemies/catholic-evil-white-priests-batch-41/drafts/02-blackwater-aspergillist-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_18f0d2d9c396c27ed0cb2ada",
+    "sourcePath": "enemies/catholic-evil-white-priests-batch-41/drafts/04-wax-mitre-ordinariate.png",
+    "candidatePaths": [
+      "enemies/catholic-evil-white-priests-batch-41/drafts/04-wax-mitre-ordinariate-v02.png",
+      "enemies/catholic-evil-white-priests-batch-41/drafts/04-wax-mitre-ordinariate-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_1722437f722f4396b9d64e6c",
+    "sourcePath": "enemies/catholic-knights-batch-41/drafts/11-capiz-barong-sacristan.png",
+    "candidatePaths": [
+      "enemies/catholic-knights-batch-41/drafts/11-capiz-barong-sacristan-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_42ea55123122f167f02b337f",
+    "sourcePath": "enemies/catholic-knights-batch-41/drafts/13-black-canon-longsword.png",
+    "candidatePaths": [
+      "enemies/catholic-knights-batch-41/drafts/13-black-canon-longsword-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7b538aedf5cfa8d83889a23a",
+    "sourcePath": "enemies/catholic-knights-batch-41/drafts/14-seven-flange-matron.png",
+    "candidatePaths": [
+      "enemies/catholic-knights-batch-41/drafts/14-seven-flange-matron-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ca1fda8ba3c738527934aca8",
+    "sourcePath": "enemies/catholic-knights-batch-41/drafts/15-ivory-rapier-penitent.png",
+    "candidatePaths": [
+      "enemies/catholic-knights-batch-41/drafts/15-ivory-rapier-penitent-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_f4f888298ab888676af532a1",
+    "sourcePath": "enemies/combat-magic-batch-04/01-blood-lantern-acolyte.png",
+    "candidatePaths": [
+      "enemies/combat-magic-batch-04/01-blood-lantern-acolyte-v02.png",
+      "enemies/combat-magic-batch-04/01-blood-lantern-acolyte-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_d5321b2c21a1f020b4b8e25e",
+    "sourcePath": "enemies/combat-magic-batch-04/03-beetle-hexer.png",
+    "candidatePaths": [
+      "enemies/combat-magic-batch-04/03-beetle-hexer-v02.png",
+      "enemies/combat-magic-batch-04/03-beetle-hexer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_f5babd8bb22f5e59cbfdc114",
+    "sourcePath": "enemies/combat-magic-batch-04/03-beetle-hexer.png",
+    "candidatePaths": [
+      "enemies/combat-magic-batch-04/03-beetle-hexer-v02.png",
+      "enemies/combat-magic-batch-04/03-beetle-hexer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-09.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_70af9765496ed323f8861387",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister-v04.png",
+      "enemies/convent-horrors-batch-37/drafts/01-moon-veil-rapier-sister-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a1730252306d2ab3ef3dd13f",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/02-indigo-flail-votary.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/02-indigo-flail-votary-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/02-indigo-flail-votary-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c338fe06bd79126af6968297",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/09-cinder-sickle-widow-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_e2ef5f2be1a2836c3fc4cd25",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/11-pale-rosary-mace-sister-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_419ac453e6c7e7ba2af5bf37",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/14-black-procession-threshing-flailer-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_bdc8aaf002dff6bbf4536eec",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/16-ash-blue-vampire-whip-sister.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/16-ash-blue-vampire-whip-sister-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/16-ash-blue-vampire-whip-sister-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_64825680add2191eb8d7e008",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v04.png",
+      "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v05.png",
+      "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v06.png",
+      "enemies/convent-horrors-batch-37/drafts/17-burnt-rose-iron-club-nun-v07.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json",
+      "selection-08.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_cdf0ef5c7a30e92aa5e646a7",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-v04.png",
+      "enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-v05.png",
+      "enemies/convent-horrors-batch-37/drafts/18-silver-rosary-mourner-v06.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ca81de08aef3e864c44c7846",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/19-white-stake-vampire-sister-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ef5f73fdd8d55932795d9fca",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary-v04.png",
+      "enemies/convent-horrors-batch-37/drafts/22-plum-amber-longsword-votary-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_487b73fed236d41d7fb57edf",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron-v04.png",
+      "enemies/convent-horrors-batch-37/drafts/24-lavender-ash-rose-war-pick-matron-v05.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8d1e262065325211556947cf",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/27-ultramarine-apricot-rapier-sister.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/27-ultramarine-apricot-rapier-sister-v02.png",
+      "enemies/convent-horrors-batch-37/drafts/27-ultramarine-apricot-rapier-sister-v03.png",
+      "enemies/convent-horrors-batch-37/drafts/27-ultramarine-apricot-rapier-sister-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_027a8d4afb0c2becd208659a",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/28-coral-slate-longsword-votary.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/28-coral-slate-longsword-votary-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_fb706501c7c51d8c0951ca7f",
+    "sourcePath": "enemies/convent-horrors-batch-37/drafts/30-powder-blue-burgundy-rosary-mourner.png",
+    "candidatePaths": [
+      "enemies/convent-horrors-batch-37/drafts/30-powder-blue-burgundy-rosary-mourner-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_2a648dbe89e3436d12852082",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-37/drafts/02-thorn-gate-poleaxe-sentinel.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-37/drafts/02-thorn-gate-poleaxe-sentinel-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a2b13b1c99baf3731ae4b598",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent-v02.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent-v03.png",
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/03-root-hammer-penitent-v04.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7ab89f5cfeb172a6a02c3bcd",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-38/drafts/06-thorn-mace-custodian.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/06-thorn-mace-custodian-v02.png",
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/06-thorn-mace-custodian-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_0ce797119efd9315246cff70",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-38/drafts/07-briar-axe-pursuer.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/07-briar-axe-pursuer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_244c53e40801eb99c100e57a",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-38/drafts/08-crown-pick-adjudicator.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/08-crown-pick-adjudicator-v02.png",
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/08-crown-pick-adjudicator-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_4d8a61bba27459567914cf84",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-38/drafts/09-chain-thorn-penitent.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/09-chain-thorn-penitent-v02.png",
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/09-chain-thorn-penitent-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_dbb50d6e2a8ee1f2450f1d91",
+    "sourcePath": "enemies/crown-of-thorns-female-knights-batch-38/drafts/10-ash-falchion-castellan.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/10-ash-falchion-castellan-v02.png",
+      "enemies/crown-of-thorns-female-knights-batch-38/drafts/10-ash-falchion-castellan-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_35df51cfbf4b6d71d73d191c",
+    "sourcePath": "enemies/crown-of-thorns-knights-batch-40/drafts/07-thorn-rondel-grappler.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-knights-batch-40/drafts/07-thorn-rondel-grappler-v02.png",
+      "enemies/crown-of-thorns-knights-batch-40/drafts/07-thorn-rondel-grappler-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8c13f4a19528d91368fc5072",
+    "sourcePath": "enemies/crown-of-thorns-knights-batch-40/drafts/09-thorn-pick-pursuivant.png",
+    "candidatePaths": [
+      "enemies/crown-of-thorns-knights-batch-40/drafts/09-thorn-pick-pursuivant-v02.png",
+      "enemies/crown-of-thorns-knights-batch-40/drafts/09-thorn-pick-pursuivant-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_407e361dc6f83f79194282d4",
+    "sourcePath": "enemies/crowned-thorn-mistresses-batch-46/drafts/01-briar-fan-dona.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/01-briar-fan-dona-v02.png",
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/01-briar-fan-dona-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_94a6d2a69a6112eda035ad8f",
+    "sourcePath": "enemies/crowned-thorn-mistresses-batch-46/drafts/02-thorn-spindle-widow.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/02-thorn-spindle-widow-v02.png",
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/02-thorn-spindle-widow-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_614a1a9453ef5266d4fd5785",
+    "sourcePath": "enemies/crowned-thorn-mistresses-batch-46/drafts/03-crown-barong-chatelaine.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/03-crown-barong-chatelaine-v02.png",
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/03-crown-barong-chatelaine-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_6e39d3482e8d0b9ea09b6c36",
+    "sourcePath": "enemies/crowned-thorn-mistresses-batch-46/drafts/04-ember-salver-matriarch.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/04-ember-salver-matriarch-v02.png",
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/04-ember-salver-matriarch-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_da015d0bda932f3a8226481c",
+    "sourcePath": "enemies/crowned-thorn-mistresses-batch-46/drafts/05-thorn-ledger-preceptress.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/05-thorn-ledger-preceptress-v02.png",
+      "enemies/crowned-thorn-mistresses-batch-46/drafts/05-thorn-ledger-preceptress-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a750566b5a228fb37a31bb16",
+    "sourcePath": "enemies/crowned-thorn-priestesses-batch-45/drafts/01-briar-ring-processional.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-priestesses-batch-45/drafts/01-briar-ring-processional-v02.png",
+      "enemies/crowned-thorn-priestesses-batch-45/drafts/01-briar-ring-processional-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_1b7783e09710919505a616e9",
+    "sourcePath": "enemies/crowned-thorn-priestesses-batch-45/drafts/04-black-hedge-sacristan.png",
+    "candidatePaths": [
+      "enemies/crowned-thorn-priestesses-batch-45/drafts/04-black-hedge-sacristan-v02.png",
+      "enemies/crowned-thorn-priestesses-batch-45/drafts/04-black-hedge-sacristan-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_e409554b1aa8d824c6c6c403",
+    "sourcePath": "enemies/demonic-astrologers-batch-41/drafts/01-eclipse-ring-surveyor.png",
+    "candidatePaths": [
+      "enemies/demonic-astrologers-batch-41/drafts/01-eclipse-ring-surveyor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c52f071073dab1df05d97f06",
+    "sourcePath": "enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman.png",
+    "candidatePaths": [
+      "enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-v02.png",
+      "enemies/evil-catholic-knights-batch-43/drafts/01-ash-monstrance-pikeman-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a0fa3c8a8b370f5f7ee36807",
+    "sourcePath": "enemies/experimental-haired-inquisitors-batch-51/drafts/01-ivory-cascade-interrogator.png",
+    "candidatePaths": [
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/01-ivory-cascade-interrogator-v02.png",
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/01-ivory-cascade-interrogator-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9ab1ad13ef9c01f177bc2f43",
+    "sourcePath": "enemies/experimental-haired-inquisitors-batch-51/drafts/02-crimson-crown-castellan.png",
+    "candidatePaths": [
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/02-crimson-crown-castellan-v02.png",
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/02-crimson-crown-castellan-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5af432fcd64a6167af8981de",
+    "sourcePath": "enemies/experimental-haired-inquisitors-batch-51/drafts/03-raven-coil-prosecutor.png",
+    "candidatePaths": [
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/03-raven-coil-prosecutor-v02.png",
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/03-raven-coil-prosecutor-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_96a5fad473e454a65eadb466",
+    "sourcePath": "enemies/experimental-haired-inquisitors-batch-51/drafts/04-ash-rose-bob-examiner.png",
+    "candidatePaths": [
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/04-ash-rose-bob-examiner-v02.png",
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/04-ash-rose-bob-examiner-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_e2b58f9c69b3845627bfc3f7",
+    "sourcePath": "enemies/experimental-haired-inquisitors-batch-51/drafts/05-gilt-cable-justiciar.png",
+    "candidatePaths": [
+      "enemies/experimental-haired-inquisitors-batch-51/drafts/05-gilt-cable-justiciar-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_033b154296b967d7e6b732f7",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/01-moss-sash-sword-warden.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/01-moss-sash-sword-warden-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/01-moss-sash-sword-warden-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_e03268e8fd6d311097afe6ce",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/02-fern-mantle-longsword-knight.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/02-fern-mantle-longsword-knight-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/02-fern-mantle-longsword-knight-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7a23eaab31696911effcf319",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/03-green-tabard-path-duelist.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/03-green-tabard-path-duelist-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/03-green-tabard-path-duelist-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_10856f98614cf34d24242f70",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/07-grove-spear-line-warden.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/07-grove-spear-line-warden-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/07-grove-spear-line-warden-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c3f3e7b23bf197eb3018f88d",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/10-olive-mantle-longsword-captain.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/10-olive-mantle-longsword-captain-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/10-olive-mantle-longsword-captain-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_17f01a64b3e30b02bf9c3d80",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/14-ferncloak-greatsword-reeve.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/14-ferncloak-greatsword-reeve-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/14-ferncloak-greatsword-reeve-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_6b9b6bf183b5154ebfb0dfbc",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/16-verdant-sleeve-longsword-freeblade.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/16-verdant-sleeve-longsword-freeblade-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/16-verdant-sleeve-longsword-freeblade-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7f6ca33ca37706286d01f6a4",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ff4978bdb7723896f71abf9c",
+    "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/18-moss-bob-pursuit-duelist.png",
+    "candidatePaths": [
+      "enemies/forest-elf-sword-knights-batch-35/drafts/18-moss-bob-pursuit-duelist-v02.png",
+      "enemies/forest-elf-sword-knights-batch-35/drafts/18-moss-bob-pursuit-duelist-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b2c10a06d81e18da24160d8b",
+    "sourcePath": "enemies/iron-maidens-batch-34/drafts/02-iron-spear-sentinel.png",
+    "candidatePaths": [
+      "enemies/iron-maidens-batch-34/drafts/02-iron-spear-sentinel-v02.png",
+      "enemies/iron-maidens-batch-34/drafts/02-iron-spear-sentinel-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_439ad3ebbaed1ca81abb1865",
+    "sourcePath": "enemies/reapers-batch-40/drafts/05-ember-writ-reaper.png",
+    "candidatePaths": [
+      "enemies/reapers-batch-40/drafts/05-ember-writ-reaper-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_24fa57e6b2b0514201af46d7",
+    "sourcePath": "enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper.png",
+    "candidatePaths": [
+      "enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper-v02.png",
+      "enemies/reapers-batch-40/drafts/revision-02/01-rice-wake-reaper-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_fe641edc1373eccd50c7ff35",
+    "sourcePath": "enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper.png",
+    "candidatePaths": [
+      "enemies/reapers-batch-40/drafts/revision-02/05-ember-writ-reaper-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_64bedcc2ea29e8f6b17e4a8b",
+    "sourcePath": "enemies/sadistic-knights-batch-37/drafts/02-collar-crook-gaoler.png",
+    "candidatePaths": [
+      "enemies/sadistic-knights-batch-37/drafts/02-collar-crook-gaoler-v02.png",
+      "enemies/sadistic-knights-batch-37/drafts/02-collar-crook-gaoler-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_26fe6cc9e0089c26e519c83d",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/01-copper-bob-castellan.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/01-copper-bob-castellan-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/01-copper-bob-castellan-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_0117ad4c205e029088ce4039",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/02-ivory-pageboy-interrogator.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/02-ivory-pageboy-interrogator-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/02-ivory-pageboy-interrogator-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9b96bd790772c248bac9e0d7",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/04-gilt-crop-justiciar.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/04-gilt-crop-justiciar-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/04-gilt-crop-justiciar-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_0d1d6aba8de7f8054845b16a",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/05-ash-rose-wave-examiner.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/05-ash-rose-wave-examiner-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/05-ash-rose-wave-examiner-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_61d3f27ae4700677d3400c03",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/08-cinder-halberd-canoness.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/08-cinder-halberd-canoness-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/08-cinder-halberd-canoness-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7f33d482d00e0c1c8dd80949",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/09-pale-axe-pursuer.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/09-pale-axe-pursuer-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/09-pale-axe-pursuer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_579de505c9ffd80eb556b301",
+    "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor.png",
+    "candidatePaths": [
+      "enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor-v02.png",
+      "enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a910584a08fa20d85c1df860",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/02-burial-pavise-knight.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/02-burial-pavise-knight-v02.png",
+      "enemies/skeleton-feudal-court-batch-39/drafts/02-burial-pavise-knight-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_227a6b27c9b1d742c52d411f",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/08-ivory-ledger-lord.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/08-ivory-ledger-lord-v02.png",
+      "enemies/skeleton-feudal-court-batch-39/drafts/08-ivory-ledger-lord-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_670ef1700c56782c757d0986",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/09-censer-mantle-lord.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/09-censer-mantle-lord-v02.png",
+      "enemies/skeleton-feudal-court-batch-39/drafts/09-censer-mantle-lord-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_047d7c636fc184acca6a8ccf",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/11-five-nail-ash-war-king.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/11-five-nail-ash-war-king-v02.png",
+      "enemies/skeleton-feudal-court-batch-39/drafts/11-five-nail-ash-war-king-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9947848753a285e902a63dce",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/12-three-arch-floodroad-king.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/12-three-arch-floodroad-king-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7c9950ef95bf3b824be5bd25",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/16-four-pearl-flood-queen.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/16-four-pearl-flood-queen-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b7ff4f1b7687533391e5b718",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/17-three-point-lance-prince.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/17-three-point-lance-prince-v02.png",
+      "enemies/skeleton-feudal-court-batch-39/drafts/17-three-point-lance-prince-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7ef38060bcd08ff747592e96",
+    "sourcePath": "enemies/skeleton-feudal-court-batch-39/drafts/22-two-point-banig-blade-princess.png",
+    "candidatePaths": [
+      "enemies/skeleton-feudal-court-batch-39/drafts/22-two-point-banig-blade-princess-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5d0fc3d8bbeeedfb4432b7ce",
+    "sourcePath": "enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer.png",
+    "candidatePaths": [
+      "enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer-v02.png",
+      "enemies/spanish-knight-orders-batch-38/drafts/03-reed-sash-dismounted-lancer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7a979e9678e84b080dcc7dfc",
+    "sourcePath": "enemies/unfaced-demon-court-batch-49/drafts/06-cage-rib-warden.png",
+    "candidatePaths": [
+      "enemies/unfaced-demon-court-batch-49/drafts/06-cage-rib-warden-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3662f9900acb1123ebed62eb",
+    "sourcePath": "enemies/unfaced-demon-court-batch-49/drafts/07-split-mask-duelist.png",
+    "candidatePaths": [
+      "enemies/unfaced-demon-court-batch-49/drafts/07-split-mask-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_902b8ccee7f9a7bdcb438cb5",
+    "sourcePath": "enemies/unfaced-demon-court-batch-49/drafts/09-doorway-tenant.png",
+    "candidatePaths": [
+      "enemies/unfaced-demon-court-batch-49/drafts/09-doorway-tenant-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3c2a3a841063fc9013444262",
+    "sourcePath": "enemies/unfaced-demon-court-batch-49/drafts/14-hollow-hem-surveyor.png",
+    "candidatePaths": [
+      "enemies/unfaced-demon-court-batch-49/drafts/14-hollow-hem-surveyor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c589484858e4949b1c4c3569",
+    "sourcePath": "enemies/unfaced-demon-court-batch-49/drafts/17-orbit-collar-duelist.png",
+    "candidatePaths": [
+      "enemies/unfaced-demon-court-batch-49/drafts/17-orbit-collar-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_494bad552f17bc90667dcc39",
+    "sourcePath": "enemies/unfaced-demon-court-batch-49/drafts/19-split-cage-gaoler.png",
+    "candidatePaths": [
+      "enemies/unfaced-demon-court-batch-49/drafts/19-split-cage-gaoler-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7923ccecf8762992545ee6dc",
+    "sourcePath": "enemies/vampire-brides-batch-35/02-chalice-vow-cantor.png",
+    "candidatePaths": [
+      "enemies/vampire-brides-batch-35/02-chalice-vow-cantor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ef326e3b9c4d442d43adc276",
+    "sourcePath": "enemies/vampire-brides-batch-35/03-cord-bound-widow.png",
+    "candidatePaths": [
+      "enemies/vampire-brides-batch-35/03-cord-bound-widow-v02.png",
+      "enemies/vampire-brides-batch-35/03-cord-bound-widow-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b379795554fa2edbce466890",
+    "sourcePath": "enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/06-moon-salt-sabre-bride.png",
+    "candidatePaths": [
+      "enemies/vampire-brides-batch-35/rejected/duplicate-pose-pass/06-moon-salt-sabre-bride-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_474a6100db19ea3b6d02f461",
+    "sourcePath": "enemies/vampire-horse-knights-batch-31/drafts/01-blood-rein-lancer.png",
+    "candidatePaths": [
+      "enemies/vampire-horse-knights-batch-31/drafts/01-blood-rein-lancer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_93cd434740cd1ddc106c27b5",
+    "sourcePath": "enemies/vampire-horse-knights-batch-31/drafts/02-moon-bridle-duelist.png",
+    "candidatePaths": [
+      "enemies/vampire-horse-knights-batch-31/drafts/02-moon-bridle-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_936b2db2da7b46ece936c295",
+    "sourcePath": "enemies/vampire-knights-batch-37/drafts/12-split-fauld-thighguard.png",
+    "candidatePaths": [
+      "enemies/vampire-knights-batch-37/drafts/12-split-fauld-thighguard-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_34f278e1f97a8575b29835f2",
+    "sourcePath": "enemies/veiled-ember-coven-batch-24/drafts/01-ember-triad-veilseer.png",
+    "candidatePaths": [
+      "enemies/veiled-ember-coven-batch-24/drafts/01-ember-triad-veilseer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_284d14544a25b21236895509",
+    "sourcePath": "enemies/veiled-warrior-nuns-batch-35/drafts/03-pearl-longsword-canoness.png",
+    "candidatePaths": [
+      "enemies/veiled-warrior-nuns-batch-35/drafts/03-pearl-longsword-canoness-v02.png",
+      "enemies/veiled-warrior-nuns-batch-35/drafts/03-pearl-longsword-canoness-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-06.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_6f3d25845a141c78e13caeea",
+    "sourcePath": "enemies/veiled-warrior-nuns-batch-35/drafts/19-black-gold-billhook-canoness.png",
+    "candidatePaths": [
+      "enemies/veiled-warrior-nuns-batch-35/drafts/19-black-gold-billhook-canoness-v02.png",
+      "enemies/veiled-warrior-nuns-batch-35/drafts/19-black-gold-billhook-canoness-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5da1d1f9e7fb75e0d2a0df72",
+    "sourcePath": "enemies/veiled-warrior-nuns-batch-36/drafts/05-champagne-recurve-pilgrim.png",
+    "candidatePaths": [
+      "enemies/veiled-warrior-nuns-batch-36/drafts/05-champagne-recurve-pilgrim-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b0ef533a21df664654838096",
+    "sourcePath": "enemies/veiled-warrior-nuns-batch-36/drafts/08-cream-flanged-mace-sacristan.png",
+    "candidatePaths": [
+      "enemies/veiled-warrior-nuns-batch-36/drafts/08-cream-flanged-mace-sacristan-v02.png",
+      "enemies/veiled-warrior-nuns-batch-36/drafts/08-cream-flanged-mace-sacristan-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_4ea34db206fc4ed54e5983b6",
+    "sourcePath": "enemies/veiled-warrior-nuns-batch-37/drafts/04-ash-lilac-flanged-mace-penitent.png",
+    "candidatePaths": [
+      "enemies/veiled-warrior-nuns-batch-37/drafts/04-ash-lilac-flanged-mace-penitent-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_adcce7ece7764a4e439cea88",
+    "sourcePath": "enemies/veiled-warrior-nuns-batch-37/drafts/10-dove-black-battle-axe-witness.png",
+    "candidatePaths": [
+      "enemies/veiled-warrior-nuns-batch-37/drafts/10-dove-black-battle-axe-witness-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_6ecf94f7b4023416af651e16",
+    "sourcePath": "enemies/wealthy-demonic-vampires-batch-38/drafts/04-reliquary-dowager.png",
+    "candidatePaths": [
+      "enemies/wealthy-demonic-vampires-batch-38/drafts/04-reliquary-dowager-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3a772942133fac727eb7f7d0",
+    "sourcePath": "enemies/wealthy-spanish-vampire-wives-batch-46/drafts/02-velvet-rapier-condesa.png",
+    "candidatePaths": [
+      "enemies/wealthy-spanish-vampire-wives-batch-46/drafts/02-velvet-rapier-condesa-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7449c533bec40a0d679ecff2",
+    "sourcePath": "enemies/wealthy-spanish-vampire-wives-batch-46/drafts/03-mirrorless-marquesa.png",
+    "candidatePaths": [
+      "enemies/wealthy-spanish-vampire-wives-batch-46/drafts/03-mirrorless-marquesa-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_2aa9aecbeec8eb173bccec97",
+    "sourcePath": "enemies/wealthy-spanish-vampire-wives-batch-46/drafts/04-pinfire-vizcondesa.png",
+    "candidatePaths": [
+      "enemies/wealthy-spanish-vampire-wives-batch-46/drafts/04-pinfire-vizcondesa-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-05.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_29c8519497a87da72bd96905",
+    "sourcePath": "enemies/witch-hunters-batch-47/drafts/01-ash-road-bolo-pursuer.png",
+    "candidatePaths": [
+      "enemies/witch-hunters-batch-47/drafts/01-ash-road-bolo-pursuer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b753afd55984db051a3970fe",
+    "sourcePath": "enemies/witch-hunters-batch-47/drafts/02-capiz-lens-crossbow-examiner.png",
+    "candidatePaths": [
+      "enemies/witch-hunters-batch-47/drafts/02-capiz-lens-crossbow-examiner-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_4605c8a8164bf1a4df619324",
+    "sourcePath": "enemies/witch-hunters-batch-47/drafts/10-black-abaca-partisan-sentinel.png",
+    "candidatePaths": [
+      "enemies/witch-hunters-batch-47/drafts/10-black-abaca-partisan-sentinel-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_2d59f67fbf4dede4ec607bc9",
+    "sourcePath": "npcs/kings-royal-guards-v01/03-abaca-march-mace-retainer.png",
+    "candidatePaths": [
+      "npcs/kings-royal-guards-v01/03-abaca-march-mace-retainer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_481b02787224ddc9e87358c7",
+    "sourcePath": "npcs/kings-royal-guards-v01/drafts/06-salt-road-crown-guard.png",
+    "candidatePaths": [
+      "npcs/kings-royal-guards-v01/drafts/06-salt-road-crown-guard-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c0c5f8a87182e886e8ae38bf",
+    "sourcePath": "npcs/kings-royal-guards-v01/drafts/14-white-palm-crown-guard.png",
+    "candidatePaths": [
+      "npcs/kings-royal-guards-v01/drafts/14-white-palm-crown-guard-v02.png",
+      "npcs/kings-royal-guards-v01/drafts/14-white-palm-crown-guard-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c8e2c0a1894dc042a80a03fa",
+    "sourcePath": "npcs/kings-royal-guards-v01/drafts/15-blackglass-palace-halberd-marshal.png",
+    "candidatePaths": [
+      "npcs/kings-royal-guards-v01/drafts/15-blackglass-palace-halberd-marshal-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7460b03b24772989031114e2",
+    "sourcePath": "npcs/princesses-v01/drafts/03-genealogy-keeper.png",
+    "candidatePaths": [
+      "npcs/princesses-v01/drafts/03-genealogy-keeper-v02.png",
+      "npcs/princesses-v01/drafts/03-genealogy-keeper-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ea9b87a53c132981268884dc",
+    "sourcePath": "npcs/princesses-v01/drafts/05-exiled-key-bearer.png",
+    "candidatePaths": [
+      "npcs/princesses-v01/drafts/05-exiled-key-bearer-v02.png",
+      "npcs/princesses-v01/drafts/05-exiled-key-bearer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_e8d822fb9853e4a390940706",
+    "sourcePath": "npcs/sex-workers-v01/drafts/03-fan-veiled-courtesan.png",
+    "candidatePaths": [
+      "npcs/sex-workers-v01/drafts/03-fan-veiled-courtesan-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_79517a3ee2922fa098456dd6",
+    "sourcePath": "npcs/sex-workers-v01/drafts/15-long-pipe-companion.png",
+    "candidatePaths": [
+      "npcs/sex-workers-v01/drafts/15-long-pipe-companion-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9a878421623e46e2d8f16eb5",
+    "sourcePath": "npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden.png",
+    "candidatePaths": [
+      "npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_753e2e77240680836b560e8e",
+    "sourcePath": "npcs/sex-workers-v01/drafts/27-iron-bloom-mace-companion.png",
+    "candidatePaths": [
+      "npcs/sex-workers-v01/drafts/27-iron-bloom-mace-companion-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3c2ea5882f3c14a290c2358f",
+    "sourcePath": "npcs/sex-workers-v01/drafts/29-torn-mantilla-halberd-survivor.png",
+    "candidatePaths": [
+      "npcs/sex-workers-v01/drafts/29-torn-mantilla-halberd-survivor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9e3aa319a88727353c9007ff",
+    "sourcePath": "protagonist/beast-helm-orders-v07/drafts/04-iron-boar-spear-knight.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v07/drafts/04-iron-boar-spear-knight-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8c448bc2a7a223f17626c801",
+    "sourcePath": "protagonist/beast-helm-orders-v07/drafts/05-pale-owl-watcher.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v07/drafts/05-pale-owl-watcher-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_670a50573c07aa0ef919bb35",
+    "sourcePath": "protagonist/beast-helm-orders-v07/drafts/08-oxblood-bull-gatekeeper.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v07/drafts/08-oxblood-bull-gatekeeper-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_4bee18a49ff9468aa78fd321",
+    "sourcePath": "protagonist/beast-helm-orders-v08/drafts/06-pangolin-scale-mace-sentinel.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v08/drafts/06-pangolin-scale-mace-sentinel-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_683f18c2048385ae5ef51d33",
+    "sourcePath": "protagonist/beast-helm-orders-v08/drafts/11-elephant-fan-mace-anchor.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v08/drafts/11-elephant-fan-mace-anchor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7a41db481c90ab98fed83ebe",
+    "sourcePath": "protagonist/beast-helm-orders-v08/drafts/12-turtle-shell-halberd-keeper.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v08/drafts/12-turtle-shell-halberd-keeper-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_6e6fc69ec3eeb6bceeaf598d",
+    "sourcePath": "protagonist/beast-helm-orders-v08/drafts/19-manta-wing-axe-guardian.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v08/drafts/19-manta-wing-axe-guardian-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9815ad9e2eec6d03e437c253",
+    "sourcePath": "protagonist/beast-helm-orders-v08/drafts/20-octopus-crown-rapier-savant.png",
+    "candidatePaths": [
+      "protagonist/beast-helm-orders-v08/drafts/20-octopus-crown-rapier-savant-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c087fb1d2eafe5e29aa6537c",
+    "sourcePath": "protagonist/demon-knight-legions-v07/drafts/04-glass-tooth-duelist.png",
+    "candidatePaths": [
+      "protagonist/demon-knight-legions-v07/drafts/04-glass-tooth-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_16ac3d862fa02f77f8999aa5",
+    "sourcePath": "protagonist/demon-knight-legions-v07/drafts/09-furnace-choir-templar.png",
+    "candidatePaths": [
+      "protagonist/demon-knight-legions-v07/drafts/09-furnace-choir-templar-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5101eab6fd970257afabc4c2",
+    "sourcePath": "protagonist/demon-knight-legions-v07/drafts/10-velvet-sin-cavalier.png",
+    "candidatePaths": [
+      "protagonist/demon-knight-legions-v07/drafts/10-velvet-sin-cavalier-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-03.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_22773a14f48afc20aa939006",
+    "sourcePath": "protagonist/demon-knight-legions-v07/drafts/18-bone-lacquer-duelist.png",
+    "candidatePaths": [
+      "protagonist/demon-knight-legions-v07/drafts/18-bone-lacquer-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_187a938b031ee368be04fd90",
+    "sourcePath": "protagonist/elite-armored-vampire-slayers-batch-01/drafts/04-palm-lock-night-sentinel.png",
+    "candidatePaths": [
+      "protagonist/elite-armored-vampire-slayers-batch-01/drafts/04-palm-lock-night-sentinel-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_96574796f617e1b57e0ae30e",
+    "sourcePath": "protagonist/elite-armored-vampire-slayers-batch-01/drafts/06-sable-two-handed-sword-vindicator.png",
+    "candidatePaths": [
+      "protagonist/elite-armored-vampire-slayers-batch-01/drafts/06-sable-two-handed-sword-vindicator-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_1810eb45a5e3942b8c237af2",
+    "sourcePath": "protagonist/elite-armored-vampire-slayers-batch-01/drafts/07-silver-beak-war-hammer-marshal.png",
+    "candidatePaths": [
+      "protagonist/elite-armored-vampire-slayers-batch-01/drafts/07-silver-beak-war-hammer-marshal-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c883a9f20d0ad4eb2bf6acb0",
+    "sourcePath": "protagonist/elite-armored-vampire-slayers-batch-01/drafts/08-oxblood-ring-hilt-rapier-outrider.png",
+    "candidatePaths": [
+      "protagonist/elite-armored-vampire-slayers-batch-01/drafts/08-oxblood-ring-hilt-rapier-outrider-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_2e6358b143fe76d11d20e464",
+    "sourcePath": "protagonist/elite-demon-slayers-v01/drafts/02-oxblood-rapier-huntress.png",
+    "candidatePaths": [
+      "protagonist/elite-demon-slayers-v01/drafts/02-oxblood-rapier-huntress-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3f9cf6769f2f11fded7f548c",
+    "sourcePath": "protagonist/elite-demon-slayers-v01/drafts/03-ash-gate-halberd-sentinel.png",
+    "candidatePaths": [
+      "protagonist/elite-demon-slayers-v01/drafts/03-ash-gate-halberd-sentinel-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_2d72e20c2cce06975c8e3bb1",
+    "sourcePath": "protagonist/elite-demon-slayers-v01/drafts/05-quiet-needle-exorcist.png",
+    "candidatePaths": [
+      "protagonist/elite-demon-slayers-v01/drafts/05-quiet-needle-exorcist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3998ef3eb24edda41d3c9eef",
+    "sourcePath": "protagonist/evil-green-spectral-legion-v10/drafts/wave-01/01-last-muster-giant-boss.png",
+    "candidatePaths": [
+      "protagonist/evil-green-spectral-legion-v10/drafts/wave-01/01-last-muster-giant-boss-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_bb19da97ba9360c513518896",
+    "sourcePath": "protagonist/evil-green-spectral-legion-v10/drafts/wave-01/03-grave-poleaxe-captain.png",
+    "candidatePaths": [
+      "protagonist/evil-green-spectral-legion-v10/drafts/wave-01/03-grave-poleaxe-captain-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3647865e2a04d37c4bc69be3",
+    "sourcePath": "protagonist/holy-knight-realism-pass-v05/drafts/04-pierced-visor-templar.png",
+    "candidatePaths": [
+      "protagonist/holy-knight-realism-pass-v05/drafts/04-pierced-visor-templar-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_5ca03f03563917402c3c5449",
+    "sourcePath": "protagonist/horned-helmet-orders-v11/drafts/02-ibex-ridge-lancer.png",
+    "candidatePaths": [
+      "protagonist/horned-helmet-orders-v11/drafts/02-ibex-ridge-lancer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_062242e1ee5a1f8bd7f87ec8",
+    "sourcePath": "protagonist/horned-helmet-orders-v11/drafts/03-oxblood-bull-gatekeeper.png",
+    "candidatePaths": [
+      "protagonist/horned-helmet-orders-v11/drafts/03-oxblood-bull-gatekeeper-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9a4aaa2532571074e67ab903",
+    "sourcePath": "protagonist/horned-helmet-orders-v11/drafts/05-broken-horn-apostate.png",
+    "candidatePaths": [
+      "protagonist/horned-helmet-orders-v11/drafts/05-broken-horn-apostate-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8bf7dd2477e365aae04e6ad1",
+    "sourcePath": "protagonist/lost-orders-quintet-v10/drafts/02-funeral-cicada-bailiff.png",
+    "candidatePaths": [
+      "protagonist/lost-orders-quintet-v10/drafts/02-funeral-cicada-bailiff-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_03edab5faa271d4a61599a39",
+    "sourcePath": "protagonist/pale-knight-orders-v16/drafts/01-porcelain-vowkeeper.png",
+    "candidatePaths": [
+      "protagonist/pale-knight-orders-v16/drafts/01-porcelain-vowkeeper-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_f1d4ebd07c81e92a69e511a8",
+    "sourcePath": "protagonist/pale-knight-orders-v16/drafts/03-celadon-fold-duelist.png",
+    "candidatePaths": [
+      "protagonist/pale-knight-orders-v16/drafts/03-celadon-fold-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_bd247d6b6296286bda7c6b42",
+    "sourcePath": "protagonist/pale-knight-orders-v16/drafts/04-pearl-bell-castellan.png",
+    "candidatePaths": [
+      "protagonist/pale-knight-orders-v16/drafts/04-pearl-bell-castellan-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c5c1bab4d4705ce4c24fb079",
+    "sourcePath": "protagonist/pale-knight-orders-v16/drafts/05-rose-ash-procession-knight.png",
+    "candidatePaths": [
+      "protagonist/pale-knight-orders-v16/drafts/05-rose-ash-procession-knight-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_937a0c162fbcdac20972313e",
+    "sourcePath": "protagonist/profane-orders-v06/drafts/10-eclipse-castellan.png",
+    "candidatePaths": [
+      "protagonist/profane-orders-v06/drafts/10-eclipse-castellan-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b14cc719b42f0fe0b924e141",
+    "sourcePath": "protagonist/sacred-tribunal-canonesses-v13/drafts/01-mirror-veil-abbess.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-canonesses-v13/drafts/01-mirror-veil-abbess-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_859ee3c0f4abc2aa5176bbea",
+    "sourcePath": "protagonist/sacred-tribunal-canonesses-v13/drafts/03-six-window-auditor.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-canonesses-v13/drafts/03-six-window-auditor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c5a55f9968f543ce2183ecb8",
+    "sourcePath": "protagonist/sacred-tribunal-inquisitors-v17/drafts/01-ashen-greatsword-justiciar.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-inquisitors-v17/drafts/01-ashen-greatsword-justiciar-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_bc945f8ddc10af67cd69c34e",
+    "sourcePath": "protagonist/sacred-tribunal-inquisitors-v17/drafts/02-twin-catch-zweihander-prosecutor.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-inquisitors-v17/drafts/02-twin-catch-zweihander-prosecutor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8adc2c8133ace36660bc349f",
+    "sourcePath": "protagonist/sacred-tribunal-inquisitors-v17/drafts/05-bronze-star-morningstar-bailiff.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-inquisitors-v17/drafts/05-bronze-star-morningstar-bailiff-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_98148c916a97a25e64d38221",
+    "sourcePath": "protagonist/sacred-tribunal-v12/drafts/01-three-lancet-examiner.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-v12/drafts/01-three-lancet-examiner-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_b6dcd10b20bcbee290f0fb1f",
+    "sourcePath": "protagonist/sacred-tribunal-v12/drafts/02-split-mitre-judicator.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-v12/drafts/02-split-mitre-judicator-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_9dd4a85465df6cf4b7c64c93",
+    "sourcePath": "protagonist/sacred-tribunal-v12/drafts/03-chain-veil-questioner.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-v12/drafts/03-chain-veil-questioner-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c5889d306851863f53ce7903",
+    "sourcePath": "protagonist/sacred-tribunal-v12/drafts/04-lockplate-confessor.png",
+    "candidatePaths": [
+      "protagonist/sacred-tribunal-v12/drafts/04-lockplate-confessor-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_27fa52e86a62444802d6887f",
+    "sourcePath": "protagonist/skeleton-knight-legions-v08/drafts/03-black-iron-ossuary-knight.png",
+    "candidatePaths": [
+      "protagonist/skeleton-knight-legions-v08/drafts/03-black-iron-ossuary-knight-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_aec56cddbfea1d8101afd2f3",
+    "sourcePath": "protagonist/skeleton-knight-legions-v08/drafts/10-crowned-necropolis-marshal.png",
+    "candidatePaths": [
+      "protagonist/skeleton-knight-legions-v08/drafts/10-crowned-necropolis-marshal-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_7f78a34f11b077f141e5a48c",
+    "sourcePath": "protagonist/spectral-foot-soldiers-v09/drafts/02-river-dead-shieldman.png",
+    "candidatePaths": [
+      "protagonist/spectral-foot-soldiers-v09/drafts/02-river-dead-shieldman-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_c4c21d325e6fcf4406d83ed0",
+    "sourcePath": "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-pass/02-grave-shieldman.png",
+    "candidatePaths": [
+      "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-pass/02-grave-shieldman-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3d4bc754b03f851eae22e711",
+    "sourcePath": "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-pass/03-gallows-halberdier.png",
+    "candidatePaths": [
+      "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-pass/03-gallows-halberdier-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_62d271dca7fc21ae0461fc7d",
+    "sourcePath": "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-skulls-pass/01-evil-green-levy-spearman.png",
+    "candidatePaths": [
+      "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-skulls-pass/01-evil-green-levy-spearman-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_ce269966b35a8ebe2baf690a",
+    "sourcePath": "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-women-light-armor-pass/01-longstep-lancer.png",
+    "candidatePaths": [
+      "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-women-light-armor-pass/01-longstep-lancer-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_d77d91dca94d7b9c846bd2ad",
+    "sourcePath": "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-women-light-armor-pass/02-cruel-longsword-duelist.png",
+    "candidatePaths": [
+      "protagonist/spectral-foot-soldiers-v09/drafts/evil-green-women-light-armor-pass/02-cruel-longsword-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection-02.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_1db3eac5402ad1848f78f45c",
+    "sourcePath": "protagonist/unholy-cape-orders-v15/drafts/02-crescent-collar-castellan.png",
+    "candidatePaths": [
+      "protagonist/unholy-cape-orders-v15/drafts/02-crescent-collar-castellan-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3aecbcf1e7fd00132c6de28a",
+    "sourcePath": "protagonist/unholy-cape-orders-v15/drafts/03-chain-hem-bailiff.png",
+    "candidatePaths": [
+      "protagonist/unholy-cape-orders-v15/drafts/03-chain-hem-bailiff-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_10cd0ab7526d160c4e6dc9aa",
+    "sourcePath": "protagonist/unholy-cape-orders-v15/drafts/04-spiral-mantle-duelist.png",
+    "candidatePaths": [
+      "protagonist/unholy-cape-orders-v15/drafts/04-spiral-mantle-duelist-v02.png"
+    ],
+    "selectionFiles": [
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_13a828b278bc0175da0a9554",
+    "sourcePath": "protagonist/unholy-succubus-knights-v14/drafts/02-duskwing-lancer.png",
+    "candidatePaths": [
+      "protagonist/unholy-succubus-knights-v14/drafts/02-duskwing-lancer-v02.png",
+      "protagonist/unholy-succubus-knights-v14/drafts/02-duskwing-lancer-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_8fcdb3ef92168fdfbe257f53",
+    "sourcePath": "protagonist/unholy-succubus-knights-v14/drafts/05-ash-seraph-reaper.png",
+    "candidatePaths": [
+      "protagonist/unholy-succubus-knights-v14/drafts/05-ash-seraph-reaper-v02.png",
+      "protagonist/unholy-succubus-knights-v14/drafts/05-ash-seraph-reaper-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_0a2366cc4254f521d855693d",
+    "sourcePath": "protagonist/vampire-knight-courts-v08/drafts/07-gilded-coffin-paladin.png",
+    "candidatePaths": [
+      "protagonist/vampire-knight-courts-v08/drafts/07-gilded-coffin-paladin-v02.png",
+      "protagonist/vampire-knight-courts-v08/drafts/07-gilded-coffin-paladin-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_d2ddf0e7d23e375c4376cd34",
+    "sourcePath": "protagonist/vampire-knight-courts-v08/drafts/08-velvet-hound-cavalier.png",
+    "candidatePaths": [
+      "protagonist/vampire-knight-courts-v08/drafts/08-velvet-hound-cavalier-v02.png",
+      "protagonist/vampire-knight-courts-v08/drafts/08-velvet-hound-cavalier-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_af4112f9b88abb7635872f57",
+    "sourcePath": "protagonist/vampire-knight-courts-v08/drafts/10-blood-sun-prince.png",
+    "candidatePaths": [
+      "protagonist/vampire-knight-courts-v08/drafts/10-blood-sun-prince-v02.png",
+      "protagonist/vampire-knight-courts-v08/drafts/10-blood-sun-prince-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-07.json",
+      "selection.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_a8b39b788d580c36f93939d5",
+    "sourcePath": "protagonist/wild-covenant-v06/drafts/06-tidewatch-freeblade.png",
+    "candidatePaths": [
+      "protagonist/wild-covenant-v06/drafts/06-tidewatch-freeblade-v02.png",
+      "protagonist/wild-covenant-v06/drafts/06-tidewatch-freeblade-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_3cf7b500df7b72dff17b0c61",
+    "sourcePath": "protagonist/wild-covenant-v06/drafts/07-orchard-hook-knight.png",
+    "candidatePaths": [
+      "protagonist/wild-covenant-v06/drafts/07-orchard-hook-knight-v02.png",
+      "protagonist/wild-covenant-v06/drafts/07-orchard-hook-knight-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  },
+  {
+    "sourceRenderId": "rnd_1595ae78f6ecb3914d11a68d",
+    "sourcePath": "protagonist/wild-covenant-v06/drafts/08-storm-rook-cavalier.png",
+    "candidatePaths": [
+      "protagonist/wild-covenant-v06/drafts/08-storm-rook-cavalier-v02.png",
+      "protagonist/wild-covenant-v06/drafts/08-storm-rook-cavalier-v03.png"
+    ],
+    "selectionFiles": [
+      "selection-04.json"
+    ]
+  }
+]

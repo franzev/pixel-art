@@ -234,7 +234,11 @@ test("review loading leaves catalog synchronization on the server", async () => 
   assert.match(storeSource, /renderId:\s*item\.renderId/);
   assert.doesNotMatch(catalogRouteSource, /export async function POST/);
   assert.match(reviewRouteSource, /ensureCatalogSynced\(catalogItems\)/);
-  assert.match(reviewRouteSource, /catalogByRenderId\.get\(payload\.renderId\)/);
+  assert.match(
+    reviewRouteSource,
+    /reviewTargetsByRenderId\.get\(payload\.renderId\)/,
+  );
+  assert.match(reviewRouteSource, /ensureReviewTargetsSynced\(attemptItems/);
   assert.match(syncSource, /SELECT version FROM catalog_state/);
   assert.match(syncSource, /current\?\.version === version/);
 });

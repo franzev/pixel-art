@@ -80,6 +80,7 @@ export function useReviewStore(items: GalleryItem[]) {
   const outboxRef = useRef(new Map<string, PendingReview>());
   const flushingRef = useRef(false);
   const retryTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const loadRetryTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const mountedRef = useRef(true);
 
   const commitReviews = useCallback((next: ReviewMap) => {
@@ -174,6 +175,10 @@ export function useReviewStore(items: GalleryItem[]) {
           }
         }
         commitReviews(next);
+        if (loadRetryTimerRef.current) {
+          clearTimeout(loadRetryTimerRef.current);
+          loadRetryTimerRef.current = null;
+        }
         setSyncState(outboxRef.current.size ? "saving" : "saved");
         void flushOutbox();
       } catch {
@@ -181,15 +186,27 @@ export function useReviewStore(items: GalleryItem[]) {
         for (const pending of outboxRef.current.values()) {
           buffered[pending.review.renderId] = pending.review;
         }
-        commitReviews(buffered);
+        // Never replace already loaded reviews with an empty map because a
+        // refresh request failed. Pending local edits still win while the
+        // authoritative review history is temporarily unavailable.
+        commitReviews({ ...reviewsRef.current, ...buffered });
         setSyncState("offline");
         scheduleRetry(flushOutbox);
+        if (!loadRetryTimerRef.current) {
+          loadRetryTimerRef.current = setTimeout(() => {
+            loadRetryTimerRef.current = null;
+            void load();
+          }, 2_500);
+        }
       }
     };
 
     void load();
 
-    const retry = () => void flushOutbox();
+    const retry = () => {
+      void load();
+      void flushOutbox();
+    };
     window.addEventListener("online", retry);
     window.addEventListener("focus", retry);
 
@@ -198,6 +215,7 @@ export function useReviewStore(items: GalleryItem[]) {
       window.removeEventListener("online", retry);
       window.removeEventListener("focus", retry);
       if (retryTimerRef.current) clearTimeout(retryTimerRef.current);
+      if (loadRetryTimerRef.current) clearTimeout(loadRetryTimerRef.current);
     };
   }, [commitReviews, flushOutbox, items, scheduleRetry]);
 
@@ -251,6 +269,5 @@ export function useReviewStore(items: GalleryItem[]) {
     syncState,
     getReview,
     updateReview,
-    pendingCount: outboxRef.current.size,
   };
 }

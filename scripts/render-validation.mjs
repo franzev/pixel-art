@@ -3,8 +3,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
 
-export const RENDER_GATE_VERSION = 1;
-export const RENDER_PLAN_SCHEMA_VERSION = 1;
+export const RENDER_GATE_VERSION = 2;
+export const RENDER_PLAN_SCHEMA_VERSION = 2;
 export const CANONICAL_BACKGROUND = "#171311";
 const CANONICAL_BACKGROUND_RGB = { r: 0x17, g: 0x13, b: 0x11 };
 const GENERIC_EQUIPMENT_NAMES = new Set([
@@ -59,6 +59,7 @@ function addPlanCheck(checks, key, pass, detail) {
 export function validateRenderPlan(plan, { mode } = {}) {
   const checks = [];
   const planMode = plan?.asset?.mode;
+  const directionalSubject = plan?.asset?.directionalSubject;
 
   addPlanCheck(
     checks,
@@ -77,10 +78,73 @@ export function validateRenderPlan(plan, { mode } = {}) {
   );
   addPlanCheck(
     checks,
+    "asset.facingDirection",
+    directionalSubject === true
+      ? plan?.asset?.facingDirection === "screen-right"
+      : directionalSubject === false &&
+          plan?.asset?.facingDirection === "not-applicable" &&
+          isNonEmptyString(plan?.asset?.nonDirectionalReason),
+    "Every directional subject must face screen-right. A genuinely non-directional render must record facingDirection as not-applicable and explain why.",
+  );
+  if (plan?.asset?.humanoid === true) {
+    addPlanCheck(
+      checks,
+      "asset.humanoidFacing",
+      directionalSubject === true &&
+        plan?.asset?.facingDirection === "screen-right",
+      "Every humanoid must be a directional subject facing screen-right.",
+    );
+  }
+  addPlanCheck(
+    checks,
     "mode",
     !mode || planMode === mode,
     `Plan mode ${planMode ?? "(missing)"} must match requested mode ${mode ?? planMode}.`,
   );
+
+  const redo = plan?.redo;
+  if (redo?.isRedo === true) {
+    const sourcePath = String(redo.sourcePath ?? "").replaceAll("\\", "/");
+    const preservedKeys = [
+      "identity",
+      "faceVisibilityOrCovering",
+      "bodyProportions",
+      "silhouette",
+      "clothingConstruction",
+      "paletteAndMaterials",
+      "equipmentTypeAndConstruction",
+      "unaffectedPose",
+    ];
+    addPlanCheck(
+      checks,
+      "redo.source",
+      isNonEmptyString(sourcePath) &&
+        !path.posix.isAbsolute(sourcePath) &&
+        !sourcePath.startsWith("public/art/") &&
+        !sourcePath.split("/").includes("..") &&
+        sourcePath.toLocaleLowerCase().endsWith(".png") &&
+        /^rnd_[0-9a-f]{24}$/.test(String(redo.sourceRenderId ?? "")),
+      "A redo must bind to one Catalog-relative PNG source path and its content-based render ID.",
+    );
+    addPlanCheck(
+      checks,
+      "redo.scope",
+      Array.isArray(redo.authorizedChanges) &&
+        redo.authorizedChanges.length > 0 &&
+        redo.authorizedChanges.every(isNonEmptyString) &&
+        Array.isArray(redo.unauthorizedChanges) &&
+        redo.unauthorizedChanges.length === 0,
+      "A redo must list only its authorized corrections and record zero unauthorized changes.",
+    );
+    addPlanCheck(
+      checks,
+      "redo.preservation",
+      redo.sourceCandidateCompared === true &&
+        redo.minimalDeltaVerified === true &&
+        allTrue(redo.preserved, preservedKeys),
+      `A redo must pass a same-scale source comparison and preserve: ${preservedKeys.join(", ")}.`,
+    );
+  }
 
   const hardGates = plan?.hardGates;
   const requiredHardGates = [
@@ -91,6 +155,7 @@ export function validateRenderPlan(plan, { mode } = {}) {
     "safePadding",
   ];
   if (planMode === "isolated") requiredHardGates.push("uniformBackground");
+  if (directionalSubject === true) requiredHardGates.push("rightFacing");
   addPlanCheck(
     checks,
     "hardGates",
@@ -108,6 +173,9 @@ export function validateRenderPlan(plan, { mode } = {}) {
     "noCropping",
     "distinctFromComparables",
   ];
+  if (directionalSubject === true) {
+    requiredVisualReview.push("rightFacingVerified");
+  }
   addPlanCheck(
     checks,
     "visualReview",
@@ -293,6 +361,78 @@ export function validateRenderPlan(plan, { mode } = {}) {
   };
 }
 
+export async function validateRedoSourceFile(plan, { siteDir }) {
+  if (plan?.redo?.isRedo !== true) {
+    return {
+      pass: true,
+      checks: [
+        check(
+          "redo.source-file",
+          true,
+          "Not a redo; no source-file binding is required.",
+        ),
+      ],
+      errors: [],
+      sourceHash: null,
+      sourcePath: null,
+    };
+  }
+
+  const sourcePath = String(plan.redo.sourcePath ?? "").replaceAll("\\", "/");
+  const artDir = path.join(path.resolve(siteDir), "public", "art");
+  const absolute = path.resolve(artDir, sourcePath);
+  const relative = path.relative(artDir, absolute);
+  const safePath =
+    relative &&
+    !relative.startsWith("..") &&
+    !path.isAbsolute(relative) &&
+    absolute.toLocaleLowerCase().endsWith(".png");
+  if (!safePath) {
+    const detail = "Redo source must be a PNG inside public/art.";
+    return {
+      pass: false,
+      checks: [check("redo.source-file", false, detail)],
+      errors: [detail],
+      sourceHash: null,
+      sourcePath,
+    };
+  }
+
+  try {
+    const sourceHash = await sha256File(absolute);
+    const sourceRenderId = `rnd_${sourceHash.slice(0, 24)}`;
+    const expectedRenderId = String(plan.redo.sourceRenderId ?? "");
+    const checks = [
+      check(
+        "redo.source-file",
+        true,
+        `Bound to public/art/${sourcePath}.`,
+      ),
+      check(
+        "redo.source-render-id",
+        sourceRenderId === expectedRenderId,
+        `Expected ${expectedRenderId || "(missing)"}; resolved ${sourceRenderId}.`,
+      ),
+    ];
+    return {
+      pass: checks.every((item) => item.pass),
+      checks,
+      errors: checks.filter((item) => !item.pass).map((item) => item.detail),
+      sourceHash,
+      sourcePath,
+    };
+  } catch (error) {
+    const detail = `Could not read redo source public/art/${sourcePath}: ${error.message}`;
+    return {
+      pass: false,
+      checks: [check("redo.source-file", false, detail)],
+      errors: [detail],
+      sourceHash: null,
+      sourcePath,
+    };
+  }
+}
+
 function exactBackgroundPixel(data, index) {
   return (
     data[index] === CANONICAL_BACKGROUND_RGB.r &&
@@ -455,8 +595,13 @@ export async function writeRenderGateReceipt({
   plan,
   imageValidation,
   planValidation,
+  redoSourceValidation,
 }) {
-  if (!imageValidation?.pass || !planValidation?.pass) {
+  if (
+    !imageValidation?.pass ||
+    !planValidation?.pass ||
+    (plan?.redo?.isRedo === true && !redoSourceValidation?.pass)
+  ) {
     throw new Error("Cannot write a render-gate receipt for a failed render.");
   }
   const assetHash = await sha256File(imagePath);
@@ -470,6 +615,12 @@ export async function writeRenderGateReceipt({
     mode: plan.asset.mode,
     imageChecks: imageValidation.checks,
     imageMetrics: imageValidation.metrics,
+    ...(plan?.redo?.isRedo === true
+      ? {
+          redoSourceChecks: redoSourceValidation?.checks ?? [],
+          redoSourceHash: redoSourceValidation?.sourceHash ?? null,
+        }
+      : {}),
     plan,
   };
   const receiptDir = path.join(siteDir, "art-catalog", "render-gates");
@@ -526,6 +677,20 @@ export function validateRenderGateReceipt(
       "Receipt plan no longer satisfies the active render policy.",
     ),
   ];
+  if (receipt?.plan?.redo?.isRedo === true) {
+    checks.push(
+      check(
+        "receipt.redo-source",
+        Array.isArray(receipt.redoSourceChecks) &&
+          receipt.redoSourceChecks.length > 0 &&
+          receipt.redoSourceChecks.every((item) => item?.pass === true) &&
+          typeof receipt.redoSourceHash === "string" &&
+          `rnd_${receipt.redoSourceHash.slice(0, 24)}` ===
+            receipt.plan.redo.sourceRenderId,
+        "Redo receipt is not bound to the verified source render.",
+      ),
+    );
+  }
   return {
     pass: checks.every((item) => item.pass),
     checks,

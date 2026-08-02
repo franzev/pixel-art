@@ -1,5 +1,6 @@
 import type {
   ArtItem,
+  AttemptItem,
   DefectSeverity,
   RenderReview,
   ReviewDecision,
@@ -7,8 +8,12 @@ import type {
   ReviewTag,
   TagState,
 } from "../../review-types";
+import attemptIndex from "../../attempt-index.json";
 import artIndex from "../../art-index.json";
-import { ensureCatalogSynced } from "../../../db/catalog-sync";
+import {
+  ensureCatalogSynced,
+  ensureReviewTargetsSynced,
+} from "../../../db/catalog-sync";
 import { getRawDb } from "../../../db/runtime";
 
 const DECISIONS = new Set<ReviewDecision>([
@@ -23,8 +28,10 @@ const DEFECT_SEVERITIES = new Set<DefectSeverity>([
   "fatal",
 ]);
 const catalogItems = artIndex as ArtItem[];
-const catalogByRenderId = new Map(
-  catalogItems.map((item) => [item.renderId, item]),
+const attemptItems = attemptIndex as AttemptItem[];
+const reviewTargets = [...catalogItems, ...attemptItems] as ArtItem[];
+const reviewTargetsByRenderId = new Map(
+  reviewTargets.map((item) => [item.renderId, item]),
 );
 
 type ReviewRow = {
@@ -128,7 +135,18 @@ function validReview(value: unknown): value is RenderReview {
 
 export async function GET() {
   try {
-    await ensureCatalogSynced(catalogItems);
+    // Review history is authoritative and must remain readable even if a live
+    // catalog refresh catches an image while it is still being indexed.
+    try {
+      await ensureCatalogSynced(catalogItems);
+    } catch (error) {
+      console.error("Could not refresh catalog review targets:", error);
+    }
+    try {
+      await ensureReviewTargetsSynced(attemptItems as ArtItem[]);
+    } catch (error) {
+      console.error("Could not refresh generated-output review targets:", error);
+    }
     const db = await getRawDb();
     const [reviewResult, tagResult, defectResult] = await Promise.all([
       db.prepare("SELECT * FROM reviews").all<ReviewRow>(),
@@ -201,7 +219,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const item = catalogByRenderId.get(payload.renderId);
+    const item = reviewTargetsByRenderId.get(payload.renderId);
     const review = payload.review as RenderReview;
     if (!item || item.renderId !== review.renderId) {
       return Response.json(
@@ -211,6 +229,7 @@ export async function POST(request: Request) {
     }
 
     await ensureCatalogSynced(catalogItems);
+    await ensureReviewTargetsSynced(attemptItems as ArtItem[]);
     const db = await getRawDb();
     const timestamp = new Date().toISOString();
     const statements = [

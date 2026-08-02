@@ -15,6 +15,8 @@ import {
   copyFilterState,
   filterGalleryItems,
   filtersToSearchParams,
+  parseRatingFilter,
+  ratingFilterLabel,
   tagFilterOptions,
   tagValueFor,
 } from "../archive-filters";
@@ -72,7 +74,8 @@ export function useGalleryFilters(
     const pool = conditionedPools.decision;
     const counts = new Map<string, number>([["all", pool.length]]);
     for (const item of pool) {
-      const key = reviews[item.renderId]?.decision ?? "unreviewed";
+      const decision = reviews[item.renderId]?.decision;
+      const key = decision ?? "unreviewed";
       counts.set(key, (counts.get(key) ?? 0) + 1);
     }
     return counts;
@@ -184,7 +187,13 @@ export function useGalleryFilters(
   }, [raceCounts, raceOptions, raceQuery]);
 
   const filteredItems = useMemo(() => {
-    return filterGalleryItems(items, filters, favoriteIds, reviews, query);
+    return filterGalleryItems(
+      items,
+      filters,
+      favoriteIds,
+      reviews,
+      query,
+    );
   }, [favoriteIds, filters, items, query, reviews]);
 
   const hiddenRejectedCount = useMemo(
@@ -209,7 +218,13 @@ export function useGalleryFilters(
     };
     pick("lifecycle", ["active", "rejected", "all"]);
     pick("decision", ["all", "unreviewed", "keep", "reject", "delete"]);
-    pick("rating", ["all", "5", "4", "3", "2", "1", "unrated"]);
+    // A Redo decision can outlive the source's active lifecycle. Restore the
+    // complete browseable Redo set instead of silently hiding rejected sources.
+    if (next.decision === "reject") next.lifecycle = "all";
+    const rating = params.get("rating");
+    if (rating && parseRatingFilter(rating).mode !== "all") {
+      next.rating = rating;
+    }
     pick("favorite", ["all", "favorite"]);
     pick(
       "gender",
@@ -301,9 +316,7 @@ export function useGalleryFilters(
     ),
     ...singleValueToken(
       "rating",
-      `Rating: ${
-        filters.rating === "unrated" ? "Unrated" : `${filters.rating}★`
-      }`,
+      `Rating: ${ratingFilterLabel(filters.rating)}`,
     ),
     ...singleValueToken(
       "gender",
@@ -358,8 +371,7 @@ export function useGalleryFilters(
     }
     if (filters.rating !== "all") {
       candidates.push({
-        label:
-          filters.rating === "unrated" ? "UNRATED" : `${filters.rating}★`,
+        label: ratingFilterLabel(filters.rating).toUpperCase(),
         freed: countWith({ rating: "all" }),
         loosen: () => setFilterValue("rating", "all"),
       });

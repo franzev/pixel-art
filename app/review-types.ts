@@ -1,4 +1,4 @@
-export type ArtStatus = "retained" | "draft" | "rejected";
+export type ArtStatus = "retained" | "draft" | "rejected" | "unreviewed";
 
 export type SuggestedTag = {
   key: string;
@@ -21,6 +21,7 @@ export type ArtItem = {
   status: ArtStatus;
   width: number;
   height: number;
+  renderGateVersion?: number;
   suggestedTags: SuggestedTag[];
 };
 
@@ -49,6 +50,29 @@ export type GalleryCatalog = {
   tagDefinitions: SuggestedTag[];
 };
 
+export type AttemptItem = GalleryItem & {
+  assetHash: string;
+  path: string;
+  attempt: number;
+  concept: string;
+  series: string;
+  sourceKind: "archive" | "redo-staging";
+  sourcePath: string;
+  generatedAt: string;
+};
+
+export type AttemptCatalog = {
+  version: string;
+  items: AttemptItem[];
+};
+
+export type RedoCompletion = {
+  sourceRenderId: string;
+  sourcePath: string;
+  candidatePaths: string[];
+  selectionFiles: string[];
+};
+
 export type ReviewDecision = "keep" | "reject" | "delete";
 
 const LEGACY_DECISIONS: Record<string, ReviewDecision> = {
@@ -59,11 +83,23 @@ const LEGACY_DECISIONS: Record<string, ReviewDecision> = {
   duplicate: "reject",
 };
 
+const VALID_DECISIONS: ReadonlySet<ReviewDecision> = new Set([
+  "keep",
+  "reject",
+  "delete",
+]);
+
 export function normalizeDecision(
   value: string | null,
 ): ReviewDecision | null {
   if (!value) return null;
-  return LEGACY_DECISIONS[value] ?? (value as ReviewDecision);
+  const legacy = LEGACY_DECISIONS[value];
+  if (legacy) return legacy;
+  // Validate rather than trust: an unrecognized decision string reads as
+  // unreviewed instead of silently masquerading as a valid ReviewDecision.
+  return VALID_DECISIONS.has(value as ReviewDecision)
+    ? (value as ReviewDecision)
+    : null;
 }
 
 export type DefectSeverity = "minor" | "major" | "fatal";

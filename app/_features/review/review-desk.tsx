@@ -3,11 +3,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AutoHideScrollArea } from "../../_components/ui/auto-hide-scroll-area";
 import {
+  type AttemptItem,
   type GalleryItem,
   type RenderReview,
   type ReviewDecision,
   type ReviewDefect,
 } from "../../review-types";
+import type { CatalogOutcome } from "./catalog-outcome-control";
 import { ReviewCompleteState } from "./review-complete-state";
 import {
   DECISIONS,
@@ -17,7 +19,12 @@ import {
   type DefectOption,
 } from "./review-config";
 import { ReviewDeskHeader } from "./review-desk-header";
-import { defaultSeverity, mergeDrafts, nextSeverity } from "./review-model";
+import {
+  combinedFeedback,
+  defaultSeverity,
+  mergeDrafts,
+  nextSeverity,
+} from "./review-model";
 import { ReviewPanel } from "./review-panel";
 import { queueMatches, type ReviewQueue } from "./review-queue";
 import { ReviewStage } from "./review-stage";
@@ -32,28 +39,39 @@ export function ReviewDesk({
   store,
   initialRenderId,
   initialQueue = "unreviewed",
+  comparisonItemsByRenderId,
+  onPromoteCandidate,
   onClose,
 }: {
   items: GalleryItem[];
   store: ReviewStore;
   initialRenderId?: string;
   initialQueue?: ReviewQueue;
+  comparisonItemsByRenderId?: ReadonlyMap<string, GalleryItem>;
+  onPromoteCandidate?: (
+    candidate: AttemptItem,
+    placement: "variant" | "replace",
+  ) => Promise<void>;
   onClose: () => void;
 }) {
   const { reviews, syncState, getReview, updateReview } = store;
   const [queue, setQueue] = useState<ReviewQueue>(initialQueue);
   const [currentId, setCurrentId] = useState(initialRenderId ?? "");
   const [detailMode, setDetailMode] = useState(false);
-  const [zoomed, setZoomed] = useState(false);
+  const [catalogOutcomePending, setCatalogOutcomePending] =
+    useState<CatalogOutcome | null>(null);
+  const [catalogOutcomeError, setCatalogOutcomeError] = useState("");
   const [message, setMessage] = useState("");
-  const [noteDraft, setNoteDraft] = useState("");
-  const [correctionDraft, setCorrectionDraft] = useState("");
+  const [feedbackDraft, setFeedbackDraft] = useState("");
   const noteRef = useRef<HTMLTextAreaElement>(null);
   const undoRef = useRef<{ item: GalleryItem; review: RenderReview }[]>([]);
+  const redoRef = useRef<{ item: GalleryItem; review: RenderReview }[]>([]);
 
   const queueItems = useMemo(
     () =>
-      items.filter((item) => queueMatches(queue, item, reviews[item.renderId])),
+      items.filter((item) =>
+        queueMatches(queue, item, reviews[item.renderId]),
+      ),
     [items, queue, reviews],
   );
 
@@ -66,6 +84,12 @@ export function ReviewDesk({
     ? queueItems.findIndex((item) => item.renderId === current.renderId)
     : -1;
   const review = current ? getReview(current) : null;
+  const comparisonItem = current
+    ? comparisonItemsByRenderId?.get(current.renderId)
+    : undefined;
+  const comparisonReview = comparisonItem
+    ? reviews[comparisonItem.renderId]
+    : undefined;
 
   const queueCounts = useMemo(() => {
     const counts = {} as Record<ReviewQueue, number>;
@@ -83,9 +107,9 @@ export function ReviewDesk({
     setDetailMode(
       Boolean(review?.decision && DETAIL_DECISIONS.has(review.decision)),
     );
-    setNoteDraft(review?.note ?? "");
-    setCorrectionDraft(review?.correctionNote ?? "");
-    setZoomed(false);
+    setFeedbackDraft(combinedFeedback(review?.note, review?.correctionNote));
+    setCatalogOutcomePending(null);
+    setCatalogOutcomeError("");
     setMessage("");
   }, [current?.renderId]); // eslint-disable-line react-hooks/exhaustive-deps
   /* eslint-enable react-hooks/set-state-in-effect */
@@ -101,6 +125,7 @@ export function ReviewDesk({
         undoRef.current.push({ item, review: before });
         if (undoRef.current.length > 30) undoRef.current.shift();
       }
+      redoRef.current = [];
       return updateReview(item, change);
     },
     [getReview, updateReview],
@@ -108,18 +133,15 @@ export function ReviewDesk({
 
   const saveDrafts = useCallback(() => {
     if (!current || !review) return;
-    if (
-      noteDraft === review.note &&
-      correctionDraft === review.correctionNote
-    ) {
+    if (feedbackDraft === combinedFeedback(review.note, review.correctionNote)) {
       return;
     }
     applyReview(
       current,
-      (value) => mergeDrafts(value, noteDraft, correctionDraft),
+      (value) => mergeDrafts(value, feedbackDraft),
       false,
     );
-  }, [applyReview, correctionDraft, current, noteDraft, review]);
+  }, [applyReview, current, feedbackDraft, review]);
 
   const move = useCallback(
     (direction: -1 | 1) => {
@@ -143,9 +165,11 @@ export function ReviewDesk({
   const setRating = useCallback(
     (rating: number) => {
       if (!current) return;
-      const autoKeep = rating === 5;
+      const comparisonMode =
+        "sourceKind" in current && current.sourceKind === "redo-staging";
+      const autoKeep = rating === 5 && !comparisonMode;
       applyReview(current, (value) => ({
-        ...mergeDrafts(value, noteDraft, correctionDraft),
+        ...mergeDrafts(value, feedbackDraft),
         overallRating: rating,
         ...(autoKeep
           ? {
@@ -154,10 +178,16 @@ export function ReviewDesk({
             }
           : {}),
       }));
-      setMessage(autoKeep ? "5 / 5 · KEEP" : `${rating} / 5`);
+      setMessage(
+        autoKeep
+          ? "5 / 5 · KEEP"
+          : comparisonMode
+            ? `${rating} / 5 · CHOOSE CATALOG OUTCOME`
+            : `${rating} / 5`,
+      );
       if (autoKeep) advanceAfterReview();
     },
-    [advanceAfterReview, applyReview, correctionDraft, current, noteDraft],
+    [advanceAfterReview, applyReview, current, feedbackDraft],
   );
 
   const chooseDecision = useCallback(
@@ -172,9 +202,7 @@ export function ReviewDesk({
         (candidate) => candidate.value === decision,
       );
       applyReview(current, (value) => ({
-        ...(decision === "delete"
-          ? value
-          : mergeDrafts(value, noteDraft, correctionDraft)),
+        ...mergeDrafts(value, feedbackDraft),
         decision,
         deletionState: decision === "delete" ? "marked" : "none",
       }));
@@ -189,11 +217,79 @@ export function ReviewDesk({
     [
       advanceAfterReview,
       applyReview,
-      correctionDraft,
       current,
+      feedbackDraft,
       getReview,
-      noteDraft,
       review,
+    ],
+  );
+
+  const chooseCatalogOutcome = useCallback(
+    async (outcome: CatalogOutcome) => {
+      if (
+        !current ||
+        !("sourceKind" in current) ||
+        current.sourceKind !== "redo-staging" ||
+        catalogOutcomePending
+      ) {
+        return;
+      }
+      if (outcome === "original") {
+        chooseDecision("delete");
+        return;
+      }
+      if (outcome === "redo") {
+        chooseDecision("reject");
+        return;
+      }
+
+      const latestReview = getReview(current);
+      if (!latestReview.overallRating) {
+        setMessage("RATE 1–5 FIRST");
+        return;
+      }
+      if (!onPromoteCandidate) {
+        setCatalogOutcomeError("Catalog placement is unavailable.");
+        return;
+      }
+
+      setCatalogOutcomePending(outcome);
+      setCatalogOutcomeError("");
+      setMessage(outcome === "both" ? "ADDING CATALOG VARIANT" : "REPLACING ORIGINAL");
+      try {
+        await onPromoteCandidate(
+          current as AttemptItem,
+          outcome === "both" ? "variant" : "replace",
+        );
+        applyReview(current, (value) => ({
+          ...mergeDrafts(value, feedbackDraft),
+          decision: "keep",
+          deletionState: "none",
+        }));
+        setMessage(
+          outcome === "both"
+            ? "BOTH KEPT · VARIANT ADDED"
+            : "NEW KEPT · ORIGINAL ARCHIVED",
+        );
+        advanceAfterReview();
+      } catch (error) {
+        setCatalogOutcomeError(
+          error instanceof Error ? error.message : "Catalog placement failed.",
+        );
+        setMessage("CATALOG PLACEMENT FAILED");
+      } finally {
+        setCatalogOutcomePending(null);
+      }
+    },
+    [
+      advanceAfterReview,
+      applyReview,
+      catalogOutcomePending,
+      chooseDecision,
+      current,
+      feedbackDraft,
+      getReview,
+      onPromoteCandidate,
     ],
   );
 
@@ -205,7 +301,7 @@ export function ReviewDesk({
           (defect) => defect.key === option.key,
         );
         return {
-          ...mergeDrafts(value, noteDraft, correctionDraft),
+          ...mergeDrafts(value, feedbackDraft),
           defects: existing
             ? value.defects.filter((defect) => defect.key !== option.key)
             : [
@@ -219,7 +315,7 @@ export function ReviewDesk({
         };
       });
     },
-    [applyReview, correctionDraft, current, noteDraft, review],
+    [applyReview, current, feedbackDraft, review],
   );
 
   const cycleDefectSeverity = useCallback(
@@ -266,10 +362,26 @@ export function ReviewDesk({
       setMessage("NOTHING TO UNDO");
       return;
     }
+    redoRef.current.push({
+      item: previous.item,
+      review: getReview(previous.item),
+    });
     updateReview(previous.item, () => previous.review);
     setCurrentId(previous.item.renderId);
     setMessage("UNDONE");
-  }, [updateReview]);
+  }, [getReview, updateReview]);
+
+  const redo = useCallback(() => {
+    const next = redoRef.current.pop();
+    if (!next) {
+      setMessage("NOTHING TO REDO");
+      return;
+    }
+    undoRef.current.push({ item: next.item, review: getReview(next.item) });
+    updateReview(next.item, () => next.review);
+    setCurrentId(next.item.renderId);
+    setMessage("REDONE");
+  }, [getReview, updateReview]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -281,7 +393,13 @@ export function ReviewDesk({
 
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "z") {
         event.preventDefault();
-        undo();
+        if (event.shiftKey) redo();
+        else undo();
+        return;
+      }
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "y") {
+        event.preventDefault();
+        redo();
         return;
       }
 
@@ -315,11 +433,6 @@ export function ReviewDesk({
         move(1);
         return;
       }
-      if (event.key === " ") {
-        event.preventDefault();
-        setZoomed((value) => !value);
-        return;
-      }
       if (event.key === "Escape") {
         event.preventDefault();
         if (detailMode) setDetailMode(false);
@@ -348,6 +461,29 @@ export function ReviewDesk({
         return;
       }
 
+      if (
+        current &&
+        "sourceKind" in current &&
+        current.sourceKind === "redo-staging"
+      ) {
+        const key = event.key.toLowerCase();
+        const outcome: CatalogOutcome | undefined =
+          key === "o"
+            ? "original"
+            : key === "b"
+              ? "both"
+              : key === "n"
+                ? "new"
+                : key === "r"
+                  ? "redo"
+                  : undefined;
+        if (outcome) {
+          event.preventDefault();
+          void chooseCatalogOutcome(outcome);
+        }
+        return;
+      }
+
       const decision = DECISIONS.find(
         (option) => option.shortcut.toLowerCase() === event.key.toLowerCase(),
       );
@@ -361,10 +497,13 @@ export function ReviewDesk({
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [
     chooseDecision,
+    chooseCatalogOutcome,
+    current,
     detailMode,
     finishDetail,
     move,
     onClose,
+    redo,
     setRating,
     toggleDefect,
     undo,
@@ -403,8 +542,11 @@ export function ReviewDesk({
       >
         <ReviewStage
           current={current}
-          zoomed={zoomed}
-          onToggleZoom={() => setZoomed((value) => !value)}
+          original={comparisonItem}
+          compareWithCatalog={"sourceKind" in current}
+          catalogOutcomeMode={
+            "sourceKind" in current && current.sourceKind === "redo-staging"
+          }
           onPrevious={() => move(-1)}
           onNext={() => move(1)}
           message={message}
@@ -413,15 +555,23 @@ export function ReviewDesk({
         <ReviewPanel
           review={review}
           detailMode={detailMode}
+          comparisonMode={
+            "sourceKind" in current && current.sourceKind === "redo-staging"
+          }
+          originalName={comparisonItem?.name}
+          originalReview={comparisonReview}
+          catalogOutcomePending={catalogOutcomePending}
+          catalogOutcomeError={catalogOutcomeError}
           onSetRating={setRating}
           onChooseDecision={chooseDecision}
+          onChooseCatalogOutcome={(outcome) => {
+            void chooseCatalogOutcome(outcome);
+          }}
           onCycleTag={cycleTag}
           onToggleDefect={toggleDefect}
           onCycleDefectSeverity={cycleDefectSeverity}
-          noteDraft={noteDraft}
-          onNoteDraftChange={setNoteDraft}
-          correctionDraft={correctionDraft}
-          onCorrectionDraftChange={setCorrectionDraft}
+          feedbackDraft={feedbackDraft}
+          onFeedbackDraftChange={setFeedbackDraft}
           onSaveDrafts={saveDrafts}
           noteRef={noteRef}
           onFinishDetail={finishDetail}

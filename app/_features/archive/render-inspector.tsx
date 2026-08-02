@@ -1,6 +1,7 @@
 "use client";
 
 import type { GalleryItem, RenderReview } from "../../review-types";
+import { combinedFeedback } from "../review/review-model";
 import { CATEGORY_LABELS, DECISION_LABELS } from "./archive-config";
 import { PreviewImage } from "./grid/preview-image";
 
@@ -33,6 +34,8 @@ export function RenderInspector({
       </div>
     );
   }
+
+  const reviewNotes = combinedFeedback(review?.note, review?.correctionNote);
 
   return (
     <div
@@ -120,20 +123,12 @@ export function RenderInspector({
         </div>
       </dl>
 
-      {review?.note || review?.correctionNote ? (
+      {reviewNotes ? (
         <div className="inspector-feedback">
-          {review.note ? (
-            <div>
-              <span>FEEDBACK</span>
-              <p>{review.note}</p>
-            </div>
-          ) : null}
-          {review.correctionNote ? (
-            <div>
-              <span>NEXT ATTEMPT</span>
-              <p>{review.correctionNote}</p>
-            </div>
-          ) : null}
+          <div>
+            <span>REVIEW NOTES</span>
+            <p>{reviewNotes}</p>
+          </div>
         </div>
       ) : null}
 

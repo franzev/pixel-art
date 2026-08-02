@@ -3,8 +3,12 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const indexUrl = new URL("../app/art-index.json", import.meta.url);
+const feedbackUrl = new URL(
+  "../art-catalog/render-feedback.jsonl",
+  import.meta.url,
+);
 
-const activeRedoSlots = [
+const trackedRedoSlots = [
   ["blood-demon-knights-batch-37", "01-blood-needle-duelist"],
   ["blood-demon-knights-batch-37", "02-vein-hook-arrestor"],
   ["blood-demon-knights-batch-37", "03-clot-sigil-bastion"],
@@ -17,8 +21,20 @@ const activeRedoSlots = [
 
 test("tracked redo slots expose one canonical catalog render", async () => {
   const items = JSON.parse(await readFile(indexUrl, "utf8"));
+  const deletedPaths = new Set(
+    (await readFile(feedbackUrl, "utf8"))
+      .split("\n")
+      .filter(Boolean)
+      .map((line) => JSON.parse(line))
+      .filter(
+        (record) =>
+          record.decision === "delete" &&
+          record.deletionState === "marked",
+      )
+      .map((record) => record.path),
+  );
 
-  for (const [collection, concept] of activeRedoSlots) {
+  for (const [collection, concept] of trackedRedoSlots) {
     const siblingPattern = new RegExp(
       `^${concept.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?:-v\\d+)?\\.png$`,
       "i",
@@ -28,11 +44,11 @@ test("tracked redo slots expose one canonical catalog render", async () => {
         item.path.startsWith(`enemies/${collection}/drafts/`) &&
         siblingPattern.test(item.filename),
     );
-    assert.equal(
-      siblings.length,
-      1,
-      `${collection}/${concept} should have one active catalog render`,
-    );
-    assert.equal(siblings[0].filename, `${concept}.png`);
+    const canonicalPath = `enemies/${collection}/drafts/${concept}.png`;
+    const expectedCount = deletedPaths.has(canonicalPath) ? 0 : 1;
+    assert.equal(siblings.length, expectedCount);
+    if (expectedCount === 1) {
+      assert.equal(siblings[0].filename, `${concept}.png`);
+    }
   }
 });

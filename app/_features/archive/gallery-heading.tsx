@@ -1,6 +1,8 @@
 "use client";
 
 export function GalleryHeading({
+  eyebrow = "CONTACT SHEET",
+  noun = "RENDERS",
   filteredCount,
   totalCount,
   hiddenRejectedCount,
@@ -8,6 +10,8 @@ export function GalleryHeading({
   query,
   onClear,
 }: {
+  eyebrow?: string;
+  noun?: string;
   filteredCount: number;
   totalCount: number;
   hiddenRejectedCount: number;
@@ -18,9 +22,9 @@ export function GalleryHeading({
   return (
     <div className="gallery-heading">
       <div>
-        <span className="eyebrow">CONTACT SHEET</span>
+        <span className="eyebrow">{eyebrow}</span>
         <p>
-          {filteredCount} OF {totalCount} RENDERS
+          {filteredCount} OF {totalCount} {noun}
           {hiddenRejectedCount ? (
             <span className="heading-note">
               {" "}
@@ -30,7 +34,7 @@ export function GalleryHeading({
         </p>
       </div>
       <p className="sr-only" role="status">
-        Showing {filteredCount} of {totalCount} renders
+        Showing {filteredCount} of {totalCount} {noun.toLocaleLowerCase()}
       </p>
       {hasFilters || query.trim() ? (
         <button type="button" onClick={onClear}>

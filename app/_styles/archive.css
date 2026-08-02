@@ -114,6 +114,55 @@
   border-left: 1px solid var(--rule);
 }
 
+.archive-view-switch {
+  display: flex;
+  align-items: stretch;
+  border-right: 1px solid var(--rule);
+}
+
+.archive-view-switch button {
+  display: grid;
+  min-width: 74px;
+  min-height: 44px;
+  place-content: center;
+  gap: 3px;
+  padding: 0 9px;
+  border: 0;
+  border-right: 1px solid var(--rule-faint);
+  background: transparent;
+  color: var(--bone-faint);
+  text-align: center;
+}
+
+.archive-view-switch button:last-child {
+  border-right: 0;
+}
+
+.archive-view-switch button:hover {
+  background: var(--coal-raised);
+  color: var(--bone);
+}
+
+.archive-view-switch button.is-active {
+  background: oklch(23% 0.025 24);
+  color: var(--bone);
+  box-shadow: inset 0 -2px 0 var(--crimson);
+}
+
+.archive-view-switch span {
+  font-size: 0.59rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+
+.archive-view-switch strong {
+  color: var(--bone-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.58rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
 .utility-action,
 .grid-control {
   min-height: 44px;
@@ -276,6 +325,139 @@
   text-transform: uppercase;
 }
 
+.review-work-overview {
+  margin: calc(var(--space-sm) * -1) 0 var(--space-lg);
+  border: 1px solid var(--rule-faint);
+  background: var(--coal-deep);
+}
+
+.review-work-overview > header {
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding: 0 var(--space-sm);
+  border-bottom: 1px solid var(--rule-faint);
+}
+
+.review-work-overview h4 {
+  margin: 0;
+  color: var(--bone);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.review-work-overview > header > span {
+  color: var(--bone-faint);
+  font-size: 0.58rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.review-work-list {
+  display: grid;
+}
+
+.review-work-list button {
+  display: grid;
+  min-height: 68px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  border: 0;
+  border-bottom: 1px solid var(--rule-faint);
+  background: transparent;
+  color: var(--bone-muted);
+  text-align: left;
+}
+
+.review-work-list button:hover {
+  background: var(--coal-raised);
+  color: var(--bone);
+}
+
+.review-work-list button:focus-visible {
+  position: relative;
+  z-index: 1;
+  box-shadow: var(--focus-ring);
+}
+
+.review-work-copy,
+.review-work-count {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.review-work-copy strong {
+  color: var(--bone);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.review-work-copy small,
+.review-work-count small {
+  overflow: hidden;
+  color: var(--bone-faint);
+  font-size: 0.58rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.review-work-count {
+  justify-items: end;
+  text-align: right;
+}
+
+.review-work-count strong {
+  color: var(--bone);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+}
+
+.review-work-count.is-actionable strong {
+  color: var(--crimson-text);
+}
+
+.review-ledger-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  background: var(--rule-faint);
+}
+
+.review-ledger-summary > div {
+  min-width: 0;
+  padding: var(--space-sm);
+  background: var(--coal-deep);
+}
+
+.review-ledger-summary dt {
+  overflow: hidden;
+  color: var(--bone-faint);
+  font-size: 0.54rem;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.review-ledger-summary dd {
+  margin: 3px 0 0;
+  color: var(--bone-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
 .filter-group {
   min-inline-size: 0;
   margin: 0;
@@ -285,6 +467,36 @@
 
 .filter-group + .filter-group {
   margin-top: var(--space-lg);
+}
+
+.rating-filter-mode {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  color: var(--bone-faint);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.rating-filter-mode select {
+  min-height: 34px;
+  min-width: 0;
+  padding: 0 8px;
+  border: 1px solid var(--rule);
+  background: var(--coal-deep);
+  color: var(--bone-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.rating-filter-mode select:hover {
+  border-color: var(--rule-strong);
+  color: var(--bone);
 }
 
 .filter-group h3,
@@ -534,6 +746,112 @@
   background: var(--coal);
 }
 
+.attempt-toolbar {
+  display: flex;
+  min-height: 52px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: 7px var(--space-md);
+  border-bottom: 1px solid var(--rule);
+  background: var(--coal);
+}
+
+.attempt-toolbar p {
+  margin: 2px 0 0;
+  color: var(--bone-muted);
+  font-size: 0.7rem;
+}
+
+.attempt-source-filter {
+  display: flex;
+  flex: 0 0 auto;
+  border: 1px solid var(--rule);
+}
+
+.attempt-source-filter button {
+  min-height: 32px;
+  padding: 0 10px;
+  border: 0;
+  border-right: 1px solid var(--rule);
+  background: transparent;
+  color: var(--bone-muted);
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+.attempt-source-filter button:last-child {
+  border-right: 0;
+}
+
+.attempt-source-filter button:hover,
+.attempt-source-filter button.is-active {
+  background: var(--coal-raised);
+  color: var(--bone);
+}
+
+.attempt-source-filter button.is-active {
+  box-shadow: inset 0 -2px 0 var(--crimson);
+}
+
+.attempt-source-filter strong {
+  margin-left: 4px;
+  color: var(--bone-faint);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.attempt-toolbar dl {
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--space-lg);
+  margin: 0;
+}
+
+.attempt-toolbar dl div {
+  text-align: right;
+}
+
+.attempt-toolbar dt {
+  color: var(--bone-faint);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.attempt-toolbar dd {
+  margin: 1px 0 0;
+  color: var(--bone);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.attempt-review-action {
+  min-height: 34px;
+  flex: 0 0 auto;
+  padding: 0 12px;
+  border: 1px solid var(--crimson);
+  background: var(--crimson-deep);
+  color: var(--bone);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.attempt-review-action:hover:not(:disabled) {
+  border-color: var(--crimson-text);
+  background: var(--crimson);
+}
+
+.attempt-review-action:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
 .quick-filter-scroll {
   display: flex;
   min-width: 0;
@@ -561,6 +879,14 @@
   font-weight: 750;
   letter-spacing: 0.08em;
   white-space: nowrap;
+}
+
+.quick-filter strong {
+  margin-left: 5px;
+  color: var(--bone-faint);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.66rem;
+  font-variant-numeric: tabular-nums;
 }
 
 .quick-filter:hover,
@@ -1051,6 +1377,133 @@
   white-space: pre-wrap;
 }
 
+.attempt-provenance {
+  margin: var(--space-md) var(--space-md) 0;
+  padding: 10px;
+  border: 1px solid var(--rule);
+  background: var(--coal-deep);
+}
+
+.attempt-provenance span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--bone-faint);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.attempt-provenance p {
+  margin: 0;
+  color: var(--bone-muted);
+  font-size: 0.7rem;
+  line-height: 1.45;
+}
+
+.candidate-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: var(--space-md);
+}
+
+.candidate-comparison figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.candidate-comparison figcaption {
+  margin-bottom: 5px;
+  color: var(--bone-faint);
+  font-size: 0.53rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.candidate-comparison-art,
+.candidate-comparison-empty {
+  display: grid;
+  overflow: hidden;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid var(--rule);
+  background: var(--coal-deep);
+}
+
+.candidate-comparison-art {
+  /* PreviewImage uses Next's `fill` layout, so this frame must own the
+     image's absolute positioning instead of letting it escape into the
+     inspector panel. */
+  position: relative;
+}
+
+.candidate-comparison-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.candidate-comparison-empty {
+  padding: 10px;
+  color: var(--bone-faint);
+  font-size: 0.56rem;
+  text-align: center;
+}
+
+.candidate-actions {
+  display: grid;
+  gap: 7px;
+  padding: var(--space-md);
+}
+
+.candidate-placement-actions {
+  display: grid;
+  gap: 7px;
+}
+
+.candidate-actions button {
+  min-height: 40px;
+  border: 1px solid var(--rule);
+  background: var(--coal-raised);
+  color: var(--bone-muted);
+  font-size: 0.61rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+.candidate-actions .candidate-primary-action {
+  border-color: var(--crimson);
+  background: var(--crimson-deep);
+  color: var(--bone);
+}
+
+.candidate-replace-action {
+  border-color: var(--rule-strong) !important;
+  background: transparent !important;
+  color: var(--bone-muted) !important;
+}
+
+.candidate-replace-action:hover:not(:disabled) {
+  border-color: var(--crimson) !important;
+  color: var(--bone) !important;
+}
+
+.candidate-action-note,
+.candidate-action-error {
+  margin: -0.35rem var(--space-md) 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
+.candidate-action-note {
+  color: var(--bone-faint);
+}
+
+.candidate-action-error {
+  color: #ff918e;
+}
+
 .inspector-review-action {
   padding: var(--space-md) var(--space-md) 0;
 }
@@ -1170,4 +1623,3 @@
 .mobile-viewer .inspector-art {
   max-height: 60vh;
 }
-

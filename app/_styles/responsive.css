@@ -97,6 +97,21 @@
     min-height: 72dvh;
   }
 
+  .review-catalog-comparison {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    aspect-ratio: auto;
+  }
+
+  .review-comparison-item {
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: var(--comparison-aspect);
+  }
+
   .review-panel {
     border-top: 1px solid var(--rule);
     border-left: 0;
@@ -142,6 +157,38 @@
   }
 
   .grid-control {
+    display: none;
+  }
+
+  .archive-view-switch button {
+    min-width: 68px;
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
+  .attempt-toolbar {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .attempt-toolbar > div:first-child {
+    display: none;
+  }
+
+  .attempt-toolbar p {
+    display: none;
+  }
+
+  .attempt-toolbar dl {
+    gap: 10px;
+  }
+
+  .attempt-source-filter button {
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
+  .attempt-toolbar dl {
     display: none;
   }
 

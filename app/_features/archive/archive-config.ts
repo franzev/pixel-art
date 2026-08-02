@@ -7,6 +7,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   angels: "Angels",
   protagonist: "Protagonist",
   environments: "Environments",
+  npcs: "NPCs",
 };
 
 export const DECISION_LABELS: Record<ReviewDecision, string> = {
@@ -34,11 +35,11 @@ export const GRID_PREVIEW_SIZES =
   "(max-width: 720px) 42vw, (max-width: 1100px) 25vw, 220px";
 
 export const DECISION_FILTER_OPTIONS = [
-  { value: "all", label: "All decisions" },
-  { value: "unreviewed", label: "Unreviewed" },
-  { value: "keep", label: "Keep" },
-  { value: "reject", label: "Redo" },
-  { value: "delete", label: "Delete queue" },
+  { value: "all", label: "Current catalog" },
+  { value: "unreviewed", label: "Candidates to review" },
+  { value: "keep", label: "Kept" },
+  { value: "reject", label: "Redo originals" },
+  { value: "delete", label: "Marked for delete" },
 ];
 
 export const LIFECYCLE_FILTER_OPTIONS = [

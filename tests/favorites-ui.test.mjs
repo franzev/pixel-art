@@ -41,7 +41,7 @@ test("favorites can be toggled with F and filtered", async () => {
   );
 
   assert.match(gallery, /event\.key\.toLocaleLowerCase\(\) === "f"/);
-  assert.match(gallery, /!reviewOpen && selected/);
+  assert.match(gallery, /!reviewOpen && view === "catalog" && selected/);
   assert.match(archiveFilters, /filters\.favorite === "favorite"/);
   assert.match(filterDrawer, /label="Favorites"/);
 });

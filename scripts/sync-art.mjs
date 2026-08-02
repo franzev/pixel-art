@@ -2,6 +2,11 @@ import { readFile, readdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  RENDER_GATE_VERSION,
+  requireRenderGateReceipt,
+} from "./render-validation.mjs";
+import { syncAttempts } from "./sync-attempts.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 export const siteDir = path.resolve(scriptDir, "..");
@@ -15,6 +20,9 @@ const categoryLabels = new Set([
   "environments",
   "npcs",
 ]);
+const collectionLabels = {
+  "sex-workers-v01": "Courtesans",
+};
 
 async function walk(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -94,7 +102,7 @@ function validateArtPath(parts, normalizedPath) {
 }
 
 function collectionName(parts) {
-  const label = humanize(parts[1]);
+  const label = collectionLabels[parts[1]] ?? humanize(parts[1]);
   return parts.includes("rejected") ? `${label} · Rejected` : label;
 }
 
@@ -530,7 +538,7 @@ function suggestedTags({
       confidence: 1,
     },
     {
-      key: `collection:${slugify(collection.replace(/ · Rejected$/, ""))}`,
+      key: `collection:${slugify(collectionKey.replace(/-v\d+$/i, ""))}`,
       label: collection.replace(/ · Rejected$/, ""),
       group: "collection",
       source: "path",
@@ -590,7 +598,23 @@ const CATEGORY_LABELS = {
   npcs: "NPC",
 };
 
+export function shouldRequireRenderGate(previous, currentAssetHash) {
+  return (
+    previous?.assetHash !== currentAssetHash ||
+    previous?.renderGateVersion !== undefined
+  );
+}
+
 export async function syncArt() {
+  let previousAssets = [];
+  try {
+    previousAssets = JSON.parse(await readFile(outputIndex, "utf8"));
+  } catch (error) {
+    if (error?.code !== "ENOENT") throw error;
+  }
+  const previousByPath = new Map(
+    previousAssets.map((asset) => [asset.path, asset]),
+  );
   const allFiles = await walk(artDir);
   const selectedFiles = allFiles
     .map((absolute) => ({
@@ -625,6 +649,20 @@ export async function syncArt() {
     const filename = parts.at(-1);
     const collection = collectionName(parts);
     const status = deriveStatus(normalized);
+    const previous = previousByPath.get(normalized);
+    const requiresRenderGate = shouldRequireRenderGate(
+      previous,
+      metadata.assetHash,
+    );
+    let renderGateVersion;
+    if (requiresRenderGate) {
+      await requireRenderGateReceipt({
+        siteDir,
+        assetHash: metadata.assetHash,
+        destination: normalized,
+      });
+      renderGateVersion = RENDER_GATE_VERSION;
+    }
 
     assets.push({
       id: normalized,
@@ -639,6 +677,7 @@ export async function syncArt() {
       status,
       width: metadata.width,
       height: metadata.height,
+      ...(renderGateVersion ? { renderGateVersion } : {}),
       suggestedTags: suggestedTags({
         category,
         collection,
@@ -681,4 +720,5 @@ export async function syncArt() {
 const invokedPath = process.argv[1] ? path.resolve(process.argv[1]) : "";
 if (invokedPath === fileURLToPath(import.meta.url)) {
   await syncArt();
+  await syncAttempts();
 }

@@ -2,46 +2,40 @@
 
 import type { RefObject } from "react";
 import { AutoHideScrollArea } from "../../_components/ui/auto-hide-scroll-area";
-import type { GalleryItem, RenderReview } from "../../review-types";
-import { RenderInspector } from "./render-inspector";
+import type { AttemptItem, RenderReview } from "../../review-types";
+import { AttemptInspector } from "./attempt-inspector";
 
-export function MobileRenderViewer({
+export function MobileAttemptViewer({
   viewerRef,
   item,
-  review,
-  isFavorite,
   onPrevious,
   onNext,
-  onToggleFavorite,
-  onEdit,
+  review,
+  onReview,
   onClose,
 }: {
   viewerRef: RefObject<HTMLDialogElement | null>;
-  item?: GalleryItem;
-  review?: RenderReview;
-  isFavorite: boolean;
+  item?: AttemptItem;
   onPrevious: () => void;
   onNext: () => void;
-  onToggleFavorite?: () => void;
-  onEdit?: () => void;
+  review?: RenderReview;
+  onReview?: () => void;
   onClose: () => void;
 }) {
   return (
     <dialog
       className="mobile-viewer"
       ref={viewerRef as RefObject<HTMLDialogElement>}
-      aria-label="Render viewer"
+      aria-label="Attempt viewer"
     >
       <AutoHideScrollArea className="mobile-viewer-scroll">
-        <RenderInspector
+        <AttemptInspector
           compact
           item={item}
-          review={review}
-          isFavorite={isFavorite}
           onPrevious={onPrevious}
           onNext={onNext}
-          onToggleFavorite={onToggleFavorite}
-          onEdit={onEdit}
+          review={review}
+          onReview={onReview}
           onClose={onClose}
         />
       </AutoHideScrollArea>

@@ -10,6 +10,8 @@ const BATCH_SIZE = 80;
 
 let synchronizedVersion: string | undefined;
 let synchronization: Promise<void> | undefined;
+let synchronizedReviewTargetVersion: string | undefined;
+let reviewTargetSynchronization: Promise<void> | undefined;
 
 async function synchronizeCatalog(items: ArtItem[], version: string) {
   await ensureReviewSchema();
@@ -61,4 +63,35 @@ export function ensureCatalogSynced(items: ArtItem[]): Promise<void> {
   }
 
   return synchronization;
+}
+
+async function synchronizeReviewTargets(items: ArtItem[], version: string) {
+  await ensureReviewSchema();
+  const db = await getRawDb();
+  const timestamp = new Date().toISOString();
+
+  for (let index = 0; index < items.length; index += BATCH_SIZE) {
+    const chunk = items.slice(index, index + BATCH_SIZE);
+    await db.batch(
+      chunk.flatMap((item) => [
+        prepareCatalogPathRelease(db, item),
+        prepareCatalogUpsert(db, item, timestamp),
+      ]),
+    );
+  }
+  synchronizedReviewTargetVersion = version;
+}
+
+export function ensureReviewTargetsSynced(items: ArtItem[]): Promise<void> {
+  const version = catalogVersion(items);
+  if (synchronizedReviewTargetVersion === version) return Promise.resolve();
+
+  if (!reviewTargetSynchronization) {
+    reviewTargetSynchronization = synchronizeReviewTargets(items, version).finally(
+      () => {
+        reviewTargetSynchronization = undefined;
+      },
+    );
+  }
+  return reviewTargetSynchronization;
 }

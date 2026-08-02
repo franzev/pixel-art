@@ -13,12 +13,22 @@ export function nextSeverity(value: DefectSeverity): DefectSeverity {
 
 export function mergeDrafts(
   review: RenderReview,
-  note: string,
-  correctionNote: string,
+  feedback: string,
 ) {
   return {
     ...review,
-    note,
-    correctionNote,
+    note: feedback,
+    correctionNote: "",
   };
+}
+
+export function combinedFeedback(
+  note: string | null | undefined,
+  correctionNote: string | null | undefined,
+) {
+  const feedback = note?.trim() ?? "";
+  const nextAttempt = correctionNote?.trim() ?? "";
+  if (!feedback) return nextAttempt;
+  if (!nextAttempt || nextAttempt === feedback) return feedback;
+  return `${feedback}\n\nNext: ${nextAttempt}`;
 }

@@ -1,7 +1,16 @@
-import type { GalleryCatalog } from "../../review-types";
+import type {
+  AttemptCatalog,
+  GalleryCatalog,
+  RedoCompletion,
+} from "../../review-types";
+
+export type ArchiveView = "catalog" | "attempts";
 
 export type ArchiveGalleryProps = {
   catalog: GalleryCatalog;
+  attemptCatalog: AttemptCatalog;
+  redoCompletions: RedoCompletion[];
+  redoCompletionVersion: string;
 };
 
 export type FilterToken = {

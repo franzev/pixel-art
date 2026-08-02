@@ -1,12 +1,17 @@
 "use client";
 
 import type { RefObject } from "react";
+import { parseRatingFilter } from "./archive-filters";
 
 export function QuickFilterBar({
   favorite,
   decision,
   rating,
   onUpdateQuickFilter,
+  unreviewedOutputCount,
+  onOpenUnreviewedOutputs,
+  redoAvailableCount,
+  onOpenRedoSources,
   filtersOpen,
   filterButtonRef,
   activeFilterCount,
@@ -20,12 +25,22 @@ export function QuickFilterBar({
     key: "favorite" | "decision" | "rating",
     value: string,
   ) => void;
+  unreviewedOutputCount: number;
+  onOpenUnreviewedOutputs: () => void;
+  redoAvailableCount: number;
+  onOpenRedoSources: () => void;
   filtersOpen: boolean;
   filterButtonRef: RefObject<HTMLButtonElement | null>;
   activeFilterCount: number;
   onOpenFilters: () => void;
   onCloseFilters: () => void;
 }) {
+  const parsedRating = parseRatingFilter(rating);
+  const isFiveStarOnly =
+    parsedRating.mode === "exact" &&
+    parsedRating.values.length === 1 &&
+    parsedRating.values[0] === "5";
+
   return (
     <div className="quick-filter-bar">
       <div
@@ -45,29 +60,46 @@ export function QuickFilterBar({
           <span aria-hidden="true">★</span>
           <span className="quick-favorite-label">FAVORITES</span>
         </button>
-        {[
-          ["unreviewed", "UNREVIEWED"],
-          ["keep", "KEEP"],
-          ["reject", "REDO"],
-        ].map(([value, label]) => (
-          <button
-            key={value}
-            type="button"
-            className={
-              decision === value ? "quick-filter is-active" : "quick-filter"
-            }
-            aria-pressed={decision === value}
-            onClick={() => onUpdateQuickFilter("decision", value)}
-          >
-            {label}
-          </button>
-        ))}
         <button
           type="button"
           className={
-            rating === "5" ? "quick-filter is-active" : "quick-filter"
+            decision === "unreviewed"
+              ? "quick-filter is-active"
+              : "quick-filter"
           }
-          aria-pressed={rating === "5"}
+          aria-pressed={decision === "unreviewed"}
+          aria-label={`${unreviewedOutputCount} unreviewed generated outputs`}
+          onClick={onOpenUnreviewedOutputs}
+        >
+          UNREVIEWED <strong>{unreviewedOutputCount}</strong>
+        </button>
+        <button
+          type="button"
+          className={
+            decision === "keep" ? "quick-filter is-active" : "quick-filter"
+          }
+          aria-pressed={decision === "keep"}
+          onClick={() => onUpdateQuickFilter("decision", "keep")}
+        >
+          KEEP
+        </button>
+        <button
+          type="button"
+          className={
+            decision === "reject" ? "quick-filter is-active" : "quick-filter"
+          }
+          aria-pressed={decision === "reject"}
+          aria-label={`${redoAvailableCount} available redo originals`}
+          onClick={onOpenRedoSources}
+        >
+          REDO ORIGINALS <strong>{redoAvailableCount}</strong>
+        </button>
+        <button
+          type="button"
+          className={
+            isFiveStarOnly ? "quick-filter is-active" : "quick-filter"
+          }
+          aria-pressed={isFiveStarOnly}
           onClick={() => onUpdateQuickFilter("rating", "5")}
         >
           5★

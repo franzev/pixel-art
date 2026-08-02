@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  validateRedoSourceFile,
   validateRenderImage,
   validateRenderPlan,
   writeRenderGateReceipt,
@@ -51,11 +52,19 @@ const plan = JSON.parse(await readFile(planPath, "utf8"));
 const mode = plan?.asset?.mode;
 const imageValidation = await validateRenderImage(imagePath, { mode });
 const planValidation = validateRenderPlan(plan, { mode });
+const redoSourceValidation = await validateRedoSourceFile(plan, { siteDir });
 
 printChecks("Objective image checks", imageValidation);
 printChecks("Recorded visual QA checks", planValidation);
+if (plan?.redo?.isRedo === true) {
+  printChecks("Redo source binding checks", redoSourceValidation);
+}
 
-if (!imageValidation.pass || !planValidation.pass) {
+if (
+  !imageValidation.pass ||
+  !planValidation.pass ||
+  !redoSourceValidation.pass
+) {
   process.exitCode = 1;
 } else if (options.receipt) {
   const { receiptPath } = await writeRenderGateReceipt({
@@ -65,6 +74,7 @@ if (!imageValidation.pass || !planValidation.pass) {
     plan,
     imageValidation,
     planValidation,
+    redoSourceValidation,
   });
   console.log(
     `PASS render gate receipt: ${path.relative(siteDir, receiptPath)}`,

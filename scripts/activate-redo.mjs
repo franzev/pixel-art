@@ -13,6 +13,7 @@ import { createReadStream } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { syncArt } from "./sync-art.mjs";
+import { validateRenderGateReceipt } from "./render-validation.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(scriptDir, "..");
@@ -42,6 +43,18 @@ export function canonicalFilename(filename) {
   return `${match[1]}.png`;
 }
 
+export function variantFilename(existingNames, conceptBase) {
+  const pattern = new RegExp(
+    `^${escapeRegExp(conceptBase)}-variant-(\\d+)\\.png$`,
+    "i",
+  );
+  const highest = existingNames.reduce((max, name) => {
+    const match = name.match(pattern);
+    return match ? Math.max(max, Number(match[1])) : max;
+  }, 0);
+  return `${conceptBase}-variant-${String(highest + 1).padStart(2, "0")}.png`;
+}
+
 export function stagedCandidateTarget(relativeCandidatePath) {
   const normalized = relativeCandidatePath.split(path.sep).join("/");
   const parts = normalized.split("/").filter(Boolean);
@@ -52,15 +65,10 @@ export function stagedCandidateTarget(relativeCandidatePath) {
   }
   const [category, collection, ...tail] = parts;
   const filename = tail.at(-1);
-  const lifecycle = tail.length > 1 ? tail.at(-2) : "drafts";
-  if (lifecycle !== "drafts") {
-    throw new Error("Redo candidates must activate into a drafts folder");
-  }
   return path.join(
     artDir,
     category,
     collection,
-    "drafts",
     canonicalFilename(filename),
   );
 }
@@ -109,6 +117,8 @@ function parseOptions(argv) {
   const options = {
     candidate: "",
     sourceRenderId: "",
+    sourcePath: "",
+    mode: "replace",
     reviewStatus: "redo-awaiting-review",
     dryRun: false,
   };
@@ -120,6 +130,10 @@ function parseOptions(argv) {
       options.candidate = argv[++index] ?? "";
     } else if (value === "--source-render-id") {
       options.sourceRenderId = argv[++index] ?? "";
+    } else if (value === "--source-path") {
+      options.sourcePath = argv[++index] ?? "";
+    } else if (value === "--mode") {
+      options.mode = argv[++index] ?? "";
     } else if (value === "--review-status") {
       options.reviewStatus = argv[++index] ?? "";
     } else if (!value.startsWith("--") && !options.candidate) {
@@ -130,7 +144,7 @@ function parseOptions(argv) {
   }
   if (!options.candidate) {
     throw new Error(
-      "Usage: npm run redo:activate -- --candidate work/redo-staging/<category>/<collection>/drafts/<name-vNN.png> [--source-render-id rnd_...]",
+      "Usage: npm run redo:activate -- --candidate work/redo-staging/<category>/<collection>/<name-vNN.png> [--source-render-id rnd_...] [--source-path <catalog-path>]",
     );
   }
   if (
@@ -139,7 +153,45 @@ function parseOptions(argv) {
   ) {
     throw new Error("Source render ID must use rnd_ plus 24 hexadecimal digits");
   }
+  if (options.mode !== "replace" && options.mode !== "variant") {
+    throw new Error("Activation mode must be replace or variant");
+  }
+  if (!options.sourceRenderId || !options.sourcePath) {
+    throw new Error(
+      "Redo activation requires both --source-render-id and --source-path so the candidate can be bound to the exact original.",
+    );
+  }
   return options;
+}
+
+export function validateRedoReceiptBinding(
+  receipt,
+  { sourceRenderId, sourcePath },
+) {
+  const normalizedSourcePath = String(sourcePath ?? "")
+    .replaceAll("\\", "/")
+    .replace(/^public\/art\//, "");
+  const redo = receipt?.plan?.redo;
+  const errors = [];
+  if (redo?.isRedo !== true) {
+    errors.push("Receipt is not marked as a redo.");
+  }
+  if (redo?.sourceRenderId !== sourceRenderId) {
+    errors.push("Receipt source render ID does not match the selected original.");
+  }
+  if (
+    String(redo?.sourcePath ?? "").replaceAll("\\", "/") !==
+    normalizedSourcePath
+  ) {
+    errors.push("Receipt source path does not match the selected original.");
+  }
+  if (
+    redo?.minimalDeltaVerified !== true ||
+    redo?.sourceCandidateCompared !== true
+  ) {
+    errors.push("Receipt does not attest a same-scale minimum-delta comparison.");
+  }
+  return { pass: errors.length === 0, errors };
 }
 
 async function planActivation(options) {
@@ -158,17 +210,24 @@ async function planActivation(options) {
     throw new Error(`Candidate is not a file: ${options.candidate}`);
   }
 
-  const active = stagedCandidateTarget(relativeToStaging);
-  const relativeActive = path.relative(artDir, active);
-  const activeParts = relativeActive.split(path.sep);
+  const canonicalActive = stagedCandidateTarget(relativeToStaging);
+  const canonicalRelative = path.relative(artDir, canonicalActive);
+  const activeParts = canonicalRelative.split(path.sep);
   const [category, collection] = activeParts;
-  const activeFilename = path.basename(active);
-  const conceptBase = activeFilename.replace(/\.png$/i, "");
+  const conceptBase = path.basename(canonicalActive).replace(/\.png$/i, "");
+  const activeDirectory = path.dirname(canonicalActive);
+  const directoryNames = (await exists(activeDirectory))
+    ? await readdir(activeDirectory)
+    : [];
+  const active =
+    options.mode === "variant"
+      ? path.join(activeDirectory, variantFilename(directoryNames, conceptBase))
+      : canonicalActive;
+  const relativeActive = path.relative(artDir, active);
   const siblingPattern = new RegExp(
     `^${escapeRegExp(conceptBase)}(?:-v\\d+)?\\.png$`,
     "i",
   );
-  const activeDirectory = path.dirname(active);
   const siblingNames = (await exists(activeDirectory))
     ? (await readdir(activeDirectory))
         .filter((name) => siblingPattern.test(name))
@@ -194,24 +253,48 @@ async function planActivation(options) {
   }
 
   const candidateHash = await sha256(candidate);
+  if (options.sourcePath) {
+    const explicitSource = path.resolve(artDir, options.sourcePath);
+    const relativeSource = path.relative(artDir, explicitSource);
+    if (
+      relativeSource.startsWith("..") ||
+      path.isAbsolute(relativeSource) ||
+      !(await exists(explicitSource))
+    ) {
+      throw new Error(`Catalog source path is invalid: ${options.sourcePath}`);
+    }
+    if (options.mode === "replace" && !siblings.some((item) => item.source === explicitSource)) {
+      const hash = await sha256(explicitSource);
+      siblings.push({
+        source: explicitSource,
+        hash,
+        renderId: `rnd_${hash.slice(0, 24)}`,
+        archive: path.join(
+          historyDir,
+          category,
+          collection,
+          conceptBase,
+          `rnd_${hash.slice(0, 24)}--${path.basename(explicitSource)}`,
+        ),
+        isActive: false,
+      });
+    }
+  }
   const currentActive = siblings.find((sibling) => sibling.isActive);
+  const candidateRenderId = `rnd_${candidateHash.slice(0, 24)}`;
   const sourceRenderId =
     options.sourceRenderId ||
     currentActive?.renderId ||
     siblings[0]?.renderId ||
-    "";
-  if (!sourceRenderId) {
-    throw new Error(
-      "No current render exists; provide --source-render-id for this redo",
-    );
-  }
+    candidateRenderId;
+  if (options.mode === "variant") siblings.length = 0;
 
   const idMatch = conceptBase.match(/^(\d{1,3})-/);
   return {
     ...options,
     candidate,
     candidateHash,
-    candidateRenderId: `rnd_${candidateHash.slice(0, 24)}`,
+    candidateRenderId,
     active,
     activeRelative: repositoryPath(active),
     category,
@@ -220,10 +303,12 @@ async function planActivation(options) {
     conceptId: idMatch ? Number(idMatch[1]) : undefined,
     siblings,
     sourceRenderId,
+    sourcePath: String(options.sourcePath).replaceAll("\\", "/"),
   };
 }
 
 async function planManifestUpdate(plan) {
+  if (plan.mode === "variant") return null;
   const collectionDirectory = path.join(
     collectionsDir,
     plan.category,
@@ -244,7 +329,7 @@ async function planManifestUpdate(plan) {
       typeof asset.name === "string"
         ? asset.name.replace(/ v\d+$/i, "")
         : asset.name;
-    asset.status = "draft";
+    asset.status = "unreviewed";
     asset.review_status = plan.reviewStatus;
     asset.sha256 = plan.candidateHash;
     asset.render_id = plan.candidateRenderId;
@@ -302,6 +387,52 @@ async function planHistoryUpdate(plan, activatedAt) {
   };
 }
 
+async function planReceiptUpdate(plan) {
+  const file = path.join(
+    siteDir,
+    "art-catalog",
+    "render-gates",
+    `${plan.candidateHash}.json`,
+  );
+  const original = await readFile(file, "utf8").catch((error) => {
+    if (error?.code === "ENOENT") {
+      throw new Error(
+        "This candidate has no passing render-gate receipt and cannot be promoted.",
+      );
+    }
+    throw error;
+  });
+  const receipt = JSON.parse(original);
+  const nextReceipt = {
+    ...receipt,
+    destination: plan.activeRelative,
+    promotedAt: new Date().toISOString(),
+  };
+  const validation = validateRenderGateReceipt(nextReceipt, {
+    assetHash: plan.candidateHash,
+    destination: plan.activeRelative,
+  });
+  if (!validation.pass) {
+    throw new Error(
+      `Candidate cannot be promoted:\n${validation.errors.map((item) => `- ${item}`).join("\n")}`,
+    );
+  }
+  const redoBinding = validateRedoReceiptBinding(nextReceipt, {
+    sourceRenderId: plan.sourceRenderId,
+    sourcePath: plan.sourcePath,
+  });
+  if (!redoBinding.pass) {
+    throw new Error(
+      `Candidate cannot be promoted:\n${redoBinding.errors.map((item) => `- ${item}`).join("\n")}`,
+    );
+  }
+  return {
+    file,
+    original,
+    next: `${JSON.stringify(nextReceipt, null, 2)}\n`,
+  };
+}
+
 async function archiveSiblings(plan) {
   const created = [];
   for (const sibling of plan.siblings) {
@@ -321,13 +452,8 @@ async function archiveSiblings(plan) {
 }
 
 async function restoreFiles(plan) {
-  const previousActive = plan.siblings.find((item) => item.isActive);
-  if (previousActive) {
-    await copyAtomic(previousActive.archive, plan.active);
-  } else if (await exists(plan.active)) {
-    await unlink(plan.active);
-  }
-  for (const sibling of plan.siblings.filter((item) => !item.isActive)) {
+  if (await exists(plan.active)) await unlink(plan.active);
+  for (const sibling of plan.siblings) {
     await copyAtomic(sibling.archive, sibling.source);
   }
 }
@@ -337,9 +463,13 @@ async function activate(plan) {
   const manifestUpdate = await planManifestUpdate(plan);
   const trackerUpdate = await planTrackerUpdate(plan, activatedAt);
   const historyUpdate = await planHistoryUpdate(plan, activatedAt);
-  const metadataUpdates = [manifestUpdate, trackerUpdate, historyUpdate].filter(
-    Boolean,
-  );
+  const receiptUpdate = await planReceiptUpdate(plan);
+  const metadataUpdates = [
+    manifestUpdate,
+    trackerUpdate,
+    historyUpdate,
+    receiptUpdate,
+  ].filter(Boolean);
   const createdArchives = [];
   let swapped = false;
 
@@ -355,7 +485,7 @@ async function activate(plan) {
     await rename(stagedForSwap, plan.active);
     swapped = true;
 
-    for (const sibling of plan.siblings.filter((item) => !item.isActive)) {
+    for (const sibling of plan.siblings.filter((item) => item.source !== plan.active)) {
       if (await exists(sibling.source)) await unlink(sibling.source);
     }
 

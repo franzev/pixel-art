@@ -5,6 +5,9 @@ import type { FilterState } from "../archive-filters";
 import { CollectionFilter } from "./collection-filter";
 import { FilterGroup } from "./filter-group";
 import { RaceFilter } from "./race-filter";
+import { RatingFilter } from "./rating-filter";
+import { ReviewProgressSummary } from "../review-progress";
+import type { ReviewProgress } from "../review-summary";
 
 type FilterOption = { value: string; label: string };
 
@@ -29,7 +32,9 @@ export function FilterDrawer({
   favoriteCounts,
   decisionOptions,
   decisionCounts,
-  ratingOptions,
+  reviewProgress,
+  onShowRedoSources,
+  onShowGeneratedOutputs,
   ratingCounts,
   lifecycleOptions,
   lifecycleCounts,
@@ -58,7 +63,9 @@ export function FilterDrawer({
   favoriteCounts: Map<string, number>;
   decisionOptions: FilterOption[];
   decisionCounts: Map<string, number>;
-  ratingOptions: FilterOption[];
+  reviewProgress: ReviewProgress;
+  onShowRedoSources: () => void;
+  onShowGeneratedOutputs: () => void;
   ratingCounts: Map<string, number>;
   lifecycleOptions: FilterOption[];
   lifecycleCounts: Map<string, number>;
@@ -121,6 +128,11 @@ export function FilterDrawer({
 
           <section className="filter-section">
             <h3>Review</h3>
+            <ReviewProgressSummary
+              progress={reviewProgress}
+              onShowRedoSources={onShowRedoSources}
+              onShowGeneratedOutputs={onShowGeneratedOutputs}
+            />
             <FilterGroup
               label="Favorites"
               value={filters.favorite}
@@ -139,10 +151,8 @@ export function FilterDrawer({
 
           <section className="filter-section">
             <h3>Rating &amp; state</h3>
-            <FilterGroup
-              label="Rating"
+            <RatingFilter
               value={filters.rating}
-              options={ratingOptions}
               counts={ratingCounts}
               onChange={(rating) => onSetFilterValue("rating", rating)}
             />

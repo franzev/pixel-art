@@ -134,6 +134,24 @@ approval, retention, lore, canonical, or positive-reference status. Copy only
 the selected attempt into the normal candidate workflow; never hand-repaint,
 resize, crop, mirror, or overwrite an archived attempt.
 
+### Immediate gallery availability
+
+Archiving and indexing are one operation from the user's perspective. After
+each `render:save-attempt` call, verify that the exact new attempt is present in
+`app/attempt-index.json` and immediately browsable in the web gallery's
+**History** view. Do this before inspecting the bitmap, generating a retry, or
+starting the next concept.
+
+The normal development watcher should refresh automatically. If it does not,
+run `npm run sync:attempts`; if the gallery is not running, start it with
+`npm run dev`. Never defer attempt indexing until the end of a batch. The
+History view must remain directly reachable from the gallery header even when
+an attempt has no matching Catalog render.
+
+Immediate History visibility does not promote the attempt. Only a selected,
+QA-passing full-quality render may be copied to the collection root under
+`public/art/` and appear in Catalog.
+
 ## Naming
 
 Use lowercase kebab-case for folders and image files.

@@ -1,8 +1,8 @@
 # Ashen Archive Render Router
 
-Version: 3.9
+Version: 3.10
 
-Last updated: 2026-08-02
+Last updated: 2026-08-03
 
 Status: Active project-wide entry point for new renders
 
@@ -26,6 +26,15 @@ Before inspecting or retrying any generator result, preserve the raw PNG with
 `npm run render:save-attempt`. Every first, second, third, and later attempt
 must remain recoverable under `archive/render-attempts/`, even when an agent
 initially prefers a later result. Attempt history is not catalog approval.
+
+Every preserved generator result must also become available in the web gallery
+immediately. `render:save-attempt` must update the attempt index, and the agent
+must verify that the new item is visible in the gallery's **History** view
+before inspecting it, retrying it, or starting another generation call. If the
+development gallery is not running, start it with `npm run dev`; if the watcher
+has not refreshed, run `npm run sync:attempts`. Do not postpone indexing until
+the end of a wave. A raw result belongs in History immediately; a viable
+selected result belongs in Catalog only after the normal render gate passes.
 
 ## Gallery-Wide Style Freedom
 
@@ -486,6 +495,50 @@ Examples:
 If quantity is omitted, default to one. Generate one distinct asset per image
 and use one generation call per concept. A requested quantity is the total
 desired count, handled in review waves of no more than five.
+
+### Retry budget
+
+Token and generation cost are part of render quality. Do not spend an
+open-ended number of calls trying to force one concept through a hard gate.
+
+- Default to at most **two generator outputs per concept**: one initial
+  generation and one targeted correction.
+- Default to at most **two correction calls across an entire review wave**,
+  even when the wave contains five concepts.
+- Every returned output still enters ordered attempt history and counts against
+  the budget, including obvious failures, near-duplicates, and outputs rejected
+  before Catalog placement.
+- When a concept still fails after its allowed correction, mark that concept
+  failed for the wave and continue to the next distinct planned concept when
+  safe. Do not keep regenerating the same identity.
+- For an armed concept, reaching the retry cap closes the serial equipment gate
+  as a failed/abandoned concept. It permits moving to the next concept but never
+  permits accepting the malformed weapon.
+- A repeated background, rendering-medium, anatomy, equipment, or direction
+  failure does not create extra retries.
+- Additional retries require the user's new, explicit approval for the named
+  concept. Ask only after reporting the attempts already spent and the exact
+  unresolved defect.
+
+Attempt preservation is a history requirement, not permission to exhaust the
+user's generation budget. A request for five characters means five distinct
+concept slots—not five retries of one slot.
+
+### Gender-neutral brief lock
+
+A gender-neutral family name such as `knights`, `vampire knights`, `soldiers`,
+`warriors`, or `cultists` does not authorize an all-woman or all-man wave.
+Do not inherit a single-gender assumption from an older batch merely because
+its subject name is the closest collection match. Inherit that direction only
+when the user explicitly says to continue that collection, names a gender, or
+the requested family name itself is gender-specific.
+
+For a new plural gender-neutral brief with no gender instruction, use a mixed
+adult cast while keeping gender secondary to gameplay role and design. For an
+odd five-character wave, default to three adults of one gender and two of the
+other, varying which gender has three across future waves. Do not make gender
+the only difference between concepts, and do not turn the wave into a generic
+demographic checklist.
 
 When a term is mildly ambiguous, choose the safest interpretation, state it in
 one sentence, and proceed. Ask only when different interpretations would

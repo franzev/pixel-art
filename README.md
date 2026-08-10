@@ -218,6 +218,19 @@ assets.
 
 ## Using the gallery
 
+The gallery has two directly accessible views:
+
+- **Catalog** contains active review renders under `public/art/`.
+- **History** contains every preserved raw generator attempt, including failed
+  and superseded attempts under `archive/render-attempts/`.
+
+Every generator result must appear in History immediately after it is saved;
+do not wait for the rest of the wave. `npm run render:save-attempt` normally
+refreshes the generated attempt index. Run `npm run sync:attempts` if a new
+attempt is missing, and keep `npm run dev` running so the website can refresh.
+History visibility is not approval. A selected render appears in Catalog only
+after it passes the executable render gate and is saved at the collection root.
+
 Install dependencies and start the local gallery from this directory:
 
 ```bash

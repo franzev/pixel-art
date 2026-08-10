@@ -106,6 +106,14 @@ facts—not URLs or workflow prose—in the image-generation prompt.
 
 - Default to one when quantity is omitted.
 - Generate one distinct asset per image and use one generation call per concept.
+- Enforce the default retry budget:
+  - at most two generator outputs for one concept: the initial output plus one
+    targeted correction;
+  - at most two correction calls across the complete review wave;
+  - every returned generator output counts, including immediate failures and
+    near-duplicates;
+  - additional retries require new explicit user approval for that named
+    concept.
 - Immediately after every generation call returns, archive the untouched PNG
   before visual inspection, QA, retrying, or selection:
 
@@ -119,7 +127,45 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   overwrites. Preserve first, second, third, and all later attempts, including
   obvious failures. Never delete an archived attempt merely because a later
   try currently appears stronger; the user may prefer an earlier image.
+- **Immediate web-gallery gate:** the archived attempt must be indexed and
+  available in the gallery's **History** view before any visual inspection,
+  QA decision, retry, or next generation call. Do not wait until the wave is
+  complete. Confirm the exact new attempt path is present in
+  `app/attempt-index.json` and accessible through the running gallery.
+- `npm run render:save-attempt` normally refreshes the attempt index. If the
+  new attempt is not visible, run `npm run sync:attempts`. If the gallery is
+  not running, start `npm run dev`, wait for the attempt index to load, and
+  verify the History item before continuing. Indexing failure is a blocking
+  workflow failure, not a reason to keep generating offline.
+- Keep **Catalog** and **History** distinct: every raw generator output appears
+  in History immediately, including failed attempts; only a selected render
+  that passes the executable render gate enters Catalog. Web availability does
+  not imply approval, viability, retention, or canon.
+- **Armed-concept serial gate:** after archiving an armed result, do not start
+  the next distinct concept in the wave until the current result's complete
+  weapon geometry, handle, joins, and hand contacts have been inspected at
+  full resolution and 256 pixels. Prompt wording such as `straight shaft` or
+  `continuous centerline` is not evidence that the output obeyed it. A visible
+  bow, kink, offset, broken join, shortened proportion, hidden contact, or
+  incorrect grip rejects that attempt immediately and requires a new attempt
+  of the same concept before the wave may advance.
+- The armed-concept serial gate never creates unlimited retries. If its one
+  allowed correction also fails, record the concept as failed/abandoned for
+  the wave and advance to the next distinct planned concept. Never accept the
+  malformed equipment, and never spend a third call without the user's new
+  explicit approval.
+- For every intended straight blade, shaft, haft, barrel, or handle, create a
+  temporary QA view with a straight reference line connecting the documented
+  endpoints. Inspect the midpoint and every component join against that line.
+  The overlay is review evidence only and must never alter the source PNG.
+- A failed raw attempt remains saved and indexed in History because attempt
+  preservation is mandatory. Record it as a failed attempt; never describe it
+  as viable, selected, or catalog-ready. The presence of a raw attempt in
+  History is not permission to skip the serial gate.
 - Treat the requested quantity as the total desired count.
+- Treat distinct concepts and retries separately. Five requested characters
+  means five planned concept slots; archived retries do not count toward the
+  requested quantity.
 - Work in review waves of no more than five.
 - Never substitute a large contact sheet for separate source images.
 - Stop immediately when the user says stop, even if the total is incomplete.
@@ -160,7 +206,9 @@ facts—not URLs or workflow prose—in the image-generation prompt.
   floor, shadow, glow, texture, scenery, or atmospheric variation.
 - For armed characters, inspect focused crops of every hand-to-handle contact,
   blade/head-to-handle join, shield attachment, and crossbow release mechanism.
-  Reject before saving when any construction detail cannot be verified.
+  Reject before candidate saving when any construction detail cannot be
+  verified. This inspection must happen before generating the next distinct
+  armed concept, not after completing the full wave.
 - For a longsword, greatsword, zweihänder, or other oversized sword, inspect one
   crop containing the guard, both complete hands, the full usable grip, and the
   pommel. Reject immediately if either hand touches or appears to touch the
@@ -295,6 +343,9 @@ create receipts that pretend they passed the new policy.
 ## Response After a Wave
 
 - Show each render.
+- Confirm that every raw attempt was available in the web gallery's History
+  view immediately after generation, and identify any selected renders that
+  separately entered Catalog after passing the render gate.
 - Give it a short functional name and one-line gameplay identity.
 - Label every newly saved item `Unreviewed`.
 - State that the render is saved and ready for review in the website; chat

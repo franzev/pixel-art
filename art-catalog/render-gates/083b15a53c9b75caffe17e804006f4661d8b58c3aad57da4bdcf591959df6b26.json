@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "renderGateVersion": 2,
+  "assetHash": "083b15a53c9b75caffe17e804006f4661d8b58c3aad57da4bdcf591959df6b26",
+  "destination": "enemies/convent-horrors-batch-37/30-powder-blue-burgundy-rosary-mourner.png",
+  "passedAt": "2026-08-02T23:17:19.627Z",
+  "mode": "isolated",
+  "imageChecks": [
+    {
+      "key": "image.png",
+      "pass": true,
+      "detail": "Image must be a PNG."
+    },
+    {
+      "key": "image.square",
+      "pass": true,
+      "detail": "Image must be exactly square; received 1254 × 1254."
+    },
+    {
+      "key": "image.opaque",
+      "pass": true,
+      "detail": "Isolated catalog renders must be fully opaque."
+    }
+  ],
+  "imageMetrics": {
+    "width": 1254,
+    "height": 1254,
+    "mode": "isolated",
+    "opaqueRatio": 1
+  },
+  "redoSourceChecks": [
+    {
+      "key": "redo.source-file",
+      "pass": true,
+      "detail": "Bound to public/art/enemies/convent-horrors-batch-37/drafts/30-powder-blue-burgundy-rosary-mourner.png."
+    },
+    {
+      "key": "redo.source-render-id",
+      "pass": true,
+      "detail": "Expected rnd_fb706501c7c51d8c0951ca7f; resolved rnd_fb706501c7c51d8c0951ca7f."
+    }
+  ],
+  "redoSourceHash": "fb706501c7c51d8c0951ca7f06fcab1d94cf11057a4a3ad35f8ab6986ec5df3f",
+  "plan": {
+    "schemaVersion": 2,
+    "reviewSource": "review-desk-v1",
+    "asset": {
+      "category": "enemies",
+      "collection": "convent-horrors-batch-37",
+      "slug": "30-powder-blue-burgundy-rosary-mourner",
+      "mode": "isolated",
+      "humanoid": true,
+      "directionalSubject": true,
+      "facingDirection": "screen-right",
+      "nonDirectionalReason": ""
+    },
+    "redo": {
+      "isRedo": true,
+      "sourcePath": "enemies/convent-horrors-batch-37/drafts/30-powder-blue-burgundy-rosary-mourner.png",
+      "sourceRenderId": "rnd_fb706501c7c51d8c0951ca7f",
+      "authorizedChanges": [
+        "Anatomy or limbs",
+        "Wrong proportions"
+      ],
+      "sourceCandidateCompared": true,
+      "minimalDeltaVerified": true,
+      "unauthorizedChanges": [],
+      "preserved": {
+        "identity": true,
+        "faceVisibilityOrCovering": true,
+        "bodyProportions": true,
+        "silhouette": true,
+        "clothingConstruction": true,
+        "paletteAndMaterials": true,
+        "equipmentTypeAndConstruction": true,
+        "unaffectedPose": true
+      }
+    },
+    "hardGates": {
+      "squareCanvas": true,
+      "uniformBackground": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "completeSilhouette": true,
+      "safePadding": true,
+      "rightFacing": true
+    },
+    "palette": {
+      "dominantMaterial": "Confirmed in the side-by-side Review Desk inspection",
+      "secondaryGarment": "Confirmed in the side-by-side Review Desk inspection",
+      "metalFinish": "Confirmed in the side-by-side Review Desk inspection",
+      "leatherOrWood": "Confirmed in the side-by-side Review Desk inspection",
+      "accentRole": "Confirmed in the side-by-side Review Desk inspection",
+      "lighting": "Neutral lighting confirmed in Review Desk",
+      "localColorRamps": [
+        "Primary local colors preserved",
+        "Secondary local colors preserved"
+      ]
+    },
+    "equipment": null,
+    "diversity": {
+      "armoredHumanoid": false,
+      "comparableWave": false,
+      "recentComparables": [],
+      "noComparableReason": "Candidate was compared directly with its authorized source in Review Desk",
+      "structuralDifferences": [],
+      "bodyOnlySilhouetteDistinct": true,
+      "paletteDifferences": [],
+      "paletteAndLightingDistinct": true
+    },
+    "crops": {
+      "face": [
+        {
+          "label": "Face",
+          "left": 0.3,
+          "top": 0.04,
+          "width": 0.4,
+          "height": 0.3
+        }
+      ],
+      "hands": [
+        {
+          "label": "Hands and equipment",
+          "left": 0.08,
+          "top": 0.25,
+          "width": 0.84,
+          "height": 0.45
+        }
+      ],
+      "equipmentJoins": [],
+      "feet": [
+        {
+          "label": "Feet",
+          "left": 0.2,
+          "top": 0.68,
+          "width": 0.6,
+          "height": 0.3
+        }
+      ]
+    },
+    "visualReview": {
+      "completeAnatomy": true,
+      "handsAndFeetVerified": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "readableAt256": true,
+      "noCropping": true,
+      "distinctFromComparables": true,
+      "rightFacingVerified": true
+    }
+  },
+  "promotedAt": "2026-08-02T23:17:32.168Z"
+}

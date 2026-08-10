@@ -210,6 +210,59 @@ Weapon problems combined (handling + too short + bent + wrong design = 47) are t
    enough if the handler could not realistically carry, aim, or use it.
 11. **Conventional weapon designs.** Verbatim: "please no weird weapons." Rejected as weapons: fans, ledgers/books, spindles, salvers/plates, ornate candlesticks, over-designed gimmick arms. Repeated user substitutions point at the preferred arsenal: halberd, morning star (spiked ball), longsword, mace, war pick, bolo, rapier, sabre, crossbow, arquebus, kitchen knife (for domestic-horror concepts). A religious motif may live in the weapon's detailing (e.g. a cross-shaped head), but the weapon itself stays a standard weapon.
 12. **When a weapon fails but the character works, only the weapon needs to change.** "Preserve all, just fix weapon handling" — prefer targeted rerenders over redesigns.
+13. **A straight-weapon prompt is not a pass.** On 2026-08-02, newly generated
+    vampire-knight attempts still contained visibly bowed or unreliable weapon
+    geometry even though their prompts explicitly required straight continuous
+    centerlines. After preserving the raw attempt, stop on that concept. Use a
+    temporary endpoint-to-endpoint straight reference line, inspect the full
+    profile and every join at full resolution and 256 pixels, and regenerate
+    the same concept before generating the next armed member of the wave. Raw
+    attempt indexing is preservation, not acceptance.
+
+## Gender-neutral batch interpretation
+
+- **2026-08-02 direct clarification:** a generic plural brief such as `vampire
+  knights` must not become an all-woman wave merely because the nearest older
+  collection was historically feminine.
+- Inherit a single-gender direction only when the current user instruction
+  names it, explicitly requests continuation of that gendered collection, or
+  uses a gender-specific family name.
+- Otherwise create a mixed adult cast. Keep the family cohesive through role,
+  armor, silhouette, materials, and encounter behavior; gender is not a
+  substitute for concept diversity.
+- This clarification is future-facing. It does not require deleting,
+  replacing, or recasting already generated attempts.
+
+## Immediate web-gallery availability
+
+- **2026-08-02 direct clarification:** every newly generated bitmap must be
+  available in the web gallery immediately, not after the wave finishes.
+- Preserve the untouched result first with `render:save-attempt`, then verify
+  its exact entry in `app/attempt-index.json` and the gallery's History view
+  before inspecting, retrying, or generating the next concept.
+- If automatic refresh fails, run `npm run sync:attempts`. If the gallery is
+  not running, start `npm run dev` and verify the History item before
+  continuing.
+- History is the immediate home of all raw attempts, including failures.
+  Catalog remains restricted to selected renders that pass the executable
+  render gate. Immediate visibility does not mean approval or canon.
+
+## Retry-budget clarification
+
+- **2026-08-03 direct clarification:** five near-identical retries of one
+  concept waste the user's generation and token budget and must not be
+  mistaken for a requested five-character batch.
+- Default to one initial generation plus one targeted correction per concept.
+- Allow at most two correction calls across a complete review wave.
+- Every returned output counts against the budget, including obvious failures,
+  background failures, malformed weapons, and near-duplicates.
+- If the correction still fails, abandon that concept for the current wave and
+  continue with the next distinct concept when safe. The armed serial gate
+  prevents accepting bad equipment; it does not require indefinite retries.
+- Any third attempt for the same concept requires new explicit user approval
+  after reporting the attempts already used and the exact unresolved defect.
+- Raw-attempt preservation remains mandatory, but History is evidence of calls
+  already spent—not permission to keep spending them.
 
 ## Effects: spells are prohibited
 

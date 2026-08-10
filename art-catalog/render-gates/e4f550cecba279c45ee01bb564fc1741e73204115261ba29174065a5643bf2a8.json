@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "renderGateVersion": 2,
+  "assetHash": "e4f550cecba279c45ee01bb564fc1741e73204115261ba29174065a5643bf2a8",
+  "destination": "enemies/combat-magic-batch-04/03-beetle-hexer.png",
+  "passedAt": "2026-08-02T12:17:22.055Z",
+  "mode": "isolated",
+  "imageChecks": [
+    {
+      "key": "image.png",
+      "pass": true,
+      "detail": "Image must be a PNG."
+    },
+    {
+      "key": "image.square",
+      "pass": true,
+      "detail": "Image must be exactly square; received 1254 × 1254."
+    },
+    {
+      "key": "image.opaque",
+      "pass": true,
+      "detail": "Isolated catalog renders must be fully opaque."
+    }
+  ],
+  "imageMetrics": {
+    "width": 1254,
+    "height": 1254,
+    "mode": "isolated",
+    "opaqueRatio": 1
+  },
+  "redoSourceChecks": [
+    {
+      "key": "redo.source-file",
+      "pass": true,
+      "detail": "Bound to public/art/enemies/combat-magic-batch-04/03-beetle-hexer.png."
+    },
+    {
+      "key": "redo.source-render-id",
+      "pass": true,
+      "detail": "Expected rnd_d5321b2c21a1f020b4b8e25e; resolved rnd_d5321b2c21a1f020b4b8e25e."
+    }
+  ],
+  "redoSourceHash": "d5321b2c21a1f020b4b8e25ed21a85ac301b6bfab7886142868a257b09b3648e",
+  "plan": {
+    "schemaVersion": 2,
+    "reviewSource": "review-desk-v1",
+    "asset": {
+      "category": "enemies",
+      "collection": "combat-magic-batch-04",
+      "slug": "03-beetle-hexer",
+      "mode": "isolated",
+      "humanoid": true,
+      "directionalSubject": true,
+      "facingDirection": "screen-right",
+      "nonDirectionalReason": ""
+    },
+    "redo": {
+      "isRedo": true,
+      "sourcePath": "enemies/combat-magic-batch-04/03-beetle-hexer.png",
+      "sourceRenderId": "rnd_d5321b2c21a1f020b4b8e25e",
+      "authorizedChanges": [
+        "Unwanted magic / effects"
+      ],
+      "sourceCandidateCompared": true,
+      "minimalDeltaVerified": true,
+      "unauthorizedChanges": [],
+      "preserved": {
+        "identity": true,
+        "faceVisibilityOrCovering": true,
+        "bodyProportions": true,
+        "silhouette": true,
+        "clothingConstruction": true,
+        "paletteAndMaterials": true,
+        "equipmentTypeAndConstruction": true,
+        "unaffectedPose": true
+      }
+    },
+    "hardGates": {
+      "squareCanvas": true,
+      "uniformBackground": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "completeSilhouette": true,
+      "safePadding": true,
+      "rightFacing": true
+    },
+    "palette": {
+      "dominantMaterial": "Confirmed in the side-by-side Review Desk inspection",
+      "secondaryGarment": "Confirmed in the side-by-side Review Desk inspection",
+      "metalFinish": "Confirmed in the side-by-side Review Desk inspection",
+      "leatherOrWood": "Confirmed in the side-by-side Review Desk inspection",
+      "accentRole": "Confirmed in the side-by-side Review Desk inspection",
+      "lighting": "Neutral lighting confirmed in Review Desk",
+      "localColorRamps": [
+        "Primary local colors preserved",
+        "Secondary local colors preserved"
+      ]
+    },
+    "equipment": null,
+    "diversity": {
+      "armoredHumanoid": false,
+      "comparableWave": false,
+      "recentComparables": [],
+      "noComparableReason": "Candidate was compared directly with its authorized source in Review Desk",
+      "structuralDifferences": [],
+      "bodyOnlySilhouetteDistinct": true,
+      "paletteDifferences": [],
+      "paletteAndLightingDistinct": true
+    },
+    "crops": {
+      "face": [
+        {
+          "label": "Face",
+          "left": 0.3,
+          "top": 0.04,
+          "width": 0.4,
+          "height": 0.3
+        }
+      ],
+      "hands": [
+        {
+          "label": "Hands and equipment",
+          "left": 0.08,
+          "top": 0.25,
+          "width": 0.84,
+          "height": 0.45
+        }
+      ],
+      "equipmentJoins": [],
+      "feet": [
+        {
+          "label": "Feet",
+          "left": 0.2,
+          "top": 0.68,
+          "width": 0.6,
+          "height": 0.3
+        }
+      ]
+    },
+    "visualReview": {
+      "completeAnatomy": true,
+      "handsAndFeetVerified": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "readableAt256": true,
+      "noCropping": true,
+      "distinctFromComparables": true,
+      "rightFacingVerified": true
+    }
+  },
+  "promotedAt": "2026-08-02T12:17:24.884Z"
+}

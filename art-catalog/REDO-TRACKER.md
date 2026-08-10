@@ -296,6 +296,31 @@ not replace the user-review status tables above.
 | 2026-07-30T15:19:32.081Z | `rnd_ed68ff5784778fc9bd1ba19f` | `rnd_01e5ff20d7481b2605d28d6f` | `public/art/enemies/blood-priestesses-batch-39/drafts/07-ivory-lance-sepulchral-votary.png` | `rnd_ed68ff5784778fc9bd1ba19f` |
 | 2026-07-30T15:30:35.491Z | `rnd_7f7438d945d008e9b4b0a913` | `rnd_6a0c867949f48deb4d4193c4` | `public/art/enemies/convent-tormentors-batch-30/drafts/11-ivory-axe-abbess.png` | `rnd_7f7438d945d008e9b4b0a913` |
 | 2026-07-30T15:30:35.494Z | `rnd_1ae4f246cae548a0a9f4cf63` | `rnd_0d3df6952841fa33d2ebfb0a` | `public/art/enemies/crown-of-thorns-female-knights-batch-38/drafts/01-briar-point-justiciar.png` | `rnd_1ae4f246cae548a0a9f4cf63` |
+| 2026-08-02T12:13:27.666Z | `rnd_3a772942133fac727eb7f7d0` | `rnd_9f0258cda2d8bcd1f736bd38` | `public/art/enemies/wealthy-spanish-vampire-wives-batch-46/02-velvet-rapier-condesa.png` | `rnd_3a772942133fac727eb7f7d0` |
+| 2026-08-02T12:17:24.882Z | `rnd_d5321b2c21a1f020b4b8e25e` | `rnd_e4f550cecba279c45ee01bb5` | `public/art/enemies/combat-magic-batch-04/03-beetle-hexer.png` | `rnd_d5321b2c21a1f020b4b8e25e` |
+| 2026-08-02T23:17:32.167Z | `rnd_fb706501c7c51d8c0951ca7f` | `rnd_083b15a53c9b75caffe17e80` | `public/art/enemies/convent-horrors-batch-37/30-powder-blue-burgundy-rosary-mourner.png` | `rnd_fb706501c7c51d8c0951ca7f` |
+| 2026-08-02T23:18:51.226Z | `rnd_9947848753a285e902a63dce` | `rnd_afc2122d456c3757ab380567` | `public/art/enemies/skeleton-feudal-court-batch-39/12-three-arch-floodroad-king.png` | `rnd_9947848753a285e902a63dce` |
+| 2026-08-02T23:20:01.944Z | `rnd_e8d822fb9853e4a390940706` | `rnd_8805078f33aacce5c3d4a46d` | `public/art/npcs/sex-workers-v01/03-fan-veiled-courtesan.png` | `rnd_e8d822fb9853e4a390940706` |
+| 2026-08-02T23:21:36.097Z | `rnd_579de505c9ffd80eb556b301` | `rnd_4a61f86939ed2e8272aaec19` | `public/art/enemies/short-haired-inquisitors-batch-48/10-ash-crossbow-exactor.png` | `rnd_579de505c9ffd80eb556b301` |
+| 2026-08-02T23:21:45.354Z | `rnd_5af432fcd64a6167af8981de` | `rnd_31f0c70afc084d5fbfb94124` | `public/art/enemies/experimental-haired-inquisitors-batch-51/03-raven-coil-prosecutor.png` | `rnd_5af432fcd64a6167af8981de` |
+| 2026-08-02T23:21:56.933Z | `rnd_a0fa3c8a8b370f5f7ee36807` | `rnd_9ebbdf17cb3d54b28887fbee` | `public/art/enemies/experimental-haired-inquisitors-batch-51/01-ivory-cascade-interrogator.png` | `rnd_a0fa3c8a8b370f5f7ee36807` |
+| 2026-08-02T23:22:15.146Z | `rnd_9ab1ad13ef9c01f177bc2f43` | `rnd_b127ffd9ea50c3f354543938` | `public/art/enemies/experimental-haired-inquisitors-batch-51/02-crimson-crown-castellan.png` | `rnd_9ab1ad13ef9c01f177bc2f43` |
+| 2026-08-02T23:22:37.926Z | `rnd_7ab89f5cfeb172a6a02c3bcd` | `rnd_c257e485cd4368bfd06f0fe3` | `public/art/enemies/crown-of-thorns-female-knights-batch-38/06-thorn-mace-custodian.png` | `rnd_7ab89f5cfeb172a6a02c3bcd` |
+| 2026-08-02T23:22:47.831Z | `rnd_a2b13b1c99baf3731ae4b598` | `rnd_d83b8139859f3f71ff275ef8` | `public/art/enemies/crown-of-thorns-female-knights-batch-38/03-root-hammer-penitent.png` | `rnd_a2b13b1c99baf3731ae4b598` |
+| 2026-08-02T23:22:57.697Z | `rnd_244c53e40801eb99c100e57a` | `rnd_621cf2bc84ac703d3634d587` | `public/art/enemies/crown-of-thorns-female-knights-batch-38/08-crown-pick-adjudicator.png` | `rnd_244c53e40801eb99c100e57a` |
+| 2026-08-02T23:23:06.980Z | `rnd_4d8a61bba27459567914cf84` | `rnd_3dc255bb761cb81b08b68a98` | `public/art/enemies/crown-of-thorns-female-knights-batch-38/09-chain-thorn-penitent.png` | `rnd_4d8a61bba27459567914cf84` |
+| 2026-08-02T23:23:46.807Z | `rnd_487b73fed236d41d7fb57edf` | `rnd_3f240f1fcbe8adf3d9b9012d` | `public/art/enemies/convent-horrors-batch-37/24-lavender-ash-rose-war-pick-matron.png` | `rnd_487b73fed236d41d7fb57edf` |
+| 2026-08-02T23:24:04.363Z | `rnd_ef5f73fdd8d55932795d9fca` | `rnd_ab307e60d2e7bc73fa8686f2` | `public/art/enemies/convent-horrors-batch-37/22-plum-amber-longsword-votary.png` | `rnd_ef5f73fdd8d55932795d9fca` |
+| 2026-08-02T23:24:30.887Z | `rnd_ca81de08aef3e864c44c7846` | `rnd_637b31a72590ab5b5733b0f6` | `public/art/enemies/convent-horrors-batch-37/19-white-stake-vampire-sister.png` | `rnd_ca81de08aef3e864c44c7846` |
+| 2026-08-02T23:24:53.345Z | `rnd_c338fe06bd79126af6968297` | `rnd_f15c8e20ffbed714283dbe52` | `public/art/enemies/convent-horrors-batch-37/09-cinder-sickle-widow.png` | `rnd_c338fe06bd79126af6968297` |
+| 2026-08-02T23:27:23.693Z | `rnd_5c78cfadbe60bab0a632fe88` | `rnd_5ece063a9e2a19fea4860d16` | `public/art/enemies/catholic-evil-white-priests-batch-41/02-blackwater-aspergillist.png` | `rnd_5c78cfadbe60bab0a632fe88` |
+| 2026-08-02T23:27:30.618Z | `rnd_ddb1b873a7b68087f826cae7` | `rnd_3a9c757208b282ca92e32261` | `public/art/enemies/blood-priestesses-batch-39/05-blood-diamond-hierophant.png` | `rnd_ddb1b873a7b68087f826cae7` |
+| 2026-08-02T23:29:55.453Z | `rnd_ff4978bdb7723896f71abf9c` | `rnd_2a737b2f09a676cb89e5ba89` | `public/art/enemies/forest-elf-sword-knights-batch-35/18-moss-bob-pursuit-duelist.png` | `rnd_ff4978bdb7723896f71abf9c` |
+| 2026-08-02T23:31:34.720Z | `rnd_e03268e8fd6d311097afe6ce` | `rnd_1e7b17c640f9ec008556fa02` | `public/art/enemies/forest-elf-sword-knights-batch-35/02-fern-mantle-longsword-knight-variant-01.png` | — |
+| 2026-08-02T23:56:57.408Z | `rnd_614a1a9453ef5266d4fd5785` | `rnd_26abbcf69fba3f6a5273ce73` | `public/art/enemies/crowned-thorn-mistresses-batch-46/03-crown-barong-chatelaine.png` | `rnd_614a1a9453ef5266d4fd5785` |
+| 2026-08-02T23:58:05.778Z | `rnd_6ecf94f7b4023416af651e16` | `rnd_7b7a60674ad77bf4da3cf643` | `public/art/enemies/wealthy-demonic-vampires-batch-38/04-reliquary-dowager.png` | `rnd_6ecf94f7b4023416af651e16` |
+| 2026-08-02T23:58:56.103Z | `rnd_adcce7ece7764a4e439cea88` | `rnd_de3d75d44d5d938a978a1f41` | `public/art/enemies/veiled-warrior-nuns-batch-37/10-dove-black-battle-axe-witness.png` | `rnd_adcce7ece7764a4e439cea88` |
+| 2026-08-03T03:51:01.835Z | `rnd_7f6ca33ca37706286d01f6a4` | `rnd_29ccf193dccfbef7fa393d58` | `public/art/enemies/forest-elf-sword-knights-batch-35/17-willow-braid-counterguard.png` | `rnd_7f6ca33ca37706286d01f6a4` |
 <!-- REDO-ACTIVATION-LOG:END -->
 
 ## Status values

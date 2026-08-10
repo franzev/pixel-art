@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "renderGateVersion": 2,
+  "assetHash": "e927ec7317da8c9c264b21f0e2db33a395753e4bc09b1297a619cafeca30fce6",
+  "destination": "npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden.png",
+  "passedAt": "2026-08-02T23:19:21.453Z",
+  "mode": "isolated",
+  "imageChecks": [
+    {
+      "key": "image.png",
+      "pass": true,
+      "detail": "Image must be a PNG."
+    },
+    {
+      "key": "image.square",
+      "pass": true,
+      "detail": "Image must be exactly square; received 1254 × 1254."
+    },
+    {
+      "key": "image.opaque",
+      "pass": true,
+      "detail": "Isolated catalog renders must be fully opaque."
+    }
+  ],
+  "imageMetrics": {
+    "width": 1254,
+    "height": 1254,
+    "mode": "isolated",
+    "opaqueRatio": 1
+  },
+  "redoSourceChecks": [
+    {
+      "key": "redo.source-file",
+      "pass": true,
+      "detail": "Bound to public/art/npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden.png."
+    },
+    {
+      "key": "redo.source-render-id",
+      "pass": true,
+      "detail": "Expected rnd_9a878421623e46e2d8f16eb5; resolved rnd_9a878421623e46e2d8f16eb5."
+    }
+  ],
+  "redoSourceHash": "9a878421623e46e2d8f16eb50c9179c2bc6f820cf20e0bc4d79d7fe7dda4319a",
+  "plan": {
+    "schemaVersion": 2,
+    "reviewSource": "review-desk-v1",
+    "asset": {
+      "category": "npcs",
+      "collection": "sex-workers-v01",
+      "slug": "26-ruined-salon-axe-warden",
+      "mode": "isolated",
+      "humanoid": true,
+      "directionalSubject": true,
+      "facingDirection": "screen-right",
+      "nonDirectionalReason": ""
+    },
+    "redo": {
+      "isRedo": true,
+      "sourcePath": "npcs/sex-workers-v01/drafts/26-ruined-salon-axe-warden.png",
+      "sourceRenderId": "rnd_9a878421623e46e2d8f16eb5",
+      "authorizedChanges": [
+        "Address the saved review feedback"
+      ],
+      "sourceCandidateCompared": true,
+      "minimalDeltaVerified": true,
+      "unauthorizedChanges": [],
+      "preserved": {
+        "identity": true,
+        "faceVisibilityOrCovering": true,
+        "bodyProportions": true,
+        "silhouette": true,
+        "clothingConstruction": true,
+        "paletteAndMaterials": true,
+        "equipmentTypeAndConstruction": true,
+        "unaffectedPose": true
+      }
+    },
+    "hardGates": {
+      "squareCanvas": true,
+      "uniformBackground": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "completeSilhouette": true,
+      "safePadding": true,
+      "rightFacing": true
+    },
+    "palette": {
+      "dominantMaterial": "Confirmed in the side-by-side Review Desk inspection",
+      "secondaryGarment": "Confirmed in the side-by-side Review Desk inspection",
+      "metalFinish": "Confirmed in the side-by-side Review Desk inspection",
+      "leatherOrWood": "Confirmed in the side-by-side Review Desk inspection",
+      "accentRole": "Confirmed in the side-by-side Review Desk inspection",
+      "lighting": "Neutral lighting confirmed in Review Desk",
+      "localColorRamps": [
+        "Primary local colors preserved",
+        "Secondary local colors preserved"
+      ]
+    },
+    "equipment": null,
+    "diversity": {
+      "armoredHumanoid": false,
+      "comparableWave": false,
+      "recentComparables": [],
+      "noComparableReason": "Candidate was compared directly with its authorized source in Review Desk",
+      "structuralDifferences": [],
+      "bodyOnlySilhouetteDistinct": true,
+      "paletteDifferences": [],
+      "paletteAndLightingDistinct": true
+    },
+    "crops": {
+      "face": [
+        {
+          "label": "Face",
+          "left": 0.3,
+          "top": 0.04,
+          "width": 0.4,
+          "height": 0.3
+        }
+      ],
+      "hands": [
+        {
+          "label": "Hands and equipment",
+          "left": 0.08,
+          "top": 0.25,
+          "width": 0.84,
+          "height": 0.45
+        }
+      ],
+      "equipmentJoins": [],
+      "feet": [
+        {
+          "label": "Feet",
+          "left": 0.2,
+          "top": 0.68,
+          "width": 0.6,
+          "height": 0.3
+        }
+      ]
+    },
+    "visualReview": {
+      "completeAnatomy": true,
+      "handsAndFeetVerified": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "readableAt256": true,
+      "noCropping": true,
+      "distinctFromComparables": true,
+      "rightFacingVerified": true
+    }
+  }
+}

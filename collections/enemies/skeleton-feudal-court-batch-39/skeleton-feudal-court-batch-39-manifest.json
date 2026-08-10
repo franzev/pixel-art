@@ -101,7 +101,12 @@
       "category": "king",
       "name": "Three-Arch Floodroad King",
       "slug": "three-arch-floodroad-king",
-      "render": "public/art/enemies/skeleton-feudal-court-batch-39/drafts/12-three-arch-floodroad-king.png"
+      "render": "public/art/enemies/skeleton-feudal-court-batch-39/12-three-arch-floodroad-king.png",
+      "status": "unreviewed",
+      "review_status": "redo-awaiting-review",
+      "sha256": "afc2122d456c3757ab38056765dadbd5b38e15588bcd935224f115c419254cbc",
+      "render_id": "rnd_afc2122d456c3757ab380567",
+      "source_feedback_render_id": "rnd_9947848753a285e902a63dce"
     },
     {
       "id": 13,

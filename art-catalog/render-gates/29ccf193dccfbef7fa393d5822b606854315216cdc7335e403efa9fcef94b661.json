@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "renderGateVersion": 2,
+  "assetHash": "29ccf193dccfbef7fa393d5822b606854315216cdc7335e403efa9fcef94b661",
+  "destination": "enemies/forest-elf-sword-knights-batch-35/17-willow-braid-counterguard.png",
+  "passedAt": "2026-08-03T03:50:54.403Z",
+  "mode": "isolated",
+  "imageChecks": [
+    {
+      "key": "image.png",
+      "pass": true,
+      "detail": "Image must be a PNG."
+    },
+    {
+      "key": "image.square",
+      "pass": true,
+      "detail": "Image must be exactly square; received 1254 × 1254."
+    },
+    {
+      "key": "image.opaque",
+      "pass": true,
+      "detail": "Isolated catalog renders must be fully opaque."
+    }
+  ],
+  "imageMetrics": {
+    "width": 1254,
+    "height": 1254,
+    "mode": "isolated",
+    "opaqueRatio": 1
+  },
+  "redoSourceChecks": [
+    {
+      "key": "redo.source-file",
+      "pass": true,
+      "detail": "Bound to public/art/enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard.png."
+    },
+    {
+      "key": "redo.source-render-id",
+      "pass": true,
+      "detail": "Expected rnd_7f6ca33ca37706286d01f6a4; resolved rnd_7f6ca33ca37706286d01f6a4."
+    }
+  ],
+  "redoSourceHash": "7f6ca33ca37706286d01f6a41ce287ddf8fbfab8e1b5478be6b8e0786d648314",
+  "plan": {
+    "schemaVersion": 2,
+    "reviewSource": "review-desk-v1",
+    "asset": {
+      "category": "enemies",
+      "collection": "forest-elf-sword-knights-batch-35",
+      "slug": "17-willow-braid-counterguard",
+      "mode": "isolated",
+      "humanoid": true,
+      "directionalSubject": true,
+      "facingDirection": "screen-right",
+      "nonDirectionalReason": ""
+    },
+    "redo": {
+      "isRedo": true,
+      "sourcePath": "enemies/forest-elf-sword-knights-batch-35/drafts/17-willow-braid-counterguard.png",
+      "sourceRenderId": "rnd_7f6ca33ca37706286d01f6a4",
+      "authorizedChanges": [
+        "Wrong proportions",
+        "Weapon too short"
+      ],
+      "sourceCandidateCompared": true,
+      "minimalDeltaVerified": true,
+      "unauthorizedChanges": [],
+      "preserved": {
+        "identity": true,
+        "faceVisibilityOrCovering": true,
+        "bodyProportions": true,
+        "silhouette": true,
+        "clothingConstruction": true,
+        "paletteAndMaterials": true,
+        "equipmentTypeAndConstruction": true,
+        "unaffectedPose": true
+      }
+    },
+    "hardGates": {
+      "squareCanvas": true,
+      "uniformBackground": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "completeSilhouette": true,
+      "safePadding": true,
+      "rightFacing": true
+    },
+    "palette": {
+      "dominantMaterial": "Confirmed in the side-by-side Review Desk inspection",
+      "secondaryGarment": "Confirmed in the side-by-side Review Desk inspection",
+      "metalFinish": "Confirmed in the side-by-side Review Desk inspection",
+      "leatherOrWood": "Confirmed in the side-by-side Review Desk inspection",
+      "accentRole": "Confirmed in the side-by-side Review Desk inspection",
+      "lighting": "Neutral lighting confirmed in Review Desk",
+      "localColorRamps": [
+        "Primary local colors preserved",
+        "Secondary local colors preserved"
+      ]
+    },
+    "equipment": null,
+    "diversity": {
+      "armoredHumanoid": false,
+      "comparableWave": false,
+      "recentComparables": [],
+      "noComparableReason": "Candidate was compared directly with its authorized source in Review Desk",
+      "structuralDifferences": [],
+      "bodyOnlySilhouetteDistinct": true,
+      "paletteDifferences": [],
+      "paletteAndLightingDistinct": true
+    },
+    "crops": {
+      "face": [
+        {
+          "label": "Face",
+          "left": 0.3,
+          "top": 0.04,
+          "width": 0.4,
+          "height": 0.3
+        }
+      ],
+      "hands": [
+        {
+          "label": "Hands and equipment",
+          "left": 0.08,
+          "top": 0.25,
+          "width": 0.84,
+          "height": 0.45
+        }
+      ],
+      "equipmentJoins": [],
+      "feet": [
+        {
+          "label": "Feet",
+          "left": 0.2,
+          "top": 0.68,
+          "width": 0.6,
+          "height": 0.3
+        }
+      ]
+    },
+    "visualReview": {
+      "completeAnatomy": true,
+      "handsAndFeetVerified": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "readableAt256": true,
+      "noCropping": true,
+      "distinctFromComparables": true,
+      "rightFacingVerified": true
+    }
+  },
+  "promotedAt": "2026-08-03T03:51:01.840Z"
+}

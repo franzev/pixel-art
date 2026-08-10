@@ -88,8 +88,12 @@
     {
       "id": 10,
       "name": "Ash Crossbow Exactor",
-      "status": "draft",
-      "render": "public/art/enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor.png"
+      "status": "unreviewed",
+      "render": "public/art/enemies/short-haired-inquisitors-batch-48/10-ash-crossbow-exactor.png",
+      "review_status": "redo-awaiting-review",
+      "sha256": "4a61f86939ed2e8272aaec199f7dbdd747dea48488e8d91d3b031cd4b46a39b9",
+      "render_id": "rnd_4a61f86939ed2e8272aaec19",
+      "source_feedback_render_id": "rnd_579de505c9ffd80eb556b301"
     }
   ],
   "review_sheet": "art-catalog/review-sheets/enemies/short-haired-inquisitors-batch-48/drafts/short-haired-inquisitors-batch-48-wave-02-review-sheet.png",

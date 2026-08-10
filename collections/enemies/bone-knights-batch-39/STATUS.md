@@ -1,6 +1,39 @@
 # Bone Knights Batch 39 — Status
 
-Last updated: 2026-07-30
+Last updated: 2026-08-02
+
+## 2026-08-02 current-contract wave
+
+The user requested five new Bone Knight renders. Preflight, armor and palette
+matrices, equipment research, five exact prompts, and the first concept's
+correction prompts are recorded in `GENERATION-PROMPTS.md`.
+
+- Requested renders: 5
+- Current wave size: 5
+- Distinct concepts started: 1 of 5
+- Raw outputs generated and preserved: 5
+- Viable selected renders: 0
+- New Catalog renders: 0
+- Current state: blocked by repeated canonical-background failure
+
+All five outputs for **Capiz-Rib Mace Bailiff** were immediately preserved and
+indexed in History at:
+
+`archive/render-attempts/enemies/bone-knights-batch-39/01-capiz-rib-mace-bailiff/`
+
+Attempts 03–05 corrected the weapon to the required short, aligned, one-handed
+flanged mace with a visible grip and join. Every attempt still rendered a
+shaded or mottled near-black background instead of the required perfectly
+uniform `#171311` field. The fifth attempt is square at 1254 × 1254, but its
+corner samples are `[25,21,18]`, `[24,21,17]`, `[24,20,18]`, and `[25,22,19]`
+instead of identical `[23,19,17]` values.
+
+The remaining four concepts were not generated because the workflow requires
+the wave to stop after repeated background/palette-gate failures and rewrite
+the script before continuing. Two rewrites plus an exact flat `#171311`
+background reference did not resolve the generator behavior. No attempt was
+copied into `public/art/`, no render-gate receipt was written, and no new item
+was represented as viable, approved, retained, canonical, or production-ready.
 
 ## Current state
 

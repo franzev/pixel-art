@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "renderGateVersion": 2,
+  "assetHash": "4a61f86939ed2e8272aaec199f7dbdd747dea48488e8d91d3b031cd4b46a39b9",
+  "destination": "enemies/short-haired-inquisitors-batch-48/10-ash-crossbow-exactor.png",
+  "passedAt": "2026-08-02T23:21:28.829Z",
+  "mode": "isolated",
+  "imageChecks": [
+    {
+      "key": "image.png",
+      "pass": true,
+      "detail": "Image must be a PNG."
+    },
+    {
+      "key": "image.square",
+      "pass": true,
+      "detail": "Image must be exactly square; received 1254 × 1254."
+    },
+    {
+      "key": "image.opaque",
+      "pass": true,
+      "detail": "Isolated catalog renders must be fully opaque."
+    }
+  ],
+  "imageMetrics": {
+    "width": 1254,
+    "height": 1254,
+    "mode": "isolated",
+    "opaqueRatio": 1
+  },
+  "redoSourceChecks": [
+    {
+      "key": "redo.source-file",
+      "pass": true,
+      "detail": "Bound to public/art/enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor.png."
+    },
+    {
+      "key": "redo.source-render-id",
+      "pass": true,
+      "detail": "Expected rnd_579de505c9ffd80eb556b301; resolved rnd_579de505c9ffd80eb556b301."
+    }
+  ],
+  "redoSourceHash": "579de505c9ffd80eb556b3017b754580c8de2ee8b984fb3f0422562f594b8a23",
+  "plan": {
+    "schemaVersion": 2,
+    "reviewSource": "review-desk-v1",
+    "asset": {
+      "category": "enemies",
+      "collection": "short-haired-inquisitors-batch-48",
+      "slug": "10-ash-crossbow-exactor",
+      "mode": "isolated",
+      "humanoid": true,
+      "directionalSubject": true,
+      "facingDirection": "screen-right",
+      "nonDirectionalReason": ""
+    },
+    "redo": {
+      "isRedo": true,
+      "sourcePath": "enemies/short-haired-inquisitors-batch-48/drafts/10-ash-crossbow-exactor.png",
+      "sourceRenderId": "rnd_579de505c9ffd80eb556b301",
+      "authorizedChanges": [
+        "Wrong weapon design"
+      ],
+      "sourceCandidateCompared": true,
+      "minimalDeltaVerified": true,
+      "unauthorizedChanges": [],
+      "preserved": {
+        "identity": true,
+        "faceVisibilityOrCovering": true,
+        "bodyProportions": true,
+        "silhouette": true,
+        "clothingConstruction": true,
+        "paletteAndMaterials": true,
+        "equipmentTypeAndConstruction": true,
+        "unaffectedPose": true
+      }
+    },
+    "hardGates": {
+      "squareCanvas": true,
+      "uniformBackground": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "completeSilhouette": true,
+      "safePadding": true,
+      "rightFacing": true
+    },
+    "palette": {
+      "dominantMaterial": "Confirmed in the side-by-side Review Desk inspection",
+      "secondaryGarment": "Confirmed in the side-by-side Review Desk inspection",
+      "metalFinish": "Confirmed in the side-by-side Review Desk inspection",
+      "leatherOrWood": "Confirmed in the side-by-side Review Desk inspection",
+      "accentRole": "Confirmed in the side-by-side Review Desk inspection",
+      "lighting": "Neutral lighting confirmed in Review Desk",
+      "localColorRamps": [
+        "Primary local colors preserved",
+        "Secondary local colors preserved"
+      ]
+    },
+    "equipment": null,
+    "diversity": {
+      "armoredHumanoid": false,
+      "comparableWave": false,
+      "recentComparables": [],
+      "noComparableReason": "Candidate was compared directly with its authorized source in Review Desk",
+      "structuralDifferences": [],
+      "bodyOnlySilhouetteDistinct": true,
+      "paletteDifferences": [],
+      "paletteAndLightingDistinct": true
+    },
+    "crops": {
+      "face": [
+        {
+          "label": "Face",
+          "left": 0.3,
+          "top": 0.04,
+          "width": 0.4,
+          "height": 0.3
+        }
+      ],
+      "hands": [
+        {
+          "label": "Hands and equipment",
+          "left": 0.08,
+          "top": 0.25,
+          "width": 0.84,
+          "height": 0.45
+        }
+      ],
+      "equipmentJoins": [],
+      "feet": [
+        {
+          "label": "Feet",
+          "left": 0.2,
+          "top": 0.68,
+          "width": 0.6,
+          "height": 0.3
+        }
+      ]
+    },
+    "visualReview": {
+      "completeAnatomy": true,
+      "handsAndFeetVerified": true,
+      "noVisibleEffects": true,
+      "neutralColorBalance": true,
+      "readableAt256": true,
+      "noCropping": true,
+      "distinctFromComparables": true,
+      "rightFacingVerified": true
+    }
+  },
+  "promotedAt": "2026-08-02T23:21:36.099Z"
+}

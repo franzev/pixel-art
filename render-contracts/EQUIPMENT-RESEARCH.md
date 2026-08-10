@@ -158,6 +158,10 @@ Before a render can be presented or saved as viable:
 
 1. Compare the complete weapon profile with the authoritative full-profile
    reference.
+   For every component intended to be straight, place a temporary straight
+   reference line between its documented endpoints and inspect the entire
+   blade, shaft, haft, handle, barrel, or stock against it at full resolution
+   and 256 pixels. A prompt that requested straightness is not proof.
 2. Inspect a close crop of every hand-to-handle contact.
    For an oversized sword, the crop must show the guard, both complete hands,
    the full grip between them, and the pommel in one readable view.
@@ -170,6 +174,10 @@ Before a render can be presented or saved as viable:
 6. Reject an oversized sword immediately if any hand touches or appears to
    touch the blade, forte, or ricasso; crosses the guard; overlaps the other
    hand implausibly; or does not fit completely on the grip.
+7. Complete this gate immediately after archiving the current armed attempt.
+   Do not generate the next distinct concept in a wave while the current
+   weapon's straightness, scale, joins, and contacts remain failed or
+   unverified.
 
 Do not save or present a character whose body works but whose handle or grip is
 wrong. Regenerate the equipment or the complete character first.

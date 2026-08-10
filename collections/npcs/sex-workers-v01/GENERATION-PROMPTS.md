@@ -22,6 +22,46 @@ Constraints: one isolated adult character only; attractive but natural adult ana
 Avoid: nudity, visible nipples, transparent fabric, exposed groin, emphasized cleavage, lingerie construction, oversized breasts, extreme hourglass, wasp waist, exaggerated hips or buttocks, arched-back pin-up pose, fetishized camera angle, weapons, hand props, tattoos, scenery, shadow, frame, text, extra characters, extra limbs or fingers, visible spells, auras, particles, smoke, or green lighting.
 ```
 
+## Redo alternative wave 10 — 2026-08-02
+
+These are prompt-based regenerations from the original catalog images, not
+pixel edits. Every output was archived before selection. The chosen review
+candidates are the `-v03.png` files under `work/redo-staging/`.
+
+### 03 — Fan-Veiled Courtesan
+
+```text
+Create a square 1:1 full-body dark-fantasy RPG character sprite in deliberate hand-authored pixel art. Preserve the same adult woman's visible skin tone and undertone, facial identity, black hair, fan-veiled costume, injuries, bare feet, palette, and stance topology from the supplied source. This is a surgical regeneration, not a redesign or recast. Correct only the malformed feet and any lower-leg alignment necessary to support them: exactly two natural feet, five coherent toes per visible foot, aligned ankles, planted on one implied ground level, no duplicated heels, fused toes, or twisted joints. Keep the body mostly frontal in a shallow front three-quarter view turned only slightly toward screen-right, with both eyes, nose, mouth, and expression readable. Keep the full figure and fan inside safe margins. Use chunky intentional pixel clusters, crisp stepped edges, limited palette, controlled dithering only on the character, and no antialiasing, painterly brushwork, vector rendering, 3D rendering, or concept-art finish. Use a perfectly uniform flat solid warm near-black #171311 background with no texture, gradient, vignette, halo, glow, floor, shadow, scenery, particles, or text. No magic or visible spell effects. Final output must unmistakably remain pixel art.
+```
+
+### 15 — Long-Pipe Companion
+
+```text
+Create a square 1:1 full-body dark-fantasy RPG character sprite in deliberate hand-authored pixel art. Preserve the same adult woman's visible skin tone and undertone, face, hair, age, long-pipe courtesan costume, injuries, palette, body proportions, and recognizable stance from the source. This is a surgical regeneration, not a redesign or recast. Correct only the rejected arms and hands: exactly two anatomically connected arms with natural shoulder, elbow, wrist, and hand alignment; exactly five coherent fingers on each visible hand; one hand naturally grips the long pipe and the other remains separate from the body and clothing. Do not duplicate, fuse, hide, or dislocate limbs. Keep the subject mostly frontal in a shallow front three-quarter view turned only slightly toward screen-right. Show both eyes, nose, mouth, and expression; do not use a full profile or rear view. Keep the full figure and complete pipe inside safe margins. Use crisp hard pixel clusters, stepped edges, limited ramps, and controlled character-only dithering; no smoothing, painterly rendering, vector art, 3D rendering, or concept-art finish. Put the isolated subject on uniform flat solid #171311 with no texture, gradient, vignette, halo, glow, floor, shadow, scenery, particles, or text. No magic. Final output must unmistakably remain pixel art.
+```
+
+The first Long-Pipe output was archived because it faced screen-left. The
+selected retry used the same prompt plus: the nose, gaze, chin, and leading
+shoulder must point only slightly toward the right edge of the canvas while
+both eyes and the full camera-facing facial plane remain visible.
+
+### 27 — Iron-Bloom Mace Companion
+
+Equipment references: a conventional one-handed flanged mace, approximately
+53.5 cm overall, replaced the rejected unusual sword-like source weapon.
+
+```text
+Create a square 1:1 full-body dark-fantasy RPG character sprite in deliberate hand-authored pixel art. Image 1 is the authority for the same character and costume; Images 2 and 3 are equipment references only. This is a surgical regeneration, not a redesign or recast. Preserve the adult East Asian woman's visible warm light skin tone and undertone, facial identity, straight black hair with blunt bangs and high looped bun, age, tall slim build, tired expression, injuries, dried blood, dirty ivory torn blouse, black fitted corset, dark green-gray ripped skirt, bare feet, and overall stance topology from Image 1. Correct only the rejected weapon and any hand contact needed to hold it. Replace the strange sword-like object with one clearly readable conventional one-handed European flanged mace based on Images 2–3: approximately 53.5 cm overall, straight metal haft, wrapped grip, small pommel, and a compact symmetrical multi-flanged steel striking head. The mace must not resemble a sword, club, staff, flower, torch, or oversized polearm. Her right hand wraps naturally around the grip below the head; all five fingers are anatomically coherent; no finger touches the striking head. Keep the entire weapon and body visible with safe margin, clean non-overlapping silhouette, and no duplicated limbs or equipment. Pose the body mostly front-facing in a shallow front three-quarter view turned only slightly toward screen-right. Keep the camera-facing facial plane readable with both eyes, nose, mouth, and expression visible; do not use a full side profile, rear view, or far-cheek sliver. Let gaze and weapon direction imply screen-right. Use chunky intentional pixel clusters, crisp stepped edges, limited palette, controlled dithering only on the character, and no antialiasing, painterly brushwork, smooth vector rendering, 3D rendering, or concept-art finish. Put the isolated character on a perfectly uniform flat solid near-black warm background #171311 with no texture, no gradient, no vignette, no halo, no glow, no floor, no shadow, no scenery, no particles, and no text. No magic or visible spell effects. Final output must unmistakably remain pixel art.
+```
+
+### 26 — Ruined-Salon Axe Warden
+
+Equipment reference: Persian axe, approximately 57.2 cm overall.
+
+```text
+Create a square 1:1 full-body dark-fantasy RPG character sprite in deliberate hand-authored pixel art. Image 1 is the authority for the same character, costume, injuries, and overall pose; Images 2 and 3 are equipment references only. This is a surgical correction, not a redesign or recast. Preserve the adult Japanese–Filipina woman's visible warm light-medium skin tone and undertone, facial identity, black hair in a damaged tied bun, age, slim survivor build, weary expression, dried blood and injuries, torn red-black-tan ruined salon layers, exposed shoulder, bare feet, and recognizable stance from Image 1. Correct only the rejected axe depth ordering, grip, and any anatomy necessary for clean contact. Render one historically coherent Persian axe based on Images 2–3, approximately 57.2 cm overall: a short patterned straight haft with alternating dark and ochre inlay, a compact steel socket, and one broad downward-curving crescent blade. Her hand must wrap naturally around the lower haft with coherent fingers. Keep the complete axe entirely outside and in front of the body silhouette: no blade or haft passing behind then mysteriously emerging through a skirt, leg, arm, or hand; no tangencies that merge the weapon with clothing. Angle the axe down toward screen-right with the blade fully visible in clear negative space beside the lower body. Include exactly one axe and no extra weapons. Keep the entire character and weapon inside frame with safe margin. Pose the body mostly front-facing in a shallow front three-quarter view, turned only slightly toward screen-right. Show both eyes, nose, mouth, and expression; never a full right profile, rear three-quarter view, back of head, or far-cheek sliver. Gaze, leading foot, and axe may imply screen-right. Use chunky intentional pixel clusters, crisp stepped edges, a limited palette, controlled dithering only on the character, and no antialiasing, painterly brushwork, smooth vector rendering, 3D rendering, or concept-art finish. Isolate the subject on a perfectly uniform flat solid near-black warm background #171311 with no texture, gradient, vignette, glow, halo, floor, shadow, scenery, particles, or text. No magic or visible spell effects. Final output must unmistakably remain pixel art.
+```
+
 ### 17 — Jade-Sash Songstress
 
 Reference image: `public/art/npcs/sex-workers-v01/drafts/07-tambourine-house-dancer.png` is a visual reference for crisp pixel treatment, broad value organization, full-body scale, and warm near-black isolation only. Do not copy its face, pose, costume, prop, or silhouette.

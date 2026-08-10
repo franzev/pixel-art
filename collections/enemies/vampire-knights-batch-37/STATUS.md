@@ -9,7 +9,37 @@
 > prohibited unless explicitly requested. This overrides older facing notes
 > below for future renders without rewriting historical outcomes.
 
-Last updated: 2026-07-30
+Last updated: 2026-08-02
+
+## 2026-08-02 generation continuation
+
+Five new concepts (16–20) were designed and their exact prompts, structural
+matrix, identity matrix, palette matrix, and equipment research were recorded
+in `GENERATION-PROMPTS.md`. One first attempt was generated and preserved for
+each concept. Concept 16 received two additional full-description
+regenerations.
+
+No new render entered `public/art/`: every first attempt failed the executable
+exact-`#171311` background-border gate, and both Concept 16 retries failed the
+same objective check even after the active reference was removed and an exact
+flat background swatch was supplied. The wave is paused before catalog saving.
+All raw results remain ordered under
+`archive/render-attempts/enemies/vampire-knights-batch-37/` and carry no review,
+approval, retention, or canonical status.
+
+The user subsequently directed that this recent wave must remain saved and
+must not be replaced. Concepts 16–20 and all seven attempts therefore remain
+preserved and indexed in History exactly as generated. No replacement wave is
+authorized. The user's requested correction is future-facing: generic vampire-
+knight briefs must not automatically become all-woman waves, and weapon
+straightness must pass a per-attempt visual gate before the next armed concept
+is generated. See `REJECTION-NOTES.md`.
+
+The user also requires immediate web-gallery availability for future work.
+After every generation call, save and index the raw PNG and verify it in the
+gallery's History view before inspection, retry, or the next generation call.
+Do not wait until the wave is complete. A later QA-passing selection may enter
+Catalog through the normal render gate; raw History visibility is immediate.
 
 ## Current state
 

@@ -62,8 +62,12 @@
     {
       "id": 5,
       "name": "Sealed-Vessel Mother Superior",
-      "status": "draft",
-      "render": "public/art/enemies/blood-priestesses-batch-39/drafts/05-sealed-vessel-mother-superior.png"
+      "status": "unreviewed",
+      "render": "public/art/enemies/blood-priestesses-batch-39/05-blood-diamond-hierophant.png",
+      "review_status": "redo-awaiting-review",
+      "sha256": "3a9c757208b282ca92e3226113d62f0e47513dc442a8e437073afa8ac2e82a0d",
+      "render_id": "rnd_3a9c757208b282ca92e32261",
+      "source_feedback_render_id": "rnd_ddb1b873a7b68087f826cae7"
     },
     {
       "id": 6,

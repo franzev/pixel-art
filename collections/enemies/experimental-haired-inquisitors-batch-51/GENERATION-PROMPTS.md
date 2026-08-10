@@ -42,6 +42,20 @@ Mood and palette: severe, cold, judicial, weathered; black iron, charcoal, ink b
 Avoid: extra characters, extra anatomy, weapons, firearms, ammunition, shields, books, scenery, text, logos, watermarks, green background or tint, visible spells, auras, sigils, runes, glow, smoke, droplets, threads, wisps, particles, crowns, halos, helmets, veils, buzz cuts, shaved sides, mohawks, neon or multicolor hair, copied copyrighted design.
 ```
 
+## Redo alternative wave 10 — 2026-08-02
+
+### 05 — Gilt Cable Justiciar
+
+Source feedback: `looks masculine`. This prompt treats the result as the same
+woman and preserves age, skin, hair, and costume rather than recasting her.
+
+```text
+Create a square 1:1 full-body dark-fantasy RPG enemy sprite in deliberate hand-authored pixel art. The reference image is the sole authority for the same character. This is a surgical facial correction, not a redesign or recast. Preserve this early-fifties adult woman's visible fair warm skin tone and undertone, culturally specific appearance, age, stern identity, honey-gold hair arranged as a braided coronet plus exactly two enormous rope-like braids falling to hip length, black fluted plate armor, old-gold gorget and trim, ivory vertical panels, brown mantle, gloves, boots, long narrow body proportions, and calm standing pose. Address only the rejected masculine facial read while retaining her age and severity: give her a clearly adult feminine facial structure with a slightly narrower jaw and chin, less heavy brow ridge, natural cheek and lip structure, and no beard, stubble, or masculinized neck. Do not make her young, glamorous, soft, or generically different. Preserve recognizable eyes, nose, expression, hairstyle, clothing layout, armor silhouette, and color palette. Keep coherent anatomy and exactly two arms, two hands, two legs, and two braids. Pose the body mostly frontal in a shallow front three-quarter view turned only slightly toward screen-right. Keep both eyes, nose, mouth, and full expression readable; do not use a complete side profile, rear three-quarter view, back-of-head view, or far-cheek sliver. Let her gaze and leading shoulder imply screen-right. Show the whole body with safe margin and no cropping. Use chunky intentional pixel clusters, crisp stepped edges, limited palette, controlled dithering only on the character, and no antialiasing, painterly brushwork, smooth vector rendering, 3D rendering, or concept-art finish. Place the isolated figure on a perfectly uniform flat solid near-black warm background #171311 with no texture, gradient, vignette, glow, halo, floor, shadow, scenery, particles, or text. No weapon, magic, or visible spell effects. Final output must unmistakably remain pixel art.
+```
+
+Selected candidate:
+`work/redo-staging/enemies/experimental-haired-inquisitors-batch-51/drafts/05-gilt-cable-justiciar-v03.png`.
+
 ## 02 — Crimson Crown Castellan
 
 ```text

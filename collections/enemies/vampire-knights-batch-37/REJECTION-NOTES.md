@@ -1,6 +1,33 @@
 # Vampire Knights Batch 37 — Rejection Notes
 
-Last updated: 2026-07-30
+Last updated: 2026-08-02
+
+## 2026-08-02 direct correction — preserve this wave, fix future behavior
+
+The user explicitly directed that the recent Concepts 16–20 wave remain saved
+and must not be replaced or deleted. Its seven raw attempts stay preserved and
+indexed in History. This instruction does not approve their weapon geometry,
+backgrounds, or catalog status; it fixes their retention state.
+
+The user also corrected two future-generation failures:
+
+- The brief `5 distinct vampire knights` was gender-neutral. Rendering all five
+  as women was an unjustified inheritance from this collection's older
+  feminine waves. Do not treat the all-woman Concepts 16–20 result as a future
+  gender rule. A future gender-neutral vampire-knight wave must use a mixed
+  adult cast unless the user explicitly requests one gender or explicitly asks
+  to continue a gendered wave.
+- Existing Markdown already prohibited bent handles and shafts, but prompt
+  compliance was incorrectly treated as sufficient. After archiving each
+  future armed attempt, inspect weapon straightness with an endpoint-to-endpoint
+  reference line, plus focused handle and join crops, before generating the
+  next distinct concept. Any visible bow, kink, offset, malformed join,
+  shortened weapon, or unverifiable grip rejects that attempt and requires a
+  retry of the same concept.
+
+Raw attempt preservation is not candidate approval. Keep failed attempts in
+History, label them as failures in collection records, and never call them
+viable or catalog-ready.
 
 ## Direct user feedback
 

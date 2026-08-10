@@ -991,3 +991,19 @@ All nine final candidates visually retain their source identities and read
 slightly toward screen-right without becoming side profiles. They remain
 staged for review rather than activated: the generator outputs are square and
 opaque, but their border pixels are not uniformly exact `#171311`.
+
+## Redo alternative wave 10 — 2026-08-02
+
+### 30 — Powder-Blue Burgundy Rosary Mourner
+
+The source rejection was `too tall`. Attempts 02 and 03 were archived but not
+selected: attempt 02 remained too elongated and faced screen-left; attempt 03
+improved the proportions but retained the wrong directional bias. Attempt 04
+is the selected review candidate.
+
+```text
+Create a square 1:1 full-body dark-fantasy RPG convent-horror enemy sprite in deliberate hand-authored pixel art. Re-render the same adult mourner from the reference without recasting or redesigning her. Preserve her fair cool visible skin and undertone, sad mature face, dirty-ivory hood and short cape, powder-blue broad-sleeved robe, burgundy center panel, one brown rosary loop and one cross in her right hand, bare feet, and worn muted palette. Correct her stretched height: make the visible figure about 7.5 heads tall with a comparatively larger natural-sized head, compact normal torso, ordinary arm length, ordinary thigh and shin length, shorter robe, and both feet grounded together. Exactly two coherent arms, hands, legs, and feet; one rosary; one cross. ORIENTATION IS MANDATORY: she is looking toward the viewer's RIGHT, the right edge of the image, the direction indicated by >>>. Her pupils gaze to canvas-right. Her nose tip is displaced slightly to the RIGHT of the centerline of her face. Her chin turns slightly right. The visible camera-facing left cheek is broader while her right cheek recedes toward the right edge. Her upper chest and leading shoulder also rotate a few degrees toward canvas-right. Despite this, keep the angle shallow and mostly frontal: show both eyes, both eyebrows, nose, mouth, and expression. Do not face canvas-left, do not mirror this orientation, do not use a full profile, and do not show the back of her head. Keep the whole figure, robe, rosary, cross, and feet within safe margins. Use chunky intentional pixel clusters, crisp stepped edges, limited palette, and controlled dithering only on the subject; no antialiasing, painterly brushwork, smooth vector art, 3D render, or concept-art finish. Use a perfectly uniform flat solid near-black warm #171311 background: no texture, gradient, vignette, halo, glow, floor, shadow, scenery, particles, or text. No magic or visible spell effects. Final output must unmistakably remain pixel art.
+```
+
+Selected candidate:
+`work/redo-staging/enemies/convent-horrors-batch-37/drafts/30-powder-blue-burgundy-rosary-mourner-v03.png`.

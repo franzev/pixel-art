@@ -1,7 +1,9 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 import {
   canonicalFilename,
+  receiptDestination,
   stagedCandidateTarget,
   validateRedoReceiptBinding,
   variantFilename,
@@ -25,6 +27,29 @@ test("staged redo paths map directly to canonical catalog targets", () => {
     ),
     /public\/art\/enemies\/blood-priestesses-batch-39\/04-oxblood-quarrel-canoness\.png$/,
   );
+});
+
+test("activation receipts use catalog-relative destinations", () => {
+  assert.equal(
+    receiptDestination(
+      "/repo/public/art/enemies/batch/01-candidate.png",
+      "/repo",
+    ),
+    "enemies/batch/01-candidate.png",
+  );
+});
+
+test("activation publishes the receipt before exposing the catalog image", async () => {
+  const source = await readFile(
+    new URL("../scripts/activate-redo.mjs", import.meta.url),
+    "utf8",
+  );
+  const receiptWrite = source.indexOf(
+    "await writeAtomic(receiptUpdate.file, receiptUpdate.next)",
+  );
+  const imageSwap = source.indexOf("await rename(stagedForSwap, plan.active)");
+
+  assert.ok(receiptWrite >= 0 && receiptWrite < imageSwap);
 });
 
 test("variant activation chooses a distinct non-versioned Catalog filename", () => {

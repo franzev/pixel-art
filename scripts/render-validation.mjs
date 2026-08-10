@@ -6,7 +6,6 @@ import sharp from "sharp";
 export const RENDER_GATE_VERSION = 2;
 export const RENDER_PLAN_SCHEMA_VERSION = 2;
 export const CANONICAL_BACKGROUND = "#171311";
-const CANONICAL_BACKGROUND_RGB = { r: 0x17, g: 0x13, b: 0x11 };
 const GENERIC_EQUIPMENT_NAMES = new Set([
   "axe",
   "crossbow",
@@ -403,11 +402,7 @@ export async function validateRedoSourceFile(plan, { siteDir }) {
     const sourceRenderId = `rnd_${sourceHash.slice(0, 24)}`;
     const expectedRenderId = String(plan.redo.sourceRenderId ?? "");
     const checks = [
-      check(
-        "redo.source-file",
-        true,
-        `Bound to public/art/${sourcePath}.`,
-      ),
+      check("redo.source-file", true, `Bound to public/art/${sourcePath}.`),
       check(
         "redo.source-render-id",
         sourceRenderId === expectedRenderId,
@@ -433,15 +428,6 @@ export async function validateRedoSourceFile(plan, { siteDir }) {
   }
 }
 
-function exactBackgroundPixel(data, index) {
-  return (
-    data[index] === CANONICAL_BACKGROUND_RGB.r &&
-    data[index + 1] === CANONICAL_BACKGROUND_RGB.g &&
-    data[index + 2] === CANONICAL_BACKGROUND_RGB.b &&
-    data[index + 3] === 255
-  );
-}
-
 export async function sha256File(file) {
   const buffer = await readFile(file);
   return createHash("sha256").update(buffer).digest("hex");
@@ -449,7 +435,7 @@ export async function sha256File(file) {
 
 export async function validateRenderImage(
   imagePath,
-  { mode = "isolated", minimumPaddingRatio = 0.01 } = {},
+  { mode = "isolated" } = {},
 ) {
   if (!["isolated", "composition"].includes(mode)) {
     throw new Error(`Unknown render mode: ${mode}`);
@@ -460,14 +446,13 @@ export async function validateRenderImage(
   try {
     const image = sharp(imagePath, { failOn: "error" });
     metadata = await image.metadata();
-    raw = await image
-      .ensureAlpha()
-      .raw()
-      .toBuffer({ resolveWithObject: true });
+    raw = await image.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   } catch (error) {
     return {
       pass: false,
-      checks: [check("image.readable", false, `Unreadable image: ${error.message}`)],
+      checks: [
+        check("image.readable", false, `Unreadable image: ${error.message}`),
+      ],
       errors: [`Unreadable image: ${error.message}`],
       metrics: {},
     };
@@ -486,79 +471,19 @@ export async function validateRenderImage(
 
   if (mode === "isolated") {
     let opaquePixels = 0;
-    let backgroundPixels = 0;
-    let borderPixels = 0;
-    let exactBorderPixels = 0;
-    let minX = width;
-    let minY = height;
-    let maxX = -1;
-    let maxY = -1;
-    const band = Math.max(1, Math.round(Math.min(width, height) * 0.01));
-
-    for (let y = 0; y < height; y += 1) {
-      for (let x = 0; x < width; x += 1) {
-        const index = (y * width + x) * channels;
-        if (raw.data[index + 3] === 255) opaquePixels += 1;
-        const isBackground = exactBackgroundPixel(raw.data, index);
-        if (isBackground) {
-          backgroundPixels += 1;
-        } else {
-          minX = Math.min(minX, x);
-          minY = Math.min(minY, y);
-          maxX = Math.max(maxX, x);
-          maxY = Math.max(maxY, y);
-        }
-        const isBorder =
-          x < band || y < band || x >= width - band || y >= height - band;
-        if (isBorder) {
-          borderPixels += 1;
-          if (isBackground) exactBorderPixels += 1;
-        }
-      }
+    for (let index = 3; index < raw.data.length; index += channels) {
+      if (raw.data[index] === 255) opaquePixels += 1;
     }
 
     const totalPixels = width * height;
-    const hasSubject = maxX >= minX && maxY >= minY;
-    const padding = hasSubject
-      ? {
-          left: minX / width,
-          right: (width - 1 - maxX) / width,
-          top: minY / height,
-          bottom: (height - 1 - maxY) / height,
-        }
-      : { left: 0, right: 0, top: 0, bottom: 0 };
-    const minimumPadding = Math.min(...Object.values(padding));
-
     Object.assign(metrics, {
       opaqueRatio: opaquePixels / totalPixels,
-      exactBackgroundRatio: backgroundPixels / totalPixels,
-      exactBorderRatio: exactBorderPixels / borderPixels,
-      subjectBounds: hasSubject
-        ? { left: minX, top: minY, right: maxX, bottom: maxY }
-        : null,
-      padding,
-      minimumPadding,
     });
     checks.push(
       check(
         "image.opaque",
         opaquePixels === totalPixels,
         "Isolated catalog renders must be fully opaque.",
-      ),
-      check(
-        "image.background-border",
-        exactBorderPixels === borderPixels,
-        `The outer ${band}-pixel band must be exactly ${CANONICAL_BACKGROUND}.`,
-      ),
-      check(
-        "image.subject",
-        hasSubject,
-        "The image contains only the background and no detectable subject.",
-      ),
-      check(
-        "image.padding",
-        hasSubject && minimumPadding >= minimumPaddingRatio,
-        `Subject or non-background pixels must retain at least ${(minimumPaddingRatio * 100).toFixed(1)}% padding on every side.`,
       ),
     );
   }
@@ -605,7 +530,10 @@ export async function writeRenderGateReceipt({
     throw new Error("Cannot write a render-gate receipt for a failed render.");
   }
   const assetHash = await sha256File(imagePath);
-  const normalizedDestination = normalizeCatalogDestination(destination, siteDir);
+  const normalizedDestination = normalizeCatalogDestination(
+    destination,
+    siteDir,
+  );
   const receipt = {
     schemaVersion: 1,
     renderGateVersion: RENDER_GATE_VERSION,
@@ -644,10 +572,7 @@ export async function writeRenderGateReceipt({
   return { receipt, receiptPath };
 }
 
-export function validateRenderGateReceipt(
-  receipt,
-  { assetHash, destination },
-) {
+export function validateRenderGateReceipt(receipt, { assetHash, destination }) {
   const checks = [
     check(
       "receipt.version",

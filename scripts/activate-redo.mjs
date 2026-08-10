@@ -13,7 +13,10 @@ import { createReadStream } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { syncArt } from "./sync-art.mjs";
-import { validateRenderGateReceipt } from "./render-validation.mjs";
+import {
+  normalizeCatalogDestination,
+  validateRenderGateReceipt,
+} from "./render-validation.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(scriptDir, "..");
@@ -22,10 +25,7 @@ const stagingDir = path.join(siteDir, "work", "redo-staging");
 const historyDir = path.join(siteDir, "archive", "redo-history");
 const collectionsDir = path.join(siteDir, "collections");
 const trackerPath = path.join(siteDir, "art-catalog", "REDO-TRACKER.md");
-const activationHistoryPath = path.join(
-  historyDir,
-  "activation-history.jsonl",
-);
+const activationHistoryPath = path.join(historyDir, "activation-history.jsonl");
 const trackerStart = "<!-- REDO-ACTIVATION-LOG:START -->";
 const trackerEnd = "<!-- REDO-ACTIVATION-LOG:END -->";
 
@@ -65,12 +65,7 @@ export function stagedCandidateTarget(relativeCandidatePath) {
   }
   const [category, collection, ...tail] = parts;
   const filename = tail.at(-1);
-  return path.join(
-    artDir,
-    category,
-    collection,
-    canonicalFilename(filename),
-  );
+  return path.join(artDir, category, collection, canonicalFilename(filename));
 }
 
 async function sha256(file) {
@@ -113,6 +108,10 @@ function repositoryPath(absolute) {
   return path.relative(siteDir, absolute).split(path.sep).join("/");
 }
 
+export function receiptDestination(active, root = siteDir) {
+  return normalizeCatalogDestination(active, root);
+}
+
 function parseOptions(argv) {
   const options = {
     candidate: "",
@@ -151,7 +150,9 @@ function parseOptions(argv) {
     options.sourceRenderId &&
     !/^rnd_[0-9a-f]{24}$/.test(options.sourceRenderId)
   ) {
-    throw new Error("Source render ID must use rnd_ plus 24 hexadecimal digits");
+    throw new Error(
+      "Source render ID must use rnd_ plus 24 hexadecimal digits",
+    );
   }
   if (options.mode !== "replace" && options.mode !== "variant") {
     throw new Error("Activation mode must be replace or variant");
@@ -177,7 +178,9 @@ export function validateRedoReceiptBinding(
     errors.push("Receipt is not marked as a redo.");
   }
   if (redo?.sourceRenderId !== sourceRenderId) {
-    errors.push("Receipt source render ID does not match the selected original.");
+    errors.push(
+      "Receipt source render ID does not match the selected original.",
+    );
   }
   if (
     String(redo?.sourcePath ?? "").replaceAll("\\", "/") !==
@@ -189,7 +192,9 @@ export function validateRedoReceiptBinding(
     redo?.minimalDeltaVerified !== true ||
     redo?.sourceCandidateCompared !== true
   ) {
-    errors.push("Receipt does not attest a same-scale minimum-delta comparison.");
+    errors.push(
+      "Receipt does not attest a same-scale minimum-delta comparison.",
+    );
   }
   return { pass: errors.length === 0, errors };
 }
@@ -223,7 +228,6 @@ async function planActivation(options) {
     options.mode === "variant"
       ? path.join(activeDirectory, variantFilename(directoryNames, conceptBase))
       : canonicalActive;
-  const relativeActive = path.relative(artDir, active);
   const siblingPattern = new RegExp(
     `^${escapeRegExp(conceptBase)}(?:-v\\d+)?\\.png$`,
     "i",
@@ -263,7 +267,10 @@ async function planActivation(options) {
     ) {
       throw new Error(`Catalog source path is invalid: ${options.sourcePath}`);
     }
-    if (options.mode === "replace" && !siblings.some((item) => item.source === explicitSource)) {
+    if (
+      options.mode === "replace" &&
+      !siblings.some((item) => item.source === explicitSource)
+    ) {
       const hash = await sha256(explicitSource);
       siblings.push({
         source: explicitSource,
@@ -403,14 +410,15 @@ async function planReceiptUpdate(plan) {
     throw error;
   });
   const receipt = JSON.parse(original);
+  const destination = receiptDestination(plan.active);
   const nextReceipt = {
     ...receipt,
-    destination: plan.activeRelative,
+    destination,
     promotedAt: new Date().toISOString(),
   };
   const validation = validateRenderGateReceipt(nextReceipt, {
     assetHash: plan.candidateHash,
-    destination: plan.activeRelative,
+    destination,
   });
   if (!validation.pass) {
     throw new Error(
@@ -464,17 +472,15 @@ async function activate(plan) {
   const trackerUpdate = await planTrackerUpdate(plan, activatedAt);
   const historyUpdate = await planHistoryUpdate(plan, activatedAt);
   const receiptUpdate = await planReceiptUpdate(plan);
-  const metadataUpdates = [
-    manifestUpdate,
-    trackerUpdate,
-    historyUpdate,
-    receiptUpdate,
-  ].filter(Boolean);
+  const metadataUpdates = [manifestUpdate, trackerUpdate, historyUpdate].filter(
+    Boolean,
+  );
   const createdArchives = [];
   let swapped = false;
 
   try {
     createdArchives.push(...(await archiveSiblings(plan)));
+    await writeAtomic(receiptUpdate.file, receiptUpdate.next);
 
     await mkdir(path.dirname(plan.active), { recursive: true });
     const stagedForSwap = path.join(
@@ -485,7 +491,9 @@ async function activate(plan) {
     await rename(stagedForSwap, plan.active);
     swapped = true;
 
-    for (const sibling of plan.siblings.filter((item) => item.source !== plan.active)) {
+    for (const sibling of plan.siblings.filter(
+      (item) => item.source !== plan.active,
+    )) {
       if (await exists(sibling.source)) await unlink(sibling.source);
     }
 
@@ -494,7 +502,7 @@ async function activate(plan) {
     }
     await syncArt();
   } catch (error) {
-    for (const update of metadataUpdates.reverse()) {
+    for (const update of [...metadataUpdates, receiptUpdate].reverse()) {
       await writeAtomic(update.file, update.original);
     }
     if (swapped) await restoreFiles(plan);

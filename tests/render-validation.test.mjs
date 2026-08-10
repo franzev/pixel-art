@@ -58,16 +58,12 @@ function validPlan(overrides = {}) {
       paletteAndLightingDistinct: false,
     },
     crops: {
-      face: [
-        { label: "face", left: 0.4, top: 0.2, width: 0.2, height: 0.2 },
-      ],
+      face: [{ label: "face", left: 0.4, top: 0.2, width: 0.2, height: 0.2 }],
       hands: [
         { label: "hands", left: 0.25, top: 0.4, width: 0.5, height: 0.25 },
       ],
       equipmentJoins: [],
-      feet: [
-        { label: "feet", left: 0.35, top: 0.7, width: 0.3, height: 0.2 },
-      ],
+      feet: [{ label: "feet", left: 0.35, top: 0.7, width: 0.3, height: 0.2 }],
     },
     visualReview: {
       completeAnatomy: true,
@@ -108,7 +104,10 @@ function validRedoPlan(sourcePath, sourceRenderId, overrides = {}) {
   });
 }
 
-async function createCandidate(file, { width = 64, height = 64 } = {}) {
+async function createCandidate(
+  file,
+  { width = 64, height = 64, background = "#171311" } = {},
+) {
   const subjectWidth = Math.max(4, Math.floor(width / 2));
   const subjectHeight = Math.max(4, Math.floor(height / 2));
   const subject = await sharp({
@@ -126,7 +125,7 @@ async function createCandidate(file, { width = 64, height = 64 } = {}) {
       width,
       height,
       channels: 4,
-      background: "#171311",
+      background,
     },
   })
     .composite([
@@ -140,7 +139,7 @@ async function createCandidate(file, { width = 64, height = 64 } = {}) {
     .toFile(file);
 }
 
-test("objective render checks accept a square isolated candidate on exact charcoal", async () => {
+test("objective render checks accept a square opaque candidate", async () => {
   const temporary = await mkdtemp(path.join(os.tmpdir(), "render-gate-"));
   const image = path.join(temporary, "candidate.png");
   await createCandidate(image);
@@ -149,11 +148,14 @@ test("objective render checks accept a square isolated candidate on exact charco
   assert.equal(result.pass, true, result.errors.join("\n"));
   assert.equal(result.metrics.width, 64);
   assert.equal(result.metrics.height, 64);
-  assert.equal(result.metrics.exactBorderRatio, 1);
-  assert.ok(result.metrics.minimumPadding > 0);
+  assert.equal("exactBorderRatio" in result.metrics, false);
+  assert.equal(
+    result.checks.some((item) => item.key === "image.padding"),
+    false,
+  );
 });
 
-test("objective render checks reject non-square output and a contaminated border", async () => {
+test("objective render checks reject non-square output but do not gate background color", async () => {
   const temporary = await mkdtemp(path.join(os.tmpdir(), "render-gate-"));
   const nonSquare = path.join(temporary, "non-square.png");
   await createCandidate(nonSquare, { width: 64, height: 48 });
@@ -167,31 +169,17 @@ test("objective render checks reject non-square output and a contaminated border
     ),
   );
 
-  const contaminated = path.join(temporary, "contaminated.png");
-  await createCandidate(contaminated);
-  const badPixel = await sharp({
-    create: {
-      width: 1,
-      height: 1,
-      channels: 4,
-      background: "#000000",
-    },
-  })
-    .png()
-    .toBuffer();
-  await sharp(contaminated)
-    .composite([{ input: badPixel, left: 0, top: 0 }])
-    .png()
-    .toFile(`${contaminated}.next`);
-  const contaminatedResult = await validateRenderImage(
-    `${contaminated}.next`,
-    { mode: "isolated" },
-  );
-  assert.equal(contaminatedResult.pass, false);
-  assert.ok(
-    contaminatedResult.checks.some(
-      (item) => item.key === "image.background-border" && !item.pass,
+  const alternateBackground = path.join(temporary, "alternate-background.png");
+  await createCandidate(alternateBackground, { background: "#100d0c" });
+  const alternateResult = await validateRenderImage(alternateBackground, {
+    mode: "isolated",
+  });
+  assert.equal(alternateResult.pass, true, alternateResult.errors.join("\n"));
+  assert.equal(
+    alternateResult.checks.some(
+      (item) => item.key === "image.background-border",
     ),
+    false,
   );
 });
 
@@ -306,10 +294,7 @@ test("catalog synchronization grandfathers only unchanged legacy entries", () =>
   );
   assert.equal(shouldRequireRenderGate({ assetHash }, assetHash), false);
   assert.equal(
-    shouldRequireRenderGate(
-      { assetHash, renderGateVersion: 1 },
-      assetHash,
-    ),
+    shouldRequireRenderGate({ assetHash, renderGateVersion: 1 }, assetHash),
     true,
   );
 });
@@ -341,10 +326,7 @@ test("QA sheet and content-bound receipt are produced only for a passing plan", 
   });
   assert.match(receipt.assetHash, /^[0-9a-f]{64}$/);
   assert.equal(receipt.destination, "enemies/gate-test/01-gate-test.png");
-  assert.deepEqual(
-    JSON.parse(await readFile(receiptPath, "utf8")),
-    receipt,
-  );
+  assert.deepEqual(JSON.parse(await readFile(receiptPath, "utf8")), receipt);
 
   const required = await requireRenderGateReceipt({
     siteDir: temporary,

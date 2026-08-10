@@ -11,25 +11,24 @@ export const SAVED_TIME_PRESETS = [
   { value: "custom", label: "Custom range" },
 ] as const;
 
-export type SavedTimeFilter = (typeof SAVED_TIME_PRESETS)[number]["value"];
+export type TimeFilter = (typeof SAVED_TIME_PRESETS)[number]["value"];
 
-const savedDateTimeFormatter = new Intl.DateTimeFormat("en-PH", {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
-  hour: "numeric",
-  minute: "2-digit",
-  timeZone: "Asia/Manila",
-  timeZoneName: "short",
-});
-
-const compactDateTimeFormatter = new Intl.DateTimeFormat("en-PH", {
-  month: "short",
-  day: "numeric",
-  hour: "numeric",
-  minute: "2-digit",
-  timeZone: "Asia/Manila",
-});
+const MANILA_OFFSET_MS = 8 * 60 * 60 * 1000;
+const DAY_MS = 24 * 60 * 60 * 1000;
+const MONTH_NAMES = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+] as const;
 
 const customRangeFormatter = new Intl.DateTimeFormat("en-PH", {
   month: "short",
@@ -38,28 +37,38 @@ const customRangeFormatter = new Intl.DateTimeFormat("en-PH", {
   minute: "2-digit",
 });
 
-function localStartOfDay(now: number) {
-  const date = new Date(now);
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime();
+function fixedManilaDateParts(timestamp: Date) {
+  const manilaTime = new Date(timestamp.getTime() + MANILA_OFFSET_MS);
+  const hour = manilaTime.getUTCHours();
+  return {
+    year: manilaTime.getUTCFullYear(),
+    month: MONTH_NAMES[manilaTime.getUTCMonth()],
+    day: manilaTime.getUTCDate(),
+    hour: hour % 12 || 12,
+    minute: String(manilaTime.getUTCMinutes()).padStart(2, "0"),
+    period: hour >= 12 ? "PM" : "AM",
+  };
 }
 
-function localStartOfYesterday(now: number) {
-  const date = new Date(now);
-  return new Date(
-    date.getFullYear(),
-    date.getMonth(),
-    date.getDate() - 1,
-  ).getTime();
+function manilaStartOfDay(now: number) {
+  const manilaDate = new Date(now + MANILA_OFFSET_MS);
+  return (
+    Date.UTC(
+      manilaDate.getUTCFullYear(),
+      manilaDate.getUTCMonth(),
+      manilaDate.getUTCDate(),
+    ) - MANILA_OFFSET_MS
+  );
 }
 
-function localStartOfWeek(now: number) {
-  const date = new Date(now);
-  const day = date.getDay() || 7;
-  return new Date(
-    date.getFullYear(),
-    date.getMonth(),
-    date.getDate() - day + 1,
-  ).getTime();
+function manilaStartOfYesterday(now: number) {
+  return manilaStartOfDay(now) - DAY_MS;
+}
+
+function manilaStartOfWeek(now: number) {
+  const manilaDate = new Date(now + MANILA_OFFSET_MS);
+  const day = manilaDate.getUTCDay() || 7;
+  return manilaStartOfDay(now) - (day - 1) * DAY_MS;
 }
 
 function parsedBoundary(value: string) {
@@ -83,18 +92,18 @@ function savedTimeRange(
     case "1h":
       return { from: now - hour, to: now };
     case "today":
-      return { from: localStartOfDay(now), to: now };
+      return { from: manilaStartOfDay(now), to: now };
     case "yesterday":
       return {
-        from: localStartOfYesterday(now),
-        to: localStartOfDay(now) - 1,
+        from: manilaStartOfYesterday(now),
+        to: manilaStartOfDay(now) - 1,
       };
     case "24h":
       return { from: now - day, to: now };
     case "7d":
       return { from: now - 7 * day, to: now };
     case "this-week":
-      return { from: localStartOfWeek(now), to: now };
+      return { from: manilaStartOfWeek(now), to: now };
     case "30d":
       return { from: now - 30 * day, to: now };
     case "custom":
@@ -107,22 +116,38 @@ function savedTimeRange(
   }
 }
 
-export function matchesSavedTimeFilter(
-  item: { generatedAt?: unknown },
+export function matchesTimestampFilter(
+  timestamp: string | null | undefined,
   filter: string,
   customFrom = "",
   customTo = "",
   now = Date.now(),
 ) {
   if (filter === "all") return true;
-  if (typeof item.generatedAt !== "string") return false;
-  const savedAt = new Date(item.generatedAt).getTime();
-  if (Number.isNaN(savedAt)) return false;
+  if (!timestamp) return false;
+  const dateTime = new Date(timestamp).getTime();
+  if (Number.isNaN(dateTime)) return false;
   const range = savedTimeRange(filter, customFrom, customTo, now);
-  return range ? savedAt >= range.from && savedAt <= range.to : true;
+  return range ? dateTime >= range.from && dateTime <= range.to : true;
 }
 
-export function savedTimeFilterLabel(
+export function matchesGeneratedTimeFilter(
+  item: { generatedAt?: string } | null | undefined,
+  filter: string,
+  customFrom = "",
+  customTo = "",
+  now = Date.now(),
+) {
+  return matchesTimestampFilter(
+    item?.generatedAt,
+    filter,
+    customFrom,
+    customTo,
+    now,
+  );
+}
+
+export function timeFilterLabel(
   filter: string,
   customFrom = "",
   customTo = "",
@@ -145,14 +170,19 @@ export function savedTimeFilterLabel(
 
 export function formatSavedTimestamp(value: string) {
   const timestamp = new Date(value);
-  return Number.isNaN(timestamp.getTime())
-    ? "Unknown"
-    : savedDateTimeFormatter.format(timestamp);
+  if (Number.isNaN(timestamp.getTime())) return "Unknown";
+  const parts = fixedManilaDateParts(timestamp);
+  return `${parts.month} ${parts.day}, ${parts.year}, ${parts.hour}:${parts.minute} ${parts.period} GMT+8`;
 }
 
 export function formatSavedTimestampCompact(value: string) {
   const timestamp = new Date(value);
-  return Number.isNaN(timestamp.getTime())
-    ? "Unknown"
-    : compactDateTimeFormatter.format(timestamp);
+  if (Number.isNaN(timestamp.getTime())) return "Unknown";
+  const parts = fixedManilaDateParts(timestamp);
+  return `${parts.month} ${parts.day}, ${parts.hour}:${parts.minute} ${parts.period}`;
 }
+
+// Backwards-compatible names for code that still describes archived generator
+// outputs as files being saved.
+export const matchesSavedTimeFilter = matchesGeneratedTimeFilter;
+export const savedTimeFilterLabel = timeFilterLabel;

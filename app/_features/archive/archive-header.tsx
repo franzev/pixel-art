@@ -1,26 +1,24 @@
 "use client";
 
-import type { ChangeEvent, RefObject } from "react";
+import type { RefObject } from "react";
 import type { ArchiveView } from "./archive-types";
 
 export function ArchiveHeader({
   query,
   onQueryChange,
   searchRef,
-  tileSize,
-  onTileSizeChange,
   view,
   catalogCount,
+  reviewCount,
   attemptCount,
   onViewChange,
 }: {
   query: string;
   onQueryChange: (value: string) => void;
   searchRef: RefObject<HTMLInputElement | null>;
-  tileSize: number;
-  onTileSizeChange: (event: ChangeEvent<HTMLInputElement>) => void;
   view: ArchiveView;
   catalogCount: number;
+  reviewCount: number;
   attemptCount: number;
   onViewChange: (view: ArchiveView) => void;
 }) {
@@ -35,18 +33,18 @@ export function ArchiveHeader({
 
       <label className="search-field">
         <span className="sr-only">
-          {view === "catalog" ? "Search renders" : "Search attempts"}
+          {view === "attempts" ? "Search attempts" : "Search renders"}
         </span>
         <input
           ref={searchRef}
           type="search"
-          aria-label={view === "catalog" ? "Search renders" : "Search attempts"}
+          aria-label={view === "attempts" ? "Search attempts" : "Search renders"}
           value={query}
           onChange={(event) => onQueryChange(event.target.value)}
           placeholder={
-            view === "catalog"
-              ? "Search name, collection, filename…"
-              : "Search concept, collection, attempt…"
+            view === "attempts"
+              ? "Search concepts, collections, attempts…"
+              : "Search renders, collections, filenames…"
           }
         />
         <kbd>/</kbd>
@@ -60,33 +58,28 @@ export function ArchiveHeader({
             aria-current={view === "catalog" ? "page" : undefined}
             onClick={() => onViewChange("catalog")}
           >
-            <span>CATALOG</span>
+            <span>LIBRARY</span>
             <strong>{catalogCount}</strong>
           </button>
-          {view === "attempts" ? (
-            <button
-              type="button"
-              className="is-active"
-              aria-current="page"
-              onClick={() => onViewChange("catalog")}
-            >
-              <span>HISTORY</span>
-              <strong>{attemptCount}</strong>
-            </button>
-          ) : null}
+          <button
+            type="button"
+            className={view === "review" ? "is-active" : undefined}
+            aria-current={view === "review" ? "page" : undefined}
+            onClick={() => onViewChange("review")}
+          >
+            <span>REVIEW</span>
+            <strong>{reviewCount}</strong>
+          </button>
+          <button
+            type="button"
+            className={view === "attempts" ? "is-active" : undefined}
+            aria-current={view === "attempts" ? "page" : undefined}
+            onClick={() => onViewChange("attempts")}
+          >
+            <span>ATTEMPTS</span>
+            <strong>{attemptCount}</strong>
+          </button>
         </nav>
-        <label className="grid-control">
-          <span>GRID</span>
-          <input
-            type="range"
-            min="116"
-            max="220"
-            step="8"
-            value={tileSize}
-            onChange={onTileSizeChange}
-            aria-label="Gallery tile size"
-          />
-        </label>
       </div>
     </header>
   );

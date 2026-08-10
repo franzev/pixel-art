@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { summarizeReviewProgress } from "../app/_features/archive/review-summary.ts";
+import {
+  isRedoAwaitingGeneration,
+  summarizeReviewProgress,
+} from "../app/_features/archive/review-summary.ts";
 
 const item = (renderId, status = "draft") => ({
   id: renderId,
@@ -66,11 +69,52 @@ test("review progress keeps completed Redos and removed Deletes in saved totals"
     redoAwaitingGeneration: 1,
     redoSourcesAvailable: 1,
     redoSourcesRegenerated: 1,
+    redoSourcesAwaitingGenerationAvailable: 0,
     redoSourcesUnavailable: 1,
     generatedOutputsAvailable: 2,
     generatedOutputsAwaitingReview: 2,
     deletionAwaitingApplication: 1,
   });
+});
+
+test("awaiting-generation predicate accepts only redo originals without a replacement", () => {
+  const pending = item("pending-redo");
+  const completed = item("completed-redo");
+  const kept = item("kept");
+  const candidate = {
+    ...item("candidate", "unreviewed"),
+    sourceKind: "redo-staging",
+  };
+  const completedIds = new Set(["completed-redo"]);
+
+  assert.equal(
+    isRedoAwaitingGeneration(
+      pending,
+      review("pending-redo", "reject"),
+      completedIds,
+    ),
+    true,
+  );
+  assert.equal(
+    isRedoAwaitingGeneration(
+      completed,
+      review("completed-redo", "reject"),
+      completedIds,
+    ),
+    false,
+  );
+  assert.equal(
+    isRedoAwaitingGeneration(kept, review("kept", "keep"), completedIds),
+    false,
+  );
+  assert.equal(
+    isRedoAwaitingGeneration(
+      candidate,
+      review("candidate", "reject"),
+      completedIds,
+    ),
+    false,
+  );
 });
 
 test("reviewed generated candidates are not counted as outputs awaiting review", () => {

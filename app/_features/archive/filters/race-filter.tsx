@@ -1,5 +1,7 @@
 "use client";
 
+import { raceFilterValues } from "../archive-filters";
+
 export function RaceFilter({
   value,
   selectedLabel,
@@ -19,22 +21,45 @@ export function RaceFilter({
   counts: Map<string, number>;
   onChange: (value: string) => void;
 }) {
+  const selectedValues = raceFilterValues(value);
+  const selectedValueSet = new Set(selectedValues);
+  const remove = (race: string) => {
+    const remaining = selectedValues.filter((value) => value !== race);
+    onChange(remaining.length ? remaining.join(",") : "all");
+  };
+  const labelFor = (race: string) =>
+    matching.find((option) => option.value === race)?.label ??
+    (selectedValues.length === 1 ? selectedLabel : race);
+  const visibleOptions = query.trim()
+    ? matching.filter((option) =>
+        option.label
+          .toLocaleLowerCase()
+          .includes(query.trim().toLocaleLowerCase()),
+      )
+    : matching;
+
   return (
     <div className="filter-group race-filter">
       <span className="filter-group-label" id="race-filter-label">
         Race
       </span>
-      {value !== "all" ? (
-        <div className="collection-chips" aria-label="Selected race">
-          <button
-            type="button"
-            className="collection-chip"
-            onClick={() => onChange("all")}
-            aria-label={`Remove ${selectedLabel} race filter`}
-          >
-            <span>{selectedLabel}</span>
-            <strong aria-hidden="true">×</strong>
-          </button>
+      {selectedValues.length ? (
+        <div className="collection-chips" aria-label="Selected races">
+          {selectedValues.map((race) => {
+            const label = labelFor(race);
+            return (
+              <button
+                key={race}
+                type="button"
+                className="collection-chip"
+                onClick={() => remove(race)}
+                aria-label={`Remove ${label} race filter`}
+              >
+                <span>{label}</span>
+                <strong aria-hidden="true">×</strong>
+              </button>
+            );
+          })}
         </div>
       ) : null}
       <label className="collection-combobox">
@@ -53,17 +78,17 @@ export function RaceFilter({
       <div
         id="race-options"
         className="filter-list collection-options"
-        role="radiogroup"
+        role="group"
         aria-labelledby="race-filter-label"
       >
-        {matching.map((option) => {
-          const checked = value === option.value;
+        {visibleOptions.map((option) => {
+          const checked = selectedValueSet.has(option.value);
           const count = counts.get(option.value) ?? 0;
           return (
             <button
               key={option.value}
               type="button"
-              role="radio"
+              role="checkbox"
               aria-checked={checked}
               className={[
                 "filter-row",
@@ -73,7 +98,10 @@ export function RaceFilter({
                 .filter(Boolean)
                 .join(" ")}
               onClick={() => {
-                onChange(checked ? "all" : option.value);
+                const next = checked
+                  ? selectedValues.filter((value) => value !== option.value)
+                  : [...selectedValues, option.value];
+                onChange(next.length ? next.join(",") : "all");
                 onQueryChange("");
               }}
             >
@@ -85,9 +113,11 @@ export function RaceFilter({
         })}
       </div>
       <p className="collection-filter-hint" role="status">
-        {query.trim() && matching.length === 0
+        {query.trim() && visibleOptions.length === 0
           ? "No matching race."
-          : "Most common shown. Search to find the rest."}
+          : selectedValues.length > 1
+            ? `${selectedValues.length} races selected.`
+            : "Most common shown. Search to find the rest."}
       </p>
     </div>
   );

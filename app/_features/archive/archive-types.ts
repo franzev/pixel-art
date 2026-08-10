@@ -4,7 +4,7 @@ import type {
   RedoCompletion,
 } from "../../review-types";
 
-export type ArchiveView = "catalog" | "attempts";
+export type ArchiveView = "catalog" | "review" | "attempts";
 
 export type ArchiveGalleryProps = {
   catalog: GalleryCatalog;

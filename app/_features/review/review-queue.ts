@@ -7,6 +7,7 @@ export function queueMatches(
   queue: ReviewQueue,
   item: GalleryItem,
   review?: RenderReview,
+  favoriteIds: ReadonlySet<string> = new Set(),
 ) {
   if (queue === "all") return true;
   if (queue === "unreviewed") {
@@ -15,6 +16,6 @@ export function queueMatches(
   if (queue === "kept") return review?.decision === "keep";
   if (queue === "rejected") return review?.decision === "reject";
   if (queue === "deletion") return review?.deletionState === "marked";
-  if (queue === "favorites") return review?.overallRating === 5;
+  if (queue === "favorites") return favoriteIds.has(item.renderId);
   return Boolean(item);
 }

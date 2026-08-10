@@ -3,10 +3,11 @@
 import type { FilterToken } from "./archive-types";
 
 export function ActiveFilterStrip({ tokens }: { tokens: FilterToken[] }) {
+  if (!tokens.length) return null;
+
   return (
     <div className="active-filter-strip" aria-label="Active filters">
-      {tokens.length ? (
-        tokens.map((token) => (
+      {tokens.map((token) => (
           <button
             key={token.id}
             type="button"
@@ -16,12 +17,7 @@ export function ActiveFilterStrip({ tokens }: { tokens: FilterToken[] }) {
             <span>{token.label}</span>
             <strong aria-hidden="true">×</strong>
           </button>
-        ))
-      ) : (
-        <span className="shortcut-hint">
-          F TO FAVORITE · ← → TO NAVIGATE · / TO SEARCH
-        </span>
-      )}
+        ))}
     </div>
   );
 }

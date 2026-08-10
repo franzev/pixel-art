@@ -11,6 +11,8 @@ export function AttemptInspector({
   onNext,
   review,
   onReview,
+  seriesItems = [],
+  onSelectAttempt,
   onClose,
   compact = false,
 }: {
@@ -19,6 +21,8 @@ export function AttemptInspector({
   onNext: () => void;
   review?: RenderReview;
   onReview?: () => void;
+  seriesItems?: AttemptItem[];
+  onSelectAttempt?: (item: AttemptItem) => void;
   onClose?: () => void;
   compact?: boolean;
 }) {
@@ -40,7 +44,7 @@ export function AttemptInspector({
           <span className="eyebrow">
             {item.sourceKind === "archive"
               ? `ARCHIVED ATTEMPT ${item.attempt}`
-              : `SUCCESSFUL CANDIDATE V${String(item.attempt).padStart(2, "0")}`}
+              : `CANDIDATE V${String(item.attempt).padStart(2, "0")}`}
           </span>
           <h2>{item.concept}</h2>
         </div>
@@ -72,6 +76,28 @@ export function AttemptInspector({
         </button>
       </div>
 
+      {seriesItems.length > 1 ? (
+        <div className="attempt-filmstrip" aria-label="Attempts in this series">
+          {seriesItems.map((attempt) => (
+            <button
+              key={attempt.id}
+              type="button"
+              className={attempt.id === item.id ? "is-active" : undefined}
+              aria-pressed={attempt.id === item.id}
+              onClick={() => onSelectAttempt?.(attempt)}
+            >
+              <span>
+                {attempt.sourceKind === "redo-staging" ? "Candidate" : "Attempt"}{" "}
+                {String(attempt.attempt).padStart(2, "0")}
+              </span>
+              <time dateTime={attempt.generatedAt}>
+                {formatSavedTimestamp(attempt.generatedAt)}
+              </time>
+            </button>
+          ))}
+        </div>
+      ) : null}
+
       <dl className="metadata-list">
         <div>
           <dt>Category</dt>
@@ -92,11 +118,23 @@ export function AttemptInspector({
           </dd>
         </div>
         <div>
-          <dt>Saved</dt>
+          <dt>Generated</dt>
           <dd>
             <time dateTime={item.generatedAt}>
               {formatSavedTimestamp(item.generatedAt)}
             </time>
+          </dd>
+        </div>
+        <div>
+          <dt>Reviewed</dt>
+          <dd>
+            {review?.reviewedAt ? (
+              <time dateTime={review.reviewedAt}>
+                {formatSavedTimestamp(review.reviewedAt)}
+              </time>
+            ) : (
+              "Not reviewed"
+            )}
           </dd>
         </div>
         <div>

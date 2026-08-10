@@ -7,6 +7,12 @@ import {
 } from "../saved-time";
 import { PreviewImage } from "./preview-image";
 
+export type RenderTilePresentation = {
+  title: string;
+  meta: string;
+  label: string;
+};
+
 function isAttemptItem(item: GalleryItem): item is AttemptItem {
   return "attempt" in item;
 }
@@ -18,6 +24,8 @@ export function RenderTile({
   selected,
   eager,
   onOpen,
+  presentation,
+  reviewedAt,
 }: {
   item: GalleryItem;
   index: number;
@@ -25,13 +33,15 @@ export function RenderTile({
   selected: boolean;
   eager: boolean;
   onOpen: (item: GalleryItem) => void;
+  presentation?: RenderTilePresentation;
+  reviewedAt?: string | null;
 }) {
   const attempt = isAttemptItem(item) ? item : undefined;
-  const title = attempt?.concept ?? item.name;
+  const title = presentation?.title ?? attempt?.concept ?? item.name;
   const attemptLabel = attempt
     ? attempt.sourceKind === "archive"
       ? `Attempt ${String(attempt.attempt).padStart(2, "0")}`
-      : `Successful v${String(attempt.attempt).padStart(2, "0")}`
+      : `Candidate v${String(attempt.attempt).padStart(2, "0")}`
     : "";
 
   return (
@@ -48,7 +58,7 @@ export function RenderTile({
         aria-pressed={selected}
         aria-label={
           attempt
-            ? `Open ${title}, ${attemptLabel}, ${item.collection}`
+            ? `Open ${title}, ${presentation?.label ?? attemptLabel}, ${item.collection}`
             : `Open ${title}, ${item.collection}`
         }
         onClick={() => onOpen(item)}
@@ -62,19 +72,44 @@ export function RenderTile({
         </div>
         <span className="render-title">{title}</span>
         <span className="render-meta">
-          {attempt ? (
+          {presentation ? presentation.meta : null}
+          {!presentation && attempt ? (
             <>
               {attemptLabel} ·{" "}
               <time
                 dateTime={attempt.generatedAt}
                 title={formatSavedTimestamp(attempt.generatedAt)}
               >
-                Saved {formatSavedTimestampCompact(attempt.generatedAt)}
+                Generated {formatSavedTimestampCompact(attempt.generatedAt)}
               </time>{" "}
               ·{" "}
             </>
           ) : null}
-          {item.collection} · {item.width}×{item.height}
+          {!presentation && !attempt ? (
+            <>
+              <time
+                dateTime={item.generatedAt}
+                title={formatSavedTimestamp(item.generatedAt)}
+              >
+                Generated {formatSavedTimestampCompact(item.generatedAt)}
+              </time>{" "}
+              ·{" "}
+              {reviewedAt ? (
+                <time
+                  dateTime={reviewedAt}
+                  title={formatSavedTimestamp(reviewedAt)}
+                >
+                  Reviewed {formatSavedTimestampCompact(reviewedAt)}
+                </time>
+              ) : (
+                "Not reviewed"
+              )}{" "}
+              · {item.collection}
+            </>
+          ) : null}
+          {!presentation && attempt
+            ? `${item.collection} · ${item.width}×${item.height}`
+            : null}
         </span>
       </button>
     </div>

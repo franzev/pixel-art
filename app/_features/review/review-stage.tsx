@@ -24,10 +24,7 @@ export function ReviewStage({
 }) {
   return (
     <section className="review-stage">
-      <AutoHideScrollArea
-        className="review-canvas"
-        horizontal
-      >
+      <AutoHideScrollArea className="review-canvas">
         <div className="review-canvas-action">
           {compareWithCatalog ? (
             <span
@@ -53,11 +50,15 @@ export function ReviewStage({
                   } as CSSProperties
                 }
               >
-                <span className="review-comparison-label">ORIGINAL CATALOG</span>
+                <span className="review-comparison-label">
+                  ORIGINAL CATALOG
+                </span>
                 {original ? (
                   <ReviewCanvasImage key={original.renderId} item={original} />
                 ) : (
-                  <span className="review-comparison-empty">NO EXISTING IMAGE</span>
+                  <span className="review-comparison-empty">
+                    NO EXISTING IMAGE
+                  </span>
                 )}
               </span>
               <span
@@ -97,16 +98,30 @@ export function ReviewStage({
         </span>
         {catalogOutcomeMode ? (
           <>
-            <span><kbd>O</kbd> ORIGINAL</span>
-            <span><kbd>B</kbd> BOTH</span>
-            <span><kbd>N</kbd> NEW</span>
-            <span><kbd>R</kbd> REDO</span>
+            <span>
+              <kbd>D</kbd> DELETE
+            </span>
+            <span>
+              <kbd>B</kbd> BOTH
+            </span>
+            <span>
+              <kbd>N</kbd> NEW
+            </span>
+            <span>
+              <kbd>R</kbd> REDO
+            </span>
           </>
         ) : (
           <>
-            <span><kbd>K</kbd> KEEP</span>
-            <span><kbd>R</kbd> REJECT</span>
-            <span><kbd>D</kbd> DELETE QUEUE</span>
+            <span>
+              <kbd>K</kbd> KEEP
+            </span>
+            <span>
+              <kbd>R</kbd> REJECT
+            </span>
+            <span>
+              <kbd>D</kbd> DELETE QUEUE
+            </span>
           </>
         )}
         <span>

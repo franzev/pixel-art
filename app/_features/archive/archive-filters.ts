@@ -1,9 +1,11 @@
 import type { GalleryItem, ReviewMap } from "../../review-types";
 import { GENDER_TAG_GROUP, RACE_TAG_GROUP } from "./archive-config";
 import {
-  matchesSavedTimeFilter,
-  savedTimeFilterLabel,
+  matchesGeneratedTimeFilter,
+  matchesTimestampFilter,
+  timeFilterLabel,
 } from "./saved-time";
+import { isRedoAwaitingGeneration } from "./review-summary";
 
 export type FilterState = {
   lifecycle: string;
@@ -12,9 +14,12 @@ export type FilterState = {
   favorite: string;
   gender: string;
   race: string;
-  savedTime: string;
-  savedFrom: string;
-  savedTo: string;
+  generatedTime: string;
+  generatedFrom: string;
+  generatedTo: string;
+  reviewedTime: string;
+  reviewedFrom: string;
+  reviewedTo: string;
   collections: string[];
 };
 
@@ -99,14 +104,24 @@ export const DEFAULT_FILTER_STATE: FilterState = {
   favorite: "all",
   gender: "all",
   race: "all",
-  savedTime: "all",
-  savedFrom: "",
-  savedTo: "",
+  generatedTime: "all",
+  generatedFrom: "",
+  generatedTo: "",
+  reviewedTime: "all",
+  reviewedFrom: "",
+  reviewedTo: "",
   collections: [],
 };
 
 export function copyFilterState(filters: FilterState): FilterState {
   return { ...filters, collections: [...filters.collections] };
+}
+
+export function raceFilterValues(value: string) {
+  if (!value || value === "all") return [];
+  return Array.from(
+    new Set(value.split(",").map((entry) => entry.trim()).filter(Boolean)),
+  );
 }
 
 export const URL_FILTER_KEYS = [
@@ -116,7 +131,8 @@ export const URL_FILTER_KEYS = [
   "favorite",
   "gender",
   "race",
-  "savedTime",
+  "generatedTime",
+  "reviewedTime",
 ] as const;
 
 export function filtersToSearchParams(filters: FilterState, query: string) {
@@ -127,9 +143,13 @@ export function filtersToSearchParams(filters: FilterState, query: string) {
       params.set(key, filters[key]);
     }
   }
-  if (filters.savedTime === "custom") {
-    if (filters.savedFrom) params.set("savedFrom", filters.savedFrom);
-    if (filters.savedTo) params.set("savedTo", filters.savedTo);
+  if (filters.generatedTime === "custom") {
+    if (filters.generatedFrom) params.set("generatedFrom", filters.generatedFrom);
+    if (filters.generatedTo) params.set("generatedTo", filters.generatedTo);
+  }
+  if (filters.reviewedTime === "custom") {
+    if (filters.reviewedFrom) params.set("reviewedFrom", filters.reviewedFrom);
+    if (filters.reviewedTo) params.set("reviewedTo", filters.reviewedTo);
   }
   for (const name of filters.collections) params.append("c", name);
   return params;
@@ -143,7 +163,8 @@ export function activeFilterDimensionCount(filters: FilterState) {
     filters.favorite !== DEFAULT_FILTER_STATE.favorite,
     filters.gender !== DEFAULT_FILTER_STATE.gender,
     filters.race !== DEFAULT_FILTER_STATE.race,
-    filters.savedTime !== DEFAULT_FILTER_STATE.savedTime,
+    filters.generatedTime !== DEFAULT_FILTER_STATE.generatedTime,
+    filters.reviewedTime !== DEFAULT_FILTER_STATE.reviewedTime,
     filters.collections.length > 0,
   ].filter(Boolean).length;
 }
@@ -160,15 +181,18 @@ export function filterGalleryItems(
   reviews: ReviewMap,
   query: string,
   now = Date.now(),
+  completedRedoRenderIds: ReadonlySet<string> = new Set(),
 ) {
   const needle = query.trim().toLocaleLowerCase();
+  const selectedRaces = raceFilterValues(filters.race);
   return items.filter((item) => {
     // Candidates share the Catalog surface only through an explicit review
     // decision. The normal library stays canonical and uncluttered.
     if (
       item.status === "unreviewed" &&
       filters.decision === "all" &&
-      filters.savedTime === "all"
+      filters.generatedTime === "all" &&
+      filters.reviewedTime === "all"
     ) {
       return false;
     }
@@ -189,22 +213,40 @@ export function filterGalleryItems(
     )
       return false;
     if (
-      filters.race !== "all" &&
-      tagValueFor(item, RACE_TAG_GROUP) !== filters.race
+      selectedRaces.length &&
+      !selectedRaces.includes(tagValueFor(item, RACE_TAG_GROUP))
     )
       return false;
     if (filters.decision !== "all") {
       const reviewed = reviews[item.renderId]?.decision ?? "unreviewed";
-      if (reviewed !== filters.decision) return false;
+      if (filters.decision === "redo-pending") {
+        if (!isRedoAwaitingGeneration(
+          item,
+          reviews[item.renderId],
+          completedRedoRenderIds,
+        )) {
+          return false;
+        }
+      } else if (reviewed !== filters.decision) return false;
     }
     if (!matchesRatingFilter(reviews[item.renderId]?.overallRating, filters.rating))
       return false;
     if (
-      !matchesSavedTimeFilter(
+      !matchesGeneratedTimeFilter(
         item,
-        filters.savedTime,
-        filters.savedFrom,
-        filters.savedTo,
+        filters.generatedTime,
+        filters.generatedFrom,
+        filters.generatedTo,
+        now,
+      )
+    )
+      return false;
+    if (
+      !matchesTimestampFilter(
+        reviews[item.renderId]?.reviewedAt,
+        filters.reviewedTime,
+        filters.reviewedFrom,
+        filters.reviewedTo,
         now,
       )
     )
@@ -217,7 +259,7 @@ export function filterGalleryItems(
   });
 }
 
-export { savedTimeFilterLabel };
+export { timeFilterLabel };
 
 export function tagFilterOptions(
   items: GalleryItem[],

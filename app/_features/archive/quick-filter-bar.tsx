@@ -12,6 +12,8 @@ export function QuickFilterBar({
   onOpenUnreviewedOutputs,
   redoAvailableCount,
   onOpenRedoSources,
+  redoAwaitingGenerationCount,
+  onOpenRedoAwaitingGeneration,
   filtersOpen,
   filterButtonRef,
   activeFilterCount,
@@ -29,6 +31,8 @@ export function QuickFilterBar({
   onOpenUnreviewedOutputs: () => void;
   redoAvailableCount: number;
   onOpenRedoSources: () => void;
+  redoAwaitingGenerationCount: number;
+  onOpenRedoAwaitingGeneration: () => void;
   filtersOpen: boolean;
   filterButtonRef: RefObject<HTMLButtonElement | null>;
   activeFilterCount: number;
@@ -93,6 +97,19 @@ export function QuickFilterBar({
           onClick={onOpenRedoSources}
         >
           REDO ORIGINALS <strong>{redoAvailableCount}</strong>
+        </button>
+        <button
+          type="button"
+          className={
+            decision === "redo-pending"
+              ? "quick-filter is-active"
+              : "quick-filter"
+          }
+          aria-pressed={decision === "redo-pending"}
+          aria-label={`${redoAwaitingGenerationCount} redo originals awaiting generation`}
+          onClick={onOpenRedoAwaitingGeneration}
+        >
+          AWAITING GENERATION <strong>{redoAwaitingGenerationCount}</strong>
         </button>
         <button
           type="button"

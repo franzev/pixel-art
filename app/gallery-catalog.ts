@@ -25,6 +25,7 @@ export function compactGalleryCatalog(items: ArtItem[]): GalleryCatalog {
     return {
       id: item.id,
       renderId: item.renderId,
+      assetHash: item.assetHash,
       url: item.url,
       name: item.name,
       filename: item.filename,
@@ -33,6 +34,7 @@ export function compactGalleryCatalog(items: ArtItem[]): GalleryCatalog {
       status: item.status,
       width: item.width,
       height: item.height,
+      generatedAt: item.generatedAt,
       tagDefinitionIds: suggestedTags.map((tag) => {
         const identity = tagIdentity(tag);
         const existing = definitionIds.get(identity);

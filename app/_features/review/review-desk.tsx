@@ -5,6 +5,7 @@ import { AutoHideScrollArea } from "../../_components/ui/auto-hide-scroll-area";
 import {
   type AttemptItem,
   type GalleryItem,
+  type RedoCompletion,
   type RenderReview,
   type ReviewDecision,
   type ReviewDefect,
@@ -21,14 +22,17 @@ import {
 import { ReviewDeskHeader } from "./review-desk-header";
 import {
   combinedFeedback,
+  correctedRenderReviews,
   defaultSeverity,
   mergeDrafts,
   nextSeverity,
 } from "./review-model";
 import { ReviewPanel } from "./review-panel";
+import { redoProcessingStatus } from "./redo-processing-status";
 import { queueMatches, type ReviewQueue } from "./review-queue";
 import { ReviewStage } from "./review-stage";
 import type { useReviewStore } from "./use-review-store";
+import { useRenderGate } from "./use-render-gate";
 
 export type { ReviewQueue } from "./review-queue";
 
@@ -40,6 +44,12 @@ export function ReviewDesk({
   initialRenderId,
   initialQueue = "unreviewed",
   comparisonItemsByRenderId,
+  attempts,
+  redoCompletions,
+  favoriteIds,
+  onToggleFavorite,
+  onOpenRedoCandidate,
+  onDiscardCandidate,
   onPromoteCandidate,
   onClose,
 }: {
@@ -48,6 +58,12 @@ export function ReviewDesk({
   initialRenderId?: string;
   initialQueue?: ReviewQueue;
   comparisonItemsByRenderId?: ReadonlyMap<string, GalleryItem>;
+  attempts: AttemptItem[];
+  redoCompletions: RedoCompletion[];
+  favoriteIds: ReadonlySet<string>;
+  onToggleFavorite: (renderId: string) => void;
+  onOpenRedoCandidate?: (candidate: AttemptItem) => void;
+  onDiscardCandidate?: (candidate: AttemptItem) => Promise<void>;
   onPromoteCandidate?: (
     candidate: AttemptItem,
     placement: "variant" | "replace",
@@ -70,9 +86,9 @@ export function ReviewDesk({
   const queueItems = useMemo(
     () =>
       items.filter((item) =>
-        queueMatches(queue, item, reviews[item.renderId]),
+        queueMatches(queue, item, reviews[item.renderId], favoriteIds),
       ),
-    [items, queue, reviews],
+    [favoriteIds, items, queue, reviews],
   );
 
   const pinnedItem = items.find((item) => item.renderId === currentId);
@@ -90,16 +106,33 @@ export function ReviewDesk({
   const comparisonReview = comparisonItem
     ? reviews[comparisonItem.renderId]
     : undefined;
+  const currentCandidate =
+    current && "sourceKind" in current ? (current as AttemptItem) : undefined;
+  const catalogComparison = Boolean(
+    currentCandidate?.sourceKind === "redo-staging" && comparisonItem,
+  );
+  const renderGate = useRenderGate({
+    candidate: catalogComparison ? currentCandidate : undefined,
+    original: comparisonItem,
+    originalReview: comparisonReview,
+  });
+  const currentRedoStatus =
+    current && review
+      ? redoProcessingStatus(current, review, redoCompletions, attempts)
+      : null;
+  const latestRedoReview = currentRedoStatus?.latestCandidate
+    ? reviews[currentRedoStatus.latestCandidate.renderId]
+    : undefined;
 
   const queueCounts = useMemo(() => {
     const counts = {} as Record<ReviewQueue, number>;
     for (const key of Object.keys(QUEUE_LABELS) as ReviewQueue[]) {
       counts[key] = items.filter((item) =>
-        queueMatches(key, item, reviews[item.renderId]),
+        queueMatches(key, item, reviews[item.renderId], favoriteIds),
       ).length;
     }
     return counts;
-  }, [items, reviews]);
+  }, [favoriteIds, items, reviews]);
 
   /* Reset transient controls when the selected render changes. */
   /* eslint-disable react-hooks/set-state-in-effect */
@@ -133,14 +166,12 @@ export function ReviewDesk({
 
   const saveDrafts = useCallback(() => {
     if (!current || !review) return;
-    if (feedbackDraft === combinedFeedback(review.note, review.correctionNote)) {
+    if (
+      feedbackDraft === combinedFeedback(review.note, review.correctionNote)
+    ) {
       return;
     }
-    applyReview(
-      current,
-      (value) => mergeDrafts(value, feedbackDraft),
-      false,
-    );
+    applyReview(current, (value) => mergeDrafts(value, feedbackDraft), false);
   }, [applyReview, current, feedbackDraft, review]);
 
   const move = useCallback(
@@ -165,34 +196,62 @@ export function ReviewDesk({
   const setRating = useCallback(
     (rating: number) => {
       if (!current) return;
-      const comparisonMode =
-        "sourceKind" in current && current.sourceKind === "redo-staging";
-      const autoKeep = rating === 5 && !comparisonMode;
       applyReview(current, (value) => ({
         ...mergeDrafts(value, feedbackDraft),
         overallRating: rating,
-        ...(autoKeep
-          ? {
-              decision: "keep" as ReviewDecision,
-              deletionState: "none" as const,
-            }
-          : {}),
       }));
       setMessage(
-        autoKeep
-          ? "5 / 5 · KEEP"
-          : comparisonMode
-            ? `${rating} / 5 · CHOOSE CATALOG OUTCOME`
-            : `${rating} / 5`,
+        catalogComparison
+          ? `${rating} / 5 · CHOOSE CATALOG OUTCOME`
+          : `${rating} / 5 · CHOOSE A DECISION`,
       );
-      if (autoKeep) advanceAfterReview();
     },
-    [advanceAfterReview, applyReview, current, feedbackDraft],
+    [applyReview, catalogComparison, current, feedbackDraft],
+  );
+
+  const discardCandidate = useCallback(
+    async (candidate: AttemptItem) => {
+      if (!onDiscardCandidate) {
+        setCatalogOutcomeError("Candidate deletion is unavailable.");
+        return;
+      }
+      setCatalogOutcomePending("original");
+      setCatalogOutcomeError("");
+      setMessage("DELETING CANDIDATE");
+      try {
+        await onDiscardCandidate(candidate);
+        applyReview(candidate, (value) => ({
+          ...mergeDrafts(value, feedbackDraft),
+          decision: "delete",
+          deletionState: "none",
+        }));
+        setMessage("CANDIDATE DELETED");
+        advanceAfterReview();
+      } catch (candidateError) {
+        setCatalogOutcomeError(
+          candidateError instanceof Error
+            ? candidateError.message
+            : "Could not delete this candidate.",
+        );
+        setMessage("DELETE FAILED");
+      } finally {
+        setCatalogOutcomePending(null);
+      }
+    },
+    [advanceAfterReview, applyReview, feedbackDraft, onDiscardCandidate],
   );
 
   const chooseDecision = useCallback(
     (decision: ReviewDecision) => {
       if (!current || !review) return;
+      if (
+        decision === "delete" &&
+        "sourceKind" in current &&
+        current.sourceKind === "redo-staging"
+      ) {
+        void discardCandidate(current as AttemptItem);
+        return;
+      }
       const latestReview = getReview(current);
       if (decision !== "delete" && !latestReview.overallRating) {
         setMessage("RATE 1–5 FIRST");
@@ -218,6 +277,7 @@ export function ReviewDesk({
       advanceAfterReview,
       applyReview,
       current,
+      discardCandidate,
       feedbackDraft,
       getReview,
       review,
@@ -235,11 +295,45 @@ export function ReviewDesk({
         return;
       }
       if (outcome === "original") {
-        chooseDecision("delete");
+        await discardCandidate(current as AttemptItem);
         return;
       }
       if (outcome === "redo") {
+        if (renderGate.state === "failed" && renderGate.errors.length) {
+          const latestReview = getReview(current);
+          if (!latestReview.overallRating) {
+            setMessage("RATE 1–5 FIRST");
+            return;
+          }
+          if (!comparisonItem) {
+            setCatalogOutcomeError("The catalog source could not be found.");
+            return;
+          }
+          const request = correctedRenderReviews({
+            candidateReview: latestReview,
+            sourceReview: getReview(comparisonItem),
+            candidateFeedback: feedbackDraft,
+            errors: renderGate.errors,
+          });
+          applyReview(current, () => request.candidate);
+          applyReview(comparisonItem, () => request.source);
+          setFeedbackDraft(request.candidate.note);
+          setDetailMode(false);
+          setMessage("REDO QUEUED");
+          advanceAfterReview();
+          return;
+        }
         chooseDecision("reject");
+        return;
+      }
+
+      if (
+        (outcome === "both" || outcome === "new") &&
+        renderGate.state !== "passed"
+      ) {
+        setCatalogOutcomeError(
+          "Complete the quality check before changing the Catalog.",
+        );
         return;
       }
 
@@ -255,7 +349,9 @@ export function ReviewDesk({
 
       setCatalogOutcomePending(outcome);
       setCatalogOutcomeError("");
-      setMessage(outcome === "both" ? "ADDING CATALOG VARIANT" : "REPLACING ORIGINAL");
+      setMessage(
+        outcome === "both" ? "ADDING CATALOG VARIANT" : "REPLACING ORIGINAL",
+      );
       try {
         await onPromoteCandidate(
           current as AttemptItem,
@@ -286,10 +382,14 @@ export function ReviewDesk({
       applyReview,
       catalogOutcomePending,
       chooseDecision,
+      comparisonItem,
       current,
+      discardCandidate,
       feedbackDraft,
       getReview,
       onPromoteCandidate,
+      renderGate.state,
+      renderGate.errors,
     ],
   );
 
@@ -444,6 +544,25 @@ export function ReviewDesk({
         finishDetail();
         return;
       }
+      if (!detailMode && catalogComparison) {
+        const key = event.key.toLowerCase();
+        const outcome: CatalogOutcome | undefined =
+          key === "d"
+            ? "original"
+            : key === "b"
+              ? "both"
+              : key === "n"
+                ? "new"
+                : key === "r"
+                  ? "redo"
+                  : undefined;
+        if (outcome) {
+          event.preventDefault();
+          void chooseCatalogOutcome(outcome);
+        }
+        return;
+      }
+
       if (event.key.toLowerCase() === "n") {
         event.preventDefault();
         noteRef.current?.focus();
@@ -457,29 +576,6 @@ export function ReviewDesk({
         if (defect) {
           event.preventDefault();
           toggleDefect(defect);
-        }
-        return;
-      }
-
-      if (
-        current &&
-        "sourceKind" in current &&
-        current.sourceKind === "redo-staging"
-      ) {
-        const key = event.key.toLowerCase();
-        const outcome: CatalogOutcome | undefined =
-          key === "o"
-            ? "original"
-            : key === "b"
-              ? "both"
-              : key === "n"
-                ? "new"
-                : key === "r"
-                  ? "redo"
-                  : undefined;
-        if (outcome) {
-          event.preventDefault();
-          void chooseCatalogOutcome(outcome);
         }
         return;
       }
@@ -499,6 +595,7 @@ export function ReviewDesk({
     chooseDecision,
     chooseCatalogOutcome,
     current,
+    catalogComparison,
     detailMode,
     finishDetail,
     move,
@@ -543,10 +640,8 @@ export function ReviewDesk({
         <ReviewStage
           current={current}
           original={comparisonItem}
-          compareWithCatalog={"sourceKind" in current}
-          catalogOutcomeMode={
-            "sourceKind" in current && current.sourceKind === "redo-staging"
-          }
+          compareWithCatalog={catalogComparison}
+          catalogOutcomeMode={catalogComparison}
           onPrevious={() => move(-1)}
           onNext={() => move(1)}
           message={message}
@@ -555,11 +650,18 @@ export function ReviewDesk({
         <ReviewPanel
           review={review}
           detailMode={detailMode}
-          comparisonMode={
-            "sourceKind" in current && current.sourceKind === "redo-staging"
-          }
+          comparisonMode={catalogComparison}
           originalName={comparisonItem?.name}
           originalReview={comparisonReview}
+          currentName={current.name}
+          isFavorite={favoriteIds.has(current.renderId)}
+          redoStatus={currentRedoStatus}
+          latestRedoReview={latestRedoReview}
+          currentRenderId={current.renderId}
+          renderGateState={renderGate.state}
+          renderGateErrors={renderGate.errors}
+          renderGatePassedAt={renderGate.passedAt}
+          renderGateDiagnostics={renderGate.diagnostics}
           catalogOutcomePending={catalogOutcomePending}
           catalogOutcomeError={catalogOutcomeError}
           onSetRating={setRating}
@@ -575,6 +677,10 @@ export function ReviewDesk({
           onSaveDrafts={saveDrafts}
           noteRef={noteRef}
           onFinishDetail={finishDetail}
+          onOpenRedoCandidate={onOpenRedoCandidate}
+          onToggleFavorite={() => onToggleFavorite(current.renderId)}
+          onCompleteRenderGate={renderGate.complete}
+          onRetryRenderGate={renderGate.retry}
         />
       </AutoHideScrollArea>
     </div>

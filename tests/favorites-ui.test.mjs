@@ -32,16 +32,32 @@ test("favorites can be toggled with F and filtered", async () => {
     new URL("../app/_features/archive/archive-filters.ts", import.meta.url),
     "utf8",
   );
-  const filterDrawer = await readFile(
-    new URL(
-      "../app/_features/archive/filters/filter-drawer.tsx",
-      import.meta.url,
-    ),
+  const toolbar = await readFile(
+    new URL("../app/_features/archive/library-toolbar.tsx", import.meta.url),
     "utf8",
   );
 
   assert.match(gallery, /event\.key\.toLocaleLowerCase\(\) === "f"/);
   assert.match(gallery, /!reviewOpen && view === "catalog" && selected/);
   assert.match(archiveFilters, /filters\.favorite === "favorite"/);
-  assert.match(filterDrawer, /label="Favorites"/);
+  assert.match(toolbar, /FAVORITES/);
+  assert.match(toolbar, /onShowFavorites/);
+  assert.match(gallery, /updateQuickFilter\("favorite", "favorite"\)/);
+});
+
+test("review favorite action stays visible above overall rating", async () => {
+  const reviewPanel = await readFile(
+    new URL("../app/_features/review/review-panel.tsx", import.meta.url),
+    "utf8",
+  );
+
+  const favoritePosition = reviewPanel.indexOf("<FavoriteControl");
+  const ratingPosition = reviewPanel.indexOf("<RatingControl");
+  const detailsPosition = reviewPanel.indexOf(
+    '<details className="review-more-details"',
+  );
+
+  assert.notEqual(favoritePosition, -1);
+  assert.ok(favoritePosition < ratingPosition);
+  assert.ok(ratingPosition < detailsPosition);
 });

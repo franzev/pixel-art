@@ -20,7 +20,7 @@ export const QUEUE_LABELS: Record<ReviewQueue, string> = {
   kept: "Kept",
   rejected: "Rejected · redo",
   deletion: "Marked for deletion",
-  favorites: "Five-star anchors",
+  favorites: "Favorites",
 };
 
 export const DECISIONS: DecisionOption[] = [

@@ -21,9 +21,9 @@ export default function Home() {
       catalog={compactGalleryCatalog(artIndex as ArtItem[])}
       attemptCatalog={{
         version: catalogVersion(attemptIndex as AttemptItem[]),
-        items: attemptIndex as AttemptItem[],
+        items: [],
       }}
-      redoCompletions={redoCompletions}
+      redoCompletions={[]}
       redoCompletionVersion={redoCompletionVersion}
     />
   );

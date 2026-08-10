@@ -3,18 +3,22 @@
 import type { CSSProperties } from "react";
 import type { GalleryItem } from "../../../review-types";
 import { INITIAL_RENDER_COUNT } from "../archive-config";
-import { RenderTile } from "./render-tile";
+import { RenderTile, type RenderTilePresentation } from "./render-tile";
 
 export function InitialRenderGrid({
   items,
   selectedId,
   tileSize,
   onOpen,
+  presentationById,
+  reviewedAtByRenderId,
 }: {
   items: GalleryItem[];
   selectedId?: string;
   tileSize: number;
   onOpen: (item: GalleryItem) => void;
+  presentationById?: ReadonlyMap<string, RenderTilePresentation>;
+  reviewedAtByRenderId?: ReadonlyMap<string, string | null>;
 }) {
   return (
     <div
@@ -33,6 +37,8 @@ export function InitialRenderGrid({
           selected={selectedId === item.id}
           eager={index < 12}
           onOpen={onOpen}
+          presentation={presentationById?.get(item.id)}
+          reviewedAt={reviewedAtByRenderId?.get(item.renderId)}
         />
       ))}
     </div>

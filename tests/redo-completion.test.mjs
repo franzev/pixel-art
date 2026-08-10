@@ -37,7 +37,13 @@ test("redo completion requires a saved candidate and deduplicates source renders
     ]),
   );
   await writeFile(
-    path.join(stagingRoot, "enemies", "sample", "drafts", "01-completed-v02.png"),
+    path.join(
+      stagingRoot,
+      "enemies",
+      "sample",
+      "drafts",
+      "01-completed-v02.png",
+    ),
     "candidate",
   );
 
@@ -51,10 +57,7 @@ test("redo completion requires a saved candidate and deduplicates source renders
 
     assert.equal(completions.length, 1);
     assert.deepEqual(written, completions);
-    assert.equal(
-      completions[0].sourceRenderId,
-      "rnd_111111111111111111111111",
-    );
+    assert.equal(completions[0].sourceRenderId, "rnd_111111111111111111111111");
     assert.deepEqual(completions[0].selectionFiles, [
       "selection-02.json",
       "selection.json",
@@ -91,19 +94,21 @@ test("gallery keeps completed sources visible in the marked-for-redo view", asyn
     new URL("../app/_features/review/review-queue.ts", import.meta.url),
     "utf8",
   );
+  const reviewWorkspace = await readFile(
+    new URL("../app/_features/archive/review-workspace.tsx", import.meta.url),
+    "utf8",
+  );
 
-  assert.doesNotMatch(filters, /completedRedoRenderIds/);
-  assert.match(filters, /reviewed !== filters\.decision/);
+  assert.match(filters, /filters\.decision === "redo-pending"/);
+  assert.match(filters, /isRedoAwaitingGeneration/);
   assert.match(gallery, /openRedoSources/);
   assert.match(gallery, /redoSourcesAvailable/);
-  assert.match(
-    gallery,
-    /redoAvailableCount=\{\s*reviewProgress\.queue\.redoSourcesAvailable\s*\}/,
-  );
+  assert.match(gallery, /onOpenRedoSources=\{openRedoSources\}/);
+  assert.match(reviewWorkspace, /progress\.queue\.redoSourcesAvailable/);
   assert.doesNotMatch(gallery, /redoRecordedCount/);
   assert.match(
     galleryFilters,
-    /if \(next\.decision === "reject"\) next\.lifecycle = "all"/,
+    /\["reject", "redo-pending"\]\.includes\(next\.decision\)/,
   );
   assert.match(gallery, /redoCompletionVersion/);
   assert.match(catalogRoute, /redoCompletionIndex/);

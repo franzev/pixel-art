@@ -8,6 +8,8 @@ import { AttemptInspector } from "./attempt-inspector";
 export function MobileAttemptViewer({
   viewerRef,
   item,
+  seriesItems,
+  onSelectAttempt,
   onPrevious,
   onNext,
   review,
@@ -16,6 +18,8 @@ export function MobileAttemptViewer({
 }: {
   viewerRef: RefObject<HTMLDialogElement | null>;
   item?: AttemptItem;
+  seriesItems?: AttemptItem[];
+  onSelectAttempt?: (item: AttemptItem) => void;
   onPrevious: () => void;
   onNext: () => void;
   review?: RenderReview;
@@ -32,6 +36,8 @@ export function MobileAttemptViewer({
         <AttemptInspector
           compact
           item={item}
+          seriesItems={seriesItems}
+          onSelectAttempt={onSelectAttempt}
           onPrevious={onPrevious}
           onNext={onNext}
           review={review}

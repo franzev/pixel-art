@@ -7,8 +7,7 @@ import { FilterGroup } from "./filter-group";
 import { RaceFilter } from "./race-filter";
 import { RatingFilter } from "./rating-filter";
 import { SavedTimeFilter } from "./saved-time-filter";
-import { ReviewProgressSummary } from "../review-progress";
-import type { ReviewProgress } from "../review-summary";
+import { FilterSection } from "./filter-section";
 
 type FilterOption = { value: string; label: string };
 
@@ -29,13 +28,6 @@ export function FilterDrawer({
   matchingRaceOptions,
   genderOptions,
   genderCounts,
-  favoriteOptions,
-  favoriteCounts,
-  decisionOptions,
-  decisionCounts,
-  reviewProgress,
-  onShowRedoSources,
-  onShowGeneratedOutputs,
   ratingCounts,
   lifecycleOptions,
   lifecycleCounts,
@@ -60,13 +52,6 @@ export function FilterDrawer({
   matchingRaceOptions: FilterOption[];
   genderOptions: FilterOption[];
   genderCounts: Map<string, number>;
-  favoriteOptions: FilterOption[];
-  favoriteCounts: Map<string, number>;
-  decisionOptions: FilterOption[];
-  decisionCounts: Map<string, number>;
-  reviewProgress: ReviewProgress;
-  onShowRedoSources: () => void;
-  onShowGeneratedOutputs: () => void;
   ratingCounts: Map<string, number>;
   lifecycleOptions: FilterOption[];
   lifecycleCounts: Map<string, number>;
@@ -93,8 +78,14 @@ export function FilterDrawer({
     >
       <AutoHideScrollArea className="filter-drawer-scroll">
         <div className="filter-drawer-columns">
-          <section className="filter-section">
-            <h3>Collections</h3>
+          <FilterSection
+            title="Collection"
+            summary={
+              filters.collections.length
+                ? `${filters.collections.length} selected`
+                : "Any"
+            }
+          >
             <CollectionFilter
               selectedCollections={filters.collections}
               query={collectionQuery}
@@ -104,10 +95,16 @@ export function FilterDrawer({
               counts={collectionCounts}
               onToggle={onToggleCollection}
             />
-          </section>
+          </FilterSection>
 
-          <section className="filter-section">
-            <h3>Subject</h3>
+          <FilterSection
+            title="Subject"
+            summary={
+              filters.gender !== "all" || filters.race !== "all"
+                ? "Filtered"
+                : "Any"
+            }
+          >
             <FilterGroup
               label="Gender"
               value={filters.gender}
@@ -125,45 +122,49 @@ export function FilterDrawer({
               counts={raceCounts}
               onChange={(race) => onSetFilterValue("race", race)}
             />
-          </section>
+          </FilterSection>
 
-          <section className="filter-section">
-            <h3>Review</h3>
-            <ReviewProgressSummary
-              progress={reviewProgress}
-              onShowRedoSources={onShowRedoSources}
-              onShowGeneratedOutputs={onShowGeneratedOutputs}
-            />
-            <FilterGroup
-              label="Favorites"
-              value={filters.favorite}
-              options={favoriteOptions}
-              counts={favoriteCounts}
-              onChange={(favorite) => onSetFilterValue("favorite", favorite)}
-            />
-            <FilterGroup
-              label="Decision"
-              value={filters.decision}
-              options={decisionOptions}
-              counts={decisionCounts}
-              onChange={(decision) => onSetFilterValue("decision", decision)}
-            />
-          </section>
-
-          <section className="filter-section">
-            <h3>Rating &amp; state</h3>
+          <FilterSection
+            title="Rating & state"
+            summary={
+              filters.rating !== "all" ||
+              filters.lifecycle !== "active" ||
+              filters.generatedTime !== "all" ||
+              filters.reviewedTime !== "all"
+                ? "Filtered"
+                : "Any"
+            }
+          >
             <SavedTimeFilter
-              value={filters.savedTime}
-              customFrom={filters.savedFrom}
-              customTo={filters.savedTo}
-              onChange={(savedTime) =>
-                onSetFilterValue("savedTime", savedTime)
+              label="Generated"
+              help="Generated ranges use when the render file was saved. Calendar ranges use GMT+8."
+              value={filters.generatedTime}
+              customFrom={filters.generatedFrom}
+              customTo={filters.generatedTo}
+              onChange={(generatedTime) =>
+                onSetFilterValue("generatedTime", generatedTime)
               }
-              onCustomFromChange={(savedFrom) =>
-                onSetFilterValue("savedFrom", savedFrom)
+              onCustomFromChange={(generatedFrom) =>
+                onSetFilterValue("generatedFrom", generatedFrom)
               }
-              onCustomToChange={(savedTo) =>
-                onSetFilterValue("savedTo", savedTo)
+              onCustomToChange={(generatedTo) =>
+                onSetFilterValue("generatedTo", generatedTo)
+              }
+            />
+            <SavedTimeFilter
+              label="Reviewed"
+              help="Reviewed ranges use when a render first had a review recorded. Unreviewed renders do not match."
+              value={filters.reviewedTime}
+              customFrom={filters.reviewedFrom}
+              customTo={filters.reviewedTo}
+              onChange={(reviewedTime) =>
+                onSetFilterValue("reviewedTime", reviewedTime)
+              }
+              onCustomFromChange={(reviewedFrom) =>
+                onSetFilterValue("reviewedFrom", reviewedFrom)
+              }
+              onCustomToChange={(reviewedTo) =>
+                onSetFilterValue("reviewedTo", reviewedTo)
               }
             />
             <RatingFilter
@@ -180,7 +181,7 @@ export function FilterDrawer({
                 onSetFilterValue("lifecycle", lifecycle)
               }
             />
-          </section>
+          </FilterSection>
         </div>
       </AutoHideScrollArea>
 

@@ -1,5 +1,7 @@
 "use client";
 
+import { ActionButton } from "../../_components/ui/action-button";
+import { SegmentedControl } from "../../_components/ui/segmented-control";
 import { SavedTimeFilter } from "./filters/saved-time-filter";
 
 export type AttemptSourceFilter = "all" | "successful" | "raw";
@@ -11,13 +13,19 @@ export function AttemptToolbar({
   sourceFilter,
   successfulCount,
   rawCount,
-  savedTime,
-  savedFrom,
-  savedTo,
+  generatedTime,
+  generatedFrom,
+  generatedTo,
+  reviewedTime,
+  reviewedFrom,
+  reviewedTo,
   onSourceFilterChange,
-  onSavedTimeChange,
-  onSavedFromChange,
-  onSavedToChange,
+  onGeneratedTimeChange,
+  onGeneratedFromChange,
+  onGeneratedToChange,
+  onReviewedTimeChange,
+  onReviewedFromChange,
+  onReviewedToChange,
   onReviewUnreviewed,
 }: {
   attemptCount: number;
@@ -26,84 +34,67 @@ export function AttemptToolbar({
   sourceFilter: AttemptSourceFilter;
   successfulCount: number;
   rawCount: number;
-  savedTime: string;
-  savedFrom: string;
-  savedTo: string;
+  generatedTime: string;
+  generatedFrom: string;
+  generatedTo: string;
+  reviewedTime: string;
+  reviewedFrom: string;
+  reviewedTo: string;
   onSourceFilterChange: (filter: AttemptSourceFilter) => void;
-  onSavedTimeChange: (value: string) => void;
-  onSavedFromChange: (value: string) => void;
-  onSavedToChange: (value: string) => void;
+  onGeneratedTimeChange: (value: string) => void;
+  onGeneratedFromChange: (value: string) => void;
+  onGeneratedToChange: (value: string) => void;
+  onReviewedTimeChange: (value: string) => void;
+  onReviewedFromChange: (value: string) => void;
+  onReviewedToChange: (value: string) => void;
   onReviewUnreviewed: () => void;
 }) {
   return (
     <>
       <div className="attempt-toolbar">
-        <div>
-          <span className="eyebrow">GENERATION OUTPUTS</span>
-          <p>Compare successful candidates with their raw attempts.</p>
+        <div className="attempt-toolbar-copy">
+          <span className="eyebrow">ATTEMPT SERIES</span>
+          <p>{seriesCount} series · {attemptCount} preserved outputs</p>
         </div>
-        <div className="attempt-source-filter" role="group" aria-label="Output type">
-          <button
-            type="button"
-            className={sourceFilter === "all" ? "is-active" : undefined}
-            aria-pressed={sourceFilter === "all"}
-            onClick={() => onSourceFilterChange("all")}
-          >
-            ALL <strong>{attemptCount}</strong>
-          </button>
-          <button
-            type="button"
-            className={sourceFilter === "successful" ? "is-active" : undefined}
-            aria-pressed={sourceFilter === "successful"}
-            onClick={() => onSourceFilterChange("successful")}
-          >
-            SUCCESSFUL <strong>{successfulCount}</strong>
-          </button>
-          <button
-            type="button"
-            className={sourceFilter === "raw" ? "is-active" : undefined}
-            aria-pressed={sourceFilter === "raw"}
-            onClick={() => onSourceFilterChange("raw")}
-          >
-            RAW <strong>{rawCount}</strong>
-          </button>
-        </div>
+        <SegmentedControl
+          label="Output type"
+          value={sourceFilter}
+          onChange={onSourceFilterChange}
+          options={[
+            { value: "all", label: "All", count: attemptCount },
+            { value: "successful", label: "Candidates", count: successfulCount },
+            { value: "raw", label: "Preserved", count: rawCount },
+          ]}
+        />
         <SavedTimeFilter
           compact
-          value={savedTime}
-          customFrom={savedFrom}
-          customTo={savedTo}
-          onChange={onSavedTimeChange}
-          onCustomFromChange={onSavedFromChange}
-          onCustomToChange={onSavedToChange}
+          label="Generated"
+          value={generatedTime}
+          customFrom={generatedFrom}
+          customTo={generatedTo}
+          onChange={onGeneratedTimeChange}
+          onCustomFromChange={onGeneratedFromChange}
+          onCustomToChange={onGeneratedToChange}
         />
-        <dl aria-label="Attempt archive summary">
-          <div>
-            <dt>Attempts</dt>
-            <dd>{attemptCount}</dd>
-          </div>
-          <div>
-            <dt>Series</dt>
-            <dd>{seriesCount}</dd>
-          </div>
-          <div>
-            <dt>Unreviewed</dt>
-            <dd>{unreviewedCount}</dd>
-          </div>
-        </dl>
-        <button
+        <SavedTimeFilter
+          compact
+          label="Reviewed"
+          value={reviewedTime}
+          customFrom={reviewedFrom}
+          customTo={reviewedTo}
+          onChange={onReviewedTimeChange}
+          onCustomFromChange={onReviewedFromChange}
+          onCustomToChange={onReviewedToChange}
+        />
+        <ActionButton
           className="attempt-review-action"
-          type="button"
+          variant="primary"
+          size="compact"
           onClick={onReviewUnreviewed}
           disabled={!unreviewedCount}
         >
-          REVIEW UNREVIEWED · {unreviewedCount}
-        </button>
-      </div>
-      <div className="active-filter-strip">
-        <span className="shortcut-hint">
-          EXCLUDED FROM CATALOG · REVIEWABLE · ← → TO NAVIGATE · / TO SEARCH
-        </span>
+          REVIEW NEW · {unreviewedCount}
+        </ActionButton>
       </div>
     </>
   );

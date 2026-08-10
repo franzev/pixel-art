@@ -1,8 +1,21 @@
 import type {
   GalleryItem,
   RedoCompletion,
+  RenderReview,
   ReviewMap,
 } from "../../review-types";
+
+export function isRedoAwaitingGeneration(
+  item: GalleryItem,
+  review: RenderReview | undefined,
+  completedRedoRenderIds: ReadonlySet<string>,
+) {
+  return (
+    review?.decision === "reject" &&
+    !("sourceKind" in item) &&
+    !completedRedoRenderIds.has(item.renderId)
+  );
+}
 
 export type ReviewProgress = {
   saved: {
@@ -14,6 +27,7 @@ export type ReviewProgress = {
     redoAwaitingGeneration: number;
     redoSourcesAvailable: number;
     redoSourcesRegenerated: number;
+    redoSourcesAwaitingGenerationAvailable: number;
     redoSourcesUnavailable: number;
     generatedOutputsAvailable: number;
     generatedOutputsAwaitingReview: number;
@@ -59,6 +73,12 @@ export function summarizeReviewProgress(
       catalogRenderIds.has(review.renderId) &&
       completedRedoRenderIds.has(review.renderId),
   ).length;
+  const redoSourcesAwaitingGenerationAvailable = Object.values(reviews).filter(
+    (review) =>
+      review.decision === "reject" &&
+      catalogRenderIds.has(review.renderId) &&
+      !completedRedoRenderIds.has(review.renderId),
+  ).length;
   const deletionAwaitingApplication = Object.values(reviews).filter(
     (review) =>
       review.decision === "delete" &&
@@ -77,6 +97,7 @@ export function summarizeReviewProgress(
       redoAwaitingGeneration,
       redoSourcesAvailable,
       redoSourcesRegenerated,
+      redoSourcesAwaitingGenerationAvailable,
       redoSourcesUnavailable: saved.redo - redoSourcesAvailable,
       generatedOutputsAvailable: candidates.length,
       generatedOutputsAwaitingReview,

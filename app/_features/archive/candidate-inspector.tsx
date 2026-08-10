@@ -9,6 +9,8 @@ import type {
 } from "../../review-types";
 import { PreviewImage } from "./grid/preview-image";
 import { formatSavedTimestamp } from "./saved-time";
+import { RenderGateControl } from "../review/render-gate-control";
+import { useRenderGate } from "../review/use-render-gate";
 
 type CatalogPlacement = "variant" | "replace";
 
@@ -17,6 +19,7 @@ export function CandidateInspector({
   original,
   history,
   review,
+  originalReview,
   onPrevious,
   onNext,
   onReview,
@@ -27,6 +30,7 @@ export function CandidateInspector({
   original?: GalleryItem;
   history: AttemptItem[];
   review?: RenderReview;
+  originalReview?: RenderReview;
   onPrevious: () => void;
   onNext: () => void;
   onReview: () => void;
@@ -36,21 +40,29 @@ export function CandidateInspector({
   const [promoting, setPromoting] = useState(false);
   const [promotionError, setPromotionError] = useState("");
   const canPromote = review?.decision === "keep";
+  const renderGate = useRenderGate({
+    candidate,
+    original,
+    originalReview,
+  });
 
   const promote = async (placement: CatalogPlacement) => {
-    if (!canPromote || promoting) return;
+    if (!canPromote || promoting || renderGate.state !== "passed") return;
     if (
       placement === "replace" &&
       !window.confirm(
         "Replace the original Catalog image? It will be archived, your review will be preserved, and all raw attempts will remain in history.",
       )
-    ) return;
+    )
+      return;
     setPromoting(true);
     setPromotionError("");
     try {
       await onPromote(placement);
     } catch (error) {
-      setPromotionError(error instanceof Error ? error.message : "Promotion failed.");
+      setPromotionError(
+        error instanceof Error ? error.message : "Promotion failed.",
+      );
       setPromoting(false);
     }
   };
@@ -65,12 +77,20 @@ export function CandidateInspector({
         </div>
       </div>
 
-      <div className="candidate-comparison" aria-label="Original and candidate comparison">
+      <div
+        className="candidate-comparison"
+        aria-label="Original and candidate comparison"
+      >
         <figure>
           <figcaption>ORIGINAL CATALOG</figcaption>
           {original ? (
             <div className="candidate-comparison-art">
-              <PreviewImage item={original} alt={`Original ${original.name}`} inspector eager />
+              <PreviewImage
+                item={original}
+                alt={`Original ${original.name}`}
+                inspector
+                eager
+              />
             </div>
           ) : (
             <div className="candidate-comparison-empty">NO EXISTING IMAGE</div>
@@ -90,14 +110,27 @@ export function CandidateInspector({
       </div>
 
       <div className="inspector-nav" aria-label="Candidate navigation">
-        <button type="button" onClick={onPrevious}>← PREVIOUS</button>
-        <button type="button" onClick={onNext}>NEXT →</button>
+        <button type="button" onClick={onPrevious}>
+          ← PREVIOUS
+        </button>
+        <button type="button" onClick={onNext}>
+          NEXT →
+        </button>
       </div>
 
       <dl className="metadata-list">
-        <div><dt>Collection</dt><dd>{candidate.collection}</dd></div>
-        <div><dt>Version</dt><dd>{String(candidate.attempt).padStart(2, "0")}</dd></div>
-        <div><dt>History</dt><dd>{history.length} preserved outputs</dd></div>
+        <div>
+          <dt>Collection</dt>
+          <dd>{candidate.collection}</dd>
+        </div>
+        <div>
+          <dt>Version</dt>
+          <dd>{String(candidate.attempt).padStart(2, "0")}</dd>
+        </div>
+        <div>
+          <dt>History</dt>
+          <dd>{history.length} preserved outputs</dd>
+        </div>
         <div>
           <dt>Saved</dt>
           <dd>
@@ -106,16 +139,35 @@ export function CandidateInspector({
             </time>
           </dd>
         </div>
-        <div><dt>Decision</dt><dd>{review?.decision ?? "Unreviewed"}</dd></div>
-        <div><dt>Rating</dt><dd>{review?.overallRating ? `${review.overallRating} / 5` : "—"}</dd></div>
+        <div>
+          <dt>Decision</dt>
+          <dd>{review?.decision ?? "Unreviewed"}</dd>
+        </div>
+        <div>
+          <dt>Rating</dt>
+          <dd>{review?.overallRating ? `${review.overallRating} / 5` : "—"}</dd>
+        </div>
       </dl>
 
+      <RenderGateControl
+        key={candidate.renderId}
+        state={renderGate.state}
+        errors={renderGate.errors}
+        passedAt={renderGate.passedAt}
+        diagnostics={renderGate.diagnostics}
+        onComplete={renderGate.complete}
+        onRetry={renderGate.retry}
+      />
+
       <div className="candidate-actions">
-        <div className="candidate-placement-actions" aria-label="Catalog placement">
+        <div
+          className="candidate-placement-actions"
+          aria-label="Catalog placement"
+        >
           <button
             type="button"
             className="candidate-primary-action"
-            disabled={!canPromote || promoting}
+            disabled={!canPromote || promoting || renderGate.state !== "passed"}
             onClick={() => promote("variant")}
           >
             {promoting ? "ADDING…" : "ADD AS VARIANT"}
@@ -123,13 +175,17 @@ export function CandidateInspector({
           <button
             type="button"
             className="candidate-replace-action"
-            disabled={!canPromote || promoting}
+            disabled={!canPromote || promoting || renderGate.state !== "passed"}
             onClick={() => promote("replace")}
           >
             REPLACE ORIGINAL
           </button>
         </div>
-        <button type="button" className="candidate-primary-action" onClick={onReview}>
+        <button
+          type="button"
+          className="candidate-primary-action"
+          onClick={onReview}
+        >
           {review?.decision ? "EDIT REVIEW" : "REVIEW CANDIDATE"}
         </button>
         <button type="button" onClick={onViewHistory}>
@@ -138,10 +194,19 @@ export function CandidateInspector({
       </div>
 
       {!canPromote && (
-        <p className="candidate-action-note">Save a Keep review before choosing a Catalog placement.</p>
+        <p className="candidate-action-note">
+          Save a Keep review before choosing a Catalog placement.
+        </p>
+      )}
+      {canPromote && renderGate.state !== "passed" && (
+        <p className="candidate-action-note">
+          Complete the quality check before choosing a Catalog placement.
+        </p>
       )}
       {promotionError && (
-        <p className="candidate-action-error" role="alert">{promotionError}</p>
+        <p className="candidate-action-error" role="alert">
+          {promotionError}
+        </p>
       )}
 
       <div className="attempt-provenance">

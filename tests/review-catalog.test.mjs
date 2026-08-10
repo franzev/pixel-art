@@ -12,6 +12,7 @@ test("renders have stable content identities and optimistic tags", async () => {
   for (const item of items) {
     assert.match(item.renderId, /^rnd_[0-9a-f]{24}$/);
     assert.match(item.assetHash, /^[0-9a-f]{64}$/);
+    assert.match(item.generatedAt, /^\d{4}-\d{2}-\d{2}T/);
     assert.equal(item.path, item.id);
     assert.ok(Array.isArray(item.suggestedTags));
     assert.ok(item.suggestedTags.length >= 3);
@@ -126,10 +127,7 @@ test("race and gender tags follow authored character concepts", async () => {
     ["04-tapis-hem-stalker.png", "feminine"],
   ];
   for (const [filename, gender] of vampireMinionExpectations) {
-    const minion = byFilename(
-      "creepy-vampire-minions-batch-05",
-      filename,
-    );
+    const minion = byFilename("creepy-vampire-minions-batch-05", filename);
     assert.equal(tagValue(minion, "race"), "race:vampire");
     assert.equal(
       tagValue(minion, "gender-presentation"),
@@ -201,12 +199,12 @@ test("review desk snapshots the contact sheet's filtered render scope", async ()
 
   assert.match(
     gallerySource,
-    /setReviewItems\(filteredItems\)/,
+    /openReviewQueue\(\s*sortedLibraryItems/,
     "Opening Review must snapshot the filtered contact sheet",
   );
   assert.match(
     gallerySource,
-    /<ReviewDesk\s+items=\{reviewItems\}/,
+    /<ReviewDesk[\s\S]*?items=\{reviewItems\}/,
     "Opening Review from a filtered contact sheet must not fall back to the full catalog",
   );
 });
@@ -243,7 +241,7 @@ test("review loading leaves catalog synchronization on the server", async () => 
   assert.match(syncSource, /current\?\.version === version/);
 });
 
-test("gallery transport removes server-only render metadata", async () => {
+test("gallery transport keeps content identity but removes filesystem paths", async () => {
   const source = await readFile(
     new URL("../app/gallery-catalog.ts", import.meta.url),
     "utf8",
@@ -251,6 +249,6 @@ test("gallery transport removes server-only render metadata", async () => {
 
   assert.match(source, /tagDefinitionIds/);
   assert.match(source, /tagDefinitions/);
-  assert.doesNotMatch(source, /assetHash:\s*item\.assetHash/);
+  assert.match(source, /assetHash:\s*item\.assetHash/);
   assert.doesNotMatch(source, /path:\s*item\.path/);
 });

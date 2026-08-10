@@ -4,7 +4,7 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { GalleryItem } from "../../../review-types";
 import { GRID_GAP, TILE_CHROME_HEIGHT } from "../archive-config";
-import { RenderTile } from "./render-tile";
+import { RenderTile, type RenderTilePresentation } from "./render-tile";
 
 export function VirtualizedRenderGrid({
   items,
@@ -13,6 +13,8 @@ export function VirtualizedRenderGrid({
   scrollElement,
   resetKey,
   onOpen,
+  presentationById,
+  reviewedAtByRenderId,
 }: {
   items: GalleryItem[];
   selectedId?: string;
@@ -20,6 +22,8 @@ export function VirtualizedRenderGrid({
   scrollElement: HTMLDivElement | null;
   resetKey: string;
   onOpen: (item: GalleryItem) => void;
+  presentationById?: ReadonlyMap<string, RenderTilePresentation>;
+  reviewedAtByRenderId?: ReadonlyMap<string, string | null>;
 }) {
   const gridRef = useRef<HTMLDivElement>(null);
   const [gridWidth, setGridWidth] = useState(0);
@@ -155,6 +159,8 @@ export function VirtualizedRenderGrid({
                   selected={selectedId === item.id}
                   eager={index < 12}
                   onOpen={onOpen}
+                  presentation={presentationById?.get(item.id)}
+                  reviewedAt={reviewedAtByRenderId?.get(item.renderId)}
                 />
               );
             })}

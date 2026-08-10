@@ -1,4 +1,4 @@
-import { readFile, readdir, writeFile } from "node:fs/promises";
+import { readFile, readdir, stat, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -113,7 +113,7 @@ function deriveStatus(normalizedPath) {
 }
 
 async function pngMetadata(file) {
-  const buffer = await readFile(file);
+  const [buffer, stats] = await Promise.all([readFile(file), stat(file)]);
   const pngSignature = "89504e470d0a1a0a";
   if (buffer.subarray(0, 8).toString("hex") !== pngSignature) {
     return { width: 0, height: 0, assetHash: "" };
@@ -131,6 +131,7 @@ async function pngMetadata(file) {
     width: buffer.readUInt32BE(16),
     height: buffer.readUInt32BE(20),
     assetHash: createHash("sha256").update(buffer).digest("hex"),
+    generatedAt: stats.mtime.toISOString(),
   };
 }
 
@@ -654,6 +655,11 @@ export async function syncArt() {
       previous,
       metadata.assetHash,
     );
+    const generatedAt =
+      previous?.assetHash === metadata.assetHash &&
+      typeof previous.generatedAt === "string"
+        ? previous.generatedAt
+        : metadata.generatedAt;
     let renderGateVersion;
     if (requiresRenderGate) {
       await requireRenderGateReceipt({
@@ -677,6 +683,7 @@ export async function syncArt() {
       status,
       width: metadata.width,
       height: metadata.height,
+      generatedAt,
       ...(renderGateVersion ? { renderGateVersion } : {}),
       suggestedTags: suggestedTags({
         category,

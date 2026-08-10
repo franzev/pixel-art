@@ -21,6 +21,7 @@ export type ArtItem = {
   status: ArtStatus;
   width: number;
   height: number;
+  generatedAt: string;
   renderGateVersion?: number;
   suggestedTags: SuggestedTag[];
 };
@@ -29,6 +30,7 @@ export type GalleryItem = Pick<
   ArtItem,
   | "id"
   | "renderId"
+  | "assetHash"
   | "url"
   | "name"
   | "filename"
@@ -37,6 +39,7 @@ export type GalleryItem = Pick<
   | "status"
   | "width"
   | "height"
+  | "generatedAt"
   | "suggestedTags"
 >;
 
@@ -51,14 +54,12 @@ export type GalleryCatalog = {
 };
 
 export type AttemptItem = GalleryItem & {
-  assetHash: string;
   path: string;
   attempt: number;
   concept: string;
   series: string;
   sourceKind: "archive" | "redo-staging";
   sourcePath: string;
-  generatedAt: string;
 };
 
 export type AttemptCatalog = {

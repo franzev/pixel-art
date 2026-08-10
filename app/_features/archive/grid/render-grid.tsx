@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { GalleryItem } from "../../../review-types";
+import type { RenderTilePresentation } from "./render-tile";
 import { InitialRenderGrid } from "./initial-render-grid";
 import { VirtualizedRenderGrid } from "./virtualized-render-grid";
 
@@ -12,6 +13,8 @@ export function RenderGrid({
   scrollElement,
   resetKey,
   onOpen,
+  presentationById,
+  reviewedAtByRenderId,
 }: {
   items: GalleryItem[];
   selectedId?: string;
@@ -19,6 +22,8 @@ export function RenderGrid({
   scrollElement: HTMLDivElement | null;
   resetKey: string;
   onOpen: (item: GalleryItem) => void;
+  presentationById?: ReadonlyMap<string, RenderTilePresentation>;
+  reviewedAtByRenderId?: ReadonlyMap<string, string | null>;
 }) {
   const [gridVirtualized, setGridVirtualized] = useState(false);
 
@@ -36,6 +41,8 @@ export function RenderGrid({
       scrollElement={scrollElement}
       resetKey={resetKey}
       onOpen={onOpen}
+      presentationById={presentationById}
+      reviewedAtByRenderId={reviewedAtByRenderId}
     />
   ) : (
     <InitialRenderGrid
@@ -43,6 +50,8 @@ export function RenderGrid({
       selectedId={selectedId}
       tileSize={tileSize}
       onOpen={onOpen}
+      presentationById={presentationById}
+      reviewedAtByRenderId={reviewedAtByRenderId}
     />
   );
 }

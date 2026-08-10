@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-test("Catalog Unreviewed is backed by latest successful candidates", async () => {
+test("Review New candidates is backed by latest successful candidates", async () => {
   const matching = await readFile(
     new URL("../app/_features/archive/candidate-matching.ts", import.meta.url),
     "utf8",
@@ -19,13 +19,19 @@ test("Catalog Unreviewed is backed by latest successful candidates", async () =>
     new URL("../app/_features/review/review-stage.tsx", import.meta.url),
     "utf8",
   );
+  const reviewWorkspace = await readFile(
+    new URL("../app/_features/archive/review-workspace.tsx", import.meta.url),
+    "utf8",
+  );
 
   assert.match(matching, /latestSuccessfulCandidates/);
   assert.match(matching, /sourceKind !== "redo-staging"/);
   assert.match(matching, /matchingCatalogItem/);
   assert.match(matching, /matchingAttemptHistory/);
   assert.match(gallery, /latestSuccessfulCandidates/);
-  assert.match(gallery, /CandidateInspector/);
+  assert.match(gallery, /openNewCandidates/);
+  assert.match(gallery, /<ReviewWorkspace/);
+  assert.match(reviewWorkspace, /New candidates/);
   assert.match(gallery, /candidateOriginals/);
   assert.match(gallery, /comparisonItemsByRenderId=\{candidateOriginals\}/);
   assert.match(reviewDesk, /comparisonItemsByRenderId/);
@@ -37,7 +43,10 @@ test("Catalog Unreviewed is backed by latest successful candidates", async () =>
   assert.match(reviewStage, /<kbd>N<\/kbd> NEW/);
   assert.match(gallery, /mode: placement/);
   const inspector = await readFile(
-    new URL("../app/_features/archive/candidate-inspector.tsx", import.meta.url),
+    new URL(
+      "../app/_features/archive/candidate-inspector.tsx",
+      import.meta.url,
+    ),
     "utf8",
   );
   assert.match(inspector, /ADD AS VARIANT/);
@@ -51,7 +60,8 @@ test("Catalog Unreviewed is backed by latest successful candidates", async () =>
     ),
     "utf8",
   );
-  assert.match(outcomeControl, /Keep original/);
+  assert.match(outcomeControl, /Delete candidate/);
+  assert.match(outcomeControl, /Remove candidate; keep original/);
   assert.match(outcomeControl, /Keep both/);
   assert.match(outcomeControl, /Keep new/);
 

@@ -3,6 +3,7 @@
 import type { RefObject } from "react";
 import { AutoHideScrollArea } from "../../_components/ui/auto-hide-scroll-area";
 import type {
+  AttemptItem,
   RenderReview,
   ReviewDecision,
   ReviewDefect,
@@ -14,11 +15,20 @@ import {
 import { DecisionControl } from "./decision-control";
 import { DefectControl } from "./defect-control";
 import { FeedbackEditor } from "./feedback-editor";
+import { FavoriteControl } from "./favorite-control";
 import { FinishReviewButton } from "./finish-review-button";
 import { OriginalReviewSummary } from "./original-review-summary";
 import { RatingControl } from "./rating-control";
+import { RenderGateControl } from "./render-gate-control";
+import type { RedoProcessingStatus } from "./redo-processing-status";
+import { RedoProcessingSummary } from "./redo-processing-summary";
 import type { DefectOption } from "./review-config";
 import { SuggestedTagsControl } from "./suggested-tags-control";
+import type {
+  RenderGateAttestations,
+  RenderGateDiagnostics,
+  RenderGateState,
+} from "./use-render-gate";
 
 export function ReviewPanel({
   review,
@@ -26,6 +36,15 @@ export function ReviewPanel({
   comparisonMode,
   originalName,
   originalReview,
+  currentName,
+  isFavorite,
+  redoStatus,
+  latestRedoReview,
+  currentRenderId,
+  renderGateState,
+  renderGateErrors,
+  renderGatePassedAt,
+  renderGateDiagnostics,
   catalogOutcomePending,
   catalogOutcomeError,
   onSetRating,
@@ -39,12 +58,25 @@ export function ReviewPanel({
   onSaveDrafts,
   noteRef,
   onFinishDetail,
+  onOpenRedoCandidate,
+  onToggleFavorite,
+  onCompleteRenderGate,
+  onRetryRenderGate,
 }: {
   review: RenderReview;
   detailMode: boolean;
   comparisonMode: boolean;
   originalName?: string;
   originalReview?: RenderReview;
+  currentName: string;
+  isFavorite: boolean;
+  redoStatus?: RedoProcessingStatus | null;
+  latestRedoReview?: RenderReview;
+  currentRenderId: string;
+  renderGateState: RenderGateState;
+  renderGateErrors: string[];
+  renderGatePassedAt?: string;
+  renderGateDiagnostics?: RenderGateDiagnostics;
   catalogOutcomePending: CatalogOutcome | null;
   catalogOutcomeError: string;
   onSetRating: (rating: number) => void;
@@ -58,6 +90,10 @@ export function ReviewPanel({
   onSaveDrafts: () => void;
   noteRef: RefObject<HTMLTextAreaElement | null>;
   onFinishDetail: () => void;
+  onOpenRedoCandidate?: (candidate: AttemptItem) => void;
+  onToggleFavorite: () => void;
+  onCompleteRenderGate: (attestations: RenderGateAttestations) => Promise<void>;
+  onRetryRenderGate: () => Promise<void>;
 }) {
   return (
     <aside className="review-panel">
@@ -69,16 +105,43 @@ export function ReviewPanel({
           />
         ) : null}
 
+        {!comparisonMode && redoStatus ? (
+          <RedoProcessingSummary
+            status={redoStatus}
+            latestReview={latestRedoReview}
+            onOpenCandidate={onOpenRedoCandidate}
+          />
+        ) : null}
+
+        <FavoriteControl
+          name={currentName}
+          isFavorite={isFavorite}
+          onToggle={onToggleFavorite}
+        />
+
         <RatingControl
           overallRating={review.overallRating}
           onSetRating={onSetRating}
         />
 
         {comparisonMode ? (
+          <RenderGateControl
+            key={currentRenderId}
+            state={renderGateState}
+            errors={renderGateErrors}
+            passedAt={renderGatePassedAt}
+            diagnostics={renderGateDiagnostics}
+            onComplete={onCompleteRenderGate}
+            onRetry={onRetryRenderGate}
+          />
+        ) : null}
+
+        {comparisonMode ? (
           <CatalogOutcomeControl
             decision={review.decision}
             pending={catalogOutcomePending}
             error={catalogOutcomeError}
+            renderGateState={renderGateState}
             onChooseOutcome={onChooseCatalogOutcome}
           />
         ) : (
@@ -88,22 +151,35 @@ export function ReviewPanel({
           />
         )}
 
-        <SuggestedTagsControl tags={review.tags} onCycleTag={onCycleTag} />
+        <details className="review-more-details" open={detailMode || undefined}>
+          <summary>
+            <span>Details &amp; notes</span>
+            <small>
+              {review.defects.length
+                ? `${review.defects.length} defect${review.defects.length === 1 ? "" : "s"}`
+                : feedbackDraft.trim()
+                  ? "Notes saved"
+                  : "Optional"}
+            </small>
+          </summary>
 
-        {detailMode || review.defects.length ? (
-          <DefectControl
-            defects={review.defects}
-            onToggleDefect={onToggleDefect}
-            onCycleSeverity={onCycleDefectSeverity}
+          <SuggestedTagsControl tags={review.tags} onCycleTag={onCycleTag} />
+
+          {detailMode || review.defects.length ? (
+            <DefectControl
+              defects={review.defects}
+              onToggleDefect={onToggleDefect}
+              onCycleSeverity={onCycleDefectSeverity}
+            />
+          ) : null}
+
+          <FeedbackEditor
+            feedbackDraft={feedbackDraft}
+            onFeedbackDraftChange={onFeedbackDraftChange}
+            onBlurSave={onSaveDrafts}
+            noteRef={noteRef}
           />
-        ) : null}
-
-        <FeedbackEditor
-          feedbackDraft={feedbackDraft}
-          onFeedbackDraftChange={onFeedbackDraftChange}
-          onBlurSave={onSaveDrafts}
-          noteRef={noteRef}
-        />
+        </details>
 
         {detailMode ? <FinishReviewButton onFinish={onFinishDetail} /> : null}
       </AutoHideScrollArea>

@@ -1,9 +1,11 @@
 "use client";
 
 import type { GalleryItem, RenderReview } from "../../review-types";
+import { ActionButton } from "../../_components/ui/action-button";
 import { combinedFeedback } from "../review/review-model";
 import { CATEGORY_LABELS, DECISION_LABELS } from "./archive-config";
 import { PreviewImage } from "./grid/preview-image";
+import { formatSavedTimestamp } from "./saved-time";
 
 export function RenderInspector({
   item,
@@ -12,7 +14,8 @@ export function RenderInspector({
   onPrevious,
   onNext,
   onToggleFavorite,
-  onEdit,
+  onOpen,
+  onReview,
   onClose,
   compact = false,
 }: {
@@ -22,7 +25,8 @@ export function RenderInspector({
   onPrevious: () => void;
   onNext: () => void;
   onToggleFavorite?: () => void;
-  onEdit?: () => void;
+  onOpen?: () => void;
+  onReview?: () => void;
   onClose?: () => void;
   compact?: boolean;
 }) {
@@ -112,6 +116,26 @@ export function RenderInspector({
           </dd>
         </div>
         <div>
+          <dt>Generated</dt>
+          <dd>
+            <time dateTime={item.generatedAt}>
+              {formatSavedTimestamp(item.generatedAt)}
+            </time>
+          </dd>
+        </div>
+        <div>
+          <dt>Reviewed</dt>
+          <dd>
+            {review?.reviewedAt ? (
+              <time dateTime={review.reviewedAt}>
+                {formatSavedTimestamp(review.reviewedAt)}
+              </time>
+            ) : (
+              "Not reviewed"
+            )}
+          </dd>
+        </div>
+        <div>
           <dt>Decision</dt>
           <dd>
             {review?.decision ? DECISION_LABELS[review.decision] : "Unreviewed"}
@@ -132,11 +156,18 @@ export function RenderInspector({
         </div>
       ) : null}
 
-      {onEdit ? (
-        <div className="inspector-review-action">
-          <button type="button" onClick={onEdit}>
-            {review?.decision ? "EDIT REVIEW" : "REVIEW THIS RENDER"}
-          </button>
+      {onOpen || onReview ? (
+        <div className="inspector-primary-actions">
+          {onOpen ? (
+            <ActionButton variant="secondary" onClick={onOpen}>
+              OPEN
+            </ActionButton>
+          ) : null}
+          {onReview ? (
+            <ActionButton variant="primary" onClick={onReview}>
+              {review?.decision ? "EDIT REVIEW" : "REVIEW"}
+            </ActionButton>
+          ) : null}
         </div>
       ) : null}
 

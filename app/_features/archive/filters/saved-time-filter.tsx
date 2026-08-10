@@ -5,6 +5,8 @@ import { SAVED_TIME_PRESETS } from "../saved-time";
 const QUICK_PRESETS = ["1h", "today", "yesterday", "7d"] as const;
 
 export function SavedTimeFilter({
+  label = "Generated",
+  help,
   value,
   customFrom,
   customTo,
@@ -13,6 +15,8 @@ export function SavedTimeFilter({
   onCustomFromChange,
   onCustomToChange,
 }: {
+  label?: string;
+  help?: string;
   value: string;
   customFrom: string;
   customTo: string;
@@ -27,9 +31,9 @@ export function SavedTimeFilter({
         compact ? "saved-time-filter is-compact" : "saved-time-filter"
       }
     >
-      <legend>{compact ? "Saved" : "Saved time"}</legend>
+      <legend>{label}</legend>
       <label className="saved-time-select">
-        <span className="sr-only">Saved time range</span>
+        <span className="sr-only">{label} time range</span>
         <select value={value} onChange={(event) => onChange(event.target.value)}>
           {SAVED_TIME_PRESETS.map((preset) => (
             <option key={preset.value} value={preset.value}>
@@ -85,8 +89,8 @@ export function SavedTimeFilter({
 
       {!compact ? (
         <small className="saved-time-help">
-          Existing timestamps show when each output file was saved. Calendar
-          ranges use your device timezone.
+          {help ??
+            `${label} ranges use the timestamp shown for each render. Calendar ranges use GMT+8.`}
         </small>
       ) : null}
     </fieldset>

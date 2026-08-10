@@ -21,6 +21,7 @@ export const DECISION_QUEUES: Record<string, ReviewQueue> = {
   unreviewed: "unreviewed",
   keep: "kept",
   reject: "rejected",
+  "redo-pending": "rejected",
   delete: "deletion",
 };
 
@@ -39,6 +40,7 @@ export const DECISION_FILTER_OPTIONS = [
   { value: "unreviewed", label: "Candidates to review" },
   { value: "keep", label: "Kept" },
   { value: "reject", label: "Redo originals" },
+  { value: "redo-pending", label: "Awaiting generation" },
   { value: "delete", label: "Marked for delete" },
 ];
 

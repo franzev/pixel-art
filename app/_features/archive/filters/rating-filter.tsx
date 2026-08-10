@@ -21,6 +21,12 @@ export function RatingFilter({
 }) {
   const filter = parseRatingFilter(value);
   const mode: RatingFilterMode = filter.mode;
+  const selectedExactValues =
+    filter.mode === "exact" ? filter.values : [];
+  const selectedThreshold =
+    filter.mode === "greater" || filter.mode === "less"
+      ? filter.threshold
+      : 3;
 
   const setMode = (nextMode: RatingFilterMode) => {
     if (nextMode === "all") {
@@ -82,7 +88,7 @@ export function RatingFilter({
               key={rating}
               className={[
                 "filter-choice",
-                filter.values.includes(rating) ? "active" : "",
+                selectedExactValues.includes(rating) ? "active" : "",
                 (counts.get(rating) ?? 0) === 0 ? "is-empty" : "",
               ]
                 .filter(Boolean)
@@ -91,7 +97,7 @@ export function RatingFilter({
               <input
                 className="sr-only"
                 type="checkbox"
-                checked={filter.values.includes(rating)}
+                checked={selectedExactValues.includes(rating)}
                 onChange={() => toggleExactValue(rating)}
               />
               <span>{rating === "unrated" ? "Unrated" : `${rating}★`}</span>
@@ -105,7 +111,7 @@ export function RatingFilter({
         <div className="filter-list" aria-label="Rating threshold">
           {numericValues.map((rating) => {
             const threshold = Number(rating);
-            const selected = filter.threshold === threshold;
+            const selected = selectedThreshold === threshold;
             return (
               <label
                 key={rating}

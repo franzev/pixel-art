@@ -25,7 +25,8 @@ export function ReviewProgressSummary({
             <strong>Redo originals</strong>
             <small>
               {progress.queue.redoSourcesRegenerated} regenerated ·{" "}
-              {progress.queue.redoAwaitingGeneration} awaiting generation
+              {progress.queue.redoSourcesAwaitingGenerationAvailable}{" "}
+              awaiting generation
             </small>
             <small>
               {progress.saved.redo} Redo decisions saved ·{" "}
